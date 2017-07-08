@@ -27,7 +27,7 @@
   var_WOMT_sCheckSumImport = '';
   var_WOMT_sCheckSumExport = '';
   var WAHLOMATEN_ID=1;
-  
+
   var WOMT_sGenerationTime = '';
   //var WOMT_aThesenParteienText=new Array();
 
@@ -426,7 +426,7 @@ WOMT_aThesenThema[18]='0';
 WOMT_aThesenParteien[18]=new Array();
 WOMT_aThesen[19]=new Array();
 WOMT_aThesen[19][0]=new Array();
-WOMT_aThesen[19][0][0]='Werbung in Öffentlich-[LZ]Rechtlichen';
+WOMT_aThesen[19][0][0]='Werbung in Öffentlich-Rechtlichen';
 WOMT_aThesen[19][0][1]='Die öffentlich-rechtlichen Medien sollen sich weiterhin auch über Werbung finanzieren dürfen.';
 WOMT_aThesenThema[19]='0';
 WOMT_aThesenParteien[19]=new Array();

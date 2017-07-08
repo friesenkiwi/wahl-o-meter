@@ -27,7 +27,7 @@
   var_WOMT_sCheckSumImport = '';
   var_WOMT_sCheckSumExport = '';
   var WAHLOMATEN_ID=1;
-  
+
   var WOMT_sGenerationTime = '';
   //var WOMT_aThesenParteienText=new Array();
 
@@ -440,7 +440,7 @@ WOMT_aThesenThema[19]='0';
 WOMT_aThesenParteien[19]=new Array();
 WOMT_aThesen[20]=new Array();
 WOMT_aThesen[20][0]=new Array();
-WOMT_aThesen[20][0][0]='Rechtsanspruch auf Master-[LZ]Studienplatz';
+WOMT_aThesen[20][0][0]='Rechtsanspruch auf Master-Studienplatz';
 WOMT_aThesen[20][0][1]='Alle Bremer Bachelor-Absolventen sollen einen Rechtsanspruch auf einen Master-Studienplatz in Bremen haben.';
 WOMT_aThesenThema[20]='0';
 WOMT_aThesenParteien[20]=new Array();
