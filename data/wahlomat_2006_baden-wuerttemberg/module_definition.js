@@ -32,7 +32,7 @@ WAHLOMATEN_ID='10';
   --------------------------------------------------------------
   Vordefinieren der in den Templates gefunden assoziativen Keys
   mit denenen auf WOMT_aTexte und WOMT_aBilder zugriffen wird
-  nicht vorhanden Indexe führen in Javascript sonst zu Fehlern!
+  nicht vorhanden Indexe fÃ¼hren in Javascript sonst zu Fehlern!
 
   Wenn mit Variablen auf die assoziativen Arrays zugegriffen wird
   kann dies nicht automatisch analsysit werden,
@@ -910,74 +910,74 @@ WOMT_aThemen_N2ID[4]='82';
 WOMT_aThemen_ID2N[82]='4';
 WOMT_aThesen[0]=new Array();
 WOMT_aThesen[0][0]=new Array();
-WOMT_aThesen[0][0][0]='Die Flughäfen in Baden-Württemberg sollen ausgebaut werden.';
-WOMT_aThesen[0][0][1]='Die Flughäfen in Baden-Württemberg sollen ausgebaut werden.';
+WOMT_aThesen[0][0][0]='Die FlughÃ¤fen in Baden-WÃ¼rttemberg sollen ausgebaut werden.';
+WOMT_aThesen[0][0][1]='Die FlughÃ¤fen in Baden-WÃ¼rttemberg sollen ausgebaut werden.';
 WOMT_aThesenThema[0]='0';
 WOMT_aThesenParteien[0]=new Array();
 WOMT_aThesen[1]=new Array();
 WOMT_aThesen[1][0]=new Array();
-WOMT_aThesen[1][0][0]='Die Laufzeiten der Kernkraftwerke sollen verlängert werden.';
-WOMT_aThesen[1][0][1]='Die Laufzeiten der Kernkraftwerke sollen verlängert werden.';
+WOMT_aThesen[1][0][0]='Die Laufzeiten der Kernkraftwerke sollen verlÃ¤ngert werden.';
+WOMT_aThesen[1][0][1]='Die Laufzeiten der Kernkraftwerke sollen verlÃ¤ngert werden.';
 WOMT_aThesenThema[1]='0';
 WOMT_aThesenParteien[1]=new Array();
 WOMT_aThesen[2]=new Array();
 WOMT_aThesen[2][0]=new Array();
-WOMT_aThesen[2][0][0]='Gentechnikfreie Lebensmittel sollen in Baden-Württemberg ein Qualitätssiegel bekommen.';
-WOMT_aThesen[2][0][1]='Gentechnikfreie Lebensmittel sollen in Baden-Württemberg ein Qualitätssiegel bekommen.';
+WOMT_aThesen[2][0][0]='Gentechnikfreie Lebensmittel sollen in Baden-WÃ¼rttemberg ein QualitÃ¤tssiegel bekommen.';
+WOMT_aThesen[2][0][1]='Gentechnikfreie Lebensmittel sollen in Baden-WÃ¼rttemberg ein QualitÃ¤tssiegel bekommen.';
 WOMT_aThesenThema[2]='1';
 WOMT_aThesenParteien[2]=new Array();
 WOMT_aThesen[3]=new Array();
 WOMT_aThesen[3][0]=new Array();
-WOMT_aThesen[3][0][0]='Mehr Landesmittel für die AIDS-Aufklärung!';
-WOMT_aThesen[3][0][1]='Mehr Landesmittel für die AIDS-Aufklärung!';
+WOMT_aThesen[3][0][0]='Mehr Landesmittel fÃ¼r die AIDS-AufklÃ¤rung!';
+WOMT_aThesen[3][0][1]='Mehr Landesmittel fÃ¼r die AIDS-AufklÃ¤rung!';
 WOMT_aThesenThema[3]='2';
 WOMT_aThesenParteien[3]=new Array();
 WOMT_aThesen[4]=new Array();
 WOMT_aThesen[4][0]=new Array();
-WOMT_aThesen[4][0][0]='Graffiti-Sprayen soll als Straftat eingestuft werden, nicht bloß als Ordnungswidrigkeit. ';
-WOMT_aThesen[4][0][1]='Graffiti-Sprayen soll als Straftat eingestuft werden, nicht bloß als Ordnungswidrigkeit. ';
+WOMT_aThesen[4][0][0]='Graffiti-Sprayen soll als Straftat eingestuft werden, nicht bloÃŸ als Ordnungswidrigkeit. ';
+WOMT_aThesen[4][0][1]='Graffiti-Sprayen soll als Straftat eingestuft werden, nicht bloÃŸ als Ordnungswidrigkeit. ';
 WOMT_aThesenThema[4]='3';
 WOMT_aThesenParteien[4]=new Array();
 WOMT_aThesen[5]=new Array();
 WOMT_aThesen[5][0]=new Array();
-WOMT_aThesen[5][0][0]='Das Erststudium soll gebührenfrei bleiben!';
-WOMT_aThesen[5][0][1]='Das Erststudium soll gebührenfrei bleiben!';
+WOMT_aThesen[5][0][0]='Das Erststudium soll gebÃ¼hrenfrei bleiben!';
+WOMT_aThesen[5][0][1]='Das Erststudium soll gebÃ¼hrenfrei bleiben!';
 WOMT_aThesenThema[5]='4';
 WOMT_aThesenParteien[5]=new Array();
 WOMT_aThesen[6]=new Array();
 WOMT_aThesen[6][0]=new Array();
-WOMT_aThesen[6][0][0]='Die Universitäten sollen sich alle ihre Studierenden selbst aussuchen dürfen.';
-WOMT_aThesen[6][0][1]='Die Universitäten sollen sich alle ihre Studierenden selbst aussuchen dürfen.';
+WOMT_aThesen[6][0][0]='Die UniversitÃ¤ten sollen sich alle ihre Studierenden selbst aussuchen dÃ¼rfen.';
+WOMT_aThesen[6][0][1]='Die UniversitÃ¤ten sollen sich alle ihre Studierenden selbst aussuchen dÃ¼rfen.';
 WOMT_aThesenThema[6]='4';
 WOMT_aThesenParteien[6]=new Array();
 WOMT_aThesen[7]=new Array();
 WOMT_aThesen[7][0]=new Array();
-WOMT_aThesen[7][0][0]='Wiedereinführung des neunjährigen Gymnasiums!';
-WOMT_aThesen[7][0][1]='Wiedereinführung des neunjährigen Gymnasiums!';
+WOMT_aThesen[7][0][0]='WiedereinfÃ¼hrung des neunjÃ¤hrigen Gymnasiums!';
+WOMT_aThesen[7][0][1]='WiedereinfÃ¼hrung des neunjÃ¤hrigen Gymnasiums!';
 WOMT_aThesenThema[7]='4';
 WOMT_aThesenParteien[7]=new Array();
 WOMT_aThesen[8]=new Array();
 WOMT_aThesen[8][0]=new Array();
-WOMT_aThesen[8][0][0]='Neue Lehrkräfte sollen nicht mehr verbeamtet werden.';
-WOMT_aThesen[8][0][1]='Neue Lehrkräfte sollen nicht mehr verbeamtet werden.';
+WOMT_aThesen[8][0][0]='Neue LehrkrÃ¤fte sollen nicht mehr verbeamtet werden.';
+WOMT_aThesen[8][0][1]='Neue LehrkrÃ¤fte sollen nicht mehr verbeamtet werden.';
 WOMT_aThesenThema[8]='4';
 WOMT_aThesenParteien[8]=new Array();
 WOMT_aThesen[9]=new Array();
 WOMT_aThesen[9][0]=new Array();
-WOMT_aThesen[9][0][0]='Verbindliche Sprachtests für alle Kinder vor der Einschulung!';
-WOMT_aThesen[9][0][1]='Verbindliche Sprachtests für alle Kinder vor der Einschulung!';
+WOMT_aThesen[9][0][0]='Verbindliche Sprachtests fÃ¼r alle Kinder vor der Einschulung!';
+WOMT_aThesen[9][0][1]='Verbindliche Sprachtests fÃ¼r alle Kinder vor der Einschulung!';
 WOMT_aThesenThema[9]='2';
 WOMT_aThesenParteien[9]=new Array();
 WOMT_aThesen[10]=new Array();
 WOMT_aThesen[10][0]=new Array();
-WOMT_aThesen[10][0][0]='Landeszuschüsse zum Kindergeld für Alleinerziehende!';
-WOMT_aThesen[10][0][1]='Landeszuschüsse zum Kindergeld für Alleinerziehende!';
+WOMT_aThesen[10][0][0]='LandeszuschÃ¼sse zum Kindergeld fÃ¼r Alleinerziehende!';
+WOMT_aThesen[10][0][1]='LandeszuschÃ¼sse zum Kindergeld fÃ¼r Alleinerziehende!';
 WOMT_aThesenThema[10]='2';
 WOMT_aThesenParteien[10]=new Array();
 WOMT_aThesen[11]=new Array();
 WOMT_aThesen[11][0]=new Array();
-WOMT_aThesen[11][0][0]='Bei Neueinstellungen soll der Kündigungsschutz gelockert werden.';
-WOMT_aThesen[11][0][1]='Bei Neueinstellungen soll der Kündigungsschutz gelockert werden.';
+WOMT_aThesen[11][0][0]='Bei Neueinstellungen soll der KÃ¼ndigungsschutz gelockert werden.';
+WOMT_aThesen[11][0][1]='Bei Neueinstellungen soll der KÃ¼ndigungsschutz gelockert werden.';
 WOMT_aThesenThema[11]='1';
 WOMT_aThesenParteien[11]=new Array();
 WOMT_aThesen[12]=new Array();
@@ -988,26 +988,26 @@ WOMT_aThesenThema[12]='3';
 WOMT_aThesenParteien[12]=new Array();
 WOMT_aThesen[13]=new Array();
 WOMT_aThesen[13][0]=new Array();
-WOMT_aThesen[13][0][0]='Das Land soll sich für die Einführung einer Vermögenssteuer einsetzen.';
-WOMT_aThesen[13][0][1]='Das Land soll sich für die Einführung einer Vermögenssteuer einsetzen.';
+WOMT_aThesen[13][0][0]='Das Land soll sich fÃ¼r die EinfÃ¼hrung einer VermÃ¶genssteuer einsetzen.';
+WOMT_aThesen[13][0][1]='Das Land soll sich fÃ¼r die EinfÃ¼hrung einer VermÃ¶genssteuer einsetzen.';
 WOMT_aThesenThema[13]='1';
 WOMT_aThesenParteien[13]=new Array();
 WOMT_aThesen[14]=new Array();
 WOMT_aThesen[14][0]=new Array();
-WOMT_aThesen[14][0][0]='Bei allen Straftaten sollen die DNA-Daten der Täter/innen erfasst und gespeichert werden.';
-WOMT_aThesen[14][0][1]='Bei allen Straftaten sollen die DNA-Daten der Täter/innen erfasst und gespeichert werden.';
+WOMT_aThesen[14][0][0]='Bei allen Straftaten sollen die DNA-Daten der TÃ¤ter/innen erfasst und gespeichert werden.';
+WOMT_aThesen[14][0][1]='Bei allen Straftaten sollen die DNA-Daten der TÃ¤ter/innen erfasst und gespeichert werden.';
 WOMT_aThesenThema[14]='3';
 WOMT_aThesenParteien[14]=new Array();
 WOMT_aThesen[15]=new Array();
 WOMT_aThesen[15][0]=new Array();
-WOMT_aThesen[15][0][0]='Die Verlagerung des Güterverkehrs auf die Schiene soll vom Land stärker finanziell gefördert werden. ';
-WOMT_aThesen[15][0][1]='Die Verlagerung des Güterverkehrs auf die Schiene soll vom Land stärker finanziell gefördert werden. ';
+WOMT_aThesen[15][0][0]='Die Verlagerung des GÃ¼terverkehrs auf die Schiene soll vom Land stÃ¤rker finanziell gefÃ¶rdert werden. ';
+WOMT_aThesen[15][0][1]='Die Verlagerung des GÃ¼terverkehrs auf die Schiene soll vom Land stÃ¤rker finanziell gefÃ¶rdert werden. ';
 WOMT_aThesenThema[15]='0';
 WOMT_aThesenParteien[15]=new Array();
 WOMT_aThesen[16]=new Array();
 WOMT_aThesen[16][0]=new Array();
-WOMT_aThesen[16][0][0]='Das Land soll Fahrkarten für Auszubildende, Schüler/innen und Studierende stärker finanziell fördern.';
-WOMT_aThesen[16][0][1]='Das Land soll Fahrkarten für Auszubildende, Schüler/innen und Studierende stärker finanziell fördern.';
+WOMT_aThesen[16][0][0]='Das Land soll Fahrkarten fÃ¼r Auszubildende, SchÃ¼ler/innen und Studierende stÃ¤rker finanziell fÃ¶rdern.';
+WOMT_aThesen[16][0][1]='Das Land soll Fahrkarten fÃ¼r Auszubildende, SchÃ¼ler/innen und Studierende stÃ¤rker finanziell fÃ¶rdern.';
 WOMT_aThesenThema[16]='0';
 WOMT_aThesenParteien[16]=new Array();
 WOMT_aThesen[17]=new Array();
@@ -1024,14 +1024,14 @@ WOMT_aThesenThema[18]='4';
 WOMT_aThesenParteien[18]=new Array();
 WOMT_aThesen[19]=new Array();
 WOMT_aThesen[19][0]=new Array();
-WOMT_aThesen[19][0][0]='Keine Videoüberwachung auf öffentlichen Plätzen!';
-WOMT_aThesen[19][0][1]='Keine Videoüberwachung auf öffentlichen Plätzen!';
+WOMT_aThesen[19][0][0]='Keine VideoÃ¼berwachung auf Ã¶ffentlichen PlÃ¤tzen!';
+WOMT_aThesen[19][0][1]='Keine VideoÃ¼berwachung auf Ã¶ffentlichen PlÃ¤tzen!';
 WOMT_aThesenThema[19]='3';
 WOMT_aThesenParteien[19]=new Array();
 WOMT_aThesen[20]=new Array();
 WOMT_aThesen[20][0]=new Array();
-WOMT_aThesen[20][0][0]='Bei Landtagswahlen: Wählen ab 16 Jahren!';
-WOMT_aThesen[20][0][1]='Bei Landtagswahlen: Wählen ab 16 Jahren!';
+WOMT_aThesen[20][0][0]='Bei Landtagswahlen: WÃ¤hlen ab 16 Jahren!';
+WOMT_aThesen[20][0][1]='Bei Landtagswahlen: WÃ¤hlen ab 16 Jahren!';
 WOMT_aThesenThema[20]='3';
 WOMT_aThesenParteien[20]=new Array();
 WOMT_aThesen[21]=new Array();
@@ -1042,44 +1042,44 @@ WOMT_aThesenThema[21]='2';
 WOMT_aThesenParteien[21]=new Array();
 WOMT_aThesen[22]=new Array();
 WOMT_aThesen[22][0]=new Array();
-WOMT_aThesen[22][0][0]='Das Land soll die kontrollierte Abgabe des Ersatzstoffes Methadon an Heroinabhängige ausbauen.';
-WOMT_aThesen[22][0][1]='Das Land soll die kontrollierte Abgabe des Ersatzstoffes Methadon an Heroinabhängige ausbauen.';
+WOMT_aThesen[22][0][0]='Das Land soll die kontrollierte Abgabe des Ersatzstoffes Methadon an HeroinabhÃ¤ngige ausbauen.';
+WOMT_aThesen[22][0][1]='Das Land soll die kontrollierte Abgabe des Ersatzstoffes Methadon an HeroinabhÃ¤ngige ausbauen.';
 WOMT_aThesenThema[22]='2';
 WOMT_aThesenParteien[22]=new Array();
 WOMT_aThesen[23]=new Array();
 WOMT_aThesen[23][0]=new Array();
-WOMT_aThesen[23][0][0]='Legebatterien in der Hühnerhaltung verbieten!';
-WOMT_aThesen[23][0][1]='Legebatterien in der Hühnerhaltung verbieten!';
+WOMT_aThesen[23][0][0]='Legebatterien in der HÃ¼hnerhaltung verbieten!';
+WOMT_aThesen[23][0][1]='Legebatterien in der HÃ¼hnerhaltung verbieten!';
 WOMT_aThesenThema[23]='1';
 WOMT_aThesenParteien[23]=new Array();
 WOMT_aThesen[24]=new Array();
 WOMT_aThesen[24][0]=new Array();
-WOMT_aThesen[24][0][0]='Die Lkw-Maut soll auf Ausweichstrecken in Baden-Württemberg ausgedehnt werden.';
-WOMT_aThesen[24][0][1]='Die Lkw-Maut soll auf Ausweichstrecken in Baden-Württemberg ausgedehnt werden.';
+WOMT_aThesen[24][0][0]='Die Lkw-Maut soll auf Ausweichstrecken in Baden-WÃ¼rttemberg ausgedehnt werden.';
+WOMT_aThesen[24][0][1]='Die Lkw-Maut soll auf Ausweichstrecken in Baden-WÃ¼rttemberg ausgedehnt werden.';
 WOMT_aThesenThema[24]='0';
 WOMT_aThesenParteien[24]=new Array();
 WOMT_aThesen[25]=new Array();
 WOMT_aThesen[25][0]=new Array();
-WOMT_aThesen[25][0][0]='Die Schulpflicht soll auch für Kinder von Asylbewerbern und -bewerberinnen sowie Flüchtlingen gelten.';
-WOMT_aThesen[25][0][1]='Die Schulpflicht soll auch für Kinder von Asylbewerbern und -bewerberinnen sowie Flüchtlingen gelten.';
+WOMT_aThesen[25][0][0]='Die Schulpflicht soll auch fÃ¼r Kinder von Asylbewerbern und -bewerberinnen sowie FlÃ¼chtlingen gelten.';
+WOMT_aThesen[25][0][1]='Die Schulpflicht soll auch fÃ¼r Kinder von Asylbewerbern und -bewerberinnen sowie FlÃ¼chtlingen gelten.';
 WOMT_aThesenThema[25]='4';
 WOMT_aThesenParteien[25]=new Array();
 WOMT_aThesen[26]=new Array();
 WOMT_aThesen[26][0]=new Array();
-WOMT_aThesen[26][0][0]='Die betriebliche Mitbestimmung soll eingeschränkt werden.';
-WOMT_aThesen[26][0][1]='Die betriebliche Mitbestimmung soll eingeschränkt werden.';
+WOMT_aThesen[26][0][0]='Die betriebliche Mitbestimmung soll eingeschrÃ¤nkt werden.';
+WOMT_aThesen[26][0][1]='Die betriebliche Mitbestimmung soll eingeschrÃ¤nkt werden.';
 WOMT_aThesenThema[26]='1';
 WOMT_aThesenParteien[26]=new Array();
 WOMT_aThesen[27]=new Array();
 WOMT_aThesen[27][0]=new Array();
-WOMT_aThesen[27][0][0]='Bei Landtagswahlen sollen auch Nicht-EU-Bürger/innen wählen dürfen. ';
-WOMT_aThesen[27][0][1]='Bei Landtagswahlen sollen auch Nicht-EU-Bürger/innen wählen dürfen. ';
+WOMT_aThesen[27][0][0]='Bei Landtagswahlen sollen auch Nicht-EU-BÃ¼rger/innen wÃ¤hlen dÃ¼rfen. ';
+WOMT_aThesen[27][0][1]='Bei Landtagswahlen sollen auch Nicht-EU-BÃ¼rger/innen wÃ¤hlen dÃ¼rfen. ';
 WOMT_aThesenThema[27]='3';
 WOMT_aThesenParteien[27]=new Array();
 WOMT_aThesen[28]=new Array();
 WOMT_aThesen[28][0]=new Array();
-WOMT_aThesen[28][0][0]='Im Umkreis von Schulen sollen keine Zigarettenautomaten aufgestellt werden dürfen. ';
-WOMT_aThesen[28][0][1]='Im Umkreis von Schulen sollen keine Zigarettenautomaten aufgestellt werden dürfen. ';
+WOMT_aThesen[28][0][0]='Im Umkreis von Schulen sollen keine Zigarettenautomaten aufgestellt werden dÃ¼rfen. ';
+WOMT_aThesen[28][0][1]='Im Umkreis von Schulen sollen keine Zigarettenautomaten aufgestellt werden dÃ¼rfen. ';
 WOMT_aThesenThema[28]='2';
 WOMT_aThesenParteien[28]=new Array();
 WOMT_aThesen[29]=new Array();
@@ -1269,49 +1269,49 @@ WOMT_aThesenParteienText[29][2]=new Array();
 WOMT_aThesenParteienText[29][3]=new Array();
 WOMT_aThesenParteienText[29][4]=new Array();
 WOMT_aThesenParteien[0][1]='-1';
-WOMT_aThesenParteienText[0][1][0]='Derzeit besteht hierfür kein Bedarf';
+WOMT_aThesenParteienText[0][1][0]='Derzeit besteht hierfÃ¼r kein Bedarf';
 WOMT_aThesenParteien[0][0]='-1';
-WOMT_aThesenParteienText[0][0][0]='Statt des Ausbaus von Flughäfen fordern wir den Ausbau des Bahnverkehrs und des Radwegenetzes. Das Land fördert Flughäfen auf unsinnig teure Weise: Jeder Fluggast, der einen Billigflieger in Söllingen besteigt, erhält 10 Euro Zuschuss. Wer fliegen soll, soll auch die anteiligen Kosten für den Flughafenbetrieb tragen.';
+WOMT_aThesenParteienText[0][0][0]='Statt des Ausbaus von FlughÃ¤fen fordern wir den Ausbau des Bahnverkehrs und des Radwegenetzes. Das Land fÃ¶rdert FlughÃ¤fen auf unsinnig teure Weise: Jeder Fluggast, der einen Billigflieger in SÃ¶llingen besteigt, erhÃ¤lt 10 Euro Zuschuss. Wer fliegen soll, soll auch die anteiligen Kosten fÃ¼r den Flughafenbetrieb tragen.';
 WOMT_aThesenParteien[0][2]='1';
-WOMT_aThesenParteienText[0][2][0]='Wir wollen eine durchgängige Konzeption für die Zukunft des Luftverkehrs in Baden-Württemberg. Diese muss neben dem Flughafen Stuttgart auch den Entwicklungschancen der Regionalflughäfen und Verkehrslandeplätzen Rechnung tragen. Ein öffentlich subventionierter Verdrängungswettbewerb muss dabei verhindert werden.';
+WOMT_aThesenParteienText[0][2][0]='Wir wollen eine durchgÃ¤ngige Konzeption fÃ¼r die Zukunft des Luftverkehrs in Baden-WÃ¼rttemberg. Diese muss neben dem Flughafen Stuttgart auch den Entwicklungschancen der RegionalflughÃ¤fen und VerkehrslandeplÃ¤tzen Rechnung tragen. Ein Ã¶ffentlich subventionierter VerdrÃ¤ngungswettbewerb muss dabei verhindert werden.';
 WOMT_aThesenParteien[0][4]='-1';
-WOMT_aThesenParteienText[0][4][0]='Flughäfen verursachen massive Luft- und Lärmbelastungen und zusätzlichen Flächenverbrauch. Die WASG lehnt eine weitere Kapazitätsaufstockung ab. Gerade Inlandsflüge müssen durch die Bahn ersetzt werden.';
+WOMT_aThesenParteienText[0][4][0]='FlughÃ¤fen verursachen massive Luft- und LÃ¤rmbelastungen und zusÃ¤tzlichen FlÃ¤chenverbrauch. Die WASG lehnt eine weitere KapazitÃ¤tsaufstockung ab. Gerade InlandsflÃ¼ge mÃ¼ssen durch die Bahn ersetzt werden.';
 WOMT_aThesenParteien[0][3]='0';
-WOMT_aThesenParteienText[0][3][0]='Eine Verkehrskonzeption für das Land muss Schwerpunkte setzen.';
+WOMT_aThesenParteienText[0][3][0]='Eine Verkehrskonzeption fÃ¼r das Land muss Schwerpunkte setzen.';
 WOMT_aThesenParteien[1][1]='1';
-WOMT_aThesenParteienText[1][1][0]='Durch eine Verlängerung der Laufzeiten der Kernkraftwerke können zeitliche und finanzielle Spielräume gewonnen werden, um verstärkt regenerative Energien zur Marktreife zu führen und zum anderen Energiepreise zu senken.';
+WOMT_aThesenParteienText[1][1][0]='Durch eine VerlÃ¤ngerung der Laufzeiten der Kernkraftwerke kÃ¶nnen zeitliche und finanzielle SpielrÃ¤ume gewonnen werden, um verstÃ¤rkt regenerative Energien zur Marktreife zu fÃ¼hren und zum anderen Energiepreise zu senken.';
 WOMT_aThesenParteien[1][0]='-1';
-WOMT_aThesenParteienText[1][0][0]='Mit der Stilllegung des AKW Obrigheim wurde der Ausstieg aus der Risikotechnologie Atomkraft im Land eingeleitet. Unser Ziel ist es, bis 2020 den Anteil erneuerbarer Energien bei Strom, bei der Wärme, den Treibstoffen und bei Industrie-Rohstoffen um 25 % zu steigern.';
+WOMT_aThesenParteienText[1][0][0]='Mit der Stilllegung des AKW Obrigheim wurde der Ausstieg aus der Risikotechnologie Atomkraft im Land eingeleitet. Unser Ziel ist es, bis 2020 den Anteil erneuerbarer Energien bei Strom, bei der WÃ¤rme, den Treibstoffen und bei Industrie-Rohstoffen um 25 % zu steigern.';
 WOMT_aThesenParteien[1][2]='1';
-WOMT_aThesenParteienText[1][2][0]='Wir wollen auf der Bundesebene erreichen, dass bei Wahrung strengster Sicherheitsanforderungen die Laufzeit der Kernkraftwerke verlängert werden kann, um auf diese Weise zu vermeiden, dass der Prozess des Atomausstiegs durch vermehrte Nutzung fossiler Energieträger die nationalen Klimaschutzziele konterkariert.';
+WOMT_aThesenParteienText[1][2][0]='Wir wollen auf der Bundesebene erreichen, dass bei Wahrung strengster Sicherheitsanforderungen die Laufzeit der Kernkraftwerke verlÃ¤ngert werden kann, um auf diese Weise zu vermeiden, dass der Prozess des Atomausstiegs durch vermehrte Nutzung fossiler EnergietrÃ¤ger die nationalen Klimaschutzziele konterkariert.';
 WOMT_aThesenParteien[1][4]='-1';
-WOMT_aThesenParteienText[1][4][0]='Die WASG lehnt den Einsatz der Risikotechnologie Atomenergie strikt ab. Wir können kommenden Generationen nicht noch mehr zehntausende von Jahren strahlenden Müll hinterlassen. Statt dessen setzen wir auf erneuerbare Energien und Energieeinsparungen.';
+WOMT_aThesenParteienText[1][4][0]='Die WASG lehnt den Einsatz der Risikotechnologie Atomenergie strikt ab. Wir kÃ¶nnen kommenden Generationen nicht noch mehr zehntausende von Jahren strahlenden MÃ¼ll hinterlassen. Statt dessen setzen wir auf erneuerbare Energien und Energieeinsparungen.';
 WOMT_aThesenParteien[1][3]='-1';
-WOMT_aThesenParteienText[1][3][0]='Nein! Die AKWs sollen bis 2021 nach und nach vom Netz gehen. Dafür steht die SPD. Atomenergie hat keine Zukunft! Der Betrieb ist zu riskant und die Entsorgungsfrage nicht gelöst.';
+WOMT_aThesenParteienText[1][3][0]='Nein! Die AKWs sollen bis 2021 nach und nach vom Netz gehen. DafÃ¼r steht die SPD. Atomenergie hat keine Zukunft! Der Betrieb ist zu riskant und die Entsorgungsfrage nicht gelÃ¶st.';
 WOMT_aThesenParteien[2][1]='-1';
-WOMT_aThesenParteienText[2][1][0]='Jedes gentechnisch veränderte Lebensmittel muss gemäß EU-rechtlicher Vorgaben bereits jetzt eindeutig gekennzeichnet werden. ';
+WOMT_aThesenParteienText[2][1][0]='Jedes gentechnisch verÃ¤nderte Lebensmittel muss gemÃ¤ÃŸ EU-rechtlicher Vorgaben bereits jetzt eindeutig gekennzeichnet werden. ';
 WOMT_aThesenParteien[2][0]='1';
-WOMT_aThesenParteienText[2][0][0]='Für uns sind klare Kennzeichnungsregelungen für gentechnisch manipuliertes Saatgut oder Lebensmittel, die gentechnisch veränderte Bestandteile enthalten, unabdingbare Voraussetzung für den Schutz von VerbraucherInnen. Die Haftungsregelung im Gentechnikgesetz der rot-grünen Bundesregierung ist ein wirksames Instrument, um der schleichenden Verunreinigung von Nahrungsmitteln und Saatgut Einhalt zu gebieten.';
+WOMT_aThesenParteienText[2][0][0]='FÃ¼r uns sind klare Kennzeichnungsregelungen fÃ¼r gentechnisch manipuliertes Saatgut oder Lebensmittel, die gentechnisch verÃ¤nderte Bestandteile enthalten, unabdingbare Voraussetzung fÃ¼r den Schutz von VerbraucherInnen. Die Haftungsregelung im Gentechnikgesetz der rot-grÃ¼nen Bundesregierung ist ein wirksames Instrument, um der schleichenden Verunreinigung von Nahrungsmitteln und Saatgut Einhalt zu gebieten.';
 WOMT_aThesenParteien[2][2]='-1';
-WOMT_aThesenParteienText[2][2][0]='Die Kennzeichnungspflicht für gentechnisch veränderte Produkte ist ausreichend.';
+WOMT_aThesenParteienText[2][2][0]='Die Kennzeichnungspflicht fÃ¼r gentechnisch verÃ¤nderte Produkte ist ausreichend.';
 WOMT_aThesenParteien[2][4]='1';
-WOMT_aThesenParteienText[2][4][0]='Die WASG lehnt grundsätzlich den Anbau und Verkauf gentechnisch veränderter Lebensmittel ab. Gentechnikfreie Lebensmittel sollten zumindest für den Verbraucher deutlich gekennzeichnet sein, damit er sich gezielt für diese Lebensmittel entscheiden kann. Dabei ist auch der Einsatz von gentechnisch verändertem Futter zu beachten.';
+WOMT_aThesenParteienText[2][4][0]='Die WASG lehnt grundsÃ¤tzlich den Anbau und Verkauf gentechnisch verÃ¤nderter Lebensmittel ab. Gentechnikfreie Lebensmittel sollten zumindest fÃ¼r den Verbraucher deutlich gekennzeichnet sein, damit er sich gezielt fÃ¼r diese Lebensmittel entscheiden kann. Dabei ist auch der Einsatz von gentechnisch verÃ¤ndertem Futter zu beachten.';
 WOMT_aThesenParteien[2][3]='1';
-WOMT_aThesenParteienText[2][3][0]='Wahlfreiheit und Transparenz für Verbraucher! Jeder Verbraucher weiß somit genau, ob er ein gentechnisch verändertes Produkt vor sich hat oder nicht.';
+WOMT_aThesenParteienText[2][3][0]='Wahlfreiheit und Transparenz fÃ¼r Verbraucher! Jeder Verbraucher weiÃŸ somit genau, ob er ein gentechnisch verÃ¤ndertes Produkt vor sich hat oder nicht.';
 WOMT_aThesenParteien[3][1]='-1';
-WOMT_aThesenParteienText[3][1][0]='Eine Erhöhung der Landesmittel für die AIDS-Aufklärung ist derzeit nicht möglich. Allerdings wird eine CDU-geführte Landesregierung die Mittel auch nicht kürzen. ';
+WOMT_aThesenParteienText[3][1][0]='Eine ErhÃ¶hung der Landesmittel fÃ¼r die AIDS-AufklÃ¤rung ist derzeit nicht mÃ¶glich. Allerdings wird eine CDU-gefÃ¼hrte Landesregierung die Mittel auch nicht kÃ¼rzen. ';
 WOMT_aThesenParteien[3][0]='1';
-WOMT_aThesenParteienText[3][0][0]='Wir setzen uns dafür ein, dass das differenzierte Angebot der Aids-Hilfen mit ihrer zielgruppenspezifischen Prävention, Beratung, Betreuung und Versorgung im Land erhalten bleibt und die Präventionsarbeit vor allem bei jungen Menschen ausgebaut wird.';
+WOMT_aThesenParteienText[3][0][0]='Wir setzen uns dafÃ¼r ein, dass das differenzierte Angebot der Aids-Hilfen mit ihrer zielgruppenspezifischen PrÃ¤vention, Beratung, Betreuung und Versorgung im Land erhalten bleibt und die PrÃ¤ventionsarbeit vor allem bei jungen Menschen ausgebaut wird.';
 WOMT_aThesenParteien[3][2]='0';
-WOMT_aThesenParteienText[3][2][0]='Angesichts der Haushaltslage kann das Land die Mittel nicht weiter aufstocken. Eine weitere Kürzung lehnen wir aber ab.';
+WOMT_aThesenParteienText[3][2][0]='Angesichts der Haushaltslage kann das Land die Mittel nicht weiter aufstocken. Eine weitere KÃ¼rzung lehnen wir aber ab.';
 WOMT_aThesenParteien[3][4]='1';
 WOMT_aThesenParteienText[3][4][0]='';
 WOMT_aThesenParteien[3][3]='1';
-WOMT_aThesenParteienText[3][3][0]='Die neuesten Zahlen zu AIDS zeigen, dass die Wahrnehmung und Aufklärung über AIDS zurückgegangen ist und sich v.a. junge Menschen wieder vermehrt anstecken, daher dringend weitere Aufklärung nötig ist.';
+WOMT_aThesenParteienText[3][3][0]='Die neuesten Zahlen zu AIDS zeigen, dass die Wahrnehmung und AufklÃ¤rung Ã¼ber AIDS zurÃ¼ckgegangen ist und sich v.a. junge Menschen wieder vermehrt anstecken, daher dringend weitere AufklÃ¤rung nÃ¶tig ist.';
 WOMT_aThesenParteien[4][1]='1';
 WOMT_aThesenParteienText[4][1][0]='';
 WOMT_aThesenParteien[4][0]='0';
-WOMT_aThesenParteienText[4][0][0]='Graffitis können auch heute schon den Straftatbestand der Sachbeschädigung erfüllen, eine Strafverschärfung bringt nichts.';
+WOMT_aThesenParteienText[4][0][0]='Graffitis kÃ¶nnen auch heute schon den Straftatbestand der SachbeschÃ¤digung erfÃ¼llen, eine StrafverschÃ¤rfung bringt nichts.';
 WOMT_aThesenParteien[4][2]='1';
 WOMT_aThesenParteienText[4][2][0]='Graffiti-Sprayen ist bereits auf Initiative der FDP seit Sommer 2005 als Straftat eingestuft!';
 WOMT_aThesenParteien[4][4]='-1';
@@ -1319,255 +1319,255 @@ WOMT_aThesenParteienText[4][4][0]='Wir setzten uns gegen die Kriminalisierung vo
 WOMT_aThesenParteien[4][3]='1';
 WOMT_aThesenParteienText[4][3][0]='Dies ist bereits durch eine Bundesratsinitiative geschehen.';
 WOMT_aThesenParteien[5][1]='-1';
-WOMT_aThesenParteienText[5][1][0]='Studiengebühren sind ein sozial gerechter Beitrag der Studierenden an den gesamtgesellschaftlichen Kosten ihrer hochwertigen Ausbildung, die ihre Berufschancen deutlich erhöht.';
+WOMT_aThesenParteienText[5][1][0]='StudiengebÃ¼hren sind ein sozial gerechter Beitrag der Studierenden an den gesamtgesellschaftlichen Kosten ihrer hochwertigen Ausbildung, die ihre Berufschancen deutlich erhÃ¶ht.';
 WOMT_aThesenParteien[5][0]='1';
-WOMT_aThesenParteienText[5][0][0]='Das Erststudium bis zum Bachelor bleibt gebührenfrei. Für weitere Studienabschnitte halten wir eine maßvolle, einkommensabhängige und nachlaufend zu finanzierende Eigenbeteiligung für vertretbar, wenn dies mit mehr Gestaltungsmacht in der Hand von Studierenden einhergeht.';
+WOMT_aThesenParteienText[5][0][0]='Das Erststudium bis zum Bachelor bleibt gebÃ¼hrenfrei. FÃ¼r weitere Studienabschnitte halten wir eine maÃŸvolle, einkommensabhÃ¤ngige und nachlaufend zu finanzierende Eigenbeteiligung fÃ¼r vertretbar, wenn dies mit mehr Gestaltungsmacht in der Hand von Studierenden einhergeht.';
 WOMT_aThesenParteien[5][2]='-1';
-WOMT_aThesenParteienText[5][2][0]='Den Anschluss an die internationale Spitze kann eine Finanzierung der Hochschulen allein aus öffentlichen Mitteln künftig nicht mehr sichern. Die FDP ist seit langem davon überzeugt, dass eine Beteiligung der Studierenden an den Kosten ihres Studiums erforderlich und angesichts des individuellen Nutzens eines Studiums auch gerechtfertigt ist. Unsere Bedingung ist, dass die konkrete Ausgestaltung niemanden davon abhalten kann, ein Studium aufzunehmen. Dies ist bei dem erstmals von der FDP in die Diskussion gebrachten Modell einer "nachlaufenden Studiengebühr" gewährleistet; deshalb konnten wir der Einführung allgemeiner Studiengebühren in Höhe von 500,- - je Semester zustimmen, obwohl uns hochschuleigene und fachspezifische Lösungen lieber gewesen wären. Kein Studierender hängt von der finanziellen Leistungsfähigkeit oder Leistungsbereitschaft seiner Eltern ab. Jeder Studierende kann zur Bezahlung der Studiengebühr ein Darlehen in Anspruch nehmen, dessen Zinsen und Rückzahlung erst nach Eintritt in das Erwerbsleben und Überschreiten einer Mindesteinkommensgrenze in monatlichen Raten fällig werden. Eine Kappungsgrenze von 15.000,- - für die Gesamthöhe der zurückzuzahlenden Darlehensschuld aus Studiengebühren und in Anspruch genommenen BAföG-Leistungen sowie die Berücksichtigung von Tatbeständen wie Kindererziehung, chronischer Krankheit usw. sichern die Sozialverträglichkeit dieser Studiengebühren zusätzlich ab.';
+WOMT_aThesenParteienText[5][2][0]='Den Anschluss an die internationale Spitze kann eine Finanzierung der Hochschulen allein aus Ã¶ffentlichen Mitteln kÃ¼nftig nicht mehr sichern. Die FDP ist seit langem davon Ã¼berzeugt, dass eine Beteiligung der Studierenden an den Kosten ihres Studiums erforderlich und angesichts des individuellen Nutzens eines Studiums auch gerechtfertigt ist. Unsere Bedingung ist, dass die konkrete Ausgestaltung niemanden davon abhalten kann, ein Studium aufzunehmen. Dies ist bei dem erstmals von der FDP in die Diskussion gebrachten Modell einer "nachlaufenden StudiengebÃ¼hr" gewÃ¤hrleistet; deshalb konnten wir der EinfÃ¼hrung allgemeiner StudiengebÃ¼hren in HÃ¶he von 500,- - je Semester zustimmen, obwohl uns hochschuleigene und fachspezifische LÃ¶sungen lieber gewesen wÃ¤ren. Kein Studierender hÃ¤ngt von der finanziellen LeistungsfÃ¤higkeit oder Leistungsbereitschaft seiner Eltern ab. Jeder Studierende kann zur Bezahlung der StudiengebÃ¼hr ein Darlehen in Anspruch nehmen, dessen Zinsen und RÃ¼ckzahlung erst nach Eintritt in das Erwerbsleben und Ãœberschreiten einer Mindesteinkommensgrenze in monatlichen Raten fÃ¤llig werden. Eine Kappungsgrenze von 15.000,- - fÃ¼r die GesamthÃ¶he der zurÃ¼ckzuzahlenden Darlehensschuld aus StudiengebÃ¼hren und in Anspruch genommenen BAfÃ¶G-Leistungen sowie die BerÃ¼cksichtigung von TatbestÃ¤nden wie Kindererziehung, chronischer Krankheit usw. sichern die SozialvertrÃ¤glichkeit dieser StudiengebÃ¼hren zusÃ¤tzlich ab.';
 WOMT_aThesenParteien[5][4]='1';
-WOMT_aThesenParteienText[5][4][0]='Wir sind generell für kostenfreie Bildung vom Kindergarten bis in´s hohe Alter. Bildung darf kein Privileg von Besserverdienenden sein. Sie ist ein öffentliches Gut und Voraussetzung für die freie Selbstentfaltung und das Funktionieren einer Demokratie kritischer und gebildeter BürgerInnen.';
+WOMT_aThesenParteienText[5][4][0]='Wir sind generell fÃ¼r kostenfreie Bildung vom Kindergarten bis inÂ´s hohe Alter. Bildung darf kein Privileg von Besserverdienenden sein. Sie ist ein Ã¶ffentliches Gut und Voraussetzung fÃ¼r die freie Selbstentfaltung und das Funktionieren einer Demokratie kritischer und gebildeter BÃ¼rgerInnen.';
 WOMT_aThesenParteien[5][3]='1';
-WOMT_aThesenParteienText[5][3][0]='Studiengebühren sind sozial ungerecht und nicht sozialverträglich, denn Kinder aus einkommensschwächeren o. kinderreichen Familien sind benachteiligt. Sie verschärfen die soziale Selektion, wer studieren kann und schrecken vor einem Studium ab.';
+WOMT_aThesenParteienText[5][3][0]='StudiengebÃ¼hren sind sozial ungerecht und nicht sozialvertrÃ¤glich, denn Kinder aus einkommensschwÃ¤cheren o. kinderreichen Familien sind benachteiligt. Sie verschÃ¤rfen die soziale Selektion, wer studieren kann und schrecken vor einem Studium ab.';
 WOMT_aThesenParteien[6][1]='1';
 WOMT_aThesenParteienText[6][1][0]='';
 WOMT_aThesenParteien[6][0]='-1';
-WOMT_aThesenParteienText[6][0][0]='Das Abitur und entsprechende Regelungen für berufliche Abschlüsse sichert die Studienberechtigung. Und dann müssen sich Studierende ihre Hochschule aussuchen können. Dazu müssen ausreichend Studienplätze geschaffen werden.';
+WOMT_aThesenParteienText[6][0][0]='Das Abitur und entsprechende Regelungen fÃ¼r berufliche AbschlÃ¼sse sichert die Studienberechtigung. Und dann mÃ¼ssen sich Studierende ihre Hochschule aussuchen kÃ¶nnen. Dazu mÃ¼ssen ausreichend StudienplÃ¤tze geschaffen werden.';
 WOMT_aThesenParteien[6][2]='1';
-WOMT_aThesenParteienText[6][2][0]='Wir wollen weiterhin auf die Kündigung des Staatsvertrages über die Vergabe von Studienplätzen hinwirken, jede Hochschule soll das Recht haben, ihre Studienplätze der Zentralen Vergabestelle (ZVS) zu entziehen und diese nach eigenen Kriterien und Verfahren zu vergeben.';
+WOMT_aThesenParteienText[6][2][0]='Wir wollen weiterhin auf die KÃ¼ndigung des Staatsvertrages Ã¼ber die Vergabe von StudienplÃ¤tzen hinwirken, jede Hochschule soll das Recht haben, ihre StudienplÃ¤tze der Zentralen Vergabestelle (ZVS) zu entziehen und diese nach eigenen Kriterien und Verfahren zu vergeben.';
 WOMT_aThesenParteien[6][4]='-1';
-WOMT_aThesenParteienText[6][4][0]='Die allgemeine Hochschulreife erhält man durch das Abitur. Wir sind gegen eine immer stärkere Selektion im Bildungsbereich. Sie widerspricht dem Recht auf freie Berufswahl und freien Zugang zu Bildung.';
+WOMT_aThesenParteienText[6][4][0]='Die allgemeine Hochschulreife erhÃ¤lt man durch das Abitur. Wir sind gegen eine immer stÃ¤rkere Selektion im Bildungsbereich. Sie widerspricht dem Recht auf freie Berufswahl und freien Zugang zu Bildung.';
 WOMT_aThesenParteien[6][3]='-1';
-WOMT_aThesenParteienText[6][3][0]='Die Hochschulzugangsberechtigung gibt einen Anspruch auf einen Studienplatz. Dieser Anspruch darf nicht entfallen, indem etwa eine Bewerbung von allen Hochschulen zurückgewiesen wird.';
+WOMT_aThesenParteienText[6][3][0]='Die Hochschulzugangsberechtigung gibt einen Anspruch auf einen Studienplatz. Dieser Anspruch darf nicht entfallen, indem etwa eine Bewerbung von allen Hochschulen zurÃ¼ckgewiesen wird.';
 WOMT_aThesenParteien[7][1]='-1';
 WOMT_aThesenParteienText[7][1][0]='';
 WOMT_aThesenParteien[7][0]='-1';
-WOMT_aThesenParteienText[7][0][0]='Es geht nicht darum das neunjährige Gymnasium wieder einzuführen, sondern das neue achtjährige so zu verändern, dass SchülerInnen der sechsten Klasse nicht mehr so belastet werden, wie es derzeit der Fall ist.';
+WOMT_aThesenParteienText[7][0][0]='Es geht nicht darum das neunjÃ¤hrige Gymnasium wieder einzufÃ¼hren, sondern das neue achtjÃ¤hrige so zu verÃ¤ndern, dass SchÃ¼lerInnen der sechsten Klasse nicht mehr so belastet werden, wie es derzeit der Fall ist.';
 WOMT_aThesenParteien[7][2]='-1';
-WOMT_aThesenParteienText[7][2][0]='Mit der Flexibilisierung des Schuleintritts ("Schulanfang auf neuen Wegen") und der Einführung des G 8 als Regelform haben wir auch einen Beitrag zur Verkürzung der Erstausbildungszeiten geleistet  und damit nicht zuletzt zur Stärkung der Wettbewerbsfähigkeit unserer Schul- und Hochschulabsolventen beigetragen';
+WOMT_aThesenParteienText[7][2][0]='Mit der Flexibilisierung des Schuleintritts ("Schulanfang auf neuen Wegen") und der EinfÃ¼hrung des G 8 als Regelform haben wir auch einen Beitrag zur VerkÃ¼rzung der Erstausbildungszeiten geleistet  und damit nicht zuletzt zur StÃ¤rkung der WettbewerbsfÃ¤higkeit unserer Schul- und Hochschulabsolventen beigetragen';
 WOMT_aThesenParteien[7][4]='1';
-WOMT_aThesenParteienText[7][4][0]='Bereits im neunjährigen Gymnasium konnte oftmals aus Zeitgründen der vorgesehene Stoff nicht durchgenommen werden. Wir sehen keinen Sinn darin, SchülerInnen künftig noch mehr unter Zeitdruck zu setzen, um sie dann ein Jahr früher auf einen überfüllten Arbeitsmarkt zu entlassen - zumal, wenn durch die Erhöhung des Renteneintrittsalters noch mehr Arbeitsplätze jungen Menschen vorenthalten werden.';
+WOMT_aThesenParteienText[7][4][0]='Bereits im neunjÃ¤hrigen Gymnasium konnte oftmals aus ZeitgrÃ¼nden der vorgesehene Stoff nicht durchgenommen werden. Wir sehen keinen Sinn darin, SchÃ¼lerInnen kÃ¼nftig noch mehr unter Zeitdruck zu setzen, um sie dann ein Jahr frÃ¼her auf einen Ã¼berfÃ¼llten Arbeitsmarkt zu entlassen - zumal, wenn durch die ErhÃ¶hung des Renteneintrittsalters noch mehr ArbeitsplÃ¤tze jungen Menschen vorenthalten werden.';
 WOMT_aThesenParteien[7][3]='-1';
-WOMT_aThesenParteienText[7][3][0]='Ja zum achtjährigen Gymnasium, aber mit Nachbesserungen in den vorhandenen Bildungsplänen.';
+WOMT_aThesenParteienText[7][3][0]='Ja zum achtjÃ¤hrigen Gymnasium, aber mit Nachbesserungen in den vorhandenen BildungsplÃ¤nen.';
 WOMT_aThesenParteien[8][1]='-1';
 WOMT_aThesenParteienText[8][1][0]='';
 WOMT_aThesenParteien[8][0]='1';
-WOMT_aThesenParteienText[8][0][0]='Wir streben an, den Beamtenstatus für künftige LehrerInnen abzuschaffen.';
+WOMT_aThesenParteienText[8][0][0]='Wir streben an, den Beamtenstatus fÃ¼r kÃ¼nftige LehrerInnen abzuschaffen.';
 WOMT_aThesenParteien[8][2]='1';
-WOMT_aThesenParteienText[8][2][0]='Wir wollen die besten Lehrer für unsere Schulen. Dies bedeutet eine Reform der Lehrerausbildung, den Verzicht auf die Verbeamtung von neueingestellten Lehrern und eine leistungsorientierte Bezahlung.';
+WOMT_aThesenParteienText[8][2][0]='Wir wollen die besten Lehrer fÃ¼r unsere Schulen. Dies bedeutet eine Reform der Lehrerausbildung, den Verzicht auf die Verbeamtung von neueingestellten Lehrern und eine leistungsorientierte Bezahlung.';
 WOMT_aThesenParteien[8][4]='1';
-WOMT_aThesenParteienText[8][4][0]='Lehrer sollen primär gute Pädagogen sein, nicht die Vertreter von Staatsinteressen. Eine Verbeamtung und eine damit verbundene  Garantie für dauerhafte Beschäftigung halten wir weder für nötig, noch für zielführend.';
+WOMT_aThesenParteienText[8][4][0]='Lehrer sollen primÃ¤r gute PÃ¤dagogen sein, nicht die Vertreter von Staatsinteressen. Eine Verbeamtung und eine damit verbundene  Garantie fÃ¼r dauerhafte BeschÃ¤ftigung halten wir weder fÃ¼r nÃ¶tig, noch fÃ¼r zielfÃ¼hrend.';
 WOMT_aThesenParteien[8][3]='1';
-WOMT_aThesenParteienText[8][3][0]='Lehrkräfte müssen keine Beamten sein. Die schulische Qualität leidet nicht darunter.';
+WOMT_aThesenParteienText[8][3][0]='LehrkrÃ¤fte mÃ¼ssen keine Beamten sein. Die schulische QualitÃ¤t leidet nicht darunter.';
 WOMT_aThesenParteien[9][1]='1';
-WOMT_aThesenParteienText[9][1][0]='Nach Abschluss der Pilotphase im Konzept "Schulreifes Kind" sind verbindliche Sprachtests für alle Kinder eineinhalb Jahre vor der Einschulung vorgesehen. ';
+WOMT_aThesenParteienText[9][1][0]='Nach Abschluss der Pilotphase im Konzept "Schulreifes Kind" sind verbindliche Sprachtests fÃ¼r alle Kinder eineinhalb Jahre vor der Einschulung vorgesehen. ';
 WOMT_aThesenParteien[9][0]='-1';
-WOMT_aThesenParteienText[9][0][0]='Wir wollen Sprachstandsmessung von Beginn des Kindergartens an und integrierte Sprachförderung. Der Sprachtest vor der Einschulung kommt zu spät.';
+WOMT_aThesenParteienText[9][0][0]='Wir wollen Sprachstandsmessung von Beginn des Kindergartens an und integrierte SprachfÃ¶rderung. Der Sprachtest vor der Einschulung kommt zu spÃ¤t.';
 WOMT_aThesenParteien[9][2]='1';
-WOMT_aThesenParteienText[9][2][0]='Wir wollen die verbindliche Teilnahme aller Kinder im Alter zwischen 3 und 4 Jahren an einer Sprachstandsdiagnose, welche eventuelle Defizite in der sprachlichen Entwicklung rechtzeitig aufdeckt und gegebenenfalls eine Förderung verbindlich eingeleitet; ein Kindergartenpflichtjahr ist hierzu nicht erforderlich.';
+WOMT_aThesenParteienText[9][2][0]='Wir wollen die verbindliche Teilnahme aller Kinder im Alter zwischen 3 und 4 Jahren an einer Sprachstandsdiagnose, welche eventuelle Defizite in der sprachlichen Entwicklung rechtzeitig aufdeckt und gegebenenfalls eine FÃ¶rderung verbindlich eingeleitet; ein Kindergartenpflichtjahr ist hierzu nicht erforderlich.';
 WOMT_aThesenParteien[9][4]='1';
-WOMT_aThesenParteienText[9][4][0]='Um auf spezifische Sprachschwächen gezielt eingehen zu können, sind Sprachtests bei Kindern vor der Einschulung sinnvoll. Sprachtests sollten dann aber bei allen Kindern vorgenommen werden und machen nur Sinn, wenn qualifizierte Fördermaßnahmen darauf aufbauen.';
+WOMT_aThesenParteienText[9][4][0]='Um auf spezifische SprachschwÃ¤chen gezielt eingehen zu kÃ¶nnen, sind Sprachtests bei Kindern vor der Einschulung sinnvoll. Sprachtests sollten dann aber bei allen Kindern vorgenommen werden und machen nur Sinn, wenn qualifizierte FÃ¶rdermaÃŸnahmen darauf aufbauen.';
 WOMT_aThesenParteien[9][3]='1';
-WOMT_aThesenParteienText[9][3][0]='Damit individuelle Förderung von Sprachdefiziten frühzeitig erfolgen kann. Ein einzelner Sprachtest reicht dazu jedoch nicht aus. Es wird vielmehr eine Förderung von Anfang an benötigt.';
+WOMT_aThesenParteienText[9][3][0]='Damit individuelle FÃ¶rderung von Sprachdefiziten frÃ¼hzeitig erfolgen kann. Ein einzelner Sprachtest reicht dazu jedoch nicht aus. Es wird vielmehr eine FÃ¶rderung von Anfang an benÃ¶tigt.';
 WOMT_aThesenParteien[10][1]='1';
-WOMT_aThesenParteienText[10][1][0]='Das Land unterstützt Alleinerziehende mit dem Landeserziehungsgeld schon jetzt. Dies ist wesentlich eine Initiative der CDU.';
+WOMT_aThesenParteienText[10][1][0]='Das Land unterstÃ¼tzt Alleinerziehende mit dem Landeserziehungsgeld schon jetzt. Dies ist wesentlich eine Initiative der CDU.';
 WOMT_aThesenParteien[10][0]='-1';
-WOMT_aThesenParteienText[10][0][0]='Alleinerziehende sind ganz wesentlich auf flexible und kostengünstige Betreuungsmöglichkeiten für ihre Kinder angewiesen. Priorität hat für uns daher der flächendeckende Ausbau der Kleinkinderbetreuung, um für Alleinerziehende die Vereinbarkeit von Beruf/Ausbildung/Studium und Kind(ern) zu ermöglichen. Dies dient im Gegensatz zu kurzfristigen Zuschüssen in viel besserem Maße der mittel- und langfristigen Prävention von Armut, von der Alleinerziehende und ihre Kinder überproportional häufig betroffen sind.';
+WOMT_aThesenParteienText[10][0][0]='Alleinerziehende sind ganz wesentlich auf flexible und kostengÃ¼nstige BetreuungsmÃ¶glichkeiten fÃ¼r ihre Kinder angewiesen. PrioritÃ¤t hat fÃ¼r uns daher der flÃ¤chendeckende Ausbau der Kleinkinderbetreuung, um fÃ¼r Alleinerziehende die Vereinbarkeit von Beruf/Ausbildung/Studium und Kind(ern) zu ermÃ¶glichen. Dies dient im Gegensatz zu kurzfristigen ZuschÃ¼ssen in viel besserem MaÃŸe der mittel- und langfristigen PrÃ¤vention von Armut, von der Alleinerziehende und ihre Kinder Ã¼berproportional hÃ¤ufig betroffen sind.';
 WOMT_aThesenParteien[10][2]='-1';
 WOMT_aThesenParteienText[10][2][0]='Angesichts der Haushaltslage kann das Land nicht weitere Aufgaben finanziell schultern.';
 WOMT_aThesenParteien[10][4]='1';
-WOMT_aThesenParteienText[10][4][0]='Alleinerziehende tragen besondere Lasten und verdienen daher auch eine besondere Unterstützung der Gesellschaft.';
+WOMT_aThesenParteienText[10][4][0]='Alleinerziehende tragen besondere Lasten und verdienen daher auch eine besondere UnterstÃ¼tzung der Gesellschaft.';
 WOMT_aThesenParteien[10][3]='1';
 WOMT_aThesenParteienText[10][3][0]='Dieses ist bereits im Landeserziehungsgeld enthalten.';
 WOMT_aThesenParteien[11][1]='0';
-WOMT_aThesenParteienText[11][1][0]='Die CDU im Land orientiert sich an der Koalitionsvereinbarung von CDU, CSU und SPD im Bund: Die Bundesregierung wird das Kündigungsschutzrecht mit dem Ziel weiterentwickeln, zum einen mehr Beschäftigung zu ermöglichen und zum anderen die Schutzfunktion des Kündigungsschutzes für bestehende Arbeitsverhältnisse nachhaltig zu sichern. Die Bundesregierung gibt den Arbeitgebern bei der Neueinstellung die Option an die Hand, anstelle der gesetzlichen Probezeit von 6 Monaten eine Probezeit von bis zu 24 Monaten zu vereinbaren. Die Option entsteht auch bei einer erneuten Einstellung bei demselben Arbeitgeber, wenn seit dem Ende des vorhergehenden Arbeitsvertrages mindestens sechs Monate vergangen sind.';
+WOMT_aThesenParteienText[11][1][0]='Die CDU im Land orientiert sich an der Koalitionsvereinbarung von CDU, CSU und SPD im Bund: Die Bundesregierung wird das KÃ¼ndigungsschutzrecht mit dem Ziel weiterentwickeln, zum einen mehr BeschÃ¤ftigung zu ermÃ¶glichen und zum anderen die Schutzfunktion des KÃ¼ndigungsschutzes fÃ¼r bestehende ArbeitsverhÃ¤ltnisse nachhaltig zu sichern. Die Bundesregierung gibt den Arbeitgebern bei der Neueinstellung die Option an die Hand, anstelle der gesetzlichen Probezeit von 6 Monaten eine Probezeit von bis zu 24 Monaten zu vereinbaren. Die Option entsteht auch bei einer erneuten Einstellung bei demselben Arbeitgeber, wenn seit dem Ende des vorhergehenden Arbeitsvertrages mindestens sechs Monate vergangen sind.';
 WOMT_aThesenParteien[11][0]='-1';
-WOMT_aThesenParteienText[11][0][0]='Mit Zustimmung der Grünen wurde der Kündigungsschutz bei Neueinstellungen besonders für kleine Unternehmen bereits gelockert.';
+WOMT_aThesenParteienText[11][0][0]='Mit Zustimmung der GrÃ¼nen wurde der KÃ¼ndigungsschutz bei Neueinstellungen besonders fÃ¼r kleine Unternehmen bereits gelockert.';
 WOMT_aThesenParteien[11][2]='1';
-WOMT_aThesenParteienText[11][2][0]='Der Schutz vor willkürlichen Kündigungen ist in Deutschland im Bürgerlichen Gesetzbuch geregelt. Der darüber hinausgehende besondere Kündigungsschutz ist ein Einstellungshemmnis und verfehlt zugleich seine soziale Schutzfunktion, da er nur zu einer Vielzahl an Arbeitsgerichtsprozessen führt, die in der Regel nicht den Arbeitsplatz erhalten, sondern ohnehin in Abfindungsregeln münden. Vor allem  kleine Unternehmen scheuen vor Neueinstellungen zurück, da sie das komplizierte Kündigungsschutzrecht fürchten. Das Kündigungsschutzgesetz soll daher erst ab einer Betriebsgröße von mehr als 50 Mitarbeitern gelten und erst vier Jahre nach Beginn des Arbeitsverhältnisses einsetzen. Den Arbeitnehmern muß mehr Spielraum eingeräumt werden, welche Form des Kündigungsschutzes sie wollen. Arbeitnehmer und Arbeitgeber sollen für den Fall einer betriebsbedingten Kündigung statt des Kündigungsschutzes eine Abfindungszahlung oder die Finanzierung einer Weiterbildungsmaßnahme vereinbaren können.';
+WOMT_aThesenParteienText[11][2][0]='Der Schutz vor willkÃ¼rlichen KÃ¼ndigungen ist in Deutschland im BÃ¼rgerlichen Gesetzbuch geregelt. Der darÃ¼ber hinausgehende besondere KÃ¼ndigungsschutz ist ein Einstellungshemmnis und verfehlt zugleich seine soziale Schutzfunktion, da er nur zu einer Vielzahl an Arbeitsgerichtsprozessen fÃ¼hrt, die in der Regel nicht den Arbeitsplatz erhalten, sondern ohnehin in Abfindungsregeln mÃ¼nden. Vor allem  kleine Unternehmen scheuen vor Neueinstellungen zurÃ¼ck, da sie das komplizierte KÃ¼ndigungsschutzrecht fÃ¼rchten. Das KÃ¼ndigungsschutzgesetz soll daher erst ab einer BetriebsgrÃ¶ÃŸe von mehr als 50 Mitarbeitern gelten und erst vier Jahre nach Beginn des ArbeitsverhÃ¤ltnisses einsetzen. Den Arbeitnehmern muÃŸ mehr Spielraum eingerÃ¤umt werden, welche Form des KÃ¼ndigungsschutzes sie wollen. Arbeitnehmer und Arbeitgeber sollen fÃ¼r den Fall einer betriebsbedingten KÃ¼ndigung statt des KÃ¼ndigungsschutzes eine Abfindungszahlung oder die Finanzierung einer WeiterbildungsmaÃŸnahme vereinbaren kÃ¶nnen.';
 WOMT_aThesenParteien[11][4]='-1';
-WOMT_aThesenParteienText[11][4][0]='Der Kündigungsschutz schafft Planungssicherheit für abhängig Beschäftigte und deren Familien. Er ist damit ein wesentlicher Beitrag für die Lebensqualität der Menschen. Bei Neueinstellungen kann der Kündigungsschutz bereits heute 2 Jahre lang außer Kraft gesetzt werden.';
+WOMT_aThesenParteienText[11][4][0]='Der KÃ¼ndigungsschutz schafft Planungssicherheit fÃ¼r abhÃ¤ngig BeschÃ¤ftigte und deren Familien. Er ist damit ein wesentlicher Beitrag fÃ¼r die LebensqualitÃ¤t der Menschen. Bei Neueinstellungen kann der KÃ¼ndigungsschutz bereits heute 2 Jahre lang auÃŸer Kraft gesetzt werden.';
 WOMT_aThesenParteien[11][3]='-1';
-WOMT_aThesenParteienText[11][3][0]='Eine Reihe von Untersuchungen zeigt, dass durch die Lockerung des Kündigungsschutzes keine neuen Arbeitsplätze geschaffen werden.';
+WOMT_aThesenParteienText[11][3][0]='Eine Reihe von Untersuchungen zeigt, dass durch die Lockerung des KÃ¼ndigungsschutzes keine neuen ArbeitsplÃ¤tze geschaffen werden.';
 WOMT_aThesenParteien[12][1]='1';
 WOMT_aThesenParteienText[12][1][0]='';
 WOMT_aThesenParteien[12][0]='1';
-WOMT_aThesenParteienText[12][0][0]='Wir brauchen einen leistungsfähigen öffentlichen Dienst mit motivierten Beschäftigten und einer leistungsgerechten Bezahlung.';
+WOMT_aThesenParteienText[12][0][0]='Wir brauchen einen leistungsfÃ¤higen Ã¶ffentlichen Dienst mit motivierten BeschÃ¤ftigten und einer leistungsgerechten Bezahlung.';
 WOMT_aThesenParteien[12][2]='1';
-WOMT_aThesenParteienText[12][2][0]='Wir wollen den Anteil der Personalkosten am Landeshaushalt dauerhaft begrenzen. Die beschlossenen Stellenabbauprogramme sind konsequent umzusetzen. Für die Zukunft muss gelten, dass jährlich im Wege der Fluktuation mindestens 1 % der Stellen im Landesdienst nicht wieder besetzt werden.';
+WOMT_aThesenParteienText[12][2][0]='Wir wollen den Anteil der Personalkosten am Landeshaushalt dauerhaft begrenzen. Die beschlossenen Stellenabbauprogramme sind konsequent umzusetzen. FÃ¼r die Zukunft muss gelten, dass jÃ¤hrlich im Wege der Fluktuation mindestens 1 % der Stellen im Landesdienst nicht wieder besetzt werden.';
 WOMT_aThesenParteien[12][4]='-1';
-WOMT_aThesenParteienText[12][4][0]='Die WASG lehnt es ab, dass der Staat sich selbst zu Tode spart und damit eine wirtschaftliche Abwärtsspirale nach unten auslöst.';
+WOMT_aThesenParteienText[12][4][0]='Die WASG lehnt es ab, dass der Staat sich selbst zu Tode spart und damit eine wirtschaftliche AbwÃ¤rtsspirale nach unten auslÃ¶st.';
 WOMT_aThesenParteien[12][3]='1';
-WOMT_aThesenParteienText[12][3][0]='Es geht nicht um die Reduzierung von Personal, sondern um die Reduzierung der Behörden; Kein Abbau bei  Polizei und Steuerwesen.';
+WOMT_aThesenParteienText[12][3][0]='Es geht nicht um die Reduzierung von Personal, sondern um die Reduzierung der BehÃ¶rden; Kein Abbau bei  Polizei und Steuerwesen.';
 WOMT_aThesenParteien[13][1]='-1';
-WOMT_aThesenParteienText[13][1][0]='Die Wiedereinführung der umfangreichen Vermögenssteuer ist nach Ansicht der CDU Baden-Württemberg schädlich für Wachstum und Konjunktur. Außerdem ist sie mit einem immensen Bürokratieaufwand verbunden. Die CDU Baden- Württemberg hält nichts davon, Bürger und Unternehmer mit der Drohung einer umfangreichen Vermögenssteuer zu verunsichern. Darüber hinaus stehen wir zur Koalitionsvereinbarung von CDU, CSU und SPD im Bund, die einen Zuschlag von 3 % für Topverdiener (250.000 Euro Jahresgehalt/Alleinstehende, 500.000 Euro/ Verheiratete) vorsieht.';
+WOMT_aThesenParteienText[13][1][0]='Die WiedereinfÃ¼hrung der umfangreichen VermÃ¶genssteuer ist nach Ansicht der CDU Baden-WÃ¼rttemberg schÃ¤dlich fÃ¼r Wachstum und Konjunktur. AuÃŸerdem ist sie mit einem immensen BÃ¼rokratieaufwand verbunden. Die CDU Baden- WÃ¼rttemberg hÃ¤lt nichts davon, BÃ¼rger und Unternehmer mit der Drohung einer umfangreichen VermÃ¶genssteuer zu verunsichern. DarÃ¼ber hinaus stehen wir zur Koalitionsvereinbarung von CDU, CSU und SPD im Bund, die einen Zuschlag von 3 % fÃ¼r Topverdiener (250.000 Euro Jahresgehalt/Alleinstehende, 500.000 Euro/ Verheiratete) vorsieht.';
 WOMT_aThesenParteien[13][0]='-1';
-WOMT_aThesenParteienText[13][0][0]='Das Land sollte seine Steuerbasis verbreitern. Zentral ist dabei der Einsatz gegen den Umsatzsteuerbetrug, der die öffentliche Hand jedes Jahr mit mindestens 20 Mrd. Euro belastet. Eine Vermögenssteuer dagegen würde mit hohem bürokratischen Aufwand nur wenig Geld in die öffentlichen Kassen bringen und kleine und mittelständische Unternehmen in ihrer Substanz belasten.';
+WOMT_aThesenParteienText[13][0][0]='Das Land sollte seine Steuerbasis verbreitern. Zentral ist dabei der Einsatz gegen den Umsatzsteuerbetrug, der die Ã¶ffentliche Hand jedes Jahr mit mindestens 20 Mrd. Euro belastet. Eine VermÃ¶genssteuer dagegen wÃ¼rde mit hohem bÃ¼rokratischen Aufwand nur wenig Geld in die Ã¶ffentlichen Kassen bringen und kleine und mittelstÃ¤ndische Unternehmen in ihrer Substanz belasten.';
 WOMT_aThesenParteien[13][2]='-1';
-WOMT_aThesenParteienText[13][2][0]='Wir wollen die Vermögenssteuer endgültig abschaffen.';
+WOMT_aThesenParteienText[13][2][0]='Wir wollen die VermÃ¶genssteuer endgÃ¼ltig abschaffen.';
 WOMT_aThesenParteien[13][4]='1';
-WOMT_aThesenParteienText[13][4][0]='Würden die Vermögenden in Deutschland nur so viel Steuern bezahlen wie in den USA oder Großbritannien, könnte der Staat Milliardenmehreinnahmen für Bildung, Umweltschutz, soziale Sicherung und den Abbau der Staatsschulden einsetzen.';
+WOMT_aThesenParteienText[13][4][0]='WÃ¼rden die VermÃ¶genden in Deutschland nur so viel Steuern bezahlen wie in den USA oder GroÃŸbritannien, kÃ¶nnte der Staat Milliardenmehreinnahmen fÃ¼r Bildung, Umweltschutz, soziale Sicherung und den Abbau der Staatsschulden einsetzen.';
 WOMT_aThesenParteien[13][3]='1';
-WOMT_aThesenParteienText[13][3][0]='Jeder soll nach seiner finanziellen Leistungsfähigkeit einen Beitrag für die Allgemeinheit beitragen.';
+WOMT_aThesenParteienText[13][3][0]='Jeder soll nach seiner finanziellen LeistungsfÃ¤higkeit einen Beitrag fÃ¼r die Allgemeinheit beitragen.';
 WOMT_aThesenParteien[14][1]='1';
-WOMT_aThesenParteienText[14][1][0]='Die Erfassung von DNA-Daten bei Straftaten sollte dem Abnehmen von Fingerabdrücken gleichgestellt werden.';
+WOMT_aThesenParteienText[14][1][0]='Die Erfassung von DNA-Daten bei Straftaten sollte dem Abnehmen von FingerabdrÃ¼cken gleichgestellt werden.';
 WOMT_aThesenParteien[14][0]='-1';
-WOMT_aThesenParteienText[14][0][0]='DNA-Daten sind kein verhältnismäßiges Mittel zur Bekämpfung von Kleinkriminalität.';
+WOMT_aThesenParteienText[14][0][0]='DNA-Daten sind kein verhÃ¤ltnismÃ¤ÃŸiges Mittel zur BekÃ¤mpfung von KleinkriminalitÃ¤t.';
 WOMT_aThesenParteien[14][2]='-1';
-WOMT_aThesenParteienText[14][2][0]='Die FDP will die Entnahme von DNA beim Menschen sowie die Speicherung, Verarbeitung oder Weitergabe der DNA-Muster auch weiterhin nur zu Zwecken der Strafverfolgung bei Straftaten von erheblicher Bedeutung zulassen. Keinesfalls darf die DNA-Analyse zur Standardmaßnahme bei der Verbrechensbekämpfung werden, da im Erbgut hochsensible Informationen (zum Beispiel über Krankheiten) verborgen liegen.';
+WOMT_aThesenParteienText[14][2][0]='Die FDP will die Entnahme von DNA beim Menschen sowie die Speicherung, Verarbeitung oder Weitergabe der DNA-Muster auch weiterhin nur zu Zwecken der Strafverfolgung bei Straftaten von erheblicher Bedeutung zulassen. Keinesfalls darf die DNA-Analyse zur StandardmaÃŸnahme bei der VerbrechensbekÃ¤mpfung werden, da im Erbgut hochsensible Informationen (zum Beispiel Ã¼ber Krankheiten) verborgen liegen.';
 WOMT_aThesenParteien[14][4]='-1';
-WOMT_aThesenParteienText[14][4][0]='Die WASG lehnt eine Ausweitung des Überwachungsstaates ab. Aus der DNA lässt sich weit mehr als die bloße Identität herauslesen. Die Erhebung und Speicherung eines genetischen Fingerabdrucks stellt deshalb einen tiefen Eingriff in das Persönlichkeitsrecht dar.';
+WOMT_aThesenParteienText[14][4][0]='Die WASG lehnt eine Ausweitung des Ãœberwachungsstaates ab. Aus der DNA lÃ¤sst sich weit mehr als die bloÃŸe IdentitÃ¤t herauslesen. Die Erhebung und Speicherung eines genetischen Fingerabdrucks stellt deshalb einen tiefen Eingriff in das PersÃ¶nlichkeitsrecht dar.';
 WOMT_aThesenParteien[14][3]='-1';
-WOMT_aThesenParteienText[14][3][0]='Eine Ausweitung nur für schwere Straftaten (Zypries# Vorschlag) wie Gewaltdelikte oder sexuelle Verbrechen.';
+WOMT_aThesenParteienText[14][3][0]='Eine Ausweitung nur fÃ¼r schwere Straftaten (Zypries# Vorschlag) wie Gewaltdelikte oder sexuelle Verbrechen.';
 WOMT_aThesenParteien[15][1]='-1';
 WOMT_aThesenParteienText[15][1][0]='';
 WOMT_aThesenParteien[15][0]='1';
-WOMT_aThesenParteienText[15][0][0]='Wir setzen uns seit Jahren für eine Verlagerung des Güterverkehrs auf die Schiene ein. Es entlastet sowohl die Menschen als auch die Umwelt, wenn der LKW-Verkehr deutlich eingeschränkt wird.';
+WOMT_aThesenParteienText[15][0][0]='Wir setzen uns seit Jahren fÃ¼r eine Verlagerung des GÃ¼terverkehrs auf die Schiene ein. Es entlastet sowohl die Menschen als auch die Umwelt, wenn der LKW-Verkehr deutlich eingeschrÃ¤nkt wird.';
 WOMT_aThesenParteien[15][2]='0';
-WOMT_aThesenParteienText[15][2][0]='Wir wollen die Leistungsfähigkeit der Verkehrsträger erhöhen und ihre Marktangebote verbessern, damit Transportzeiten und -kosten für Verlader und Spediteure wieder interessant werden, sowie das Netz der Terminals für den kombinierten Verkehr und die zugehörigen Güterverkehrszentren weiter entwickeln.';
+WOMT_aThesenParteienText[15][2][0]='Wir wollen die LeistungsfÃ¤higkeit der VerkehrstrÃ¤ger erhÃ¶hen und ihre Marktangebote verbessern, damit Transportzeiten und -kosten fÃ¼r Verlader und Spediteure wieder interessant werden, sowie das Netz der Terminals fÃ¼r den kombinierten Verkehr und die zugehÃ¶rigen GÃ¼terverkehrszentren weiter entwickeln.';
 WOMT_aThesenParteien[15][4]='1';
-WOMT_aThesenParteienText[15][4][0]='Der Straßengüterverkehr ist eine große Belastung für Mensch und Umwelt. Eine Verlagerung auf die Schiene muss unbedingt vorangetrieben werden.';
+WOMT_aThesenParteienText[15][4][0]='Der StraÃŸengÃ¼terverkehr ist eine groÃŸe Belastung fÃ¼r Mensch und Umwelt. Eine Verlagerung auf die Schiene muss unbedingt vorangetrieben werden.';
 WOMT_aThesenParteien[15][3]='1';
-WOMT_aThesenParteienText[15][3][0]='SPD steht für eine Verlagerung des Verkehrs auf die Schiene zur Entlastung der Straße und der Umwelt.';
+WOMT_aThesenParteienText[15][3][0]='SPD steht fÃ¼r eine Verlagerung des Verkehrs auf die Schiene zur Entlastung der StraÃŸe und der Umwelt.';
 WOMT_aThesenParteien[16][1]='-1';
 WOMT_aThesenParteienText[16][1][0]='';
 WOMT_aThesenParteien[16][0]='1';
-WOMT_aThesenParteienText[16][0][0]='Wir haben uns gegen die Kürzungen der Landeszuschüsse für die Schülerbeförderung gewehrt.';
+WOMT_aThesenParteienText[16][0][0]='Wir haben uns gegen die KÃ¼rzungen der LandeszuschÃ¼sse fÃ¼r die SchÃ¼lerbefÃ¶rderung gewehrt.';
 WOMT_aThesenParteien[16][2]='-1';
-WOMT_aThesenParteienText[16][2][0]='Angesichts der Haushaltslage kann das Land Fahrkarten nicht stärker finanziell fördern.';
+WOMT_aThesenParteienText[16][2][0]='Angesichts der Haushaltslage kann das Land Fahrkarten nicht stÃ¤rker finanziell fÃ¶rdern.';
 WOMT_aThesenParteien[16][4]='1';
-WOMT_aThesenParteienText[16][4][0]='In den letzten Jahren ist es zum Teil zu massiven Preiserhöhungen bei Fahrkarten für Auszubildende, SchülerInnen und Studierende gekommen. Die Kürzungen von Landesmitteln müssen rückgängig gemacht und Tickets für sozial Schwache verbilligt werden.';
+WOMT_aThesenParteienText[16][4][0]='In den letzten Jahren ist es zum Teil zu massiven PreiserhÃ¶hungen bei Fahrkarten fÃ¼r Auszubildende, SchÃ¼lerInnen und Studierende gekommen. Die KÃ¼rzungen von Landesmitteln mÃ¼ssen rÃ¼ckgÃ¤ngig gemacht und Tickets fÃ¼r sozial Schwache verbilligt werden.';
 WOMT_aThesenParteien[16][3]='1';
-WOMT_aThesenParteienText[16][3][0]='Recht auf Bildungsgleichheit auch im ländlichen Raum.';
+WOMT_aThesenParteienText[16][3][0]='Recht auf Bildungsgleichheit auch im lÃ¤ndlichen Raum.';
 WOMT_aThesenParteien[17][1]='1';
 WOMT_aThesenParteienText[17][1][0]='';
 WOMT_aThesenParteien[17][0]='-1';
-WOMT_aThesenParteienText[17][0][0]='Unser Modell der neunjährigen Basisschule sortiert nicht mehr aus, sondern integriert alle SchülerInnen. Alle Schulen sollen alle Bildungsgänge und alle Abschlüsse anbieten können. Nach der 9. Klasse findet eine Differenzierung in der Oberstufe statt. Entsprechend ihrer Leistungsfähigkeit oder ihren Neigungen können junge Menschen entweder eine Ausbildung im dualen System, eine allgemein bildende gymnasiale Oberstufe, ein berufliches Gymnasium oder eine berufliche Vollzeitschule besuchen.';
+WOMT_aThesenParteienText[17][0][0]='Unser Modell der neunjÃ¤hrigen Basisschule sortiert nicht mehr aus, sondern integriert alle SchÃ¼lerInnen. Alle Schulen sollen alle BildungsgÃ¤nge und alle AbschlÃ¼sse anbieten kÃ¶nnen. Nach der 9. Klasse findet eine Differenzierung in der Oberstufe statt. Entsprechend ihrer LeistungsfÃ¤higkeit oder ihren Neigungen kÃ¶nnen junge Menschen entweder eine Ausbildung im dualen System, eine allgemein bildende gymnasiale Oberstufe, ein berufliches Gymnasium oder eine berufliche Vollzeitschule besuchen.';
 WOMT_aThesenParteien[17][2]='1';
-WOMT_aThesenParteienText[17][2][0]='Das dreigliedrige Schulsystem hat sich bewährt. Das zeigen auch die Leistungsergebnisse baden-württembergischer Schüler/innen im Vergleich mit anderen Bundesländern.';
+WOMT_aThesenParteienText[17][2][0]='Das dreigliedrige Schulsystem hat sich bewÃ¤hrt. Das zeigen auch die Leistungsergebnisse baden-wÃ¼rttembergischer SchÃ¼ler/innen im Vergleich mit anderen BundeslÃ¤ndern.';
 WOMT_aThesenParteien[17][4]='-1';
-WOMT_aThesenParteienText[17][4][0]='Die WASG spricht sich gegen soziale Selektion im Bildungsbereich aus. Wir sind dagegen, bereits im Alter von 10 Jahren den künftigen Status von jungen Menschen festzulegen. Wir setzen uns nach dem Vorbild skandinavischer Länder für Gemeinschaftsschulen ein.';
+WOMT_aThesenParteienText[17][4][0]='Die WASG spricht sich gegen soziale Selektion im Bildungsbereich aus. Wir sind dagegen, bereits im Alter von 10 Jahren den kÃ¼nftigen Status von jungen Menschen festzulegen. Wir setzen uns nach dem Vorbild skandinavischer LÃ¤nder fÃ¼r Gemeinschaftsschulen ein.';
 WOMT_aThesenParteien[17][3]='-1';
-WOMT_aThesenParteienText[17][3][0]='PISA hat gezeigt, dass unser gegliedertes Schulsystem veraltet ist. Es fördert selektive Pädagogik und behindert eine angemessene individuelle Förderung. Nirgends ist der Lernerfolg der SchülerInnen so abhängig von der sozialen Herkunft wie bei uns.';
+WOMT_aThesenParteienText[17][3][0]='PISA hat gezeigt, dass unser gegliedertes Schulsystem veraltet ist. Es fÃ¶rdert selektive PÃ¤dagogik und behindert eine angemessene individuelle FÃ¶rderung. Nirgends ist der Lernerfolg der SchÃ¼lerInnen so abhÃ¤ngig von der sozialen Herkunft wie bei uns.';
 WOMT_aThesenParteien[18][1]='-1';
-WOMT_aThesenParteienText[18][1][0]='Als alternative Modelle begrüßen wir den "Orientierungsplan für frühkindliche Bildung und Erziehung" sowie das Projekt "Schulreifes Kind" der Landesregierung. Eine Verpflichtung kann nur ultima ratio sein.';
+WOMT_aThesenParteienText[18][1][0]='Als alternative Modelle begrÃ¼ÃŸen wir den "Orientierungsplan fÃ¼r frÃ¼hkindliche Bildung und Erziehung" sowie das Projekt "Schulreifes Kind" der Landesregierung. Eine Verpflichtung kann nur ultima ratio sein.';
 WOMT_aThesenParteien[18][0]='-1';
-WOMT_aThesenParteienText[18][0][0]='Komplexe Fähigkeiten können nicht innerhalb eines Jahres erworben werden. Wir setzen uns für den Kindergarten als Bildungsgarten ein, um spielerisch emotionale und kognitive Intelligenz, kulturelle Kompetenz und Wissen um die Dinge der Welt zu vermitteln.';
+WOMT_aThesenParteienText[18][0][0]='Komplexe FÃ¤higkeiten kÃ¶nnen nicht innerhalb eines Jahres erworben werden. Wir setzen uns fÃ¼r den Kindergarten als Bildungsgarten ein, um spielerisch emotionale und kognitive Intelligenz, kulturelle Kompetenz und Wissen um die Dinge der Welt zu vermitteln.';
 WOMT_aThesenParteien[18][2]='-1';
-WOMT_aThesenParteienText[18][2][0]='Die FDP spricht sich gegen die Einführung eines Kindergarten-Pflichtjahres aus, das für alle Kinder ein Jahr vor der Einschulung gelten soll. Derzeit besuchen fast alle 5-jährigen Kinder in Baden-Württemberg einen Kindergarten. Die entsprechende Quote liegt bei 97 Prozent. Angesichts dieser sehr hohen Quote der Freiwilligen erschließt sich nicht, wie diese Quote durch ein Pflichtjahr noch wesentlich zu steigern wäre. Wir wollen es den Eltern überlassen, wie sie ihre Kinder erziehen, und nicht zu sehr in die Familien hineinregieren.';
+WOMT_aThesenParteienText[18][2][0]='Die FDP spricht sich gegen die EinfÃ¼hrung eines Kindergarten-Pflichtjahres aus, das fÃ¼r alle Kinder ein Jahr vor der Einschulung gelten soll. Derzeit besuchen fast alle 5-jÃ¤hrigen Kinder in Baden-WÃ¼rttemberg einen Kindergarten. Die entsprechende Quote liegt bei 97 Prozent. Angesichts dieser sehr hohen Quote der Freiwilligen erschlieÃŸt sich nicht, wie diese Quote durch ein Pflichtjahr noch wesentlich zu steigern wÃ¤re. Wir wollen es den Eltern Ã¼berlassen, wie sie ihre Kinder erziehen, und nicht zu sehr in die Familien hineinregieren.';
 WOMT_aThesenParteien[18][4]='1';
-WOMT_aThesenParteienText[18][4][0]='Um die Unterschiede in den Fähigkeiten der SchülerInnen bei der Einschulung möglichst gering zu halten, macht ein verpflichtendes letztes Kindergartenjahr Sinn.';
+WOMT_aThesenParteienText[18][4][0]='Um die Unterschiede in den FÃ¤higkeiten der SchÃ¼lerInnen bei der Einschulung mÃ¶glichst gering zu halten, macht ein verpflichtendes letztes Kindergartenjahr Sinn.';
 WOMT_aThesenParteien[18][3]='1';
-WOMT_aThesenParteienText[18][3][0]='Um allen Kindern die gleichen Startmöglichkeiten in der Schule zu geben, v.a. bei der Sprachkompetenz und dem sozialen Verhalten.';
+WOMT_aThesenParteienText[18][3][0]='Um allen Kindern die gleichen StartmÃ¶glichkeiten in der Schule zu geben, v.a. bei der Sprachkompetenz und dem sozialen Verhalten.';
 WOMT_aThesenParteien[19][1]='-1';
-WOMT_aThesenParteienText[19][1][0]='Straßenkriminalität, Vandalismus und offene Drogenszenen mit ihren negativen Begleiterscheinungen beeinflussen nachhaltig das Sicherheitsgefühl der Bevölkerung. Durch den offenen Einsatz von Videotechnik an Kriminalitätsbrennpunkten werden im Rahmen eines den jeweiligen spezifischen Gegebenheiten Rechnung tragenden Konzepts insbesondere Straftaten verhindert, Gefahren für die öffentliche Sicherheit abgewehrt und Störungen beseitigt, das Sicherheitsgefühl der Bevölkerung gestärkt, Angsträume beseitigt, Fahndungsansätze gewonnen, die Aufklärungsquote und die Effizienz und Effektivität polizeilicher Maßnahmen verbessert.';
+WOMT_aThesenParteienText[19][1][0]='StraÃŸenkriminalitÃ¤t, Vandalismus und offene Drogenszenen mit ihren negativen Begleiterscheinungen beeinflussen nachhaltig das SicherheitsgefÃ¼hl der BevÃ¶lkerung. Durch den offenen Einsatz von Videotechnik an KriminalitÃ¤tsbrennpunkten werden im Rahmen eines den jeweiligen spezifischen Gegebenheiten Rechnung tragenden Konzepts insbesondere Straftaten verhindert, Gefahren fÃ¼r die Ã¶ffentliche Sicherheit abgewehrt und StÃ¶rungen beseitigt, das SicherheitsgefÃ¼hl der BevÃ¶lkerung gestÃ¤rkt, AngstrÃ¤ume beseitigt, FahndungsansÃ¤tze gewonnen, die AufklÃ¤rungsquote und die Effizienz und EffektivitÃ¤t polizeilicher MaÃŸnahmen verbessert.';
 WOMT_aThesenParteien[19][0]='1';
 WOMT_aThesenParteienText[19][0][0]='Der Schutz des Grundrechts auf informationelle Selbstbestimmung darf nicht preisgegeben werden.';
 WOMT_aThesenParteien[19][2]='0';
-WOMT_aThesenParteienText[19][2][0]='An gewissen Kriminalitätsschwerpunkten hat sich die Videoüberwachung bewährt. Eine generelle Videoüberwachung lehnen wir aber ab.';
+WOMT_aThesenParteienText[19][2][0]='An gewissen KriminalitÃ¤tsschwerpunkten hat sich die VideoÃ¼berwachung bewÃ¤hrt. Eine generelle VideoÃ¼berwachung lehnen wir aber ab.';
 WOMT_aThesenParteien[19][4]='1';
-WOMT_aThesenParteienText[19][4][0]='Die WASG lehnt eine Ausweitung des Überwachungsstaates ab. Statt in teure Überwachung zur Folgebekämpfung sollte besser in Prävention investiert werden.';
+WOMT_aThesenParteienText[19][4][0]='Die WASG lehnt eine Ausweitung des Ãœberwachungsstaates ab. Statt in teure Ãœberwachung zur FolgebekÃ¤mpfung sollte besser in PrÃ¤vention investiert werden.';
 WOMT_aThesenParteien[19][3]='-1';
 WOMT_aThesenParteienText[19][3][0]='Nur unter strengen Voraussetzungen wie z.B. dem Datenschutz.';
 WOMT_aThesenParteien[20][1]='-1';
 WOMT_aThesenParteienText[20][1][0]='';
 WOMT_aThesenParteien[20][0]='1';
-WOMT_aThesenParteienText[20][0][0]='Wer in Zukunft verantwortungsbewusst entscheiden soll, muss bereits in jungen Jahren mitbestimmen können. Deshalb plädieren wir für ein aktives Wahlrecht ab 16 Jahren.';
+WOMT_aThesenParteienText[20][0][0]='Wer in Zukunft verantwortungsbewusst entscheiden soll, muss bereits in jungen Jahren mitbestimmen kÃ¶nnen. Deshalb plÃ¤dieren wir fÃ¼r ein aktives Wahlrecht ab 16 Jahren.';
 WOMT_aThesenParteien[20][2]='-1';
-WOMT_aThesenParteienText[20][2][0]='Das Wahlrecht ab 18 Jahren halten wir für völlig ausreichend.';
+WOMT_aThesenParteienText[20][2][0]='Das Wahlrecht ab 18 Jahren halten wir fÃ¼r vÃ¶llig ausreichend.';
 WOMT_aThesenParteien[20][4]='1';
-WOMT_aThesenParteienText[20][4][0]='Auch Jugendliche sollen ihre Interessen bei Wahlen vertreten können. Viele 16-Jährige sind bereits politisch gebildeter und engagierter als mancher 50- oder 90-Jährige. Wir sind der Meinung, dass Menschen selbst entscheiden können sollten, ab wann sie sich in der Lage sehen, eine qualifizierte Wahlentscheidung treffen zu können.';
+WOMT_aThesenParteienText[20][4][0]='Auch Jugendliche sollen ihre Interessen bei Wahlen vertreten kÃ¶nnen. Viele 16-JÃ¤hrige sind bereits politisch gebildeter und engagierter als mancher 50- oder 90-JÃ¤hrige. Wir sind der Meinung, dass Menschen selbst entscheiden kÃ¶nnen sollten, ab wann sie sich in der Lage sehen, eine qualifizierte Wahlentscheidung treffen zu kÃ¶nnen.';
 WOMT_aThesenParteien[20][3]='1';
-WOMT_aThesenParteienText[20][3][0]='Die SPD setzt sich für eine Aktivierung der jungen Menschen ins politische Leben bereits in frühen Jahren ein.';
+WOMT_aThesenParteienText[20][3][0]='Die SPD setzt sich fÃ¼r eine Aktivierung der jungen Menschen ins politische Leben bereits in frÃ¼hen Jahren ein.';
 WOMT_aThesenParteien[21][1]='-1';
-WOMT_aThesenParteienText[21][1][0]='Es ist völlig lebensfremd bspw. an Schulmensen den Verkauf von Schoko-Riegeln zu verbieten. Die CDU setzt darüber hinaus darauf, den Schülerinnen und Schülern die Grundlagen von gesunder Ernährung im Unterricht beizubringen.';
+WOMT_aThesenParteienText[21][1][0]='Es ist vÃ¶llig lebensfremd bspw. an Schulmensen den Verkauf von Schoko-Riegeln zu verbieten. Die CDU setzt darÃ¼ber hinaus darauf, den SchÃ¼lerinnen und SchÃ¼lern die Grundlagen von gesunder ErnÃ¤hrung im Unterricht beizubringen.';
 WOMT_aThesenParteien[21][0]='1';
-WOMT_aThesenParteienText[21][0][0]='Junk Food hat an Schulen nichts verloren. Die Schulen müssen Sorge für gute und gesunde Ernährung ihrer Schülerinnen und Schüler tragen.';
+WOMT_aThesenParteienText[21][0][0]='Junk Food hat an Schulen nichts verloren. Die Schulen mÃ¼ssen Sorge fÃ¼r gute und gesunde ErnÃ¤hrung ihrer SchÃ¼lerinnen und SchÃ¼ler tragen.';
 WOMT_aThesenParteien[21][2]='-1';
-WOMT_aThesenParteienText[21][2][0]='Mit Verboten werden Probleme nicht gelöst. Die FDP setzt auf mehr Aufklärung im Bereich der Ernährung und Gesundheitsvorsorge.';
+WOMT_aThesenParteienText[21][2][0]='Mit Verboten werden Probleme nicht gelÃ¶st. Die FDP setzt auf mehr AufklÃ¤rung im Bereich der ErnÃ¤hrung und Gesundheitsvorsorge.';
 WOMT_aThesenParteien[21][4]='0';
-WOMT_aThesenParteienText[21][4][0]='Um eine gesunde Ernährung der Kinder zu fördern, sollten an Schulen auch gesunde Lebensmittel verkauft werden. Statt auf landesweite Verbote setzen wir aber auf verstärkte Aufklärung im Unterricht und Diskussionen und Entscheidungen vor Ort, ob solche Lebensmittel an der Schule vertrieben werden.';
+WOMT_aThesenParteienText[21][4][0]='Um eine gesunde ErnÃ¤hrung der Kinder zu fÃ¶rdern, sollten an Schulen auch gesunde Lebensmittel verkauft werden. Statt auf landesweite Verbote setzen wir aber auf verstÃ¤rkte AufklÃ¤rung im Unterricht und Diskussionen und Entscheidungen vor Ort, ob solche Lebensmittel an der Schule vertrieben werden.';
 WOMT_aThesenParteien[21][3]='1';
-WOMT_aThesenParteienText[21][3][0]='Im Sinne der Prävention übergewichtiger Kinder mit der Ursache falscher Ernährung und fehlender Bewegung; muß jedoch nicht durch ein Gesetz geregelt werden.';
+WOMT_aThesenParteienText[21][3][0]='Im Sinne der PrÃ¤vention Ã¼bergewichtiger Kinder mit der Ursache falscher ErnÃ¤hrung und fehlender Bewegung; muÃŸ jedoch nicht durch ein Gesetz geregelt werden.';
 WOMT_aThesenParteien[22][1]='-1';
 WOMT_aThesenParteienText[22][1][0]='';
 WOMT_aThesenParteien[22][0]='1';
-WOMT_aThesenParteienText[22][0][0]='Wir brauchen ein wirksames und differenziertes Suchthilfekonzept, in dem Prävention, Therapie und Schadensminderung als gleichberechtigte Säulen nebeneinander stehen. Bei weichen Drogen wie Cannabis wollen wir unter Berücksichtigung des Jugendschutzes eine legale Abgabeform ermöglichen. Wir fordern die klare Festsetzung von Grenzwerten beim Führerscheinentzug und eine Gleichbehandlung von Alkohol und Cannabis in dieser Frage.';
+WOMT_aThesenParteienText[22][0][0]='Wir brauchen ein wirksames und differenziertes Suchthilfekonzept, in dem PrÃ¤vention, Therapie und Schadensminderung als gleichberechtigte SÃ¤ulen nebeneinander stehen. Bei weichen Drogen wie Cannabis wollen wir unter BerÃ¼cksichtigung des Jugendschutzes eine legale Abgabeform ermÃ¶glichen. Wir fordern die klare Festsetzung von Grenzwerten beim FÃ¼hrerscheinentzug und eine Gleichbehandlung von Alkohol und Cannabis in dieser Frage.';
 WOMT_aThesenParteien[22][2]='0';
-WOMT_aThesenParteienText[22][2][0]='Wir wollen dass die kontrollierte Abgabe von Heroin bei Schwerstabhängigen über den Modellversuch in Karlsruhe hinaus erweitert und vom Land mitgetragen wird. Geänderte bundesgesetzliche Regelungen ermöglichen die kontrollierte Abgabe von Heroin im Rahmen von Modellversuchen.';
+WOMT_aThesenParteienText[22][2][0]='Wir wollen dass die kontrollierte Abgabe von Heroin bei SchwerstabhÃ¤ngigen Ã¼ber den Modellversuch in Karlsruhe hinaus erweitert und vom Land mitgetragen wird. GeÃ¤nderte bundesgesetzliche Regelungen ermÃ¶glichen die kontrollierte Abgabe von Heroin im Rahmen von Modellversuchen.';
 WOMT_aThesenParteien[22][4]='1';
-WOMT_aThesenParteienText[22][4][0]='Um die Beschaffungskriminalität zu senken, setzt sich die WASG für die kontrollierte Abgabe des Ersatzstoffes Methadon an Heroinabhängige ein.';
+WOMT_aThesenParteienText[22][4][0]='Um die BeschaffungskriminalitÃ¤t zu senken, setzt sich die WASG fÃ¼r die kontrollierte Abgabe des Ersatzstoffes Methadon an HeroinabhÃ¤ngige ein.';
 WOMT_aThesenParteien[22][3]='1';
 WOMT_aThesenParteienText[22][3][0]='Methadon ist eine Krankenkassenleistung; die SPD sieht die Verantwortung des Landes bei der Finanzierung der psychosozialen Begleitung des Methadonprogramms.';
 WOMT_aThesenParteien[23][1]='-1';
-WOMT_aThesenParteienText[23][1][0]='Ein komplettes Verbot von Käfigen würde dazu führen, dass die Betriebe ins europäische Ausland (bspw. Tschechien) auswandern und dort zu Bedingungen produzieren, die bei uns verboten wären. Über den europäischen Binnenmarkt würden die Eier trotzdem eingeführt werden können. Die CDU Baden-Württemberg setzt deshalb nicht auf ein komplettes Verbot, sondern auf tierschutzgerecht ausgestaltete Käfige. ';
+WOMT_aThesenParteienText[23][1][0]='Ein komplettes Verbot von KÃ¤figen wÃ¼rde dazu fÃ¼hren, dass die Betriebe ins europÃ¤ische Ausland (bspw. Tschechien) auswandern und dort zu Bedingungen produzieren, die bei uns verboten wÃ¤ren. Ãœber den europÃ¤ischen Binnenmarkt wÃ¼rden die Eier trotzdem eingefÃ¼hrt werden kÃ¶nnen. Die CDU Baden-WÃ¼rttemberg setzt deshalb nicht auf ein komplettes Verbot, sondern auf tierschutzgerecht ausgestaltete KÃ¤fige. ';
 WOMT_aThesenParteien[23][0]='1';
-WOMT_aThesenParteienText[23][0][0]='Die rot-grüne Bundesregierung hat das Verbot der Käfighaltung in der Hühnerhaltung eingeführt. Wir setzen alles daran, dass es nicht rückgängig gemacht wird, sondern vergleichbare Fortschritte auch bei der Haltung anderer landwirtschaftlicher Nutztiere erreicht werden.';
+WOMT_aThesenParteienText[23][0][0]='Die rot-grÃ¼ne Bundesregierung hat das Verbot der KÃ¤fighaltung in der HÃ¼hnerhaltung eingefÃ¼hrt. Wir setzen alles daran, dass es nicht rÃ¼ckgÃ¤ngig gemacht wird, sondern vergleichbare Fortschritte auch bei der Haltung anderer landwirtschaftlicher Nutztiere erreicht werden.';
 WOMT_aThesenParteien[23][2]='-1';
-WOMT_aThesenParteienText[23][2][0]='Nationale Alleingänge führen zu keiner Verbesserung des Tierschutzes sondern zu Produktionsverlagerungen ins Ausland.';
+WOMT_aThesenParteienText[23][2][0]='Nationale AlleingÃ¤nge fÃ¼hren zu keiner Verbesserung des Tierschutzes sondern zu Produktionsverlagerungen ins Ausland.';
 WOMT_aThesenParteien[23][4]='1';
-WOMT_aThesenParteienText[23][4][0]='Die WASG setzt sich für besseren Tierschutz ein und lehnt Legebatterien  ab.';
+WOMT_aThesenParteienText[23][4][0]='Die WASG setzt sich fÃ¼r besseren Tierschutz ein und lehnt Legebatterien  ab.';
 WOMT_aThesenParteien[23][3]='1';
-WOMT_aThesenParteienText[23][3][0]='Ist bereits geltendes EU-Recht. In Deutschland gibt es nur noch max. 3 Jahre Bestandsschutz für bestehende Legebatterien.';
+WOMT_aThesenParteienText[23][3][0]='Ist bereits geltendes EU-Recht. In Deutschland gibt es nur noch max. 3 Jahre Bestandsschutz fÃ¼r bestehende Legebatterien.';
 WOMT_aThesenParteien[24][1]='1';
 WOMT_aThesenParteienText[24][1][0]='Bedarfsweise.';
 WOMT_aThesenParteien[24][0]='1';
-WOMT_aThesenParteienText[24][0][0]='Der LKW-Ausweichverkehr infolge der Autobahnmaut muss kurzfristig durch geeignete Maßnahmen reduziert werden.';
+WOMT_aThesenParteienText[24][0][0]='Der LKW-Ausweichverkehr infolge der Autobahnmaut muss kurzfristig durch geeignete MaÃŸnahmen reduziert werden.';
 WOMT_aThesenParteien[24][2]='-1';
-WOMT_aThesenParteienText[24][2][0]='Eine Ausweitung der LKW_Maut auf Bundesstraßen und Ausweichstrecken lehnen wir ab.';
+WOMT_aThesenParteienText[24][2][0]='Eine Ausweitung der LKW_Maut auf BundesstraÃŸen und Ausweichstrecken lehnen wir ab.';
 WOMT_aThesenParteien[24][4]='1';
-WOMT_aThesenParteienText[24][4][0]='Der Zustand, dass LKW-Fahrer von mautpflichtigen Autobahnen auf Bundesstraßen ausweichen führt zu längeren Fahrtstrecken und größeren Belastungen v.a. in den Städten. Dies muss dringend durch eine Einbeziehung von Ausweichstrecken in die Lkw-Maut geändert werden.';
+WOMT_aThesenParteienText[24][4][0]='Der Zustand, dass LKW-Fahrer von mautpflichtigen Autobahnen auf BundesstraÃŸen ausweichen fÃ¼hrt zu lÃ¤ngeren Fahrtstrecken und grÃ¶ÃŸeren Belastungen v.a. in den StÃ¤dten. Dies muss dringend durch eine Einbeziehung von Ausweichstrecken in die Lkw-Maut geÃ¤ndert werden.';
 WOMT_aThesenParteien[24][3]='0';
-WOMT_aThesenParteienText[24][3][0]='Dies nur bei genau zu prüfenden Einzelfallentscheidungen.';
+WOMT_aThesenParteienText[24][3][0]='Dies nur bei genau zu prÃ¼fenden Einzelfallentscheidungen.';
 WOMT_aThesenParteien[25][1]='-1';
-WOMT_aThesenParteienText[25][1][0]='Schulpflicht ist an Wohnsitz und ständigen Aufenthalt geknüpft. Für Kinder von Asylbewerbern, deren Verfahren in der Schwebe ist, besteht keine Schulpflicht, allerdings ein Recht auf Schulbesuch. Dies ist zu begrüßen.';
+WOMT_aThesenParteienText[25][1][0]='Schulpflicht ist an Wohnsitz und stÃ¤ndigen Aufenthalt geknÃ¼pft. FÃ¼r Kinder von Asylbewerbern, deren Verfahren in der Schwebe ist, besteht keine Schulpflicht, allerdings ein Recht auf Schulbesuch. Dies ist zu begrÃ¼ÃŸen.';
 WOMT_aThesenParteien[25][0]='1';
-WOMT_aThesenParteienText[25][0][0]='Das Recht auf Bildung gilt für alle Kinder und es ist daher Verpflichtung für Eltern und Land, dies den Kindern zu ermöglichen.';
+WOMT_aThesenParteienText[25][0][0]='Das Recht auf Bildung gilt fÃ¼r alle Kinder und es ist daher Verpflichtung fÃ¼r Eltern und Land, dies den Kindern zu ermÃ¶glichen.';
 WOMT_aThesenParteien[25][2]='1';
-WOMT_aThesenParteienText[25][2][0]='Ziel liberaler Integrationspolitik ist es, Zuwanderern gleiche Bildungs- und Berufschancen zu gewähren und sie möglichst umfassend am gesellschaftlichen und wirtschaftlichen Leben zu beteiligen. Die wechselseitige Bereitschaft, aufeinander zuzugehen, die gegenseitige Anerkennung der kulturellen und religiösen Identität, die Bereitschaft zum Erlernen der deutschen Sprache und die uneingeschränkte Akzeptanz unserer Rechts- und Werteordnung sind dabei Voraussetzungen für ein gedeihliches und friedliches Zusammenleben.';
+WOMT_aThesenParteienText[25][2][0]='Ziel liberaler Integrationspolitik ist es, Zuwanderern gleiche Bildungs- und Berufschancen zu gewÃ¤hren und sie mÃ¶glichst umfassend am gesellschaftlichen und wirtschaftlichen Leben zu beteiligen. Die wechselseitige Bereitschaft, aufeinander zuzugehen, die gegenseitige Anerkennung der kulturellen und religiÃ¶sen IdentitÃ¤t, die Bereitschaft zum Erlernen der deutschen Sprache und die uneingeschrÃ¤nkte Akzeptanz unserer Rechts- und Werteordnung sind dabei Voraussetzungen fÃ¼r ein gedeihliches und friedliches Zusammenleben.';
 WOMT_aThesenParteien[25][4]='1';
-WOMT_aThesenParteienText[25][4][0]='Kinder von AsylbewerberInnen und Flüchtlingen dürfen nicht von der Weiterentwicklung ihrer Fähigkeiten und Kenntnisse abgehalten werden und sollten daher auch der Schulpflicht unterliegen. Sie brauchen besondere Förderung, um ihre Sprachkompetenz zu stärken.';
+WOMT_aThesenParteienText[25][4][0]='Kinder von AsylbewerberInnen und FlÃ¼chtlingen dÃ¼rfen nicht von der Weiterentwicklung ihrer FÃ¤higkeiten und Kenntnisse abgehalten werden und sollten daher auch der Schulpflicht unterliegen. Sie brauchen besondere FÃ¶rderung, um ihre Sprachkompetenz zu stÃ¤rken.';
 WOMT_aThesenParteien[25][3]='1';
-WOMT_aThesenParteienText[25][3][0]='Gebot der Chancengleichheit! Man darf diese Kinder nur aufgrund ihres Flüchtlingsstatus# nicht chancenlos lassen.';
+WOMT_aThesenParteienText[25][3][0]='Gebot der Chancengleichheit! Man darf diese Kinder nur aufgrund ihres FlÃ¼chtlingsstatus# nicht chancenlos lassen.';
 WOMT_aThesenParteien[26][1]='0';
-WOMT_aThesenParteienText[26][1][0]='Die CDU im Land orientiert sich an der Koalitionsvereinbarung von CDU, CSU und SPD im Bund: Die Bundesregierung hat eine Regierungskommission eingesetzt, die, ausgehend vom geltenden Recht, bis Ende 2006 Vorschläge für eine moderne und europataugliche Weiterentwicklung der deutschen Unternehmensmitbestimmung erarbeiten will. Die Ergebnisse der Kommission werden aufgegriffen und, soweit erforderlich und geboten, Anpassungen an der Unternehmensmitbestimmung vorgenommen.';
+WOMT_aThesenParteienText[26][1][0]='Die CDU im Land orientiert sich an der Koalitionsvereinbarung von CDU, CSU und SPD im Bund: Die Bundesregierung hat eine Regierungskommission eingesetzt, die, ausgehend vom geltenden Recht, bis Ende 2006 VorschlÃ¤ge fÃ¼r eine moderne und europataugliche Weiterentwicklung der deutschen Unternehmensmitbestimmung erarbeiten will. Die Ergebnisse der Kommission werden aufgegriffen und, soweit erforderlich und geboten, Anpassungen an der Unternehmensmitbestimmung vorgenommen.';
 WOMT_aThesenParteien[26][0]='-1';
-WOMT_aThesenParteienText[26][0][0]='Die betriebliche Mitbestimmung in Deutschland ist ein gutes und erfolgreiches Instrument, um die Interessen der Beschäftigten und die Ziele der Unternehmen in Einklang zu bringen.';
+WOMT_aThesenParteienText[26][0][0]='Die betriebliche Mitbestimmung in Deutschland ist ein gutes und erfolgreiches Instrument, um die Interessen der BeschÃ¤ftigten und die Ziele der Unternehmen in Einklang zu bringen.';
 WOMT_aThesenParteien[26][2]='1';
-WOMT_aThesenParteienText[26][2][0]='Wir wollen eine mittelstandsfreundliche betriebliche Mitbestimmung. Die Ausweitung durch Rot-grün brachte zusätzliche Bürokratie, zusätzlichen Organisationsaufwand und damit zusätzliche Kosten in Höhe von mindestens 1,3 Mrd. Euro für die deutschen Unternehmen. Internationale Investoren werden abgeschreckt. Kleine und mittlere Unternehmen werden überfordert. Deren Vorteile - kurze, flexible Entscheidungswege - wurden durch die übertriebene Verrechtlichung der Beziehungen zwischen Unternehmensleitung, Belegschaft und Betriebsrat beseitigt. Die Gründung eines Betriebsrats halten wir erst in Unternehmen ab 20 Beschäftigten (heute 5 Beschäftigte) für sinnvoll. Für die Gültigkeit der Betriebsratswahl muß ein Quorum von mehr als 50 % der wahlberechtigten Arbeitnehmer erfüllt sein. Die Anzahl der Mitglieder im Betriebsrat ist zu reduzieren. Die Freistellung von Betriebsratsmitgliedern beginnt erst in Unternehmen mit mehr als 500 Beschäftigten (heute 200 Beschäftigte) mit einem freigestellten Betriebsratsmitglied.';
+WOMT_aThesenParteienText[26][2][0]='Wir wollen eine mittelstandsfreundliche betriebliche Mitbestimmung. Die Ausweitung durch Rot-grÃ¼n brachte zusÃ¤tzliche BÃ¼rokratie, zusÃ¤tzlichen Organisationsaufwand und damit zusÃ¤tzliche Kosten in HÃ¶he von mindestens 1,3 Mrd. Euro fÃ¼r die deutschen Unternehmen. Internationale Investoren werden abgeschreckt. Kleine und mittlere Unternehmen werden Ã¼berfordert. Deren Vorteile - kurze, flexible Entscheidungswege - wurden durch die Ã¼bertriebene Verrechtlichung der Beziehungen zwischen Unternehmensleitung, Belegschaft und Betriebsrat beseitigt. Die GrÃ¼ndung eines Betriebsrats halten wir erst in Unternehmen ab 20 BeschÃ¤ftigten (heute 5 BeschÃ¤ftigte) fÃ¼r sinnvoll. FÃ¼r die GÃ¼ltigkeit der Betriebsratswahl muÃŸ ein Quorum von mehr als 50 % der wahlberechtigten Arbeitnehmer erfÃ¼llt sein. Die Anzahl der Mitglieder im Betriebsrat ist zu reduzieren. Die Freistellung von Betriebsratsmitgliedern beginnt erst in Unternehmen mit mehr als 500 BeschÃ¤ftigten (heute 200 BeschÃ¤ftigte) mit einem freigestellten Betriebsratsmitglied.';
 WOMT_aThesenParteien[26][4]='-1';
-WOMT_aThesenParteienText[26][4][0]='Die WASG setzt sich für eine stärkere Demokratisierung der Gesellschaft ein. Die Arbeitsstätte, in denen Menschen einen Großteil ihrer Zeit verbringen, ist dabei ein wesentlicher Bestandteil.';
+WOMT_aThesenParteienText[26][4][0]='Die WASG setzt sich fÃ¼r eine stÃ¤rkere Demokratisierung der Gesellschaft ein. Die ArbeitsstÃ¤tte, in denen Menschen einen GroÃŸteil ihrer Zeit verbringen, ist dabei ein wesentlicher Bestandteil.';
 WOMT_aThesenParteien[26][3]='-1';
-WOMT_aThesenParteienText[26][3][0]='Arbeitnehmerrechte sorgen für motivierte und selbstbewusste Belegschaft, die entscheidender Erfolgsfaktor für die Wirtschaft ist.';
+WOMT_aThesenParteienText[26][3][0]='Arbeitnehmerrechte sorgen fÃ¼r motivierte und selbstbewusste Belegschaft, die entscheidender Erfolgsfaktor fÃ¼r die Wirtschaft ist.';
 WOMT_aThesenParteien[27][1]='-1';
 WOMT_aThesenParteienText[27][1][0]='';
 WOMT_aThesenParteien[27][0]='1';
-WOMT_aThesenParteienText[27][0][0]='Das Wahlrecht sollte aber davon abhängig gemacht werden, dass die Gegenseitigkeit verbürgt ist.';
+WOMT_aThesenParteienText[27][0][0]='Das Wahlrecht sollte aber davon abhÃ¤ngig gemacht werden, dass die Gegenseitigkeit verbÃ¼rgt ist.';
 WOMT_aThesenParteien[27][2]='-1';
-WOMT_aThesenParteienText[27][2][0]='Auf kommunaler Ebene halten wir ein solches Wahlrecht für sinnvoll. Auf Landes- und Bundesebene ist die deutsche Staatsbürgerschaft als Wahlrechtsvoraussetzung für uns unverzichtbar.';
+WOMT_aThesenParteienText[27][2][0]='Auf kommunaler Ebene halten wir ein solches Wahlrecht fÃ¼r sinnvoll. Auf Landes- und Bundesebene ist die deutsche StaatsbÃ¼rgerschaft als Wahlrechtsvoraussetzung fÃ¼r uns unverzichtbar.';
 WOMT_aThesenParteien[27][4]='1';
-WOMT_aThesenParteienText[27][4][0]='Wir stehen für eine bessere Integration von AusländerInnen. Beteiligungsmöglichkeiten am politischen Leben sind in diesem Zusammenhang ein wichtiger Schritt.';
+WOMT_aThesenParteienText[27][4][0]='Wir stehen fÃ¼r eine bessere Integration von AuslÃ¤nderInnen. BeteiligungsmÃ¶glichkeiten am politischen Leben sind in diesem Zusammenhang ein wichtiger Schritt.';
 WOMT_aThesenParteien[27][3]='-1';
-WOMT_aThesenParteienText[27][3][0]='Nicht-EU-BürgerInnen haben oftmals kein gesichertes Aufenthaltsrecht und der örtliche Bezug wie bei Kommunalwahlen ist bei einer Landtagswahl oft nicht gegeben.';
+WOMT_aThesenParteienText[27][3][0]='Nicht-EU-BÃ¼rgerInnen haben oftmals kein gesichertes Aufenthaltsrecht und der Ã¶rtliche Bezug wie bei Kommunalwahlen ist bei einer Landtagswahl oft nicht gegeben.';
 WOMT_aThesenParteien[28][1]='1';
 WOMT_aThesenParteienText[28][1][0]='';
 WOMT_aThesenParteien[28][0]='1';
-WOMT_aThesenParteienText[28][0][0]='Suchtprävention muss mit der Förderung sozialer Kompetenz schon im Kindergarten und in der Grundschule ansetzen und in weiterführenden Schulen mit sachlicher Aufklärung und spezifischen Informationen sinnvoll fortgesetzt werden. Wir fordern die Unzugänglichkeit von Zigarettenautomaten für Kinder und Werbebeschränkungen für Alkohol- und Tabakprodukte.';
+WOMT_aThesenParteienText[28][0][0]='SuchtprÃ¤vention muss mit der FÃ¶rderung sozialer Kompetenz schon im Kindergarten und in der Grundschule ansetzen und in weiterfÃ¼hrenden Schulen mit sachlicher AufklÃ¤rung und spezifischen Informationen sinnvoll fortgesetzt werden. Wir fordern die UnzugÃ¤nglichkeit von Zigarettenautomaten fÃ¼r Kinder und WerbebeschrÃ¤nkungen fÃ¼r Alkohol- und Tabakprodukte.';
 WOMT_aThesenParteien[28][2]='-1';
-WOMT_aThesenParteienText[28][2][0]='Verbote sind keine Lösung. Die FDP Baden-Württemberg sieht dauerhaft einen höheren gesellschaftlichen Aufklärungsbedarf über die Gefahren des Zigarettenkonsums, der so früh als möglich befriedigt werden sollte.';
+WOMT_aThesenParteienText[28][2][0]='Verbote sind keine LÃ¶sung. Die FDP Baden-WÃ¼rttemberg sieht dauerhaft einen hÃ¶heren gesellschaftlichen AufklÃ¤rungsbedarf Ã¼ber die Gefahren des Zigarettenkonsums, der so frÃ¼h als mÃ¶glich befriedigt werden sollte.';
 WOMT_aThesenParteien[28][4]='1';
-WOMT_aThesenParteienText[28][4][0]='Die WASG ist für die komplette Abschaffung von Zigarettenautomaten, weil diese bereits Kindern die Zerstörung ihrer Gesundheit durch Rauchen ermöglichen. Insbesondere in Umkreis von Schulen haben Zigarettenautomaten nichts zu suchen!';
+WOMT_aThesenParteienText[28][4][0]='Die WASG ist fÃ¼r die komplette Abschaffung von Zigarettenautomaten, weil diese bereits Kindern die ZerstÃ¶rung ihrer Gesundheit durch Rauchen ermÃ¶glichen. Insbesondere in Umkreis von Schulen haben Zigarettenautomaten nichts zu suchen!';
 WOMT_aThesenParteien[28][3]='1';
-WOMT_aThesenParteienText[28][3][0]='Als Prävention gegen das Rauchen bei Schulkindern und Jugendlichen.';
+WOMT_aThesenParteienText[28][3][0]='Als PrÃ¤vention gegen das Rauchen bei Schulkindern und Jugendlichen.';
 WOMT_aThesenParteien[29][1]='-1';
-WOMT_aThesenParteienText[29][1][0]='Beteiligungsrechte (Bürgerentscheid, Bürgerbegehren) sind gerade erst auf kommunaler Ebene erweitert bzw. erleichtert worden und dort am ehesten sinnvoll. Bedarf auf Landesebene besteht nicht.';
+WOMT_aThesenParteienText[29][1][0]='Beteiligungsrechte (BÃ¼rgerentscheid, BÃ¼rgerbegehren) sind gerade erst auf kommunaler Ebene erweitert bzw. erleichtert worden und dort am ehesten sinnvoll. Bedarf auf Landesebene besteht nicht.';
 WOMT_aThesenParteien[29][0]='1';
-WOMT_aThesenParteienText[29][0][0]='Zur Verbesserung der politischen Entscheidungsmöglichkeiten durch direkte Demokratie wurde ein Gesetzentwurf eingebracht.';
+WOMT_aThesenParteienText[29][0][0]='Zur Verbesserung der politischen EntscheidungsmÃ¶glichkeiten durch direkte Demokratie wurde ein Gesetzentwurf eingebracht.';
 WOMT_aThesenParteien[29][2]='1';
-WOMT_aThesenParteienText[29][2][0]='Wir wollen die in der Landesverfassung vorgesehene Möglichkeit des Volksbegehrens und der Volksabstimmung ausbauen. Für das Zustandekommen eines Volksbegehrens soll es künftig ausreichen, wenn es von mindestens 10 % der Wahlberechtigten gestellt wird. Ein zur Volksabstimmung gestelltes Gesetz ist beschlossen, wenn es die Mehrheit der abgegebenen gültigen Stimmen findet und diese Mehrheit mindestens 20 % der Stimmberechtigten ausmacht. Es bleibt dabei, dass über Abgabengesetze, Besoldungsgesetze und das Staatshaushaltsgesetz keine Volksabstimmung stattfinden kann.';
+WOMT_aThesenParteienText[29][2][0]='Wir wollen die in der Landesverfassung vorgesehene MÃ¶glichkeit des Volksbegehrens und der Volksabstimmung ausbauen. FÃ¼r das Zustandekommen eines Volksbegehrens soll es kÃ¼nftig ausreichen, wenn es von mindestens 10 % der Wahlberechtigten gestellt wird. Ein zur Volksabstimmung gestelltes Gesetz ist beschlossen, wenn es die Mehrheit der abgegebenen gÃ¼ltigen Stimmen findet und diese Mehrheit mindestens 20 % der Stimmberechtigten ausmacht. Es bleibt dabei, dass Ã¼ber Abgabengesetze, Besoldungsgesetze und das Staatshaushaltsgesetz keine Volksabstimmung stattfinden kann.';
 WOMT_aThesenParteien[29][4]='1';
-WOMT_aThesenParteienText[29][4][0]='Die WASG steht für eine stärkere Demokratisierung der Gesellschaft. Die Erleichterung von Volksentscheiden ist dabei ein wesentlicher Bestandteil.';
+WOMT_aThesenParteienText[29][4][0]='Die WASG steht fÃ¼r eine stÃ¤rkere Demokratisierung der Gesellschaft. Die Erleichterung von Volksentscheiden ist dabei ein wesentlicher Bestandteil.';
 WOMT_aThesenParteien[29][3]='1';
-WOMT_aThesenParteienText[29][3][0]='Ist ein wichtiges Anliegen für die SPD. Die Hürden für Volksinitiativen sind bislang zu hoch. Die SPD will die Bedingungen dafür erleichtern und Hürden abbauen!';
+WOMT_aThesenParteienText[29][3][0]='Ist ein wichtiges Anliegen fÃ¼r die SPD. Die HÃ¼rden fÃ¼r Volksinitiativen sind bislang zu hoch. Die SPD will die Bedingungen dafÃ¼r erleichtern und HÃ¼rden abbauen!';
 WOMT_aParteienLogos[0]=new Array();
 WOMT_aParteienLogos2[0]=new Array();
 WOMT_aParteienLogos3[0]=new Array();
@@ -1586,8 +1586,8 @@ WOMT_aParteienLogos4[0][1]='100';
 WOMT_aParteienLogos4[0][2]='50';
 WOMT_aParteien[0]=new Array();
 WOMT_aParteien[0][0]=new Array();
-WOMT_aParteien[0][0][0]='BÜNDNIS 90/DIE GRÜNEN';
-WOMT_aParteien[0][0][1]='BÜNDNIS 90/DIE GRÜNEN';
+WOMT_aParteien[0][0][0]='BÃœNDNIS 90/DIE GRÃœNEN';
+WOMT_aParteien[0][0][1]='BÃœNDNIS 90/DIE GRÃœNEN';
 WOMT_aParteienLogos[1]=new Array();
 WOMT_aParteienLogos2[1]=new Array();
 WOMT_aParteienLogos3[1]=new Array();
@@ -1679,19 +1679,19 @@ WOMT_aThemen[3][0]='Inneres und Demokratie';
 WOMT_aThemen[4]=new Array();
 WOMT_aThemen[4][0]='Schule und Hochschule';
 WOMT_aTexte['0_bn_hinweis_text']=new Array();
-WOMT_aTexte['0_bn_hinweis_text'][0]='Hinweis: Auf den Folgeseiten erscheint die Navigation an erster Stelle und bietet die Möglichkeit zu den entsprechenden Inhalten, zum Beispiel den jeweiligen Thesen zu springen.';
+WOMT_aTexte['0_bn_hinweis_text'][0]='Hinweis: Auf den Folgeseiten erscheint die Navigation an erster Stelle und bietet die MÃ¶glichkeit zu den entsprechenden Inhalten, zum Beispiel den jeweiligen Thesen zu springen.';
 WOMT_aTexte['0_bn_hinweis_text_2']=new Array();
-WOMT_aTexte['0_bn_hinweis_text_2'][0]='Hinweis: Nach dem Start des Wahl-O-Maten erscheint an dieser Stelle eine These, die im Anschluss mit den folgenden Entscheidungsmöglichkeiten beanwortet werden kann:';
+WOMT_aTexte['0_bn_hinweis_text_2'][0]='Hinweis: Nach dem Start des Wahl-O-Maten erscheint an dieser Stelle eine These, die im Anschluss mit den folgenden EntscheidungsmÃ¶glichkeiten beanwortet werden kann:';
 WOMT_aTexte['0_bn_willkommen_text']=new Array();
 WOMT_aTexte['0_bn_willkommen_text'][0]='zum Willkommenstext';
 WOMT_aTexte['0_ms_button_text']=new Array();
 WOMT_aTexte['0_ms_button_text'][0]='Start';
 WOMT_aTexte['0_ms_intro_text']=new Array();
-WOMT_aTexte['0_ms_intro_text'][0]='Die Parteien haben zu 30 Thesen Position bezogen. Jetzt sind Sie an der Reihe:<br/>Vergleichen Sie Ihre Standpunkte mit denen von <acronym title="BÜNDNIS 90/DIE GRÜNEN">BÜNDNIS 90/DIE GRÜNEN</acronym>, <acronym title="Christlich Demokratische Union Deutschlands">CDU</acronym>, <acronym title="Freie Demokratische Partei">FDP</acronym>, <acronym title="Sozialdemokratische Partei Deutschlands">SPD</acronym> und <acronym title="Partei Arbeit & soziale Gerechtigkeit - Die Wahlalternative">WASG</acronym>.';
+WOMT_aTexte['0_ms_intro_text'][0]='Die Parteien haben zu 30 Thesen Position bezogen. Jetzt sind Sie an der Reihe:<br/>Vergleichen Sie Ihre Standpunkte mit denen von <acronym title="BÃœNDNIS 90/DIE GRÃœNEN">BÃœNDNIS 90/DIE GRÃœNEN</acronym>, <acronym title="Christlich Demokratische Union Deutschlands">CDU</acronym>, <acronym title="Freie Demokratische Partei">FDP</acronym>, <acronym title="Sozialdemokratische Partei Deutschlands">SPD</acronym> und <acronym title="Partei Arbeit & soziale Gerechtigkeit - Die Wahlalternative">WASG</acronym>.';
 WOMT_aTexte['0_ms_start_title']=new Array();
 WOMT_aTexte['0_ms_start_title'][0]='Start des Wahl-O-Mat mit der ersten These';
 WOMT_aTexte['0_ms_title_text']=new Array();
-WOMT_aTexte['0_ms_title_text'][0]='Willkommen beim Wahl-O-Mat zur Landtagswahl in Baden-Württemberg 2006';
+WOMT_aTexte['0_ms_title_text'][0]='Willkommen beim Wahl-O-Mat zur Landtagswahl in Baden-WÃ¼rttemberg 2006';
 WOMT_aTexte['0_skinselect_1']=new Array();
 WOMT_aTexte['0_skinselect_1'][0]='Hirsch';
 WOMT_aTexte['0_skinselect_1_title']=new Array();
@@ -1711,13 +1711,13 @@ WOMT_aTexte['0_skinselect_std'][0]='Classic';
 WOMT_aTexte['0_skinselect_std_title']=new Array();
 WOMT_aTexte['0_skinselect_std_title'][0]='Classic-Skin';
 WOMT_aTexte['0_skinselect_text']=new Array();
-WOMT_aTexte['0_skinselect_text'][0]='Wählen Sie Ihre Wahl-O-Mat Edition!';
+WOMT_aTexte['0_skinselect_text'][0]='WÃ¤hlen Sie Ihre Wahl-O-Mat Edition!';
 WOMT_aTexte['1_bn_thesennavigation_text']=new Array();
 WOMT_aTexte['1_bn_thesennavigation_text'][0]='zur Thesennavigation';
 WOMT_aTexte['1_bn_zurthese_text']=new Array();
 WOMT_aTexte['1_bn_zurthese_text'][0]='zur These';
 WOMT_aTexte['1_fragen_bogus']=new Array();
-WOMT_aTexte['1_fragen_bogus'][0]='Bitte beantworten Sie die Fragen sorgfältig.';
+WOMT_aTexte['1_fragen_bogus'][0]='Bitte beantworten Sie die Fragen sorgfÃ¤ltig.';
 WOMT_aTexte['1_fragen_these']=new Array();
 WOMT_aTexte['1_fragen_these'][0]='These';
 WOMT_aTexte['1_fragen_von']=new Array();
@@ -1727,15 +1727,15 @@ WOMT_aTexte['1_leiste_thesenochmal_these_title'][0]='These [NR] nochmal aufrufen
 WOMT_aTexte['1_leiste_thesenochmal_title']=new Array();
 WOMT_aTexte['1_leiste_thesenochmal_title'][0]='Diese These erneut aufrufen.';
 WOMT_aTexte['1_leiste_vor_these']=new Array();
-WOMT_aTexte['1_leiste_vor_these'][0]='zur nächsten These [NR]';
+WOMT_aTexte['1_leiste_vor_these'][0]='zur nÃ¤chsten These [NR]';
 WOMT_aTexte['1_leiste_vor_zwischenauswertung']=new Array();
 WOMT_aTexte['1_leiste_vor_zwischenauswertung'][0]='weiter';
 WOMT_aTexte['1_leiste_zurueck_start']=new Array();
-WOMT_aTexte['1_leiste_zurueck_start'][0]='zurück zum Start';
+WOMT_aTexte['1_leiste_zurueck_start'][0]='zurÃ¼ck zum Start';
 WOMT_aTexte['1_leiste_zurueck_text']=new Array();
-WOMT_aTexte['1_leiste_zurueck_text'][0]='zurück';
+WOMT_aTexte['1_leiste_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['1_leiste_zurueck_these']=new Array();
-WOMT_aTexte['1_leiste_zurueck_these'][0]='zurück zur These [NR]';
+WOMT_aTexte['1_leiste_zurueck_these'][0]='zurÃ¼ck zur These [NR]';
 WOMT_aTexte['1_these_neutral_taste_title']=new Array();
 WOMT_aTexte['1_these_neutral_taste_title'][0]='Tastenkombination: Alt+x';
 WOMT_aTexte['1_these_stimmenichtzu_taste_title']=new Array();
@@ -1747,15 +1747,15 @@ WOMT_aTexte['1_these_ueberspringen_taste_title'][0]='These wird nicht gewertet, 
 WOMT_aTexte['2_bn_thesengewichtung_text']=new Array();
 WOMT_aTexte['2_bn_thesengewichtung_text'][0]='zur Thesengewichtung';
 WOMT_aTexte['2_btn_zurueck_text']=new Array();
-WOMT_aTexte['2_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['2_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['2_btn_zurueck_title']=new Array();
-WOMT_aTexte['2_btn_zurueck_title'][0]='zurück zur letzten These';
+WOMT_aTexte['2_btn_zurueck_title'][0]='zurÃ¼ck zur letzten These';
 WOMT_aTexte['2_ergebnis2_text']=new Array();
 WOMT_aTexte['2_ergebnis2_text'][0]='direkt anzeigen';
 WOMT_aTexte['2_ergebnis_text']=new Array();
 WOMT_aTexte['2_ergebnis_text'][0]='Ergebnis';
 WOMT_aTexte['2_text_text']=new Array();
-WOMT_aTexte['2_text_text'][0]='Wählen Sie Ihre Ansicht!';
+WOMT_aTexte['2_text_text'][0]='WÃ¤hlen Sie Ihre Ansicht!';
 WOMT_aTexte['2_thesen2_text']=new Array();
 WOMT_aTexte['2_thesen2_text'][0]='gewichten, dann Ergebnis anzeigen';
 WOMT_aTexte['2_thesen_text']=new Array();
@@ -1767,19 +1767,19 @@ WOMT_aTexte['3_bn_hinweis'][0]='Hinweis: die anschliessende Thesengewichtung hat
 WOMT_aTexte['3_bn_thesengewichtung_text']=new Array();
 WOMT_aTexte['3_bn_thesengewichtung_text'][0]='zur Thesengewichtung';
 WOMT_aTexte['3_btn_zurueck_text']=new Array();
-WOMT_aTexte['3_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['3_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['3_btn_zurueck_title']=new Array();
-WOMT_aTexte['3_btn_zurueck_title'][0]='zurück zur letzten These';
+WOMT_aTexte['3_btn_zurueck_title'][0]='zurÃ¼ck zur letzten These';
 WOMT_aTexte['3_form_submit_text']=new Array();
 WOMT_aTexte['3_form_submit_text'][0]='Ergebnis anzeigen';
 WOMT_aTexte['3_tabelle_auswahl']=new Array();
-WOMT_aTexte['3_tabelle_auswahl'][0]='Auswahl für<br/>2fache Gewichtung';
+WOMT_aTexte['3_tabelle_auswahl'][0]='Auswahl fÃ¼r<br/>2fache Gewichtung';
 WOMT_aTexte['3_tabelle_nr']=new Array();
 WOMT_aTexte['3_tabelle_nr'][0]='Nr.';
 WOMT_aTexte['3_tabelle_these']=new Array();
 WOMT_aTexte['3_tabelle_these'][0]='These';
 WOMT_aTexte['3_text_text']=new Array();
-WOMT_aTexte['3_text_text'][0]='Klicken Sie bitte auf die Thesen, die für Sie besonders wichtig sind. Der Wahl-O-Mat wird diese bei der Auswertung doppelt zählen.';
+WOMT_aTexte['3_text_text'][0]='Klicken Sie bitte auf die Thesen, die fÃ¼r Sie besonders wichtig sind. Der Wahl-O-Mat wird diese bei der Auswertung doppelt zÃ¤hlen.';
 WOMT_aTexte['3_titel_text']=new Array();
 WOMT_aTexte['3_titel_text'][0]='Thesengewichtung';
 WOMT_aTexte['4_bn_hinweis_tabelle']=new Array();
@@ -1791,36 +1791,36 @@ WOMT_aTexte['4_btn_thesenvergleich_text'][0]='weiter';
 WOMT_aTexte['4_btn_thesenvergleich_title']=new Array();
 WOMT_aTexte['4_btn_thesenvergleich_title'][0]='zum Thesenvergleich';
 WOMT_aTexte['4_btn_zurueck_text']=new Array();
-WOMT_aTexte['4_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['4_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['4_btn_zurueck_title']=new Array();
-WOMT_aTexte['4_btn_zurueck_title'][0]='zurück zur Gewichtung';
+WOMT_aTexte['4_btn_zurueck_title'][0]='zurÃ¼ck zur Gewichtung';
 WOMT_aTexte['4_ergebnis']=new Array();
 WOMT_aTexte['4_ergebnis'][0]='Ihr Wahl-O-Mat Ergebnis';
 WOMT_aTexte['4_erg_noergebnis_neutral']=new Array();
 WOMT_aTexte['4_erg_noergebnis_neutral'][0]='Der Wahl-O-Mat kann auf der Grundlage Ihres Antwortmusters kein\
-<br/>individuelles und zuverlässiges Ergebnis berechnen.\
-<br/>Sie können jedoch Ihre Positionen zu den Thesen mit denen der Parteien\
+<br/>individuelles und zuverlÃ¤ssiges Ergebnis berechnen.\
+<br/>Sie kÃ¶nnen jedoch Ihre Positionen zu den Thesen mit denen der Parteien\
 <br/>vergleichen.\
 <br/>\
 <br/>Klicken Sie dazu auf das Logo der Partei, mit der Sie Ihre Antworten\
-<br/>vergleichen möchten.';
+<br/>vergleichen mÃ¶chten.';
 WOMT_aTexte['4_erg_noergebnis_theseueberspringen']=new Array();
-WOMT_aTexte['4_erg_noergebnis_theseueberspringen'][0]='Sie haben bei zu vielen Thesen mit "These überspringen" gewählt.\
-<br/>Der Wahl-O-Mat kann daher kein Gesamtergebnis berechnen, also nicht angeben, welche Partei Ihnen auf der Grundlage der ausgewählten Thesen am nächsten steht.\
+WOMT_aTexte['4_erg_noergebnis_theseueberspringen'][0]='Sie haben bei zu vielen Thesen mit "These Ã¼berspringen" gewÃ¤hlt.\
+<br/>Der Wahl-O-Mat kann daher kein Gesamtergebnis berechnen, also nicht angeben, welche Partei Ihnen auf der Grundlage der ausgewÃ¤hlten Thesen am nÃ¤chsten steht.\
 <br/>\
-<br/>Sie können jedoch Ihre Positionen zu den Thesen mit denen der Parteien\
-<br/>vergleichen. Klicken Sie dazu auf das Logo der Partei, mit der Sie Ihre Antworten vergleichen möchten.';
+<br/>Sie kÃ¶nnen jedoch Ihre Positionen zu den Thesen mit denen der Parteien\
+<br/>vergleichen. Klicken Sie dazu auf das Logo der Partei, mit der Sie Ihre Antworten vergleichen mÃ¶chten.';
 WOMT_aTexte['4_erg_parteien_gleichstand']=new Array();
 WOMT_aTexte['4_erg_parteien_gleichstand'][0]='Zwei oder mehr Parteien in der nachfolgenden Statistik haben in\
 <br/>Ihrem Wahl-O-Mat Ergebnis die gleiche Punktzahl erlangt.';
 WOMT_aTexte['4_erg_text']=new Array();
-WOMT_aTexte['4_erg_text'][0]='Ihre Angaben haben mit folgender Partei die größte Übereinstimmung:';
+WOMT_aTexte['4_erg_text'][0]='Ihre Angaben haben mit folgender Partei die grÃ¶ÃŸte Ãœbereinstimmung:';
 WOMT_aTexte['4_position_der_partei']=new Array();
 WOMT_aTexte['4_position_der_partei'][0]='Position der Partei [PARTEI] zu allen Thesen';
 WOMT_aTexte['4_tabelle_partei']=new Array();
 WOMT_aTexte['4_tabelle_partei'][0]='Partei';
 WOMT_aTexte['4_tabelle_uebereinstimmung']=new Array();
-WOMT_aTexte['4_tabelle_uebereinstimmung'][0]='Übereinstimmung';
+WOMT_aTexte['4_tabelle_uebereinstimmung'][0]='Ãœbereinstimmung';
 WOMT_aTexte['4_vergleich_text']=new Array();
 WOMT_aTexte['4_vergleich_text'][0]='Wie kam Ihr Wahl-O-Mat-Ergebnis zu Stande?<br/>Vergleichen Sie Ihre Position zu jeder These mit allen Parteien:';
 WOMT_aTexte['4_vergleich_titel']=new Array();
@@ -1838,9 +1838,9 @@ WOMT_aTexte['5_btn_nutzungszahlen_text'][0]='Nutzungsstatistik';
 WOMT_aTexte['5_btn_nutzungszahlen_title']=new Array();
 WOMT_aTexte['5_btn_nutzungszahlen_title'][0]='Informationen zu den Nutzerzahlen';
 WOMT_aTexte['5_btn_zurueck_text']=new Array();
-WOMT_aTexte['5_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['5_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['5_btn_zurueck_title']=new Array();
-WOMT_aTexte['5_btn_zurueck_title'][0]='zurück zum Ergebnis';
+WOMT_aTexte['5_btn_zurueck_title'][0]='zurÃ¼ck zum Ergebnis';
 WOMT_aTexte['5_tabelle_head_mehrzumthema']=new Array();
 WOMT_aTexte['5_tabelle_head_mehrzumthema'][0]='Mehr zum Thema';
 WOMT_aTexte['5_tabelle_head_neutral']=new Array();
@@ -1854,7 +1854,7 @@ WOMT_aTexte['5_tabelle_head_stimmezu'][0]='stimme zu';
 WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_text']=new Array();
 WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_text'][0]='Info';
 WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_title']=new Array();
-WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_title'][0]='Weitere Informationen zum Thema auf bpb.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_title'][0]='Weitere Informationen zum Thema auf bpb.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['5_tabelle_inhalt_p_ja_d_ja']=new Array();
 WOMT_aTexte['5_tabelle_inhalt_p_ja_d_ja'][0]='Ich und die Partei stimmen zu';
 WOMT_aTexte['5_tabelle_inhalt_p_ja_d_nein']=new Array();
@@ -1886,29 +1886,29 @@ WOMT_aTexte['5_tabelle_legende_partei'][0]='Die Position der Partei';
 WOMT_aTexte['5_tabelle_legende_parteiinfos']=new Array();
 WOMT_aTexte['5_tabelle_legende_parteiinfos'][0]='Infos zur Parteiposition';
 WOMT_aTexte['5_tabelle_popup_parteithese_title']=new Array();
-WOMT_aTexte['5_tabelle_popup_parteithese_title'][0]='Position der Partei zur These (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['5_tabelle_popup_parteithese_title'][0]='Position der Partei zur These (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['5_text_text']=new Array();
-WOMT_aTexte['5_text_text'][0]='Und wie stehen die anderen Parteien dazu? Klicken Sie auf das Logo einer Partei, um ihre Position zu allen Thesen samt Begründung zu sehen.';
+WOMT_aTexte['5_text_text'][0]='Und wie stehen die anderen Parteien dazu? Klicken Sie auf das Logo einer Partei, um ihre Position zu allen Thesen samt BegrÃ¼ndung zu sehen.';
 WOMT_aTexte['5_title_text']=new Array();
 WOMT_aTexte['5_title_text'][0]='Vergleich im Detail';
 WOMT_aTexte['6_bn_hinweis']=new Array();
-WOMT_aTexte['6_bn_hinweis'][0]='Die folgenden zwei Zahlen sind Nutzergrenzen in der Grafik der Nutzungsstatistik und können ignoriert werden. Anschließend folgt eine Auflistung der Gesamtnutzerzahlen pro Tag.';
+WOMT_aTexte['6_bn_hinweis'][0]='Die folgenden zwei Zahlen sind Nutzergrenzen in der Grafik der Nutzungsstatistik und kÃ¶nnen ignoriert werden. AnschlieÃŸend folgt eine Auflistung der Gesamtnutzerzahlen pro Tag.';
 WOMT_aTexte['6_bn_hinweis_2']=new Array();
 WOMT_aTexte['6_bn_hinweis_2'][0]='Hinweis: Der folgende Zahlenblock stellt Datumspositionen der Nutzungsstatistik dar und kann ignoriert werden.';
 WOMT_aTexte['6_bn_zurnutzungsstatistik_text']=new Array();
 WOMT_aTexte['6_bn_zurnutzungsstatistik_text'][0]='zur Nutzungsstatistik';
 WOMT_aTexte['6_btn_zurueck_text']=new Array();
-WOMT_aTexte['6_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['6_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['6_btn_zurueck_title']=new Array();
-WOMT_aTexte['6_btn_zurueck_title'][0]='zurück zum Vergleich im Detail';
+WOMT_aTexte['6_btn_zurueck_title'][0]='zurÃ¼ck zum Vergleich im Detail';
 WOMT_aTexte['6_danke_text']=new Array();
-WOMT_aTexte['6_danke_text'][0]='Vielen Dank!<br/>für die [NUTZUNGEN] Nutzungen des Wahl-O-Mat zur Landtagswahl in Baden-Württemberg 2006.';
+WOMT_aTexte['6_danke_text'][0]='Vielen Dank!<br/>fÃ¼r die [NUTZUNGEN] Nutzungen des Wahl-O-Mat zur Landtagswahl in Baden-WÃ¼rttemberg 2006.';
 WOMT_aTexte['6_tabelle_nutzeram']=new Array();
 WOMT_aTexte['6_tabelle_nutzeram'][0]='Nutzer am';
 WOMT_aTexte['6_title_text']=new Array();
 WOMT_aTexte['6_title_text'][0]='Nutzungsstatistik';
 WOMT_aTexte['a_bn_menue_text']=new Array();
-WOMT_aTexte['a_bn_menue_text'][0]='zum Menü der zusätzlichen Angebote';
+WOMT_aTexte['a_bn_menue_text'][0]='zum MenÃ¼ der zusÃ¤tzlichen Angebote';
 WOMT_aTexte['a_bn_seitenstart_text']=new Array();
 WOMT_aTexte['a_bn_seitenstart_text'][0]='zum Seitenstart';
 WOMT_aTexte['a_button_neutral_text']=new Array();
@@ -1918,9 +1918,9 @@ WOMT_aTexte['a_button_stimmenichtzu_text'][0]='stimme nicht zu';
 WOMT_aTexte['a_button_stimmezu_text']=new Array();
 WOMT_aTexte['a_button_stimmezu_text'][0]='stimme zu';
 WOMT_aTexte['a_button_theseueberspringen_text']=new Array();
-WOMT_aTexte['a_button_theseueberspringen_text'][0]='These überspringen';
+WOMT_aTexte['a_button_theseueberspringen_text'][0]='These Ã¼berspringen';
 WOMT_aTexte['a_copyright_text']=new Array();
-WOMT_aTexte['a_copyright_text'][0]='Bundeszentrale für politische Bildung';
+WOMT_aTexte['a_copyright_text'][0]='Bundeszentrale fÃ¼r politische Bildung';
 WOMT_aTexte['a_neustart_text']=new Array();
 WOMT_aTexte['a_neustart_text'][0]='Neustart';
 WOMT_aTexte['a_neustart_title']=new Array();
@@ -1928,7 +1928,7 @@ WOMT_aTexte['a_neustart_title'][0]='Neustart des Wahl-O-Mat';
 WOMT_aTexte['nav_download_text']=new Array();
 WOMT_aTexte['nav_download_text'][0]='Download';
 WOMT_aTexte['nav_download_title']=new Array();
-WOMT_aTexte['nav_download_title'][0]='Offline-Version des Wahl-O-Mat zum Herunterladen. (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_download_title'][0]='Offline-Version des Wahl-O-Mat zum Herunterladen. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_email_text']=new Array();
 WOMT_aTexte['nav_email_text'][0]='E-Mail';
 WOMT_aTexte['nav_email_title']=new Array();
@@ -1938,98 +1938,98 @@ WOMT_aTexte['nav_faq_text'][0]='FAQ';
 WOMT_aTexte['nav_handy_text']=new Array();
 WOMT_aTexte['nav_handy_text'][0]='Handy-Version';
 WOMT_aTexte['nav_handy_title']=new Array();
-WOMT_aTexte['nav_handy_title'][0]='Download und Informationen zum Wahl-O-Mat-mobil (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_handy_title'][0]='Download und Informationen zum Wahl-O-Mat-mobil (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_impressum_text']=new Array();
 WOMT_aTexte['nav_impressum_text'][0]='Impressum';
 WOMT_aTexte['nav_impressum_title']=new Array();
-WOMT_aTexte['nav_impressum_title'][0]='Dieser Link öffnet sich in einem neuen Fenster.';
+WOMT_aTexte['nav_impressum_title'][0]='Dieser Link Ã¶ffnet sich in einem neuen Fenster.';
 WOMT_aTexte['nav_materialien_text']=new Array();
 WOMT_aTexte['nav_materialien_text'][0]='Wahl-O-Mat Info';
 WOMT_aTexte['nav_materialien_title']=new Array();
-WOMT_aTexte['nav_materialien_title'][0]='Materialien zum Wahl-O-Mat auf bpb.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_materialien_title'][0]='Materialien zum Wahl-O-Mat auf bpb.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_werstehtzurwahl_text']=new Array();
 WOMT_aTexte['nav_werstehtzurwahl_text'][0]='Wer steht zur Wahl?';
 WOMT_aTexte['nav_werstehtzurwahl_title']=new Array();
-WOMT_aTexte['nav_werstehtzurwahl_title'][0]='Sieben Fragen an alle zur Wahl zugelassenen Parteien (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_werstehtzurwahl_title'][0]='Sieben Fragen an alle zur Wahl zugelassenen Parteien (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['popup_faq_1_frage']=new Array();
-WOMT_aTexte['popup_faq_1_frage'][0]='Nach welchen Kriterien werden die Parteien für den Wahl-O-Mat ausgesucht?';
+WOMT_aTexte['popup_faq_1_frage'][0]='Nach welchen Kriterien werden die Parteien fÃ¼r den Wahl-O-Mat ausgesucht?';
 WOMT_aTexte['popup_faq_1_text_a']=new Array();
-WOMT_aTexte['popup_faq_1_text_a'][0]='Aus Gründen der statistischen Unterscheidbarkeit und der Handhabbarkeit des Tools können nicht alle zur Wahl zugelassenen Parteien in den Wahl-O-Mat aufgenommen werden. Wir legen bei der Auswahl der Parteien objektive und systematische Kriterien an. Aufgenommen werden';
+WOMT_aTexte['popup_faq_1_text_a'][0]='Aus GrÃ¼nden der statistischen Unterscheidbarkeit und der Handhabbarkeit des Tools kÃ¶nnen nicht alle zur Wahl zugelassenen Parteien in den Wahl-O-Mat aufgenommen werden. Wir legen bei der Auswahl der Parteien objektive und systematische Kriterien an. Aufgenommen werden';
 WOMT_aTexte['popup_faq_1_text_b']=new Array();
-WOMT_aTexte['popup_faq_1_text_b'][0]='Damit werden sowohl die etablierten Parteien, aber auch neu aufkommende Gruppierungen hinreichend berücksichtigt. Mit diesen Kriterien sind Kleinstparteien und -gruppierungen ausgeschlossen, die sich nur auf wenige Themen oder gar nur auf einen Schwerpunkt konzentrieren. Diese passen auch aus inhaltlichen Gründen nicht in den Wahl-O-Mat, der mit seinen Thesen das gesamte Spektrum gesellschaftlicher und politischer Fragen abdeckt. Denn ein wesentliches Ziel des Wahl-O-Mat ist es, die programmatischen Unterschiede zwischen den Parteien in der Breite zu verdeutlichen.Eine derart abgestufte Behandlung von Parteien ist laut Parteiengesetz möglich und zulässig. Wir kommen dem Informationsbedürfnis über alle zur Wahl zugelassenen Parteien durch ein weiteres Angebot "Wer steht zur Wahl" (<a href="http://www.werstehtzurwahl.de/bw" class="link_normal" title="Wer steht zur Wahl (Dieser Link öffnet sich in einem neuen Fenster.)" tabindex="12" target="_blank">www.werstehtzurwahl.de/bw</a>) auf <a href="http://www.bpb.de" class="link_normal" title="BPB: Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" tabindex="13" target="_blank">www.bpb.de</a> nach, wo diese dargestellt werden.';
+WOMT_aTexte['popup_faq_1_text_b'][0]='Damit werden sowohl die etablierten Parteien, aber auch neu aufkommende Gruppierungen hinreichend berÃ¼cksichtigt. Mit diesen Kriterien sind Kleinstparteien und -gruppierungen ausgeschlossen, die sich nur auf wenige Themen oder gar nur auf einen Schwerpunkt konzentrieren. Diese passen auch aus inhaltlichen GrÃ¼nden nicht in den Wahl-O-Mat, der mit seinen Thesen das gesamte Spektrum gesellschaftlicher und politischer Fragen abdeckt. Denn ein wesentliches Ziel des Wahl-O-Mat ist es, die programmatischen Unterschiede zwischen den Parteien in der Breite zu verdeutlichen.Eine derart abgestufte Behandlung von Parteien ist laut Parteiengesetz mÃ¶glich und zulÃ¤ssig. Wir kommen dem InformationsbedÃ¼rfnis Ã¼ber alle zur Wahl zugelassenen Parteien durch ein weiteres Angebot "Wer steht zur Wahl" (<a href="http://www.werstehtzurwahl.de/bw" class="link_normal" title="Wer steht zur Wahl (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" tabindex="12" target="_blank">www.werstehtzurwahl.de/bw</a>) auf <a href="http://www.bpb.de" class="link_normal" title="BPB: Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" tabindex="13" target="_blank">www.bpb.de</a> nach, wo diese dargestellt werden.';
 WOMT_aTexte['popup_faq_1_text_li_1']=new Array();
 WOMT_aTexte['popup_faq_1_text_li_1'][0]='1. Parteien, die bereits im Parlament vertreten sind,';
 WOMT_aTexte['popup_faq_1_text_li_2']=new Array();
-WOMT_aTexte['popup_faq_1_text_li_2'][0]='2. Parteien, die nach seriösen Prognosen eine realistische Chance haben, Parlamentsmandate zu erhalten (über drei Prozent in der "Sonntagsfrage").';
+WOMT_aTexte['popup_faq_1_text_li_2'][0]='2. Parteien, die nach seriÃ¶sen Prognosen eine realistische Chance haben, Parlamentsmandate zu erhalten (Ã¼ber drei Prozent in der "Sonntagsfrage").';
 WOMT_aTexte['popup_faq_2_frage']=new Array();
 WOMT_aTexte['popup_faq_2_frage'][0]='Wie ist der Wahl-O-Mat entwickelt worden? Sind die Parteien daran beteiligt gewesen?';
 WOMT_aTexte['popup_faq_2_text']=new Array();
-WOMT_aTexte['popup_faq_2_text'][0]='Der Wahl-O-Mat ist für die Bundesrepublik Deutschland erstmals zur Bundestagswahl 2002 eingesetzt worden. Er ist von einer unabhängigen Redaktion, die aus jungen Erwachsenen besteht, in Kooperation mit der Bundeszentrale für politische Bildung/bpb und mit Unterstützung ihrer Partner und des niederländischen Instituut voor Publiek en Politiek (Institut für Öffentlichkeit und Politik - IPP) entwickelt worden. Der Wahl-O-Mat ging aus dem StemWijzer hervor. Das ist ein vom IPP entwickelter Test, mit dem Sie feststellen können, wie Sie persönlich zu den Zielen und Positionen von Parteien stehen. Dieser Test ist in den Niederlanden seit Langem sehr populär: Über 2 Millionen Niederländerinnen und Niederländer haben bei den letzten Nationalwahlen in 2002 und 2003 den Test gemacht! Auch bei der Bundestagswahl 2002 haben 3,6 Millionen Userinnen und User den Wahl-O-Mat getestet. Darüber hinaus kam der Wahl-O-Mat mittlerweile bei verschiedenen Landtagswahlen, bei der Europawahl 2004 zum Einsatz und zuletzt bei der Bundestagswahl 2005 mit 5,1 Millionen Nutzungen.\
+WOMT_aTexte['popup_faq_2_text'][0]='Der Wahl-O-Mat ist fÃ¼r die Bundesrepublik Deutschland erstmals zur Bundestagswahl 2002 eingesetzt worden. Er ist von einer unabhÃ¤ngigen Redaktion, die aus jungen Erwachsenen besteht, in Kooperation mit der Bundeszentrale fÃ¼r politische Bildung/bpb und mit UnterstÃ¼tzung ihrer Partner und des niederlÃ¤ndischen Instituut voor Publiek en Politiek (Institut fÃ¼r Ã–ffentlichkeit und Politik - IPP) entwickelt worden. Der Wahl-O-Mat ging aus dem StemWijzer hervor. Das ist ein vom IPP entwickelter Test, mit dem Sie feststellen kÃ¶nnen, wie Sie persÃ¶nlich zu den Zielen und Positionen von Parteien stehen. Dieser Test ist in den Niederlanden seit Langem sehr populÃ¤r: Ãœber 2 Millionen NiederlÃ¤nderinnen und NiederlÃ¤nder haben bei den letzten Nationalwahlen in 2002 und 2003 den Test gemacht! Auch bei der Bundestagswahl 2002 haben 3,6 Millionen Userinnen und User den Wahl-O-Mat getestet. DarÃ¼ber hinaus kam der Wahl-O-Mat mittlerweile bei verschiedenen Landtagswahlen, bei der Europawahl 2004 zum Einsatz und zuletzt bei der Bundestagswahl 2005 mit 5,1 Millionen Nutzungen.\
 <br/>\
-<br/>Die Redaktion des Wahl-O-Mat für die Landtagswahl 2006 in Baden-Württemberg hat den Parteien BÜNDNIS 90/DIE GRÜNEN, CDU, FDP, SPD und WASG, die im Landtag vertreten sind bzw. nach Prognosen eine realistische Chance haben, in den baden-württembergischen Landtag einzuziehen, eine Liste mit 60 Thesen geschickt. Sie wurden gebeten, die Thesen entsprechend der Parteihaltung mit "stimme zu", "stimme nicht zu" oder "neutral" zu beantworten. Aus den ausgefüllten Listen wurden diejenigen Thesen rechnerisch ermittelt, die keine ausreichende Unterscheidung der Parteien möglich machten, und entfernt. Die Redaktion hat aus den verbleibenden Thesen eine endgültige Auswahl getroffen, die in den Wahl-O-Mat eingebunden wurden. Die Parteien waren an der Endauswahl der Thesen nicht beteiligt.';
+<br/>Die Redaktion des Wahl-O-Mat fÃ¼r die Landtagswahl 2006 in Baden-WÃ¼rttemberg hat den Parteien BÃœNDNIS 90/DIE GRÃœNEN, CDU, FDP, SPD und WASG, die im Landtag vertreten sind bzw. nach Prognosen eine realistische Chance haben, in den baden-wÃ¼rttembergischen Landtag einzuziehen, eine Liste mit 60 Thesen geschickt. Sie wurden gebeten, die Thesen entsprechend der Parteihaltung mit "stimme zu", "stimme nicht zu" oder "neutral" zu beantworten. Aus den ausgefÃ¼llten Listen wurden diejenigen Thesen rechnerisch ermittelt, die keine ausreichende Unterscheidung der Parteien mÃ¶glich machten, und entfernt. Die Redaktion hat aus den verbleibenden Thesen eine endgÃ¼ltige Auswahl getroffen, die in den Wahl-O-Mat eingebunden wurden. Die Parteien waren an der Endauswahl der Thesen nicht beteiligt.';
 WOMT_aTexte['popup_faq_3_frage']=new Array();
 WOMT_aTexte['popup_faq_3_frage'][0]='Wieso kommen manche wichtige Themen im Wahl-O-Mat nicht zur Sprache?';
 WOMT_aTexte['popup_faq_3_text']=new Array();
-WOMT_aTexte['popup_faq_3_text'][0]='Das ist eine schwierige Frage. Wer entscheidet, welche Themen wichtig sind und welche nicht? Die Regierung, die Parteien, die Medien und die Bürgerinnen und Bürger haben dazu sehr unterschiedliche Meinungen. Bei der Auswahl der Thesen für unseren Wahl-O-Mat bezogen wir uns vor allem auf jene Themen, zu denen die Parteien unterschiedliche Meinungen haben und auf jene, die besonders auch für junge Leute von Interesse sind. Leider sind während des Entstehungsprozesses auch "gute" Fragen aus dem Wahl-O-Mat gefallen. Dies kam vor, weil Fragen von einzelnen Parteien gar nicht oder nicht eindeutig mit stimme zu/stimme nicht zu/neutral beantwortet wurden oder weil die Parteipositionen in dieser Frage keine Unterscheidung zwischen den Parteien ermöglichten. Wir haben Interesse an Ihrer Meinung. Schicken Sie uns Ihre Überlegungen zu, am besten unter: <a tabindex="14" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>';
+WOMT_aTexte['popup_faq_3_text'][0]='Das ist eine schwierige Frage. Wer entscheidet, welche Themen wichtig sind und welche nicht? Die Regierung, die Parteien, die Medien und die BÃ¼rgerinnen und BÃ¼rger haben dazu sehr unterschiedliche Meinungen. Bei der Auswahl der Thesen fÃ¼r unseren Wahl-O-Mat bezogen wir uns vor allem auf jene Themen, zu denen die Parteien unterschiedliche Meinungen haben und auf jene, die besonders auch fÃ¼r junge Leute von Interesse sind. Leider sind wÃ¤hrend des Entstehungsprozesses auch "gute" Fragen aus dem Wahl-O-Mat gefallen. Dies kam vor, weil Fragen von einzelnen Parteien gar nicht oder nicht eindeutig mit stimme zu/stimme nicht zu/neutral beantwortet wurden oder weil die Parteipositionen in dieser Frage keine Unterscheidung zwischen den Parteien ermÃ¶glichten. Wir haben Interesse an Ihrer Meinung. Schicken Sie uns Ihre Ãœberlegungen zu, am besten unter: <a tabindex="14" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>';
 WOMT_aTexte['popup_faq_4_frage']=new Array();
 WOMT_aTexte['popup_faq_4_frage'][0]='Was kann ich antworten, wenn ich einer Aussage nur unter bestimmten Bedingungen zustimme?';
 WOMT_aTexte['popup_faq_4_text']=new Array();
-WOMT_aTexte['popup_faq_4_text'][0]='In solchen Fällen antworten Sie mit "neutral".';
+WOMT_aTexte['popup_faq_4_text'][0]='In solchen FÃ¤llen antworten Sie mit "neutral".';
 WOMT_aTexte['popup_faq_5_frage']=new Array();
-WOMT_aTexte['popup_faq_5_frage'][0]='Was mache ich, wenn ich zu einem Thema nichts angeben möchte?';
+WOMT_aTexte['popup_faq_5_frage'][0]='Was mache ich, wenn ich zu einem Thema nichts angeben mÃ¶chte?';
 WOMT_aTexte['popup_faq_5_text']=new Array();
-WOMT_aTexte['popup_faq_5_text'][0]='Dann enthalten Sie sich Ihrer Stimme und klicken auf "These überspringen". Diese Aussage wird dann beim Ergebnis nicht berücksichtigt. Letzteres sollten Sie aber nicht zu oft machen, denn wenn zu oft "überspringen" geklickt wird, kann natürlich auch kein zuverlässiges Ergebnis gegeben werden. Sie haben jedoch auch die Möglichkeit, jederzeit wieder zu einer Frage zurückzukehren, um sie doch noch zu beantworten.';
+WOMT_aTexte['popup_faq_5_text'][0]='Dann enthalten Sie sich Ihrer Stimme und klicken auf "These Ã¼berspringen". Diese Aussage wird dann beim Ergebnis nicht berÃ¼cksichtigt. Letzteres sollten Sie aber nicht zu oft machen, denn wenn zu oft "Ã¼berspringen" geklickt wird, kann natÃ¼rlich auch kein zuverlÃ¤ssiges Ergebnis gegeben werden. Sie haben jedoch auch die MÃ¶glichkeit, jederzeit wieder zu einer Frage zurÃ¼ckzukehren, um sie doch noch zu beantworten.';
 WOMT_aTexte['popup_faq_6_frage']=new Array();
-WOMT_aTexte['popup_faq_6_frage'][0]='Wie ist es möglich, dass ich als Ergebnis das Logo der Partei erhalte, die ich überhaupt nicht erwartet habe?';
+WOMT_aTexte['popup_faq_6_frage'][0]='Wie ist es mÃ¶glich, dass ich als Ergebnis das Logo der Partei erhalte, die ich Ã¼berhaupt nicht erwartet habe?';
 WOMT_aTexte['popup_faq_6_text']=new Array();
-WOMT_aTexte['popup_faq_6_text'][0]='Ja, das wissen wir natürlich auch nicht. Bitte erwarten Sie von uns kein Urteil darüber, was eine "gute" oder eine "schlechte" Partei ist. Es ist jedoch bekannt, dass der Wahl-O-Mat manchmal überraschende Ergebnisse aufweist. Das von Ihnen ermittelte Wahl-O-Mat Ergebnis ist eben ein Durchschnittsergebnis aus vielen Themengebieten. Es kann also sein, dass Sie bei einem Themengebiet die Meinung der Partei, der Sie bisher am nahesten standen, treffen, aber im Wahl-O-Mat Gesamtergebnis noch besser mit einer anderen Partei übereinstimmen. Berücksichtigt werden muss außerdem, dass sich das Ergebnis des Wahl-O-Mat eben nur auf die bereit gestellte Thesenauswahl bezieht. Sicher gibt es auch sonstige gute Gründe, sich der einen oder anderen Partei nahe zu fühlen. Wir finden, dass dies eine gute Gelegenheit ist, sich mit den eigenen politischen Positionen und denen der Parteien auseinander zu setzen.';
+WOMT_aTexte['popup_faq_6_text'][0]='Ja, das wissen wir natÃ¼rlich auch nicht. Bitte erwarten Sie von uns kein Urteil darÃ¼ber, was eine "gute" oder eine "schlechte" Partei ist. Es ist jedoch bekannt, dass der Wahl-O-Mat manchmal Ã¼berraschende Ergebnisse aufweist. Das von Ihnen ermittelte Wahl-O-Mat Ergebnis ist eben ein Durchschnittsergebnis aus vielen Themengebieten. Es kann also sein, dass Sie bei einem Themengebiet die Meinung der Partei, der Sie bisher am nahesten standen, treffen, aber im Wahl-O-Mat Gesamtergebnis noch besser mit einer anderen Partei Ã¼bereinstimmen. BerÃ¼cksichtigt werden muss auÃŸerdem, dass sich das Ergebnis des Wahl-O-Mat eben nur auf die bereit gestellte Thesenauswahl bezieht. Sicher gibt es auch sonstige gute GrÃ¼nde, sich der einen oder anderen Partei nahe zu fÃ¼hlen. Wir finden, dass dies eine gute Gelegenheit ist, sich mit den eigenen politischen Positionen und denen der Parteien auseinander zu setzen.';
 WOMT_aTexte['popup_faq_7_frage']=new Array();
-WOMT_aTexte['popup_faq_7_frage'][0]='Ich möchte mehr sehen als nur das Endergebnis.<br/>Wie kann ich die Einstellungen der verschiedenen Parteien auf einzelne Thesen erfahren und vergleichen?';
+WOMT_aTexte['popup_faq_7_frage'][0]='Ich mÃ¶chte mehr sehen als nur das Endergebnis.<br/>Wie kann ich die Einstellungen der verschiedenen Parteien auf einzelne Thesen erfahren und vergleichen?';
 WOMT_aTexte['popup_faq_7_text']=new Array();
-WOMT_aTexte['popup_faq_7_text'][0]='Nach Beantwortung aller Fragen sehen Sie, bei welchen Thesen Sie mit dem Standpunkt der Partei übereinstimmen bzw. nicht übereinstimmen. <br/><br/>Welche Antwort die verschiedenen anderen Parteien auf die einzelnen Thesen gegeben haben, sehen Sie ebenfalls auf dem Bildschirm mit dem persönlichen Wahl-O-Mat Ergebnis. Wenn Sie dort das Logo einer Partei anklicken, können Sie auf der dann folgenden Seite Ihre eigenen Stellungnahmen zu jeder These mit denen der dieser Partei im Detail vergleichen. Die Parteien haben bei vielen Thesen kurze Begründungen für ihre Positionierung ergänzt, die Sie lesen können, wenn Sie mit der Maus auf eine einzelne These klicken.';
+WOMT_aTexte['popup_faq_7_text'][0]='Nach Beantwortung aller Fragen sehen Sie, bei welchen Thesen Sie mit dem Standpunkt der Partei Ã¼bereinstimmen bzw. nicht Ã¼bereinstimmen. <br/><br/>Welche Antwort die verschiedenen anderen Parteien auf die einzelnen Thesen gegeben haben, sehen Sie ebenfalls auf dem Bildschirm mit dem persÃ¶nlichen Wahl-O-Mat Ergebnis. Wenn Sie dort das Logo einer Partei anklicken, kÃ¶nnen Sie auf der dann folgenden Seite Ihre eigenen Stellungnahmen zu jeder These mit denen der dieser Partei im Detail vergleichen. Die Parteien haben bei vielen Thesen kurze BegrÃ¼ndungen fÃ¼r ihre Positionierung ergÃ¤nzt, die Sie lesen kÃ¶nnen, wenn Sie mit der Maus auf eine einzelne These klicken.';
 WOMT_aTexte['popup_faq_zudenfragen']=new Array();
 WOMT_aTexte['popup_faq_zudenfragen'][0]='zu den Fragen';
 WOMT_aTexte['popup_faq_footer_text']=new Array();
-WOMT_aTexte['popup_faq_footer_text'][0]='Wenn Sie mehr über die Entstehung des Wahl-O-Mat oder über die Möglichkeiten, ihn in pädagogischen Zusammenhängen einzusetzen, wissen möchten, finden Sie weitere Informationen auf der Startseite <a tabindex="23" title="Wahl-O-Mat Homepage (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de/" target="_blank">www.wahl-o-mat.de</a>.';
+WOMT_aTexte['popup_faq_footer_text'][0]='Wenn Sie mehr Ã¼ber die Entstehung des Wahl-O-Mat oder Ã¼ber die MÃ¶glichkeiten, ihn in pÃ¤dagogischen ZusammenhÃ¤ngen einzusetzen, wissen mÃ¶chten, finden Sie weitere Informationen auf der Startseite <a tabindex="23" title="Wahl-O-Mat Homepage (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de/" target="_blank">www.wahl-o-mat.de</a>.';
 WOMT_aTexte['popup_faq_text_text']=new Array();
-WOMT_aTexte['popup_faq_text_text'][0]='Der Wahl-O-Mat bietet Ihnen anhand von 30 Thesen einen Einblick in wichtige Fragen zur Landtagswahl 2006 in Baden-Württemberg. Vergleichen Sie Ihre eigenen Ansichten mit der Position der einzelnen Parteien und finden Sie heraus: Welche Partei vertritt Ihre Meinung am besten? Am Ende erhalten Sie Ihr persönliches Wahl-O-Mat Ergebnis: Die Angabe der Partei, mit der die größte Übereinstimmung herrscht.\
+WOMT_aTexte['popup_faq_text_text'][0]='Der Wahl-O-Mat bietet Ihnen anhand von 30 Thesen einen Einblick in wichtige Fragen zur Landtagswahl 2006 in Baden-WÃ¼rttemberg. Vergleichen Sie Ihre eigenen Ansichten mit der Position der einzelnen Parteien und finden Sie heraus: Welche Partei vertritt Ihre Meinung am besten? Am Ende erhalten Sie Ihr persÃ¶nliches Wahl-O-Mat Ergebnis: Die Angabe der Partei, mit der die grÃ¶ÃŸte Ãœbereinstimmung herrscht.\
 <br/>\
-<br/>Die Thesen wurden von einem Redaktionsteam aus 16 Jung- bzw. Erstwählerinnen und -wählern auf der Basis der Wahlprogramme der Parteien entwickelt. Sie wurden dabei unterstützt von der Bundeszentrale für politische Bildung/bpb, der Landeszentrale für politische Bildung/lpb und des Landesjugendrings/ljr in Stuttgart, sowie von den Wissenschaftlern Priv.- Doz. Dr. Stefan Marschall, Wolf Dittmayer und Dr. Norbert Taubken. Alle Antworten wurden von den beteiligten Parteien autorisiert.\
+<br/>Die Thesen wurden von einem Redaktionsteam aus 16 Jung- bzw. ErstwÃ¤hlerinnen und -wÃ¤hlern auf der Basis der Wahlprogramme der Parteien entwickelt. Sie wurden dabei unterstÃ¼tzt von der Bundeszentrale fÃ¼r politische Bildung/bpb, der Landeszentrale fÃ¼r politische Bildung/lpb und des Landesjugendrings/ljr in Stuttgart, sowie von den Wissenschaftlern Priv.- Doz. Dr. Stefan Marschall, Wolf Dittmayer und Dr. Norbert Taubken. Alle Antworten wurden von den beteiligten Parteien autorisiert.\
 <br/>\
-<br/>Für die Landtagstagswahl 2006 am 26. März 2006 sind BÜNDNIS 90/DIE GRÜNEN, CDU, FDP, SPD und WASG im Wahl-O-Mat vertreten.\
+<br/>FÃ¼r die Landtagstagswahl 2006 am 26. MÃ¤rz 2006 sind BÃœNDNIS 90/DIE GRÃœNEN, CDU, FDP, SPD und WASG im Wahl-O-Mat vertreten.\
 <br/>\
-<br/>Die am häufigsten gestellten Fragen zum Wahl-O-Mat werden hier beantwortet. Sollten Sie weitere Fragen haben, schicken Sie uns einfach eine E-Mail:  <a tabindex="1" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>.';
+<br/>Die am hÃ¤ufigsten gestellten Fragen zum Wahl-O-Mat werden hier beantwortet. Sollten Sie weitere Fragen haben, schicken Sie uns einfach eine E-Mail:  <a tabindex="1" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>.';
 WOMT_aTexte['popup_faq_titel_text']=new Array();
 WOMT_aTexte['popup_faq_titel_text'][0]='Fragen zum Wahl-O-Mat';
 WOMT_aTexte['popup_impressum_text_text']=new Array();
-WOMT_aTexte['popup_impressum_text_text'][0]='<div class="text_normal">Der Wahl-O-Mat Landtagswahl Baden-Württemberg 2006 ist ein Produkt der <a tabindex="1" title="BPB: Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale für politische Bildung (bpb)</a>, <a tabindex="2" title="Landeszentrale für politische Bildung Baden-Württemberg (lpb) (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.lpb.bwue.de" target="_blank">der Landeszentrale für politische Bildung Baden-Württemberg (lpb)</a> und des <a tabindex="3" title="Landesjugendring Baden-Württemberg e.V. (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljrbw.de" target="_blank">Landesjugendrings Baden-Württemberg e.V.</a> mit Unterstützung des <a tabindex="4" title="IPP: Instituut voor Publiek en Politiek (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl" target="_blank"><span lang="nl">Instituut voor Publiek en Politiek (IPP)</span></a> in Amsterdam. Thesen und Inhalte des Wahl-O-Mat wurden von einem Redaktionsteam aus 16 Jungwählerinnen und Jungwählern entwickelt. Beraten wurden sie vom institutionellen Träger des Wahl-O-Mat und den Wissenschaftlern Wolf Dittmayer, Priv.-Doz. Dr. Stefan Marschall und Dr. Norbert Taubken.<br/><br/>Redaktionsschluss: 01.02.2006</div><h1 class="orange">Impressum</h1>\
-<br/><h2 class="text_bold">Herausgeber</h2><div class="text_normal">Bundeszentrale für politische Bildung/bpb, Bonn © 2006 \
+WOMT_aTexte['popup_impressum_text_text'][0]='<div class="text_normal">Der Wahl-O-Mat Landtagswahl Baden-WÃ¼rttemberg 2006 ist ein Produkt der <a tabindex="1" title="BPB: Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale fÃ¼r politische Bildung (bpb)</a>, <a tabindex="2" title="Landeszentrale fÃ¼r politische Bildung Baden-WÃ¼rttemberg (lpb) (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.lpb.bwue.de" target="_blank">der Landeszentrale fÃ¼r politische Bildung Baden-WÃ¼rttemberg (lpb)</a> und des <a tabindex="3" title="Landesjugendring Baden-WÃ¼rttemberg e.V. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljrbw.de" target="_blank">Landesjugendrings Baden-WÃ¼rttemberg e.V.</a> mit UnterstÃ¼tzung des <a tabindex="4" title="IPP: Instituut voor Publiek en Politiek (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl" target="_blank"><span lang="nl">Instituut voor Publiek en Politiek (IPP)</span></a> in Amsterdam. Thesen und Inhalte des Wahl-O-Mat wurden von einem Redaktionsteam aus 16 JungwÃ¤hlerinnen und JungwÃ¤hlern entwickelt. Beraten wurden sie vom institutionellen TrÃ¤ger des Wahl-O-Mat und den Wissenschaftlern Wolf Dittmayer, Priv.-Doz. Dr. Stefan Marschall und Dr. Norbert Taubken.<br/><br/>Redaktionsschluss: 01.02.2006</div><h1 class="orange">Impressum</h1>\
+<br/><h2 class="text_bold">Herausgeber</h2><div class="text_normal">Bundeszentrale fÃ¼r politische Bildung/bpb, Bonn Å  2006 \
 <br/>ViSdP: Thorsten Schilling \
-<br/>E-Mail: <a tabindex="9" title="" class="link_normal" href="mailto:schilling@bpb.de">schilling@bpb.de</a></div><h2 class="text_bold">Projektleitung</h2><div class="text_normal">für die Bundeszentrale für politische Bildung\
+<br/>E-Mail: <a tabindex="9" title="" class="link_normal" href="mailto:schilling@bpb.de">schilling@bpb.de</a></div><h2 class="text_bold">Projektleitung</h2><div class="text_normal">fÃ¼r die Bundeszentrale fÃ¼r politische Bildung\
 <br/>Pamela Brandt, Sebastian Deterding\
 <br/>Adenauerallee 86, 53113 Bonn\
 <br/>Tel.: 01888/ 515-539, Fax: 01888/ 515-498\
 <br/>E-Mail: <a tabindex="10" title="" class="link_normal" href="mailto:brandt@bpb.de">brandt@bpb.de</a>\
-<br/><a tabindex="11" title="BPB: Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a>\
+<br/><a tabindex="11" title="BPB: Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a>\
 <br/>\
-<br/>für die Landeszentrale für politische Bildung\
+<br/>fÃ¼r die Landeszentrale fÃ¼r politische Bildung\
 <br/>Wolfgang Berger\
 <br/>Stafflenbergstr. 38, 70184 Stuttgart\
 <br/>Tel: 0711/164099-22, Fax: 0711/164099-77\
 <br/>E-Mail: <a tabindex="20" title="" class="link_normal" href="mailto:wolfgang.berger@lpb.bwue.de">wolfgang.berger@lpb.bwue.de</a>\
-<br/><a tabindex="21" title="Landeszentrale für politische Bildung Baden-Württemberg (lpb) (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.lpb.bwue.de" target="_blank">www.lpb.bwue.de</a>\
+<br/><a tabindex="21" title="Landeszentrale fÃ¼r politische Bildung Baden-WÃ¼rttemberg (lpb) (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.lpb.bwue.de" target="_blank">www.lpb.bwue.de</a>\
 <br/>\
-<br/>für den Landesjugendring\
+<br/>fÃ¼r den Landesjugendring\
 <br/>Udo Wenzl\
 <br/>Siemensstr. 11, 70469 Stuttgart\
 <br/>Tel.: 0711/16447-31\
 <br/>E-Mail: <a tabindex="30" title="" class="link_normal" href="mailto:wenzl@ljrbw.de">wenzl@ljrbw.de</a>\
-<br/><a tabindex="31" title="Landesjugendring Baden-Württemberg e.V. (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljrbw.de" target="_blank">www.ljrbw.de</a>\
+<br/><a tabindex="31" title="Landesjugendring Baden-WÃ¼rttemberg e.V. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljrbw.de" target="_blank">www.ljrbw.de</a>\
 <br/></div><h2 class="text_bold">Inhalt und Redaktion</h2><img class="pic1" alt="Gruppenfoto der Redaktion" title="Gruppenfoto der Redaktion" width="420" height="363" src="./pix_change/pic_impressum_bw.jpg"/><div class="text_normal">\
 <br/>Roman Deck\
 <br/>Alexander Katz\
 <br/>Tolga Kaya\
-<br/>Timo Köllner\
+<br/>Timo KÃ¶llner\
 <br/>Susanne Krieg\
 <br/>Ilja Lifschiz\
 <br/>Yvonne Michel\
@@ -2041,28 +2041,28 @@ WOMT_aTexte['popup_impressum_text_text'][0]='<div class="text_normal">Der Wahl-O
 <br/>Fritz Sprengart\
 <br/>\
 <br/>Unter redaktioneller Mitwirkung von:\
-<br/>Johannes Düring\
-<br/>Christina Mössner\
+<br/>Johannes DÃ¼ring\
+<br/>Christina MÃ¶ssner\
 <br/>Tobias Pietsch\
 <br/>\
 <br/></div><h2 class="text_bold">Wissenschaftliche Begleitung</h2><div class="text_normal">Priv.-Doz. Dr. Stefan Marschall\
 <br/>E-Mail: <a tabindex="42" title="" class="link_normal" href="mailto:stefan.marschall@uni-duesseldorf.de">stefan.marschall@uni-duesseldorf.de</a>\
-<br/><a tabindex="43" title="Universität Duisburg-Essen (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.uni-duisburg-essen.de" target="_blank">Universität Duisburg-Essen</a>\
+<br/><a tabindex="43" title="UniversitÃ¤t Duisburg-Essen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.uni-duisburg-essen.de" target="_blank">UniversitÃ¤t Duisburg-Essen</a>\
 <br/>\
 <br/>Christian Schmidt\
 <br/>E-Mail: <a tabindex="44" title="" class="link_normal" href="mailto:christian.schmidt@uni-duesseldorf.de">christian.schmidt@uni-duesseldorf.de</a>\
-<br/><a tabindex="45" title="Universität Düsseldorf (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.uni-duesseldorf.de" target="_blank">Universität Düsseldorf</a></div><h2 class="text_bold">Didaktisches Material</h2><div class="text_normal">Wolf Dittmayer, Dipl. Soz.-Päd.<br/>E-Mail: <a tabindex="50" title="" class="link_normal" href="mailto:bildung@dittmayer.org">bildung@dittmayer.org</a><br/>Organisationsberatung</div><h2 class="text_bold">Koordination des Redaktionsteams, Beratung</h2><div class="text_normal">Dr. Norbert Taubken<br/>E-Mail: <a tabindex="60" title="" class="link_normal" href="mailto:taubken@csr-consult.de">taubken@csr-consult.de</a>\
-<br/><a tabindex="61" title="CSR consult (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.csr-consult.de" target="_blank">CSR consult, Hamburg</a></div><h2 class="text_bold">Gestaltungskonzept & Design</h2><div class="text_normal">Armin Berger<br/>E-Mail: <a tabindex="70" title="" class="link_normal" href="mailto:info@3-point.de">info@3-point.de</a>\
-<br/><a tabindex="71" title="3-point concepts GmbH (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://3-point.de" target="_blank">3-point concepts GmbH, Berlin</a></div><h2 class="text_bold">Programmierung</h2><div class="text_normal">Ulrich Santo<br/>E-Mail: <a tabindex="80" title="" class="link_normal" href="mailto:santo@glamus.de">santo@glamus.de</a>\
-<br/><a tabindex="81" title="GLAMUS GmbH (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.glamus.de" target="_blank">GLAMUS GmbH, Bonn</a></div><h2 class="text_bold">Copyright</h2><div class="text_normal"><a tabindex="90" title="BPP: Bundszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale für politische Bildung (bpb)</a>\
+<br/><a tabindex="45" title="UniversitÃ¤t DÃ¼sseldorf (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.uni-duesseldorf.de" target="_blank">UniversitÃ¤t DÃ¼sseldorf</a></div><h2 class="text_bold">Didaktisches Material</h2><div class="text_normal">Wolf Dittmayer, Dipl. Soz.-PÃ¤d.<br/>E-Mail: <a tabindex="50" title="" class="link_normal" href="mailto:bildung@dittmayer.org">bildung@dittmayer.org</a><br/>Organisationsberatung</div><h2 class="text_bold">Koordination des Redaktionsteams, Beratung</h2><div class="text_normal">Dr. Norbert Taubken<br/>E-Mail: <a tabindex="60" title="" class="link_normal" href="mailto:taubken@csr-consult.de">taubken@csr-consult.de</a>\
+<br/><a tabindex="61" title="CSR consult (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.csr-consult.de" target="_blank">CSR consult, Hamburg</a></div><h2 class="text_bold">Gestaltungskonzept & Design</h2><div class="text_normal">Armin Berger<br/>E-Mail: <a tabindex="70" title="" class="link_normal" href="mailto:info@3-point.de">info@3-point.de</a>\
+<br/><a tabindex="71" title="3-point concepts GmbH (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://3-point.de" target="_blank">3-point concepts GmbH, Berlin</a></div><h2 class="text_bold">Programmierung</h2><div class="text_normal">Ulrich Santo<br/>E-Mail: <a tabindex="80" title="" class="link_normal" href="mailto:santo@glamus.de">santo@glamus.de</a>\
+<br/><a tabindex="81" title="GLAMUS GmbH (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.glamus.de" target="_blank">GLAMUS GmbH, Bonn</a></div><h2 class="text_bold">Copyright</h2><div class="text_normal"><a tabindex="90" title="BPP: Bundszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale fÃ¼r politische Bildung (bpb)</a>\
 <br/>Produktverantwortlich: <a tabindex="91" title="" class="link_normal" href="mailto:brandt@bpb.de">Pamela Brandt</a>\
 <br/>Adenauer Allee 86\
 <br/>53111 Bonn\
 <br/>Tel: 01888/ 515-539<br/>Fax: 01888/ 515-498\
 <br/>E-Mail: <a tabindex="92" title="" class="link_normal" href="mailto:brandt@bpb.de">brandt@bpb.de</a>\
-<br/><a tabindex="93" title="BPP: Bundszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://bpb.de" target="_blank">www.bpb.de</a></div><h2 class="text_bold">Lizenz</h2><div class="text_normal"><a tabindex="100" title="IPP: Instituut voor Publiek en Politiek (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl" target="_blank"><span lang="nl">Instituut voor Publiek en Politiek (IPP), NL-Amsterdam</span></a>\
-<br/>Supervision: <a tabindex="101" title="" class="link_normal" href="mailto:j.degraaf@stemwijzer.nl">Jochum de Graaf</a></div><div class="text_normal">Die Vervielfältigung, Verbreitung und die öffentliche Wiedergabe des Wahl-O-Mat ist nicht gestattet.<br/>\
-<br/>Der Wahl-O-Mat ist urheberrechtlich geschützt.</div>';
+<br/><a tabindex="93" title="BPP: Bundszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://bpb.de" target="_blank">www.bpb.de</a></div><h2 class="text_bold">Lizenz</h2><div class="text_normal"><a tabindex="100" title="IPP: Instituut voor Publiek en Politiek (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl" target="_blank"><span lang="nl">Instituut voor Publiek en Politiek (IPP), NL-Amsterdam</span></a>\
+<br/>Supervision: <a tabindex="101" title="" class="link_normal" href="mailto:j.degraaf@stemwijzer.nl">Jochum de Graaf</a></div><div class="text_normal">Die VervielfÃ¤ltigung, Verbreitung und die Ã¶ffentliche Wiedergabe des Wahl-O-Mat ist nicht gestattet.<br/>\
+<br/>Der Wahl-O-Mat ist urheberrechtlich geschÃ¼tzt.</div>';
 WOMT_aTexte['popup_impressum_title_text']=new Array();
 WOMT_aTexte['popup_impressum_title_text'][0]='Was ist der Wahl-O-Mat?';
 WOMT_aTexte['popup_partei_du_neutral']=new Array();
@@ -2072,9 +2072,9 @@ WOMT_aTexte['popup_partei_du_stimmenichtzu'][0]='stimme nicht zu';
 WOMT_aTexte['popup_partei_du_stimmezu']=new Array();
 WOMT_aTexte['popup_partei_du_stimmezu'][0]='stimme zu';
 WOMT_aTexte['popup_partei_du_theseuebersprungen']=new Array();
-WOMT_aTexte['popup_partei_du_theseuebersprungen'][0]='These übersprungen';
+WOMT_aTexte['popup_partei_du_theseuebersprungen'][0]='These Ã¼bersprungen';
 WOMT_aTexte['popup_partei_keinebegruendung']=new Array();
-WOMT_aTexte['popup_partei_keinebegruendung'][0]='Zu dieser These hat die Partei keine Begründung vorgelegt.';
+WOMT_aTexte['popup_partei_keinebegruendung'][0]='Zu dieser These hat die Partei keine BegrÃ¼ndung vorgelegt.';
 WOMT_aTexte['popup_partei_kommentarpartei']=new Array();
 WOMT_aTexte['popup_partei_kommentarpartei'][0]='Kommentar der Partei:';
 WOMT_aTexte['popup_partei_partei_neutral']=new Array();
@@ -2092,11 +2092,11 @@ WOMT_aTexte['popup_partei_these'][0]='These:';
 WOMT_aTexte['popup_partei_title_text']=new Array();
 WOMT_aTexte['popup_partei_title_text'][0]='Infos zur Parteiposition';
 WOMT_aTexte['wahlomat_content_head']=new Array();
-WOMT_aTexte['wahlomat_content_head'][0]='Wahl-O-Mat<br/>Landtagswahl Baden-Württemberg 2006';
+WOMT_aTexte['wahlomat_content_head'][0]='Wahl-O-Mat<br/>Landtagswahl Baden-WÃ¼rttemberg 2006';
 WOMT_aTexte['wahlomat_head_description']=new Array();
-WOMT_aTexte['wahlomat_head_description'][0]='Wahl-O-Mat zur Landtagswahl 2006 in Baden-Württemberg';
+WOMT_aTexte['wahlomat_head_description'][0]='Wahl-O-Mat zur Landtagswahl 2006 in Baden-WÃ¼rttemberg';
 WOMT_aTexte['wahlomat_head_keywords']=new Array();
-WOMT_aTexte['wahlomat_head_keywords'][0]='wahlomat,wahl-o-mat,www.wahlomat.de,www.wahl-o-mat.de,Landtagswahl,Landtagswahl 2006,Landtagswahlen 2006,Landtagswahl Baden-Württemberg 2006,Baden-Württemberg,Bundeszentrale für politische Bildung,Wahl 2006,bpb';
+WOMT_aTexte['wahlomat_head_keywords'][0]='wahlomat,wahl-o-mat,www.wahlomat.de,www.wahl-o-mat.de,Landtagswahl,Landtagswahl 2006,Landtagswahlen 2006,Landtagswahl Baden-WÃ¼rttemberg 2006,Baden-WÃ¼rttemberg,Bundeszentrale fÃ¼r politische Bildung,Wahl 2006,bpb';
 WOMT_aTexte['wahlomat_head_link_chapter_copyright']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_copyright'][0]='Impressum';
 WOMT_aTexte['wahlomat_head_link_chapter_download']=new Array();
@@ -2108,7 +2108,7 @@ WOMT_aTexte['wahlomat_head_link_chapter_handyversion'][0]='Handyversion';
 WOMT_aTexte['wahlomat_head_link_chapter_informationen']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_informationen'][0]='Informationen';
 WOMT_aTexte['wahlomat_head_link_chapter_main']=new Array();
-WOMT_aTexte['wahlomat_head_link_chapter_main'][0]='Wahl-O-Mat zur Landtagswahl 2006 in Baden-Württemberg';
+WOMT_aTexte['wahlomat_head_link_chapter_main'][0]='Wahl-O-Mat zur Landtagswahl 2006 in Baden-WÃ¼rttemberg';
 WOMT_aTexte['wahlomat_head_link_chapter_redaktion']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_redaktion'][0]='Redaktionsverantwortliche';
 WOMT_aTexte['wahlomat_head_link_chapter_redaktion_email']=new Array();
@@ -2118,21 +2118,21 @@ WOMT_aTexte['wahlomat_head_link_chapter_werstehtzurwahl'][0]='Wer steht zur Wahl
 WOMT_aTexte['wahlomat_footer_link_zdf_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_zdf_text'][0]='Medienpartner: ZDF';
 WOMT_aTexte['wahlomat_footer_link_zdf_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_zdf_title'][0]='Unterstützt von: ZDF (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_zdf_title'][0]='UnterstÃ¼tzt von: ZDF (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_kopf_link_bpb_span']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_bpb_span'][0]='BPB: Bundeszentrale für politische Bildung';
+WOMT_aTexte['wahlomat_kopf_link_bpb_span'][0]='BPB: Bundeszentrale fÃ¼r politische Bildung';
 WOMT_aTexte['wahlomat_kopf_link_bpb_title']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_bpb_title'][0]='BPB: Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_kopf_link_bpb_title'][0]='BPB: Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_kopf_link_landeszentrale_span']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_landeszentrale_span'][0]='Landeszentrale für politische Bildung Baden-Württemberg';
+WOMT_aTexte['wahlomat_kopf_link_landeszentrale_span'][0]='Landeszentrale fÃ¼r politische Bildung Baden-WÃ¼rttemberg';
 WOMT_aTexte['wahlomat_kopf_link_landeszentrale_title']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_landeszentrale_title'][0]='Landeszentrale für politische Bildung Baden-Württemberg (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_kopf_link_landeszentrale_title'][0]='Landeszentrale fÃ¼r politische Bildung Baden-WÃ¼rttemberg (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_kopf_link_landeszentrale_url']=new Array();
 WOMT_aTexte['wahlomat_kopf_link_landeszentrale_url'][0]='http://www.lpb.bwue.de/';
 WOMT_aTexte['wahlomat_kopf_link_ljr_span']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_ljr_span'][0]='Landesjugendring Baden-Württemberg';
+WOMT_aTexte['wahlomat_kopf_link_ljr_span'][0]='Landesjugendring Baden-WÃ¼rttemberg';
 WOMT_aTexte['wahlomat_kopf_link_ljr_title']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_ljr_title'][0]='Landesjugendring Baden-Württemberg (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_kopf_link_ljr_title'][0]='Landesjugendring Baden-WÃ¼rttemberg (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_kopf_link_ljr_url']=new Array();
 WOMT_aTexte['wahlomat_kopf_link_ljr_url'][0]='http://www.ljrbw.de/';
 WOMT_aTexte['wahlomat_footer_link_zdf_url']=new Array();
@@ -2142,9 +2142,9 @@ WOMT_aTexte['wahlomat_footer_link_netzeitung_url'][0]='http://www.netzeitung.de'
 WOMT_aTexte['wahlomat_footer_link_netzeitung_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_netzeitung_text'][0]='Netzeitung.de';
 WOMT_aTexte['wahlomat_footer_link_netzeitung_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_netzeitung_title'][0]='Netzeitung.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_netzeitung_title'][0]='Netzeitung.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_politikerscreen_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_politikerscreen_title'][0]='politikerscreen.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_politikerscreen_title'][0]='politikerscreen.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_politikerscreen_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_politikerscreen_text'][0]='politikerscreen.de';
 WOMT_aTexte['wahlomat_footer_link_politikerscreen_url']=new Array();
@@ -2152,28 +2152,28 @@ WOMT_aTexte['wahlomat_footer_link_politikerscreen_url'][0]='http://www.politiker
 WOMT_aTexte['wahlomat_footer_link_landderideen_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_landderideen_text'][0]='Ausgezeichnet durch: Deutschland Land der Ideen';
 WOMT_aTexte['wahlomat_footer_link_landderideen_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_landderideen_title'][0]='Ausgezeichnet durch: Deutschland Land der Ideen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_landderideen_title'][0]='Ausgezeichnet durch: Deutschland Land der Ideen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_landderideen_url']=new Array();
 WOMT_aTexte['wahlomat_footer_link_landderideen_url'][0]='http://www.land-der-ideen.de/CDA/ort_des_tages,1987,1,,de.html?action=detail&referer=1949&id=768';
 WOMT_aTexte['wahlomat_footer_link_jugendwahl_url']=new Array();
 WOMT_aTexte['wahlomat_footer_link_jugendwahl_url'][0]='http://www.jugendwahl-bw.de';
 WOMT_aTexte['wahlomat_footer_link_jugendwahl_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_jugendwahl_title'][0]='Unterstützt von: Jugendwahl Baden-Württemberg (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_jugendwahl_title'][0]='UnterstÃ¼tzt von: Jugendwahl Baden-WÃ¼rttemberg (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_jugendwahl_text']=new Array();
-WOMT_aTexte['wahlomat_footer_link_jugendwahl_text'][0]='Unterstützt von: Jugendwahl Baden-Württemberg';
+WOMT_aTexte['wahlomat_footer_link_jugendwahl_text'][0]='UnterstÃ¼tzt von: Jugendwahl Baden-WÃ¼rttemberg';
 WOMT_aTexte['nav_faq_title']=new Array();
-WOMT_aTexte['nav_faq_title'][0]='Antworten auf die am häufigsten gestellten Fragen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_faq_title'][0]='Antworten auf die am hÃ¤ufigsten gestellten Fragen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_head_titel']=new Array();
-WOMT_aTexte['wahlomat_head_titel'][0]='Wahl-O-Mat zur Landtagswahl in Baden-Württemberg 2006';
+WOMT_aTexte['wahlomat_head_titel'][0]='Wahl-O-Mat zur Landtagswahl in Baden-WÃ¼rttemberg 2006';
 WOMT_aTexte['wahlomat_footer_link_faznet_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_faznet_text'][0]='FAZ.NET';
 WOMT_aTexte['wahlomat_footer_link_faznet_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_faznet_title'][0]='FAZ.NET (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_faznet_title'][0]='FAZ.NET (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_faznet_url']=new Array();
 WOMT_aTexte['wahlomat_footer_link_faznet_url'][0]='http://www.faz.net';
 WOMT_aTexte['wahlomat_footer_link_n24_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_n24_text'][0]='n24.de';
 WOMT_aTexte['wahlomat_footer_link_n24_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_n24_title'][0]='n24.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_n24_title'][0]='n24.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_n24_url']=new Array();
 WOMT_aTexte['wahlomat_footer_link_n24_url'][0]='http://www.n24.de/';

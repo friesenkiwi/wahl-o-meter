@@ -34,7 +34,7 @@ WAHLOMATEN_ID='15';
   --------------------------------------------------------------
   Vordefinieren der in den Templates gefunden assoziativen Keys
   mit denenen auf WOMT_aTexte und WOMT_aBilder zugriffen wird
-  nicht vorhanden Indexe führen in Javascript sonst zu Fehlern!
+  nicht vorhanden Indexe fÃ¼hren in Javascript sonst zu Fehlern!
 
   Wenn mit Variablen auf die assoziativen Arrays zugegriffen wird
   kann dies nicht automatisch analsysit werden,
@@ -249,43 +249,43 @@ WOMT_aThemen_ID2N[99]='0';
 WOMT_aThesen[0]=new Array();
 WOMT_aThesen[0][0]=new Array();
 WOMT_aThesen[0][0][0]='Alkoholverbot';
-WOMT_aThesen[0][0][1]='Auf dem Kiez: Alkoholverbot auf Straßen und Plätzen an den Wochenenden!';
+WOMT_aThesen[0][0][1]='Auf dem Kiez: Alkoholverbot auf StraÃŸen und PlÃ¤tzen an den Wochenenden!';
 WOMT_aThesenThema[0]='0';
 WOMT_aThesenParteien[0]=new Array();
 WOMT_aThesen[1]=new Array();
 WOMT_aThesen[1][0]=new Array();
-WOMT_aThesen[1][0][0]='Studiengebühren';
-WOMT_aThesen[1][0][1]='Die Studiengebühren für das Erststudium an den öffentlichen Hamburger Hochschulen sollen abgeschafft werden.';
+WOMT_aThesen[1][0][0]='StudiengebÃ¼hren';
+WOMT_aThesen[1][0][1]='Die StudiengebÃ¼hren fÃ¼r das Erststudium an den Ã¶ffentlichen Hamburger Hochschulen sollen abgeschafft werden.';
 WOMT_aThesenThema[1]='0';
 WOMT_aThesenParteien[1]=new Array();
 WOMT_aThesen[2]=new Array();
 WOMT_aThesen[2][0]=new Array();
 WOMT_aThesen[2][0][0]='Elbvertiefung';
-WOMT_aThesen[2][0][1]='Die Elbe soll für die Schifffahrt vertieft werden.';
+WOMT_aThesen[2][0][1]='Die Elbe soll fÃ¼r die Schifffahrt vertieft werden.';
 WOMT_aThesenThema[2]='0';
 WOMT_aThesenParteien[2]=new Array();
 WOMT_aThesen[3]=new Array();
 WOMT_aThesen[3][0]=new Array();
 WOMT_aThesen[3][0][0]='Mindestlohn';
-WOMT_aThesen[3][0][1]='Hamburg soll sich für einen bundesweiten, einheitlichen gesetzlichen Mindestlohn einsetzen.';
+WOMT_aThesen[3][0][1]='Hamburg soll sich fÃ¼r einen bundesweiten, einheitlichen gesetzlichen Mindestlohn einsetzen.';
 WOMT_aThesenThema[3]='0';
 WOMT_aThesenParteien[3]=new Array();
 WOMT_aThesen[4]=new Array();
 WOMT_aThesen[4][0]=new Array();
 WOMT_aThesen[4][0][0]='sozialer Wohnungsbau';
-WOMT_aThesen[4][0][1]='Die öffentliche Förderung von sozialem Wohnungsbau soll abgeschafft werden.';
+WOMT_aThesen[4][0][1]='Die Ã¶ffentliche FÃ¶rderung von sozialem Wohnungsbau soll abgeschafft werden.';
 WOMT_aThesenThema[4]='0';
 WOMT_aThesenParteien[4]=new Array();
 WOMT_aThesen[5]=new Array();
 WOMT_aThesen[5][0]=new Array();
-WOMT_aThesen[5][0][0]='gebührenfreie Kitas';
-WOMT_aThesen[5][0][1]='Der Besuch einer Kindertagesstätte (Kita) soll gebührenfrei sein.';
+WOMT_aThesen[5][0][0]='gebÃ¼hrenfreie Kitas';
+WOMT_aThesen[5][0][1]='Der Besuch einer KindertagesstÃ¤tte (Kita) soll gebÃ¼hrenfrei sein.';
 WOMT_aThesenThema[5]='0';
 WOMT_aThesenParteien[5]=new Array();
 WOMT_aThesen[6]=new Array();
 WOMT_aThesen[6][0]=new Array();
 WOMT_aThesen[6][0][0]='Sprachtests';
-WOMT_aThesen[6][0][1]='Vor der Einschulung: Verpflichtende Sprachtests für alle Kinder!';
+WOMT_aThesen[6][0][1]='Vor der Einschulung: Verpflichtende Sprachtests fÃ¼r alle Kinder!';
 WOMT_aThesenThema[6]='0';
 WOMT_aThesenParteien[6]=new Array();
 WOMT_aThesen[7]=new Array();
@@ -297,31 +297,31 @@ WOMT_aThesenParteien[7]=new Array();
 WOMT_aThesen[8]=new Array();
 WOMT_aThesen[8][0]=new Array();
 WOMT_aThesen[8][0][0]='Rauchverbot';
-WOMT_aThesen[8][0][1]='Gastwirte/-innen sollen selbst über ein Rauchverbot in ihren Gaststätten entscheiden dürfen.';
+WOMT_aThesen[8][0][1]='Gastwirte/-innen sollen selbst Ã¼ber ein Rauchverbot in ihren GaststÃ¤tten entscheiden dÃ¼rfen.';
 WOMT_aThesenThema[8]='0';
 WOMT_aThesenParteien[8]=new Array();
 WOMT_aThesen[9]=new Array();
 WOMT_aThesen[9][0]=new Array();
-WOMT_aThesen[9][0][0]='Öffnungszeiten';
-WOMT_aThesen[9][0][1]='Ladenbesitzer/-innen sollen frei die Öffnungszeiten ihrer Geschäfte bestimmen können.';
+WOMT_aThesen[9][0][0]='Ã–ffnungszeiten';
+WOMT_aThesen[9][0][1]='Ladenbesitzer/-innen sollen frei die Ã–ffnungszeiten ihrer GeschÃ¤fte bestimmen kÃ¶nnen.';
 WOMT_aThesenThema[9]='0';
 WOMT_aThesenParteien[9]=new Array();
 WOMT_aThesen[10]=new Array();
 WOMT_aThesen[10][0]=new Array();
-WOMT_aThesen[10][0][0]='Steuerprüfer';
-WOMT_aThesen[10][0][1]='Mehr Personal in den Finanzämtern für die Steuerprüfung von Unternehmen!';
+WOMT_aThesen[10][0][0]='SteuerprÃ¼fer';
+WOMT_aThesen[10][0][1]='Mehr Personal in den FinanzÃ¤mtern fÃ¼r die SteuerprÃ¼fung von Unternehmen!';
 WOMT_aThesenThema[10]='0';
 WOMT_aThesenParteien[10]=new Array();
 WOMT_aThesen[11]=new Array();
 WOMT_aThesen[11][0]=new Array();
 WOMT_aThesen[11][0][0]='Privatisierung des Hafens';
-WOMT_aThesen[11][0][1]='Privatisierung des Hafens: Die Stadt soll weitere Anteile der HHLA an der Börse verkaufen.';
+WOMT_aThesen[11][0][1]='Privatisierung des Hafens: Die Stadt soll weitere Anteile der HHLA an der BÃ¶rse verkaufen.';
 WOMT_aThesenThema[11]='0';
 WOMT_aThesenParteien[11]=new Array();
 WOMT_aThesen[12]=new Array();
 WOMT_aThesen[12][0]=new Array();
 WOMT_aThesen[12][0][0]='City-Maut';
-WOMT_aThesen[12][0][1]='Einführung einer Maut für Kraftfahrzeuge in der Innenstadt ("City-Maut").';
+WOMT_aThesen[12][0][1]='EinfÃ¼hrung einer Maut fÃ¼r Kraftfahrzeuge in der Innenstadt ("City-Maut").';
 WOMT_aThesenThema[12]='0';
 WOMT_aThesenParteien[12]=new Array();
 WOMT_aThesen[13]=new Array();
@@ -333,13 +333,13 @@ WOMT_aThesenParteien[13]=new Array();
 WOMT_aThesen[14]=new Array();
 WOMT_aThesen[14][0]=new Array();
 WOMT_aThesen[14][0][0]='Nordstaat';
-WOMT_aThesen[14][0][1]='Hamburg soll mit anderen Bundesländern ein gemeinsames Bundesland bilden ("Nordstaat").';
+WOMT_aThesen[14][0][1]='Hamburg soll mit anderen BundeslÃ¤ndern ein gemeinsames Bundesland bilden ("Nordstaat").';
 WOMT_aThesenThema[14]='0';
 WOMT_aThesenParteien[14]=new Array();
 WOMT_aThesen[15]=new Array();
 WOMT_aThesen[15][0]=new Array();
 WOMT_aThesen[15][0][0]='Homo-Ehen';
-WOMT_aThesen[15][0][1]='Hamburg soll sich dafür einsetzen, dass eingetragene Partnerschaften von Homosexuellen rechtlich der Ehe gleichgestellt werden.';
+WOMT_aThesen[15][0][1]='Hamburg soll sich dafÃ¼r einsetzen, dass eingetragene Partnerschaften von Homosexuellen rechtlich der Ehe gleichgestellt werden.';
 WOMT_aThesenThema[15]='0';
 WOMT_aThesenParteien[15]=new Array();
 WOMT_aThesen[16]=new Array();
@@ -351,25 +351,25 @@ WOMT_aThesenParteien[16]=new Array();
 WOMT_aThesen[17]=new Array();
 WOMT_aThesen[17][0]=new Array();
 WOMT_aThesen[17][0][0]='Stromnetz';
-WOMT_aThesen[17][0][1]='Das Hamburger Stromnetz soll zurück in die öffentliche Hand!';
+WOMT_aThesen[17][0][1]='Das Hamburger Stromnetz soll zurÃ¼ck in die Ã¶ffentliche Hand!';
 WOMT_aThesenThema[17]='0';
 WOMT_aThesenParteien[17]=new Array();
 WOMT_aThesen[18]=new Array();
 WOMT_aThesen[18][0]=new Array();
-WOMT_aThesen[18][0][0]='Private Krankenhäuser';
-WOMT_aThesen[18][0][1]='Bei der Verteilung öffentlicher Gelder sollen private Krankenhäuser den öffentlichen gleichgestellt werden.';
+WOMT_aThesen[18][0][0]='Private KrankenhÃ¤user';
+WOMT_aThesen[18][0][1]='Bei der Verteilung Ã¶ffentlicher Gelder sollen private KrankenhÃ¤user den Ã¶ffentlichen gleichgestellt werden.';
 WOMT_aThesenThema[18]='0';
 WOMT_aThesenParteien[18]=new Array();
 WOMT_aThesen[19]=new Array();
 WOMT_aThesen[19][0]=new Array();
 WOMT_aThesen[19][0][0]='Sozialticket';
-WOMT_aThesen[19][0][1]='Wiedereinführung von Sozialtickets in den öffentlichen Nahverkehrsmitteln!';
+WOMT_aThesen[19][0][1]='WiedereinfÃ¼hrung von Sozialtickets in den Ã¶ffentlichen Nahverkehrsmitteln!';
 WOMT_aThesenThema[19]='0';
 WOMT_aThesenParteien[19]=new Array();
 WOMT_aThesen[20]=new Array();
 WOMT_aThesen[20][0]=new Array();
-WOMT_aThesen[20][0][0]='Flüchtlinge';
-WOMT_aThesen[20][0][1]='Alle in Hamburg lebenden Flüchtlinge sollen ein dauerhaftes Bleiberecht bekommen.';
+WOMT_aThesen[20][0][0]='FlÃ¼chtlinge';
+WOMT_aThesen[20][0][1]='Alle in Hamburg lebenden FlÃ¼chtlinge sollen ein dauerhaftes Bleiberecht bekommen.';
 WOMT_aThesenThema[20]='0';
 WOMT_aThesenParteien[20]=new Array();
 WOMT_aThesen[21]=new Array();
@@ -386,8 +386,8 @@ WOMT_aThesenThema[22]='0';
 WOMT_aThesenParteien[22]=new Array();
 WOMT_aThesen[23]=new Array();
 WOMT_aThesen[23][0]=new Array();
-WOMT_aThesen[23][0][0]='Abgabe für Ausbildungsplätze';
-WOMT_aThesen[23][0][1]='Betriebe, die nicht ausbilden, sollen ausbildende Betriebe finanziell unterstützen.';
+WOMT_aThesen[23][0][0]='Abgabe fÃ¼r AusbildungsplÃ¤tze';
+WOMT_aThesen[23][0][1]='Betriebe, die nicht ausbilden, sollen ausbildende Betriebe finanziell unterstÃ¼tzen.';
 WOMT_aThesenThema[23]='0';
 WOMT_aThesenParteien[23]=new Array();
 WOMT_aThesen[24]=new Array();
@@ -398,32 +398,32 @@ WOMT_aThesenThema[24]='0';
 WOMT_aThesenParteien[24]=new Array();
 WOMT_aThesen[25]=new Array();
 WOMT_aThesen[25][0]=new Array();
-WOMT_aThesen[25][0][0]='Gebührenfreie Schulbücher';
-WOMT_aThesen[25][0][1]='Gebührenfreie Bereitstellung von Schulbüchern an allen Hamburger Schulen!';
+WOMT_aThesen[25][0][0]='GebÃ¼hrenfreie SchulbÃ¼cher';
+WOMT_aThesen[25][0][1]='GebÃ¼hrenfreie Bereitstellung von SchulbÃ¼chern an allen Hamburger Schulen!';
 WOMT_aThesenThema[25]='0';
 WOMT_aThesenParteien[25]=new Array();
 WOMT_aThesen[26]=new Array();
 WOMT_aThesen[26][0]=new Array();
-WOMT_aThesen[26][0][0]='jugendliche Straftäter';
-WOMT_aThesen[26][0][1]='Die geschlossene Unterbringung für jugendliche Straftäter - wie in der Feuerbergstraße - soll weiterhin möglich sein.';
+WOMT_aThesen[26][0][0]='jugendliche StraftÃ¤ter';
+WOMT_aThesen[26][0][1]='Die geschlossene Unterbringung fÃ¼r jugendliche StraftÃ¤ter - wie in der FeuerbergstraÃŸe - soll weiterhin mÃ¶glich sein.';
 WOMT_aThesenThema[26]='0';
 WOMT_aThesenParteien[26]=new Array();
 WOMT_aThesen[27]=new Array();
 WOMT_aThesen[27][0]=new Array();
-WOMT_aThesen[27][0][0]='Bücherhallen';
-WOMT_aThesen[27][0][1]='Kostenlose Nutzung von Bücherhallen!';
+WOMT_aThesen[27][0][0]='BÃ¼cherhallen';
+WOMT_aThesen[27][0][1]='Kostenlose Nutzung von BÃ¼cherhallen!';
 WOMT_aThesenThema[27]='0';
 WOMT_aThesenParteien[27]=new Array();
 WOMT_aThesen[28]=new Array();
 WOMT_aThesen[28][0]=new Array();
-WOMT_aThesen[28][0][0]='Videoüberwachung';
-WOMT_aThesen[28][0][1]='Die Videoüberwachung von öffentlichen Plätzen soll ausgeweitet werden.';
+WOMT_aThesen[28][0][0]='VideoÃ¼berwachung';
+WOMT_aThesen[28][0][1]='Die VideoÃ¼berwachung von Ã¶ffentlichen PlÃ¤tzen soll ausgeweitet werden.';
 WOMT_aThesenThema[28]='0';
 WOMT_aThesenParteien[28]=new Array();
 WOMT_aThesen[29]=new Array();
 WOMT_aThesen[29][0]=new Array();
 WOMT_aThesen[29][0][0]='Volksentscheide';
-WOMT_aThesen[29][0][1]='Das Ergebnis von Volksentscheiden soll für den Hamburger Senat verbindlich sein.';
+WOMT_aThesen[29][0][1]='Das Ergebnis von Volksentscheiden soll fÃ¼r den Hamburger Senat verbindlich sein.';
 WOMT_aThesenThema[29]='0';
 WOMT_aThesenParteien[29]=new Array();
 WOMT_aThesenParteienText[0]=new Array();
@@ -607,305 +607,305 @@ WOMT_aThesenParteienText[29][2]=new Array();
 WOMT_aThesenParteienText[29][3]=new Array();
 WOMT_aThesenParteienText[29][4]=new Array();
 WOMT_aThesenParteien[0][1]='1';
-WOMT_aThesenParteienText[0][1][0]='Die CDU wird sich weiter für die Bekämpfung der Kriminalität auf dem Kiez einsetzen. Dazu gehört gegebenenfalls auch ein Alkoholverbot auf Straßen und Plätzen im Bereich St. Pauli, wenn die jetzt eingeleiteten Maßnahmen nicht greifen.';
+WOMT_aThesenParteienText[0][1][0]='Die CDU wird sich weiter fÃ¼r die BekÃ¤mpfung der KriminalitÃ¤t auf dem Kiez einsetzen. Dazu gehÃ¶rt gegebenenfalls auch ein Alkoholverbot auf StraÃŸen und PlÃ¤tzen im Bereich St. Pauli, wenn die jetzt eingeleiteten MaÃŸnahmen nicht greifen.';
 WOMT_aThesenParteien[1][1]='-1';
-WOMT_aThesenParteienText[1][1][0]='Studiengebühren in Hamburg sind durch ein entsprechendes Darlehensmodell und durch Gebührenbefreiung aus sozialen Gründen sozial verträglich gestaltet. Sie kommen ausschließlich der Verbesserung der Lehre und der Studienbedingungen und damit den Studierenden zugute.';
+WOMT_aThesenParteienText[1][1][0]='StudiengebÃ¼hren in Hamburg sind durch ein entsprechendes Darlehensmodell und durch GebÃ¼hrenbefreiung aus sozialen GrÃ¼nden sozial vertrÃ¤glich gestaltet. Sie kommen ausschlieÃŸlich der Verbesserung der Lehre und der Studienbedingungen und damit den Studierenden zugute.';
 WOMT_aThesenParteien[2][1]='1';
-WOMT_aThesenParteienText[2][1][0]='Zur Sicherung der Zukunft des Hafens muss die Fahrrinnenanpassung kommen. Für die CDU ist dabei die Deichsicherheit unabdingbar und ein verantwortungsvoller Umgang mit den ökologischen Folgen sehr wichtig.';
+WOMT_aThesenParteienText[2][1][0]='Zur Sicherung der Zukunft des Hafens muss die Fahrrinnenanpassung kommen. FÃ¼r die CDU ist dabei die Deichsicherheit unabdingbar und ein verantwortungsvoller Umgang mit den Ã¶kologischen Folgen sehr wichtig.';
 WOMT_aThesenParteien[3][1]='-1';
-WOMT_aThesenParteienText[3][1][0]='Durch einen Mindestlohn würden infolge der Kostensteigerung des Arbeitseinsatzes zigtausende Arbeitsplätze gefährdet, da die Gefahr der Abwanderung ins Ausland oder einer Erhöhung der Absatzpreise besteht, die zu Nachfrageeinschränkungen und damit zu Beschäftigungsrückgang führen könnte. Wir setzen daher auf branchenspezifische und regionale Maßnahmen und im Übrigen auf einen Kombilohn.';
+WOMT_aThesenParteienText[3][1][0]='Durch einen Mindestlohn wÃ¼rden infolge der Kostensteigerung des Arbeitseinsatzes zigtausende ArbeitsplÃ¤tze gefÃ¤hrdet, da die Gefahr der Abwanderung ins Ausland oder einer ErhÃ¶hung der Absatzpreise besteht, die zu NachfrageeinschrÃ¤nkungen und damit zu BeschÃ¤ftigungsrÃ¼ckgang fÃ¼hren kÃ¶nnte. Wir setzen daher auf branchenspezifische und regionale MaÃŸnahmen und im Ãœbrigen auf einen Kombilohn.';
 WOMT_aThesenParteien[4][1]='-1';
-WOMT_aThesenParteienText[4][1][0]='Die Wohnungsbauförderung dient der Versorgung von Zielgruppen, die sich selbst am Wohnungsmarkt nicht angemessen versorgen können. Als Mietwohnungsbau und als Förderung des Wohneigentums ist die Wohnungsbauförderung ein wichtiger Eckpfeiler der Familienförderung. Sie hilft, schwierige Quartiere zu stabilisieren und in ihrer Entwicklung zu unterstützen.';
+WOMT_aThesenParteienText[4][1][0]='Die WohnungsbaufÃ¶rderung dient der Versorgung von Zielgruppen, die sich selbst am Wohnungsmarkt nicht angemessen versorgen kÃ¶nnen. Als Mietwohnungsbau und als FÃ¶rderung des Wohneigentums ist die WohnungsbaufÃ¶rderung ein wichtiger Eckpfeiler der FamilienfÃ¶rderung. Sie hilft, schwierige Quartiere zu stabilisieren und in ihrer Entwicklung zu unterstÃ¼tzen.';
 WOMT_aThesenParteien[5][1]='-1';
-WOMT_aThesenParteienText[5][1][0]='Eine kostenlose Kitabetreuung kostet 80 Mio. Euro mehr pro Jahr. Die Gesamtausgaben im Kitabereich sind von 2001 auf 2007 bereits von 275 auf 377 Mio. Euro angehoben worden. Weitere Ausgaben sollen in eine weitere Verbesserung der Qualität im Kita- und Vorschulbereich investiert werden.';
+WOMT_aThesenParteienText[5][1][0]='Eine kostenlose Kitabetreuung kostet 80 Mio. Euro mehr pro Jahr. Die Gesamtausgaben im Kitabereich sind von 2001 auf 2007 bereits von 275 auf 377 Mio. Euro angehoben worden. Weitere Ausgaben sollen in eine weitere Verbesserung der QualitÃ¤t im Kita- und Vorschulbereich investiert werden.';
 WOMT_aThesenParteien[6][1]='1';
-WOMT_aThesenParteienText[6][1][0]='Die CDU hält verpflichtende Sprachtests für alle Kinder vor der Einschulung für richtig, um sicherzustellen, dass alle Kinder die deutsche Sprache bei ihrer Einschulung ausreichend beherrschen. Wir haben daher die 41/2-jährigen Untersuchung eingeführt, in der die Sprachkenntnisse aller Kinder rund 18 Monate vor ihrer Einschulung getestet werden. Kinder mit erheblichem Sprachförderbedarf sind verpflichtet, die Vorschule mit ergänzender Sprachförderung zu besuchen.';
+WOMT_aThesenParteienText[6][1][0]='Die CDU hÃ¤lt verpflichtende Sprachtests fÃ¼r alle Kinder vor der Einschulung fÃ¼r richtig, um sicherzustellen, dass alle Kinder die deutsche Sprache bei ihrer Einschulung ausreichend beherrschen. Wir haben daher die 41/2-jÃ¤hrigen Untersuchung eingefÃ¼hrt, in der die Sprachkenntnisse aller Kinder rund 18 Monate vor ihrer Einschulung getestet werden. Kinder mit erheblichem SprachfÃ¶rderbedarf sind verpflichtet, die Vorschule mit ergÃ¤nzender SprachfÃ¶rderung zu besuchen.';
 WOMT_aThesenParteien[7][1]='-1';
-WOMT_aThesenParteienText[7][1][0]='Die CDU ist aus zahlreichen Gründen gegen eine Zusammenlegung von Hauptschulen, Realschulen und Gymnasien zu einer Einheitsschule. So spricht etwa der Elternwille klar dagegen - über die Hälfte aller Hamburger Eltern wählen für ihre Kinder das Gymnasium. Erfahrungen im Ausland zeigen zudem, dass eine Einheitsschule die sozialen Probleme verschärft, weil Kinder aus reichen Familien auf teure Privatschulen geschickt werden. Darüber hinaus sind Hamburgs Lehrerinnen und Lehrer nicht für eine Einheitsschule ausgebildet. Weitere Informationen unter www.schule.cduhamburg.de';
+WOMT_aThesenParteienText[7][1][0]='Die CDU ist aus zahlreichen GrÃ¼nden gegen eine Zusammenlegung von Hauptschulen, Realschulen und Gymnasien zu einer Einheitsschule. So spricht etwa der Elternwille klar dagegen - Ã¼ber die HÃ¤lfte aller Hamburger Eltern wÃ¤hlen fÃ¼r ihre Kinder das Gymnasium. Erfahrungen im Ausland zeigen zudem, dass eine Einheitsschule die sozialen Probleme verschÃ¤rft, weil Kinder aus reichen Familien auf teure Privatschulen geschickt werden. DarÃ¼ber hinaus sind Hamburgs Lehrerinnen und Lehrer nicht fÃ¼r eine Einheitsschule ausgebildet. Weitere Informationen unter www.schule.cduhamburg.de';
 WOMT_aThesenParteien[8][1]='-1';
-WOMT_aThesenParteienText[8][1][0]='Der Schutz der Nichtraucher vor Passivrauchen obliegt nicht der Entscheidungshoheit der Gastwirte. Das auf Antrag der CDU einstimmig verabschiedete Gesetz zum Schutz der  Nichtraucher vor den Gefahren des Passivrauchens ermöglicht aber Gastwirten, Raucherräume in Nebenräumen einzurichten.';
+WOMT_aThesenParteienText[8][1][0]='Der Schutz der Nichtraucher vor Passivrauchen obliegt nicht der Entscheidungshoheit der Gastwirte. Das auf Antrag der CDU einstimmig verabschiedete Gesetz zum Schutz der  Nichtraucher vor den Gefahren des Passivrauchens ermÃ¶glicht aber Gastwirten, RaucherrÃ¤ume in NebenrÃ¤umen einzurichten.';
 WOMT_aThesenParteien[9][1]='-1';
-WOMT_aThesenParteienText[9][1][0]='Wir haben die Ladenöffnungszeiten weitgehend liberalisiert - Montag bis Samstag rund um die Uhr -, um dem Einzelhandel in unserer wachsenden Stadt und dem Tourismusstandort Hamburg eine neue Chance zu eröffnen. Sonntags müssen die Geschäfte in aller Regel aber geschlossen bleiben, da der Sonntag ein besonders schützenswerter Tag ist.';
+WOMT_aThesenParteienText[9][1][0]='Wir haben die LadenÃ¶ffnungszeiten weitgehend liberalisiert - Montag bis Samstag rund um die Uhr -, um dem Einzelhandel in unserer wachsenden Stadt und dem Tourismusstandort Hamburg eine neue Chance zu erÃ¶ffnen. Sonntags mÃ¼ssen die GeschÃ¤fte in aller Regel aber geschlossen bleiben, da der Sonntag ein besonders schÃ¼tzenswerter Tag ist.';
 WOMT_aThesenParteien[10][1]='-1';
-WOMT_aThesenParteienText[10][1][0]='Steuerprüfungen von Unternehmen werden in Hamburg fachkompetent vorgenommen. Eine weitere Aufstockung des Personals ist derzeit nicht notwendig. Alle mittleren und großen Unternehmen unterliegen ohnehin der ständigen Überprüfung.';
+WOMT_aThesenParteienText[10][1][0]='SteuerprÃ¼fungen von Unternehmen werden in Hamburg fachkompetent vorgenommen. Eine weitere Aufstockung des Personals ist derzeit nicht notwendig. Alle mittleren und groÃŸen Unternehmen unterliegen ohnehin der stÃ¤ndigen ÃœberprÃ¼fung.';
 WOMT_aThesenParteien[11][1]='-1';
-WOMT_aThesenParteienText[11][1][0]='Ein Verkauf weiterer Anteile der HHLA ist nicht notwendig, denn der Börsengang der HHLA war ein Erfolg auf ganzer Linie. So wurden nur so viele Anteile wie nötig verkauft, um die Finanzierung der dringend anstehenden Hafeninvestitionen abzusichern. Knapp 3 Mrd. Euro können nun insgesamt investiert werden.';
+WOMT_aThesenParteienText[11][1][0]='Ein Verkauf weiterer Anteile der HHLA ist nicht notwendig, denn der BÃ¶rsengang der HHLA war ein Erfolg auf ganzer Linie. So wurden nur so viele Anteile wie nÃ¶tig verkauft, um die Finanzierung der dringend anstehenden Hafeninvestitionen abzusichern. Knapp 3 Mrd. Euro kÃ¶nnen nun insgesamt investiert werden.';
 WOMT_aThesenParteien[12][1]='0';
-WOMT_aThesenParteienText[12][1][0]='Die City-Maut wurde in London und auch in Stockholm eingeführt, weil die Verkehrssituation in beiden Städten besonders problematisch ist. Beide Systeme sind auf Hamburg nicht übertragbar, da die Verkehrssituation in Hamburg nicht vergleichbar ist. So ist z.B. die durchschnittliche Geschwindigkeit im Stadtverkehr im Vergleich zu anderen europäischen Metropolen hoch. Ob eine und ggf. welche Form der City-Maut für Hamburg sinnvoll ist, wird geprüft.';
+WOMT_aThesenParteienText[12][1][0]='Die City-Maut wurde in London und auch in Stockholm eingefÃ¼hrt, weil die Verkehrssituation in beiden StÃ¤dten besonders problematisch ist. Beide Systeme sind auf Hamburg nicht Ã¼bertragbar, da die Verkehrssituation in Hamburg nicht vergleichbar ist. So ist z.B. die durchschnittliche Geschwindigkeit im Stadtverkehr im Vergleich zu anderen europÃ¤ischen Metropolen hoch. Ob eine und ggf. welche Form der City-Maut fÃ¼r Hamburg sinnvoll ist, wird geprÃ¼ft.';
 WOMT_aThesenParteien[13][1]='1';
-WOMT_aThesenParteienText[13][1][0]='Die Verbindung der Autobahnen A7 und A1 ist elementar für die wirtschaftliche Entwicklung nicht nur Hamburgs, sondern ganz Norddeutschlands. Sie ist Voraussetzung für die Zukunftsfähigkeit des Hamburger Hafens. Nicht nur das Erreichen der Güter muss auch künftig sichergestellt werden, auch der Abtransport der in Hamburg gelöschten Waren.';
+WOMT_aThesenParteienText[13][1][0]='Die Verbindung der Autobahnen A7 und A1 ist elementar fÃ¼r die wirtschaftliche Entwicklung nicht nur Hamburgs, sondern ganz Norddeutschlands. Sie ist Voraussetzung fÃ¼r die ZukunftsfÃ¤higkeit des Hamburger Hafens. Nicht nur das Erreichen der GÃ¼ter muss auch kÃ¼nftig sichergestellt werden, auch der Abtransport der in Hamburg gelÃ¶schten Waren.';
 WOMT_aThesenParteien[14][1]='1';
-WOMT_aThesenParteienText[14][1][0]='Der gemeinsame "Nordstaat" mit den nördlichen Bundesländern ist noch eine Vision. Bis dahin wollen wir die Zusammenarbeit zwischen Hamburg und seinen Nachbarn, insbesondere Schleswig-Holstein, weiter intensivieren.';
+WOMT_aThesenParteienText[14][1][0]='Der gemeinsame "Nordstaat" mit den nÃ¶rdlichen BundeslÃ¤ndern ist noch eine Vision. Bis dahin wollen wir die Zusammenarbeit zwischen Hamburg und seinen Nachbarn, insbesondere Schleswig-Holstein, weiter intensivieren.';
 WOMT_aThesenParteien[15][1]='-1';
-WOMT_aThesenParteienText[15][1][0]='Wir respektieren die Entscheidung von Menschen, die in anderen Formen der Partnerschaft als in der Ehe ihren Lebensentwurf verwirklichen. Wir erkennen an, dass auch in solchen Beziehungen Werte gelebt werden, die grundlegend für unsere Gesellschaft sind. Dies gilt auch für gleichgeschlechtliche Partnerschaften. Wir werben für Toleranz und wenden uns gegen jede Form von Diskriminierung. Eine Gleichstellung mit der Ehe zwischen Mann und Frau als Kern der Familie lehnen wir jedoch ab.';
+WOMT_aThesenParteienText[15][1][0]='Wir respektieren die Entscheidung von Menschen, die in anderen Formen der Partnerschaft als in der Ehe ihren Lebensentwurf verwirklichen. Wir erkennen an, dass auch in solchen Beziehungen Werte gelebt werden, die grundlegend fÃ¼r unsere Gesellschaft sind. Dies gilt auch fÃ¼r gleichgeschlechtliche Partnerschaften. Wir werben fÃ¼r Toleranz und wenden uns gegen jede Form von Diskriminierung. Eine Gleichstellung mit der Ehe zwischen Mann und Frau als Kern der Familie lehnen wir jedoch ab.';
 WOMT_aThesenParteien[16][1]='1';
-WOMT_aThesenParteienText[16][1][0]='Zur Absicherung unserer Energieversorgung brauchen wir einen Energiemix aus Kohle, Gas, erneuerbaren Energien und Atomkraft. Entsprechende Beschlüsse - auch zu Kohlekraftwerken - hat z.B. auch die SPD. Deshalb befürworten wir, dass Vattenfall das veraltete Steinkohlekraftwerk in Wedel 2012 vom Netz nimmt und ein neues, hochmodernes in Moorburg baut. Dadurch wird Vattenfall in Deutschland 2,3 Mio. t CO2 pro Jahr einsparen. Gleichzeitig forcieren wir den Einsatz von erneuerbaren Energien, wodurch sich der Anteil konventioneller Stromerzeugung ständig verringern wird.';
+WOMT_aThesenParteienText[16][1][0]='Zur Absicherung unserer Energieversorgung brauchen wir einen Energiemix aus Kohle, Gas, erneuerbaren Energien und Atomkraft. Entsprechende BeschlÃ¼sse - auch zu Kohlekraftwerken - hat z.B. auch die SPD. Deshalb befÃ¼rworten wir, dass Vattenfall das veraltete Steinkohlekraftwerk in Wedel 2012 vom Netz nimmt und ein neues, hochmodernes in Moorburg baut. Dadurch wird Vattenfall in Deutschland 2,3 Mio. t CO2 pro Jahr einsparen. Gleichzeitig forcieren wir den Einsatz von erneuerbaren Energien, wodurch sich der Anteil konventioneller Stromerzeugung stÃ¤ndig verringern wird.';
 WOMT_aThesenParteien[17][1]='-1';
-WOMT_aThesenParteienText[17][1][0]='Das Hamburger Gas- und Stromnetz wieder in die öffentliche Hand zu bringen, ist nicht zu finanzieren. Außerdem gingen nur das Netz, aber nicht die Kunden auf die Stadt über. Nach Veranschlagung des Initiators soll dieses Projekt 1,5 Mrd. Euro kosten. Der tatsächliche Preis ist hingegen gar nicht seriös abzuschätzen. Hamburg müsste hierfür neue Schulden machen, die zukünftige Generationen abzustottern hätten. Das kommt für uns nicht in Frage.';
+WOMT_aThesenParteienText[17][1][0]='Das Hamburger Gas- und Stromnetz wieder in die Ã¶ffentliche Hand zu bringen, ist nicht zu finanzieren. AuÃŸerdem gingen nur das Netz, aber nicht die Kunden auf die Stadt Ã¼ber. Nach Veranschlagung des Initiators soll dieses Projekt 1,5 Mrd. Euro kosten. Der tatsÃ¤chliche Preis ist hingegen gar nicht seriÃ¶s abzuschÃ¤tzen. Hamburg mÃ¼sste hierfÃ¼r neue Schulden machen, die zukÃ¼nftige Generationen abzustottern hÃ¤tten. Das kommt fÃ¼r uns nicht in Frage.';
 WOMT_aThesenParteien[18][1]='1';
-WOMT_aThesenParteienText[18][1][0]='Alle in den Krankenhausplan aufgenommenen Krankenhäuser haben unabhängig von ihrer Trägerschaft grundsätzlich einen Rechtsanspruch auf Investitionsmittel. Transparenz über diese Mittel wurde geschaffen, da der Senat auf Antrag der  CDU seit 2003 jährlich über jede Investitionsmaßnahme über 3 Mio. Euro berichtet.';
+WOMT_aThesenParteienText[18][1][0]='Alle in den Krankenhausplan aufgenommenen KrankenhÃ¤user haben unabhÃ¤ngig von ihrer TrÃ¤gerschaft grundsÃ¤tzlich einen Rechtsanspruch auf Investitionsmittel. Transparenz Ã¼ber diese Mittel wurde geschaffen, da der Senat auf Antrag der  CDU seit 2003 jÃ¤hrlich Ã¼ber jede InvestitionsmaÃŸnahme Ã¼ber 3 Mio. Euro berichtet.';
 WOMT_aThesenParteien[19][1]='-1';
-WOMT_aThesenParteienText[19][1][0]='Das Sozialticket war eine freiwillige Leistung Hamburgs und führte zu einer ungerechtfertigten Besserstellung von Sozialhilfeempfängern gegenüber Haushalten mit niedrigem Einkommen. Die aktuelle Alternative ist eine CC-Karte für 26,60 Euro (im Abo). Sie ist gültig für 1 Person und 3 Kinder (6-14 Jahre) in drei Zonen außerhalb der Hauptverkehrszeiten. Sofern der Sozialhilfeempfänger über die Zonen hinausfahren muss, um Therapie- oder Qualifizierungsmaßnahmen wahrzunehmen, werden die Fahrtkosten vom Sozialhilfeträger erstattet. Damit wird die Hilfe zielgenau für konkret nachgewiesene Bedarfe weiterhin geleistet. Seit 1.7.2007 gibt es außerdem die Sozialkarte für Empfänger von ALG II, Sozialhilfe und ähnlichen Leistungen. Mit ihr gibt es eine Ermäßigung von 5 Euro. Seit 8.1.2008 können Menschen, die einem so genannten 1-Euro-Job nachgehen, eine ermäßigte Monatskarte erwerben.';
+WOMT_aThesenParteienText[19][1][0]='Das Sozialticket war eine freiwillige Leistung Hamburgs und fÃ¼hrte zu einer ungerechtfertigten Besserstellung von SozialhilfeempfÃ¤ngern gegenÃ¼ber Haushalten mit niedrigem Einkommen. Die aktuelle Alternative ist eine CC-Karte fÃ¼r 26,60 Euro (im Abo). Sie ist gÃ¼ltig fÃ¼r 1 Person und 3 Kinder (6-14 Jahre) in drei Zonen auÃŸerhalb der Hauptverkehrszeiten. Sofern der SozialhilfeempfÃ¤nger Ã¼ber die Zonen hinausfahren muss, um Therapie- oder QualifizierungsmaÃŸnahmen wahrzunehmen, werden die Fahrtkosten vom SozialhilfetrÃ¤ger erstattet. Damit wird die Hilfe zielgenau fÃ¼r konkret nachgewiesene Bedarfe weiterhin geleistet. Seit 1.7.2007 gibt es auÃŸerdem die Sozialkarte fÃ¼r EmpfÃ¤nger von ALG II, Sozialhilfe und Ã¤hnlichen Leistungen. Mit ihr gibt es eine ErmÃ¤ÃŸigung von 5 Euro. Seit 8.1.2008 kÃ¶nnen Menschen, die einem so genannten 1-Euro-Job nachgehen, eine ermÃ¤ÃŸigte Monatskarte erwerben.';
 WOMT_aThesenParteien[20][1]='-1';
-WOMT_aThesenParteienText[20][1][0]='Über ein dauerhaftes Bleiberecht sollte auch weiterhin im Einzelfall nach den im vergangenen Jahr eingeführten Kriterien entschieden werden. Unzumutbare Härten sollen vermieden werden, aber eine Pauschallösung scheidet aus.';
+WOMT_aThesenParteienText[20][1][0]='Ãœber ein dauerhaftes Bleiberecht sollte auch weiterhin im Einzelfall nach den im vergangenen Jahr eingefÃ¼hrten Kriterien entschieden werden. Unzumutbare HÃ¤rten sollen vermieden werden, aber eine PauschallÃ¶sung scheidet aus.';
 WOMT_aThesenParteien[21][1]='1';
-WOMT_aThesenParteienText[21][1][0]='Gegen Widerstände von SPD und GAL haben wir das grundsätzliche Kreditverbot in der Landeshaushaltsordnung gesetzlich verankert. Ab 2013 ist eine Schuldenaufnahme nur noch in begründeten Einzelfällen - wie z.B. im Falle einer Sturmflut - möglich, falls gleichzeitig ein Tilgungsplan vorgelegt wird. Da die Opposition bereits im Vorwege angekündigt hatte, unserer Initiative für ein grundsätzliches Kreditverbot nicht zustimmen zu wollen, wäre ein Antrag auf eine entsprechende Verfassungsänderung aussichtslos gewesen, da diesem zwei Drittel der Parlamentarier hätte zustimmen müssen.';
+WOMT_aThesenParteienText[21][1][0]='Gegen WiderstÃ¤nde von SPD und GAL haben wir das grundsÃ¤tzliche Kreditverbot in der Landeshaushaltsordnung gesetzlich verankert. Ab 2013 ist eine Schuldenaufnahme nur noch in begrÃ¼ndeten EinzelfÃ¤llen - wie z.B. im Falle einer Sturmflut - mÃ¶glich, falls gleichzeitig ein Tilgungsplan vorgelegt wird. Da die Opposition bereits im Vorwege angekÃ¼ndigt hatte, unserer Initiative fÃ¼r ein grundsÃ¤tzliches Kreditverbot nicht zustimmen zu wollen, wÃ¤re ein Antrag auf eine entsprechende VerfassungsÃ¤nderung aussichtslos gewesen, da diesem zwei Drittel der Parlamentarier hÃ¤tte zustimmen mÃ¼ssen.';
 WOMT_aThesenParteien[22][1]='1';
-WOMT_aThesenParteienText[22][1][0]='Eine intensivere Kooperation zwischen Hochschulen und Unternehmen stärkt den Wissens- und Innovationstransfer. Durch die Besetzung der Hochschulräte mit Menschen aus Wissenschaft und Wirtschaft ist ein wichtiger Baustein für eine verbesserte Kooperation gegeben.';
+WOMT_aThesenParteienText[22][1][0]='Eine intensivere Kooperation zwischen Hochschulen und Unternehmen stÃ¤rkt den Wissens- und Innovationstransfer. Durch die Besetzung der HochschulrÃ¤te mit Menschen aus Wissenschaft und Wirtschaft ist ein wichtiger Baustein fÃ¼r eine verbesserte Kooperation gegeben.';
 WOMT_aThesenParteien[23][1]='-1';
-WOMT_aThesenParteienText[23][1][0]='Wir müssen dringend Ausbildungsplätze schaffen und werden deswegen nicht aufhören, die Rahmenbedingungen für ausbildende Unternehmen zu verbessern. Die Senkung der Lohnzusatzkosten, Bürokratieabbau und das neue Berufsbildungsrecht sind wichtige Schritte auf diesem Weg. Eine Ausbildungsplatzabgabe schafft neue Bürokratie und Kosten: Sie wird es mit uns nicht geben.';
+WOMT_aThesenParteienText[23][1][0]='Wir mÃ¼ssen dringend AusbildungsplÃ¤tze schaffen und werden deswegen nicht aufhÃ¶ren, die Rahmenbedingungen fÃ¼r ausbildende Unternehmen zu verbessern. Die Senkung der Lohnzusatzkosten, BÃ¼rokratieabbau und das neue Berufsbildungsrecht sind wichtige Schritte auf diesem Weg. Eine Ausbildungsplatzabgabe schafft neue BÃ¼rokratie und Kosten: Sie wird es mit uns nicht geben.';
 WOMT_aThesenParteien[24][1]='1';
-WOMT_aThesenParteienText[24][1][0]='Die CDU ist derzeit noch für eine weitere Verbeamtung von Lehrern, weil ein Alleingang Hamburgs hier nicht möglich erscheint und auch das Angestelltenverhältnis im öffentlichen Dienst nicht die vielfach gewünschte Flexibilität bietet. Die CDU hat aber für alle Schulen die Möglichkeit geschaffen, sich ihre Lehrer selber auszusuchen. Darüber hinaus hat die CDU im Rahmen einer Enquete-Kommission der Bürgerschaft der Forderung zugestimmt, dass im Rahmen einer Neuregelung der Beamtenbesoldung die Einführung einer lehrerspezifischen Besoldungsstruktur geprüft werden soll. In Folge der verbreiterten Ausbildung und Einsetzbarkeit der Lehrkräfte sollen dabei Besoldungsunterschiede abgebaut werden, die Entlohnung von Lehrkräften soll flexibilisiert und mit aufgabenbezogenen Anteilen versehen werden. Zu prüfen sind in diesem Rahmen auch funktionsbedingte Zulagen und solche für den Einsatz in Gebieten mit besonderen Problemlagen. Für unterschiedliche Fächer sollten je nach Lehrerarbeitsmarkt zudem unterschiedliche Zulagen gezahlt werden können (höhere Zulagen für Mangelfächer).';
+WOMT_aThesenParteienText[24][1][0]='Die CDU ist derzeit noch fÃ¼r eine weitere Verbeamtung von Lehrern, weil ein Alleingang Hamburgs hier nicht mÃ¶glich erscheint und auch das AngestelltenverhÃ¤ltnis im Ã¶ffentlichen Dienst nicht die vielfach gewÃ¼nschte FlexibilitÃ¤t bietet. Die CDU hat aber fÃ¼r alle Schulen die MÃ¶glichkeit geschaffen, sich ihre Lehrer selber auszusuchen. DarÃ¼ber hinaus hat die CDU im Rahmen einer Enquete-Kommission der BÃ¼rgerschaft der Forderung zugestimmt, dass im Rahmen einer Neuregelung der Beamtenbesoldung die EinfÃ¼hrung einer lehrerspezifischen Besoldungsstruktur geprÃ¼ft werden soll. In Folge der verbreiterten Ausbildung und Einsetzbarkeit der LehrkrÃ¤fte sollen dabei Besoldungsunterschiede abgebaut werden, die Entlohnung von LehrkrÃ¤ften soll flexibilisiert und mit aufgabenbezogenen Anteilen versehen werden. Zu prÃ¼fen sind in diesem Rahmen auch funktionsbedingte Zulagen und solche fÃ¼r den Einsatz in Gebieten mit besonderen Problemlagen. FÃ¼r unterschiedliche FÃ¤cher sollten je nach Lehrerarbeitsmarkt zudem unterschiedliche Zulagen gezahlt werden kÃ¶nnen (hÃ¶here Zulagen fÃ¼r MangelfÃ¤cher).';
 WOMT_aThesenParteien[25][1]='-1';
-WOMT_aThesenParteienText[25][1][0]='Früher gab es statt einer Lernmittelfreiheit eine Lernmittelmangelverwaltung. Viele Schulbücher waren völlig veraltet oder gar nicht vorhanden, zahllose Kopien führten zu einer pädagogisch falschen und auch umweltschädlichen "Zettelwirtschaft" - und immer wieder wurden die Eltern trotz angeblicher Lernmittelfreiheit unabhängig von der persönlichen finanziellen Lage z.B. zum Kauf  teurer Atlanten angehalten. Die CDU hat diesen unhaltbaren Zustand beendet und Gebühren eingeführt, zugleich aber einkommensschwache Familien von diesen Gebühren ausgenommen.';
+WOMT_aThesenParteienText[25][1][0]='FrÃ¼her gab es statt einer Lernmittelfreiheit eine Lernmittelmangelverwaltung. Viele SchulbÃ¼cher waren vÃ¶llig veraltet oder gar nicht vorhanden, zahllose Kopien fÃ¼hrten zu einer pÃ¤dagogisch falschen und auch umweltschÃ¤dlichen "Zettelwirtschaft" - und immer wieder wurden die Eltern trotz angeblicher Lernmittelfreiheit unabhÃ¤ngig von der persÃ¶nlichen finanziellen Lage z.B. zum Kauf  teurer Atlanten angehalten. Die CDU hat diesen unhaltbaren Zustand beendet und GebÃ¼hren eingefÃ¼hrt, zugleich aber einkommensschwache Familien von diesen GebÃ¼hren ausgenommen.';
 WOMT_aThesenParteien[26][1]='1';
-WOMT_aThesenParteienText[26][1][0]='Die geschlossene Unterbringung "Feuerbergstraße" ist eine Einrichtung der Jugendhilfe für schwer straffällig gewordene Jugendliche. Hochprofessionell und mit verschiedenen pädagogischen und lerntherapeutischen Maßnahmen erhalten die Jugendlichen die Chance zur Resozialisierung. Sowohl für andere, als auch für sie selbst liegt bei diesen Jugendlichen ein erhebliches Gefährdungspotential vor. Jugendgewalt und die ihr zugrundeliegende Orientierungslosigkeit und mangelnde Erfahrung notwendiger Grenzwerte im sozialen Miteinander sind nicht durch eine "Kuschelpädagogik" in den Griff zu kriegen. Für die Erreichung erster Erfolge der Erziehungsmaßnahmen ist die Unterbringung in einer geschlossenen Einrichtung daher notwendig.  ';
+WOMT_aThesenParteienText[26][1][0]='Die geschlossene Unterbringung "FeuerbergstraÃŸe" ist eine Einrichtung der Jugendhilfe fÃ¼r schwer straffÃ¤llig gewordene Jugendliche. Hochprofessionell und mit verschiedenen pÃ¤dagogischen und lerntherapeutischen MaÃŸnahmen erhalten die Jugendlichen die Chance zur Resozialisierung. Sowohl fÃ¼r andere, als auch fÃ¼r sie selbst liegt bei diesen Jugendlichen ein erhebliches GefÃ¤hrdungspotential vor. Jugendgewalt und die ihr zugrundeliegende Orientierungslosigkeit und mangelnde Erfahrung notwendiger GrenzwerteÂ im sozialenÂ Miteinander sind nicht durch eine "KuschelpÃ¤dagogik" in den Griff zu kriegen. FÃ¼r die Erreichung erster Erfolge der ErziehungsmaÃŸnahmen ist die Unterbringung in einer geschlossenen Einrichtung daher notwendig.  ';
 WOMT_aThesenParteien[27][1]='-1';
-WOMT_aThesenParteienText[27][1][0]='Die HÖB erhält einen jährlichen Zuschuss von rd. 25 Mio. Euro. Würden alle Nutzungsgebühren als Einnahmen wegfallen, müssten aus Steuermitteln zusätzlich rd. 3,5 Mio. Euro aufgebracht werden, die durch Kürzungen an anderer Stelle finanziert werden müssten. Die Lesegebühren halten wir für angemessen, da sie differenziert gestaltet wurden und die Nutzer dafür einen großen "Gegenwert" erhalten.';
+WOMT_aThesenParteienText[27][1][0]='Die HÃ–B erhÃ¤lt einen jÃ¤hrlichen Zuschuss von rd. 25 Mio. Euro. WÃ¼rden alle NutzungsgebÃ¼hren als Einnahmen wegfallen, mÃ¼ssten aus Steuermitteln zusÃ¤tzlich rd. 3,5 Mio. Euro aufgebracht werden, die durch KÃ¼rzungen an anderer Stelle finanziert werden mÃ¼ssten. Die LesegebÃ¼hren halten wir fÃ¼r angemessen, da sie differenziert gestaltet wurden und die Nutzer dafÃ¼r einen groÃŸen "Gegenwert" erhalten.';
 WOMT_aThesenParteien[28][1]='1';
-WOMT_aThesenParteienText[28][1][0]='Die Videoüberwachung auf der Reeperbahn hat sich bewährt. Sofern die Kriminalitätssituation in anderen Gebieten entsprechende Maßnahmen notwendig macht, sollte die Videoüberwachung auch dort eingeführt werden können.';
+WOMT_aThesenParteienText[28][1][0]='Die VideoÃ¼berwachung auf der Reeperbahn hat sich bewÃ¤hrt. Sofern die KriminalitÃ¤tssituation in anderen Gebieten entsprechende MaÃŸnahmen notwendig macht, sollte die VideoÃ¼berwachung auch dort eingefÃ¼hrt werden kÃ¶nnen.';
 WOMT_aThesenParteien[29][1]='-1';
-WOMT_aThesenParteienText[29][1][0]='Das kommt zumindest dann nicht in Betracht, wenn die Volksgesetze verfassungswidrig sind, wie es etwa das per Volksentscheid eingeführte Wahlrecht war.';
+WOMT_aThesenParteienText[29][1][0]='Das kommt zumindest dann nicht in Betracht, wenn die Volksgesetze verfassungswidrig sind, wie es etwa das per Volksentscheid eingefÃ¼hrte Wahlrecht war.';
 WOMT_aThesenParteien[0][3]='-1';
-WOMT_aThesenParteienText[0][3][0]='Ein Alkoholverbot auf Straßen und Plätzen trifft den Bürger in seiner Freiheit ohne das eigentliche Problem, die Gewalt unter Alkoholeinfluss, zu bekämpfen.';
+WOMT_aThesenParteienText[0][3][0]='Ein Alkoholverbot auf StraÃŸen und PlÃ¤tzen trifft den BÃ¼rger in seiner Freiheit ohne das eigentliche Problem, die Gewalt unter Alkoholeinfluss, zu bekÃ¤mpfen.';
 WOMT_aThesenParteien[1][3]='0';
-WOMT_aThesenParteienText[1][3][0]='Hochschulen sollen selbst entscheiden, ob und in welcher Höhe sie Studiengebühren erheben.';
+WOMT_aThesenParteienText[1][3][0]='Hochschulen sollen selbst entscheiden, ob und in welcher HÃ¶he sie StudiengebÃ¼hren erheben.';
 WOMT_aThesenParteien[2][3]='1';
-WOMT_aThesenParteienText[2][3][0]='Die Elbvertiefung muss kommen, um die Konkurrenzfähigkeit des Hamburger Hafens zu stärken.';
+WOMT_aThesenParteienText[2][3][0]='Die Elbvertiefung muss kommen, um die KonkurrenzfÃ¤higkeit des Hamburger Hafens zu stÃ¤rken.';
 WOMT_aThesenParteien[3][3]='-1';
-WOMT_aThesenParteienText[3][3][0]='Die FDP setzt sich auf Bundesebene für das Bürgergeld zur Sicherung des Existenzminimums ein. Hiermit werden Mindestlöhne hinfällig.';
+WOMT_aThesenParteienText[3][3][0]='Die FDP setzt sich auf Bundesebene fÃ¼r das BÃ¼rgergeld zur Sicherung des Existenzminimums ein. Hiermit werden MindestlÃ¶hne hinfÃ¤llig.';
 WOMT_aThesenParteien[4][3]='1';
-WOMT_aThesenParteienText[4][3][0]='Die FDP-Hamburg setzt sich für die Überführung einer so genannten "sozialen" in eine freie, wettbewerbsorientierte Wohnungsbaupolitik ein. Durch mehr Wohnungen am Markt können die Mietpreise sinken.';
+WOMT_aThesenParteienText[4][3][0]='Die FDP-Hamburg setzt sich fÃ¼r die ÃœberfÃ¼hrung einer so genannten "sozialen" in eine freie, wettbewerbsorientierte Wohnungsbaupolitik ein. Durch mehr Wohnungen am Markt kÃ¶nnen die Mietpreise sinken.';
 WOMT_aThesenParteien[5][3]='1';
-WOMT_aThesenParteienText[5][3][0]='Kitas und Vorschulbesuche sollen kostenfrei und verbindlich sein. Wir fordern die Einführung einer Starterklasse für 5-jährige und somit eine vorgezogene Schulpflicht ab 5 Jahren.';
+WOMT_aThesenParteienText[5][3][0]='Kitas und Vorschulbesuche sollen kostenfrei und verbindlich sein. Wir fordern die EinfÃ¼hrung einer Starterklasse fÃ¼r 5-jÃ¤hrige und somit eine vorgezogene Schulpflicht ab 5 Jahren.';
 WOMT_aThesenParteien[6][3]='1';
 WOMT_aThesenParteienText[6][3][0]='Die FDP Hamburg fordert, dass Kinder verbindlich bereits mit 3 Jahren im Kindergarten an einer Sprachstandserhebung teilnehmen.';
 WOMT_aThesenParteien[7][3]='-1';
-WOMT_aThesenParteienText[7][3][0]='Wir setzen uns nur für die Zusammenlegung von Hauptschule und Realschule ein,  das Gymnasium soll erhalten bleiben.';
+WOMT_aThesenParteienText[7][3][0]='Wir setzen uns nur fÃ¼r die Zusammenlegung von Hauptschule und Realschule ein,  das Gymnasium soll erhalten bleiben.';
 WOMT_aThesenParteien[8][3]='1';
-WOMT_aThesenParteienText[8][3][0]='Die FDP spricht sich ausdrücklich für gesetzliche Regelungen aus, das Rauchen aus allen öffentlichen Gebäuden und Verkehrsmitteln zu verbannen. Für Einraumkneipen, deren Wirte keinen separaten Raucherraum einrichten können, sollte es eine Ausnahme vom Nichtraucherschutzgesetz geben, weil ansonsten Existenzen vernichtet werden.';
+WOMT_aThesenParteienText[8][3][0]='Die FDP spricht sich ausdrÃ¼cklich fÃ¼r gesetzliche Regelungen aus, das Rauchen aus allen Ã¶ffentlichen GebÃ¤uden und Verkehrsmitteln zu verbannen. FÃ¼r Einraumkneipen, deren Wirte keinen separaten Raucherraum einrichten kÃ¶nnen, sollte es eine Ausnahme vom Nichtraucherschutzgesetz geben, weil ansonsten Existenzen vernichtet werden.';
 WOMT_aThesenParteien[9][3]='1';
-WOMT_aThesenParteienText[9][3][0]='Die FDP-Hamburg fordert die völlige Freigabe der Ladenöffnungszeiten.';
+WOMT_aThesenParteienText[9][3][0]='Die FDP-Hamburg fordert die vÃ¶llige Freigabe der LadenÃ¶ffnungszeiten.';
 WOMT_aThesenParteien[10][3]='-1';
-WOMT_aThesenParteienText[10][3][0]='Wir wollen das Finanzamt effektiver gestalten und damit die Belastungen für Bürger und Unternehmen abbauen. Dies soll z.B. durch mehr E-Government, bessere Ausstattung und bessere Koordination zwischen Betriebs-, Außen- und Sonderprüfung erreicht werden.';
+WOMT_aThesenParteienText[10][3][0]='Wir wollen das Finanzamt effektiver gestalten und damit die Belastungen fÃ¼r BÃ¼rger und Unternehmen abbauen. Dies soll z.B. durch mehr E-Government, bessere Ausstattung und bessere Koordination zwischen Betriebs-, AuÃŸen- und SonderprÃ¼fung erreicht werden.';
 WOMT_aThesenParteien[11][3]='1';
 WOMT_aThesenParteienText[11][3][0]='Die Mittel aus der bisherigen Privatisierung des Hafens werden bei weitem nicht ausreichen, um weitere erforderliche Projekte zu finanzieren. Der Verkauf weiterer Anteile stellt hier eine Finanzierungsgrundlage dar.';
 WOMT_aThesenParteien[12][3]='-1';
-WOMT_aThesenParteienText[12][3][0]='Wir sind entschieden gegen die Einführung einer City-Maut, die die Hamburger Bürger und Gewerbetreibenden zusätzlich belastet. City-Maut ist City-Mord.';
+WOMT_aThesenParteienText[12][3][0]='Wir sind entschieden gegen die EinfÃ¼hrung einer City-Maut, die die Hamburger BÃ¼rger und Gewerbetreibenden zusÃ¤tzlich belastet. City-Maut ist City-Mord.';
 WOMT_aThesenParteien[13][3]='1';
-WOMT_aThesenParteienText[13][3][0]='Der Bau der Hafenquerspange muss unverzüglich beginnen, um die angespannte Verkehrssituation ein wenig zu entlasten.';
+WOMT_aThesenParteienText[13][3][0]='Der Bau der Hafenquerspange muss unverzÃ¼glich beginnen, um die angespannte Verkehrssituation ein wenig zu entlasten.';
 WOMT_aThesenParteien[14][3]='1';
-WOMT_aThesenParteienText[14][3][0]='Der Nordstaat soll kommen. Hierfür muss zusammen mit den Nachbarländern ein verbindlicher Zeitplan ausgehandelt werden, der die weiteren Schritte hin zu einer Vereinigung noch vor dem Jahr 2020 festlegt.';
+WOMT_aThesenParteienText[14][3][0]='Der Nordstaat soll kommen. HierfÃ¼r muss zusammen mit den NachbarlÃ¤ndern ein verbindlicher Zeitplan ausgehandelt werden, der die weiteren Schritte hin zu einer Vereinigung noch vor dem Jahr 2020 festlegt.';
 WOMT_aThesenParteien[15][3]='1';
-WOMT_aThesenParteienText[15][3][0]='Die FDP Hamburg sieht den weiteren Einsatz für die Rechte von Schwulen und Lesben als Aufgabe liberaler Gesellschaftspolitik an.';
+WOMT_aThesenParteienText[15][3][0]='Die FDP Hamburg sieht den weiteren Einsatz fÃ¼r die Rechte von Schwulen und Lesben als Aufgabe liberaler Gesellschaftspolitik an.';
 WOMT_aThesenParteien[16][3]='1';
-WOMT_aThesenParteienText[16][3][0]='Wir sind für die Errichtung eines zusätzlichen Kraftwerks in Moorburg.';
+WOMT_aThesenParteienText[16][3][0]='Wir sind fÃ¼r die Errichtung eines zusÃ¤tzlichen Kraftwerks in Moorburg.';
 WOMT_aThesenParteien[17][3]='0';
-WOMT_aThesenParteienText[17][3][0]='Die FDP Hamburg verlangt, dass der Senat sich auf Bundesebene entschieden dafür einsetzt, dass mehr Wettbewerb bezogen auf die Versorgungsnetze, insbesondere bei Strom und Gas, entsteht und dass die Netzagentur entsprechend gestärkt wird.';
+WOMT_aThesenParteienText[17][3][0]='Die FDP Hamburg verlangt, dass der Senat sich auf Bundesebene entschieden dafÃ¼r einsetzt, dass mehr Wettbewerb bezogen auf die Versorgungsnetze, insbesondere bei Strom und Gas, entsteht und dass die Netzagentur entsprechend gestÃ¤rkt wird.';
 WOMT_aThesenParteien[18][3]='1';
-WOMT_aThesenParteienText[18][3][0]='Bei der Verteilung der staatlichen Krankenhausinvestitionsmittel werden staatliche, frei gemeinnützige und private Träger gleich behandelt. Dabei gilt das Prinzip der medizinischen Notwendigkeit.';
+WOMT_aThesenParteienText[18][3][0]='Bei der Verteilung der staatlichen Krankenhausinvestitionsmittel werden staatliche, frei gemeinnÃ¼tzige und private TrÃ¤ger gleich behandelt. Dabei gilt das Prinzip der medizinischen Notwendigkeit.';
 WOMT_aThesenParteien[19][3]='-1';
-WOMT_aThesenParteienText[19][3][0]='Dies ginge in die falsche Richtung. Hilfebedürftige müssen in die Lage versetzt werden, für angemessene Mobilität selbst zahlen zu können. Dies soll durch unser Bürgergeldsystem erreicht werden.';
+WOMT_aThesenParteienText[19][3][0]='Dies ginge in die falsche Richtung. HilfebedÃ¼rftige mÃ¼ssen in die Lage versetzt werden, fÃ¼r angemessene MobilitÃ¤t selbst zahlen zu kÃ¶nnen. Dies soll durch unser BÃ¼rgergeldsystem erreicht werden.';
 WOMT_aThesenParteien[20][3]='-1';
-WOMT_aThesenParteienText[20][3][0]='Integration ist ein wechselseitiger Prozess. Voraussetzung für den Erhalt eines dauerhaften Bleiberechts muss eine gelungene wirtschaftliche und sprachliche Integration sein.';
+WOMT_aThesenParteienText[20][3][0]='Integration ist ein wechselseitiger Prozess. Voraussetzung fÃ¼r den Erhalt eines dauerhaften Bleiberechts muss eine gelungene wirtschaftliche und sprachliche Integration sein.';
 WOMT_aThesenParteien[21][3]='1';
-WOMT_aThesenParteienText[21][3][0]='Wir werden ein qualifiziertes Neuverschuldungsverbot in die Hamburger Verfassung einführen. Nur auf der Basis geordneter Finanzen kann sich Hamburg frei entfalten und seinen vielfältigen Aufgaben dauerhaft und verlässlich nachkommen.';
+WOMT_aThesenParteienText[21][3][0]='Wir werden ein qualifiziertes Neuverschuldungsverbot in die Hamburger Verfassung einfÃ¼hren. Nur auf der Basis geordneter Finanzen kann sich Hamburg frei entfalten und seinen vielfÃ¤ltigen Aufgaben dauerhaft und verlÃ¤sslich nachkommen.';
 WOMT_aThesenParteien[22][3]='0';
-WOMT_aThesenParteienText[22][3][0]='Die FDP steht für die Autonomie der Hochschulen. Eine selbstbestimmte enge Zusammenarbeit zwischen Hochschulen und Unternehmen muss von den Hochschulen selbst gewünscht werden.';
+WOMT_aThesenParteienText[22][3][0]='Die FDP steht fÃ¼r die Autonomie der Hochschulen. Eine selbstbestimmte enge Zusammenarbeit zwischen Hochschulen und Unternehmen muss von den Hochschulen selbst gewÃ¼nscht werden.';
 WOMT_aThesenParteien[23][3]='-1';
 WOMT_aThesenParteienText[23][3][0]='Die FDP-Hamburg stellt sich generell gegen Ausbildungsabgaben.';
 WOMT_aThesenParteien[24][3]='-1';
-WOMT_aThesenParteienText[24][3][0]='Die FDP-Hamburg will den Beamtenstatus für Lehrer abschaffen, damit einerseits neue Lehrkräfte schneller eingestellt werden können und andererseits die Schulen im Personalwesen flexibel auf Veränderungen reagieren können.';
+WOMT_aThesenParteienText[24][3][0]='Die FDP-Hamburg will den Beamtenstatus fÃ¼r Lehrer abschaffen, damit einerseits neue LehrkrÃ¤fte schneller eingestellt werden kÃ¶nnen und andererseits die Schulen im Personalwesen flexibel auf VerÃ¤nderungen reagieren kÃ¶nnen.';
 WOMT_aThesenParteien[25][3]='1';
-WOMT_aThesenParteienText[25][3][0]='Die FDP ist nicht grundsätzlich gegen die finanzielle Beteiligung der Eltern. Die Schulbuchgebühr ist allerdings ein Bürokratiemonster, das mehr kostet als es einbringt.';
+WOMT_aThesenParteienText[25][3][0]='Die FDP ist nicht grundsÃ¤tzlich gegen die finanzielle Beteiligung der Eltern. Die SchulbuchgebÃ¼hr ist allerdings ein BÃ¼rokratiemonster, das mehr kostet als es einbringt.';
 WOMT_aThesenParteien[26][3]='1';
-WOMT_aThesenParteienText[26][3][0]='Die FDP Hamburg fordert ein neues Konzept für die geschlossene Unterbringung Feuerbergstraße (GUF), das den gesetzlichen Erfordernissen entspricht, sich als pädagogisch wirkungsvoll ausweist und als gemeinsamer Betrieb mit den angrenzenden norddeutschen Bundesländern geführt wird.';
+WOMT_aThesenParteienText[26][3][0]='Die FDP Hamburg fordert ein neues Konzept fÃ¼r die geschlossene Unterbringung FeuerbergstraÃŸe (GUF), das den gesetzlichen Erfordernissen entspricht, sich als pÃ¤dagogisch wirkungsvoll ausweist und als gemeinsamer Betrieb mit den angrenzenden norddeutschen BundeslÃ¤ndern gefÃ¼hrt wird.';
 WOMT_aThesenParteien[27][3]='-1';
-WOMT_aThesenParteienText[27][3][0]='Die FDP steht für mehr Netto in der Tasche durch ein einfaches, niedriges und gerechtes Steuersystem, damit die Leute u.a. Geld für die Bücherausleihe haben. Kostenlose Nutzung ist wenig sozial, weil alle Lohnabhängigen für den Rest der Gesellschaft diese Dienstleistung bezahlen müssten.';
+WOMT_aThesenParteienText[27][3][0]='Die FDP steht fÃ¼r mehr Netto in der Tasche durch ein einfaches, niedriges und gerechtes Steuersystem, damit die Leute u.a. Geld fÃ¼r die BÃ¼cherausleihe haben. Kostenlose Nutzung ist wenig sozial, weil alle LohnabhÃ¤ngigen fÃ¼r den Rest der Gesellschaft diese Dienstleistung bezahlen mÃ¼ssten.';
 WOMT_aThesenParteien[28][3]='-1';
-WOMT_aThesenParteienText[28][3][0]='Die FDP-Hamburg ist gegen eine flächendeckende Videoüberwachung, die jeden Bürger unter Generalverdacht stellt. Videoüberwachung verhindert keine Verbrechen - das tun nur Polizisten.';
+WOMT_aThesenParteienText[28][3][0]='Die FDP-Hamburg ist gegen eine flÃ¤chendeckende VideoÃ¼berwachung, die jeden BÃ¼rger unter Generalverdacht stellt. VideoÃ¼berwachung verhindert keine Verbrechen - das tun nur Polizisten.';
 WOMT_aThesenParteien[29][3]='1';
-WOMT_aThesenParteienText[29][3][0]='Für uns ist ein Volksentscheid verbindlich und nicht als Vorschlag zu sehen.';
+WOMT_aThesenParteienText[29][3][0]='FÃ¼r uns ist ein Volksentscheid verbindlich und nicht als Vorschlag zu sehen.';
 WOMT_aThesenParteien[0][0]='-1';
-WOMT_aThesenParteienText[0][0][0]='Es genügt, wenn, wie gesetzlich geregelt, kein Alkohol an Jugendliche und eindeutig Betrunkene verkauft wird. Zudem sind wir für das Verbot von Glasflaschen auf dem Kiez. Statt eines Alkoholverbots sind wir für Straßensozialarbeit für Obdachlose und Antikonfliktteams.';
+WOMT_aThesenParteienText[0][0][0]='Es genÃ¼gt, wenn, wie gesetzlich geregelt, kein Alkohol an Jugendliche und eindeutig Betrunkene verkauft wird. Zudem sind wir fÃ¼r das Verbot von Glasflaschen auf dem Kiez. Statt eines Alkoholverbots sind wir fÃ¼r StraÃŸensozialarbeit fÃ¼r Obdachlose und Antikonfliktteams.';
 WOMT_aThesenParteien[1][0]='1';
-WOMT_aThesenParteienText[1][0][0]='Unser Ziel ist es, die vergleichsweise niedrige Zahl der HochschulabsolventInnen in Hamburg deutlich zu steigern. Studiengebühren sind eine zusätzliche soziale Hürde und gehören deshalb wieder abgeschafft.';
+WOMT_aThesenParteienText[1][0][0]='Unser Ziel ist es, die vergleichsweise niedrige Zahl der HochschulabsolventInnen in Hamburg deutlich zu steigern. StudiengebÃ¼hren sind eine zusÃ¤tzliche soziale HÃ¼rde und gehÃ¶ren deshalb wieder abgeschafft.';
 WOMT_aThesenParteien[2][0]='-1';
-WOMT_aThesenParteienText[2][0][0]='Eine erneute Elbvertiefung stellt ein unkalkulierbares ökologisches und ökonomisches Risiko für unsere Stadt dar und ist deshalb abzulehnen. Für die Bewältigung des immensen Hafenwachstums brauchen wir stattdessen eine Kooperation aller Häfen in der Metropolregion. Das ist die nachhaltigere Alternative zu einer kostenintensiven Elbvertiefung.';
+WOMT_aThesenParteienText[2][0][0]='Eine erneute Elbvertiefung stellt ein unkalkulierbares Ã¶kologisches und Ã¶konomisches Risiko fÃ¼r unsere Stadt dar und ist deshalb abzulehnen. FÃ¼r die BewÃ¤ltigung des immensen Hafenwachstums brauchen wir stattdessen eine Kooperation aller HÃ¤fen in der Metropolregion. Das ist die nachhaltigere Alternative zu einer kostenintensiven Elbvertiefung.';
 WOMT_aThesenParteien[3][0]='1';
-WOMT_aThesenParteienText[3][0][0]='Um den Abwärtstrend im Niedriglohnbereich umzukehren und die Zahl von Beziehenden ergänzender Leistungen zu senken, werden wir bundespolitische Initiativen ergreifen, die auf die Einführung eines gesetzlichen Mindestlohns zielen.';
+WOMT_aThesenParteienText[3][0][0]='Um den AbwÃ¤rtstrend im Niedriglohnbereich umzukehren und die Zahl von Beziehenden ergÃ¤nzender Leistungen zu senken, werden wir bundespolitische Initiativen ergreifen, die auf die EinfÃ¼hrung eines gesetzlichen Mindestlohns zielen.';
 WOMT_aThesenParteien[4][0]='-1';
-WOMT_aThesenParteienText[4][0][0]='Wir wollen, dass die städtischen Wohnungsunternehmen wieder mehr Sozialwohnungen bauen. Auch der Verkauf städtischer Grundstücke in sozial stabilen Quartieren soll mit der Verpflichtung verbunden werden, einen bestimmten Anteil an Sozialwohnungen zu bauen. Nur so kann eine angemessene Wohnungsversorgung für einkommensschwache und benachteiligte Gruppen gesichert werden.';
+WOMT_aThesenParteienText[4][0][0]='Wir wollen, dass die stÃ¤dtischen Wohnungsunternehmen wieder mehr Sozialwohnungen bauen. Auch der Verkauf stÃ¤dtischer GrundstÃ¼cke in sozial stabilen Quartieren soll mit der Verpflichtung verbunden werden, einen bestimmten Anteil an Sozialwohnungen zu bauen. Nur so kann eine angemessene Wohnungsversorgung fÃ¼r einkommensschwache und benachteiligte Gruppen gesichert werden.';
 WOMT_aThesenParteien[5][0]='0';
-WOMT_aThesenParteienText[5][0][0]='Wir möchten Familien mit geringem Einkommen - die heutigen Mindestbeitragszahler - finanziell entlasten und ihnen den Elternbeitrag sowohl für die Betreuung als auch für das Mittagessen erlassen. ';
+WOMT_aThesenParteienText[5][0][0]='Wir mÃ¶chten Familien mit geringem Einkommen - die heutigen Mindestbeitragszahler - finanziell entlasten und ihnen den Elternbeitrag sowohl fÃ¼r die Betreuung als auch fÃ¼r das Mittagessen erlassen. ';
 WOMT_aThesenParteien[6][0]='1';
-WOMT_aThesenParteienText[6][0][0]='Verpflichtende Sprachtests für alle Kinder vor der Einschulung halten wir für sinnvoll, allerdings nur dann, wenn sie seriös und mit wissenschaftlich erprobten Methoden (z.B. HAVAS) durchgeführt werden.';
+WOMT_aThesenParteienText[6][0][0]='Verpflichtende Sprachtests fÃ¼r alle Kinder vor der Einschulung halten wir fÃ¼r sinnvoll, allerdings nur dann, wenn sie seriÃ¶s und mit wissenschaftlich erprobten Methoden (z.B. HAVAS) durchgefÃ¼hrt werden.';
 WOMT_aThesenParteien[7][0]='1';
-WOMT_aThesenParteienText[7][0][0]='Mit unserem Konzept "9 macht klug" wollen wir eine Schule für alle nach skandinavischem Vorbild. Darin lernen alle Kinder gemeinsam bis zur neunten Klasse. Danach besuchen sie die gymnasiale Oberstufe oder gehen einer Berufsausbildung nach.';
+WOMT_aThesenParteienText[7][0][0]='Mit unserem Konzept "9 macht klug" wollen wir eine Schule fÃ¼r alle nach skandinavischem Vorbild. Darin lernen alle Kinder gemeinsam bis zur neunten Klasse. Danach besuchen sie die gymnasiale Oberstufe oder gehen einer Berufsausbildung nach.';
 WOMT_aThesenParteien[8][0]='-1';
-WOMT_aThesenParteienText[8][0][0]='Der Schutz der Nichtraucher hat für uns oberstes Primat. Ein Rauchverbot ist für uns gesetzlicher Auftrag, der nicht nur in Gaststätten, sondern überall im öffentlichen Raum zu gelten hat.';
+WOMT_aThesenParteienText[8][0][0]='Der Schutz der Nichtraucher hat fÃ¼r uns oberstes Primat. Ein Rauchverbot ist fÃ¼r uns gesetzlicher Auftrag, der nicht nur in GaststÃ¤tten, sondern Ã¼berall im Ã¶ffentlichen Raum zu gelten hat.';
 WOMT_aThesenParteien[9][0]='-1';
-WOMT_aThesenParteienText[9][0][0]='Wir sind grundsätzlich dagegen, dass Ladenbesitzer ihre Geschäfte auch sonntags öffnen. Der freie Sonntag muss aus unserer Sicht als Institution für Familie, Ehrenamt und Freizeitaktivitäten garantiert werden. Für den Rest der Woche sollen Ladenbesitzer bis 24 Uhr frei über ihre Öffnungszeiten entscheiden können.';
+WOMT_aThesenParteienText[9][0][0]='Wir sind grundsÃ¤tzlich dagegen, dass Ladenbesitzer ihre GeschÃ¤fte auch sonntags Ã¶ffnen. Der freie Sonntag muss aus unserer Sicht als Institution fÃ¼r Familie, Ehrenamt und FreizeitaktivitÃ¤ten garantiert werden. FÃ¼r den Rest der Woche sollen Ladenbesitzer bis 24 Uhr frei Ã¼ber ihre Ã–ffnungszeiten entscheiden kÃ¶nnen.';
 WOMT_aThesenParteien[10][0]='1';
-WOMT_aThesenParteienText[10][0][0]='Hamburgs Unternehmen müssen ihren Beitrag zur Finanzsituation unserer Stadt leisten. Um schwarze Schafe ausfindig zu machen, muss das Personal in den Finanzämtern gegebenenfalls aufgestockt werden. Ziel ist eine gerechte steuerliche Behandlung aller in der Stadt.';
+WOMT_aThesenParteienText[10][0][0]='Hamburgs Unternehmen mÃ¼ssen ihren Beitrag zur Finanzsituation unserer Stadt leisten. Um schwarze Schafe ausfindig zu machen, muss das Personal in den FinanzÃ¤mtern gegebenenfalls aufgestockt werden. Ziel ist eine gerechte steuerliche Behandlung aller in der Stadt.';
 WOMT_aThesenParteien[11][0]='-1';
-WOMT_aThesenParteienText[11][0][0]='Wir lehnen dies ab, da die Gefahr besteht, dass sich unerwünschte Unternehmen bei der HHLA mit Sperrminoritäten einkaufen und die zukünftige Entwicklung des Hafens erschweren oder verhindern.';
+WOMT_aThesenParteienText[11][0][0]='Wir lehnen dies ab, da die Gefahr besteht, dass sich unerwÃ¼nschte Unternehmen bei der HHLA mit SperrminoritÃ¤ten einkaufen und die zukÃ¼nftige Entwicklung des Hafens erschweren oder verhindern.';
 WOMT_aThesenParteien[12][0]='1';
-WOMT_aThesenParteienText[12][0][0]='Eine Innenstadtmaut reduziert den Autoverkehr und sorgt damit für weniger Abgase, Lärm und Staus. Mit den Einnahmen aus der Maut wollen wir die öffentlichen Verkehrsmittel verbessern und verbilligen. Zusätzlich sollen Umweltzonen für LKW, Busse und Taxis im Kernbereich der Stadt und im Hafen eingerichtet werden.';
+WOMT_aThesenParteienText[12][0][0]='Eine Innenstadtmaut reduziert den Autoverkehr und sorgt damit fÃ¼r weniger Abgase, LÃ¤rm und Staus. Mit den Einnahmen aus der Maut wollen wir die Ã¶ffentlichen Verkehrsmittel verbessern und verbilligen. ZusÃ¤tzlich sollen Umweltzonen fÃ¼r LKW, Busse und Taxis im Kernbereich der Stadt und im Hafen eingerichtet werden.';
 WOMT_aThesenParteien[13][0]='-1';
-WOMT_aThesenParteienText[13][0][0]='Die Hafenquerspange trägt nur begrenzt dazu bei, die Innenstadt vom LKW-Verkehr zu entlasten, und gefährdet sowohl Anwohner als auch die Stadterweiterung gen Süden. Effektiver ist es, zunächst die Kapazitäten der bereits vorhandenen Infrastruktur mit anderen Mitteln zu erhöhen, z.B. durch den Einsatz automatisierter Verkehre. Sollte das nicht ausreichen, sind wir für eine vierspurige Stadtsstraße mit einem Tunnel im Bereich des Spreehafens.';
+WOMT_aThesenParteienText[13][0][0]='Die Hafenquerspange trÃ¤gt nur begrenzt dazu bei, die Innenstadt vom LKW-Verkehr zu entlasten, und gefÃ¤hrdet sowohl Anwohner als auch die Stadterweiterung gen SÃ¼den. Effektiver ist es, zunÃ¤chst die KapazitÃ¤ten der bereits vorhandenen Infrastruktur mit anderen Mitteln zu erhÃ¶hen, z.B. durch den Einsatz automatisierter Verkehre. Sollte das nicht ausreichen, sind wir fÃ¼r eine vierspurige StadtsstraÃŸe mit einem Tunnel im Bereich des Spreehafens.';
 WOMT_aThesenParteien[14][0]='0';
-WOMT_aThesenParteienText[14][0][0]='Wir GRÜNE sind sehr aufgeschlossen gegenüber einer stärkeren Kooperation zwischen den norddeutschen Bundesländern bis hin zum Konzept eines Nordstaates. Die letztendliche Entscheidung kann aber nur von den Bürgerinnen und Bürgern selbst getroffen werden, so verlangt es das Grundgesetz.';
+WOMT_aThesenParteienText[14][0][0]='Wir GRÃœNE sind sehr aufgeschlossen gegenÃ¼ber einer stÃ¤rkeren Kooperation zwischen den norddeutschen BundeslÃ¤ndern bis hin zum Konzept eines Nordstaates. Die letztendliche Entscheidung kann aber nur von den BÃ¼rgerinnen und BÃ¼rgern selbst getroffen werden, so verlangt es das Grundgesetz.';
 WOMT_aThesenParteien[15][0]='1';
-WOMT_aThesenParteienText[15][0][0]='Wir setzen uns für eine vollständige Gleichstellung von Schwulen und Lesben in unserer Gesellschaft ein. Dazu gehört natürlich auch die rechtliche Gleichstellung eingetragener Partnerschaften von Homosexuellen.';
+WOMT_aThesenParteienText[15][0][0]='Wir setzen uns fÃ¼r eine vollstÃ¤ndige Gleichstellung von Schwulen und Lesben in unserer Gesellschaft ein. Dazu gehÃ¶rt natÃ¼rlich auch die rechtliche Gleichstellung eingetragener Partnerschaften von Homosexuellen.';
 WOMT_aThesenParteien[16][0]='-1';
-WOMT_aThesenParteienText[16][0][0]='Das geplante Kohlekraftwerk in Moorburg erhöht die Kohlenstoffdioxid-Emissionen in Hamburg auf einen Schlag um 40 Prozent. Statt dieses überdimensionierte "Klima-Monster" zu bauen, wollen wir ein kleineres Kraftwerk mit Kraft-Wärme-Kopplung, mehr kleine dezentrale Blockkraftwerke sowie massive Anstrengungen zur Reduzierung des Energieverbrauchs, Erhöhung der Energieeffizienz genauso wie die konsequente Förderung Erneuerbarer Energien.';
+WOMT_aThesenParteienText[16][0][0]='Das geplante Kohlekraftwerk in Moorburg erhÃ¶ht die Kohlenstoffdioxid-Emissionen in Hamburg auf einen Schlag um 40 Prozent. Statt dieses Ã¼berdimensionierte "Klima-Monster" zu bauen, wollen wir ein kleineres Kraftwerk mit Kraft-WÃ¤rme-Kopplung, mehr kleine dezentrale Blockkraftwerke sowie massive Anstrengungen zur Reduzierung des Energieverbrauchs, ErhÃ¶hung der Energieeffizienz genauso wie die konsequente FÃ¶rderung Erneuerbarer Energien.';
 WOMT_aThesenParteien[17][0]='1';
-WOMT_aThesenParteienText[17][0][0]='Die Privatisierung der Hamburger Gas- und Stromversorgung war ein Fehler. Wir wollen die Energienetze wieder von der Stadt betreiben lassen und auf diese Weise für eine dezentrale Stromversorgung, mehr Energieeinsparung, den massiven Ausbau der Erneuerbaren Energien und faire Preise sorgen.';
+WOMT_aThesenParteienText[17][0][0]='Die Privatisierung der Hamburger Gas- und Stromversorgung war ein Fehler. Wir wollen die Energienetze wieder von der Stadt betreiben lassen und auf diese Weise fÃ¼r eine dezentrale Stromversorgung, mehr Energieeinsparung, den massiven Ausbau der Erneuerbaren Energien und faire Preise sorgen.';
 WOMT_aThesenParteien[18][0]='0';
-WOMT_aThesenParteienText[18][0][0]='Gemeinnützige Krankenhäuser erzielen keine Gewinne und sind deshalb zumindest bei Mieten und Pachten auf öffentlichem Grund und beim Erbbaurecht nach wie vor zu bevorteilen. Bei öffentlichen Geldern wie etwa Investitionszuschüssen oder sonstigen Zuwendungen sind privatrechtliche Krankenhäuser den gemeinnützigen allerdings unbedingt gleichzustellen.';
+WOMT_aThesenParteienText[18][0][0]='GemeinnÃ¼tzige KrankenhÃ¤user erzielen keine Gewinne und sind deshalb zumindest bei Mieten und Pachten auf Ã¶ffentlichem Grund und beim Erbbaurecht nach wie vor zu bevorteilen. Bei Ã¶ffentlichen Geldern wie etwa InvestitionszuschÃ¼ssen oder sonstigen Zuwendungen sind privatrechtliche KrankenhÃ¤user den gemeinnÃ¼tzigen allerdings unbedingt gleichzustellen.';
 WOMT_aThesenParteien[19][0]='1';
-WOMT_aThesenParteienText[19][0][0]='Die Angebote des öffentlichen Nahverkehrs müssen jedem Hamburger zugänglich sein. Damit dies auch für Hilfsempfänger und Obdachlose möglich ist, fordern wir ein "echtes" Sozialticket zu einem Abgabepreis von unter 20 Euro.';
+WOMT_aThesenParteienText[19][0][0]='Die Angebote des Ã¶ffentlichen Nahverkehrs mÃ¼ssen jedem Hamburger zugÃ¤nglich sein. Damit dies auch fÃ¼r HilfsempfÃ¤nger und Obdachlose mÃ¶glich ist, fordern wir ein "echtes" Sozialticket zu einem Abgabepreis von unter 20 Euro.';
 WOMT_aThesenParteien[20][0]='1';
-WOMT_aThesenParteienText[20][0][0]='Rechtlich ist das nicht möglich, denn die Entscheidung über dauerhaftes Bleiberecht fällt auf Bundesebene. Wir finden, langjährig Geduldete sollten ein dauerhaftes Aufenthaltsrecht bekommen. Wir wollen die Situation der Flüchtlinge in Hamburg verbessern, indem wir z.B. die Programme zur Sprachförderung und Qualifizierung für Flüchtlinge öffnen. Arbeitserlaubnisse müssen erleichtert und die schulische Bildung der Kinder und Jugendlichen gewährleistet werden.';
+WOMT_aThesenParteienText[20][0][0]='Rechtlich ist das nicht mÃ¶glich, denn die Entscheidung Ã¼ber dauerhaftes Bleiberecht fÃ¤llt auf Bundesebene. Wir finden, langjÃ¤hrig Geduldete sollten ein dauerhaftes Aufenthaltsrecht bekommen. Wir wollen die Situation der FlÃ¼chtlinge in Hamburg verbessern, indem wir z.B. die Programme zur SprachfÃ¶rderung und Qualifizierung fÃ¼r FlÃ¼chtlinge Ã¶ffnen. Arbeitserlaubnisse mÃ¼ssen erleichtert und die schulische Bildung der Kinder und Jugendlichen gewÃ¤hrleistet werden.';
 WOMT_aThesenParteien[21][0]='0';
-WOMT_aThesenParteienText[21][0][0]='Wir wollen mit einer Verfassungsänderung eine vermögensorientierte Schuldenbremse ähnlich wie der Sachverständigenrat einführen. Sie verpflichtet in guten Zeiten, Überschüsse zu erzielen und erlaubt in schlechten Zeiten entsprechend begrenzte Defizite. Grundsätzlich muss gelten: Ein Senat muss mindestens so viel öffentliches Vermögen hinterlassen, wie er vorgefunden hat.';
+WOMT_aThesenParteienText[21][0][0]='Wir wollen mit einer VerfassungsÃ¤nderung eine vermÃ¶gensorientierte Schuldenbremse Ã¤hnlich wie der SachverstÃ¤ndigenrat einfÃ¼hren. Sie verpflichtet in guten Zeiten, ÃœberschÃ¼sse zu erzielen und erlaubt in schlechten Zeiten entsprechend begrenzte Defizite. GrundsÃ¤tzlich muss gelten: Ein Senat muss mindestens so viel Ã¶ffentliches VermÃ¶gen hinterlassen, wie er vorgefunden hat.';
 WOMT_aThesenParteien[22][0]='-1';
-WOMT_aThesenParteienText[22][0][0]='Wir sind für eine unabhängige Hamburger Hochschulschullandschaft, die die Freiheit von Wissenschaft und Forschung gewährleistet. Kooperationen zwischen Hochschulen und Wirtschaft sind zu begrüßen, die Notwendigkeit, den Unternehmen auch mehr Einfluss an der Hochschule zu gewähren, sehen wir deshalb aber nicht.';
+WOMT_aThesenParteienText[22][0][0]='Wir sind fÃ¼r eine unabhÃ¤ngige Hamburger Hochschulschullandschaft, die die Freiheit von Wissenschaft und Forschung gewÃ¤hrleistet. Kooperationen zwischen Hochschulen und Wirtschaft sind zu begrÃ¼ÃŸen, die Notwendigkeit, den Unternehmen auch mehr Einfluss an der Hochschule zu gewÃ¤hren, sehen wir deshalb aber nicht.';
 WOMT_aThesenParteien[23][0]='1';
-WOMT_aThesenParteienText[23][0][0]='Die GAL befürwortet eine Ausbildungsumlage nach der so genannten Kammerlösung. Das heißt, die Betriebe, die nicht ausbilden, entrichten eine Abgabe an die Kammern und finanzieren dadurch indirekt die ausbildenden Unternehmen.';
+WOMT_aThesenParteienText[23][0][0]='Die GAL befÃ¼rwortet eine Ausbildungsumlage nach der so genannten KammerlÃ¶sung. Das heiÃŸt, die Betriebe, die nicht ausbilden, entrichten eine Abgabe an die Kammern und finanzieren dadurch indirekt die ausbildenden Unternehmen.';
 WOMT_aThesenParteien[24][0]='-1';
-WOMT_aThesenParteienText[24][0][0]='Im Prinzip halten wir die Verbeamtung des Lehrpersonals für unnötig, da Lehrer keine hoheitlichen Aufgaben wahrnehmen. Die Verbeamtung von Lehrern allein in Hamburg abzuschaffen, führt aber zu Chaos. Dies müsste gemeinsam mit den anderen Ländern, vor allem Niedersachsen und Schleswig-Holstein passieren, sonst laufen uns die Lehrer weg.';
+WOMT_aThesenParteienText[24][0][0]='Im Prinzip halten wir die Verbeamtung des Lehrpersonals fÃ¼r unnÃ¶tig, da Lehrer keine hoheitlichen Aufgaben wahrnehmen. Die Verbeamtung von Lehrern allein in Hamburg abzuschaffen, fÃ¼hrt aber zu Chaos. Dies mÃ¼sste gemeinsam mit den anderen LÃ¤ndern, vor allem Niedersachsen und Schleswig-Holstein passieren, sonst laufen uns die Lehrer weg.';
 WOMT_aThesenParteien[25][0]='1';
-WOMT_aThesenParteienText[25][0][0]='Grundsätzlich möchten wir für Schulbücher keine Gebühren erheben. Allerdings soll es eine Art Leihgebühr von etwa 10 Euro pro Jahr geben, welche die Rückgabe der Bücher gewährleisten soll. Lektüre, Lexika u.ä. für den eigenen Gebrauch müssen weiterhin käuflich erworben werden.';
+WOMT_aThesenParteienText[25][0][0]='GrundsÃ¤tzlich mÃ¶chten wir fÃ¼r SchulbÃ¼cher keine GebÃ¼hren erheben. Allerdings soll es eine Art LeihgebÃ¼hr von etwa 10 Euro pro Jahr geben, welche die RÃ¼ckgabe der BÃ¼cher gewÃ¤hrleisten soll. LektÃ¼re, Lexika u.Ã¤. fÃ¼r den eigenen Gebrauch mÃ¼ssen weiterhin kÃ¤uflich erworben werden.';
 WOMT_aThesenParteien[26][0]='-1';
-WOMT_aThesenParteienText[26][0][0]='Wir wollen die geschlossene Unterbringung abschaffen und durch eine verbindliche Rund-um-die-Uhr-Betreuung durch qualifizierte Fachkräfte in Jugendwohngruppen ersetzen. Außerdem setzen wir uns für ein Mehr an aufsuchender Jugendarbeit und für eine bessere Zusammenarbeit zwischen den zuständigen Behörden ein.';
+WOMT_aThesenParteienText[26][0][0]='Wir wollen die geschlossene Unterbringung abschaffen und durch eine verbindliche Rund-um-die-Uhr-Betreuung durch qualifizierte FachkrÃ¤fte in Jugendwohngruppen ersetzen. AuÃŸerdem setzen wir uns fÃ¼r ein Mehr an aufsuchender Jugendarbeit und fÃ¼r eine bessere Zusammenarbeit zwischen den zustÃ¤ndigen BehÃ¶rden ein.';
 WOMT_aThesenParteien[27][0]='-1';
-WOMT_aThesenParteienText[27][0][0]='Die Gebühren für Bücherhallen in Hamburg sind im Vergleich zu anderen Städten sehr hoch. Wir wollen sie für Kinder und Jugendliche gänzlich abschaffen, während der private Reichtum unserer Stadt stärker dazu beitragen muss, öffentliche Armut zu beseitigen.';
+WOMT_aThesenParteienText[27][0][0]='Die GebÃ¼hren fÃ¼r BÃ¼cherhallen in Hamburg sind im Vergleich zu anderen StÃ¤dten sehr hoch. Wir wollen sie fÃ¼r Kinder und Jugendliche gÃ¤nzlich abschaffen, wÃ¤hrend der private Reichtum unserer Stadt stÃ¤rker dazu beitragen muss, Ã¶ffentliche Armut zu beseitigen.';
 WOMT_aThesenParteien[28][0]='-1';
-WOMT_aThesenParteienText[28][0][0]='Videoüberwachung des öffentlichen Raums zur Prävention lehnen wir ab. Sie kann immer nur als Teil eines polizeilichen Maßnahmenpakets und nur temporär eingesetzt werden und muss evaluiert werden. Auf diese Weise kann einem Missbrauch von Befugnissen durch die Sicherheitsbehörden effektiv entgegengewirkt werden.';
+WOMT_aThesenParteienText[28][0][0]='VideoÃ¼berwachung des Ã¶ffentlichen Raums zur PrÃ¤vention lehnen wir ab. Sie kann immer nur als Teil eines polizeilichen MaÃŸnahmenpakets und nur temporÃ¤r eingesetzt werden und muss evaluiert werden. Auf diese Weise kann einem Missbrauch von Befugnissen durch die SicherheitsbehÃ¶rden effektiv entgegengewirkt werden.';
 WOMT_aThesenParteien[29][0]='1';
-WOMT_aThesenParteienText[29][0][0]='Direkte Demokratie schafft Vertrauen und ermutigt die Bürgerinnen und Bürger, sich in politische Entscheidungen einzumischen. Volksentscheide müssen in Hamburg deshalb endlich verbindlich sein. Die Erfahrung mit der CDU hat gezeigt, dass dies in der Verfassung festgelegt sein muss, damit die Entscheidung der Bürger auch für die politisch Handelnden verbindlich ist.';
+WOMT_aThesenParteienText[29][0][0]='Direkte Demokratie schafft Vertrauen und ermutigt die BÃ¼rgerinnen und BÃ¼rger, sich in politische Entscheidungen einzumischen. Volksentscheide mÃ¼ssen in Hamburg deshalb endlich verbindlich sein. Die Erfahrung mit der CDU hat gezeigt, dass dies in der Verfassung festgelegt sein muss, damit die Entscheidung der BÃ¼rger auch fÃ¼r die politisch Handelnden verbindlich ist.';
 WOMT_aThesenParteien[0][2]='-1';
-WOMT_aThesenParteienText[0][2][0]='Viele können sich die Kneipen-Preise auf dem Kiez einfach nicht leisten, bringen sich deshalb ihren bezahlbaren Alkohol mit. Ein soziales Problem mit Platzverboten lösen zu wollen, lehnt die LINKE ab.';
+WOMT_aThesenParteienText[0][2][0]='Viele kÃ¶nnen sich die Kneipen-Preise auf dem Kiez einfach nicht leisten, bringen sich deshalb ihren bezahlbaren Alkohol mit. Ein soziales Problem mit Platzverboten lÃ¶sen zu wollen, lehnt die LINKE ab.';
 WOMT_aThesenParteien[1][2]='1';
-WOMT_aThesenParteienText[1][2][0]='Studiengebühren - in welcher Form auch immer - wollen wir wieder abschaffen. Ein Zwei-Klassen-System bei den Ausbildungsgängen an den Hochschulen lehnen wir ab. ';
+WOMT_aThesenParteienText[1][2][0]='StudiengebÃ¼hren - in welcher Form auch immer - wollen wir wieder abschaffen. Ein Zwei-Klassen-System bei den AusbildungsgÃ¤ngen an den Hochschulen lehnen wir ab. ';
 WOMT_aThesenParteien[2][2]='-1';
-WOMT_aThesenParteienText[2][2][0]='Keine weiteren Elbvertiefungen. Die behaupteten wirtschaftlichen Vorteile stehen in keinem Verhältnis zu den ökologischen Folgen und der wachsenden Gefahr höherer Sturmfluten.';
+WOMT_aThesenParteienText[2][2][0]='Keine weiteren Elbvertiefungen. Die behaupteten wirtschaftlichen Vorteile stehen in keinem VerhÃ¤ltnis zu den Ã¶kologischen Folgen und der wachsenden Gefahr hÃ¶herer Sturmfluten.';
 WOMT_aThesenParteien[3][2]='1';
-WOMT_aThesenParteienText[3][2][0]='Die LINKE.Hamburg sieht ihr Sofortprogramm in enger Verbindung mit den Vorschlägen unserer Bundestagsfraktion für einen gesetzlichen Mindestlohn.';
+WOMT_aThesenParteienText[3][2][0]='Die LINKE.Hamburg sieht ihr Sofortprogramm in enger Verbindung mit den VorschlÃ¤gen unserer Bundestagsfraktion fÃ¼r einen gesetzlichen Mindestlohn.';
 WOMT_aThesenParteien[4][2]='-1';
-WOMT_aThesenParteienText[4][2][0]='Keine Privatisierung öffentlicher Wohnungsbaugesellschaften, auch nicht von Wohnungen aus deren Bestand. Erhalt und Ausbau eines sozialen Wohnungsbaus.';
+WOMT_aThesenParteienText[4][2][0]='Keine Privatisierung Ã¶ffentlicher Wohnungsbaugesellschaften, auch nicht von Wohnungen aus deren Bestand. Erhalt und Ausbau eines sozialen Wohnungsbaus.';
 WOMT_aThesenParteien[5][2]='1';
-WOMT_aThesenParteienText[5][2][0]='Alle Bildungsformen und -abschnitte werden öffentlich organisiert und sind für die Teilnehmenden gebührenfrei, das gilt auch für Krippe, Kita, Vorschule und Hochschule. Jedes Kind hat das Recht auf einen Ganztagsplatz.';
+WOMT_aThesenParteienText[5][2][0]='Alle Bildungsformen und -abschnitte werden Ã¶ffentlich organisiert und sind fÃ¼r die Teilnehmenden gebÃ¼hrenfrei, das gilt auch fÃ¼r Krippe, Kita, Vorschule und Hochschule. Jedes Kind hat das Recht auf einen Ganztagsplatz.';
 WOMT_aThesenParteien[6][2]='-1';
 WOMT_aThesenParteienText[6][2][0]='Alle Menschen, kulturelle und soziale Minderheiten, Behinderte und MigrantInnen nehmen wie alle anderen am Regelunterricht teil.';
 WOMT_aThesenParteien[7][2]='1';
-WOMT_aThesenParteienText[7][2][0]='Im Zentrum dieses Systems steht die längere, gemeinsame einheitliche Schule als Ganztagsschule für alle SchülerInnen, beginnend mit der Kita/Vorschule bis einschließlich zehntes Schuljahr.';
+WOMT_aThesenParteienText[7][2][0]='Im Zentrum dieses Systems steht die lÃ¤ngere, gemeinsame einheitliche Schule als Ganztagsschule fÃ¼r alle SchÃ¼lerInnen, beginnend mit der Kita/Vorschule bis einschlieÃŸlich zehntes Schuljahr.';
 WOMT_aThesenParteien[8][2]='1';
-WOMT_aThesenParteienText[8][2][0]='Es muss den GastwirtInnen  überlassen bleiben, welche Klientel sie einladen wollen. Nichtraucher, die sich an verrauchten Lokalen stören, haben immer noch die Möglichkeit das Lokal zu wechseln.';
+WOMT_aThesenParteienText[8][2][0]='Es muss den GastwirtInnen  Ã¼berlassen bleiben, welche Klientel sie einladen wollen. Nichtraucher, die sich an verrauchten Lokalen stÃ¶ren, haben immer noch die MÃ¶glichkeit das Lokal zu wechseln.';
 WOMT_aThesenParteien[9][2]='-1';
-WOMT_aThesenParteienText[9][2][0]='Die geregelten Öffnungszeiten verringern die Konkurrenz zwischen den Ladenbesitzern und führen somit zu einer Unterstützung gerade auch der kleinen Ladenbesitzer.';
+WOMT_aThesenParteienText[9][2][0]='Die geregelten Ã–ffnungszeiten verringern die Konkurrenz zwischen den Ladenbesitzern und fÃ¼hren somit zu einer UnterstÃ¼tzung gerade auch der kleinen Ladenbesitzer.';
 WOMT_aThesenParteien[10][2]='1';
-WOMT_aThesenParteienText[10][2][0]='Es ist ein Skandal, dass Einkommensmillionäre und Großunternehmen in Hamburg besonders selten geprüft werden.';
+WOMT_aThesenParteienText[10][2][0]='Es ist ein Skandal, dass EinkommensmillionÃ¤re und GroÃŸunternehmen in Hamburg besonders selten geprÃ¼ft werden.';
 WOMT_aThesenParteien[11][2]='-1';
 WOMT_aThesenParteienText[11][2][0]='Der Hamburger Hafen soll dem Gemeinwohl dienen, nicht den Profitinteressen Einzelner.';
 WOMT_aThesenParteien[12][2]='-1';
-WOMT_aThesenParteienText[12][2][0]='Nein, aber alle Wohnquartiere sind als Tempo-30-Zonen oder als Spielstraßen und Fußgängerzonen auszuweisen. Auf allen anderen Straßen ist das Tempo auf maximal 50 km/h zu begrenzen.';
+WOMT_aThesenParteienText[12][2][0]='Nein, aber alle Wohnquartiere sind als Tempo-30-Zonen oder als SpielstraÃŸen und FuÃŸgÃ¤ngerzonen auszuweisen. Auf allen anderen StraÃŸen ist das Tempo auf maximal 50 km/h zu begrenzen.';
 WOMT_aThesenParteien[13][2]='-1';
-WOMT_aThesenParteienText[13][2][0]='Ohne Einbeziehung der von der Planung betroffenen Bürger Wilhelmsburgs darf dieses Projekt nicht gebaut werden. Es braucht eine Verkehrsanalyse mit Alternativen - von der Verkehrsvermeidung bis hin zum Ausbau vorhandener Straßen.';
+WOMT_aThesenParteienText[13][2][0]='Ohne Einbeziehung der von der Planung betroffenen BÃ¼rger Wilhelmsburgs darf dieses Projekt nicht gebaut werden. Es braucht eine Verkehrsanalyse mit Alternativen - von der Verkehrsvermeidung bis hin zum Ausbau vorhandener StraÃŸen.';
 WOMT_aThesenParteien[14][2]='1';
-WOMT_aThesenParteienText[14][2][0]='Hamburg ist über seine Grenzen gewachsen und die Speckgürtel-Probleme dieser Stadt lassen sich nur durch gute koordinierte Zusammenarbeit lösen, am besten in einem gemeinsamen Bundesland.';
+WOMT_aThesenParteienText[14][2][0]='Hamburg ist Ã¼ber seine Grenzen gewachsen und die SpeckgÃ¼rtel-Probleme dieser Stadt lassen sich nur durch gute koordinierte Zusammenarbeit lÃ¶sen, am besten in einem gemeinsamen Bundesland.';
 WOMT_aThesenParteien[15][2]='1';
 WOMT_aThesenParteienText[15][2][0]='Wir fordern die gleichberechtigte Anerkennung von homosexuellen Lebensgemeinschaften.';
 WOMT_aThesenParteien[16][2]='-1';
 WOMT_aThesenParteienText[16][2][0]='Kein Steinkohlekraftwerk in Moorburg! Keine weitere Energie- und Ressourcenvergeudung.';
 WOMT_aThesenParteien[17][2]='1';
-WOMT_aThesenParteienText[17][2][0]='Energieversorger gehören in die öffentliche Hand zurück. Eine Folge der Privatisierung der Energieunternehmen sind die hohen Preise und eine klimafeindliche Unternehmenspolitik.';
+WOMT_aThesenParteienText[17][2][0]='Energieversorger gehÃ¶ren in die Ã¶ffentliche Hand zurÃ¼ck. Eine Folge der Privatisierung der Energieunternehmen sind die hohen Preise und eine klimafeindliche Unternehmenspolitik.';
 WOMT_aThesenParteien[18][2]='-1';
-WOMT_aThesenParteienText[18][2][0]='Der ehemalige Landesbetrieb Krankenhäuser, das ehemalige Pflegen & Wohnen gehören in die öffentliche Hand zurück. Gesundheit ist keine Ware. Pflege muss in Würde stattfinden können.';
+WOMT_aThesenParteienText[18][2][0]='Der ehemalige Landesbetrieb KrankenhÃ¤user, das ehemalige Pflegen & Wohnen gehÃ¶ren in die Ã¶ffentliche Hand zurÃ¼ck. Gesundheit ist keine Ware. Pflege muss in WÃ¼rde stattfinden kÃ¶nnen.';
 WOMT_aThesenParteien[19][2]='1';
-WOMT_aThesenParteienText[19][2][0]='Einführung eines Sozialtickets für den öffentlichen Nahverkehr sowie freien Eintritt zu öffentlich geförderten Kulturveranstaltungen für Erwerbslose und Bezieherinnen und Bezieher von Grundsicherungen.';
+WOMT_aThesenParteienText[19][2][0]='EinfÃ¼hrung eines Sozialtickets fÃ¼r den Ã¶ffentlichen Nahverkehr sowie freien Eintritt zu Ã¶ffentlich gefÃ¶rderten Kulturveranstaltungen fÃ¼r Erwerbslose und Bezieherinnen und Bezieher von Grundsicherungen.';
 WOMT_aThesenParteien[20][2]='1';
-WOMT_aThesenParteienText[20][2][0]='Wir fordern ein dauerhaftes Bleiberecht für alle in Hamburg lebenden Menschen und die Abschaffung der Stichtagregelungen und Kettenduldungen.';
+WOMT_aThesenParteienText[20][2][0]='Wir fordern ein dauerhaftes Bleiberecht fÃ¼r alle in Hamburg lebenden Menschen und die Abschaffung der Stichtagregelungen und Kettenduldungen.';
 WOMT_aThesenParteien[21][2]='-1';
-WOMT_aThesenParteienText[21][2][0]='Neuverschuldung ist eine Entscheidung des jeweiligen Senats, um politische Prioritäten durchzusetzen. Ein Verbot würde die demokratischen Handlungsfähigkeiten eines Senats unzulässig einschränken.';
+WOMT_aThesenParteienText[21][2][0]='Neuverschuldung ist eine Entscheidung des jeweiligen Senats, um politische PrioritÃ¤ten durchzusetzen. Ein Verbot wÃ¼rde die demokratischen HandlungsfÃ¤higkeiten eines Senats unzulÃ¤ssig einschrÃ¤nken.';
 WOMT_aThesenParteien[22][2]='-1';
-WOMT_aThesenParteienText[22][2][0]='Die Hochschulen sollen nach dem Willen des Senats  im Interesse der Wirtschaft zu Geschäftsfeldern degradiert werden und sich nahtlos in das Senatskonzept der "Wachsenden Stadt" fügen. Das lehnt DIE LINKE ab.';
+WOMT_aThesenParteienText[22][2][0]='Die Hochschulen sollen nach dem Willen des Senats  im Interesse der Wirtschaft zu GeschÃ¤ftsfeldern degradiert werden und sich nahtlos in das Senatskonzept der "Wachsenden Stadt" fÃ¼gen. Das lehnt DIE LINKE ab.';
 WOMT_aThesenParteien[23][2]='1';
-WOMT_aThesenParteienText[23][2][0]='Die Berufsausbildung wird über die landesbezogene Ausbildungsumlage und staatliche Zuschüsse finanziert. Eine Fondsabgabe der Unternehmen, die Arbeitsagentur und staatliche Zuschüsse finanzieren die Weiterbildung.';
+WOMT_aThesenParteienText[23][2][0]='Die Berufsausbildung wird Ã¼ber die landesbezogene Ausbildungsumlage und staatliche ZuschÃ¼sse finanziert. Eine Fondsabgabe der Unternehmen, die Arbeitsagentur und staatliche ZuschÃ¼sse finanzieren die Weiterbildung.';
 WOMT_aThesenParteien[24][2]='1';
-WOMT_aThesenParteienText[24][2][0]='Es soll in Zukunft eine einheitliche Ausbildung für alle Lehrenden, ErzieherInnen und SozialpädagogInnen mit Schwerpunkt einer Bildungsstufe geben.';
+WOMT_aThesenParteienText[24][2][0]='Es soll in Zukunft eine einheitliche Ausbildung fÃ¼r alle Lehrenden, ErzieherInnen und SozialpÃ¤dagogInnen mit Schwerpunkt einer Bildungsstufe geben.';
 WOMT_aThesenParteien[25][2]='1';
-WOMT_aThesenParteienText[25][2][0]='Die LINKE fordert die Wiederherstellung der Lern- und Lehrmittelfreiheit (z.B. kein Büchergeld).';
+WOMT_aThesenParteienText[25][2][0]='Die LINKE fordert die Wiederherstellung der Lern- und Lehrmittelfreiheit (z.B. kein BÃ¼chergeld).';
 WOMT_aThesenParteien[26][2]='-1';
-WOMT_aThesenParteienText[26][2][0]='Diese Unterbringung hat sich als Unsinn herausgestellt. Eine Gesellschaft muss sich um jugendliche Straftäter bemühen und sie schnell verurteilen. Dafür brauchen wir mehr Ressourcen und nicht für mediengeiles Wegschließen.';
+WOMT_aThesenParteienText[26][2][0]='Diese Unterbringung hat sich als Unsinn herausgestellt. Eine Gesellschaft muss sich um jugendliche StraftÃ¤ter bemÃ¼hen und sie schnell verurteilen. DafÃ¼r brauchen wir mehr Ressourcen und nicht fÃ¼r mediengeiles WegschlieÃŸen.';
 WOMT_aThesenParteien[27][2]='1';
-WOMT_aThesenParteienText[27][2][0]='Die Ausleihe in den Bücherhallen und die Museen sollen auch für Erwachsene kostenfrei genutzt werden können.';
+WOMT_aThesenParteienText[27][2][0]='Die Ausleihe in den BÃ¼cherhallen und die Museen sollen auch fÃ¼r Erwachsene kostenfrei genutzt werden kÃ¶nnen.';
 WOMT_aThesenParteien[28][2]='-1';
-WOMT_aThesenParteienText[28][2][0]='Die Beispiele in Großbritannien zeigen, dass das nicht zu mehr Sicherheit führt. Vielmehr öffnet es der Zweckentfremdung von Daten Tür und Tor und verschwendet öffentliche Gelder.';
+WOMT_aThesenParteienText[28][2][0]='Die Beispiele in GroÃŸbritannien zeigen, dass das nicht zu mehr Sicherheit fÃ¼hrt. Vielmehr Ã¶ffnet es der Zweckentfremdung von Daten TÃ¼r und Tor und verschwendet Ã¶ffentliche Gelder.';
 WOMT_aThesenParteien[29][2]='1';
-WOMT_aThesenParteienText[29][2][0]='Die Hamburger CDU hat in allen Bereichen die politische Beteiligung der BürgerInnen zurückgedrängt. Deshalb unterstützt DIE LINKE die Forderung nach Verbindlichkeit von Volksentscheiden.';
+WOMT_aThesenParteienText[29][2][0]='Die Hamburger CDU hat in allen Bereichen die politische Beteiligung der BÃ¼rgerInnen zurÃ¼ckgedrÃ¤ngt. Deshalb unterstÃ¼tzt DIE LINKE die Forderung nach Verbindlichkeit von Volksentscheiden.';
 WOMT_aThesenParteien[0][4]='1';
-WOMT_aThesenParteienText[0][4][0]='Ja, aber wir brauchen ein präventives und repressives Maßnahmenpaket für die ganze Stadt, nicht nur für den Kiez. Dazu gehört der Ausbau der regelmäßigen und unangemeldeten Schwerpunktkontrollen in Gaststätten, Diskotheken und im Getränkehandel und die konsequente Ahndung von Verstößen.';
+WOMT_aThesenParteienText[0][4][0]='Ja, aber wir brauchen ein prÃ¤ventives und repressives MaÃŸnahmenpaket fÃ¼r die ganze Stadt, nicht nur fÃ¼r den Kiez. Dazu gehÃ¶rt der Ausbau der regelmÃ¤ÃŸigen und unangemeldeten Schwerpunktkontrollen in GaststÃ¤tten, Diskotheken und im GetrÃ¤nkehandel und die konsequente Ahndung von VerstÃ¶ÃŸen.';
 WOMT_aThesenParteien[1][4]='1';
-WOMT_aThesenParteienText[1][4][0]='Wir wollen ein gebührenfreies Erststudium einschließlich des Masterstudiums und werden die Studiengebühren wieder abschaffen.';
+WOMT_aThesenParteienText[1][4][0]='Wir wollen ein gebÃ¼hrenfreies Erststudium einschlieÃŸlich des Masterstudiums und werden die StudiengebÃ¼hren wieder abschaffen.';
 WOMT_aThesenParteien[2][4]='1';
-WOMT_aThesenParteienText[2][4][0]='Wir sind für die Anpassung der Fahrrinne an der Unterelbe.';
+WOMT_aThesenParteienText[2][4][0]='Wir sind fÃ¼r die Anpassung der Fahrrinne an der Unterelbe.';
 WOMT_aThesenParteien[3][4]='1';
-WOMT_aThesenParteienText[3][4][0]='Wir setzen uns für die Einführung eines gesetzlichen  Mindestlohns in Höhe von 7,50 Euro pro Stunde ein.';
+WOMT_aThesenParteienText[3][4][0]='Wir setzen uns fÃ¼r die EinfÃ¼hrung eines gesetzlichen  Mindestlohns in HÃ¶he von 7,50 Euro pro Stunde ein.';
 WOMT_aThesenParteien[4][4]='-1';
-WOMT_aThesenParteienText[4][4][0]='Wir werden in Hamburg den öffentlich geförderten Wohnungsbau für Normalverdiener stärken. Insgesamt braucht Hamburg mindestens 5.500 neue Wohnungen pro Jahr.';
+WOMT_aThesenParteienText[4][4][0]='Wir werden in Hamburg den Ã¶ffentlich gefÃ¶rderten Wohnungsbau fÃ¼r Normalverdiener stÃ¤rken. Insgesamt braucht Hamburg mindestens 5.500 neue Wohnungen pro Jahr.';
 WOMT_aThesenParteien[5][4]='1';
-WOMT_aThesenParteienText[5][4][0]='Frühkindliche Bildung darf keine Frage des Geldbeutels sein. Sie muss mittelfristig für Eltern genauso beitragsfrei sein wie schulische Bildung. Das letzte Jahr vor der Schule wird vom 1. August 2008 an in der Kita oder der Vorschule beitragsfrei sein. Für die vorausgehenden Altersstufen werden wir die Kita-Gebühren schrittweise bis zum Jahr 2012 abschaffen.';
+WOMT_aThesenParteienText[5][4][0]='FrÃ¼hkindliche Bildung darf keine Frage des Geldbeutels sein. Sie muss mittelfristig fÃ¼r Eltern genauso beitragsfrei sein wie schulische Bildung. Das letzte Jahr vor der Schule wird vom 1. August 2008 an in der Kita oder der Vorschule beitragsfrei sein. FÃ¼r die vorausgehenden Altersstufen werden wir die Kita-GebÃ¼hren schrittweise bis zum Jahr 2012 abschaffen.';
 WOMT_aThesenParteien[6][4]='1';
-WOMT_aThesenParteienText[6][4][0]='Der Erwerb deutscher Sprachkenntnisse muss so früh wie möglich stattfinden. Deshalb wollen wir Lehrkräfte gewinnen, die selbst einen Migrationshintergrund haben; in Zusammenarbeit mit der Universität Hamburg ein  Leseförderungsprogramm starten, in dem Hamburger Lehramtsstudierende an den Hamburger Schulen Lesekurse für  förderbedürftige Schüler durchführen; ein Programm zu gezielter Elternarbeit durchführen und Eltern in die Sprachförderung wirksam einbeziehen.';
+WOMT_aThesenParteienText[6][4][0]='Der Erwerb deutscher Sprachkenntnisse muss so frÃ¼h wie mÃ¶glich stattfinden. Deshalb wollen wir LehrkrÃ¤fte gewinnen, die selbst einen Migrationshintergrund haben; in Zusammenarbeit mit der UniversitÃ¤t Hamburg ein  LesefÃ¶rderungsprogramm starten, in dem Hamburger Lehramtsstudierende an den Hamburger Schulen Lesekurse fÃ¼r  fÃ¶rderbedÃ¼rftige SchÃ¼ler durchfÃ¼hren; ein Programm zu gezielter Elternarbeit durchfÃ¼hren und Eltern in die SprachfÃ¶rderung wirksam einbeziehen.';
 WOMT_aThesenParteien[7][4]='-1';
-WOMT_aThesenParteienText[7][4][0]='Zu einer Stadtteilschule: Wir werden im ersten Schritt die Hauptschule abschaffen und durch Verbindung von Schulen verschiedener Schulformen integrierte Stadtteilschulen schaffen. Je nach der Situation in der Region werden die Schulen aus Haupt-, Real- und Gesamtschulen entstehen. Auch Gymnasien können in den Verbund der Stadtteilschule einbezogen werden oder sich zu Stadtteilschulen weiterentwickeln.';
+WOMT_aThesenParteienText[7][4][0]='Zu einer Stadtteilschule: Wir werden im ersten Schritt die Hauptschule abschaffen und durch Verbindung von Schulen verschiedener Schulformen integrierte Stadtteilschulen schaffen. Je nach der Situation in der Region werden die Schulen aus Haupt-, Real- und Gesamtschulen entstehen. Auch Gymnasien kÃ¶nnen in den Verbund der Stadtteilschule einbezogen werden oder sich zu Stadtteilschulen weiterentwickeln.';
 WOMT_aThesenParteien[8][4]='-1';
-WOMT_aThesenParteienText[8][4][0]='Wir sind für ein konsequentes Rauchverbot. Die freiwilligen Verpflichtungen etwa in Kneipen und Restaurants sind ins Leere gelaufen. Eine gesetzliche Regelung und ihre Kontrolle scheinen der einzige Weg, einen Nichtraucherschutz wirksam durchzusetzen.';
+WOMT_aThesenParteienText[8][4][0]='Wir sind fÃ¼r ein konsequentes Rauchverbot. Die freiwilligen Verpflichtungen etwa in Kneipen und Restaurants sind ins Leere gelaufen. Eine gesetzliche Regelung und ihre Kontrolle scheinen der einzige Weg, einen Nichtraucherschutz wirksam durchzusetzen.';
 WOMT_aThesenParteien[9][4]='-1';
-WOMT_aThesenParteienText[9][4][0]='Wir lehnen die Forderung nach völliger Freigabe der Ladenöffnungszeiten ab und werden die Bestimmungen des Ladenöffnungsgesetzes nicht aufweichen.';
+WOMT_aThesenParteienText[9][4][0]='Wir lehnen die Forderung nach vÃ¶lliger Freigabe der LadenÃ¶ffnungszeiten ab und werden die Bestimmungen des LadenÃ¶ffnungsgesetzes nicht aufweichen.';
 WOMT_aThesenParteien[10][4]='1';
-WOMT_aThesenParteienText[10][4][0]='Wir stehen für Steuergerechtigkeit und werden deshalb die Finanzverwaltung auch um Steuer- und Betriebsprüfer verstärken, um Steuerrückstände und große Vermögen besser zu erfassen.';
+WOMT_aThesenParteienText[10][4][0]='Wir stehen fÃ¼r Steuergerechtigkeit und werden deshalb die Finanzverwaltung auch um Steuer- und BetriebsprÃ¼fer verstÃ¤rken, um SteuerrÃ¼ckstÃ¤nde und groÃŸe VermÃ¶gen besser zu erfassen.';
 WOMT_aThesenParteien[11][4]='-1';
-WOMT_aThesenParteienText[11][4][0]='Wir werden dafür sorgen, dass der Verkauf über die jetzt an die Börse gebrachten 30 Prozent hinaus nicht stattfindet.';
+WOMT_aThesenParteienText[11][4][0]='Wir werden dafÃ¼r sorgen, dass der Verkauf Ã¼ber die jetzt an die BÃ¶rse gebrachten 30 Prozent hinaus nicht stattfindet.';
 WOMT_aThesenParteien[12][4]='-1';
 WOMT_aThesenParteienText[12][4][0]='';
 WOMT_aThesenParteien[13][4]='1';
-WOMT_aThesenParteienText[13][4][0]='Wir werden insbesondere die Realisierung der Hafenquerspange als Vorrangprojekt betreiben. Dabei hat eine Tunnel-Lösung im Bereich Wilhelmsburg Planungspriorität.';
+WOMT_aThesenParteienText[13][4][0]='Wir werden insbesondere die Realisierung der Hafenquerspange als Vorrangprojekt betreiben. Dabei hat eine Tunnel-LÃ¶sung im Bereich Wilhelmsburg PlanungsprioritÃ¤t.';
 WOMT_aThesenParteien[14][4]='-1';
-WOMT_aThesenParteienText[14][4][0]='Es gilt, durch eine Kooperation mit den norddeutschen Ländern, den Standort Norddeutschland nachhaltig zu stärken. Die Wachstumschancen im Ostsee-Raum müssen mit einer maritimen Bündnis- und Entwicklungspolitik für Hamburg genutzt werden.';
+WOMT_aThesenParteienText[14][4][0]='Es gilt, durch eine Kooperation mit den norddeutschen LÃ¤ndern, den Standort Norddeutschland nachhaltig zu stÃ¤rken. Die Wachstumschancen im Ostsee-Raum mÃ¼ssen mit einer maritimen BÃ¼ndnis- und Entwicklungspolitik fÃ¼r Hamburg genutzt werden.';
 WOMT_aThesenParteien[15][4]='1';
-WOMT_aThesenParteienText[15][4][0]='Wir werden uns für die volle Gleichstellung von gleichgeschlechtlichen Lebenspartnerschaften einsetzen. Dies gilt insbesondere für die Bereiche Lebenspartnerschaft und Adoptionsrecht.';
+WOMT_aThesenParteienText[15][4][0]='Wir werden uns fÃ¼r die volle Gleichstellung von gleichgeschlechtlichen Lebenspartnerschaften einsetzen. Dies gilt insbesondere fÃ¼r die Bereiche Lebenspartnerschaft und Adoptionsrecht.';
 WOMT_aThesenParteien[16][4]='-1';
-WOMT_aThesenParteienText[16][4][0]='Das geplante Kohlekraftwerk in Moorburg droht mit einem Jahresausstoß von bis zu 8 Mio. Tonnen CO2 alle Klimaschutzziele Hamburgs für die Dauer der 40-jährigen Laufzeit unerreichbar zu machen.';
+WOMT_aThesenParteienText[16][4][0]='Das geplante Kohlekraftwerk in Moorburg droht mit einem JahresausstoÃŸ von bis zu 8 Mio. Tonnen CO2 alle Klimaschutzziele Hamburgs fÃ¼r die Dauer der 40-jÃ¤hrigen Laufzeit unerreichbar zu machen.';
 WOMT_aThesenParteien[17][4]='1';
-WOMT_aThesenParteienText[17][4][0]='Wir werden unter Einbeziehung der Konzessionsverträge für das Hamburger Gas-, Fernwärme- und Stromleitungsnetz die Gründung eines kommunalen Stadtwerkes betreiben.';
+WOMT_aThesenParteienText[17][4][0]='Wir werden unter Einbeziehung der KonzessionsvertrÃ¤ge fÃ¼r das Hamburger Gas-, FernwÃ¤rme- und Stromleitungsnetz die GrÃ¼ndung eines kommunalen Stadtwerkes betreiben.';
 WOMT_aThesenParteien[18][4]='1';
-WOMT_aThesenParteienText[18][4][0]='Alle im Krankenhausplan aufgenommenen Krankenhäuser werden gleichberechtigt je nach Bedarf gefördert. Dabei kommt es nicht darauf an, ob sie städtisch, gemeinnützig oder privat sind. Unser Ziel ist, eine möglichst hohe Qualität und Breite der medizinischen Versorgung in Hamburg zu sichern.';
+WOMT_aThesenParteienText[18][4][0]='Alle im Krankenhausplan aufgenommenen KrankenhÃ¤user werden gleichberechtigt je nach Bedarf gefÃ¶rdert. Dabei kommt es nicht darauf an, ob sie stÃ¤dtisch, gemeinnÃ¼tzig oder privat sind. Unser Ziel ist, eine mÃ¶glichst hohe QualitÃ¤t und Breite der medizinischen Versorgung in Hamburg zu sichern.';
 WOMT_aThesenParteien[19][4]='1';
-WOMT_aThesenParteienText[19][4][0]='Wir wollen ein neues Sozialticket für Empfängerinnen und Empfänger von Grundsicherungsleistungen wegen Alter bzw. dauerhafter Erwerbsminderung und Sozialhilfe sowie ein vergünstigtes "Jobticket" für Empfängerinnen und Empfänger von Arbeitslosengeld II in Zusammenarbeit von ARG, Trägern und HVV, um die nötige Mobilität für Erwerbstätigkeit, Ausbildung, Arbeitsaufnahme, Arbeitsgelegenheiten sowie Trainings- und Qualifizierungsmaßnahmen zu sichern.';
+WOMT_aThesenParteienText[19][4][0]='Wir wollen ein neues Sozialticket fÃ¼r EmpfÃ¤ngerinnen und EmpfÃ¤nger von Grundsicherungsleistungen wegen Alter bzw. dauerhafter Erwerbsminderung und Sozialhilfe sowie ein vergÃ¼nstigtes "Jobticket" fÃ¼r EmpfÃ¤ngerinnen und EmpfÃ¤nger von Arbeitslosengeld II in Zusammenarbeit von ARG, TrÃ¤gern und HVV, um die nÃ¶tige MobilitÃ¤t fÃ¼r ErwerbstÃ¤tigkeit, Ausbildung, Arbeitsaufnahme, Arbeitsgelegenheiten sowie Trainings- und QualifizierungsmaÃŸnahmen zu sichern.';
 WOMT_aThesenParteien[20][4]='-1';
 WOMT_aThesenParteienText[20][4][0]='';
 WOMT_aThesenParteien[21][4]='-1';
-WOMT_aThesenParteienText[21][4][0]='Wir Sozialdemokraten wollen einen ausgeglichenen Haushalt ohne weitere Vermögensverkäufe. Eine strikte Ausgabenbegrenzung ist unumgänglich. Wir werden wieder eine solide Finanzpolitik aufnehmen sowie den Haushalt weiter konsolidieren und zugleich im Rahmen der vorhandenen Einnahmen und durch Umschichtungen in die  Zukunft unserer Stadt investieren.';
+WOMT_aThesenParteienText[21][4][0]='Wir Sozialdemokraten wollen einen ausgeglichenen Haushalt ohne weitere VermÃ¶gensverkÃ¤ufe. Eine strikte Ausgabenbegrenzung ist unumgÃ¤nglich. Wir werden wieder eine solide Finanzpolitik aufnehmen sowie den Haushalt weiter konsolidieren und zugleich im Rahmen der vorhandenen Einnahmen und durch Umschichtungen in die  Zukunft unserer Stadt investieren.';
 WOMT_aThesenParteien[22][4]='-1';
-WOMT_aThesenParteienText[22][4][0]='Nein, aber wir werden einen effizienten Technologietransfer für Hamburgs Hochschulen und Forschungseinrichtungen fördern und die bestehenden Technologietransferwege zu einer zentralen Informations- und Serviceeinrichtung für Unternehmen und Forscher weiterentwickeln.';
+WOMT_aThesenParteienText[22][4][0]='Nein, aber wir werden einen effizienten Technologietransfer fÃ¼r Hamburgs Hochschulen und Forschungseinrichtungen fÃ¶rdern und die bestehenden Technologietransferwege zu einer zentralen Informations- und Serviceeinrichtung fÃ¼r Unternehmen und Forscher weiterentwickeln.';
 WOMT_aThesenParteien[23][4]='1';
-WOMT_aThesenParteienText[23][4][0]='Unternehmen, die vermehrt ausbilden, wollen wir fördern. Wir prüfen, ob dafür eine von den Kammern erhobene Ausbildungsumlage eingeführt werden soll.';
+WOMT_aThesenParteienText[23][4][0]='Unternehmen, die vermehrt ausbilden, wollen wir fÃ¶rdern. Wir prÃ¼fen, ob dafÃ¼r eine von den Kammern erhobene Ausbildungsumlage eingefÃ¼hrt werden soll.';
 WOMT_aThesenParteien[24][4]='1';
 WOMT_aThesenParteienText[24][4][0]='';
 WOMT_aThesenParteien[25][4]='1';
-WOMT_aThesenParteienText[25][4][0]='Bildung darf nicht vom Portemonnaie der Eltern abhängen. Hamburgs Eltern sind in den letzten Jahren durch immer neue Gebühren für staatliche Bildungsleistungen sehr belastet worden. Deshalb werden wir die Vorschulgebühren und das Büchergeld abschaffen.';
+WOMT_aThesenParteienText[25][4][0]='Bildung darf nicht vom Portemonnaie der Eltern abhÃ¤ngen. Hamburgs Eltern sind in den letzten Jahren durch immer neue GebÃ¼hren fÃ¼r staatliche Bildungsleistungen sehr belastet worden. Deshalb werden wir die VorschulgebÃ¼hren und das BÃ¼chergeld abschaffen.';
 WOMT_aThesenParteien[26][4]='1';
-WOMT_aThesenParteienText[26][4][0]='Wir werden das Heim an der Feuerbergstraße schließen und eine milieuferne geschlossene Unterbringung für schwerkriminelle Minderjährige schaffen.';
+WOMT_aThesenParteienText[26][4][0]='Wir werden das Heim an der FeuerbergstraÃŸe schlieÃŸen und eine milieuferne geschlossene Unterbringung fÃ¼r schwerkriminelle MinderjÃ¤hrige schaffen.';
 WOMT_aThesenParteien[27][4]='-1';
-WOMT_aThesenParteienText[27][4][0]='Wir schätzen die Dienstleistung der Hamburger Bücherhallen und halten eine maßvolle und sozial gerechte Gebühr für sinnvoll. Wir wollen das Netz der Bücherhallen zu einem flächendeckenden Angebot ausbauen.';
+WOMT_aThesenParteienText[27][4][0]='Wir schÃ¤tzen die Dienstleistung der Hamburger BÃ¼cherhallen und halten eine maÃŸvolle und sozial gerechte GebÃ¼hr fÃ¼r sinnvoll. Wir wollen das Netz der BÃ¼cherhallen zu einem flÃ¤chendeckenden Angebot ausbauen.';
 WOMT_aThesenParteien[28][4]='-1';
-WOMT_aThesenParteienText[28][4][0]='Wir sind für eine Videoüberwachung an ausgesuchten Kriminalitätsschwerpunkten, soweit sie durch eine entsprechende Polizeipräsenz ergänzt wird. Uns sind Polizisten auf der Straße wichtiger als vor Bildschirmen.';
+WOMT_aThesenParteienText[28][4][0]='Wir sind fÃ¼r eine VideoÃ¼berwachung an ausgesuchten KriminalitÃ¤tsschwerpunkten, soweit sie durch eine entsprechende PolizeiprÃ¤senz ergÃ¤nzt wird. Uns sind Polizisten auf der StraÃŸe wichtiger als vor Bildschirmen.';
 WOMT_aThesenParteien[29][4]='1';
-WOMT_aThesenParteienText[29][4][0]='Volksentscheide müssen verbindlich sein und zu fairen Bedingungen durchgeführt werden können.';
+WOMT_aThesenParteienText[29][4][0]='Volksentscheide mÃ¼ssen verbindlich sein und zu fairen Bedingungen durchgefÃ¼hrt werden kÃ¶nnen.';
 WOMT_aParteienLogos[0]=new Array();
 WOMT_aParteienLogos2[0]=new Array();
 WOMT_aParteienLogos3[0]=new Array();
@@ -932,8 +932,8 @@ WOMT_aParteienLogos6[0][1]='100';
 WOMT_aParteienLogos6[0][2]='50';
 WOMT_aParteien[0]=new Array();
 WOMT_aParteien[0][0]=new Array();
-WOMT_aParteien[0][0][0]='BÜNDNIS 90/DIE GRÜNEN';
-WOMT_aParteien[0][0][1]='BÜNDNIS 90/DIE GRÜNEN';
+WOMT_aParteien[0][0][0]='BÃœNDNIS 90/DIE GRÃœNEN';
+WOMT_aParteien[0][0][1]='BÃœNDNIS 90/DIE GRÃœNEN';
 WOMT_aParteienLogos[1]=new Array();
 WOMT_aParteienLogos2[1]=new Array();
 WOMT_aParteienLogos3[1]=new Array();
@@ -1049,15 +1049,15 @@ WOMT_aParteien[4][0][1]='SPD';
 WOMT_aThemen[0]=new Array();
 WOMT_aThemen[0][0]='Thema 1';
 WOMT_aTexte['0_bn_hinweis_text']=new Array();
-WOMT_aTexte['0_bn_hinweis_text'][0]='Hinweis: Auf den Folgeseiten erscheint die Navigation an erster Stelle und bietet die Möglichkeit zu den entsprechenden Inhalten, zum Beispiel den jeweiligen Thesen zu springen.';
+WOMT_aTexte['0_bn_hinweis_text'][0]='Hinweis: Auf den Folgeseiten erscheint die Navigation an erster Stelle und bietet die MÃ¶glichkeit zu den entsprechenden Inhalten, zum Beispiel den jeweiligen Thesen zu springen.';
 WOMT_aTexte['0_bn_hinweis_text_2']=new Array();
-WOMT_aTexte['0_bn_hinweis_text_2'][0]='Hinweis: Nach dem Start des Wahl-O-Maten erscheint an dieser Stelle eine These, die im Anschluss mit den folgenden Entscheidungsmöglichkeiten beanwortet werden kann:';
+WOMT_aTexte['0_bn_hinweis_text_2'][0]='Hinweis: Nach dem Start des Wahl-O-Maten erscheint an dieser Stelle eine These, die im Anschluss mit den folgenden EntscheidungsmÃ¶glichkeiten beanwortet werden kann:';
 WOMT_aTexte['0_bn_willkommen_text']=new Array();
 WOMT_aTexte['0_bn_willkommen_text'][0]='zum Willkommenstext';
 WOMT_aTexte['0_ms_button_text']=new Array();
 WOMT_aTexte['0_ms_button_text'][0]='Start';
 WOMT_aTexte['0_ms_intro_text']=new Array();
-WOMT_aTexte['0_ms_intro_text'][0]='Die Parteien haben zu 30 Thesen Position bezogen. Jetzt sind Sie an der Reihe: Vergleichen Sie Ihre Standpunkte mit denen von BÜNDNIS 90/DIE GRÜNEN, CDU, DIE LINKE, FDP und SPD.';
+WOMT_aTexte['0_ms_intro_text'][0]='Die Parteien haben zu 30 Thesen Position bezogen. Jetzt sind Sie an der Reihe: Vergleichen Sie Ihre Standpunkte mit denen von BÃœNDNIS 90/DIE GRÃœNEN, CDU, DIE LINKE, FDP und SPD.';
 WOMT_aTexte['0_ms_start_title']=new Array();
 WOMT_aTexte['0_ms_start_title'][0]='weiter';
 WOMT_aTexte['0_skinselect_1']=new Array();
@@ -1083,13 +1083,13 @@ WOMT_aTexte['0_skinselect_std'][0]='Classic';
 WOMT_aTexte['0_skinselect_std_title']=new Array();
 WOMT_aTexte['0_skinselect_std_title'][0]='Classic-Skin';
 WOMT_aTexte['0_skinselect_text']=new Array();
-WOMT_aTexte['0_skinselect_text'][0]='Wählen Sie Ihre Wahl-O-Mat Edition!';
+WOMT_aTexte['0_skinselect_text'][0]='WÃ¤hlen Sie Ihre Wahl-O-Mat Edition!';
 WOMT_aTexte['1_bn_thesennavigation_text']=new Array();
 WOMT_aTexte['1_bn_thesennavigation_text'][0]='zur Thesennavigation';
 WOMT_aTexte['1_bn_zurthese_text']=new Array();
 WOMT_aTexte['1_bn_zurthese_text'][0]='zur These';
 WOMT_aTexte['1_fragen_bogus']=new Array();
-WOMT_aTexte['1_fragen_bogus'][0]='Bitte beantworten Sie die Thesen sorgfältig.';
+WOMT_aTexte['1_fragen_bogus'][0]='Bitte beantworten Sie die Thesen sorgfÃ¤ltig.';
 WOMT_aTexte['1_fragen_these']=new Array();
 WOMT_aTexte['1_fragen_these'][0]='These';
 WOMT_aTexte['1_fragen_von']=new Array();
@@ -1099,15 +1099,15 @@ WOMT_aTexte['1_leiste_thesenochmal_these_title'][0]='These [NR] nochmal aufrufen
 WOMT_aTexte['1_leiste_thesenochmal_title']=new Array();
 WOMT_aTexte['1_leiste_thesenochmal_title'][0]='Diese These erneut aufrufen.';
 WOMT_aTexte['1_leiste_vor_these']=new Array();
-WOMT_aTexte['1_leiste_vor_these'][0]='zur nächsten These [NR]';
+WOMT_aTexte['1_leiste_vor_these'][0]='zur nÃ¤chsten These [NR]';
 WOMT_aTexte['1_leiste_vor_zwischenauswertung']=new Array();
 WOMT_aTexte['1_leiste_vor_zwischenauswertung'][0]='weiter';
 WOMT_aTexte['1_leiste_zurueck_start']=new Array();
-WOMT_aTexte['1_leiste_zurueck_start'][0]='zurück zum Start';
+WOMT_aTexte['1_leiste_zurueck_start'][0]='zurÃ¼ck zum Start';
 WOMT_aTexte['1_leiste_zurueck_text']=new Array();
-WOMT_aTexte['1_leiste_zurueck_text'][0]='zurück';
+WOMT_aTexte['1_leiste_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['1_leiste_zurueck_these']=new Array();
-WOMT_aTexte['1_leiste_zurueck_these'][0]='zurück zur These [NR]';
+WOMT_aTexte['1_leiste_zurueck_these'][0]='zurÃ¼ck zur These [NR]';
 WOMT_aTexte['1_these_neutral_taste_title']=new Array();
 WOMT_aTexte['1_these_neutral_taste_title'][0]='Tastenkombination: Alt+x';
 WOMT_aTexte['1_these_stimmenichtzu_taste_title']=new Array();
@@ -1119,15 +1119,15 @@ WOMT_aTexte['1_these_ueberspringen_taste_title'][0]='These wird nicht gewertet, 
 WOMT_aTexte['2_bn_thesengewichtung_text']=new Array();
 WOMT_aTexte['2_bn_thesengewichtung_text'][0]='zur Thesengewichtung';
 WOMT_aTexte['2_btn_zurueck_text']=new Array();
-WOMT_aTexte['2_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['2_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['2_btn_zurueck_title']=new Array();
-WOMT_aTexte['2_btn_zurueck_title'][0]='zurück zur letzten These';
+WOMT_aTexte['2_btn_zurueck_title'][0]='zurÃ¼ck zur letzten These';
 WOMT_aTexte['2_ergebnis2_text']=new Array();
 WOMT_aTexte['2_ergebnis2_text'][0]='direkt anzeigen';
 WOMT_aTexte['2_ergebnis_text']=new Array();
 WOMT_aTexte['2_ergebnis_text'][0]='Ergebnis';
 WOMT_aTexte['2_text_text']=new Array();
-WOMT_aTexte['2_text_text'][0]='Wählen Sie Ihre Ansicht!';
+WOMT_aTexte['2_text_text'][0]='WÃ¤hlen Sie Ihre Ansicht!';
 WOMT_aTexte['2_thesen2_text']=new Array();
 WOMT_aTexte['2_thesen2_text'][0]='gewichten, dann Ergebnis anzeigen';
 WOMT_aTexte['2_thesen_text']=new Array();
@@ -1135,13 +1135,13 @@ WOMT_aTexte['2_thesen_text'][0]='Thesen';
 WOMT_aTexte['2_title_text']=new Array();
 WOMT_aTexte['2_title_text'][0]='Zu Ihrem Ergebnis';
 WOMT_aTexte['3_bn_hinweis']=new Array();
-WOMT_aTexte['3_bn_hinweis'][0]='Hinweis: Die folgende Tabelle besteht aus einem fünfzeiligen Tabellenkopf und einer Auflistung der 30 Thesen. Auf jede These folgt die von Ihnen ausgewählte Position, zum Beispiel "Ich stimmte nicht zu". Sie können diese These dann durch Auswahl des Kontrollfeldes doppelt gewichten.';
+WOMT_aTexte['3_bn_hinweis'][0]='Hinweis: Die folgende Tabelle besteht aus einem fÃ¼nfzeiligen Tabellenkopf und einer Auflistung der 30 Thesen. Auf jede These folgt die von Ihnen ausgewÃ¤hlte Position, zum Beispiel "Ich stimmte nicht zu". Sie kÃ¶nnen diese These dann durch Auswahl des Kontrollfeldes doppelt gewichten.';
 WOMT_aTexte['3_bn_thesengewichtung_text']=new Array();
 WOMT_aTexte['3_bn_thesengewichtung_text'][0]='zur Thesengewichtung';
 WOMT_aTexte['3_btn_zurueck_text']=new Array();
-WOMT_aTexte['3_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['3_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['3_btn_zurueck_title']=new Array();
-WOMT_aTexte['3_btn_zurueck_title'][0]='zurück zur letzten These';
+WOMT_aTexte['3_btn_zurueck_title'][0]='zurÃ¼ck zur letzten These';
 WOMT_aTexte['3_form_submit_text']=new Array();
 WOMT_aTexte['3_form_submit_text'][0]='Ergebnis anzeigen';
 WOMT_aTexte['3_tabelle_auswahl']=new Array();
@@ -1153,7 +1153,7 @@ WOMT_aTexte['3_tabelle_nr'][0]='Nr.';
 WOMT_aTexte['3_tabelle_these']=new Array();
 WOMT_aTexte['3_tabelle_these'][0]='These';
 WOMT_aTexte['3_text_text']=new Array();
-WOMT_aTexte['3_text_text'][0]='Klicken Sie bitte auf die Thesen, die für Sie besonders wichtig sind. Der Wahl-O-Mat wird diese bei der Auswertung doppelt zählen.';
+WOMT_aTexte['3_text_text'][0]='Klicken Sie bitte auf die Thesen, die fÃ¼r Sie besonders wichtig sind. Der Wahl-O-Mat wird diese bei der Auswertung doppelt zÃ¤hlen.';
 WOMT_aTexte['3_titel_text']=new Array();
 WOMT_aTexte['3_titel_text'][0]='Thesengewichtung';
 WOMT_aTexte['3_legende_stimmezu']=new Array();
@@ -1163,7 +1163,7 @@ WOMT_aTexte['3_legende_stimmenichtzu'][0]='Stimme nicht zu';
 WOMT_aTexte['3_legende_neutral']=new Array();
 WOMT_aTexte['3_legende_neutral'][0]='Neutral';
 WOMT_aTexte['3_legende_uebersprungen']=new Array();
-WOMT_aTexte['3_legende_uebersprungen'][0]='Übersprungen';
+WOMT_aTexte['3_legende_uebersprungen'][0]='Ãœbersprungen';
 WOMT_aTexte['4_bn_hinweis_tabelle']=new Array();
 WOMT_aTexte['4_bn_hinweis_tabelle'][0]='Hinweis: das Ergebnis mit den Positionen der Partei hat folgende Struktur:';
 WOMT_aTexte['4_bn_zumergebnis']=new Array();
@@ -1173,30 +1173,30 @@ WOMT_aTexte['4_btn_thesenvergleich_text'][0]='weiter';
 WOMT_aTexte['4_btn_thesenvergleich_title']=new Array();
 WOMT_aTexte['4_btn_thesenvergleich_title'][0]='zum Thesenvergleich';
 WOMT_aTexte['4_btn_zurueck_text']=new Array();
-WOMT_aTexte['4_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['4_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['4_btn_zurueck_title']=new Array();
-WOMT_aTexte['4_btn_zurueck_title'][0]='zurück zur Gewichtung';
+WOMT_aTexte['4_btn_zurueck_title'][0]='zurÃ¼ck zur Gewichtung';
 WOMT_aTexte['4_ergebnis']=new Array();
 WOMT_aTexte['4_ergebnis'][0]='Ihr Wahl-O-Mat Ergebnis';
 WOMT_aTexte['4_erg_noergebnis_neutral']=new Array();
-WOMT_aTexte['4_erg_noergebnis_neutral'][0]='Der Wahl-O-Mat kann auf der Grundlage Ihres Antwortmusters kein individuelles und zuverlässiges Ergebnis berechnen. Sie können jedoch Ihre Positionen zu den Thesen mit denen der Parteien vergleichen.\
+WOMT_aTexte['4_erg_noergebnis_neutral'][0]='Der Wahl-O-Mat kann auf der Grundlage Ihres Antwortmusters kein individuelles und zuverlÃ¤ssiges Ergebnis berechnen. Sie kÃ¶nnen jedoch Ihre Positionen zu den Thesen mit denen der Parteien vergleichen.\
 <br/>\
-<br/>Klicken Sie dazu auf das Logo der Partei, mit der Sie Ihre Antworten vergleichen möchten.';
+<br/>Klicken Sie dazu auf das Logo der Partei, mit der Sie Ihre Antworten vergleichen mÃ¶chten.';
 WOMT_aTexte['4_erg_noergebnis_theseueberspringen']=new Array();
-WOMT_aTexte['4_erg_noergebnis_theseueberspringen'][0]='Sie haben bei zu vielen Thesen mit "These überspringen" gewählt. Der Wahl-O-Mat kann daher kein Gesamtergebnis berechnen, also nicht angeben, welche Partei Ihnen auf der Grundlage der ausgewählten Thesen am nächsten steht.\
+WOMT_aTexte['4_erg_noergebnis_theseueberspringen'][0]='Sie haben bei zu vielen Thesen mit "These Ã¼berspringen" gewÃ¤hlt. Der Wahl-O-Mat kann daher kein Gesamtergebnis berechnen, also nicht angeben, welche Partei Ihnen auf der Grundlage der ausgewÃ¤hlten Thesen am nÃ¤chsten steht.\
 <br/>\
-<br/>Sie können jedoch Ihre Positionen zu den Thesen mit denen der Parteien vergleichen. Klicken Sie dazu auf das Logo der Partei, mit der Sie Ihre Antworten vergleichen möchten.';
+<br/>Sie kÃ¶nnen jedoch Ihre Positionen zu den Thesen mit denen der Parteien vergleichen. Klicken Sie dazu auf das Logo der Partei, mit der Sie Ihre Antworten vergleichen mÃ¶chten.';
 WOMT_aTexte['4_erg_parteien_gleichstand']=new Array();
 WOMT_aTexte['4_erg_parteien_gleichstand'][0]='Zwei oder mehr Parteien in der nachfolgenden Statistik haben in Ihrem Wahl-O-Mat Ergebnis die gleiche Punktzahl erlangt.';
 WOMT_aTexte['4_erg_text']=new Array();
-WOMT_aTexte['4_erg_text'][0]='Ihre Angaben haben die größte Übereinstimmung mit\
+WOMT_aTexte['4_erg_text'][0]='Ihre Angaben haben die grÃ¶ÃŸte Ãœbereinstimmung mit\
 <br/>';
 WOMT_aTexte['4_position_der_partei']=new Array();
 WOMT_aTexte['4_position_der_partei'][0]='Position der Partei [PARTEI]';
 WOMT_aTexte['4_tabelle1_partei']=new Array();
 WOMT_aTexte['4_tabelle1_partei'][0]='Partei';
 WOMT_aTexte['4_tabelle1_uebereinstimmung']=new Array();
-WOMT_aTexte['4_tabelle1_uebereinstimmung'][0]='Übereinstimmung';
+WOMT_aTexte['4_tabelle1_uebereinstimmung'][0]='Ãœbereinstimmung';
 WOMT_aTexte['4_vergleich_text']=new Array();
 WOMT_aTexte['4_vergleich_text'][0]='Wie kam Ihr Wahl-O-Mat-Ergebnis zu Stande?<br/>Vergleichen Sie Ihre Position zu jeder These mit allen Parteien:';
 WOMT_aTexte['4_vergleich_titel']=new Array();
@@ -1220,13 +1220,13 @@ WOMT_aTexte['5_btn_nutzungszahlen_text'][0]='Nutzungsstatistik';
 WOMT_aTexte['5_btn_nutzungszahlen_title']=new Array();
 WOMT_aTexte['5_btn_nutzungszahlen_title'][0]='Informationen zu den Nutzerzahlen';
 WOMT_aTexte['5_btn_zurueck_text']=new Array();
-WOMT_aTexte['5_btn_zurueck_text'][0]='zurück zur Gesamtübersicht';
+WOMT_aTexte['5_btn_zurueck_text'][0]='zurÃ¼ck zur GesamtÃ¼bersicht';
 WOMT_aTexte['5_btn_zurueck_title']=new Array();
-WOMT_aTexte['5_btn_zurueck_title'][0]='zurück zum Ergebnis';
+WOMT_aTexte['5_btn_zurueck_title'][0]='zurÃ¼ck zum Ergebnis';
 WOMT_aTexte['wahlomat_footer_link_taz_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_taz_text'][0]='taz';
 WOMT_aTexte['wahlomat_footer_link_taz_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_taz_title'][0]='taz (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_taz_title'][0]='taz (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['5_tabelle_head_nr']=new Array();
 WOMT_aTexte['5_tabelle_head_nr'][0]='Nr.';
 WOMT_aTexte['5_tabelle_head_these']=new Array();
@@ -1236,37 +1236,37 @@ WOMT_aTexte['5_tabelle_head_ihreposition'][0]='Ihre Position';
 WOMT_aTexte['5_tabelle_head_positionpartei']=new Array();
 WOMT_aTexte['5_tabelle_head_positionpartei'][0]='Die Position der Partei';
 WOMT_aTexte['5_tabelle_head_begruendung']=new Array();
-WOMT_aTexte['5_tabelle_head_begruendung'][0]='Begründung der Partei';
+WOMT_aTexte['5_tabelle_head_begruendung'][0]='BegrÃ¼ndung der Partei';
 WOMT_aTexte['5_tabelle_head_info']=new Array();
 WOMT_aTexte['5_tabelle_head_info'][0]='Mehr zum Thema';
 WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_text']=new Array();
 WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_text'][0]='Info';
 WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_title']=new Array();
-WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_title'][0]='Weitere Informationen zum Thema (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['5_tabelle_inhalt_mehrzumthema_title'][0]='Weitere Informationen zum Thema (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['5_tabelle_popup_parteithese_title']=new Array();
-WOMT_aTexte['5_tabelle_popup_parteithese_title'][0]='Klicken, um Begründung zu lesen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['5_tabelle_popup_parteithese_title'][0]='Klicken, um BegrÃ¼ndung zu lesen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['5_text_text']=new Array();
-WOMT_aTexte['5_text_text'][0]='Und wie stehen die anderen Parteien dazu? Klicken Sie auf das Logo einer Partei, um ihre Position zu allen Thesen samt Begründung zu sehen.';
+WOMT_aTexte['5_text_text'][0]='Und wie stehen die anderen Parteien dazu? Klicken Sie auf das Logo einer Partei, um ihre Position zu allen Thesen samt BegrÃ¼ndung zu sehen.';
 WOMT_aTexte['5_title_text']=new Array();
 WOMT_aTexte['5_title_text'][0]='Vergleich im Detail';
 WOMT_aTexte['6_bn_hinweis']=new Array();
-WOMT_aTexte['6_bn_hinweis'][0]='Hinweis: Die folgenden zwei Zahlen sind Nutzergrenzen in der Grafik der Nutzungsstatistik und können ignoriert werden. Anschließend folgt eine Auflistung der Gesamtnutzerzahlen pro Tag.';
+WOMT_aTexte['6_bn_hinweis'][0]='Hinweis: Die folgenden zwei Zahlen sind Nutzergrenzen in der Grafik der Nutzungsstatistik und kÃ¶nnen ignoriert werden. AnschlieÃŸend folgt eine Auflistung der Gesamtnutzerzahlen pro Tag.';
 WOMT_aTexte['6_bn_hinweis_2']=new Array();
 WOMT_aTexte['6_bn_hinweis_2'][0]='Hinweis: Der folgende Zahlenblock stellt Datumspositionen der Nutzungsstatistik dar und kann ignoriert werden.';
 WOMT_aTexte['6_bn_zurnutzungsstatistik_text']=new Array();
 WOMT_aTexte['6_bn_zurnutzungsstatistik_text'][0]='zur Nutzungsstatistik';
 WOMT_aTexte['6_btn_zurueck_text']=new Array();
-WOMT_aTexte['6_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['6_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['6_btn_zurueck_title']=new Array();
-WOMT_aTexte['6_btn_zurueck_title'][0]='zurück zum Vergleich im Detail';
+WOMT_aTexte['6_btn_zurueck_title'][0]='zurÃ¼ck zum Vergleich im Detail';
 WOMT_aTexte['6_danke_text']=new Array();
-WOMT_aTexte['6_danke_text'][0]='Vielen Dank!<br/>für die [NUTZUNGEN] Nutzungen des Wahl-O-Mat zur Wahl der Hamburgischen Bürgerschaft 2008.';
+WOMT_aTexte['6_danke_text'][0]='Vielen Dank!<br/>fÃ¼r die [NUTZUNGEN] Nutzungen des Wahl-O-Mat zur Wahl der Hamburgischen BÃ¼rgerschaft 2008.';
 WOMT_aTexte['6_tabelle_nutzeram']=new Array();
 WOMT_aTexte['6_tabelle_nutzeram'][0]='Nutzer am';
 WOMT_aTexte['6_title_text']=new Array();
 WOMT_aTexte['6_title_text'][0]='Nutzungsstatistik';
 WOMT_aTexte['a_bn_menue_text']=new Array();
-WOMT_aTexte['a_bn_menue_text'][0]='zum Menü der zusätzlichen Angebote';
+WOMT_aTexte['a_bn_menue_text'][0]='zum MenÃ¼ der zusÃ¤tzlichen Angebote';
 WOMT_aTexte['a_bn_seitenstart_text']=new Array();
 WOMT_aTexte['a_bn_seitenstart_text'][0]='zum Seitenstart';
 WOMT_aTexte['a_button_neutral_text']=new Array();
@@ -1276,9 +1276,9 @@ WOMT_aTexte['a_button_stimmenichtzu_text'][0]='stimme nicht zu';
 WOMT_aTexte['a_button_stimmezu_text']=new Array();
 WOMT_aTexte['a_button_stimmezu_text'][0]='stimme zu';
 WOMT_aTexte['a_button_theseueberspringen_text']=new Array();
-WOMT_aTexte['a_button_theseueberspringen_text'][0]='These überspringen';
+WOMT_aTexte['a_button_theseueberspringen_text'][0]='These Ã¼berspringen';
 WOMT_aTexte['a_copyright_text']=new Array();
-WOMT_aTexte['a_copyright_text'][0]='Bundeszentrale für politische Bildung';
+WOMT_aTexte['a_copyright_text'][0]='Bundeszentrale fÃ¼r politische Bildung';
 WOMT_aTexte['a_neustart_text']=new Array();
 WOMT_aTexte['a_neustart_text'][0]='Neustart';
 WOMT_aTexte['a_neustart_title']=new Array();
@@ -1286,7 +1286,7 @@ WOMT_aTexte['a_neustart_title'][0]='Neustart des Wahl-O-Mat';
 WOMT_aTexte['nav_download_text']=new Array();
 WOMT_aTexte['nav_download_text'][0]='Download';
 WOMT_aTexte['nav_download_title']=new Array();
-WOMT_aTexte['nav_download_title'][0]='Offline-Version des Wahl-O-Mat zum Herunterladen. (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_download_title'][0]='Offline-Version des Wahl-O-Mat zum Herunterladen. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_email_text']=new Array();
 WOMT_aTexte['nav_email_text'][0]='Kontakt';
 WOMT_aTexte['nav_email_title']=new Array();
@@ -1294,74 +1294,74 @@ WOMT_aTexte['nav_email_title'][0]='info@wahl-o-mat.de';
 WOMT_aTexte['nav_faq_text']=new Array();
 WOMT_aTexte['nav_faq_text'][0]='FAQ';
 WOMT_aTexte['nav_faq_title']=new Array();
-WOMT_aTexte['nav_faq_title'][0]='Antworten auf die am häufigsten gestellten Fragen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_faq_title'][0]='Antworten auf die am hÃ¤ufigsten gestellten Fragen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_handy_text']=new Array();
 WOMT_aTexte['nav_handy_text'][0]='Handy-Version';
 WOMT_aTexte['nav_handy_title']=new Array();
-WOMT_aTexte['nav_handy_title'][0]='Download und Informationen zum Wahl-O-Mat-mobil (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_handy_title'][0]='Download und Informationen zum Wahl-O-Mat-mobil (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_impressum_text']=new Array();
 WOMT_aTexte['nav_impressum_text'][0]='Impressum';
 WOMT_aTexte['nav_impressum_title']=new Array();
-WOMT_aTexte['nav_impressum_title'][0]='Dieser Link öffnet sich in einem neuen Fenster.';
+WOMT_aTexte['nav_impressum_title'][0]='Dieser Link Ã¶ffnet sich in einem neuen Fenster.';
 WOMT_aTexte['nav_materialien_text']=new Array();
 WOMT_aTexte['nav_materialien_text'][0]='Wahl-O-Mat Info';
 WOMT_aTexte['nav_materialien_title']=new Array();
-WOMT_aTexte['nav_materialien_title'][0]='Materialien zum Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_materialien_title'][0]='Materialien zum Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_unterrichtsmaterial_text']=new Array();
 WOMT_aTexte['nav_unterrichtsmaterial_text'][0]='Unterrichtsmaterial';
 WOMT_aTexte['nav_unterrichtsmaterial_title']=new Array();
-WOMT_aTexte['nav_unterrichtsmaterial_title'][0]='Unterrichtsmaterial zum Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_unterrichtsmaterial_title'][0]='Unterrichtsmaterial zum Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_werstehtzurwahl_text']=new Array();
 WOMT_aTexte['nav_werstehtzurwahl_text'][0]='Wer steht zur Wahl?';
 WOMT_aTexte['nav_werstehtzurwahl_title']=new Array();
-WOMT_aTexte['nav_werstehtzurwahl_title'][0]='Wer steht zur Wahl? (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_werstehtzurwahl_title'][0]='Wer steht zur Wahl? (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['popup_faq_1_frage']=new Array();
-WOMT_aTexte['popup_faq_1_frage'][0]='Nach welchen Kriterien werden die Parteien für den Wahl-O-Mat ausgesucht?';
+WOMT_aTexte['popup_faq_1_frage'][0]='Nach welchen Kriterien werden die Parteien fÃ¼r den Wahl-O-Mat ausgesucht?';
 WOMT_aTexte['popup_faq_1_text_a']=new Array();
-WOMT_aTexte['popup_faq_1_text_a'][0]='Aus Gründen der statistischen Unterscheidbarkeit und der Handhabbarkeit des Tools können nicht alle zur Wahl zugelassenen Parteien und Wählervereinigungen in den Wahl-O-Mat aufgenommen werden. Wir legen bei der Auswahl der Parteien und Wählervereinigungen objektive und systematische Kriterien an. Aufgenommen werden';
+WOMT_aTexte['popup_faq_1_text_a'][0]='Aus GrÃ¼nden der statistischen Unterscheidbarkeit und der Handhabbarkeit des Tools kÃ¶nnen nicht alle zur Wahl zugelassenen Parteien und WÃ¤hlervereinigungen in den Wahl-O-Mat aufgenommen werden. Wir legen bei der Auswahl der Parteien und WÃ¤hlervereinigungen objektive und systematische Kriterien an. Aufgenommen werden';
 WOMT_aTexte['popup_faq_1_text_b']=new Array();
-WOMT_aTexte['popup_faq_1_text_b'][0]='Damit werden sowohl die etablierten Parteien und Wählervereinigungen, aber auch neu aufkommende Gruppierungen hinreichend berücksichtigt. Mit diesen Kriterien sind Kleinstparteien und -gruppierungen ausgeschlossen, die sich nur auf wenige Themen oder gar nur auf einen Schwerpunkt konzentrieren. Diese passen auch aus inhaltlichen Gründen nicht in den Wahl-O-Mat, der mit seinen Thesen das gesamte Spektrum gesellschaftlicher und politischer Fragen abdeckt. Denn ein wesentliches Ziel des Wahl-O-Mat ist es, die programmatischen Unterschiede zwischen den Parteien und Wählervereinigungen in der Breite zu verdeutlichen. Eine derart abgestufte Behandlung von Parteien und Wählervereinigungen  ist laut Parteiengesetz möglich und zulässig. Wir kommen dem Informationsbedürfnis über alle zur Wahl zugelassenen Parteien und Wählervereinigungen durch das weitere Online-Angebot <a tabindex="16" title="Wer steht zur Wahl? (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">"Wer steht zur Wahl?"</a> nach, wo diese dargestellt werden.';
+WOMT_aTexte['popup_faq_1_text_b'][0]='Damit werden sowohl die etablierten Parteien und WÃ¤hlervereinigungen, aber auch neu aufkommende Gruppierungen hinreichend berÃ¼cksichtigt. Mit diesen Kriterien sind Kleinstparteien und -gruppierungen ausgeschlossen, die sich nur auf wenige Themen oder gar nur auf einen Schwerpunkt konzentrieren. Diese passen auch aus inhaltlichen GrÃ¼nden nicht in den Wahl-O-Mat, der mit seinen Thesen das gesamte Spektrum gesellschaftlicher und politischer Fragen abdeckt. Denn ein wesentliches Ziel des Wahl-O-Mat ist es, die programmatischen Unterschiede zwischen den Parteien und WÃ¤hlervereinigungen in der Breite zu verdeutlichen. Eine derart abgestufte Behandlung von Parteien und WÃ¤hlervereinigungen  ist laut Parteiengesetz mÃ¶glich und zulÃ¤ssig. Wir kommen dem InformationsbedÃ¼rfnis Ã¼ber alle zur Wahl zugelassenen Parteien und WÃ¤hlervereinigungen durch das weitere Online-Angebot <a tabindex="16" title="Wer steht zur Wahl? (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">"Wer steht zur Wahl?"</a> nach, wo diese dargestellt werden.';
 WOMT_aTexte['popup_faq_1_text_li_1']=new Array();
-WOMT_aTexte['popup_faq_1_text_li_1'][0]='1. Parteien und Wählervereinigungen, die bereits im Parlament vertreten sind,';
+WOMT_aTexte['popup_faq_1_text_li_1'][0]='1. Parteien und WÃ¤hlervereinigungen, die bereits im Parlament vertreten sind,';
 WOMT_aTexte['popup_faq_1_text_li_2']=new Array();
-WOMT_aTexte['popup_faq_1_text_li_2'][0]='2. Parteien und Wählervereinigungen, die nach seriösen Prognosen eine realistische Chance haben, Parlamentsmandate zu erhalten (über drei Prozent in der "Sonntagsfrage").';
+WOMT_aTexte['popup_faq_1_text_li_2'][0]='2. Parteien und WÃ¤hlervereinigungen, die nach seriÃ¶sen Prognosen eine realistische Chance haben, Parlamentsmandate zu erhalten (Ã¼ber drei Prozent in der "Sonntagsfrage").';
 WOMT_aTexte['popup_faq_2_frage']=new Array();
-WOMT_aTexte['popup_faq_2_frage'][0]='Wie ist der Wahl-O-Mat entwickelt worden? Sind die Parteien und Wählervereinigungen daran beteiligt gewesen?';
+WOMT_aTexte['popup_faq_2_frage'][0]='Wie ist der Wahl-O-Mat entwickelt worden? Sind die Parteien und WÃ¤hlervereinigungen daran beteiligt gewesen?';
 WOMT_aTexte['popup_faq_2_text']=new Array();
-WOMT_aTexte['popup_faq_2_text'][0]='Der Wahl-O-Mat ist für die Bundesrepublik Deutschland erstmals zur Bundestagswahl 2002 eingesetzt worden. Er wurde von einer unabhängigen Redaktion, die aus jungen Erwachsenen besteht, in Kooperation mit der Bundeszentrale für politische Bildung/bpb und mit Unterstützung ihrer Partner und des niederländischen Instituut voor Publiek en Politiek (Institut für Öffentlichkeit und Politik - IPP) entwickelt. Dabei ging der Wahl-O-Mat aus dem StemWijzer hervor. Das ist ein vom IPP entwickelter Test, mit dem Sie feststellen können, wie Sie persönlich zu den Zielen und Positionen von Parteien stehen. Dieser Test gehört in den Niederlanden seit langem fest zum Vorwahlgeschehen. Bei der Bundestagswahl 2002 wurde der Wahl-O-Mat über 3,6 Millionen mal gespielt. Seitdem wurde er von der bpb bei über zehn Landtagswahlen, der Europawahl 2004 und zuletzt der Bundestagswahl 2005 mit 5,1 Millionen Nutzungen eingesetzt.\
+WOMT_aTexte['popup_faq_2_text'][0]='Der Wahl-O-Mat ist fÃ¼r die Bundesrepublik Deutschland erstmals zur Bundestagswahl 2002 eingesetzt worden. Er wurde von einer unabhÃ¤ngigen Redaktion, die aus jungen Erwachsenen besteht, in Kooperation mit der Bundeszentrale fÃ¼r politische Bildung/bpb und mit UnterstÃ¼tzung ihrer Partner und des niederlÃ¤ndischen Instituut voor Publiek en Politiek (Institut fÃ¼r Ã–ffentlichkeit und Politik - IPP) entwickelt. Dabei ging der Wahl-O-Mat aus dem StemWijzer hervor. Das ist ein vom IPP entwickelter Test, mit dem Sie feststellen kÃ¶nnen, wie Sie persÃ¶nlich zu den Zielen und Positionen von Parteien stehen. Dieser Test gehÃ¶rt in den Niederlanden seit langem fest zum Vorwahlgeschehen. Bei der Bundestagswahl 2002 wurde der Wahl-O-Mat Ã¼ber 3,6 Millionen mal gespielt. Seitdem wurde er von der bpb bei Ã¼ber zehn Landtagswahlen, der Europawahl 2004 und zuletzt der Bundestagswahl 2005 mit 5,1 Millionen Nutzungen eingesetzt.\
 <br/>\
-<br/>Die Redaktion des Wahl-O-Mat für die Wahl der Hamburgischen Bürgerschaft, die aus 11 Hamburger Jungwähler/innen besteht, unterstützt von Experten und den Trägern des Wahl-O-Mat, hat den Parteien und Wählervereinigungen BÜNDNIS 90/DIE GRÜNEN, CDU, DIE LINKE, FDP und SPD, die in der Bürgerschaft vertreten sind bzw. nach Prognosen eine realistische Chance haben, in die Bürgerschaft einzuziehen, eine Liste mit rund 60 Thesen geschickt. Sie wurden gebeten, die Thesen entsprechend der Parteihaltung mit "stimme zu", "stimme nicht zu" oder "neutral" zu beantworten. Aus den ausgefüllten Listen wurden diejenigen Thesen rechnerisch ermittelt, die keine ausreichende Unterscheidung der Parteien und Wählervereinigungen möglich machten, und entfernt. Die Redaktion hat aus den verbleibenden eine endgültige Auswahl von 30 Thesen getroffen, die in den Wahl-O-Mat eingebunden wurden. Die Parteien und Wählervereinigungen waren an der Endauswahl der Thesen nicht beteiligt. Mehr zum Entstehungsprozess eines Wahl-O-Mat finden Sie in unsrem <a tabindex="26" title="Making of (Dieser Link öffnet sich in einem neuen Fenster.)" target="_blank" class="link_normal" href="http://www.bpb.de/methodik/N7OHM4,0,0,Making_of_WahlOMat.html" traget="_blank">"Making of"</a>.';
+<br/>Die Redaktion des Wahl-O-Mat fÃ¼r die Wahl der Hamburgischen BÃ¼rgerschaft, die aus 11 Hamburger JungwÃ¤hler/innen besteht, unterstÃ¼tzt von Experten und den TrÃ¤gern des Wahl-O-Mat, hat den Parteien und WÃ¤hlervereinigungen BÃœNDNIS 90/DIE GRÃœNEN, CDU, DIE LINKE, FDP und SPD, die in der BÃ¼rgerschaft vertreten sind bzw. nach Prognosen eine realistische Chance haben, in die BÃ¼rgerschaft einzuziehen, eine Liste mit rund 60 Thesen geschickt. Sie wurden gebeten, die Thesen entsprechend der Parteihaltung mit "stimme zu", "stimme nicht zu" oder "neutral" zu beantworten. Aus den ausgefÃ¼llten Listen wurden diejenigen Thesen rechnerisch ermittelt, die keine ausreichende Unterscheidung der Parteien und WÃ¤hlervereinigungen mÃ¶glich machten, und entfernt. Die Redaktion hat aus den verbleibenden eine endgÃ¼ltige Auswahl von 30 Thesen getroffen, die in den Wahl-O-Mat eingebunden wurden. Die Parteien und WÃ¤hlervereinigungen waren an der Endauswahl der Thesen nicht beteiligt. Mehr zum Entstehungsprozess eines Wahl-O-Mat finden Sie in unsrem <a tabindex="26" title="Making of (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" target="_blank" class="link_normal" href="http://www.bpb.de/methodik/N7OHM4,0,0,Making_of_WahlOMat.html" traget="_blank">"Making of"</a>.';
 WOMT_aTexte['popup_faq_3_frage']=new Array();
 WOMT_aTexte['popup_faq_3_frage'][0]='Wieso kommen manche wichtige Themen im Wahl-O-Mat nicht zur Sprache?';
 WOMT_aTexte['popup_faq_3_text']=new Array();
-WOMT_aTexte['popup_faq_3_text'][0]='Das ist eine schwierige Frage. Wer entscheidet, welche Themen wichtig sind und welche nicht? Die Regierung, die Parteien, die Medien und die Bürgerinnen und Bürger haben dazu sehr unterschiedliche Meinungen. Bei der Auswahl der Thesen für unseren Wahl-O-Mat bezogen wir uns vor allem auf jene Themen, zu denen die Parteien und Wählervereinigungen unterschiedliche Meinungen haben und auf jene, die besonders auch für junge Leute von Interesse sind. Leider sind während des Entstehungsprozesses auch "gute" Fragen aus dem Wahl-O-Mat gefallen. Dies kam vor, weil Fragen von einzelnen Parteien gar nicht oder nicht eindeutig mit stimme zu / stimme nicht zu / neutral beantwortet wurden oder weil die Parteipositionen in dieser Frage keine Unterscheidung zwischen den Parteien und Wählervereinigungen ermöglichten. Wir haben Interesse an Ihrer Meinung. Schicken Sie uns Ihre Überlegungen zu, am besten unter: <a tabindex="26" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>';
+WOMT_aTexte['popup_faq_3_text'][0]='Das ist eine schwierige Frage. Wer entscheidet, welche Themen wichtig sind und welche nicht? Die Regierung, die Parteien, die Medien und die BÃ¼rgerinnen und BÃ¼rger haben dazu sehr unterschiedliche Meinungen. Bei der Auswahl der Thesen fÃ¼r unseren Wahl-O-Mat bezogen wir uns vor allem auf jene Themen, zu denen die Parteien und WÃ¤hlervereinigungen unterschiedliche Meinungen haben und auf jene, die besonders auch fÃ¼r junge Leute von Interesse sind. Leider sind wÃ¤hrend des Entstehungsprozesses auch "gute" Fragen aus dem Wahl-O-Mat gefallen. Dies kam vor, weil Fragen von einzelnen Parteien gar nicht oder nicht eindeutig mit stimme zu / stimme nicht zu / neutral beantwortet wurden oder weil die Parteipositionen in dieser Frage keine Unterscheidung zwischen den Parteien und WÃ¤hlervereinigungen ermÃ¶glichten. Wir haben Interesse an Ihrer Meinung. Schicken Sie uns Ihre Ãœberlegungen zu, am besten unter: <a tabindex="26" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>';
 WOMT_aTexte['popup_faq_4_frage']=new Array();
 WOMT_aTexte['popup_faq_4_frage'][0]='Was kann ich antworten, wenn ich einer Aussage nur unter bestimmten Bedingungen zustimme?';
 WOMT_aTexte['popup_faq_4_text']=new Array();
-WOMT_aTexte['popup_faq_4_text'][0]='In solchen Fällen antworten Sie mit "neutral".';
+WOMT_aTexte['popup_faq_4_text'][0]='In solchen FÃ¤llen antworten Sie mit "neutral".';
 WOMT_aTexte['popup_faq_5_frage']=new Array();
-WOMT_aTexte['popup_faq_5_frage'][0]='Was mache ich, wenn ich zu einem Thema nichts angeben möchte?';
+WOMT_aTexte['popup_faq_5_frage'][0]='Was mache ich, wenn ich zu einem Thema nichts angeben mÃ¶chte?';
 WOMT_aTexte['popup_faq_5_text']=new Array();
-WOMT_aTexte['popup_faq_5_text'][0]='Dann enthalten Sie sich Ihrer Stimme und klicken auf "These überspringen". Diese Aussage wird dann beim Ergebnis nicht berücksichtigt. Letzteres sollten Sie aber nicht zu oft machen, denn wenn zu oft "überspringen" geklickt wird, kann natürlich auch kein zuverlässiges Ergebnis gegeben werden. Sie haben jedoch auch die Möglichkeit, jederzeit wieder zu einer Frage zurückzukehren, um sie doch noch zu beantworten.';
+WOMT_aTexte['popup_faq_5_text'][0]='Dann enthalten Sie sich Ihrer Stimme und klicken auf "These Ã¼berspringen". Diese Aussage wird dann beim Ergebnis nicht berÃ¼cksichtigt. Letzteres sollten Sie aber nicht zu oft machen, denn wenn zu oft "Ã¼berspringen" geklickt wird, kann natÃ¼rlich auch kein zuverlÃ¤ssiges Ergebnis gegeben werden. Sie haben jedoch auch die MÃ¶glichkeit, jederzeit wieder zu einer Frage zurÃ¼ckzukehren, um sie doch noch zu beantworten.';
 WOMT_aTexte['popup_faq_6_frage']=new Array();
-WOMT_aTexte['popup_faq_6_frage'][0]='Wie ist es möglich, dass ich als Ergebnis das Logo der Partei erhalte, die ich überhaupt nicht erwartet habe?';
+WOMT_aTexte['popup_faq_6_frage'][0]='Wie ist es mÃ¶glich, dass ich als Ergebnis das Logo der Partei erhalte, die ich Ã¼berhaupt nicht erwartet habe?';
 WOMT_aTexte['popup_faq_7_frage']=new Array();
-WOMT_aTexte['popup_faq_7_frage'][0]='Ich möchte mehr erfahren als nur das Endergebnis.<br/>Wie kann ich die Einstellungen der verschiedenen Parteien auf einzelne Thesen erfahren und vergleichen?\
+WOMT_aTexte['popup_faq_7_frage'][0]='Ich mÃ¶chte mehr erfahren als nur das Endergebnis.<br/>Wie kann ich die Einstellungen der verschiedenen Parteien auf einzelne Thesen erfahren und vergleichen?\
 <br/>';
 WOMT_aTexte['popup_faq_7_text']=new Array();
-WOMT_aTexte['popup_faq_7_text'][0]='Auf dem Ergebnisbildschirm sehen Sie direkt, wie jede Partei oder Wählervereinigung zu jeder These gestimmt hat (stimme zu, stimme nicht zu, neutral). Ein Klick auf das Icon\
-<br/>zeigt gleichzeitig eine kurze Begründung der Partei bzw. Wählervereinigung für ihre Position an.\
-<br/>Wenn Sie auf dem Ergebnisbildschirm das Logo einer Partei bzw. Wählervereinigung anklicken, können Sie auf der dann folgenden Seite Ihre eigenen Stellungnahmen zu jeder These mit denen der dieser Partei bzw. Wählervereinigung im Detail vergleichen. Auch dort finden Sie unter dem Icon "P" kurze Begründungen der Partei bzw. Wählervereinigung für deren Positionierung.';
+WOMT_aTexte['popup_faq_7_text'][0]='Auf dem Ergebnisbildschirm sehen Sie direkt, wie jede Partei oder WÃ¤hlervereinigung zu jeder These gestimmt hat (stimme zu, stimme nicht zu, neutral). Ein Klick auf das Icon\
+<br/>zeigt gleichzeitig eine kurze BegrÃ¼ndung der Partei bzw. WÃ¤hlervereinigung fÃ¼r ihre Position an.\
+<br/>Wenn Sie auf dem Ergebnisbildschirm das Logo einer Partei bzw. WÃ¤hlervereinigung anklicken, kÃ¶nnen Sie auf der dann folgenden Seite Ihre eigenen Stellungnahmen zu jeder These mit denen der dieser Partei bzw. WÃ¤hlervereinigung im Detail vergleichen. Auch dort finden Sie unter dem Icon "P" kurze BegrÃ¼ndungen der Partei bzw. WÃ¤hlervereinigung fÃ¼r deren Positionierung.';
 WOMT_aTexte['popup_faq_footer_text']=new Array();
-WOMT_aTexte['popup_faq_footer_text'][0]='Wenn Sie mehr über die Entstehung des Wahl-O-Mat oder über die Möglichkeiten, ihn in pädagogischen Zusammenhängen einzusetzen, wissen möchten, finden Sie weitere Informationen auf der Startseite <a tabindex="55" title="Wahl-O-Mat Homepage (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de/" target="_blank">www.wahl-o-mat.de</a>.';
+WOMT_aTexte['popup_faq_footer_text'][0]='Wenn Sie mehr Ã¼ber die Entstehung des Wahl-O-Mat oder Ã¼ber die MÃ¶glichkeiten, ihn in pÃ¤dagogischen ZusammenhÃ¤ngen einzusetzen, wissen mÃ¶chten, finden Sie weitere Informationen auf der Startseite <a tabindex="55" title="Wahl-O-Mat Homepage (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de/" target="_blank">www.wahl-o-mat.de</a>.';
 WOMT_aTexte['popup_faq_text_text']=new Array();
-WOMT_aTexte['popup_faq_text_text'][0]='Der Wahl-O-Mat bietet Ihnen anhand von 30 Thesen einen Einblick in wichtige Fragen der Wahl der Hamburgischen Bürgerschaft 2008. Vergleichen Sie Ihre eigenen Ansichten mit den Positionen der einzelnen Parteien und Wählervereinigungen und finden Sie heraus: Welche Partei vertritt Ihre Meinung am besten? Am Ende erhalten Sie Ihr persönliches Wahl-O-Mat Ergebnis: Die Angabe der Partei, mit der die größte Übereinstimmung herrscht.\
+WOMT_aTexte['popup_faq_text_text'][0]='Der Wahl-O-Mat bietet Ihnen anhand von 30 Thesen einen Einblick in wichtige Fragen der Wahl der Hamburgischen BÃ¼rgerschaft 2008. Vergleichen Sie Ihre eigenen Ansichten mit den Positionen der einzelnen Parteien und WÃ¤hlervereinigungen und finden Sie heraus: Welche Partei vertritt Ihre Meinung am besten? Am Ende erhalten Sie Ihr persÃ¶nliches Wahl-O-Mat Ergebnis: Die Angabe der Partei, mit der die grÃ¶ÃŸte Ãœbereinstimmung herrscht.\
 <br/>\
-<br/>Die Thesen wurden von einem Redaktionsteam aus 11 Jung- bzw. Erstwählerinnen und -wählern auf der Basis der Wahlprogramme der Parteien und Wählervereinigungen entwickelt. Sie wurden dabei unterstützt von der Bundeszentrale für politische Bildung/bpb, der Landeszentrale für politische Bildung und dem Landesjugendring Hamburg e.V. sowie den Wissenschaftlern Priv.-Doz. Dr. Christoph Strünck, Priv.-Doz. Dr. Stefan Marschall, Wolf Dittmayer, Dipl.-Soz.-Wiss. Christian K. Schmidt. Alle Antworten wurden von den beteiligten Parteien autorisiert.\
+<br/>Die Thesen wurden von einem Redaktionsteam aus 11 Jung- bzw. ErstwÃ¤hlerinnen und -wÃ¤hlern auf der Basis der Wahlprogramme der Parteien und WÃ¤hlervereinigungen entwickelt. Sie wurden dabei unterstÃ¼tzt von der Bundeszentrale fÃ¼r politische Bildung/bpb, der Landeszentrale fÃ¼r politische Bildung und dem Landesjugendring Hamburg e.V. sowie den Wissenschaftlern Priv.-Doz. Dr. Christoph StrÃ¼nck, Priv.-Doz. Dr. Stefan Marschall, Wolf Dittmayer, Dipl.-Soz.-Wiss. Christian K. Schmidt. Alle Antworten wurden von den beteiligten Parteien autorisiert.\
 <br/>\
-<br/>Für die Wahl der Hamburgischen Bürgerschaft 2008 am 24. Februar 2008 sind BÜNDNIS 90/DIE GRÜNEN, CDU, DIE LINKE, FDP und SPD im Wahl-O-Mat vertreten.\
+<br/>FÃ¼r die Wahl der Hamburgischen BÃ¼rgerschaft 2008 am 24. Februar 2008 sind BÃœNDNIS 90/DIE GRÃœNEN, CDU, DIE LINKE, FDP und SPD im Wahl-O-Mat vertreten.\
 <br/>\
-<br/>Die am häufigsten gestellten Fragen zum Wahl-O-Mat werden hier beantwortet. Sollten Sie weitere Fragen haben, schicken Sie uns einfach eine E-Mail: \
+<br/>Die am hÃ¤ufigsten gestellten Fragen zum Wahl-O-Mat werden hier beantwortet. Sollten Sie weitere Fragen haben, schicken Sie uns einfach eine E-Mail: \
 <br/> <a tabindex="3" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>.';
 WOMT_aTexte['popup_faq_titel_text']=new Array();
 WOMT_aTexte['popup_faq_titel_text'][0]='FAQ';
@@ -1369,36 +1369,36 @@ WOMT_aTexte['popup_faq_zudenfragen']=new Array();
 WOMT_aTexte['popup_faq_zudenfragen'][0]='zu den Fragen';
 WOMT_aTexte['popup_impressum_text_text']=new Array();
 WOMT_aTexte['popup_impressum_text_text'][0]='<div class="text_normal">\
-<br/>Der Wahl-O-Mat zur Wahl der Hamburgischen Bürgerschaft 2008 ist ein Produkt der <a tabindex="2" title="Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale für politische Bildung/bpb</a>, <a tabindex="3" title="Landeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.politische-bildung.hamburg.de" target="_blank">der Landeszentrale für politische Bildung in Hamburg</a> und des <a tabindex="4" title="Landesjugendring Hamburg e.V. (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljr-hh.de" target="_blank">Landesjugendring Hamburg e.V.</a> mit mit Unterstützung des <a tabindex="5" title="IPP: Instituut voor Publiek en Politiek (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl/" target="_blank"><span lang="nl">Instituut voor Publiek en Politiek (IPP)</span></a> in Amsterdam. Thesen und Inhalte des Wahl-O-Mat wurden von einem Redaktionsteam aus 11 Jungwählerinnen und Jungwählern entwickelt. Beraten wurden sie vom institutionellen Träger des Wahl-O-Mat und den Wissenschaftlern Priv.-Doz. Dr. Christoph Strünck, Priv.-Doz. Dr. Stefan Marschall, Wolf Dittmayer und Dipl.-Soz.-Wiss. Christian K. Schmidt.\
+<br/>Der Wahl-O-Mat zur Wahl der Hamburgischen BÃ¼rgerschaft 2008 ist ein Produkt der <a tabindex="2" title="Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale fÃ¼r politische Bildung/bpb</a>, <a tabindex="3" title="Landeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.politische-bildung.hamburg.de" target="_blank">der Landeszentrale fÃ¼r politische Bildung in Hamburg</a> und des <a tabindex="4" title="Landesjugendring Hamburg e.V. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljr-hh.de" target="_blank">Landesjugendring Hamburg e.V.</a> mit mit UnterstÃ¼tzung des <a tabindex="5" title="IPP: Instituut voor Publiek en Politiek (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl/" target="_blank"><span lang="nl">Instituut voor Publiek en Politiek (IPP)</span></a> in Amsterdam. Thesen und Inhalte des Wahl-O-Mat wurden von einem Redaktionsteam aus 11 JungwÃ¤hlerinnen und JungwÃ¤hlern entwickelt. Beraten wurden sie vom institutionellen TrÃ¤ger des Wahl-O-Mat und den Wissenschaftlern Priv.-Doz. Dr. Christoph StrÃ¼nck, Priv.-Doz. Dr. Stefan Marschall, Wolf Dittmayer und Dipl.-Soz.-Wiss. Christian K. Schmidt.\
 <br/><br/>Beginn der Redaktionsarbeit: 7. Dezember 2007<br/>Redaktionsschluss: 23. Januar 2008</div>\
 <br/><h1 class="orange">Impressum</h1>\
-<br/><h2 class="text_bold">Herausgeber</h2><div class="text_normal">Bundeszentrale für politische Bildung/bpb, Bonn © 2008 \
+<br/><h2 class="text_bold">Herausgeber</h2><div class="text_normal">Bundeszentrale fÃ¼r politische Bildung/bpb, Bonn Å  2008 \
 <br/>ViSdP: Thorsten Schilling\
-<br/>E-Mail: <a tabindex="9" title="" class="link_normal" href="mailto:schilling@bpb.de">schilling@bpb.de</a></div><h2 class="text_bold">Projektleitung</h2><div class="text_normal">für die Bundeszentrale für politische Bildung\
+<br/>E-Mail: <a tabindex="9" title="" class="link_normal" href="mailto:schilling@bpb.de">schilling@bpb.de</a></div><h2 class="text_bold">Projektleitung</h2><div class="text_normal">fÃ¼r die Bundeszentrale fÃ¼r politische Bildung\
 <br/>Sebastian Deterding (verantwortlich, bpb)\
 <br/>Adenauerallee 86\
 <br/>53113 Bonn \
 <br/>Tel.: 0228/ 99-515-539, Fax: 0228/ 99-515-405 \
 <br/>E-Mail: <a tabindex="20" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>\
-<br/><a tabindex="21" title="Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a>\
+<br/><a tabindex="21" title="Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a>\
 <br/>\
-<br/>für die Landeszentrale für politische Bildung\
+<br/>fÃ¼r die Landeszentrale fÃ¼r politische Bildung\
 <br/>Kerstin Klingel\
 <br/>Steinstr. 7\
 <br/>20095 Hamburg\
 <br/>Tel: 040/ 42854-2155\
 <br/>E-Mail: <a tabindex="22" title="" class="link_normal" href="mailto:Kerstin.Klingel@bbs.hamburg.de">Kerstin.Klingel@bbs.hamburg.de</a>\
-<br/><a tabindex="23" title="Landeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.politische-bildung.hamburg.de" target="_blank">www.politische-bildung.hamburg.de</a>\
+<br/><a tabindex="23" title="Landeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.politische-bildung.hamburg.de" target="_blank">www.politische-bildung.hamburg.de</a>\
 <br/>\
-<br/>für den Landesjugendring Hamburg e.V.\
-<br/>Jürgen Garbers\
-<br/>Güntherstr. 34\
+<br/>fÃ¼r den Landesjugendring Hamburg e.V.\
+<br/>JÃ¼rgen Garbers\
+<br/>GÃ¼ntherstr. 34\
 <br/>22087 Hamburg\
 <br/>Tel.: 040/ 31 79 61 16\
 <br/>E-Mail: <a tabindex="24" title="" class="link_normal" href="mailto:Juergen.Garbers@ljr-hh.de">Juergen.Garbers@ljr-hh.de</a>\
-<br/><a tabindex="25" title="Landesjugendring Hamburg e.V. (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljr-hh.de" target="_blank">www.ljr-hh.de</a></div><h2 class="text_bold">Inhalt und Redaktion</h2><img class="pic1" alt="Gruppenfoto der Redaktion" title="Gruppenfoto der Redaktion" width="420" height="281" src="./pix_change/pic_impressum_hamburg.jpg"/><div class="text_normal">Gregor Best \
+<br/><a tabindex="25" title="Landesjugendring Hamburg e.V. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.ljr-hh.de" target="_blank">www.ljr-hh.de</a></div><h2 class="text_bold">Inhalt und Redaktion</h2><img class="pic1" alt="Gruppenfoto der Redaktion" title="Gruppenfoto der Redaktion" width="420" height="281" src="./pix_change/pic_impressum_hamburg.jpg"/><div class="text_normal">Gregor Best \
 <br/>Devrim Kim Friedetzky\
-<br/>Björn Fischer\
+<br/>BjÃ¶rn Fischer\
 <br/>Marja de Aguiar\
 <br/>Janina Janke\
 <br/>Evelyn Linde\
@@ -1408,28 +1408,28 @@ WOMT_aTexte['popup_impressum_text_text'][0]='<div class="text_normal">\
 <br/>Jochim Wienberg\
 <br/>\
 <br/>unter redaktioneller Mitarbeit von: \
-<br/>Anna Gesine Kneifel</div><h2 class="text_bold">Wissenschaftliche Begleitung</h2><div class="text_normal">Priv.-Doz. Dr. Christoph Strünck\
+<br/>Anna Gesine Kneifel</div><h2 class="text_bold">Wissenschaftliche Begleitung</h2><div class="text_normal">Priv.-Doz. Dr. Christoph StrÃ¼nck\
 <br/>E-Mail: <a tabindex="42" title="" class="link_normal" href="mailto:christoph.struenck@uni-duisburg-essen.de">christoph.struenck@uni-duisburg-essen.de</a>\
-<br/><a tabindex="43" title="Universität Duisburg-Essen, Nijmegen (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.uni-duisburg.de/Fak1/SAE/struenck/person.htm" target="_blank">Universität Duisburg-Essen, Nijmegen</a>\
+<br/><a tabindex="43" title="UniversitÃ¤t Duisburg-Essen, Nijmegen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.uni-duisburg.de/Fak1/SAE/struenck/person.htm" target="_blank">UniversitÃ¤t Duisburg-Essen, Nijmegen</a>\
 <br/>\
 <br/>Priv.-Doz. Dr. Stefan Marschall\
 <br/>E-Mail: <a tabindex="43" title="" class="link_normal" href="mailto:stefan.marschall@uni-duesseldorf.de">stefan.marschall@uni-duesseldorf.de</a>\
-<br/><a tabindex="44" title="Universität Düsseldorf (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">Universität Düsseldorf</a>\
+<br/><a tabindex="44" title="UniversitÃ¤t DÃ¼sseldorf (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">UniversitÃ¤t DÃ¼sseldorf</a>\
 <br/>\
 <br/>Dipl.-Soz.-Wiss. Christian K. Schmidt\
 <br/>E-Mail: <a tabindex="45" title="" class="link_normal" href="mailto:schmidtc@phil-fak.uni-duesseldorf.de">schmidtc@phil-fak.uni-duesseldorf.de</a>\
-<br/><a tabindex="46" title="Universität Düsseldorf (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">Universität Düsseldorf</a></div><h2 class="text_bold">Didaktisches Material</h2><div class="text_normal">Wolf Dittmayer, Dipl. Soz.-Päd.<br/>E-Mail: <a tabindex="50" title="" class="link_normal" href="mailto:bildung@dittmayer.org">bildung@dittmayer.org</a><br/><a tabindex="51" title="Organisationsberatung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.dittmayer.org/" target="_blank">Organisationsberatung</a></div><h2 class="text_bold">Koordination des Redaktionsteams, Beratung</h2><div class="text_normal">Dr. Norbert Taubken<br/>E-Mail: <a tabindex="55" title="" class="link_normal" href="mailto:taubken@csr-consult.de">taubken@csr-consult.de</a>\
-<br/><a tabindex="56" title="CSR Consult (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.csr-consult.de/" target="_blank">CSR Consult, Hamburg</a></div><h2 class="text_bold">Gestaltungskonzept & Design</h2><div class="text_normal">Armin Berger<br/>E-Mail: <a tabindex="70" title="" class="link_normal" href="mailto:info@3-point.de">info@3-point.de</a>\
-<br/><a tabindex="71" title="3-point concepts GmbH (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.3-point.de" target="_blank">3-point concepts GmbH, Berlin</a></div><h2 class="text_bold">Programmierung</h2><div class="text_normal">Ulrich Santo<br/>E-Mail: <a tabindex="80" title="" class="link_normal" href="mailto:santo@glamus.de">santo@glamus.de</a>\
-<br/><a tabindex="81" title="GLAMUS GmbH (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.glamus.de" target="_blank">GLAMUS GmbH, Bonn</a></div><h2 class="text_bold">Copyright</h2><div class="text_normal"><a tabindex="90" title="Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale für politische Bildung (bpb)</a>\
+<br/><a tabindex="46" title="UniversitÃ¤t DÃ¼sseldorf (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">UniversitÃ¤t DÃ¼sseldorf</a></div><h2 class="text_bold">Didaktisches Material</h2><div class="text_normal">Wolf Dittmayer, Dipl. Soz.-PÃ¤d.<br/>E-Mail: <a tabindex="50" title="" class="link_normal" href="mailto:bildung@dittmayer.org">bildung@dittmayer.org</a><br/><a tabindex="51" title="Organisationsberatung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.dittmayer.org/" target="_blank">Organisationsberatung</a></div><h2 class="text_bold">Koordination des Redaktionsteams, Beratung</h2><div class="text_normal">Dr. Norbert Taubken<br/>E-Mail: <a tabindex="55" title="" class="link_normal" href="mailto:taubken@csr-consult.de">taubken@csr-consult.de</a>\
+<br/><a tabindex="56" title="CSR Consult (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.csr-consult.de/" target="_blank">CSR Consult, Hamburg</a></div><h2 class="text_bold">Gestaltungskonzept & Design</h2><div class="text_normal">Armin Berger<br/>E-Mail: <a tabindex="70" title="" class="link_normal" href="mailto:info@3-point.de">info@3-point.de</a>\
+<br/><a tabindex="71" title="3-point concepts GmbH (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.3-point.de" target="_blank">3-point concepts GmbH, Berlin</a></div><h2 class="text_bold">Programmierung</h2><div class="text_normal">Ulrich Santo<br/>E-Mail: <a tabindex="80" title="" class="link_normal" href="mailto:santo@glamus.de">santo@glamus.de</a>\
+<br/><a tabindex="81" title="GLAMUS GmbH (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.glamus.de" target="_blank">GLAMUS GmbH, Bonn</a></div><h2 class="text_bold">Copyright</h2><div class="text_normal"><a tabindex="90" title="Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale fÃ¼r politische Bildung (bpb)</a>\
 <br/>Adenauerallee 86\
 <br/>53111 Bonn\
 <br/>Tel: 0228/ 99-515-0\
 <br/>Fax: 0228/ 99-515-498\
 <br/>E-Mail: <a tabindex="92" title="" class="link_normal" href="mailto:info@bpb.de">info@bpb.de</a>\
-<br/><a tabindex="93" title="Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a></div><h2 class="text_bold">Lizenz</h2><div class="text_normal"><a tabindex="94" title="Instituut voor Publiek en Politiek (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl/" target="_blank">Instituut voor Publiek en Politiek (IPP), NL-Amsterdam</a>\
-<br/>Supervision: <a tabindex="95" title="" class="link_normal" href="mailto:j.degraaf@stemwijzer.nl">Jochum de Graaf</a></div><div class="text_normal">Die Vervielfältigung, Verbreitung und die öffentliche Wiedergabe des Wahl-O-Mat ist nicht gestattet.\
-<br/>Der Wahl-O-Mat ist urheberrechtlich geschützt.</div>';
+<br/><a tabindex="93" title="Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a></div><h2 class="text_bold">Lizenz</h2><div class="text_normal"><a tabindex="94" title="Instituut voor Publiek en Politiek (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl/" target="_blank">Instituut voor Publiek en Politiek (IPP), NL-Amsterdam</a>\
+<br/>Supervision: <a tabindex="95" title="" class="link_normal" href="mailto:j.degraaf@stemwijzer.nl">Jochum de Graaf</a></div><div class="text_normal">Die VervielfÃ¤ltigung, Verbreitung und die Ã¶ffentliche Wiedergabe des Wahl-O-Mat ist nicht gestattet.\
+<br/>Der Wahl-O-Mat ist urheberrechtlich geschÃ¼tzt.</div>';
 WOMT_aTexte['popup_impressum_title_text']=new Array();
 WOMT_aTexte['popup_impressum_title_text'][0]='Was ist der Wahl-O-Mat?';
 WOMT_aTexte['popup_partei_du_neutral']=new Array();
@@ -1439,9 +1439,9 @@ WOMT_aTexte['popup_partei_du_stimmenichtzu'][0]='stimme nicht zu';
 WOMT_aTexte['popup_partei_du_stimmezu']=new Array();
 WOMT_aTexte['popup_partei_du_stimmezu'][0]='stimme zu';
 WOMT_aTexte['popup_partei_du_theseuebersprungen']=new Array();
-WOMT_aTexte['popup_partei_du_theseuebersprungen'][0]='These übersprungen';
+WOMT_aTexte['popup_partei_du_theseuebersprungen'][0]='These Ã¼bersprungen';
 WOMT_aTexte['popup_partei_keinebegruendung']=new Array();
-WOMT_aTexte['popup_partei_keinebegruendung'][0]='Zu dieser These hat die Partei keine Begründung vorgelegt.';
+WOMT_aTexte['popup_partei_keinebegruendung'][0]='Zu dieser These hat die Partei keine BegrÃ¼ndung vorgelegt.';
 WOMT_aTexte['popup_partei_kommentarpartei']=new Array();
 WOMT_aTexte['popup_partei_kommentarpartei'][0]='Kommentar der Partei:';
 WOMT_aTexte['popup_partei_partei_neutral']=new Array();
@@ -1459,11 +1459,11 @@ WOMT_aTexte['popup_partei_these'][0]='These:';
 WOMT_aTexte['popup_partei_title_text']=new Array();
 WOMT_aTexte['popup_partei_title_text'][0]='Infos zur Parteiposition';
 WOMT_aTexte['wahlomat_content_head']=new Array();
-WOMT_aTexte['wahlomat_content_head'][0]='Wahl-O-Mat<br/>Wahl der Hamburgischen Bürgerschaft 2008';
+WOMT_aTexte['wahlomat_content_head'][0]='Wahl-O-Mat<br/>Wahl der Hamburgischen BÃ¼rgerschaft 2008';
 WOMT_aTexte['wahlomat_head_description']=new Array();
-WOMT_aTexte['wahlomat_head_description'][0]='Wahl-O-Mat zur Wahl der Hamburgischen  Bürgerschaft 2008';
+WOMT_aTexte['wahlomat_head_description'][0]='Wahl-O-Mat zur Wahl der Hamburgischen  BÃ¼rgerschaft 2008';
 WOMT_aTexte['wahlomat_head_keywords']=new Array();
-WOMT_aTexte['wahlomat_head_keywords'][0]='wahlomat,wahl-o-mat, www.wahlomat.de, www.wahl-o-mat.de, Wahl zur Hamburgischen Bürgerschaft, Hamburgische Bürgerschaft, Landtagswahl in Hamburg, Hamburg 2008, Landtagswahl, Landtagswahl 2008, Landtagswahlen 2008, Landtagswahl Hamburg 2008, Hamburg, Wahl 2008, Wahl zur Hamburgischen  Bürgerschaft';
+WOMT_aTexte['wahlomat_head_keywords'][0]='wahlomat,wahl-o-mat, www.wahlomat.de, www.wahl-o-mat.de, Wahl zur Hamburgischen BÃ¼rgerschaft, Hamburgische BÃ¼rgerschaft, Landtagswahl in Hamburg, Hamburg 2008, Landtagswahl, Landtagswahl 2008, Landtagswahlen 2008, Landtagswahl Hamburg 2008, Hamburg, Wahl 2008, Wahl zur Hamburgischen  BÃ¼rgerschaft';
 WOMT_aTexte['wahlomat_head_link_chapter_copyright']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_copyright'][0]='Impressum';
 WOMT_aTexte['wahlomat_head_link_chapter_download']=new Array();
@@ -1475,7 +1475,7 @@ WOMT_aTexte['wahlomat_head_link_chapter_handyversion'][0]='Handyversion';
 WOMT_aTexte['wahlomat_head_link_chapter_informationen']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_informationen'][0]='Informationen';
 WOMT_aTexte['wahlomat_head_link_chapter_main']=new Array();
-WOMT_aTexte['wahlomat_head_link_chapter_main'][0]='Wahl-O-Mat zur Wahl der Hamburgischen Bürgerschaft 2008';
+WOMT_aTexte['wahlomat_head_link_chapter_main'][0]='Wahl-O-Mat zur Wahl der Hamburgischen BÃ¼rgerschaft 2008';
 WOMT_aTexte['wahlomat_head_link_chapter_redaktion']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_redaktion'][0]='Redaktionsverantwortlicher';
 WOMT_aTexte['wahlomat_head_link_chapter_redaktion_email']=new Array();
@@ -1483,19 +1483,19 @@ WOMT_aTexte['wahlomat_head_link_chapter_redaktion_email'][0]='mailto:info@wahl-o
 WOMT_aTexte['wahlomat_head_link_chapter_werstehtzurwahl']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_werstehtzurwahl'][0]='Wer steht zur Wahl';
 WOMT_aTexte['wahlomat_head_titel']=new Array();
-WOMT_aTexte['wahlomat_head_titel'][0]='Wahl-O-Mat zur Wahl der Hamburgischen Bürgerschaft 2008';
+WOMT_aTexte['wahlomat_head_titel'][0]='Wahl-O-Mat zur Wahl der Hamburgischen BÃ¼rgerschaft 2008';
 WOMT_aTexte['wahlomat_kopf_link_bpb_title']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_bpb_title'][0]='Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_kopf_link_bpb_title'][0]='Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_kopf_link_bpb_url']=new Array();
 WOMT_aTexte['wahlomat_kopf_link_bpb_url'][0]='http://www.bpb.de/';
 WOMT_aTexte['nav_empfehlung_text']=new Array();
 WOMT_aTexte['nav_empfehlung_text'][0]='weiterempfehlen';
 WOMT_aTexte['nav_empfehlung_title']=new Array();
-WOMT_aTexte['nav_empfehlung_title'][0]='Weiterempfehlung per Web-Formular (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_empfehlung_title'][0]='Weiterempfehlung per Web-Formular (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_kopf_link_ljr_url']=new Array();
 WOMT_aTexte['wahlomat_kopf_link_ljr_url'][0]='http://www.ljr-hh.de/';
 WOMT_aTexte['wahlomat_kopf_link_ljr_title']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_ljr_title'][0]='Landesjugendring Hamburg e.V. (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_kopf_link_ljr_title'][0]='Landesjugendring Hamburg e.V. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_spiegel_url']=new Array();
 WOMT_aTexte['wahlomat_footer_link_spiegel_url'][0]='http://www.spiegel.de';
 WOMT_aTexte['wahlomat_footer_link_taz_url']=new Array();
@@ -1509,25 +1509,25 @@ WOMT_aTexte['wahlomat_footer2_link_landderideen_url'][0]='http://www.land-der-id
 WOMT_aTexte['wahlomat_footer2_link_landderideen_text']=new Array();
 WOMT_aTexte['wahlomat_footer2_link_landderideen_text'][0]='Ausgezeichnet durch: Deutschland Land der Ideen';
 WOMT_aTexte['wahlomat_footer2_link_landderideen_title']=new Array();
-WOMT_aTexte['wahlomat_footer2_link_landderideen_title'][0]='Ausgezeichnet durch: Deutschland Land der Ideen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer2_link_landderideen_title'][0]='Ausgezeichnet durch: Deutschland Land der Ideen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_faznet_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_faznet_text'][0]='FAZ.NET';
 WOMT_aTexte['wahlomat_footer_link_faznet_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_faznet_title'][0]='FAZ.NET (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_faznet_title'][0]='FAZ.NET (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_faznet_url']=new Array();
 WOMT_aTexte['wahlomat_footer_link_faznet_url'][0]='http://www.faz.net';
 WOMT_aTexte['wahlomat_footer_link_spiegel_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_spiegel_text'][0]='spiegel.de';
 WOMT_aTexte['wahlomat_footer_link_spiegel_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_spiegel_title'][0]='spiegel.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_spiegel_title'][0]='spiegel.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_polixea_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_polixea_text'][0]='polixea';
 WOMT_aTexte['wahlomat_footer_link_polixea_url']=new Array();
 WOMT_aTexte['wahlomat_footer_link_polixea_url'][0]='http://www.polixea-portal.de';
 WOMT_aTexte['wahlomat_footer_link_polixea_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_polixea_title'][0]='polixea (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_polixea_title'][0]='polixea (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_mopo_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_mopo_title'][0]='Hamburger Morgenpost (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_mopo_title'][0]='Hamburger Morgenpost (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_mopo_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_mopo_text'][0]='Hamburger Morgenpost';
 WOMT_aTexte['wahlomat_footer_link_mopo_url']=new Array();
@@ -1537,15 +1537,15 @@ WOMT_aTexte['wahlomat_footer_link_zdf_url'][0]='http://www.zdf.de';
 WOMT_aTexte['wahlomat_footer_link_zdf_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_zdf_text'][0]='Medienpartner: ZDF';
 WOMT_aTexte['wahlomat_footer_link_zdf_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_zdf_title'][0]='Medienpartner: ZDF (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_zdf_title'][0]='Medienpartner: ZDF (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['popup_faq_1_text_li_3']=new Array();
 WOMT_aTexte['popup_faq_1_text_li_3'][0]='x4';
 WOMT_aTexte['popup_faq_6_text']=new Array();
-WOMT_aTexte['popup_faq_6_text'][0]='Ja, das wissen wir natürlich auch nicht. Bitte erwarten Sie von uns kein Urteil darüber, was eine "gute" oder eine "schlechte" Partei oder Wählervereinigung ist. Es ist jedoch bekannt, dass der Wahl-O-Mat manchmal überraschende Ergebnisse aufweist. Das von Ihnen ermittelte Wahl-O-Mat Ergebnis ist eben ein Durchschnittsergebnis aus vielen Themengebieten. Es kann also sein, dass Sie bei einem Themengebiet die Meinung der Partei oder Wählervereinigung, der Sie bisher am nahesten standen, treffen, aber im Wahl-O-Mat Gesamtergebnis noch besser mit einer anderen Partei oder Wählervereinigung übereinstimmen. Berücksichtigt werden muss außerdem, dass sich das Ergebnis des Wahl-O-Mat eben nur auf die bereit gestellte Thesenauswahl bezieht. Sicher gibt es auch sonstige gute Gründe, sich der einen oder anderen Partei oder Wählervereinigung nahe zu fühlen. Wir finden, dass dies eine gute Gelegenheit ist, sich mit den eigenen politischen Positionen und denen der Parteien und Wählervereinigungen auseinander zu setzen.';
+WOMT_aTexte['popup_faq_6_text'][0]='Ja, das wissen wir natÃ¼rlich auch nicht. Bitte erwarten Sie von uns kein Urteil darÃ¼ber, was eine "gute" oder eine "schlechte" Partei oder WÃ¤hlervereinigung ist. Es ist jedoch bekannt, dass der Wahl-O-Mat manchmal Ã¼berraschende Ergebnisse aufweist. Das von Ihnen ermittelte Wahl-O-Mat Ergebnis ist eben ein Durchschnittsergebnis aus vielen Themengebieten. Es kann also sein, dass Sie bei einem Themengebiet die Meinung der Partei oder WÃ¤hlervereinigung, der Sie bisher am nahesten standen, treffen, aber im Wahl-O-Mat Gesamtergebnis noch besser mit einer anderen Partei oder WÃ¤hlervereinigung Ã¼bereinstimmen. BerÃ¼cksichtigt werden muss auÃŸerdem, dass sich das Ergebnis des Wahl-O-Mat eben nur auf die bereit gestellte Thesenauswahl bezieht. Sicher gibt es auch sonstige gute GrÃ¼nde, sich der einen oder anderen Partei oder WÃ¤hlervereinigung nahe zu fÃ¼hlen. Wir finden, dass dies eine gute Gelegenheit ist, sich mit den eigenen politischen Positionen und denen der Parteien und WÃ¤hlervereinigungen auseinander zu setzen.';
 WOMT_aTexte['0_ms_title_text']=new Array();
-WOMT_aTexte['0_ms_title_text'][0]='Willkommen beim Wahl-O-Mat zur Wahl der Hamburgischen Bürgerschaft 2008';
+WOMT_aTexte['0_ms_title_text'][0]='Willkommen beim Wahl-O-Mat zur Wahl der Hamburgischen BÃ¼rgerschaft 2008';
 WOMT_aTexte['0_ms_intro_text2']=new Array();
-WOMT_aTexte['0_ms_intro_text2'][0]='Der Wahl-O-Mat ist keine Wahlempfehlung und stellt nur eine Auswahl aller zur Wahl zugelassenen Parteien und Wählervereinigungen dar. Eine Übersicht sämtlicher landesweit zur Wahl zugelassenen Parteien und Wähler-<br/> vereinigungen finden Sie auf <a target="blank" tabindex="100" href="http://www.werstehtzurwahl.de">www.werstehtzurwahl.de</a>.';
+WOMT_aTexte['0_ms_intro_text2'][0]='Der Wahl-O-Mat ist keine Wahlempfehlung und stellt nur eine Auswahl aller zur Wahl zugelassenen Parteien und WÃ¤hlervereinigungen dar. Eine Ãœbersicht sÃ¤mtlicher landesweit zur Wahl zugelassenen Parteien und WÃ¤hler-<br/> vereinigungen finden Sie auf <a target="blank" tabindex="100" href="http://www.werstehtzurwahl.de">www.werstehtzurwahl.de</a>.';
 WOMT_aTexte['0_ms_title_text2']=new Array();
 WOMT_aTexte['0_ms_title_text2'][0]='Hinweis';
 WOMT_aTexte['0_ms_button_text2']=new Array();
@@ -1559,13 +1559,13 @@ WOMT_aTexte['345_alt_ich_stimmenichtzu'][0]='Ich stimme nicht zu';
 WOMT_aTexte['345_alt_ich_neutral']=new Array();
 WOMT_aTexte['345_alt_ich_neutral'][0]='Ich stehe neutral dazu';
 WOMT_aTexte['345_alt_ich_uebersprungen']=new Array();
-WOMT_aTexte['345_alt_ich_uebersprungen'][0]='Ich habe die These übersprungen';
+WOMT_aTexte['345_alt_ich_uebersprungen'][0]='Ich habe die These Ã¼bersprungen';
 WOMT_aTexte['4_alt_partei_stimmtzu']=new Array();
-WOMT_aTexte['4_alt_partei_stimmtzu'][0]='[PARTEI] stimmt zu (Klicken, um Begründung zu lesen)';
+WOMT_aTexte['4_alt_partei_stimmtzu'][0]='[PARTEI] stimmt zu (Klicken, um BegrÃ¼ndung zu lesen)';
 WOMT_aTexte['4_alt_partei_stimmtnichtzu']=new Array();
-WOMT_aTexte['4_alt_partei_stimmtnichtzu'][0]='[PARTEI] stimmt nicht zu (Klicken, um Begründung zu lesen)';
+WOMT_aTexte['4_alt_partei_stimmtnichtzu'][0]='[PARTEI] stimmt nicht zu (Klicken, um BegrÃ¼ndung zu lesen)';
 WOMT_aTexte['4_alt_partei_neutral']=new Array();
-WOMT_aTexte['4_alt_partei_neutral'][0]='[PARTEI] steht neutral dazu (Klicken, um Begründung zu lesen)';
+WOMT_aTexte['4_alt_partei_neutral'][0]='[PARTEI] steht neutral dazu (Klicken, um BegrÃ¼ndung zu lesen)';
 WOMT_aTexte['5_alt_partei_stimmtzu']=new Array();
 WOMT_aTexte['5_alt_partei_stimmtzu'][0]='[PARTEI] stimmt zu';
 WOMT_aTexte['5_alt_partei_stimmtnichtzu']=new Array();
@@ -1589,11 +1589,11 @@ WOMT_aTexte['7_empfehlung_titel'][0]='Das gemailte Wahl-O-Mat Ergebnis';
 WOMT_aTexte['7_empfehlung_fehler_titel']=new Array();
 WOMT_aTexte['7_empfehlung_fehler_titel'][0]='Fehler im Link!';
 WOMT_aTexte['7_empfehlung_fehler_text']=new Array();
-WOMT_aTexte['7_empfehlung_fehler_text'][0]='Der Ihnen empfohlene Link zum Wahl-O-Mat-Ergebnis ist leider nicht vollständig.\
+WOMT_aTexte['7_empfehlung_fehler_text'][0]='Der Ihnen empfohlene Link zum Wahl-O-Mat-Ergebnis ist leider nicht vollstÃ¤ndig.\
 <br/>\
-<br/>Bitte geben Sie den vollständigen Link ein oder starten Sie den Wahl-O-Mat doch einfach selbst.';
+<br/>Bitte geben Sie den vollstÃ¤ndigen Link ein oder starten Sie den Wahl-O-Mat doch einfach selbst.';
 WOMT_aTexte['wahlomat_kopf_link_bpb_span']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_bpb_span'][0]='Bundeszentrale für politische Bildung';
+WOMT_aTexte['wahlomat_kopf_link_bpb_span'][0]='Bundeszentrale fÃ¼r politische Bildung';
 WOMT_aTexte['wahlomat_kopf_link_ljr_span']=new Array();
 WOMT_aTexte['wahlomat_kopf_link_ljr_span'][0]='Landesjugendring Hamburg e.V.';
 WOMT_aTexte['0_bn_zur_thesennavigation']=new Array();
@@ -1603,19 +1603,19 @@ WOMT_aTexte['4_btn_empfehlung_title'][0]='mein Ergebnis weitersagen';
 WOMT_aTexte['4_btn_empfehlung_text']=new Array();
 WOMT_aTexte['4_btn_empfehlung_text'][0]='Ergebnis weitersagen';
 WOMT_aTexte['3_bn_hinweis_legende']=new Array();
-WOMT_aTexte['3_bn_hinweis_legende'][0]='Hinweis: Die folgenden 4 Zeilen sind Teil einer Legende für Icons und können ignoriert werden.';
+WOMT_aTexte['3_bn_hinweis_legende'][0]='Hinweis: Die folgenden 4 Zeilen sind Teil einer Legende fÃ¼r Icons und kÃ¶nnen ignoriert werden.';
 WOMT_aTexte['2_bn_hinweis']=new Array();
-WOMT_aTexte['2_bn_hinweis'][0]='Hinweis: Bitte wählen Sie zwischen der Möglichkeit, Ihre abgestimmten Thesen zu gewichten oder direkt das Ergebnis anzuzeigen.';
+WOMT_aTexte['2_bn_hinweis'][0]='Hinweis: Bitte wÃ¤hlen Sie zwischen der MÃ¶glichkeit, Ihre abgestimmten Thesen zu gewichten oder direkt das Ergebnis anzuzeigen.';
 WOMT_aTexte['wahlomat_kopf_link_lzpb_span']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_lzpb_span'][0]='Landeszentrale für politische Bildung';
+WOMT_aTexte['wahlomat_kopf_link_lzpb_span'][0]='Landeszentrale fÃ¼r politische Bildung';
 WOMT_aTexte['wahlomat_kopf_link_lzpb_url']=new Array();
 WOMT_aTexte['wahlomat_kopf_link_lzpb_url'][0]='http://www.politische-bildung.hamburg.de';
 WOMT_aTexte['wahlomat_kopf_link_lzpb_title']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_lzpb_title'][0]='Landeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_kopf_link_lzpb_title'][0]='Landeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer2_link_kw_text']=new Array();
 WOMT_aTexte['wahlomat_footer2_link_kw_text'][0]='kandidatenwatch.de';
 WOMT_aTexte['wahlomat_footer2_link_kw_title']=new Array();
-WOMT_aTexte['wahlomat_footer2_link_kw_title'][0]='kandidatenwatch.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer2_link_kw_title'][0]='kandidatenwatch.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer2_link_kw_url']=new Array();
 WOMT_aTexte['wahlomat_footer2_link_kw_url'][0]='http://www.kandidatenwatch.de';
 WOMT_aTexte['wahlomat_footer2_link_jiz_text']=new Array();
@@ -1623,23 +1623,23 @@ WOMT_aTexte['wahlomat_footer2_link_jiz_text'][0]='JIZ';
 WOMT_aTexte['wahlomat_footer2_link_jiz_url']=new Array();
 WOMT_aTexte['wahlomat_footer2_link_jiz_url'][0]='http://fhh.hamburg.de/stadt/Aktuell/behoerden/bildung-sport/bildung-schule/beratung/jugendinformationszentrum/start.html';
 WOMT_aTexte['wahlomat_footer2_link_jiz_title']=new Array();
-WOMT_aTexte['wahlomat_footer2_link_jiz_title'][0]='JIZ (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer2_link_jiz_title'][0]='JIZ (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer2_link_hw_text']=new Array();
 WOMT_aTexte['wahlomat_footer2_link_hw_text'][0]='Hamburg Wahl 2008';
 WOMT_aTexte['wahlomat_footer2_link_hw_title']=new Array();
-WOMT_aTexte['wahlomat_footer2_link_hw_title'][0]='Hamburg Wahl 2008 (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer2_link_hw_title'][0]='Hamburg Wahl 2008 (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer2_link_hw_url']=new Array();
 WOMT_aTexte['wahlomat_footer2_link_hw_url'][0]='http://www.24-februar.de';
 WOMT_aTexte['popup_impressum_text_datenschutz']=new Array();
-WOMT_aTexte['popup_impressum_text_datenschutz'][0]='<h1 class="orange">Datenschutzerklärung</h1><div class="text_normal">Wir, die Bundeszentrale für politische Bildung (bpb) als Betreiber des Wahl-O-Mat und der Domain <a tabindex="100" title="Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a>, nehmen den Schutz Ihrer persönlichen Daten und Ihr Recht auf informationelle Selbstbestimmung sehr ernst und halten uns selbstverständlich an die datenschutzrechtlichen Regeln. Als öffentlich-rechtliche Stelle des Bundes unterliegen wir den Bestimmungen des Bundesdatenschutzgesetzes, dessen Zweck der Schutz vor Beeinträchtigungen des Persönlichkeitsrechts durch den Umgang mit personenbezogenen Daten ist.</div><h2 class="text_bold">Personenbezogene Daten</h2><div class="text_normal">Personenbezogene Daten sind Informationen zu Ihrer Person, die dazu genutzt werden können, Ihre Identität zu erfahren - etwa Ihr richtiger Name, Ihre Adresse, Postanschrift oder Telefonnummer. Informationen, die keine Rückschlüsse auf eine bestimmte oder bestimmbare Person zulassen, fallen nicht darunter.\
+WOMT_aTexte['popup_impressum_text_datenschutz'][0]='<h1 class="orange">DatenschutzerklÃ¤rung</h1><div class="text_normal">Wir, die Bundeszentrale fÃ¼r politische Bildung (bpb) als Betreiber des Wahl-O-Mat und der Domain <a tabindex="100" title="Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a>, nehmen den Schutz Ihrer persÃ¶nlichen Daten und Ihr Recht auf informationelle Selbstbestimmung sehr ernst und halten uns selbstverstÃ¤ndlich an die datenschutzrechtlichen Regeln. Als Ã¶ffentlich-rechtliche Stelle des Bundes unterliegen wir den Bestimmungen des Bundesdatenschutzgesetzes, dessen Zweck der Schutz vor BeeintrÃ¤chtigungen des PersÃ¶nlichkeitsrechts durch den Umgang mit personenbezogenen Daten ist.</div><h2 class="text_bold">Personenbezogene Daten</h2><div class="text_normal">Personenbezogene Daten sind Informationen zu Ihrer Person, die dazu genutzt werden kÃ¶nnen, Ihre IdentitÃ¤t zu erfahren - etwa Ihr richtiger Name, Ihre Adresse, Postanschrift oder Telefonnummer. Informationen, die keine RÃ¼ckschlÃ¼sse auf eine bestimmte oder bestimmbare Person zulassen, fallen nicht darunter.\
 <br/>\
-<br/>Bei der Nutzung des Wahl-O-Mat werden keinerlei personenbezogene Daten erhoben. Nur, wenn Sie den Wahl-O-Mat per Mailformular weiterempfehlen möchten oder Ihr Wahl-O-Mat-Ergebnis per Mailformular weitersagen möchten, werden Sie aufgefordert, eine gültige E-Mail-Adresse als Absender einzugeben. Ihr Wahl-O-Mat-Ergebnis wird dabei von uns nicht gespeichert, sondern lediglich als eine feste Webseitenadresse (Query Session-ID) im Text Ihrer Mail ausgeschrieben. Mailtext und Absender-Adresse werden von uns nach erfolgreichem Versenden der Mail weder weiter verarbeitet noch gespeichert. Einzig die Mailadresse des Empfängers wird in einem Mail-Serverlog protokolliert, der regelmäßig gelöscht wird.\
+<br/>Bei der Nutzung des Wahl-O-Mat werden keinerlei personenbezogene Daten erhoben. Nur, wenn Sie den Wahl-O-Mat per Mailformular weiterempfehlen mÃ¶chten oder Ihr Wahl-O-Mat-Ergebnis per Mailformular weitersagen mÃ¶chten, werden Sie aufgefordert, eine gÃ¼ltige E-Mail-Adresse als Absender einzugeben. Ihr Wahl-O-Mat-Ergebnis wird dabei von uns nicht gespeichert, sondern lediglich als eine feste Webseitenadresse (Query Session-ID) im Text Ihrer Mail ausgeschrieben. Mailtext und Absender-Adresse werden von uns nach erfolgreichem Versenden der Mail weder weiter verarbeitet noch gespeichert. Einzig die Mailadresse des EmpfÃ¤ngers wird in einem Mail-Serverlog protokolliert, der regelmÃ¤ÃŸig gelÃ¶scht wird.\
 <br/>\
-<br/>Die Erhebung, Verarbeitung und Nutzung dieser personenbezogenen Daten - der gültigen Mail-Adresse als Absender - auf <a tabindex="101" title="Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a> unterliegen also Ihrer Zustimmung, und diese Daten werden nicht gespeichert. Wir erheben sie nur im technisch notwendigen Umfang, um die damit verbundene Funktion der Webseite auszuführen. In keinem Fall werden die erhobenen Daten verkauft oder aus anderen Gründen an Dritte weitergegeben. Sie werden nur zur unmittelbaren Erfüllung des Zweckes verwendet, für die wir die Daten benötigen, und sind auch nur den Personen zugänglich, die unmittelbar zur Erfüllung dieses Zweckes Zugriff auf sie haben müssen. \
+<br/>Die Erhebung, Verarbeitung und Nutzung dieser personenbezogenen Daten - der gÃ¼ltigen Mail-Adresse als Absender - auf <a tabindex="101" title="Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a> unterliegen also Ihrer Zustimmung, und diese Daten werden nicht gespeichert. Wir erheben sie nur im technisch notwendigen Umfang, um die damit verbundene Funktion der Webseite auszufÃ¼hren. In keinem Fall werden die erhobenen Daten verkauft oder aus anderen GrÃ¼nden an Dritte weitergegeben. Sie werden nur zur unmittelbaren ErfÃ¼llung des Zweckes verwendet, fÃ¼r die wir die Daten benÃ¶tigen, und sind auch nur den Personen zugÃ¤nglich, die unmittelbar zur ErfÃ¼llung dieses Zweckes Zugriff auf sie haben mÃ¼ssen. \
 <br/>\
-<br/>Soweit Fremdfirmen im Auftrag der Bundeszentrale für politische Bildung tätig werden - etwa, um den Server der Webseite zu pflegen -, werden diese Firmen ausdrücklich darauf verpflichtet, die Daten ausschließlich im Rahmen dieser Zweckbestimmung zu verwenden und anschließend - nach Ablauf eventuell bestehender gesetzlicher Fristen - zu löschen.</div><h2 class="text_bold">Protokollierung</h2><div class="text_normal">Die bpb erhebt und speichert automatisch in ihren Server-Logfiles Informationen, die Ihr Browser an uns übermittelt. Dies sind je nach verwendetem Zugriffsprotokoll:\
-<br/><ul style="margin-left: 24px;list-style-type:square;"><li>IP-Adresse des anfordernden Rechners</li><li>Datum und Uhrzeit der Anforderung</li><li>vom anfordernden Rechner gewünschte Zugriffsmethode/Funktion</li><li>vom anfordernden Rechner übermittelte Eingabewerte</li><li>Zugriffsstatus des Web-Servers (Datei übertragen, Datei nicht gefunden, Kommando nicht ausgeführt etc.)</li><li>Name der angeforderten Datei</li><li>URL, von der aus die Datei angefordert/die gewünschte Funktion veranlasst wurde (Referrer URL)</li><li>Browsertyp & -version</li><li>Verwendetes Betriebssystem</li></ul>\
-<br/>Diese Daten sind für die bpb nicht bestimmten Personen zuordenbar. Sie werden ausschließlich zur Erstellung von Zugriffsstatistiken ohne jeden Personenbezug durch eigens hierzu berechtigte Personen für die Dauer von drei Monaten gespeichert und danach gelöscht. Eine personenbezogene Verwertung findet nicht statt. Darüber hinaus wird die erfasste IP-Adresse regelmäßig im Abstand von 48 Stunden in den Server-Logfiles zur vollständigen Anonymisierung überschrieben. Die Mailadresse des Empfängers einer Weiterempfehlungs-Mail wird wie beschrieben in einem Mail-Serverlog protokolliert, der regelmäßig gelöscht wird.</div><h2 class="text_bold">Cookies</h2><div class="text_normal">Der Wahl-O-Mat verwendet insgesamt zwei so genannte Cookies. Sie dienen dazu, sicherzustellen, dass ein un derselbe Nutzer nicht mehrmals in unserer Nutzungsstatistik gezählt wird. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Cookies richten auf deinem Rechner keinen Schaden an und enthalten keine Viren.</div><h2 class="text_bold">Umfrage</h2><div class="text_normal">Am Ende des Wahl-O-Mat wird einer zufälligen Auswahl von Nutzer/innen die Möglichkeit angeboten, an einer wissenschaftlichen Evaluation des Wahl-O-Mat teilzunehmen. Die Teilnahme ist freiwillig, die Umfrage ist anonym, d.h. bei ihr werden ebenfalls keine personenbezogenen Daten erfasst. Um Ihr Wahl-O-Mat Ergebnis mit Ihren Antworten im Fragebogen zu korrelieren, wird die Webadresse ihres Wahl-O-Mat-Ergebnisses (Query Session-ID) mit den Antworten im Fragebogen verknüpft. Ihre IP-Adresse wird hierbei jedoch nicht gespeichert, und die in unseren Server-Logfiles beim Zugriff auf den Fragebogen gespeicherte IP-Adresse wird ebenfalls regelmäßig im Abstand von 48 Stunden zur vollständigen Anonymisierung überschrieben. Auf der Seite <a tabindex="102" title="Universität Düsseldorf (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">www.wahl-o-mat.uni-duesseldorf.de</a> können Sie die Ergebnisse der Evaluationen einsehen.</div><h2 class="text_bold">Kooperationspartner</h2><div class="text_normal">Diese Datenschutzerklärung gilt nur für den Server von <a tabindex="103" title="Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a>. Der Wahl-O-Mat wird jedoch auch von Kooperations- und Medienpartnern der bpb auf deren eigenen Servern betrieben. Auf diesen kann es andere Datenschutzrichtlinien geben. Die bpb übernimmt keine Verantwortung für die Datenschutzrichtlinien dieser externen Webseiten. Kooperations-/Medienpartner der bpb stellen der bpb lediglich täglich die Zahl der insgesamt erfolgten Nutzungen des Wahl-O-Mat auf deren Servern zu, die in die Nutzungsstatistik auf <a tabindex="104" title="Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a> eingehen.</div><h2 class="text_bold">Auskunftsrecht</h2><div class="text_normal">Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt die Datenschutzbeauftragte der Bundeszentrale für politische Bildung: <a tabindex="105" title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>.</div><h2 class="text_bold">Fragen und Kommentare</h2><div class="text_normal">Wenn Sie Fragen haben, die diese Datenschutzerklärung nicht beantworten konnte, wenn Sie zu einem Punkt weitere Informationen haben möchten oder Anregungen oder Kommentare haben, können Sie sich gern direkt per E-Mail an die Datenschutzbeauftragte der Bundeszentrale für politische Bildung wenden: <a tabindex="106" title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>.\
+<br/>Soweit Fremdfirmen im Auftrag der Bundeszentrale fÃ¼r politische Bildung tÃ¤tig werden - etwa, um den Server der Webseite zu pflegen -, werden diese Firmen ausdrÃ¼cklich darauf verpflichtet, die Daten ausschlieÃŸlich im Rahmen dieser Zweckbestimmung zu verwenden und anschlieÃŸend - nach Ablauf eventuell bestehender gesetzlicher Fristen - zu lÃ¶schen.</div><h2 class="text_bold">Protokollierung</h2><div class="text_normal">Die bpb erhebt und speichert automatisch in ihren Server-Logfiles Informationen, die Ihr Browser an uns Ã¼bermittelt. Dies sind je nach verwendetem Zugriffsprotokoll:\
+<br/><ul style="margin-left: 24px;list-style-type:square;"><li>IP-Adresse des anfordernden Rechners</li><li>Datum und Uhrzeit der Anforderung</li><li>vom anfordernden Rechner gewÃ¼nschte Zugriffsmethode/Funktion</li><li>vom anfordernden Rechner Ã¼bermittelte Eingabewerte</li><li>Zugriffsstatus des Web-Servers (Datei Ã¼bertragen, Datei nicht gefunden, Kommando nicht ausgefÃ¼hrt etc.)</li><li>Name der angeforderten Datei</li><li>URL, von der aus die Datei angefordert/die gewÃ¼nschte Funktion veranlasst wurde (Referrer URL)</li><li>Browsertyp & -version</li><li>Verwendetes Betriebssystem</li></ul>\
+<br/>Diese Daten sind fÃ¼r die bpb nicht bestimmten Personen zuordenbar. Sie werden ausschlieÃŸlich zur Erstellung von Zugriffsstatistiken ohne jeden Personenbezug durch eigens hierzu berechtigte Personen fÃ¼r die Dauer von drei Monaten gespeichert und danach gelÃ¶scht. Eine personenbezogene Verwertung findet nicht statt. DarÃ¼ber hinaus wird die erfasste IP-Adresse regelmÃ¤ÃŸig im Abstand von 48 Stunden in den Server-Logfiles zur vollstÃ¤ndigen Anonymisierung Ã¼berschrieben. Die Mailadresse des EmpfÃ¤ngers einer Weiterempfehlungs-Mail wird wie beschrieben in einem Mail-Serverlog protokolliert, der regelmÃ¤ÃŸig gelÃ¶scht wird.</div><h2 class="text_bold">Cookies</h2><div class="text_normal">Der Wahl-O-Mat verwendet insgesamt zwei so genannte Cookies. Sie dienen dazu, sicherzustellen, dass ein un derselbe Nutzer nicht mehrmals in unserer Nutzungsstatistik gezÃ¤hlt wird. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Cookies richten auf deinem Rechner keinen Schaden an und enthalten keine Viren.</div><h2 class="text_bold">Umfrage</h2><div class="text_normal">Am Ende des Wahl-O-Mat wird einer zufÃ¤lligen Auswahl von Nutzer/innen die MÃ¶glichkeit angeboten, an einer wissenschaftlichen Evaluation des Wahl-O-Mat teilzunehmen. Die Teilnahme ist freiwillig, die Umfrage ist anonym, d.h. bei ihr werden ebenfalls keine personenbezogenen Daten erfasst. Um Ihr Wahl-O-Mat Ergebnis mit Ihren Antworten im Fragebogen zu korrelieren, wird die Webadresse ihres Wahl-O-Mat-Ergebnisses (Query Session-ID) mit den Antworten im Fragebogen verknÃ¼pft. Ihre IP-Adresse wird hierbei jedoch nicht gespeichert, und die in unseren Server-Logfiles beim Zugriff auf den Fragebogen gespeicherte IP-Adresse wird ebenfalls regelmÃ¤ÃŸig im Abstand von 48 Stunden zur vollstÃ¤ndigen Anonymisierung Ã¼berschrieben. Auf der Seite <a tabindex="102" title="UniversitÃ¤t DÃ¼sseldorf (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">www.wahl-o-mat.uni-duesseldorf.de</a> kÃ¶nnen Sie die Ergebnisse der Evaluationen einsehen.</div><h2 class="text_bold">Kooperationspartner</h2><div class="text_normal">Diese DatenschutzerklÃ¤rung gilt nur fÃ¼r den Server von <a tabindex="103" title="Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a>. Der Wahl-O-Mat wird jedoch auch von Kooperations- und Medienpartnern der bpb auf deren eigenen Servern betrieben. Auf diesen kann es andere Datenschutzrichtlinien geben. Die bpb Ã¼bernimmt keine Verantwortung fÃ¼r die Datenschutzrichtlinien dieser externen Webseiten. Kooperations-/Medienpartner der bpb stellen der bpb lediglich tÃ¤glich die Zahl der insgesamt erfolgten Nutzungen des Wahl-O-Mat auf deren Servern zu, die in die Nutzungsstatistik auf <a tabindex="104" title="Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a> eingehen.</div><h2 class="text_bold">Auskunftsrecht</h2><div class="text_normal">Sie haben jederzeit das Recht auf Auskunft Ã¼ber die bezÃ¼glich Ihrer Person gespeicherten Daten, deren Herkunft und EmpfÃ¤nger sowie den Zweck der Speicherung. Auskunft Ã¼ber die gespeicherten Daten gibt die Datenschutzbeauftragte der Bundeszentrale fÃ¼r politische Bildung: <a tabindex="105" title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>.</div><h2 class="text_bold">Fragen und Kommentare</h2><div class="text_normal">Wenn Sie Fragen haben, die diese DatenschutzerklÃ¤rung nicht beantworten konnte, wenn Sie zu einem Punkt weitere Informationen haben mÃ¶chten oder Anregungen oder Kommentare haben, kÃ¶nnen Sie sich gern direkt per E-Mail an die Datenschutzbeauftragte der Bundeszentrale fÃ¼r politische Bildung wenden: <a tabindex="106" title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>.\
 <br/>\
 <br/>Bonn, den 31.01.2008\
 <br/></div>';

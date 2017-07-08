@@ -37,7 +37,7 @@ WAHLOMATEN_ID='17';
   --------------------------------------------------------------
   Vordefinieren der in den Templates gefunden assoziativen Keys
   mit denenen auf WOMT_aTexte und WOMT_aBilder zugriffen wird
-  nicht vorhanden Indexe führen in Javascript sonst zu Fehlern!
+  nicht vorhanden Indexe fÃ¼hren in Javascript sonst zu Fehlern!
 
   Wenn mit Variablen auf die assoziativen Arrays zugegriffen wird
   kann dies nicht automatisch analsysit werden,
@@ -350,7 +350,7 @@ WOMT_aThemen_ID2N[101]='0';
 WOMT_aThesen[0]=new Array();
 WOMT_aThesen[0][0]=new Array();
 WOMT_aThesen[0][0][0]='Produktion von Genfood';
-WOMT_aThesen[0][0][1]='In der EU sollen keine gentechnisch veränderten Lebensmittel produziert werden.';
+WOMT_aThesen[0][0][1]='In der EU sollen keine gentechnisch verÃ¤nderten Lebensmittel produziert werden.';
 WOMT_aThesen[0][1]=new Array();
 WOMT_aThesen[0][1][0]='Production of GM food';
 WOMT_aThesen[0][1][1]='Genetically manipulated food should not be produced in the EU.';
@@ -359,7 +359,7 @@ WOMT_aThesenParteien[0]=new Array();
 WOMT_aThesen[1]=new Array();
 WOMT_aThesen[1][0]=new Array();
 WOMT_aThesen[1][0][0]='EU-Erweiterung';
-WOMT_aThesen[1][0][1]='Künftig sollen alle EU-Bürger/-innen über die Aufnahme von neuen Mitgliedsstaaten abstimmen.';
+WOMT_aThesen[1][0][1]='KÃ¼nftig sollen alle EU-BÃ¼rger/-innen Ã¼ber die Aufnahme von neuen Mitgliedsstaaten abstimmen.';
 WOMT_aThesen[1][1]=new Array();
 WOMT_aThesen[1][1][0]='EU enlargement';
 WOMT_aThesen[1][1][1]='In future all EU citizens should vote on the accession of new member states.';
@@ -368,7 +368,7 @@ WOMT_aThesenParteien[1]=new Array();
 WOMT_aThesen[2]=new Array();
 WOMT_aThesen[2][0]=new Array();
 WOMT_aThesen[2][0][0]='Einwanderungs- politik';
-WOMT_aThesen[2][0][1]='Die Einwanderungspolitik der EU soll verschärft werden.';
+WOMT_aThesen[2][0][1]='Die Einwanderungspolitik der EU soll verschÃ¤rft werden.';
 WOMT_aThesen[2][1]=new Array();
 WOMT_aThesen[2][1][0]='Immigration policy';
 WOMT_aThesen[2][1][1]='EU immigration policy should be stricter in future.';
@@ -376,8 +376,8 @@ WOMT_aThesenThema[2]='0';
 WOMT_aThesenParteien[2]=new Array();
 WOMT_aThesen[3]=new Array();
 WOMT_aThesen[3][0]=new Array();
-WOMT_aThesen[3][0][0]='Managergehälter';
-WOMT_aThesen[3][0][1]='In der EU soll die Höhe von Managergehältern gesetzlich begrenzt werden.';
+WOMT_aThesen[3][0][0]='ManagergehÃ¤lter';
+WOMT_aThesen[3][0][1]='In der EU soll die HÃ¶he von ManagergehÃ¤ltern gesetzlich begrenzt werden.';
 WOMT_aThesen[3][1]=new Array();
 WOMT_aThesen[3][1][0]='Managers# salaries';
 WOMT_aThesen[3][1][1]='Legal limits should be imposed on managers# salaries in the EU.';
@@ -386,7 +386,7 @@ WOMT_aThesenParteien[3]=new Array();
 WOMT_aThesen[4]=new Array();
 WOMT_aThesen[4][0]=new Array();
 WOMT_aThesen[4][0][0]='Familienbild';
-WOMT_aThesen[4][0][1]='Die traditionelle Familie aus Mann, Frau und Kind/Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.';
+WOMT_aThesen[4][0][1]='Die traditionelle Familie aus Mann, Frau und Kind/Kindern soll stÃ¤rker als andere Lebensgemeinschaften gefÃ¶rdert werden.';
 WOMT_aThesen[4][1]=new Array();
 WOMT_aThesen[4][1][0]='The image the family';
 WOMT_aThesen[4][1][1]='The traditional husband, wife and child/children family should be promoted over other forms of cohabitation.';
@@ -395,7 +395,7 @@ WOMT_aThesenParteien[4]=new Array();
 WOMT_aThesen[5]=new Array();
 WOMT_aThesen[5][0]=new Array();
 WOMT_aThesen[5][0][0]='Gesundheits- versorgung';
-WOMT_aThesen[5][0][1]='In der EU sollen einheitliche Qualitätsstandards in der Gesundheitsversorgung eingeführt werden.';
+WOMT_aThesen[5][0][1]='In der EU sollen einheitliche QualitÃ¤tsstandards in der Gesundheitsversorgung eingefÃ¼hrt werden.';
 WOMT_aThesen[5][1]=new Array();
 WOMT_aThesen[5][1][0]='Healthcare';
 WOMT_aThesen[5][1][1]='Uniform quality standards for healthcare should be introduced in the EU.';
@@ -422,7 +422,7 @@ WOMT_aThesenParteien[7]=new Array();
 WOMT_aThesen[8]=new Array();
 WOMT_aThesen[8][0]=new Array();
 WOMT_aThesen[8][0][0]='Arbeitsmarkt';
-WOMT_aThesen[8][0][1]='Der Zugang zum deutschen Arbeitsmarkt soll für Menschen aus den östlichen EU-Staaten dauerhaft beschränkt  bleiben.';
+WOMT_aThesen[8][0][1]='Der Zugang zum deutschen Arbeitsmarkt soll fÃ¼r Menschen aus den Ã¶stlichen EU-Staaten dauerhaft beschrÃ¤nkt  bleiben.';
 WOMT_aThesen[8][1]=new Array();
 WOMT_aThesen[8][1][0]='Labour market';
 WOMT_aThesen[8][1][1]='Access to the German labour market for people from Eastern European EU states should remain permanently restricted.';
@@ -449,7 +449,7 @@ WOMT_aThesenParteien[10]=new Array();
 WOMT_aThesen[11]=new Array();
 WOMT_aThesen[11][0]=new Array();
 WOMT_aThesen[11][0][0]='EU-Beitrags- zahlungen';
-WOMT_aThesen[11][0][1]='Die Beitragszahlungen an die EU sollen sich an der jeweiligen Wirtschaftsleistung der Mitgliedsländer orientieren.';
+WOMT_aThesen[11][0][1]='Die Beitragszahlungen an die EU sollen sich an der jeweiligen Wirtschaftsleistung der MitgliedslÃ¤nder orientieren.';
 WOMT_aThesen[11][1]=new Array();
 WOMT_aThesen[11][1][0]='EU contributions';
 WOMT_aThesen[11][1][1]='The contributions of individual member states to the EU should be based on their respective economic performance.';
@@ -467,7 +467,7 @@ WOMT_aThesenParteien[12]=new Array();
 WOMT_aThesen[13]=new Array();
 WOMT_aThesen[13][0]=new Array();
 WOMT_aThesen[13][0][0]='Agrarsubventionen';
-WOMT_aThesen[13][0][1]='Die EU-Subventionen für die Landwirtschaft sollen abgeschafft werden.';
+WOMT_aThesen[13][0][1]='Die EU-Subventionen fÃ¼r die Landwirtschaft sollen abgeschafft werden.';
 WOMT_aThesen[13][1]=new Array();
 WOMT_aThesen[13][1][0]='Agricultural subsidies';
 WOMT_aThesen[13][1][1]='EU agricultural subsidies should be abolished.';
@@ -475,8 +475,8 @@ WOMT_aThesenThema[13]='0';
 WOMT_aThesenParteien[13]=new Array();
 WOMT_aThesen[14]=new Array();
 WOMT_aThesen[14][0]=new Array();
-WOMT_aThesen[14][0][0]='Kommissions- präsident';
-WOMT_aThesen[14][0][1]='Die Bürger/-innen sollen den EU-Kommissionspräsidenten zukünftig selbst wählen.';
+WOMT_aThesen[14][0][0]='Kommissions- prÃ¤sident';
+WOMT_aThesen[14][0][1]='Die BÃ¼rger/-innen sollen den EU-KommissionsprÃ¤sidenten zukÃ¼nftig selbst wÃ¤hlen.';
 WOMT_aThesen[14][1]=new Array();
 WOMT_aThesen[14][1][0]='EU Commission President';
 WOMT_aThesen[14][1][1]='The President of the European Commission should be directly elected by citizens in future.';
@@ -485,7 +485,7 @@ WOMT_aThesenParteien[14]=new Array();
 WOMT_aThesen[15]=new Array();
 WOMT_aThesen[15][0]=new Array();
 WOMT_aThesen[15][0][0]='Einheimische Unternehmen';
-WOMT_aThesen[15][0][1]='Einheimische Unternehmen sollen bei öffentlichen, europaweiten Ausschreibungen bevorzugt werden.';
+WOMT_aThesen[15][0][1]='Einheimische Unternehmen sollen bei Ã¶ffentlichen, europaweiten Ausschreibungen bevorzugt werden.';
 WOMT_aThesen[15][1]=new Array();
 WOMT_aThesen[15][1][0]='National companies';
 WOMT_aThesen[15][1][1]='National companies should be given preference in public, Europe-wide invitations to tender.';
@@ -512,7 +512,7 @@ WOMT_aThesenParteien[17]=new Array();
 WOMT_aThesen[18]=new Array();
 WOMT_aThesen[18][0]=new Array();
 WOMT_aThesen[18][0][0]='EU-Armee';
-WOMT_aThesen[18][0][1]='Die nationalen Streitkräfte sollen durch eine EU-Armee ersetzt werden.';
+WOMT_aThesen[18][0][1]='Die nationalen StreitkrÃ¤fte sollen durch eine EU-Armee ersetzt werden.';
 WOMT_aThesen[18][1]=new Array();
 WOMT_aThesen[18][1][0]='EU army';
 WOMT_aThesen[18][1][1]='An EU army should replace national armed forces.';
@@ -521,7 +521,7 @@ WOMT_aThesenParteien[18]=new Array();
 WOMT_aThesen[19]=new Array();
 WOMT_aThesen[19][0]=new Array();
 WOMT_aThesen[19][0][0]='Staatliche Banken';
-WOMT_aThesen[19][0][1]='Die EU-Mitgliedsstaaten sollen ihre öffentlichen Banken (z.B. Landesbanken, Sparkassen) privatisieren.';
+WOMT_aThesen[19][0][1]='Die EU-Mitgliedsstaaten sollen ihre Ã¶ffentlichen Banken (z.B. Landesbanken, Sparkassen) privatisieren.';
 WOMT_aThesen[19][1]=new Array();
 WOMT_aThesen[19][1][0]='Public banks';
 WOMT_aThesen[19][1][1]='EU member states should privatise their public banks (e.g. Landesbanken and Sparkassen).';
@@ -539,7 +539,7 @@ WOMT_aThesenParteien[20]=new Array();
 WOMT_aThesen[21]=new Array();
 WOMT_aThesen[21][0]=new Array();
 WOMT_aThesen[21][0][0]='Erneuerbare Energien';
-WOMT_aThesen[21][0][1]='Die Staaten der EU sollen vollständig  auf erneuerbare Energien umstellen.';
+WOMT_aThesen[21][0][1]='Die Staaten der EU sollen vollstÃ¤ndig  auf erneuerbare Energien umstellen.';
 WOMT_aThesen[21][1]=new Array();
 WOMT_aThesen[21][1][0]='Renewable energies';
 WOMT_aThesen[21][1][1]='EU member states should switch to using only renewable energies.';
@@ -557,7 +557,7 @@ WOMT_aThesenParteien[22]=new Array();
 WOMT_aThesen[23]=new Array();
 WOMT_aThesen[23][0]=new Array();
 WOMT_aThesen[23][0][0]='Atomwaffen';
-WOMT_aThesen[23][0][1]='In der Europäischen Union soll es keine Atomwaffen mehr geben.';
+WOMT_aThesen[23][0][1]='In der EuropÃ¤ischen Union soll es keine Atomwaffen mehr geben.';
 WOMT_aThesen[23][1]=new Array();
 WOMT_aThesen[23][1][0]='Nuclear weapons';
 WOMT_aThesen[23][1][1]='There should be no more nuclear weapons in the European Union.';
@@ -565,8 +565,8 @@ WOMT_aThesenThema[23]='0';
 WOMT_aThesenParteien[23]=new Array();
 WOMT_aThesen[24]=new Array();
 WOMT_aThesen[24][0]=new Array();
-WOMT_aThesen[24][0][0]='EU-Außenminister';
-WOMT_aThesen[24][0][1]='Die Europäische Union soll einen gemeinsamen Außenminister berufen.';
+WOMT_aThesen[24][0][0]='EU-AuÃŸenminister';
+WOMT_aThesen[24][0][1]='Die EuropÃ¤ische Union soll einen gemeinsamen AuÃŸenminister berufen.';
 WOMT_aThesen[24][1]=new Array();
 WOMT_aThesen[24][1][0]='EU Foreign Minister';
 WOMT_aThesen[24][1][1]='The European Union should appoint a foreign minister to represent the entire Union.';
@@ -584,7 +584,7 @@ WOMT_aThesenParteien[25]=new Array();
 WOMT_aThesen[26]=new Array();
 WOMT_aThesen[26][0]=new Array();
 WOMT_aThesen[26][0][0]='EU-Steuer';
-WOMT_aThesen[26][0][1]='Die EU soll die Möglichkeit erhalten, eigene Steuern zu erheben.';
+WOMT_aThesen[26][0][1]='Die EU soll die MÃ¶glichkeit erhalten, eigene Steuern zu erheben.';
 WOMT_aThesen[26][1]=new Array();
 WOMT_aThesen[26][1][0]='EU taxes';
 WOMT_aThesen[26][1][1]='The EU should have the option of levying its own taxes.';
@@ -592,8 +592,8 @@ WOMT_aThesenThema[26]='0';
 WOMT_aThesenParteien[26]=new Array();
 WOMT_aThesen[27]=new Array();
 WOMT_aThesen[27][0]=new Array();
-WOMT_aThesen[27][0][0]='Kündigungsschutz';
-WOMT_aThesen[27][0][1]='Der Kündigungsschutz in den EU-Mitgliedsstaaten soll gelockert werden.';
+WOMT_aThesen[27][0][0]='KÃ¼ndigungsschutz';
+WOMT_aThesen[27][0][1]='Der KÃ¼ndigungsschutz in den EU-Mitgliedsstaaten soll gelockert werden.';
 WOMT_aThesen[27][1]=new Array();
 WOMT_aThesen[27][1][0]='Dismissal protection';
 WOMT_aThesen[27][1][1]='Dismissal protection laws should be eased in EU member states.';
@@ -601,8 +601,8 @@ WOMT_aThesenThema[27]='0';
 WOMT_aThesenParteien[27]=new Array();
 WOMT_aThesen[28]=new Array();
 WOMT_aThesen[28][0]=new Array();
-WOMT_aThesen[28][0][0]='US-Stützpunkte';
-WOMT_aThesen[28][0][1]='Die USA sollen ihre militärischen Stützpunkte innerhalb der Europäischen Union aufgeben.';
+WOMT_aThesen[28][0][0]='US-StÃ¼tzpunkte';
+WOMT_aThesen[28][0][1]='Die USA sollen ihre militÃ¤rischen StÃ¼tzpunkte innerhalb der EuropÃ¤ischen Union aufgeben.';
 WOMT_aThesen[28][1]=new Array();
 WOMT_aThesen[28][1][0]='US military bases';
 WOMT_aThesen[28][1][1]='The US should close down its military bases within the European Union.';
@@ -611,7 +611,7 @@ WOMT_aThesenParteien[28]=new Array();
 WOMT_aThesen[29]=new Array();
 WOMT_aThesen[29][0]=new Array();
 WOMT_aThesen[29][0][0]='D-Mark';
-WOMT_aThesen[29][0][1]='Deutschland soll aus der Währungsunion austreten und die D-Mark wieder einführen.';
+WOMT_aThesen[29][0][1]='Deutschland soll aus der WÃ¤hrungsunion austreten und die D-Mark wieder einfÃ¼hren.';
 WOMT_aThesen[29][1]=new Array();
 WOMT_aThesen[29][1][0]='D-mark';
 WOMT_aThesen[29][1][1]='Germany should withdraw from the monetary union and reintroduce the D-mark.';
@@ -620,7 +620,7 @@ WOMT_aThesenParteien[29]=new Array();
 WOMT_aThesen[30]=new Array();
 WOMT_aThesen[30][0]=new Array();
 WOMT_aThesen[30][0][0]='UNO-Sicherheitsrat';
-WOMT_aThesen[30][0][1]='Ein einziger ständiger Sitz für alle EU-Mitgliedsländer im UNO-Sicherheitsrat!';
+WOMT_aThesen[30][0][1]='Ein einziger stÃ¤ndiger Sitz fÃ¼r alle EU-MitgliedslÃ¤nder im UNO-Sicherheitsrat!';
 WOMT_aThesen[30][1]=new Array();
 WOMT_aThesen[30][1][0]='UN Security Council';
 WOMT_aThesen[30][1][1]='There should be a single seat for all EU member states on the UN Security Council!';
@@ -638,7 +638,7 @@ WOMT_aThesenParteien[31]=new Array();
 WOMT_aThesen[32]=new Array();
 WOMT_aThesen[32][0]=new Array();
 WOMT_aThesen[32][0][0]='Mindestlohn';
-WOMT_aThesen[32][0][1]='Jeder EU-Staat soll einen gesetzlichen Mindestlohn einführen.';
+WOMT_aThesen[32][0][1]='Jeder EU-Staat soll einen gesetzlichen Mindestlohn einfÃ¼hren.';
 WOMT_aThesen[32][1]=new Array();
 WOMT_aThesen[32][1][0]='Minimum wage';
 WOMT_aThesen[32][1][1]='Every EU state should introduce a legal minimum wage.';
@@ -656,7 +656,7 @@ WOMT_aThesenParteien[33]=new Array();
 WOMT_aThesen[34]=new Array();
 WOMT_aThesen[34][0]=new Array();
 WOMT_aThesen[34][0][0]='Verschuldung';
-WOMT_aThesen[34][0][1]='Auch während der Wirtschaftskrise muss eine zu hohe Neuverschuldung der Staaten in der Euro-Zone bestraft werden.';
+WOMT_aThesen[34][0][1]='Auch wÃ¤hrend der Wirtschaftskrise muss eine zu hohe Neuverschuldung der Staaten in der Euro-Zone bestraft werden.';
 WOMT_aThesen[34][1]=new Array();
 WOMT_aThesen[34][1][0]='Debt';
 WOMT_aThesen[34][1][1]='Even during the economic crisis, states within the Eurozone that incur too much debt should be penalised.';
@@ -673,8 +673,8 @@ WOMT_aThesenThema[35]='0';
 WOMT_aThesenParteien[35]=new Array();
 WOMT_aThesen[36]=new Array();
 WOMT_aThesen[36][0]=new Array();
-WOMT_aThesen[36][0][0]='Bürgerentscheide';
-WOMT_aThesen[36][0][1]='Es sollen EU-weite Bürgerentscheide eingeführt werden.';
+WOMT_aThesen[36][0][0]='BÃ¼rgerentscheide';
+WOMT_aThesen[36][0][1]='Es sollen EU-weite BÃ¼rgerentscheide eingefÃ¼hrt werden.';
 WOMT_aThesen[36][1]=new Array();
 WOMT_aThesen[36][1][0]='Referendums';
 WOMT_aThesen[36][1][1]='EU-wide referendums should be introduced.';
@@ -1846,11 +1846,11 @@ WOMT_aParteienChecksum[2][0]='038-018-005-015#cd05f519cbd9d62463f787bc72143ad4#+
 WOMT_aParteienChecksum[2][1]='038-018-005-015#cd05f519cbd9d62463f787bc72143ad4#+1-1-1+1-1+0-1+1-1+1-1+1+1-1+0-1+1+1-1-1-1+1+1+1+1+0+1-1+0-1+1-1+1-1+0+1+1+1';
 WOMT_aParteien[2]=new Array();
 WOMT_aParteien[2][0]=new Array();
-WOMT_aParteien[2][0][0]='BÜNDNIS 90/DIE GRÜNEN';
-WOMT_aParteien[2][0][1]='GRÜNE';
+WOMT_aParteien[2][0][0]='BÃœNDNIS 90/DIE GRÃœNEN';
+WOMT_aParteien[2][0][1]='GRÃœNE';
 WOMT_aParteien[2][1]=new Array();
-WOMT_aParteien[2][1][0]='BÜNDNIS 90/DIE GRÜNEN';
-WOMT_aParteien[2][1][1]='GRÜNE';
+WOMT_aParteien[2][1][0]='BÃœNDNIS 90/DIE GRÃœNEN';
+WOMT_aParteien[2][1][1]='GRÃœNE';
 WOMT_aParteienURL[3]= "";
 WOMT_aParteiFix[3]= 1;
 WOMT_aParteienLogos[3]=new Array();
@@ -1986,11 +1986,11 @@ WOMT_aParteienChecksum[9][0]='038-024-002-012#d685171f63dcd84b905bdef642fbeefc#+
 WOMT_aParteienChecksum[9][1]='038-024-002-012#d685171f63dcd84b905bdef642fbeefc#+1+1-1+1+0+1-1+1-1+1-1+1+1+0+1+1+1+1+1-1-1+1+1+1+1+1-1-1-1-1-1+1+1+1-1+1+1+1';
 WOMT_aParteien[9]=new Array();
 WOMT_aParteien[9][0]=new Array();
-WOMT_aParteien[9][0][0]='Ökologisch-Demokratische Partei';
-WOMT_aParteien[9][0][1]='ödp';
+WOMT_aParteien[9][0][0]='Ã–kologisch-Demokratische Partei';
+WOMT_aParteien[9][0][1]='Ã¶dp';
 WOMT_aParteien[9][1]=new Array();
-WOMT_aParteien[9][1][0]='Ökologisch-Demokratische Partei';
-WOMT_aParteien[9][1][1]='ödp';
+WOMT_aParteien[9][1][0]='Ã–kologisch-Demokratische Partei';
+WOMT_aParteien[9][1][1]='Ã¶dp';
 WOMT_aParteienURL[10]= "";
 WOMT_aParteiFix[10]= 0;
 WOMT_aParteienLogos[10]=new Array();
@@ -2026,10 +2026,10 @@ WOMT_aParteienChecksum[11][0]='038-018-004-016#9d4cad1e999048356a9db489ed619f34#
 WOMT_aParteienChecksum[11][1]='038-018-004-016#9d4cad1e999048356a9db489ed619f34#+1+1+1-1+1-1-1+0+1+1+0-1-1+1+1+1-1+1-1-1-1-1+1+1-1+0-1-1+1-1+1+1-1+1+1+0+1-1';
 WOMT_aParteien[11]=new Array();
 WOMT_aParteien[11][0]=new Array();
-WOMT_aParteien[11][0][0]='Ab jetzt...Bündnis für Deutschland, für Demokratie durch Volksabstimmung';
+WOMT_aParteien[11][0][0]='Ab jetzt...BÃ¼ndnis fÃ¼r Deutschland, fÃ¼r Demokratie durch Volksabstimmung';
 WOMT_aParteien[11][0][1]='Volksabstimmung';
 WOMT_aParteien[11][1]=new Array();
-WOMT_aParteien[11][1][0]='Ab jetzt...Bündnis für Deutschland, für Demokratie durch Volksabstimmung';
+WOMT_aParteien[11][1][0]='Ab jetzt...BÃ¼ndnis fÃ¼r Deutschland, fÃ¼r Demokratie durch Volksabstimmung';
 WOMT_aParteien[11][1][1]='Volksabstimmung';
 WOMT_aParteienURL[12]= "";
 WOMT_aParteiFix[12]= 0;
@@ -2066,10 +2066,10 @@ WOMT_aParteienChecksum[13][0]='038-023-008-007#69f3ce370d08ace6112752cdb3b94b24#
 WOMT_aParteienChecksum[13][1]='038-023-008-007#69f3ce370d08ace6112752cdb3b94b24#+0+1+1+1+1+1+0-1-1+1+1+1+1-1+1+1+1+1-1+0+1+1+0+1-1+1-1+0+0+0-1+1+0+1+1+1+1+1';
 WOMT_aParteien[13]=new Array();
 WOMT_aParteien[13][0]=new Array();
-WOMT_aParteien[13][0][0]='CHRISTLICHE MITTE - Für ein Deutschland nach GOTTES Geboten';
+WOMT_aParteien[13][0][0]='CHRISTLICHE MITTE - FÃ¼r ein Deutschland nach GOTTES Geboten';
 WOMT_aParteien[13][0][1]='CM';
 WOMT_aParteien[13][1]=new Array();
-WOMT_aParteien[13][1][0]='CHRISTLICHE MITTE - Für ein Deutschland nach GOTTES Geboten';
+WOMT_aParteien[13][1][0]='CHRISTLICHE MITTE - FÃ¼r ein Deutschland nach GOTTES Geboten';
 WOMT_aParteien[13][1][1]='CM';
 WOMT_aParteienURL[14]= "";
 WOMT_aParteiFix[14]= 0;
@@ -2106,10 +2106,10 @@ WOMT_aParteienChecksum[15][0]='038-012-009-017#55cfe0cc52aa83f2a777ec452f33e84a#
 WOMT_aParteienChecksum[15][1]='038-012-009-017#55cfe0cc52aa83f2a777ec452f33e84a#+0+1-1+1-1+1-1+1-1+1-1+0+1-1+0-1+0-1-1-1+0+1+1+1-1-1-1-1+1-1+0+0+1-1-1+0+1+0';
 WOMT_aParteien[15]=new Array();
 WOMT_aParteien[15][0]=new Array();
-WOMT_aParteien[15][0][0]='Partei für Soziale Gleichheit, Sektion der Vierten Internationale';
+WOMT_aParteien[15][0][0]='Partei fÃ¼r Soziale Gleichheit, Sektion der Vierten Internationale';
 WOMT_aParteien[15][0][1]='PSG';
 WOMT_aParteien[15][1]=new Array();
-WOMT_aParteien[15][1][0]='Partei für Soziale Gleichheit, Sektion der Vierten Internationale';
+WOMT_aParteien[15][1][0]='Partei fÃ¼r Soziale Gleichheit, Sektion der Vierten Internationale';
 WOMT_aParteien[15][1][1]='PSG';
 WOMT_aParteienURL[16]= "";
 WOMT_aParteiFix[16]= 0;
@@ -2126,10 +2126,10 @@ WOMT_aParteienChecksum[16][0]='038-019-004-015#b16b571ca97344ca2eef6b96810e9ed4#
 WOMT_aParteienChecksum[16][1]='038-019-004-015#b16b571ca97344ca2eef6b96810e9ed4#-1+1+1-1+1-1+1+1+0+1+0+1-1-1-1-1+1+1+1+0-1-1+1+1-1+0-1-1-1-1+1+1+1+1+1+1+1-1';
 WOMT_aParteien[16]=new Array();
 WOMT_aParteien[16][0]=new Array();
-WOMT_aParteien[16][0][0]='50Plus Das Generationen-Bündnis';
+WOMT_aParteien[16][0][0]='50Plus Das Generationen-BÃ¼ndnis';
 WOMT_aParteien[16][0][1]='50Plus';
 WOMT_aParteien[16][1]=new Array();
-WOMT_aParteien[16][1][0]='50Plus Das Generationen-Bündnis';
+WOMT_aParteien[16][1][0]='50Plus Das Generationen-BÃ¼ndnis';
 WOMT_aParteien[16][1][1]='50Plus';
 WOMT_aParteienURL[17]= "";
 WOMT_aParteiFix[17]= 0;
@@ -2146,10 +2146,10 @@ WOMT_aParteienChecksum[17][0]='038-019-005-014#2507c757b94fb0784efd302e42d4042d#
 WOMT_aParteienChecksum[17][1]='038-019-005-014#2507c757b94fb0784efd302e42d4042d#+1-1+0-1+1-1-1+1+0+1-1+1+1-1+1+1+0+1-1-1-1+1+1+1+1+1-1+0+1-1-1+1-1+1+0+1-1+1';
 WOMT_aParteien[17]=new Array();
 WOMT_aParteien[17][0]=new Array();
-WOMT_aParteien[17][0][0]='AUF - Partei für Arbeit, Umwelt und Familie, Christen für Deutschland';
+WOMT_aParteien[17][0][0]='AUF - Partei fÃ¼r Arbeit, Umwelt und Familie, Christen fÃ¼r Deutschland';
 WOMT_aParteien[17][0][1]='AUF';
 WOMT_aParteien[17][1]=new Array();
-WOMT_aParteien[17][1][0]='AUF - Partei für Arbeit, Umwelt und Familie, Christen für Deutschland';
+WOMT_aParteien[17][1][0]='AUF - Partei fÃ¼r Arbeit, Umwelt und Familie, Christen fÃ¼r Deutschland';
 WOMT_aParteien[17][1][1]='AUF';
 WOMT_aParteienURL[18]= "";
 WOMT_aParteiFix[18]= 0;
@@ -2206,10 +2206,10 @@ WOMT_aParteienChecksum[20][0]='038-022-000-016#47daa3eb36925f33e13b58558f1b2dfc#
 WOMT_aParteienChecksum[20][1]='038-022-000-016#47daa3eb36925f33e13b58558f1b2dfc#+1+1-1-1-1+1-1+1+1+1-1+1+1+1+1+1-1-1+1-1-1+1+1+1+1+1+1-1+1-1+1-1-1-1-1+1+1-1';
 WOMT_aParteien[20]=new Array();
 WOMT_aParteien[20][0]=new Array();
-WOMT_aParteien[20][0][0]='Die Violetten, für spirituelle Politik';
+WOMT_aParteien[20][0][0]='Die Violetten, fÃ¼r spirituelle Politik';
 WOMT_aParteien[20][0][1]='DIE VIOLETTEN';
 WOMT_aParteien[20][1]=new Array();
-WOMT_aParteien[20][1][0]='Die Violetten, für spirituelle Politik';
+WOMT_aParteien[20][1][0]='Die Violetten, fÃ¼r spirituelle Politik';
 WOMT_aParteien[20][1][1]='DIE VIOLETTEN';
 WOMT_aParteienURL[21]= "";
 WOMT_aParteiFix[21]= 0;
@@ -2246,10 +2246,10 @@ WOMT_aParteienChecksum[22][0]='038-028-001-009#1d5589ae9e72c5936837c6ebf19ff036#
 WOMT_aParteienChecksum[22][1]='038-028-001-009#1d5589ae9e72c5936837c6ebf19ff036#+1+1+1+1+1+1-1+1+0+1+1-1+1+1+1+1+1+1+1-1-1+1+1+1+1-1-1-1+1-1+1-1+1+1+1+1+1+1';
 WOMT_aParteien[22]=new Array();
 WOMT_aParteien[22][0]=new Array();
-WOMT_aParteien[22][0][0]='Freie Bürger-Initiative';
+WOMT_aParteien[22][0][0]='Freie BÃ¼rger-Initiative';
 WOMT_aParteien[22][0][1]='FBI';
 WOMT_aParteien[22][1]=new Array();
-WOMT_aParteien[22][1][0]='Freie Bürger-Initiative';
+WOMT_aParteien[22][1][0]='Freie BÃ¼rger-Initiative';
 WOMT_aParteien[22][1][1]='FBI';
 WOMT_aParteienURL[23]= "";
 WOMT_aParteiFix[23]= 0;
@@ -2266,10 +2266,10 @@ WOMT_aParteienChecksum[23][0]='038-009-026-003#e1493aa54ece5ee98ee37f94ded561e0#
 WOMT_aParteienChecksum[23][1]='038-009-026-003#e1493aa54ece5ee98ee37f94ded561e0#+0+1+1+0+0+0-1+0+0+1+0+1+0+0+1+1+0+0+0+0-1+0+0+1+0+0+0+0+0-1+0+0+0+0+1+0+1+0';
 WOMT_aParteien[23]=new Array();
 WOMT_aParteien[23][0]=new Array();
-WOMT_aParteien[23][0][0]='FÜR VOLKSENTSCHEIDE (Wählergemeinschaft), Gerechtigkeit braucht Bürgerrechte - Wir danken für Ihr Vertrauen';
+WOMT_aParteien[23][0][0]='FÃœR VOLKSENTSCHEIDE (WÃ¤hlergemeinschaft), Gerechtigkeit braucht BÃ¼rgerrechte - Wir danken fÃ¼r Ihr Vertrauen';
 WOMT_aParteien[23][0][1]='VOLKSENTSCHEIDE';
 WOMT_aParteien[23][1]=new Array();
-WOMT_aParteien[23][1][0]='FÜR VOLKSENTSCHEIDE (Wählergemeinschaft), Gerechtigkeit braucht Bürgerrechte - Wir danken für Ihr Vertrauen';
+WOMT_aParteien[23][1][0]='FÃœR VOLKSENTSCHEIDE (WÃ¤hlergemeinschaft), Gerechtigkeit braucht BÃ¼rgerrechte - Wir danken fÃ¼r Ihr Vertrauen';
 WOMT_aParteien[23][1][1]='VOLKSENTSCHEIDE';
 WOMT_aParteienURL[24]= "";
 WOMT_aParteiFix[24]= 0;
@@ -2286,11 +2286,11 @@ WOMT_aParteienChecksum[24][0]='038-021-008-009#8082e6365a5cef543ce11ac4e400bbe2#
 WOMT_aParteienChecksum[24][1]='038-021-008-009#8082e6365a5cef543ce11ac4e400bbe2#+1+1-1+1+1+1+0+1+0+1+1+0+1-1-1+1+1+1+0-1-1+1+1+1+1-1+1+0-1-1-1+1+0+0+1+1+1+0';
 WOMT_aParteien[24]=new Array();
 WOMT_aParteien[24][0]=new Array();
-WOMT_aParteien[24][0][0]='FW FREIE WÄHLER';
-WOMT_aParteien[24][0][1]='FW FREIE WÄHLER';
+WOMT_aParteien[24][0][0]='FW FREIE WÃ„HLER';
+WOMT_aParteien[24][0][1]='FW FREIE WÃ„HLER';
 WOMT_aParteien[24][1]=new Array();
-WOMT_aParteien[24][1][0]='FW FREIE WÄHLER';
-WOMT_aParteien[24][1][1]='FW FREIE WÄHLER';
+WOMT_aParteien[24][1][0]='FW FREIE WÃ„HLER';
+WOMT_aParteien[24][1][1]='FW FREIE WÃ„HLER';
 WOMT_aParteienURL[25]= "";
 WOMT_aParteiFix[25]= 0;
 WOMT_aParteienLogos[25]=new Array();
@@ -2378,10 +2378,10 @@ WOMT_aThemen[0]=new Array();
 WOMT_aThemen[0][0]='Dummy Thema 1';
 WOMT_aThemen[0][1]='Dummy Thema 1';
 WOMT_aTexte['0_bn_hinweis_text']=new Array();
-WOMT_aTexte['0_bn_hinweis_text'][0]='Hinweis: Auf den Folgeseiten erscheint die Navigation an erster Stelle und bietet die Möglichkeit zu den entsprechenden Inhalten, zum Beispiel den jeweiligen Thesen zu springen.';
+WOMT_aTexte['0_bn_hinweis_text'][0]='Hinweis: Auf den Folgeseiten erscheint die Navigation an erster Stelle und bietet die MÃ¶glichkeit zu den entsprechenden Inhalten, zum Beispiel den jeweiligen Thesen zu springen.';
 WOMT_aTexte['0_bn_hinweis_text'][1]='Explanation: On the following pages you can navigate through different content, for example from one statement to another.';
 WOMT_aTexte['0_bn_hinweis_text_2']=new Array();
-WOMT_aTexte['0_bn_hinweis_text_2'][0]='Hinweis: Nach dem Start des Wahl-O-Maten erscheint an dieser Stelle eine These, die im Anschluss mit den folgenden Entscheidungsmöglichkeiten beanwortet werden kann:';
+WOMT_aTexte['0_bn_hinweis_text_2'][0]='Hinweis: Nach dem Start des Wahl-O-Maten erscheint an dieser Stelle eine These, die im Anschluss mit den folgenden EntscheidungsmÃ¶glichkeiten beanwortet werden kann:';
 WOMT_aTexte['0_bn_hinweis_text_2'][1]='Explanation: Once you start the Wahl-O-Mat a statement will appear to which you can give one of the following answers:';
 WOMT_aTexte['0_bn_willkommen_text']=new Array();
 WOMT_aTexte['0_bn_willkommen_text'][0]='zum Willkommenstext';
@@ -2399,25 +2399,25 @@ WOMT_aTexte['0_select_english']=new Array();
 WOMT_aTexte['0_select_english'][0]='Englische Version';
 WOMT_aTexte['0_select_english'][1]='English version';
 WOMT_aTexte['0_select_english_title']=new Array();
-WOMT_aTexte['0_select_english_title'][0]='Englische Sprachversion auswählen';
+WOMT_aTexte['0_select_english_title'][0]='Englische Sprachversion auswÃ¤hlen';
 WOMT_aTexte['0_select_english_title'][1]='Select English version';
 WOMT_aTexte['0_select_deutsch']=new Array();
 WOMT_aTexte['0_select_deutsch'][0]='Deutsche Version';
 WOMT_aTexte['0_select_deutsch'][1]='German version';
 WOMT_aTexte['0_select_deutsch_title']=new Array();
-WOMT_aTexte['0_select_deutsch_title'][0]='Deutsche Sprachversion auswählen';
+WOMT_aTexte['0_select_deutsch_title'][0]='Deutsche Sprachversion auswÃ¤hlen';
 WOMT_aTexte['0_select_deutsch_title'][1]='Select German version';
 WOMT_aTexte['nav_votematch_text']=new Array();
-WOMT_aTexte['nav_votematch_text'][0]='Votematch Europe: Eine Idee - 12 Länder';
+WOMT_aTexte['nav_votematch_text'][0]='Votematch Europe: Eine Idee - 12 LÃ¤nder';
 WOMT_aTexte['nav_votematch_text'][1]='VoteMatch Europe: One idea - 12 countries';
 WOMT_aTexte['nav_votematch_title']=new Array();
-WOMT_aTexte['nav_votematch_title'][0]='Votematch Europe (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_votematch_title'][0]='Votematch Europe (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_votematch_title'][1]='Votematch Europe (this link opens in a new window)';
 WOMT_aTexte['0_skinselect_europa']=new Array();
 WOMT_aTexte['0_skinselect_europa'][0]='Europa-Skin';
 WOMT_aTexte['0_skinselect_europa'][1]='Europe skin';
 WOMT_aTexte['0_skinselect_europa_title']=new Array();
-WOMT_aTexte['0_skinselect_europa_title'][0]='Europa-Skin auswählen';
+WOMT_aTexte['0_skinselect_europa_title'][0]='Europa-Skin auswÃ¤hlen';
 WOMT_aTexte['0_skinselect_europa_title'][1]='Select Europe skin';
 WOMT_aTexte['5_subtitel']=new Array();
 WOMT_aTexte['5_subtitel'][0]='Ihre Positionen im Vergleich';
@@ -2426,10 +2426,10 @@ WOMT_aTexte['0_skinselect_std']=new Array();
 WOMT_aTexte['0_skinselect_std'][0]='Classic-Skin';
 WOMT_aTexte['0_skinselect_std'][1]='Classic skin';
 WOMT_aTexte['0_skinselect_std_title']=new Array();
-WOMT_aTexte['0_skinselect_std_title'][0]='Classic-Skin auswählen';
+WOMT_aTexte['0_skinselect_std_title'][0]='Classic-Skin auswÃ¤hlen';
 WOMT_aTexte['0_skinselect_std_title'][1]='Select Classic skin';
 WOMT_aTexte['4_text_werstehtzurwahl']=new Array();
-WOMT_aTexte['4_text_werstehtzurwahl'][0]='Möchten Sie mehr über die zur Wahl stehenden Parteien und Wählervereinigungen erfahren? Hier geht es zum Online-Angebot ';
+WOMT_aTexte['4_text_werstehtzurwahl'][0]='MÃ¶chten Sie mehr Ã¼ber die zur Wahl stehenden Parteien und WÃ¤hlervereinigungen erfahren? Hier geht es zum Online-Angebot ';
 WOMT_aTexte['4_text_werstehtzurwahl'][1]='Would you like to learn more about the parties running for election? Click here to go to the online service ';
 WOMT_aTexte['1_bn_thesennavigation_text']=new Array();
 WOMT_aTexte['1_bn_thesennavigation_text'][0]='zur Thesennavigation';
@@ -2438,7 +2438,7 @@ WOMT_aTexte['1_bn_zurthese_text']=new Array();
 WOMT_aTexte['1_bn_zurthese_text'][0]='zur These';
 WOMT_aTexte['1_bn_zurthese_text'][1]='Go to statement';
 WOMT_aTexte['1_fragen_bogus']=new Array();
-WOMT_aTexte['1_fragen_bogus'][0]='Bitte beantworten Sie die Thesen sorgfältig.';
+WOMT_aTexte['1_fragen_bogus'][0]='Bitte beantworten Sie die Thesen sorgfÃ¤ltig.';
 WOMT_aTexte['1_fragen_bogus'][1]='Please answer the statements carefully.';
 WOMT_aTexte['1_fragen_these']=new Array();
 WOMT_aTexte['1_fragen_these'][0]='These';
@@ -2453,19 +2453,19 @@ WOMT_aTexte['1_leiste_thesenochmal_title']=new Array();
 WOMT_aTexte['1_leiste_thesenochmal_title'][0]='Diese These erneut aufrufen.';
 WOMT_aTexte['1_leiste_thesenochmal_title'][1]='Call up this statement again.';
 WOMT_aTexte['1_leiste_vor_these']=new Array();
-WOMT_aTexte['1_leiste_vor_these'][0]='zur nächsten These [NR]';
+WOMT_aTexte['1_leiste_vor_these'][0]='zur nÃ¤chsten These [NR]';
 WOMT_aTexte['1_leiste_vor_these'][1]='Go to next statement [NR]';
 WOMT_aTexte['1_leiste_vor_zwischenauswertung']=new Array();
 WOMT_aTexte['1_leiste_vor_zwischenauswertung'][0]='weiter';
 WOMT_aTexte['1_leiste_vor_zwischenauswertung'][1]='Continue';
 WOMT_aTexte['1_leiste_zurueck_start']=new Array();
-WOMT_aTexte['1_leiste_zurueck_start'][0]='zurück zum Start';
+WOMT_aTexte['1_leiste_zurueck_start'][0]='zurÃ¼ck zum Start';
 WOMT_aTexte['1_leiste_zurueck_start'][1]='Back to start';
 WOMT_aTexte['1_leiste_zurueck_text']=new Array();
-WOMT_aTexte['1_leiste_zurueck_text'][0]='zurück';
+WOMT_aTexte['1_leiste_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['1_leiste_zurueck_text'][1]='Back';
 WOMT_aTexte['1_leiste_zurueck_these']=new Array();
-WOMT_aTexte['1_leiste_zurueck_these'][0]='zurück zur These [NR]';
+WOMT_aTexte['1_leiste_zurueck_these'][0]='zurÃ¼ck zur These [NR]';
 WOMT_aTexte['1_leiste_zurueck_these'][1]='Back to statement [NR]';
 WOMT_aTexte['1_these_neutral_taste_title']=new Array();
 WOMT_aTexte['1_these_neutral_taste_title'][0]='Neutral, Tastenkombination: Alt+x';
@@ -2480,10 +2480,10 @@ WOMT_aTexte['1_these_ueberspringen_taste_title']=new Array();
 WOMT_aTexte['1_these_ueberspringen_taste_title'][0]='These wird nicht gewertet, Tastenkombination: Alt+w';
 WOMT_aTexte['1_these_ueberspringen_taste_title'][1]='Statement not evaluated; Key combination: Alt+w';
 WOMT_aTexte['3_btn_zurueck_title']=new Array();
-WOMT_aTexte['3_btn_zurueck_title'][0]='Zurück zur Thesengewichtung';
+WOMT_aTexte['3_btn_zurueck_title'][0]='ZurÃ¼ck zur Thesengewichtung';
 WOMT_aTexte['3_btn_zurueck_title'][1]='Back to statement weighting';
 WOMT_aTexte['5_text']=new Array();
-WOMT_aTexte['5_text'][0]='Vergleichen Sie Ihre Positionen mit den Antworten der von Ihnen ausgewählten Parteien. Eine Übersicht mit den Antworten aller [PARTEIENANZAHL] Parteien auf die Wahl-O-Mat-Thesen können Sie hier als [PDF_TARGET]PDF herunterladen</a>.';
+WOMT_aTexte['5_text'][0]='Vergleichen Sie Ihre Positionen mit den Antworten der von Ihnen ausgewÃ¤hlten Parteien. Eine Ãœbersicht mit den Antworten aller [PARTEIENANZAHL] Parteien auf die Wahl-O-Mat-Thesen kÃ¶nnen Sie hier als [PDF_TARGET]PDF herunterladen</a>.';
 WOMT_aTexte['5_text'][1]='Compare your views with those of the parties you have selected. You can download an overview of the answers of all [PARTEIENANZAHL] parties to the Wahl-O-Mat statements here as a [PDF_TARGET]PDF</a>.';
 WOMT_aTexte['5_tabelle_head_ihreposition']=new Array();
 WOMT_aTexte['5_tabelle_head_ihreposition'][0]='Ihre<br />Pos.';
@@ -2492,7 +2492,7 @@ WOMT_aTexte['5_tabelle_head_info']=new Array();
 WOMT_aTexte['5_tabelle_head_info'][0]='Info';
 WOMT_aTexte['5_tabelle_head_info'][1]='Info';
 WOMT_aTexte['5_text2']=new Array();
-WOMT_aTexte['5_text2'][0]='Vergleichen Sie Ihre Positionen mit den Antworten der von Ihnen ausgewählten Parteien. Eine Übersicht mit den Antworten aller [PARTEIENANZAHL] Parteien auf die Wahl-O-Mat-Thesen können Sie hier als [PDF_TARGET]PDF herunterladen</a>.';
+WOMT_aTexte['5_text2'][0]='Vergleichen Sie Ihre Positionen mit den Antworten der von Ihnen ausgewÃ¤hlten Parteien. Eine Ãœbersicht mit den Antworten aller [PARTEIENANZAHL] Parteien auf die Wahl-O-Mat-Thesen kÃ¶nnen Sie hier als [PDF_TARGET]PDF herunterladen</a>.';
 WOMT_aTexte['5_text2'][1]='Compare your views with those of the parties you have selected. You can download an overview of the answers of all [PARTEIENANZAHL] parties to the Wahl-O-Mat statements here as a [PDF_TARGET]PDF</a>.';
 WOMT_aTexte['5_titel']=new Array();
 WOMT_aTexte['5_titel'][0]='Vergleich der Positionen';
@@ -2507,19 +2507,19 @@ WOMT_aTexte['5_bn_zurvergleichtabelle']=new Array();
 WOMT_aTexte['5_bn_zurvergleichtabelle'][0]='Zur Tabelle Vergleich der Positionen';
 WOMT_aTexte['5_bn_zurvergleichtabelle'][1]='Go back to chart comparing views';
 WOMT_aTexte['2_bn_hinweis']=new Array();
-WOMT_aTexte['2_bn_hinweis'][0]='Hinweis: Die folgende Tabelle besteht aus einem fünfzeiligen Tabellenkopf und einer Auflistung der 38 Thesen. Auf jede These folgt die von Ihnen ausgewählte Position, zum Beispiel "Ich stimmte nicht zu". Sie können diese These dann durch Auswahl des Kontrollfeldes doppelt gewichten.';
+WOMT_aTexte['2_bn_hinweis'][0]='Hinweis: Die folgende Tabelle besteht aus einem fÃ¼nfzeiligen Tabellenkopf und einer Auflistung der 38 Thesen. Auf jede These folgt die von Ihnen ausgewÃ¤hlte Position, zum Beispiel "Ich stimmte nicht zu". Sie kÃ¶nnen diese These dann durch Auswahl des Kontrollfeldes doppelt gewichten.';
 WOMT_aTexte['2_bn_hinweis'][1]='Explanation: The following table consists of four columns and a list of the 38 statements. Each statement is followed by the answer you selected, for example "disagree". By selecting the control field you can give a statement double weighting.';
 WOMT_aTexte['2_bn_thesengewichtung_text']=new Array();
 WOMT_aTexte['2_bn_thesengewichtung_text'][0]='zur Thesengewichtung';
 WOMT_aTexte['2_bn_thesengewichtung_text'][1]='Go to statement weighting';
 WOMT_aTexte['2_btn_zurueck_text']=new Array();
-WOMT_aTexte['2_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['2_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['2_btn_zurueck_text'][1]='Back';
 WOMT_aTexte['2_btn_zurueck_title']=new Array();
-WOMT_aTexte['2_btn_zurueck_title'][0]='zurück zur letzten These';
+WOMT_aTexte['2_btn_zurueck_title'][0]='zurÃ¼ck zur letzten These';
 WOMT_aTexte['2_btn_zurueck_title'][1]='Go back to previous statement';
 WOMT_aTexte['2_form_submit_text']=new Array();
-WOMT_aTexte['2_form_submit_text'][0]='Parteien auswählen';
+WOMT_aTexte['2_form_submit_text'][0]='Parteien auswÃ¤hlen';
 WOMT_aTexte['2_form_submit_text'][1]='Select parties';
 WOMT_aTexte['2_tabelle_auswahl']=new Array();
 WOMT_aTexte['2_tabelle_auswahl'][0]='These doppelt gewichten';
@@ -2534,7 +2534,7 @@ WOMT_aTexte['2_tabelle_these']=new Array();
 WOMT_aTexte['2_tabelle_these'][0]='These';
 WOMT_aTexte['2_tabelle_these'][1]='Statement';
 WOMT_aTexte['2_text_text']=new Array();
-WOMT_aTexte['2_text_text'][0]='Klicken Sie bitte auf die Thesen, die für Sie besonders wichtig sind. Der Wahl-O-Mat wird diese bei der Auswertung doppelt zählen. Sie erreichen dadurch ein noch genaueres Ergebnis.';
+WOMT_aTexte['2_text_text'][0]='Klicken Sie bitte auf die Thesen, die fÃ¼r Sie besonders wichtig sind. Der Wahl-O-Mat wird diese bei der Auswertung doppelt zÃ¤hlen. Sie erreichen dadurch ein noch genaueres Ergebnis.';
 WOMT_aTexte['2_text_text'][1]='Please click on the statements that are particularly important to you. The Wahl-O-Mat will give them double weighting in the final assessment, thus providing you with a more accurate result.';
 WOMT_aTexte['2_titel_text']=new Array();
 WOMT_aTexte['2_titel_text'][0]='Thesengewichtung';
@@ -2549,7 +2549,7 @@ WOMT_aTexte['2_legende_neutral']=new Array();
 WOMT_aTexte['2_legende_neutral'][0]='Neutral';
 WOMT_aTexte['2_legende_neutral'][1]='Neutral';
 WOMT_aTexte['2_legende_uebersprungen']=new Array();
-WOMT_aTexte['2_legende_uebersprungen'][0]='Übersprungen';
+WOMT_aTexte['2_legende_uebersprungen'][0]='Ãœbersprungen';
 WOMT_aTexte['2_legende_uebersprungen'][1]='Skip';
 WOMT_aTexte['4_bn_hinweis_tabelle']=new Array();
 WOMT_aTexte['4_bn_hinweis_tabelle'][0]='Hinweis: das Ergebnis mit den Positionen der Partei hat folgende Struktur:';
@@ -2564,25 +2564,25 @@ WOMT_aTexte['4_btn_thesenvergleich_title']=new Array();
 WOMT_aTexte['4_btn_thesenvergleich_title'][0]='zum Thesenvergleich';
 WOMT_aTexte['4_btn_thesenvergleich_title'][1]='Go to statement comparison';
 WOMT_aTexte['4_btn_zurueck_gewichtung_text']=new Array();
-WOMT_aTexte['4_btn_zurueck_gewichtung_text'][0]='zurück zur Gewichtung';
+WOMT_aTexte['4_btn_zurueck_gewichtung_text'][0]='zurÃ¼ck zur Gewichtung';
 WOMT_aTexte['4_btn_zurueck_gewichtung_text'][1]='Go back to weighting';
 WOMT_aTexte['4_btn_zurueck_gewichtung_title']=new Array();
-WOMT_aTexte['4_btn_zurueck_gewichtung_title'][0]='zurück zur Gewichtung';
+WOMT_aTexte['4_btn_zurueck_gewichtung_title'][0]='zurÃ¼ck zur Gewichtung';
 WOMT_aTexte['4_btn_zurueck_gewichtung_title'][1]='Go back to weighting';
 WOMT_aTexte['4_ergebnis']=new Array();
 WOMT_aTexte['4_ergebnis'][0]='Ihr Wahl-O-Mat Ergebnis';
 WOMT_aTexte['4_ergebnis'][1]='Your Wahl-O-Mat result';
 WOMT_aTexte['4_erg_noergebnis_neutral']=new Array();
-WOMT_aTexte['4_erg_noergebnis_neutral'][0]='Leider kann der Wahl-O-Mat auf der Grundlage Ihres Antwortmusters kein individuelles und zuverlässiges Ergebnis berechnen. Sie können nun aus folgenden Möglichkeiten auswählen:';
+WOMT_aTexte['4_erg_noergebnis_neutral'][0]='Leider kann der Wahl-O-Mat auf der Grundlage Ihres Antwortmusters kein individuelles und zuverlÃ¤ssiges Ergebnis berechnen. Sie kÃ¶nnen nun aus folgenden MÃ¶glichkeiten auswÃ¤hlen:';
 WOMT_aTexte['4_erg_noergebnis_neutral'][1]='Unfortunately Wahl-O-Mat is unable to calculate an individual and reliable result on the basis of your answers. You can now select one of the following options:';
 WOMT_aTexte['4_erg_noergebnis_theseueberspringen']=new Array();
-WOMT_aTexte['4_erg_noergebnis_theseueberspringen'][0]='Leider kann der Wahl-O-Mat auf der Grundlage Ihres Antwortmusters kein individuelles und zuverlässiges Ergebnis berechnen. Sie können nun aus folgenden Möglichkeiten auswählen:';
+WOMT_aTexte['4_erg_noergebnis_theseueberspringen'][0]='Leider kann der Wahl-O-Mat auf der Grundlage Ihres Antwortmusters kein individuelles und zuverlÃ¤ssiges Ergebnis berechnen. Sie kÃ¶nnen nun aus folgenden MÃ¶glichkeiten auswÃ¤hlen:';
 WOMT_aTexte['4_erg_noergebnis_theseueberspringen'][1]='Unfortunately Wahl-O-Mat is unable to calculate an individual and reliable result on the basis of your answers. You can now select one of the following options:';
 WOMT_aTexte['4_erg_parteien_gleichstand']=new Array();
 WOMT_aTexte['4_erg_parteien_gleichstand'][0]='Zwei oder mehr Parteien in der nachfolgenden Statistik haben in Ihrem Wahl-O-Mat Ergebnis die gleiche Punktzahl erlangt.';
 WOMT_aTexte['4_erg_parteien_gleichstand'][1]='Two or more parties in the following set of statistics achieved the same score in your Wahl-O-Mat result.';
 WOMT_aTexte['4_erg_text']=new Array();
-WOMT_aTexte['4_erg_text'][0]='Ihre Angaben haben die größte Übereinstimmung mit den Positionen der';
+WOMT_aTexte['4_erg_text'][0]='Ihre Angaben haben die grÃ¶ÃŸte Ãœbereinstimmung mit den Positionen der';
 WOMT_aTexte['4_erg_text'][1]='Your answers show the greatest degree of correspondence with the views of the';
 WOMT_aTexte['4_position_der_partei']=new Array();
 WOMT_aTexte['4_position_der_partei'][0]='Position der Partei [PARTEI] zu allen Thesen';
@@ -2591,17 +2591,17 @@ WOMT_aTexte['4_tabelle_partei']=new Array();
 WOMT_aTexte['4_tabelle_partei'][0]='Partei';
 WOMT_aTexte['4_tabelle_partei'][1]='Party';
 WOMT_aTexte['4_tabelle_uebereinstimmung']=new Array();
-WOMT_aTexte['4_tabelle_uebereinstimmung'][0]='Übereinstimmung';
+WOMT_aTexte['4_tabelle_uebereinstimmung'][0]='Ãœbereinstimmung';
 WOMT_aTexte['4_tabelle_uebereinstimmung'][1]='Correspondence';
 WOMT_aTexte['3_mehr_informationen']=new Array();
-WOMT_aTexte['3_mehr_informationen'][0]='Mehr Informationen zur Partei [PARTEI] (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['3_mehr_informationen'][0]='Mehr Informationen zur Partei [PARTEI] (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['3_mehr_informationen'][1]='More information on the party [PARTEI] (This link opens a new window)';
 WOMT_aTexte['popup_faq_9_text']=new Array();
 WOMT_aTexte['popup_faq_9_text'][0]='Wie kann ich die Einstellungen der verschiedenen Parteien zu einzelnen Thesen erfahren und vergleichen?\
 <br/>\
-<br/>Auf dem Ergebnisbildschirm sehen Sie direkt, wie jede der von Ihnen ausgewählten Parteien oder Wählervereinigungen zu jeder These gestimmt hat (stimme zu, stimme nicht zu, neutral). Ein Klick auf das Icon\
-<br/>zeigt gleichzeitig eine kurze Begründung der Partei bzw. Wählervereinigung für ihre Position an, sofern eine Begründung abgeben wurde.\
-<br/>Wenn Sie auf dem Ergebnisbildschirm das Logo einer Partei bzw. Wählervereinigung anklicken, können Sie auf der dann folgenden Seite Ihre eigenen Stellungnahmen zu jeder These mit denen der Partei bzw. Wählervereinigung im Detail vergleichen. Auch dort finden Sie unter dem Icon "P" kurze Begründungen der Partei bzw. Wählervereinigung für deren Positionierung.\
+<br/>Auf dem Ergebnisbildschirm sehen Sie direkt, wie jede der von Ihnen ausgewÃ¤hlten Parteien oder WÃ¤hlervereinigungen zu jeder These gestimmt hat (stimme zu, stimme nicht zu, neutral). Ein Klick auf das Icon\
+<br/>zeigt gleichzeitig eine kurze BegrÃ¼ndung der Partei bzw. WÃ¤hlervereinigung fÃ¼r ihre Position an, sofern eine BegrÃ¼ndung abgeben wurde.\
+<br/>Wenn Sie auf dem Ergebnisbildschirm das Logo einer Partei bzw. WÃ¤hlervereinigung anklicken, kÃ¶nnen Sie auf der dann folgenden Seite Ihre eigenen Stellungnahmen zu jeder These mit denen der Partei bzw. WÃ¤hlervereinigung im Detail vergleichen. Auch dort finden Sie unter dem Icon "P" kurze BegrÃ¼ndungen der Partei bzw. WÃ¤hlervereinigung fÃ¼r deren Positionierung.\
 <br/>';
 WOMT_aTexte['popup_faq_9_text'][1]='How can I find out about the views of the different parties on individual statements and compare them?\
 <br/>\
@@ -2615,7 +2615,7 @@ WOMT_aTexte['4_image_alt_parteienauswahl']=new Array();
 WOMT_aTexte['4_image_alt_parteienauswahl'][0]='Zur Parteiauswahl';
 WOMT_aTexte['4_image_alt_parteienauswahl'][1]='Go to selection of parties';
 WOMT_aTexte['popup_faq_9_frage']=new Array();
-WOMT_aTexte['popup_faq_9_frage'][0]='Ich möchte mehr erfahren als nur das Endergebnis.';
+WOMT_aTexte['popup_faq_9_frage'][0]='Ich mÃ¶chte mehr erfahren als nur das Endergebnis.';
 WOMT_aTexte['popup_faq_9_frage'][1]='I would like to learn more than just the final result.';
 WOMT_aTexte['6_bn_hinweis_1']=new Array();
 WOMT_aTexte['6_bn_hinweis_1'][0]='Hinweis: es folgt eine Bilderlegende.';
@@ -2636,13 +2636,13 @@ WOMT_aTexte['6_btn_nutzungszahlen_title']=new Array();
 WOMT_aTexte['6_btn_nutzungszahlen_title'][0]='Informationen zu den Nutzerzahlen';
 WOMT_aTexte['6_btn_nutzungszahlen_title'][1]='Information on user numbers';
 WOMT_aTexte['6_btn_zurueck_text']=new Array();
-WOMT_aTexte['6_btn_zurueck_text'][0]='zurück zur Gesamtübersicht';
+WOMT_aTexte['6_btn_zurueck_text'][0]='zurÃ¼ck zur GesamtÃ¼bersicht';
 WOMT_aTexte['6_btn_zurueck_text'][1]='Go back to overview';
 WOMT_aTexte['6_btn_zurueck_title']=new Array();
-WOMT_aTexte['6_btn_zurueck_title'][0]='zurück zur Gesamtübersicht';
+WOMT_aTexte['6_btn_zurueck_title'][0]='zurÃ¼ck zur GesamtÃ¼bersicht';
 WOMT_aTexte['6_btn_zurueck_title'][1]='Go back to overview';
 WOMT_aTexte['nav_parteiprofile_title']=new Array();
-WOMT_aTexte['nav_parteiprofile_title'][0]='Parteienprofile (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_parteiprofile_title'][0]='Parteienprofile (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_parteiprofile_title'][1]='Party profiles (this link opens a new window)';
 WOMT_aTexte['nav_parteiprofile_text']=new Array();
 WOMT_aTexte['nav_parteiprofile_text'][0]='Welche Parteien<br /> stehen zur Wahl?';
@@ -2660,7 +2660,7 @@ WOMT_aTexte['6_tabelle_head_positionpartei']=new Array();
 WOMT_aTexte['6_tabelle_head_positionpartei'][0]='Die Position der Partei';
 WOMT_aTexte['6_tabelle_head_positionpartei'][1]='The view of the party';
 WOMT_aTexte['6_tabelle_head_begruendung']=new Array();
-WOMT_aTexte['6_tabelle_head_begruendung'][0]='Begründung der Partei';
+WOMT_aTexte['6_tabelle_head_begruendung'][0]='BegrÃ¼ndung der Partei';
 WOMT_aTexte['6_tabelle_head_begruendung'][1]='The reasoning of the party';
 WOMT_aTexte['6_tabelle_head_info']=new Array();
 WOMT_aTexte['6_tabelle_head_info'][0]='Mehr zum Thema';
@@ -2669,19 +2669,19 @@ WOMT_aTexte['6_tabelle_inhalt_mehrzumthema_text']=new Array();
 WOMT_aTexte['6_tabelle_inhalt_mehrzumthema_text'][0]='Info';
 WOMT_aTexte['6_tabelle_inhalt_mehrzumthema_text'][1]='Info';
 WOMT_aTexte['6_tabelle_inhalt_mehrzumthema_title']=new Array();
-WOMT_aTexte['6_tabelle_inhalt_mehrzumthema_title'][0]='Weitere Informationen zum Thema (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['6_tabelle_inhalt_mehrzumthema_title'][0]='Weitere Informationen zum Thema (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['6_tabelle_inhalt_mehrzumthema_title'][1]='Further information on the subject (this link opens a new window)';
 WOMT_aTexte['6_tabelle_popup_parteithese_title']=new Array();
-WOMT_aTexte['6_tabelle_popup_parteithese_title'][0]='Klicken, um Begründung zu lesen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['6_tabelle_popup_parteithese_title'][0]='Klicken, um BegrÃ¼ndung zu lesen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['6_tabelle_popup_parteithese_title'][1]='Click to read reasoning (this link opens a new window)';
 WOMT_aTexte['6_text_text']=new Array();
-WOMT_aTexte['6_text_text'][0]='Und wie stehen die anderen Parteien dazu? Klicken Sie auf das Logo einer Partei, um ihre Position zu allen Thesen samt Begründung zu sehen.';
+WOMT_aTexte['6_text_text'][0]='Und wie stehen die anderen Parteien dazu? Klicken Sie auf das Logo einer Partei, um ihre Position zu allen Thesen samt BegrÃ¼ndung zu sehen.';
 WOMT_aTexte['6_text_text'][1]='And what do the other parties have to say about this? Click on the logo of a party to read its views on all statements, including its reasoning.';
 WOMT_aTexte['6_title_text']=new Array();
 WOMT_aTexte['6_title_text'][0]='Vergleich im Detail';
 WOMT_aTexte['6_title_text'][1]='Detailed comparison';
 WOMT_aTexte['7_bn_hinweis']=new Array();
-WOMT_aTexte['7_bn_hinweis'][0]='Hinweis: Die folgenden zwei Zahlen sind Nutzergrenzen in der Grafik der Nutzungsstatistik und können ignoriert werden. Anschließend folgt eine Auflistung der Gesamtnutzerzahlen pro Tag.';
+WOMT_aTexte['7_bn_hinweis'][0]='Hinweis: Die folgenden zwei Zahlen sind Nutzergrenzen in der Grafik der Nutzungsstatistik und kÃ¶nnen ignoriert werden. AnschlieÃŸend folgt eine Auflistung der Gesamtnutzerzahlen pro Tag.';
 WOMT_aTexte['7_bn_hinweis'][1]='Explanation: The following two numbers are user limits in the graph on user statistics and can be ignored. They are followed by a list of the total number of users per day.';
 WOMT_aTexte['7_bn_hinweis_2']=new Array();
 WOMT_aTexte['7_bn_hinweis_2'][0]='Hinweis: Der folgende Zahlenblock stellt Datumspositionen der Nutzungsstatistik dar und kann ignoriert werden.';
@@ -2690,10 +2690,10 @@ WOMT_aTexte['7_bn_zurnutzungsstatistik_text']=new Array();
 WOMT_aTexte['7_bn_zurnutzungsstatistik_text'][0]='zur Nutzungsstatistik';
 WOMT_aTexte['7_bn_zurnutzungsstatistik_text'][1]='Go to user statistics';
 WOMT_aTexte['7_btn_zurueck_text']=new Array();
-WOMT_aTexte['7_btn_zurueck_text'][0]='zurück';
+WOMT_aTexte['7_btn_zurueck_text'][0]='zurÃ¼ck';
 WOMT_aTexte['7_btn_zurueck_text'][1]='Back';
 WOMT_aTexte['7_btn_zurueck_title']=new Array();
-WOMT_aTexte['7_btn_zurueck_title'][0]='zurück';
+WOMT_aTexte['7_btn_zurueck_title'][0]='zurÃ¼ck';
 WOMT_aTexte['7_btn_zurueck_title'][1]='Back';
 WOMT_aTexte['7_danke_text']=new Array();
 WOMT_aTexte['7_danke_text'][0]='Vielen Dank!<br/>\
@@ -2707,7 +2707,7 @@ WOMT_aTexte['7_title_text']=new Array();
 WOMT_aTexte['7_title_text'][0]='Nutzungsstatistik';
 WOMT_aTexte['7_title_text'][1]='User statistics';
 WOMT_aTexte['a_bn_menue_text']=new Array();
-WOMT_aTexte['a_bn_menue_text'][0]='zum Menü der zusätzlichen Angebote';
+WOMT_aTexte['a_bn_menue_text'][0]='zum MenÃ¼ der zusÃ¤tzlichen Angebote';
 WOMT_aTexte['a_bn_menue_text'][1]='Go to menu of additional services';
 WOMT_aTexte['a_bn_seitenstart_text']=new Array();
 WOMT_aTexte['a_bn_seitenstart_text'][0]='zum Seitenstart';
@@ -2722,11 +2722,11 @@ WOMT_aTexte['a_button_stimmezu_text']=new Array();
 WOMT_aTexte['a_button_stimmezu_text'][0]='stimme zu';
 WOMT_aTexte['a_button_stimmezu_text'][1]='Agree';
 WOMT_aTexte['a_button_theseueberspringen_text']=new Array();
-WOMT_aTexte['a_button_theseueberspringen_text'][0]='These überspringen';
+WOMT_aTexte['a_button_theseueberspringen_text'][0]='These Ã¼berspringen';
 WOMT_aTexte['a_button_theseueberspringen_text'][1]='Skip statement';
 WOMT_aTexte['a_copyright_text']=new Array();
-WOMT_aTexte['a_copyright_text'][0]='Bundeszentrale für politische Bildung/bpb';
-WOMT_aTexte['a_copyright_text'][1]='Bundeszentrale für politische Bildung/bpb';
+WOMT_aTexte['a_copyright_text'][0]='Bundeszentrale fÃ¼r politische Bildung/bpb';
+WOMT_aTexte['a_copyright_text'][1]='Bundeszentrale fÃ¼r politische Bildung/bpb';
 WOMT_aTexte['a_neustart_text']=new Array();
 WOMT_aTexte['a_neustart_text'][0]='Neustart';
 WOMT_aTexte['a_neustart_text'][1]='Restart';
@@ -2737,7 +2737,7 @@ WOMT_aTexte['nav_download_text']=new Array();
 WOMT_aTexte['nav_download_text'][0]='Download';
 WOMT_aTexte['nav_download_text'][1]='Download';
 WOMT_aTexte['nav_download_title']=new Array();
-WOMT_aTexte['nav_download_title'][0]='Offline-Version des Wahl-O-Mat zum Herunterladen. (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_download_title'][0]='Offline-Version des Wahl-O-Mat zum Herunterladen. (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_download_title'][1]='Offline version of the Wahl-O-Mat for download (this link opens a new window)';
 WOMT_aTexte['nav_email_text']=new Array();
 WOMT_aTexte['nav_email_text'][0]='Kontakt';
@@ -2749,60 +2749,60 @@ WOMT_aTexte['nav_faq_text']=new Array();
 WOMT_aTexte['nav_faq_text'][0]='FAQ';
 WOMT_aTexte['nav_faq_text'][1]='FAQ';
 WOMT_aTexte['nav_faq_title']=new Array();
-WOMT_aTexte['nav_faq_title'][0]='Antworten auf die am häufigsten gestellten Fragen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_faq_title'][0]='Antworten auf die am hÃ¤ufigsten gestellten Fragen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_faq_title'][1]='Answers to the most frequently asked questions (this link opens a new window)';
 WOMT_aTexte['nav_handy_text']=new Array();
 WOMT_aTexte['nav_handy_text'][0]='Handy-Version';
 WOMT_aTexte['nav_handy_text'][1]='';
 WOMT_aTexte['nav_handy_title']=new Array();
-WOMT_aTexte['nav_handy_title'][0]='Download und Informationen zum Wahl-O-Mat-mobil (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_handy_title'][0]='Download und Informationen zum Wahl-O-Mat-mobil (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_handy_title'][1]='Download and information about the Wahl-O-Mat mobile (this link opens a new window)';
 WOMT_aTexte['nav_impressum_text']=new Array();
 WOMT_aTexte['nav_impressum_text'][0]='Impressum';
 WOMT_aTexte['nav_impressum_text'][1]='Impressum';
 WOMT_aTexte['nav_impressum_title']=new Array();
-WOMT_aTexte['nav_impressum_title'][0]='Dieser Link öffnet sich in einem neuen Fenster.';
+WOMT_aTexte['nav_impressum_title'][0]='Dieser Link Ã¶ffnet sich in einem neuen Fenster.';
 WOMT_aTexte['nav_impressum_title'][1]='This link opens a new window';
 WOMT_aTexte['nav_materialien_text']=new Array();
 WOMT_aTexte['nav_materialien_text'][0]='Wahl-O-Mat Info';
 WOMT_aTexte['nav_materialien_text'][1]='Wahl-O-Mat info';
 WOMT_aTexte['nav_materialien_title']=new Array();
-WOMT_aTexte['nav_materialien_title'][0]='Materialien zum Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_materialien_title'][0]='Materialien zum Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_materialien_title'][1]='Material about the Wahl-O-Mat (this link opens a new window)';
 WOMT_aTexte['nav_unterrichtsmaterial_text']=new Array();
 WOMT_aTexte['nav_unterrichtsmaterial_text'][0]='Unterrichtsmaterial';
 WOMT_aTexte['nav_unterrichtsmaterial_text'][1]='Teaching materials';
 WOMT_aTexte['nav_unterrichtsmaterial_title']=new Array();
-WOMT_aTexte['nav_unterrichtsmaterial_title'][0]='Unterrichtsmaterial zum Wahl-O-Mat (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_unterrichtsmaterial_title'][0]='Unterrichtsmaterial zum Wahl-O-Mat (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_unterrichtsmaterial_title'][1]='Teaching materials about the Wahl-O-Mat (this link opens a new window)';
 WOMT_aTexte['nav_werstehtzurwahl_text']=new Array();
 WOMT_aTexte['nav_werstehtzurwahl_text'][0]='Wer steht zur Wahl?';
 WOMT_aTexte['nav_werstehtzurwahl_text'][1]='Who is running for election?';
 WOMT_aTexte['nav_werstehtzurwahl_title']=new Array();
-WOMT_aTexte['nav_werstehtzurwahl_title'][0]='Wer steht zur Wahl? (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_werstehtzurwahl_title'][0]='Wer steht zur Wahl? (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_werstehtzurwahl_title'][1]='Who is running for election (this link opens a new window)';
 WOMT_aTexte['popup_faq_1_frage']=new Array();
-WOMT_aTexte['popup_faq_1_frage'][0]='Nach welchen Kriterien werden die Parteien für den Wahl-O-Mat ausgesucht?';
+WOMT_aTexte['popup_faq_1_frage'][0]='Nach welchen Kriterien werden die Parteien fÃ¼r den Wahl-O-Mat ausgesucht?';
 WOMT_aTexte['popup_faq_1_frage'][1]='Which criteria are used to select parties for the Wahl-O-Mat?';
 WOMT_aTexte['popup_faq_1_text']=new Array();
-WOMT_aTexte['popup_faq_1_text'][0]='Die bpb hat alle Parteien und politischen Vereinigungen, die vom Bundeswahlleiter bzw. den Landeswahlleitern zur Europawahl zugelassen wurden, zur Teilnahme am Wahl-O-Mat eingeladen. Eine Übersicht aller zugelassenen Parteien finden Sie auf <a tabindex="17" title="Wer steht zur Wahl? (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">www.werstehtzurwahl.de</a>. Von den 32 zugelassenen Parteien haben 29 die Fragen bis Redaktionsschluss am 20. April 2009 beantwortet. Diese Parteien und politischen Vereinigungen konnten somit in den Wahl-O-Mat aufgenommen werden. Grundsätzlich gilt als neues Kriterium, dass alle Parteien und politischen Vereinigungen am Wahl-O-Mat teilnehmen dürfen, die in mindestens einem Bundesland mit Landesliste zur Wahl zugelassen werden. Es werden also keine Einzelkandidaten und sonstige politischen Vereinigungen aufgenommen, die nur in einem oder wenigen Wahlkreisen antreten. Somit können aber auch Parteien im Wahl-O-Mat auftauchen, die vom Verfassungsschutz des Bundes oder der Länder beobachten werden und als "extremistisch" eingestuft werden. Welche Parteien als extremistisch eingestuft werden, können Sie auf den Seiten des Verfassungsschutzes nachlesen: <a tabindex="16" title="www.verfassungsschutz.de (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.verfassungsschutz.de" target="_blank">www.verfassungsschutz.de</a>. Zusätzlich kommt die bpb dem Informationsbedürfnis über alle zur Wahl zugelassenen Parteien und Wählervereinigungen auch weiterhin durch das Online-Angebot <a tabindex="17" title="Wer steht zur Wahl? (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">"Wer steht zur Wahl?"</a> nach.';
-WOMT_aTexte['popup_faq_1_text'][1]='The Federal Agency for Civic Education invited all the parties and political associations that were authorised by the Federal Returning Officer ("Bundeswahlleiter") and the returning officers in each German state ("Landeswahlleitern") to run in European Parliament Elections to take part in the Wahl-O-Mat. You will find an overview of the registered parties at <a tabindex="17" title="Who#s running for election? (this link opens in a new window)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">www.werstehtzurwahl.de</a>. Of the 32 registered parties, 29 answered the questions in time for the copy deadline on 20.04.2009 . These parties and political associations were therefore included in the Wahl-O-Mat. A new criterion now applies according to which in principle any party or political association that has been authorised to run in at least one German state with a party ticket on state level (Landesliste) can take part in the Wahl-O-Mat. This means that individual candidates and other political associations running for election in just one or only a few constituencies are not included. But it also means that parties that are under observation by the Federal Office for the Protection of the Constitution (Bundesamt für Verfassungsschutz - BfV). and are classified as "extremist" may be included in the Wahl-O-Mat. To learn which parties have been classified as extremist, please go to the website of the Federal Office for the Protection of the Constitution <a tabindex="16" title="www.verfassungsschutz.de (this link opens in a new window)" class="link_normal" href="http://www.verfassungsschutz.de" target="_blank">www.verfassungsschutz.de</a>. The Federal Agency for Civic Education/bpb also provides further information about all the parties registered for election on its <a tabindex="17" title="Who#s running for election? (this link opens in a new window)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">"Who#s running for election?"</a> page.';
+WOMT_aTexte['popup_faq_1_text'][0]='Die bpb hat alle Parteien und politischen Vereinigungen, die vom Bundeswahlleiter bzw. den Landeswahlleitern zur Europawahl zugelassen wurden, zur Teilnahme am Wahl-O-Mat eingeladen. Eine Ãœbersicht aller zugelassenen Parteien finden Sie auf <a tabindex="17" title="Wer steht zur Wahl? (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">www.werstehtzurwahl.de</a>. Von den 32 zugelassenen Parteien haben 29 die Fragen bis Redaktionsschluss am 20. April 2009 beantwortet. Diese Parteien und politischen Vereinigungen konnten somit in den Wahl-O-Mat aufgenommen werden. GrundsÃ¤tzlich gilt als neues Kriterium, dass alle Parteien und politischen Vereinigungen am Wahl-O-Mat teilnehmen dÃ¼rfen, die in mindestens einem Bundesland mit Landesliste zur Wahl zugelassen werden. Es werden also keine Einzelkandidaten und sonstige politischen Vereinigungen aufgenommen, die nur in einem oder wenigen Wahlkreisen antreten. Somit kÃ¶nnen aber auch Parteien im Wahl-O-Mat auftauchen, die vom Verfassungsschutz des Bundes oder der LÃ¤nder beobachten werden und als "extremistisch" eingestuft werden. Welche Parteien als extremistisch eingestuft werden, kÃ¶nnen Sie auf den Seiten des Verfassungsschutzes nachlesen: <a tabindex="16" title="www.verfassungsschutz.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.verfassungsschutz.de" target="_blank">www.verfassungsschutz.de</a>. ZusÃ¤tzlich kommt die bpb dem InformationsbedÃ¼rfnis Ã¼ber alle zur Wahl zugelassenen Parteien und WÃ¤hlervereinigungen auch weiterhin durch das Online-Angebot <a tabindex="17" title="Wer steht zur Wahl? (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">"Wer steht zur Wahl?"</a> nach.';
+WOMT_aTexte['popup_faq_1_text'][1]='The Federal Agency for Civic Education invited all the parties and political associations that were authorised by the Federal Returning Officer ("Bundeswahlleiter") and the returning officers in each German state ("Landeswahlleitern") to run in European Parliament Elections to take part in the Wahl-O-Mat. You will find an overview of the registered parties at <a tabindex="17" title="Who#s running for election? (this link opens in a new window)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">www.werstehtzurwahl.de</a>. Of the 32 registered parties, 29 answered the questions in time for the copy deadline on 20.04.2009 . These parties and political associations were therefore included in the Wahl-O-Mat. A new criterion now applies according to which in principle any party or political association that has been authorised to run in at least one German state with a party ticket on state level (Landesliste) can take part in the Wahl-O-Mat. This means that individual candidates and other political associations running for election in just one or only a few constituencies are not included. But it also means that parties that are under observation by the Federal Office for the Protection of the Constitution (Bundesamt fÃ¼r Verfassungsschutz - BfV). and are classified as "extremist" may be included in the Wahl-O-Mat. To learn which parties have been classified as extremist, please go to the website of the Federal Office for the Protection of the Constitution <a tabindex="16" title="www.verfassungsschutz.de (this link opens in a new window)" class="link_normal" href="http://www.verfassungsschutz.de" target="_blank">www.verfassungsschutz.de</a>. The Federal Agency for Civic Education/bpb also provides further information about all the parties registered for election on its <a tabindex="17" title="Who#s running for election? (this link opens in a new window)" class="link_normal" href="http://www.werstehtzurwahl.de" target="_blank">"Who#s running for election?"</a> page.';
 WOMT_aTexte['popup_faq_10_frage']=new Array();
 WOMT_aTexte['popup_faq_10_frage'][0]='Warum kann ich maximal acht Parteien gleichzeitig in die Auswahl nehmen?';
 WOMT_aTexte['popup_faq_10_frage'][1]='Why can I only select a maximum of eight parties simultaneously?';
 WOMT_aTexte['popup_faq_10_text']=new Array();
-WOMT_aTexte['popup_faq_10_text'][0]='Die Beschränkung auf acht Parteien dient vor allem der Übersicht und Vergleichbarkeit. Eine Auswertung von mehr als 30 Parteien gleichzeitig kann im Wahl-O-Mat nicht mehr vernünftig und für den Nutzer nachvollziehbar dargestellt werden. Allerdings kann man nach der ersten Auswertung auf "zurück zur Parteienauswahl" klicken. Jetzt kann man sich für eine andere Auswahl von maximal acht Parteien entscheiden und sich ein neues Ergebnis errechen lassen. Dafür müssen nicht alle Fragen neu beantwortet werden. Zudem kann sich jeder ein PDF herunterladen, in dem alle Antworten der Parteien und sonstigen politischen Vereinigungen auf die Wahl-O-Mat-Thesen zusammengefasst sind.';
+WOMT_aTexte['popup_faq_10_text'][0]='Die BeschrÃ¤nkung auf acht Parteien dient vor allem der Ãœbersicht und Vergleichbarkeit. Eine Auswertung von mehr als 30 Parteien gleichzeitig kann im Wahl-O-Mat nicht mehr vernÃ¼nftig und fÃ¼r den Nutzer nachvollziehbar dargestellt werden. Allerdings kann man nach der ersten Auswertung auf "zurÃ¼ck zur Parteienauswahl" klicken. Jetzt kann man sich fÃ¼r eine andere Auswahl von maximal acht Parteien entscheiden und sich ein neues Ergebnis errechen lassen. DafÃ¼r mÃ¼ssen nicht alle Fragen neu beantwortet werden. Zudem kann sich jeder ein PDF herunterladen, in dem alle Antworten der Parteien und sonstigen politischen Vereinigungen auf die Wahl-O-Mat-Thesen zusammengefasst sind.';
 WOMT_aTexte['popup_faq_10_text'][1]='The eight-party limit was introduced above all to provide a better overview and improve comparability. If more than 30 parties were evaluated at the same time, the Wahl-O-Mat would not be able to provide the user with a sensible and intelligible result. However, after the first evaluation you can click "Go back to party selection" and select a different set of up to eight parties. If you do this you do not need to answer all the questions again. You can also download a PDF containing a summary of all the answers of the parties and other political groups to the Wahl-O-Mat statements.';
 WOMT_aTexte['xxx_dummy']=new Array();
 WOMT_aTexte['xxx_dummy'][0]='xxx_dummy';
 WOMT_aTexte['xxx_dummy'][1]='';
 WOMT_aTexte['popup_faq_2_frage']=new Array();
-WOMT_aTexte['popup_faq_2_frage'][0]='Wie ist der Wahl-O-Mat entwickelt worden? Sind die Parteien und Wählervereinigungen daran beteiligt gewesen?';
+WOMT_aTexte['popup_faq_2_frage'][0]='Wie ist der Wahl-O-Mat entwickelt worden? Sind die Parteien und WÃ¤hlervereinigungen daran beteiligt gewesen?';
 WOMT_aTexte['popup_faq_2_frage'][1]='How was the Wahl-O-Mat developed? Did the parties and voters# associations participate?';
 WOMT_aTexte['popup_faq_2_text']=new Array();
-WOMT_aTexte['popup_faq_2_text'][0]='Der Wahl-O-Mat ist für die Bundesrepublik Deutschland erstmals zur Bundestagswahl 2002 eingesetzt worden. Er wurde von einer unabhängigen Redaktion, die aus jungen Erwachsenen besteht, in Kooperation mit der Bundeszentrale für politische Bildung/bpb und mit Unterstützung ihrer Partner und des niederländischen Instituut voor Publiek en Politiek (Institut für Öffentlichkeit und Politik - IPP) entwickelt. Dabei ging der Wahl-O-Mat aus dem StemWijzer hervor. Das ist ein vom IPP entwickelter Test, mit dem Sie feststellen können, wie Sie persönlich zu den Zielen und Positionen von Parteien stehen. Dieser Test gehört in den Niederlanden seit langem fest zum Vorwahlgeschehen. Bei der Bundestagswahl 2002 wurde der Wahl-O-Mat über 3,6 Millionen mal gespielt. Seitdem wurde er von der bpb bei über zehn Landtagswahlen, der Europawahl 2004 und zuletzt der Bundestagswahl 2005 mit 5,1 Millionen Nutzungen eingesetzt.\
+WOMT_aTexte['popup_faq_2_text'][0]='Der Wahl-O-Mat ist fÃ¼r die Bundesrepublik Deutschland erstmals zur Bundestagswahl 2002 eingesetzt worden. Er wurde von einer unabhÃ¤ngigen Redaktion, die aus jungen Erwachsenen besteht, in Kooperation mit der Bundeszentrale fÃ¼r politische Bildung/bpb und mit UnterstÃ¼tzung ihrer Partner und des niederlÃ¤ndischen Instituut voor Publiek en Politiek (Institut fÃ¼r Ã–ffentlichkeit und Politik - IPP) entwickelt. Dabei ging der Wahl-O-Mat aus dem StemWijzer hervor. Das ist ein vom IPP entwickelter Test, mit dem Sie feststellen kÃ¶nnen, wie Sie persÃ¶nlich zu den Zielen und Positionen von Parteien stehen. Dieser Test gehÃ¶rt in den Niederlanden seit langem fest zum Vorwahlgeschehen. Bei der Bundestagswahl 2002 wurde der Wahl-O-Mat Ã¼ber 3,6 Millionen mal gespielt. Seitdem wurde er von der bpb bei Ã¼ber zehn Landtagswahlen, der Europawahl 2004 und zuletzt der Bundestagswahl 2005 mit 5,1 Millionen Nutzungen eingesetzt.\
 <br/>\
-<br/>Die Redaktion des Wahl-O-Mat für Europawahl 2009 bestand aus insgesamt 24 jungen Menschen aus ganz Deutschland, unterstützt von Experten und der bpb. In zwei Workshops hat die Redaktion die Thesen des Wahl-O-Mat entwickelt und formuliert. Den Parteien und sonstigen politischen Vereinigungen wurde eine Liste mit insgesamt 86 Thesen zugeschickt. Sie wurden gebeten, die Thesen entsprechend der Parteihaltung mit "stimme zu", "stimme nicht zu" oder "neutral" zu beantworten. Aus den ausgefüllten Listen wurden diejenigen Thesen rechnerisch ermittelt, die keine ausreichende Unterscheidung der Parteien und Wählervereinigungen möglich machten, und entfernt. Die Redaktion hat aus den verbleibenden eine endgültige Auswahl von 38 Thesen getroffen, die in den Wahl-O-Mat eingebunden wurden. Die Parteien und Wählervereinigungen waren an der Endauswahl der Thesen nicht beteiligt. Mehr zum Entstehungsprozess eines Wahl-O-Mat finden Sie in unserem <a tabindex="24" title="Making of (Dieser Link öffnet sich in einem neuen Fenster.)" target="_blank" class="link_normal" href="http://www.bpb.de/methodik/N7OHM4,0,0,Making_of_WahlOMat.html">"Making of"</a>';
+<br/>Die Redaktion des Wahl-O-Mat fÃ¼r Europawahl 2009 bestand aus insgesamt 24 jungen Menschen aus ganz Deutschland, unterstÃ¼tzt von Experten und der bpb. In zwei Workshops hat die Redaktion die Thesen des Wahl-O-Mat entwickelt und formuliert. Den Parteien und sonstigen politischen Vereinigungen wurde eine Liste mit insgesamt 86 Thesen zugeschickt. Sie wurden gebeten, die Thesen entsprechend der Parteihaltung mit "stimme zu", "stimme nicht zu" oder "neutral" zu beantworten. Aus den ausgefÃ¼llten Listen wurden diejenigen Thesen rechnerisch ermittelt, die keine ausreichende Unterscheidung der Parteien und WÃ¤hlervereinigungen mÃ¶glich machten, und entfernt. Die Redaktion hat aus den verbleibenden eine endgÃ¼ltige Auswahl von 38 Thesen getroffen, die in den Wahl-O-Mat eingebunden wurden. Die Parteien und WÃ¤hlervereinigungen waren an der Endauswahl der Thesen nicht beteiligt. Mehr zum Entstehungsprozess eines Wahl-O-Mat finden Sie in unserem <a tabindex="24" title="Making of (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" target="_blank" class="link_normal" href="http://www.bpb.de/methodik/N7OHM4,0,0,Making_of_WahlOMat.html">"Making of"</a>';
 WOMT_aTexte['popup_faq_2_text'][1]='The Wahl-O-Mat was used for the first time for the 2002 German parliamentary elections. It was developed by an independent editorial team of young people who work in cooperation with the Federal Agency for Civic Education/bpb and with the assistance of the latter#s partners and the Dutch Instituut voor Publiek en Politiek (Centre for Political Participation - IPP). The Wahl-O-Mat was modelled on the StemWijzer, a test developed by the IPP to enable people to determine where they stand as regards the goals and stances of the different parties. This test has been an integral part of pre-election events in the Netherlands for some time now. The Wahl-O-Mat was used over 3.6 million times for the 2002 German parliamentary elections. Since then it has been employed by the bpb for more than ten federal state elections, for the 2004 European Parliament Elections and most recently for the 2005 German parliamentary elections, when it was used 5.1 million times. \
 <br/>\
 <br/>The editorial team for the Wahl-O-Mat for the European Parliament Election 2009 was made up of 24 people from all over Germany who were assisted by experts and the bpb in their task. The team developed and formulated the statements for the Wahl-O-Mat in the course of two workshops. The parties and other political associations were sent a list of 86 statements. They were asked to answer the statements with either "Agree", "Disagree" or "Neutral", according to the party#s stance. The answers on the completed lists were used to calculate which statements failed to produce an adequate differentiation of the parties and voters# associations and these statements were eliminated from the selection. Of the remaining statements the editorial staff chose 38 to be included in the Wahl-O-Mat. The parties and political groups did not participate in the final selection of the statements. You can find out more about how a Wahl-O-Mat is created at our \
@@ -2811,44 +2811,44 @@ WOMT_aTexte['popup_faq_3_frage']=new Array();
 WOMT_aTexte['popup_faq_3_frage'][0]='Wie wurde der Redaktionsprozess den neuen Anforderungen (mehr als 20 Parteien) angepasst?';
 WOMT_aTexte['popup_faq_3_frage'][1]='How was the editorial process adapted to meet the new demands (more than 20 parties)?';
 WOMT_aTexte['popup_faq_3_text']=new Array();
-WOMT_aTexte['popup_faq_3_text'][0]='Vom Grundprinzip ist das "Making-Of" des Wahl-O-Mat das gleiche wie bislang auch. Allerdings haben wir die Arbeitsprozesse weiter ausgebaut und verfeinert. Mehr Parteien bedeuten natürlich auch mehr Arbeit. Daher haben wir die Jugendredaktion auf insgesamt 24 Teilnehmer vergrößert. Außerdem haben wir darauf geachtet, dass einige der Teilnehmer bereits erfahrene WOMster waren - also bereits an früheren Wahl-O-Maten mitgewirkt haben. Die Redaktionsprozesse wurden optimiert und die Dauer der Workshops verlängert. Zudem wurde das wissenschaftliche Begleitteam verstärkt. In einer Kontrollphase wurden zusätzliche Experten einbezogen, um die Qualität der Thesen weiter zu verbessern. Auch die Auswahl der Thesen, die statistischen Tests, wurden weiter verfeinert.';
+WOMT_aTexte['popup_faq_3_text'][0]='Vom Grundprinzip ist das "Making-Of" des Wahl-O-Mat das gleiche wie bislang auch. Allerdings haben wir die Arbeitsprozesse weiter ausgebaut und verfeinert. Mehr Parteien bedeuten natÃ¼rlich auch mehr Arbeit. Daher haben wir die Jugendredaktion auf insgesamt 24 Teilnehmer vergrÃ¶ÃŸert. AuÃŸerdem haben wir darauf geachtet, dass einige der Teilnehmer bereits erfahrene WOMster waren - also bereits an frÃ¼heren Wahl-O-Maten mitgewirkt haben. Die Redaktionsprozesse wurden optimiert und die Dauer der Workshops verlÃ¤ngert. Zudem wurde das wissenschaftliche Begleitteam verstÃ¤rkt. In einer Kontrollphase wurden zusÃ¤tzliche Experten einbezogen, um die QualitÃ¤t der Thesen weiter zu verbessern. Auch die Auswahl der Thesen, die statistischen Tests, wurden weiter verfeinert.';
 WOMT_aTexte['popup_faq_3_text'][1]='In essence the "Making of" process remains the same as before. However we have developed the work processes and refined them. Of course, more parties means more work. Therefore we increased the number of young people on our editorial team to a total of 24. We also made sure that some of the participants were already experienced WOMers - i.e. had worked on previous editions of the Wahl-O-Mat. Moreover, a few more experts were added to the support team, and more experts assisted in the control phase to further improve the quality of the statements. In addition, the selection of the statements and the statistic test were further refined.';
 WOMT_aTexte['popup_faq_5_frage']=new Array();
 WOMT_aTexte['popup_faq_5_frage'][0]='Wieso kommen manche wichtige Themen im Wahl-O-Mat nicht zur Sprache?';
 WOMT_aTexte['popup_faq_5_frage'][1]='Why are some important topics not mentioned in the Wahl-O-Mat?';
 WOMT_aTexte['popup_faq_5_text']=new Array();
-WOMT_aTexte['popup_faq_5_text'][0]='Das ist eine schwierige Frage. Wer entscheidet, welche Themen wichtig sind und welche nicht? Die Regierung, die Parteien, die Medien und die Bürger haben dazu sehr unterschiedliche Meinungen. Bei der Auswahl der Thesen für unseren Wahl-O-Mat bezogen wir uns vor allem auf jene Themen, zu denen die Parteien und Wählervereinigungen unterschiedliche Meinungen haben und auf jene, die besonders auch für junge Leute von Interesse sind. Leider sind während des Entstehungsprozesses auch "gute" Fragen aus dem Wahl-O-Mat gefallen. Dies kam vor, weil Fragen von einzelnen Parteien gar nicht oder nicht eindeutig mit stimme zu / stimme nicht zu / neutral beantwortet wurden oder weil die Parteipositionen in dieser Frage keine Unterscheidung zwischen den Parteien und Wählervereinigungen ermöglichten. Wir haben Interesse an Ihrer Meinung. Schicken Sie uns Ihre Überlegungen zu, am besten unter: <a tabindex="26" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>';
+WOMT_aTexte['popup_faq_5_text'][0]='Das ist eine schwierige Frage. Wer entscheidet, welche Themen wichtig sind und welche nicht? Die Regierung, die Parteien, die Medien und die BÃ¼rger haben dazu sehr unterschiedliche Meinungen. Bei der Auswahl der Thesen fÃ¼r unseren Wahl-O-Mat bezogen wir uns vor allem auf jene Themen, zu denen die Parteien und WÃ¤hlervereinigungen unterschiedliche Meinungen haben und auf jene, die besonders auch fÃ¼r junge Leute von Interesse sind. Leider sind wÃ¤hrend des Entstehungsprozesses auch "gute" Fragen aus dem Wahl-O-Mat gefallen. Dies kam vor, weil Fragen von einzelnen Parteien gar nicht oder nicht eindeutig mit stimme zu / stimme nicht zu / neutral beantwortet wurden oder weil die Parteipositionen in dieser Frage keine Unterscheidung zwischen den Parteien und WÃ¤hlervereinigungen ermÃ¶glichten. Wir haben Interesse an Ihrer Meinung. Schicken Sie uns Ihre Ãœberlegungen zu, am besten unter: <a tabindex="26" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>';
 WOMT_aTexte['popup_faq_5_text'][1]='That#s a difficult question. Who decides which topics are important and which are not? The government, the parties, the media and the citizens all have very different opinions on this. In choosing the statements for our Wahl-O-Mat we focused primarily on topics where the different parties and voters# associations differ in their opinions and topics that are of particular interest to young people. Unfortunately, in the process of selection some "good" questions had to be excluded from the Wahl-O-Mat. This was the case when individual parties either didn#t answer a question at all or didn#t make a clear choice between Agree / Disagree / Neutral, or when there was no discernible difference between the views of the different parties on a certain question. We are interested in your opinion. Please send us your comments, preferably to: <a tabindex="26" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>';
 WOMT_aTexte['popup_faq_6_frage']=new Array();
 WOMT_aTexte['popup_faq_6_frage'][0]='Was kann ich antworten, wenn ich einer Aussage nur unter bestimmten Bedingungen zustimme?';
 WOMT_aTexte['popup_faq_6_frage'][1]='How should I answer if I agree with a statement only under certain conditions?';
 WOMT_aTexte['popup_faq_6_text']=new Array();
-WOMT_aTexte['popup_faq_6_text'][0]='In solchen Fällen antworten Sie mit "neutral".';
+WOMT_aTexte['popup_faq_6_text'][0]='In solchen FÃ¤llen antworten Sie mit "neutral".';
 WOMT_aTexte['popup_faq_6_text'][1]='In such cases you should select "neutral" as your answer.';
 WOMT_aTexte['popup_faq_7_frage']=new Array();
-WOMT_aTexte['popup_faq_7_frage'][0]='Was mache ich, wenn ich zu einem Thema nichts angeben möchte?';
+WOMT_aTexte['popup_faq_7_frage'][0]='Was mache ich, wenn ich zu einem Thema nichts angeben mÃ¶chte?';
 WOMT_aTexte['popup_faq_7_frage'][1]='What do I do if I don#t want to give an answer on a certain topic?';
 WOMT_aTexte['popup_faq_8_frage']=new Array();
-WOMT_aTexte['popup_faq_8_frage'][0]='Wie ist es möglich, dass ich als Ergebnis das Logo der Partei erhalte, die ich überhaupt nicht erwartet habe?';
+WOMT_aTexte['popup_faq_8_frage'][0]='Wie ist es mÃ¶glich, dass ich als Ergebnis das Logo der Partei erhalte, die ich Ã¼berhaupt nicht erwartet habe?';
 WOMT_aTexte['popup_faq_8_frage'][1]='Why was my result the logo of the party I had least expected?';
 WOMT_aTexte['popup_faq_8_text']=new Array();
-WOMT_aTexte['popup_faq_8_text'][0]='Ja, das wissen wir natürlich auch nicht. Bitte erwarten Sie von uns kein Urteil darüber, was eine "gute" oder eine "schlechte" Partei oder Wählervereinigung ist. Es ist jedoch bekannt, dass der Wahl-O-Mat manchmal überraschende Ergebnisse aufweist. Das von Ihnen ermittelte Wahl-O-Mat Ergebnis ist eben ein Durchschnittsergebnis aus vielen Themengebieten. Es kann also sein, dass Sie bei einem Themengebiet die Meinung der Partei oder Wählervereinigung, der Sie bisher am nahesten standen, treffen, aber im Wahl-O-Mat Gesamtergebnis noch besser mit einer anderen Partei oder Wählervereinigung übereinstimmen. Berücksichtigt werden muss außerdem, dass sich das Ergebnis des Wahl-O-Mat eben nur auf die bereit gestellte Thesenauswahl bezieht. Sicher gibt es auch sonstige gute Gründe, sich der einen oder anderen Partei oder Wählervereinigung nahe zu fühlen. Wir finden, dass dies eine gute Gelegenheit ist, sich mit den eigenen politischen Positionen und denen der Parteien und Wählervereinigungen auseinander zu setzen.';
+WOMT_aTexte['popup_faq_8_text'][0]='Ja, das wissen wir natÃ¼rlich auch nicht. Bitte erwarten Sie von uns kein Urteil darÃ¼ber, was eine "gute" oder eine "schlechte" Partei oder WÃ¤hlervereinigung ist. Es ist jedoch bekannt, dass der Wahl-O-Mat manchmal Ã¼berraschende Ergebnisse aufweist. Das von Ihnen ermittelte Wahl-O-Mat Ergebnis ist eben ein Durchschnittsergebnis aus vielen Themengebieten. Es kann also sein, dass Sie bei einem Themengebiet die Meinung der Partei oder WÃ¤hlervereinigung, der Sie bisher am nahesten standen, treffen, aber im Wahl-O-Mat Gesamtergebnis noch besser mit einer anderen Partei oder WÃ¤hlervereinigung Ã¼bereinstimmen. BerÃ¼cksichtigt werden muss auÃŸerdem, dass sich das Ergebnis des Wahl-O-Mat eben nur auf die bereit gestellte Thesenauswahl bezieht. Sicher gibt es auch sonstige gute GrÃ¼nde, sich der einen oder anderen Partei oder WÃ¤hlervereinigung nahe zu fÃ¼hlen. Wir finden, dass dies eine gute Gelegenheit ist, sich mit den eigenen politischen Positionen und denen der Parteien und WÃ¤hlervereinigungen auseinander zu setzen.';
 WOMT_aTexte['popup_faq_8_text'][1]='Sorry, but we don#t know either. Please don#t expect us to tell you which of the parties are "good" or "bad" parties. However the Wahl-O-Mat has been known to produce surprising results. The result you receive from the Wahl-O-Mat is simply an average calculated on the basis of many different topics. This can mean that on one issue your view tallies with that of the party you were closest to up to now, but in the Wahl-O-Mat overall result your views are closer to those of another party. You must also bear in mind that the Wahl-O-Mat result is based solely on the selection of statements it uses. There are no doubt other good reasons to feel close to one party or another. We feel this tool offers a good opportunity to review your own political views and those of the parties and voters# associations.';
 WOMT_aTexte['popup_faq_footer_text']=new Array();
-WOMT_aTexte['popup_faq_footer_text'][0]='Wenn Sie mehr über die Entstehung des Wahl-O-Mat oder über die Möglichkeiten, ihn in pädagogischen Zusammenhängen einzusetzen, wissen möchten, finden Sie weitere Informationen auf der Startseite <a tabindex="55" title="Wahl-O-Mat Homepage (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de/unterricht" target="_blank">www.wahl-o-mat.de/unterricht</a>.';
+WOMT_aTexte['popup_faq_footer_text'][0]='Wenn Sie mehr Ã¼ber die Entstehung des Wahl-O-Mat oder Ã¼ber die MÃ¶glichkeiten, ihn in pÃ¤dagogischen ZusammenhÃ¤ngen einzusetzen, wissen mÃ¶chten, finden Sie weitere Informationen auf der Startseite <a tabindex="55" title="Wahl-O-Mat Homepage (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de/unterricht" target="_blank">www.wahl-o-mat.de/unterricht</a>.';
 WOMT_aTexte['popup_faq_footer_text'][1]='If you want to learn more about the making of the Wahl-O-Mat or the possibilities for using it in an educational context you will find further information on the startup page <a tabindex="55" title="Wahl-O-Mat Homepage (this link opens in a new window)" class="link_normal" href="http://www.wahl-o-mat.de/unterricht" target="_blank">www.wahl-o-mat.de/unterricht</a>.';
 WOMT_aTexte['popup_faq_text_text']=new Array();
-WOMT_aTexte['popup_faq_text_text'][0]='Der Wahl-O-Mat bietet Ihnen anhand von 38 Thesen einen Einblick in wichtige Fragen zur Wahl des  Europaparlaments 2009. Vergleichen Sie Ihre eigenen Ansichten mit den Positionen der einzelnen Parteien und Wählervereinigungen und finden Sie heraus: Welche Partei vertritt Ihre Meinung am besten? Am Ende erhalten Sie Ihr persönliches Wahl-O-Mat Ergebnis: Die Angabe der Partei, mit der die größte Übereinstimmung besteht.\
+WOMT_aTexte['popup_faq_text_text'][0]='Der Wahl-O-Mat bietet Ihnen anhand von 38 Thesen einen Einblick in wichtige Fragen zur Wahl des  Europaparlaments 2009. Vergleichen Sie Ihre eigenen Ansichten mit den Positionen der einzelnen Parteien und WÃ¤hlervereinigungen und finden Sie heraus: Welche Partei vertritt Ihre Meinung am besten? Am Ende erhalten Sie Ihr persÃ¶nliches Wahl-O-Mat Ergebnis: Die Angabe der Partei, mit der die grÃ¶ÃŸte Ãœbereinstimmung besteht.\
 <br/>\
-<br/>Die Thesen wurden von einem Redaktionsteam aus 24 Jung- bzw. Erstwählern auf der Basis der Grundsatz-, Partei-  und Wahlprogramme der Parteien und Wählervereinigungen entwickelt. Sie wurden dabei unterstützt von der Bundeszentrale für politische Bildung/bpb sowie den Wissenschaftlern Prof. Dr. Stefan Marschall, Dr. Christoph Strünck, Wolf Dittmayer und Christian K. Schmidt. Alle Antworten wurden von den beteiligten Parteien autorisiert.\
+<br/>Die Thesen wurden von einem Redaktionsteam aus 24 Jung- bzw. ErstwÃ¤hlern auf der Basis der Grundsatz-, Partei-  und Wahlprogramme der Parteien und WÃ¤hlervereinigungen entwickelt. Sie wurden dabei unterstÃ¼tzt von der Bundeszentrale fÃ¼r politische Bildung/bpb sowie den Wissenschaftlern Prof. Dr. Stefan Marschall, Dr. Christoph StrÃ¼nck, Wolf Dittmayer und Christian K. Schmidt. Alle Antworten wurden von den beteiligten Parteien autorisiert.\
 <br/>\
-<br/>Erstmals hat die bpb alle zur Wahl des Europaparlaments 2009 zugelassenen Parteien eingeladen, am Wahl-O-Mat teilzunehmen. Von den 32 zu Wahl stehenden Parteien haben 29 die Fragen pünktlich zum Redaktionsschluss beantwortet und konnten so in den Wahl-O-Mat aufgenommen werden.\
+<br/>Erstmals hat die bpb alle zur Wahl des Europaparlaments 2009 zugelassenen Parteien eingeladen, am Wahl-O-Mat teilzunehmen. Von den 32 zu Wahl stehenden Parteien haben 29 die Fragen pÃ¼nktlich zum Redaktionsschluss beantwortet und konnten so in den Wahl-O-Mat aufgenommen werden.\
 <br/>\
 <br/>\
-<br/>Die am häufigsten gestellten Fragen zum Wahl-O-Mat werden hier beantwortet. Sollten Sie weitere Fragen haben, schicken Sie uns einfach eine E-Mail: <a tabindex="3" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>.';
+<br/>Die am hÃ¤ufigsten gestellten Fragen zum Wahl-O-Mat werden hier beantwortet. Sollten Sie weitere Fragen haben, schicken Sie uns einfach eine E-Mail: <a tabindex="3" title="" class="link_normal" href="mailto:info@wahl-o-mat.de">info@wahl-o-mat.de</a>.';
 WOMT_aTexte['popup_faq_text_text'][1]='The Wahl-O-Mat provides insight into the most important issues in the 2009 European Parliament elections on the basis of 38 statements. Compare your views with those of the individual parties and voters# associations and find out which party best represents your opinions. Once completed, you will have your own personalised Wahl-O-Mat result telling you which party#s answers correspond to the greatest degree with your own. \
 <br/>\
-<br/>An editorial team of 24 young or first-time voters developed the statements on the basis of the core policy statements, platforms and election manifestos of the different parties and voters# associations. The team was assisted by Germany#s Federal Agency for Civic Education (Bundeszentrale für politische Bildung/bpb) as well as the following experts: Prof. Dr. Stefan Marschall, Dr. Christoph Strünck, Wolf Dittmayer and Christian K. Schmidt. All answers were authorised by the participating parties.\
+<br/>An editorial team of 24 young or first-time voters developed the statements on the basis of the core policy statements, platforms and election manifestos of the different parties and voters# associations. The team was assisted by Germany#s Federal Agency for Civic Education (Bundeszentrale fÃ¼r politische Bildung/bpb) as well as the following experts: Prof. Dr. Stefan Marschall, Dr. Christoph StrÃ¼nck, Wolf Dittmayer and Christian K. Schmidt. All answers were authorised by the participating parties.\
 <br/>\
 <br/>For the first time the bpb invited all parties registered to run in the 2009 European Parliament Elections to participate in the Wahl-O-Mat. Of the 32 parties in question, 29 answered the questions in time for the copy deadline and could therefore be included in the Wahl-O-Mat. \
 <br/>\
@@ -2861,10 +2861,10 @@ WOMT_aTexte['popup_faq_zudenfragen'][0]='zu den Fragen';
 WOMT_aTexte['popup_faq_zudenfragen'][1]='Back to questions';
 WOMT_aTexte['popup_impressum_text_text']=new Array();
 WOMT_aTexte['popup_impressum_text_text'][0]='<h2 class="text_bold">Was ist der Wahl-O-Mat?</h2><div class="text_normal">\
-<br/>Der Wahl-O-Mat zur Wahl des Europäischen Parlaments 2009 ist ein Produkt der <a tabindex="2" title="Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale für politische Bildung/bpb</a> mit Unterstützung des Instituut voor Publiek en Politiek (IPP) in Amsterdam. Thesen und Inhalte des Wahl-O-Mat wurden von einem Redaktionsteam aus 24 Jungwählern entwickelt. Beraten wurden sie vom institutionellen Träger des Wahl-O-Mat und den Wissenschaftlern Prof. Dr. Stefan Marschall, Dr. Christoph Strünck, Wolf Dittmayer und Christian K. Schmidt.\
+<br/>Der Wahl-O-Mat zur Wahl des EuropÃ¤ischen Parlaments 2009 ist ein Produkt der <a tabindex="2" title="Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">Bundeszentrale fÃ¼r politische Bildung/bpb</a> mit UnterstÃ¼tzung des Instituut voor Publiek en Politiek (IPP) in Amsterdam. Thesen und Inhalte des Wahl-O-Mat wurden von einem Redaktionsteam aus 24 JungwÃ¤hlern entwickelt. Beraten wurden sie vom institutionellen TrÃ¤ger des Wahl-O-Mat und den Wissenschaftlern Prof. Dr. Stefan Marschall, Dr. Christoph StrÃ¼nck, Wolf Dittmayer und Christian K. Schmidt.\
 <br/>\
 <br/>Redaktionsschluss: 20. April 2009</div>\
-<br/><h1 class="orange">Impressum</h1><h2 class="text_bold">Herausgeber</h2><div class="text_normal">Bundeszentrale für politische Bildung/bpb, Bonn © 2009\
+<br/><h1 class="orange">Impressum</h1><h2 class="text_bold">Herausgeber</h2><div class="text_normal">Bundeszentrale fÃ¼r politische Bildung/bpb, Bonn Å  2009\
 <br/>ViSdP: Thorsten Schilling\
 <br/>E-Mail: <a tabindex="10" title="" class="link_normal" href="mailto:schilling@bpb.de">schilling@bpb.de</a>\
 <br/></div><h2 class="text_bold">Redaktion bpb</h2><div class="text_normal">Stephan Trinius (Projektleitung)\
@@ -2872,13 +2872,13 @@ WOMT_aTexte['popup_impressum_text_text'][0]='<h2 class="text_bold">Was ist der W
 <br/>Ute Friederich\
 <br/></div><h2 class="text_bold">Inhalt und Redaktion</h2><img class="pic1" alt="Gruppenfoto der Redaktion" title="Gruppenfoto der Redaktion" width="420" height="315" src="./pix_change/pic_impressum.jpg"/><div class="text_normal">Katharina Bach\
 <br/>Tammo Behrends\
-<br/>Anna Götz\
-<br/>Mathias Großklaus\
+<br/>Anna GÃ¶tz\
+<br/>Mathias GroÃŸklaus\
 <br/>Lennart Grumer\
 <br/>Annika Haas\
-<br/>Ophélie Ivombo\
+<br/>OphÃ©lie Ivombo\
 <br/>Vanessa Jansche\
-<br/>Kathrin Kühn\
+<br/>Kathrin KÃ¼hn\
 <br/>Peter Laffin\
 <br/>Lisi Maier\
 <br/>Marcus Marosz\
@@ -2889,28 +2889,28 @@ WOMT_aTexte['popup_impressum_text_text'][0]='<h2 class="text_bold">Was ist der W
 <br/>Meike Riebau\
 <br/>Johanna Schnittke\
 <br/>Dirk Taphorn\
-<br/>Steffen Terbrüggen\
+<br/>Steffen TerbrÃ¼ggen\
 <br/>Jennifer Verch\
 <br/>Nadine Wache\
 <br/>Mira Sophie Weihmann\
-<br/>Matthias Zimmermann</div><h2 class="text_bold">unter redaktioneller Mitarbeit von</h2><div class="text_normal">Kai Schröder-Klings\
-<br/>Roman Schuster</div><h2 class="text_bold">Wissenschaftliche Begleitung</h2><div class="text_normal">Prof. Dr. Stefan Marschall, Universität Siegen\
-<br/>PD Dr. Christoph Strünck, Universität Siegen\
-<br/>Dipl. Soz.-Päd. Wolf Dittmayer (www.dittmayer.org)\
+<br/>Matthias Zimmermann</div><h2 class="text_bold">unter redaktioneller Mitarbeit von</h2><div class="text_normal">Kai SchrÃ¶der-Klings\
+<br/>Roman Schuster</div><h2 class="text_bold">Wissenschaftliche Begleitung</h2><div class="text_normal">Prof. Dr. Stefan Marschall, UniversitÃ¤t Siegen\
+<br/>PD Dr. Christoph StrÃ¼nck, UniversitÃ¤t Siegen\
+<br/>Dipl. Soz.-PÃ¤d. Wolf Dittmayer (www.dittmayer.org)\
 <br/>Dipl.-Soz.-Wiss. Christian K. Schmidt</div><h2 class="text_bold">Inhaltliche Beratung</h2><div class="text_normal">Tanja Binder (WZB)\
-<br/>Michael Bornkessel (www.lehrer-online.de)</div><h2 class="text_bold">Übersetzung</h2><div class="text_normal">Alison Waldie</div><h2 class="text_bold">Koordination des Redaktionsteams</h2><div class="text_normal"><a tabindex="55" title="www.inbetweener.eu (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.inbetweener.eu">Dr. Christian Kemper</a></div><h2 class="text_bold">Gestaltungskonzept & Design</h2><div class="text_normal">Armin Berger\
+<br/>Michael Bornkessel (www.lehrer-online.de)</div><h2 class="text_bold">Ãœbersetzung</h2><div class="text_normal">Alison Waldie</div><h2 class="text_bold">Koordination des Redaktionsteams</h2><div class="text_normal"><a tabindex="55" title="www.inbetweener.eu (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.inbetweener.eu">Dr. Christian Kemper</a></div><h2 class="text_bold">Gestaltungskonzept & Design</h2><div class="text_normal">Armin Berger\
 <br/>Sonia Binder\
 <br/>E-Mail: <a tabindex="70" title="" class="link_normal" href="mailto:info@3-point.de">info@3-point.de</a>\
-<br/><a tabindex="71" title="3-point concepts GmbH (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.3-point.de" target="_blank">3-point concepts GmbH, Berlin</a></div><h2 class="text_bold">Programmierung</h2><div class="text_normal">Ulrich Santo\
-<br/><a tabindex="81" title="GLAMUS GmbH (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.glamus.de" target="_blank">GLAMUS GmbH, Bonn</a></div><h2 class="text_bold">Copyright</h2><div class="text_normal">Bundeszentrale für politische Bildung (bpb)\
+<br/><a tabindex="71" title="3-point concepts GmbH (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.3-point.de" target="_blank">3-point concepts GmbH, Berlin</a></div><h2 class="text_bold">Programmierung</h2><div class="text_normal">Ulrich Santo\
+<br/><a tabindex="81" title="GLAMUS GmbH (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.glamus.de" target="_blank">GLAMUS GmbH, Bonn</a></div><h2 class="text_bold">Copyright</h2><div class="text_normal">Bundeszentrale fÃ¼r politische Bildung (bpb)\
 <br/>Adenauerallee 86\
 <br/>53111 Bonn\
 <br/>Tel: 0228/ 99-515-0\
 <br/>Fax: 0228/ 99-515-498\
 <br/>E-Mail: <a tabindex="92" title="" class="link_normal" href="mailto:info@bpb.de">info@bpb.de</a>\
-<br/><a tabindex="93" title="Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a></div><h2 class="text_bold">Lizenz</h2><div class="text_normal"><a tabindex="94" title="Instituut voor Publiek en Politiek (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl/" target="_blank">Instituut voor Publiek en Politiek (IPP), NL-Amsterdam</a>\
-<br/>Supervision: <a tabindex="95" title="" class="link_normal" href="mailto:j.degraaf@stemwijzer.nl">Jochum de Graaf</a></div><div class="text_normal">Die Vervielfältigung, Verbreitung und die öffentliche Wiedergabe des Wahl-O-Mat ist nicht gestattet.\
-<br/>Der Wahl-O-Mat ist urheberrechtlich geschützt.</div>';
+<br/><a tabindex="93" title="Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.bpb.de" target="_blank">www.bpb.de</a></div><h2 class="text_bold">Lizenz</h2><div class="text_normal"><a tabindex="94" title="Instituut voor Publiek en Politiek (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.stemwijzer.nl/" target="_blank">Instituut voor Publiek en Politiek (IPP), NL-Amsterdam</a>\
+<br/>Supervision: <a tabindex="95" title="" class="link_normal" href="mailto:j.degraaf@stemwijzer.nl">Jochum de Graaf</a></div><div class="text_normal">Die VervielfÃ¤ltigung, Verbreitung und die Ã¶ffentliche Wiedergabe des Wahl-O-Mat ist nicht gestattet.\
+<br/>Der Wahl-O-Mat ist urheberrechtlich geschÃ¼tzt.</div>';
 WOMT_aTexte['popup_impressum_text_text'][1]='';
 WOMT_aTexte['popup_impressum_title_text']=new Array();
 WOMT_aTexte['popup_impressum_title_text'][0]='Impressum';
@@ -2925,10 +2925,10 @@ WOMT_aTexte['popup_partei_du_stimmezu']=new Array();
 WOMT_aTexte['popup_partei_du_stimmezu'][0]='stimme zu';
 WOMT_aTexte['popup_partei_du_stimmezu'][1]='Agree';
 WOMT_aTexte['popup_partei_du_theseuebersprungen']=new Array();
-WOMT_aTexte['popup_partei_du_theseuebersprungen'][0]='These übersprungen';
+WOMT_aTexte['popup_partei_du_theseuebersprungen'][0]='These Ã¼bersprungen';
 WOMT_aTexte['popup_partei_du_theseuebersprungen'][1]='Skip statement';
 WOMT_aTexte['popup_partei_keinebegruendung']=new Array();
-WOMT_aTexte['popup_partei_keinebegruendung'][0]='Zu dieser These hat die Partei keine Begründung vorgelegt.';
+WOMT_aTexte['popup_partei_keinebegruendung'][0]='Zu dieser These hat die Partei keine BegrÃ¼ndung vorgelegt.';
 WOMT_aTexte['popup_partei_keinebegruendung'][1]='The party did not explain its reasoning on this statement.';
 WOMT_aTexte['popup_partei_kommentarpartei']=new Array();
 WOMT_aTexte['popup_partei_kommentarpartei'][0]='Kommentar der Partei:';
@@ -2962,7 +2962,7 @@ WOMT_aTexte['wahlomat_head_description']=new Array();
 WOMT_aTexte['wahlomat_head_description'][0]='Wahl-O-Mat zur Europawahl 2009';
 WOMT_aTexte['wahlomat_head_description'][1]='Wahl-O-Mat for the European Parliament Elections 2009';
 WOMT_aTexte['wahlomat_head_keywords']=new Array();
-WOMT_aTexte['wahlomat_head_keywords'][0]='wahlomat,wahl-o-mat, www.wahlomat.de, www.wahl-o-mat.de,Europawahl 2009,  Europawahl,Wahl 2009, Wahl zum Europäischen Parlament';
+WOMT_aTexte['wahlomat_head_keywords'][0]='wahlomat,wahl-o-mat, www.wahlomat.de, www.wahl-o-mat.de,Europawahl 2009,  Europawahl,Wahl 2009, Wahl zum EuropÃ¤ischen Parlament';
 WOMT_aTexte['wahlomat_head_keywords'][1]='wahlomat,wahl-o-mat, www.wahlomat.de, www.wahl-o-mat.de,European Parliament Elections 2009, European Parliament Elections, 2009 election, Elections to the European Parliament';
 WOMT_aTexte['wahlomat_head_link_chapter_copyright']=new Array();
 WOMT_aTexte['wahlomat_head_link_chapter_copyright'][0]='Impressum';
@@ -3004,7 +3004,7 @@ WOMT_aTexte['nav_empfehlung_text']=new Array();
 WOMT_aTexte['nav_empfehlung_text'][0]='weiterempfehlen';
 WOMT_aTexte['nav_empfehlung_text'][1]='Recommend this to a friend';
 WOMT_aTexte['nav_empfehlung_title']=new Array();
-WOMT_aTexte['nav_empfehlung_title'][0]='Weiterempfehlung per Web-Formular (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['nav_empfehlung_title'][0]='Weiterempfehlung per Web-Formular (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['nav_empfehlung_title'][1]='Online recommendation form (this link opens a new window)';
 WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
@@ -3031,7 +3031,7 @@ WOMT_aTexte['wahlomat_footer_link_landderideen_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_landderideen_text'][0]='Ausgezeichnet durch: Deutschland Land der Ideen';
 WOMT_aTexte['wahlomat_footer_link_landderideen_text'][1]='Received award from: Germany - Land of Ideas';
 WOMT_aTexte['wahlomat_footer_link_landderideen_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_landderideen_title'][0]='Ausgezeichnet durch: Deutschland Land der Ideen (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_landderideen_title'][0]='Ausgezeichnet durch: Deutschland Land der Ideen (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_landderideen_title'][1]='Received award from: Germany - Land of Ideas (This link opens a new window)';
 WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
@@ -3046,7 +3046,7 @@ WOMT_aTexte['wahlomat_footer_link_spiegel_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_spiegel_text'][0]='spiegel.de';
 WOMT_aTexte['wahlomat_footer_link_spiegel_text'][1]='';
 WOMT_aTexte['wahlomat_footer_link_spiegel_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_spiegel_title'][0]='spiegel.de (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_spiegel_title'][0]='spiegel.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_spiegel_title'][1]='';
 WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
@@ -3058,7 +3058,7 @@ WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
 WOMT_aTexte['xxx_'][1]='xxx_';
 WOMT_aTexte['wahlomat_kopf_link_bpb_title']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_bpb_title'][0]='Bundeszentrale für politische Bildung (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_kopf_link_bpb_title'][0]='Bundeszentrale fÃ¼r politische Bildung (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_kopf_link_bpb_title'][1]='Federal Agency for Civic Education (this link opens a new window) ';
 WOMT_aTexte['xxx_dummy']=new Array();
 WOMT_aTexte['xxx_dummy'][0]='1';
@@ -3073,19 +3073,19 @@ WOMT_aTexte['wahlomat_footer_link_zdf_text']=new Array();
 WOMT_aTexte['wahlomat_footer_link_zdf_text'][0]='Medienpartner: ZDF';
 WOMT_aTexte['wahlomat_footer_link_zdf_text'][1]='';
 WOMT_aTexte['wahlomat_footer_link_zdf_title']=new Array();
-WOMT_aTexte['wahlomat_footer_link_zdf_title'][0]='Medienpartner: ZDF (Dieser Link öffnet sich in einem neuen Fenster.)';
+WOMT_aTexte['wahlomat_footer_link_zdf_title'][0]='Medienpartner: ZDF (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)';
 WOMT_aTexte['wahlomat_footer_link_zdf_title'][1]='';
 WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
 WOMT_aTexte['xxx_'][1]='xxx_';
 WOMT_aTexte['popup_faq_7_text']=new Array();
-WOMT_aTexte['popup_faq_7_text'][0]='Dann enthalten Sie sich Ihrer Stimme und klicken auf "These überspringen". Diese Aussage wird dann beim Ergebnis nicht berücksichtigt. Letzteres sollten Sie aber nicht zu oft machen, denn wenn zu oft "überspringen" geklickt wird, kann natürlich auch kein zuverlässiges Ergebnis gegeben werden. Sie haben jedoch auch die Möglichkeit, jederzeit wieder zu einer Frage zurückzukehren, um sie doch noch zu beantworten.';
+WOMT_aTexte['popup_faq_7_text'][0]='Dann enthalten Sie sich Ihrer Stimme und klicken auf "These Ã¼berspringen". Diese Aussage wird dann beim Ergebnis nicht berÃ¼cksichtigt. Letzteres sollten Sie aber nicht zu oft machen, denn wenn zu oft "Ã¼berspringen" geklickt wird, kann natÃ¼rlich auch kein zuverlÃ¤ssiges Ergebnis gegeben werden. Sie haben jedoch auch die MÃ¶glichkeit, jederzeit wieder zu einer Frage zurÃ¼ckzukehren, um sie doch noch zu beantworten.';
 WOMT_aTexte['popup_faq_7_text'][1]='Then you can abstain by clicking on "skip statement". This statement won#t be included in the result. But you shouldn#t do this too often because if you click on "skip" too many times naturally you won#t get such a reliable result. You can, however, go back to a question and answer it whenever you want to.';
 WOMT_aTexte['0_ms_title_text']=new Array();
 WOMT_aTexte['0_ms_title_text'][0]='Willkommen beim Wahl-O-Mat zur Europawahl 2009';
 WOMT_aTexte['0_ms_title_text'][1]='Welcome to the Wahl-O-Mat for the European Parliament Elections 2009';
 WOMT_aTexte['0_ms_intro_text2']=new Array();
-WOMT_aTexte['0_ms_intro_text2'][0]='Der Wahl-O-Mat ist keine Wahlempfehlung! Er ist ein Informationsangebot und soll Lust machen, sich weiter mit Politik und Wahlen zu beschäftigen. Weitere Informationen zu den Parteien und Wählervereinigungen finden Sie auch auf';
+WOMT_aTexte['0_ms_intro_text2'][0]='Der Wahl-O-Mat ist keine Wahlempfehlung! Er ist ein Informationsangebot und soll Lust machen, sich weiter mit Politik und Wahlen zu beschÃ¤ftigen. Weitere Informationen zu den Parteien und WÃ¤hlervereinigungen finden Sie auch auf';
 WOMT_aTexte['0_ms_intro_text2'][1]='The Wahl-O-Mat does not recommend who you should vote for! It is an information service and is aimed at encouraging people to take an interest in politics and elections. You can find out more about the parties at  ';
 WOMT_aTexte['0_ms_title_text2']=new Array();
 WOMT_aTexte['0_ms_title_text2'][0]='Hinweis';
@@ -3106,7 +3106,7 @@ WOMT_aTexte['256_alt_ich_neutral']=new Array();
 WOMT_aTexte['256_alt_ich_neutral'][0]='Ich stehe neutral dazu';
 WOMT_aTexte['256_alt_ich_neutral'][1]='I am neutral';
 WOMT_aTexte['256_alt_ich_uebersprungen']=new Array();
-WOMT_aTexte['256_alt_ich_uebersprungen'][0]='Ich habe die These übersprungen';
+WOMT_aTexte['256_alt_ich_uebersprungen'][0]='Ich habe die These Ã¼bersprungen';
 WOMT_aTexte['256_alt_ich_uebersprungen'][1]='I have skipped this statement';
 WOMT_aTexte['wahlomat_footer_ausgezeichnet_text']=new Array();
 WOMT_aTexte['wahlomat_footer_ausgezeichnet_text'][0]='Ausgezeichnet durch';
@@ -3115,7 +3115,7 @@ WOMT_aTexte['wahlomat_footer_medienpartner_text']=new Array();
 WOMT_aTexte['wahlomat_footer_medienpartner_text'][0]='Medienpartner:';
 WOMT_aTexte['wahlomat_footer_medienpartner_text'][1]='Media partners:';
 WOMT_aTexte['wahlomat_kopf_link_bpb_span']=new Array();
-WOMT_aTexte['wahlomat_kopf_link_bpb_span'][0]='Bundeszentrale für politische Bildung (bpb)';
+WOMT_aTexte['wahlomat_kopf_link_bpb_span'][0]='Bundeszentrale fÃ¼r politische Bildung (bpb)';
 WOMT_aTexte['wahlomat_kopf_link_bpb_span'][1]='Federal Agency for Civic Education (bpb)';
 WOMT_aTexte['6_alt_partei_stimmtzu']=new Array();
 WOMT_aTexte['6_alt_partei_stimmtzu'][0]='[PARTEI] stimmt zu';
@@ -3169,7 +3169,7 @@ WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
 WOMT_aTexte['xxx_'][1]='xxx_';
 WOMT_aTexte['2_bn_hinweis_legende']=new Array();
-WOMT_aTexte['2_bn_hinweis_legende'][0]='Hinweis: Die folgenden 4 Zeilen sind Teil einer Legende für Icons und können ignoriert werden.';
+WOMT_aTexte['2_bn_hinweis_legende'][0]='Hinweis: Die folgenden 4 Zeilen sind Teil einer Legende fÃ¼r Icons und kÃ¶nnen ignoriert werden.';
 WOMT_aTexte['2_bn_hinweis_legende'][1]='Explanation: The following 4 lines are part of a caption for icons and can be ignored';
 WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
@@ -3181,7 +3181,7 @@ WOMT_aTexte['popup_faq_4_frage']=new Array();
 WOMT_aTexte['popup_faq_4_frage'][0]='Wie wurde der Wahl-O-Mat den neuen Anforderungen (mehr als 20 Parteien) angepasst?';
 WOMT_aTexte['popup_faq_4_frage'][1]='How was the Wahl-O-Mat adapted to the new requirements (more than 20 parties)?';
 WOMT_aTexte['popup_faq_4_text']=new Array();
-WOMT_aTexte['popup_faq_4_text'][0]='Um eine gute Vergleichbarkeit und Unterscheidung der Parteien zu garantieren, wurde die Anzahl der Thesen im Wahl-O-Mat erhöht. Im aktuellen Wahl-O-Mat zur Europawahl 2009 sind 38 Thesen enthalten. Zuvor wurden während des Redaktionsprozesses mehr als 160 Thesen entwickelt, von denen die besten 86 Thesen den Parteien zur Beantwortung vorlegt wurden. Aufgrund der Antworten wurden dann diejenigen 38 Thesen herausgefiltert, die am besten zur Unterscheidung der Parteien geeignet sind. Zudem laden wir die  Nutzer stärker als bislang ein, die Thesen des Wahl-O-Mat zu gewichten, um das rechnerische Ergebnis noch weiter zu verbessern.';
+WOMT_aTexte['popup_faq_4_text'][0]='Um eine gute Vergleichbarkeit und Unterscheidung der Parteien zu garantieren, wurde die Anzahl der Thesen im Wahl-O-Mat erhÃ¶ht. Im aktuellen Wahl-O-Mat zur Europawahl 2009 sind 38 Thesen enthalten. Zuvor wurden wÃ¤hrend des Redaktionsprozesses mehr als 160 Thesen entwickelt, von denen die besten 86 Thesen den Parteien zur Beantwortung vorlegt wurden. Aufgrund der Antworten wurden dann diejenigen 38 Thesen herausgefiltert, die am besten zur Unterscheidung der Parteien geeignet sind. Zudem laden wir die  Nutzer stÃ¤rker als bislang ein, die Thesen des Wahl-O-Mat zu gewichten, um das rechnerische Ergebnis noch weiter zu verbessern.';
 WOMT_aTexte['popup_faq_4_text'][1]='To guarantee optimal comparability and differentiation of the parties the number of statements included in the Wahl-O-Mat was increased. The current version of the Wahl-O-Mat for the European elections 2009 contains 38 statements. In the course of the editorial process more than 160 statements were developed. These were then narrowed down to 86, which the parties were then asked to answer. On the basis of their answers the 38 statements which best served to differentiate the parties were selected. We urge users more strongly than ever to add extra weight to those Wahl-O-Mat statements they consider to be of special importance to them in order to optimise the statistical result.';
 WOMT_aTexte['xxx_']=new Array();
 WOMT_aTexte['xxx_'][0]='xxx_';
@@ -3211,89 +3211,89 @@ WOMT_aTexte['xxx_dummy']=new Array();
 WOMT_aTexte['xxx_dummy'][0]='1';
 WOMT_aTexte['xxx_dummy'][1]='';
 WOMT_aTexte['popup_impressum_text_datenschutz']=new Array();
-WOMT_aTexte['popup_impressum_text_datenschutz'][0]='<h1 class="orange">Datenschutzerklärung</h1><div class="text_normal">Wir, die Bundeszentrale für politische Bildung (bpb) als Lizenzgeber des Wahl-O-Mat und Inhaber der Domain www.wahl-o-mat.de, nehmen den Schutz Ihrer persönlichen Daten und Ihr Recht auf informationelle Selbstbestimmung sehr ernst und halten uns selbstverständlich an die datenschutzrechtlichen Regeln. Als öffentlich-rechtliche Stelle des Bundes unterliegen wir den Bestimmungen des Bundesdatenschutzgesetzes, dessen Zweck der Schutz vor Beeinträchtigungen des Persönlichkeitsrechts durch den Umgang mit personenbezogenen Daten ist.\
+WOMT_aTexte['popup_impressum_text_datenschutz'][0]='<h1 class="orange">DatenschutzerklÃ¤rung</h1><div class="text_normal">Wir, die Bundeszentrale fÃ¼r politische Bildung (bpb) als Lizenzgeber des Wahl-O-Mat und Inhaber der Domain www.wahl-o-mat.de, nehmen den Schutz Ihrer persÃ¶nlichen Daten und Ihr Recht auf informationelle Selbstbestimmung sehr ernst und halten uns selbstverstÃ¤ndlich an die datenschutzrechtlichen Regeln. Als Ã¶ffentlich-rechtliche Stelle des Bundes unterliegen wir den Bestimmungen des Bundesdatenschutzgesetzes, dessen Zweck der Schutz vor BeeintrÃ¤chtigungen des PersÃ¶nlichkeitsrechts durch den Umgang mit personenbezogenen Daten ist.\
 <br/>\
 <br/><b>Personenbezogene Daten</b>\
-<br/>Personenbezogene Daten sind Informationen zu Ihrer Person, die dazu genutzt werden können, Ihre Identität zu erfahren - etwa Ihr richtiger Name, Ihre Adresse, Postanschrift oder Telefonnummer. Informationen, die keine Rückschlüsse auf eine bestimmte oder bestimmbare Person zulassen, fallen nicht darunter.\
+<br/>Personenbezogene Daten sind Informationen zu Ihrer Person, die dazu genutzt werden kÃ¶nnen, Ihre IdentitÃ¤t zu erfahren - etwa Ihr richtiger Name, Ihre Adresse, Postanschrift oder Telefonnummer. Informationen, die keine RÃ¼ckschlÃ¼sse auf eine bestimmte oder bestimmbare Person zulassen, fallen nicht darunter.\
 <br/>\
-<br/>Bei der Nutzung des Wahl-O-Mat werden keinerlei personenbezogene Daten erhoben. Nur wenn Sie den Wahl-O-Mat per Mailformular weiterempfehlen möchten, werden Sie aufgefordert, eine gültige E-Mail-Adresse als Absender einzugeben. Mailtext und Absender-Adresse werden von uns nach erfolgreichem Versenden der Mail weder weiter verarbeitet noch gespeichert. Einzig die Mailadresse des Empfängers wird in einem Mail-Serverlog protokolliert, der regelmäßig gelöscht wird.\
+<br/>Bei der Nutzung des Wahl-O-Mat werden keinerlei personenbezogene Daten erhoben. Nur wenn Sie den Wahl-O-Mat per Mailformular weiterempfehlen mÃ¶chten, werden Sie aufgefordert, eine gÃ¼ltige E-Mail-Adresse als Absender einzugeben. Mailtext und Absender-Adresse werden von uns nach erfolgreichem Versenden der Mail weder weiter verarbeitet noch gespeichert. Einzig die Mailadresse des EmpfÃ¤ngers wird in einem Mail-Serverlog protokolliert, der regelmÃ¤ÃŸig gelÃ¶scht wird.\
 <br/>\
-<br/>Die Erhebung, Verarbeitung und Nutzung dieser personenbezogenen Daten - der gültigen Mail-Adresse als Absender - auf www.wahl-o-mat.de unterliegen also Ihrer Zustimmung, und diese Daten werden nicht gespeichert. Wir erheben sie nur im technisch notwendigen Umfang, um die damit verbundene Funktion der Webseite auszuführen. In keinem Fall werden die erhobenen Daten verkauft oder aus anderen Gründen an Dritte weitergegeben. Sie werden nur zur unmittelbaren Erfüllung des Zweckes verwendet, für die wir die Daten benötigen, und sind auch nur den Personen zugänglich, die unmittelbar zur Erfüllung dieses Zweckes Zugriff auf sie haben müssen.\
+<br/>Die Erhebung, Verarbeitung und Nutzung dieser personenbezogenen Daten - der gÃ¼ltigen Mail-Adresse als Absender - auf www.wahl-o-mat.de unterliegen also Ihrer Zustimmung, und diese Daten werden nicht gespeichert. Wir erheben sie nur im technisch notwendigen Umfang, um die damit verbundene Funktion der Webseite auszufÃ¼hren. In keinem Fall werden die erhobenen Daten verkauft oder aus anderen GrÃ¼nden an Dritte weitergegeben. Sie werden nur zur unmittelbaren ErfÃ¼llung des Zweckes verwendet, fÃ¼r die wir die Daten benÃ¶tigen, und sind auch nur den Personen zugÃ¤nglich, die unmittelbar zur ErfÃ¼llung dieses Zweckes Zugriff auf sie haben mÃ¼ssen.\
 <br/>\
-<br/>Soweit Fremdfirmen im Auftrag der Bundeszentrale für politische Bildung tätig werden - etwa, um den Server der Webseite zu pflegen -, werden diese Firmen ausdrücklich darauf verpflichtet, die Daten ausschließlich im Rahmen dieser Zweckbestimmung zu verwenden und anschließend - nach Ablauf eventuell bestehender gesetzlicher Fristen - zu löschen. \
+<br/>Soweit Fremdfirmen im Auftrag der Bundeszentrale fÃ¼r politische Bildung tÃ¤tig werden - etwa, um den Server der Webseite zu pflegen -, werden diese Firmen ausdrÃ¼cklich darauf verpflichtet, die Daten ausschlieÃŸlich im Rahmen dieser Zweckbestimmung zu verwenden und anschlieÃŸend - nach Ablauf eventuell bestehender gesetzlicher Fristen - zu lÃ¶schen. \
 <br/>\
 <br/><b>Protokollierung</b>\
-<br/>Die bpb erhebt und speichert automatisch in ihren Server-Logfiles Informationen, die Ihr Browser an uns übermittelt. Dies sind je nach verwendetem Zugriffsprotokoll:\
-<br/><ul style="margin-left: 24px;list-style-type:square;"><li>IP-Adresse des anfordernden Rechners</li><li>Datum und Uhrzeit der Anforderung</li><li>vom anfordernden Rechner gewünschte Zugriffsmethode/Funktion</li><li>vom anfordernden Rechner übermittelte Eingabewerte</li><li>Zugriffsstatus des Web-Servers (Datei übertragen, Datei nicht gefunden, Kommando nicht ausgeführt etc.)</li><li>Name der angeforderten Datei</li><li>URL, von der aus die Datei angefordert/die gewünschte Funktion veranlasst wurde (Referrer URL)</li><li>Browsertyp & -version</li><li>Verwendetes Betriebssystem</li></ul>\
-<br/>Diese Daten sind für die bpb nicht bestimmten Personen zuordenbar. Sie werden ausschließlich zur Erstellung von Zugriffsstatistiken ohne jeden Personenbezug durch eigens hierzu berechtigte Personen für die Dauer von drei Monaten gespeichert und danach gelöscht. Eine personenbezogene Verwertung findet nicht statt. Darüber hinaus wird die erfasste IP-Adresse regelmäßig im Abstand von 48 Stunden in den Server-Logfiles zur vollständigen Anonymisierung überschrieben. Die Mailadresse des Empfängers einer Weiterempfehlungs-Mail wird wie beschrieben in einem Mail-Serverlog protokolliert, der regelmäßig gelöscht wird.\
+<br/>Die bpb erhebt und speichert automatisch in ihren Server-Logfiles Informationen, die Ihr Browser an uns Ã¼bermittelt. Dies sind je nach verwendetem Zugriffsprotokoll:\
+<br/><ul style="margin-left: 24px;list-style-type:square;"><li>IP-Adresse des anfordernden Rechners</li><li>Datum und Uhrzeit der Anforderung</li><li>vom anfordernden Rechner gewÃ¼nschte Zugriffsmethode/Funktion</li><li>vom anfordernden Rechner Ã¼bermittelte Eingabewerte</li><li>Zugriffsstatus des Web-Servers (Datei Ã¼bertragen, Datei nicht gefunden, Kommando nicht ausgefÃ¼hrt etc.)</li><li>Name der angeforderten Datei</li><li>URL, von der aus die Datei angefordert/die gewÃ¼nschte Funktion veranlasst wurde (Referrer URL)</li><li>Browsertyp & -version</li><li>Verwendetes Betriebssystem</li></ul>\
+<br/>Diese Daten sind fÃ¼r die bpb nicht bestimmten Personen zuordenbar. Sie werden ausschlieÃŸlich zur Erstellung von Zugriffsstatistiken ohne jeden Personenbezug durch eigens hierzu berechtigte Personen fÃ¼r die Dauer von drei Monaten gespeichert und danach gelÃ¶scht. Eine personenbezogene Verwertung findet nicht statt. DarÃ¼ber hinaus wird die erfasste IP-Adresse regelmÃ¤ÃŸig im Abstand von 48 Stunden in den Server-Logfiles zur vollstÃ¤ndigen Anonymisierung Ã¼berschrieben. Die Mailadresse des EmpfÃ¤ngers einer Weiterempfehlungs-Mail wird wie beschrieben in einem Mail-Serverlog protokolliert, der regelmÃ¤ÃŸig gelÃ¶scht wird.\
 <br/>\
 <br/><b>Cookies</b>\
-<br/>Der Wahl-O-Mat verwendet insgesamt zwei so genannte Cookies. Sie dienen dazu, sicherzustellen, dass ein und derselbe Nutzer nicht mehrmals in unserer Nutzungsstatistik gezählt wird. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.\
+<br/>Der Wahl-O-Mat verwendet insgesamt zwei so genannte Cookies. Sie dienen dazu, sicherzustellen, dass ein und derselbe Nutzer nicht mehrmals in unserer Nutzungsstatistik gezÃ¤hlt wird. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.\
 <br/>\
 <br/><b>Umfrage</b>\
-<br/>Am Ende des Wahl-O-Mat wird einer zufälligen Auswahl von Nutzer/innen die Möglichkeit angeboten, an einer wissenschaftlichen Evaluation des Wahl-O-Mat teilzunehmen. Die Teilnahme ist freiwillig, die Umfrage ist anonym, d.h. bei ihr werden ebenfalls keine personenbezogenen Daten erfasst. Um Ihr Wahl-O-Mat Ergebnis mit Ihren Antworten im Fragebogen zu korrelieren, wird die Webadresse ihres Wahl-O-Mat-Ergebnisses (Query Session-ID) mit den Antworten im Fragebogen verknüpft. Ihre IP-Adresse wird hierbei jedoch nicht gespeichert, und die in unseren Server-Logfiles beim Zugriff auf den Fragebogen gespeicherte IP-Adresse wird ebenfalls regelmäßig im Abstand von 48 Stunden zur vollständigen Anonymisierung überschrieben. Auf der Seite <a tabindex="100" title="Universität Düsseldorf (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">www.wahl-o-mat.uni-duesseldorf.de</a> können Sie die Ergebnisse der Evaluationen einsehen.\
+<br/>Am Ende des Wahl-O-Mat wird einer zufÃ¤lligen Auswahl von Nutzer/innen die MÃ¶glichkeit angeboten, an einer wissenschaftlichen Evaluation des Wahl-O-Mat teilzunehmen. Die Teilnahme ist freiwillig, die Umfrage ist anonym, d.h. bei ihr werden ebenfalls keine personenbezogenen Daten erfasst. Um Ihr Wahl-O-Mat Ergebnis mit Ihren Antworten im Fragebogen zu korrelieren, wird die Webadresse ihres Wahl-O-Mat-Ergebnisses (Query Session-ID) mit den Antworten im Fragebogen verknÃ¼pft. Ihre IP-Adresse wird hierbei jedoch nicht gespeichert, und die in unseren Server-Logfiles beim Zugriff auf den Fragebogen gespeicherte IP-Adresse wird ebenfalls regelmÃ¤ÃŸig im Abstand von 48 Stunden zur vollstÃ¤ndigen Anonymisierung Ã¼berschrieben. Auf der Seite <a tabindex="100" title="UniversitÃ¤t DÃ¼sseldorf (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.uni-duesseldorf.de" target="_blank">www.wahl-o-mat.uni-duesseldorf.de</a> kÃ¶nnen Sie die Ergebnisse der Evaluationen einsehen.\
 <br/>\
 <br/><b>Kooperationspartner</b>\
-<br/>Diese Datenschutzerklärung gilt nur für den Server von <a tabindex="101" title="www.wahl-o-mat.de (Dieser Link öffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a>. Der Wahl-O-Mat wird jedoch auch von Kooperations- und Medienpartnern der bpb auf deren eigenen Servern betrieben. Auf diesen kann es andere Datenschutzrichtlinien geben. Die bpb übernimmt keine Verantwortung für die Datenschutzrichtlinien dieser externen Webseiten.\
+<br/>Diese DatenschutzerklÃ¤rung gilt nur fÃ¼r den Server von <a tabindex="101" title="www.wahl-o-mat.de (Dieser Link Ã¶ffnet sich in einem neuen Fenster.)" class="link_normal" href="http://www.wahl-o-mat.de" target="_blank">www.wahl-o-mat.de</a>. Der Wahl-O-Mat wird jedoch auch von Kooperations- und Medienpartnern der bpb auf deren eigenen Servern betrieben. Auf diesen kann es andere Datenschutzrichtlinien geben. Die bpb Ã¼bernimmt keine Verantwortung fÃ¼r die Datenschutzrichtlinien dieser externen Webseiten.\
 <br/>\
-<br/>Kooperations-/Medienpartner der bpb stellen der bpb lediglich täglich die Zahl der insgesamt erfolgten Nutzungen des Wahl-O-Mat auf deren Servern zu, die in die Nutzungsstatistik auf www.wahl-o-mat.de eingehen.\
+<br/>Kooperations-/Medienpartner der bpb stellen der bpb lediglich tÃ¤glich die Zahl der insgesamt erfolgten Nutzungen des Wahl-O-Mat auf deren Servern zu, die in die Nutzungsstatistik auf www.wahl-o-mat.de eingehen.\
 <br/>\
 <br/><b>Auskunftsrecht</b>\
-<br/>Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt die Datenschutzbeauftragte der Bundeszentrale für politische Bildung: <a title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>.\
+<br/>Sie haben jederzeit das Recht auf Auskunft Ã¼ber die bezÃ¼glich Ihrer Person gespeicherten Daten, deren Herkunft und EmpfÃ¤nger sowie den Zweck der Speicherung. Auskunft Ã¼ber die gespeicherten Daten gibt die Datenschutzbeauftragte der Bundeszentrale fÃ¼r politische Bildung: <a title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>.\
 <br/>\
 <br/><b>Fragen und Kommentare</b>\
-<br/>Wenn Sie Fragen haben, die diese Datenschutzerklärung nicht beantworten konnte, wenn Sie zu einem Punkt weitere \
-<br/>Informationen haben möchten oder Anregungen oder Kommentare haben, können Sie sich gern direkt per E-Mail an die Datenschutzbeauftragte der Bundeszentrale für politische Bildung wenden: <a title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>. \
+<br/>Wenn Sie Fragen haben, die diese DatenschutzerklÃ¤rung nicht beantworten konnte, wenn Sie zu einem Punkt weitere \
+<br/>Informationen haben mÃ¶chten oder Anregungen oder Kommentare haben, kÃ¶nnen Sie sich gern direkt per E-Mail an die Datenschutzbeauftragte der Bundeszentrale fÃ¼r politische Bildung wenden: <a title="" class="link_normal" href="mailto:diehl@bpb.de">diehl@bpb.de</a>. \
 <br/>\
 <br/>Bonn, den 4. Mai 2009</div>';
 WOMT_aTexte['popup_impressum_text_datenschutz'][1]='';
 WOMT_aTexte['3_bn_parteiauswahl_text']=new Array();
-WOMT_aTexte['3_bn_parteiauswahl_text'][0]='Parteien auswählen';
+WOMT_aTexte['3_bn_parteiauswahl_text'][0]='Parteien auswÃ¤hlen';
 WOMT_aTexte['3_bn_parteiauswahl_text'][1]='Select parties';
 WOMT_aTexte['3_titel_text']=new Array();
 WOMT_aTexte['3_titel_text'][0]='Parteienauswahl';
 WOMT_aTexte['3_titel_text'][1]='Party selection';
 WOMT_aTexte['3_text_partei']=new Array();
-WOMT_aTexte['3_text_partei'][0]='Sie können bis zu acht Parteien gleichzeitig auswählen, mit denen Sie Ihre Positionen vergleichen möchten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.';
+WOMT_aTexte['3_text_partei'][0]='Sie kÃ¶nnen bis zu acht Parteien gleichzeitig auswÃ¤hlen, mit denen Sie Ihre Positionen vergleichen mÃ¶chten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.';
 WOMT_aTexte['3_text_partei'][1]='You can simultaneously select up to eight parties with whom you wish to compare your views. In the upper yellow box you will find the parties that are already represented in the European Parliament.';
 WOMT_aTexte['xxx_dummy']=new Array();
 WOMT_aTexte['xxx_dummy'][0]='xxx_dummy';
 WOMT_aTexte['xxx_dummy'][1]='xxx_dummy';
 WOMT_aTexte['3_text_partei_zuviele']=new Array();
-WOMT_aTexte['3_text_partei_zuviele'][0]='Sie können bis zu acht Parteien gleichzeitig auswählen, mit denen Sie Ihre Positionen vergleichen möchten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.<br />\
-<br/><b>Sie haben schon zu viele Parteien in die Auswahl gewählt. Bitte nehmen Sie wieder <span class="highlight">[ANZAHL]</span> Parteien aus der Auswahl heraus.</b>';
+WOMT_aTexte['3_text_partei_zuviele'][0]='Sie kÃ¶nnen bis zu acht Parteien gleichzeitig auswÃ¤hlen, mit denen Sie Ihre Positionen vergleichen mÃ¶chten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.<br />\
+<br/><b>Sie haben schon zu viele Parteien in die Auswahl gewÃ¤hlt. Bitte nehmen Sie wieder <span class="highlight">[ANZAHL]</span> Parteien aus der Auswahl heraus.</b>';
 WOMT_aTexte['3_text_partei_zuviele'][1]='You can simultaneously select up to eight parties with whom you wish to compare your views. In the upper yellow box you will find the parties that are already represented in the European Parliament.<br />\
 <br/><b>You have selected too many parties. Please remove <span class="highlight">[ANZAHL]</span> parties from your selection.</b>';
 WOMT_aTexte['3_form_submit_text']=new Array();
 WOMT_aTexte['3_form_submit_text'][0]='Ergebnis anzeigen';
 WOMT_aTexte['3_form_submit_text'][1]='Show result';
 WOMT_aTexte['3_text_partei_zuviele_eine']=new Array();
-WOMT_aTexte['3_text_partei_zuviele_eine'][0]='Sie können bis zu acht Parteien gleichzeitig auswählen, mit denen Sie Ihre Positionen vergleichen möchten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.<br />\
-<br/><b>Sie haben schon zu viele Parteien in die Auswahl gewählt. Bitte nehmen Sie wieder <span class="highlight">[ANZAHL]</span> Partei aus der Auswahl heraus.</b>';
+WOMT_aTexte['3_text_partei_zuviele_eine'][0]='Sie kÃ¶nnen bis zu acht Parteien gleichzeitig auswÃ¤hlen, mit denen Sie Ihre Positionen vergleichen mÃ¶chten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.<br />\
+<br/><b>Sie haben schon zu viele Parteien in die Auswahl gewÃ¤hlt. Bitte nehmen Sie wieder <span class="highlight">[ANZAHL]</span> Partei aus der Auswahl heraus.</b>';
 WOMT_aTexte['3_text_partei_zuviele_eine'][1]='You can simultaneously select up to eight parties with whom you wish to compare your views. In the upper yellow box you will find the parties that are already represented in the European Parliament.<br />\
 <br/><b>You have selected too many parties. Please remove <span class="highlight">[ANZAHL]</span> party from your selection.</b>';
 WOMT_aTexte['3_text_partei_zuwenige']=new Array();
-WOMT_aTexte['3_text_partei_zuwenige'][0]='Sie können bis zu acht Parteien gleichzeitig auswählen, mit denen Sie Ihre Positionen vergleichen möchten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.<br />\
-<br/><b>Bitte wählen Sie mindestens eine Partei aus.</b>';
+WOMT_aTexte['3_text_partei_zuwenige'][0]='Sie kÃ¶nnen bis zu acht Parteien gleichzeitig auswÃ¤hlen, mit denen Sie Ihre Positionen vergleichen mÃ¶chten. Im oberen gelben Kasten finden Sie die Parteien, die bereits im Europa-Parlament vertreten sind.<br />\
+<br/><b>Bitte wÃ¤hlen Sie mindestens eine Partei aus.</b>';
 WOMT_aTexte['3_text_partei_zuwenige'][1]='You can simultaneously select up to eight parties with whom you wish to compare your views. In the upper yellow box you will find the parties that are already represented in the European Parliament.<br/>\
 <br/><b>Please select at least one party.</b>';
 WOMT_aTexte['4_positionsvergleich_titel']=new Array();
 WOMT_aTexte['4_positionsvergleich_titel'][0]='Vergleich der Positionen ';
 WOMT_aTexte['4_positionsvergleich_titel'][1]='Comparison of views';
 WOMT_aTexte['4_positionsvergleich_text']=new Array();
-WOMT_aTexte['4_positionsvergleich_text'][0]='Hinweis: Eine ähnlich hohe Übereinstimmung zwischen Ihren Antworten und den Antworten mehrerer Parteien bedeutet nicht zwangsläufig eine inhaltliche Nähe der Parteien. Um zu sehen, wie Ihr Wahl-O-Mat-Ergebnis zustande kam, vergleichen Sie einfach [TARGET2]Ihre Position zu jeder These mit den Antworten der Parteien</a>.';
+WOMT_aTexte['4_positionsvergleich_text'][0]='Hinweis: Eine Ã¤hnlich hohe Ãœbereinstimmung zwischen Ihren Antworten und den Antworten mehrerer Parteien bedeutet nicht zwangslÃ¤ufig eine inhaltliche NÃ¤he der Parteien. Um zu sehen, wie Ihr Wahl-O-Mat-Ergebnis zustande kam, vergleichen Sie einfach [TARGET2]Ihre Position zu jeder These mit den Antworten der Parteien</a>.';
 WOMT_aTexte['4_positionsvergleich_text'][1]='A high degree of correspondence between your answers and the answers of several different parties does not necessarily mean that the parties in question have similar programmes. To see how your Wahl-O-Mat result was obtained, simply compare [TARGET2]your views on each statement with the answers of the parties</a>.';
 WOMT_aTexte['4_btn_zurueck_fragen_title']=new Array();
-WOMT_aTexte['4_btn_zurueck_fragen_title'][0]='zurück zu den Fragen';
+WOMT_aTexte['4_btn_zurueck_fragen_title'][0]='zurÃ¼ck zu den Fragen';
 WOMT_aTexte['4_btn_zurueck_fragen_title'][1]='Go back to questions';
 WOMT_aTexte['4_btn_zurueck_fragen_text']=new Array();
-WOMT_aTexte['4_btn_zurueck_fragen_text'][0]='zurück zu den Fragen';
+WOMT_aTexte['4_btn_zurueck_fragen_text'][0]='zurÃ¼ck zu den Fragen';
 WOMT_aTexte['4_btn_zurueck_fragen_text'][1]='Go back to questions';
 WOMT_aTexte['4_btn_zurueck_parteienaw_text']=new Array();
-WOMT_aTexte['4_btn_zurueck_parteienaw_text'][0]='zurück zur Parteienauswahl';
+WOMT_aTexte['4_btn_zurueck_parteienaw_text'][0]='zurÃ¼ck zur Parteienauswahl';
 WOMT_aTexte['4_btn_zurueck_parteienaw_text'][1]='Go back to party selection';
 WOMT_aTexte['4_btn_zurueck_parteienaw_title']=new Array();
-WOMT_aTexte['4_btn_zurueck_parteienaw_title'][0]='zurück zur Parteienauswahl';
+WOMT_aTexte['4_btn_zurueck_parteienaw_title'][0]='zurÃ¼ck zur Parteienauswahl';
 WOMT_aTexte['4_btn_zurueck_parteienaw_title'][1]='Go back to party selection';
 WOMT_aTexte['4_vergleich_der_positionen']=new Array();
 WOMT_aTexte['4_vergleich_der_positionen'][0]='Vergleich der Positionen';
@@ -3308,8 +3308,8 @@ WOMT_aTexte['4_btn_neustart_title']=new Array();
 WOMT_aTexte['4_btn_neustart_title'][0]='Neustart des Wahl-O-Mat';
 WOMT_aTexte['4_btn_neustart_title'][1]='Restart the Wahl-O-Mat';
 WOMT_aTexte['3_bn_hinweis']=new Array();
-WOMT_aTexte['3_bn_hinweis'][0]='Hinweis: bei der anschliessenden Parteienauswahl müssen Sie mindestens eine und maximal 8 Parteien auswählen.';
+WOMT_aTexte['3_bn_hinweis'][0]='Hinweis: bei der anschliessenden Parteienauswahl mÃ¼ssen Sie mindestens eine und maximal 8 Parteien auswÃ¤hlen.';
 WOMT_aTexte['3_bn_hinweis'][1]='Explanation: In the following party selection you must select a minimum of one party and a maximum of eight.';
 WOMT_aTexte['3_btn_zurueck_text']=new Array();
-WOMT_aTexte['3_btn_zurueck_text'][0]='Zurück zur Thesengewichtung';
+WOMT_aTexte['3_btn_zurueck_text'][0]='ZurÃ¼ck zur Thesengewichtung';
 WOMT_aTexte['3_btn_zurueck_text'][1]='Back to statement weighting';
