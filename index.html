@@ -76,8 +76,9 @@
   <script type="text/javascript" >wahlomat_collect("2015", "hamburg");</script>
 
   <script type="text/javascript" >
-  console.log(allData);
+//  console.log(allData);
   convertedData=wahlomat_convert_theses(allData);
+  convertedData=wahlomat_merge_positions(convertedData);
   console.log(convertedData);
   wahlomat_dump_theses(convertedData);
   </script>

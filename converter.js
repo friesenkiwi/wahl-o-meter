@@ -39,6 +39,26 @@ function wahlomat_convert_theses(allData){
   return convertedData;
 }
 
+function wahlomat_merge_positions(allData){
+  for (var i = 0; i < allData.length; i++) {
+
+    for (var j = 0; j < allData[i].theses.length; j++) {
+      var positions = [];
+      var positionTexts = allData[i].positions.positionTexts[j];
+
+      allData[i].theses[j]={"title":allData[i].theses[j].title, "description":allData[i].theses[j].description, "positions":positions};
+
+      for (var x = 0; x < allData[i].partys.partys.length; x++){
+        var partyShort = allData[i].partys.partys[x][0][1];
+
+        allData[i].theses[j].positions.push({"value":allData[i].positions.positions[j][x], "text": allData[i].positions.positionTexts[j][x][0], "party": partyShort});
+      }
+    }
+    allData[i]={"theses":allData[i].theses, "wahlomat":allData[i].wahlomat};
+  }
+  return allData;
+}
+
 function wahlomat_dump_theses(allData){
   for (var i = 0; i < allData.length; i++) {
     var title="";
@@ -47,10 +67,21 @@ function wahlomat_dump_theses(allData){
     }else if (allData[i].wahlomat.texts["wahlomat_head_titel"]!=undefined) {
       title=allData[i].wahlomat.texts["wahlomat_head_titel"][0];
     }
-    document.write("<h2>"+allData[i].wahlomat.id+" - "+title+"</h2>");
-    for(var j = 0; j < allData[i].theses.length; j++) {
-      var curThe=allData[i].theses[j];
-      document.write(curThe.title +": "+curThe.description+"<br />");
+    document.write("<table><tr><th><h2>"+allData[i].wahlomat.id+" - "+title+"</h2></th>");
+    for (var x = 0; x < allData[i].theses[0].positions.length; x++) {
+      document.write("<th>"+allData[i].theses[0].positions[x].party+"</th>");
     }
+    document.write("</tr><tr>");
+
+    for (var j = 0; j < allData[i].theses.length; j++) {
+      var curThe=allData[i].theses[j];
+      document.write("<td>"+curThe.title +": "+curThe.description+"</td>");
+      for (var x = 0; x < curThe.positions.length; x++) {
+        document.write("<td>"+curThe.positions[x].value+"</td>");
+      }
+      document.write("</tr>");
+    }
+    document.write("</table>");
+
   }
 }
