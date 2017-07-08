@@ -74,8 +74,13 @@
   <script src="data/wahlomat_2015_hamburg/module_definition.js" type="text/javascript" ></script>
   <script src="data/wahlomat_2015_hamburg/module_definition_statements.js" type="text/javascript" ></script>
   <script type="text/javascript" >wahlomat_collect("2015", "hamburg");</script>
-  
-  <script type="text/javascript" >console.log(allData);</script>
+
+  <script type="text/javascript" >
+  console.log(allData);
+  convertedData=wahlomat_convert_theses(allData);
+  console.log(convertedData);
+  wahlomat_dump_theses(convertedData);
+  </script>
 
 </head>
 <body>
