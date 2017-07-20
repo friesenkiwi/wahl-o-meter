@@ -78,8 +78,10 @@
   <script type="text/javascript" >
 //  console.log(allData);
   convertedData=wahlomat_convert_theses(allData);
-  convertedData=wahlomat_merge_positions(convertedData);
-  console.log(convertedData);
+  var allPartys=Array();
+  convertedData=wahlomat_merge_positions(convertedData,allPartys);
+  //console.log(convertedData);
+  wahlomat_dump_parties(allPartys);
   wahlomat_dump_theses(convertedData);
   </script>
 

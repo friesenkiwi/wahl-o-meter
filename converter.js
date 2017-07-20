@@ -39,8 +39,9 @@ function wahlomat_convert_theses(allData){
   return convertedData;
 }
 
-function wahlomat_merge_positions(allData){
+function wahlomat_merge_positions(allData,allPartys){
   for (var i = 0; i < allData.length; i++) {
+    allPartys.push(allData[i].partys.partys);
 
     for (var j = 0; j < allData[i].theses.length; j++) {
       var positions = [];
@@ -84,4 +85,45 @@ function wahlomat_dump_theses(allData){
     document.write("</table>");
 
   }
+
+
+}
+
+function normalizePartyName(partyName){
+  partyName=partyName.toUpperCase();
+
+  partyName=partyName.trim();
+
+  if(partyName.includes("GRÜNE") || partyName.includes("GR&UUML;NE")){
+    partyName="GRÜNE";
+  } else if (partyName.includes("FREIE WÄHLER") || partyName.includes("FREIE W&AUML;HLER")) {
+    partyName="FREIE WÄHLER";
+  } else if (partyName.includes("CDU") || partyName.includes("CSU")) {
+    partyName="CDU/CSU";
+  } else if (partyName.includes("DIE LINKE") || partyName.includes("PDS")) {
+    partyName="DIE LINKE";
+  }
+  return partyName;
+}
+
+function wahlomat_dump_parties(allPartys){
+  var allPartysFlat=[];
+  document.write("<table>");
+  for (var x = 0; x < allPartys.length; x++){
+    for (var y = 0; y < allPartys[x].length; y++){
+      var partyName=normalizePartyName(allPartys[x][y][0][1]);
+
+      if(allPartysFlat[partyName]==undefined){
+        allPartysFlat[partyName]=[];
+      }
+      allPartysFlat[partyName].push([x][y]=allPartys[x][y][0][0]})
+//      allPartysFlat[partyName].push([x][y]=allPartys[x][y][0][0]})
+      allPartysFlat[partyName].push({"id":""+x+"-"+y,"womt-num":x,"party-num":y,"name":allPartys[x][y][0][0]})
+
+//      allPartysFlat[partyName].push({"id":""+x+"-"+y,"name":allPartys[x][y][0][0]})
+      document.write("<tr><td>"+x+"-"+y+" "+partyName+"</td></tr>");
+    }
+  }
+  document.write("</table>");
+  console.log(allPartysFlat);
 }
