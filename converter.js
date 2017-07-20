@@ -60,7 +60,7 @@ function wahlomat_merge_positions(allData,allPartys){
   return allData;
 }
 
-function wahlomat_dump_theses(allData){
+function wahlomat_dump_theses(allData,allPartys){
   for (var i = 0; i < allData.length; i++) {
     var title="";
     if(allData[i].wahlomat.texts["wahlomat_titelzeile"]!=undefined){
@@ -72,6 +72,7 @@ function wahlomat_dump_theses(allData){
     for (var x = 0; x < allData[i].theses[0].positions.length; x++) {
       document.write("<th>"+allData[i].theses[0].positions[x].party+"</th>");
     }
+
     document.write("</tr><tr>");
 
     for (var j = 0; j < allData[i].theses.length; j++) {
@@ -116,7 +117,7 @@ function wahlomat_dump_parties(allPartys){
       if(allPartysFlat[partyName]==undefined){
         allPartysFlat[partyName]=[];
       }
-      allPartysFlat[partyName].push([x][y]=allPartys[x][y][0][0]})
+  //    allPartysFlat[partyName].push([x][y]=allPartys[x][y][0][0]});
 //      allPartysFlat[partyName].push([x][y]=allPartys[x][y][0][0]})
       allPartysFlat[partyName].push({"id":""+x+"-"+y,"womt-num":x,"party-num":y,"name":allPartys[x][y][0][0]})
 
