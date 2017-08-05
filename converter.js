@@ -239,7 +239,7 @@ function normalizePartyName(partyName) {
 
   if (partyName.includes("GRÜNE") || partyName.includes("GR&UUML;NE")) {
     partyName = "GRÜNE";
-  } else if (partyName.includes("FREIE WÄHLER") || partyName.includes("FREIE W&AUML;HLER")) {
+  } else if (partyName.includes("FREIE WÄHLER") || partyName.includes("FREIE W&AUML;HLER") || partyName.includes("FBI")) {
     partyName = "FREIE WÄHLER";
   } else if (partyName.includes("CDU") || partyName.includes("CSU")) {
     partyName = "CDU/CSU";
@@ -249,6 +249,10 @@ function normalizePartyName(partyName) {
     partyName = "PRO";
   } else if (partyName.includes("FREIHEIT")) {
     partyName = "DIE FREIHEIT";
+  } else if (partyName.includes("DVU")) {
+    partyName = "NPD";
+  } else if (partyName.includes("TIERSCHUTZPARTEI")) {
+    partyName = "TIERSCHUTZPARTEI";
   }
   return partyName;
 }
