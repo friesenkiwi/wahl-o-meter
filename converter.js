@@ -98,66 +98,77 @@ function wahlomat_merge_positions(allData, allPartys) {
 function wahlomat_dump_theses_general(allData, allPartyOccurences) {
   document.write("<table>");
 
-  document.write("<tr><th></th>");
-  for (var partyName in allPartyOccurences.perParty) {
-    document.write("<th>" + partyName + "</th>");
-  }
-  document.write("</tr>");
-  document.write("<tr>");
+  dump_theses_mainheading(allPartyOccurences.perParty);
 
   for (var i = 0; i < allData.length; i++) { //all WOMs
-    var title = normalizeElectionName(allData[i].occasion.additionalData.texts);
     var partyIDNumMatching = [];
-    var partyNumIDMatching = [];
 
-    document.write("<tr><th><h2>" + allData[i].occasion.id + " - " + title + "</h2></th>");
-    for (var partyName in allPartyOccurences.perParty) { // all parties
-      document.write("<th>");
-
-      
-
-      var partyNum = -1;
-      for (var x = 0; x < allPartyOccurences.perWOM[i].length; x++) { // all occurences
-        if (partyName == allPartyOccurences.perWOM[i][x].name) {
-          if (partyNum != -1) {
-            document.write("/");
-          }
-          partyNum = allPartyOccurences.perWOM[i][x].party_num;
-          if (partyIDNumMatching[allPartyOccurences.perWOM[i][x].party_id] == undefined) {
-            partyIDNumMatching[allPartyOccurences.perWOM[i][x].party_id] = x;
-          } else {
-            if (partyIDNumMatching[allPartyOccurences.perWOM[i][x].party_id].constructor !== Array) {
-              partyIDNumMatching[allPartyOccurences.perWOM[i][x].party_id] = [partyIDNumMatching[allPartyOccurences.perWOM[i][x].party_id]];
-            }
-            partyIDNumMatching[allPartyOccurences.perWOM[i][x].party_id].push(x);
-          }
-          //partyNumIDMatching[allPartyOccurences.perWOM[i][x].party_num]=allPartyOccurences.perWOM[i][x].party_id;
-
-          document.write(allPartyOccurences.perWOM[i][x].name_original);
-        }
-      }
-
-      document.write("</th>");
-    }
-
-    document.write("</tr>");
+    dump_theses_heading(allPartyOccurences,i,allData[i].occasion,partyIDNumMatching);
 
     dump_theses_theses(allData[i].theses, allPartyOccurences.perParty, partyIDNumMatching);
-
   }
   document.write("</table>");
 }
 
-function dump_theses_mainheading(occasisionNum, bla){
-
+function dump_theses_mainheading(partyOccurences){
+  document.write("<tr><th></th>");
+  for (var partyName in partyOccurences) {
+    document.write("<th>" + partyName + "</th>");
+  }
+  document.write("</tr>");
 }
 
-function dump_theses_heading(occasisionNum, bla){
+function dump_theses_heading(allPartyOccurences,i,occasion,partyIDNumMatching){
+  var title = normalizeElectionName(occasion.additionalData.texts);
 
+  document.write("<tr>");
+
+  document.write("<th><h2>" + occasion.id + " - " + title + "</h2></th>");
+
+  convertedPartys=convert_partys(allPartyOccurences,i,partyIDNumMatching);
+
+  for (var q = 0; q < convertedPartys.length; q++) {
+    document.write("<th>");
+    document.write(convertedPartys[q]);
+    document.write("</th>");
+  }
+  document.write("</tr>");
 }
 
-function find_party(,partyIDNumMatchingOutput){
+function convert_partys(partyOccurences,i,partyIDNumMatching){
+  var convertedPartys=[];
+  for (var partyName in partyOccurences.perParty) { // all parties
+    convertedPartys.push(find_party(partyName,partyOccurences.perWOM[i],partyIDNumMatching));
+  }
+  return convertedPartys;
+}
 
+function find_party(partyName,partyOccurences,partyIDNumMatching){
+  var partyNum = -1;
+  var partyNameName="";
+  var partyNumIDMatching = [];
+
+
+  for (var x = 0; x < partyOccurences.length; x++) { // all occurences
+    if (partyName == partyOccurences[x].name) {
+      if (partyNum != -1) {
+        partyNameName+="/";
+      }
+      partyNum = partyOccurences[x].party_num;
+      if (partyIDNumMatching[partyOccurences[x].party_id] == undefined) {
+        partyIDNumMatching[partyOccurences[x].party_id] = x;
+      } else {
+        if (partyIDNumMatching[partyOccurences[x].party_id].constructor !== Array) {
+          partyIDNumMatching[partyOccurences[x].party_id] = [partyIDNumMatching[partyOccurences[x].party_id]];
+        }
+        partyIDNumMatching[partyOccurences[x].party_id].push(x);
+      }
+      //partyNumIDMatching[allPartyOccurences.perWOM[i][x].party_num]=allPartyOccurences.perWOM[i][x].party_id;
+      partyNameName+=partyOccurences[x].name_original;
+      //document.write(allPartyOccurences.perWOM[i][x].name_original);
+    }
+  }
+  return partyNameName;
 }
 
 function dump_theses_theses(theses, partyOccurences, partyIDNumMatching){
