@@ -81,8 +81,13 @@
   var allPartys=Array();
   convertedData=wahlomat_merge_positions(convertedData,allPartys);
   //console.log(convertedData);
-  wahlomat_dump_parties(allPartys);
-  wahlomat_dump_theses(convertedData);
+//  document.write(JSON.stringify(allPartys));
+//  console.log(allPartys);
+  partyOccurences=wahlomat_crunch_party_occurences(allPartys);
+
+  console.log(partyOccurences);
+  //wahlomat_dump_party_occurences(partyOccurences);
+  wahlomat_dump_theses(convertedData,partyOccurences);
   </script>
 
 </head>
