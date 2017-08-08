@@ -1,6 +1,4 @@
-allData = [];
-
-function wahlomat_collect(year, parliament) {
+function wahlomat_collect(year, parliament, allData) {
   allData.push({
     "occasion": {
       "id": WAHLOMATEN_ID,
@@ -33,6 +31,7 @@ function wahlomat_collect(year, parliament) {
   WOMT_aThesenThema = undefined;
   WOMT_aParteienURL = undefined;
   WOMT_aTexte = undefined;
+  return allData;
 }
 
 function wahlomat_convert_theses(allData) {
@@ -329,4 +328,9 @@ function wahlomat_crunch_party_occurences(allPartys) {
     "perWOM": partyOccurencesPerWOM,
     "perParty": partyOccurencesPerParty
   };
+}
+
+
+function wahlomat_dump_json(convertedData, partyOccurences){
+  document.write(JSON.stringify(convertedData));
 }
