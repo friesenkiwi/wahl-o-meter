@@ -62,7 +62,8 @@ function wahlomat_convert_theses(allData) {
   return convertedData;
 }
 
-function wahlomat_merge_positions(allData, allPartys) {
+function wahlomat_merge_positions(allData) {
+  var allPartys = Array();
   for (var i = 0; i < allData.length; i++) {
     allPartys.push(allData[i].partys.partys);
 
@@ -90,8 +91,10 @@ function wahlomat_merge_positions(allData, allPartys) {
       "theses": allData[i].theses,
       "occasion": allData[i].occasion
     };
+    allData[i].occasion.num = i;
   }
-  return allData;
+  var reallyAllData={"allData": allData, "allPartys": allPartys};
+  return reallyAllData;
 }
 
 function wahlomat_dump_theses_general(allData, allPartyOccurences) {
@@ -231,6 +234,58 @@ function wahlomat_dump_theses(allData, allPartyOccurences) {
   }
 }
 
+
+function wahlomat_dump_categorized_theses(reallyAllData) {
+  for (var category in reallyAllData.categorized) { // all categories
+    document.write("<table><tr><th><h2>" + category + "</h2></th>");
+    document.write("</tr>");
+    dump_theses_mainheading(reallyAllData.partyOccurences.perParty);
+    for (var q = 0; q < reallyAllData.categorized[category].length; q++) {
+      var curCatThe=reallyAllData.categorized[category][q];
+      document.write("<tr>");
+      document.write("<td>" + curCatThe.thesis_id + ": " + curCatThe.description +"</td>");
+      document.write("</tr>");
+    }
+    document.write("</table>");
+  }
+  console.log(reallyAllData);
+}
+
+function wahlomat_categorize_theses(reallyAllData, theses_categories) {
+  var allData=reallyAllData.allData;
+  var allPartyOccurences=reallyAllData.partyOccurences;
+  thesis_ids=[];
+  categories=[];
+  categorized=[];
+  for (var x = 0; x < theses_categories.length; x++) {
+    i=theses_categories[x].occasion_id;
+    j=theses_categories[x].thesis_num;
+    allData[i].theses[j].category = theses_categories[x].category;
+    allData[i].theses[j].thesis_id = theses_categories[x].thesis_id;
+    allData[i].theses[j].occasion = allData[i].occasion;
+    thesis_ids[theses_categories[x].thesis_id] = allData[i].theses[j];
+
+
+    if (categories[theses_categories[x].category] == undefined) {
+      categories[theses_categories[x].category] = [];
+      categorized[theses_categories[x].category] = [];
+    }
+
+    categories[theses_categories[x].category].push(theses_categories[x].thesis_id);
+    categorized[theses_categories[x].category].push(allData[i].theses[j]);
+  }
+
+//  reallyAllData = {'occasions' : allData, 'theses': thesis_ids, 'partyOccurences': allPartyOccurences, 'categories':categories, 'categorized':categorized}
+
+  reallyAllData.occasions = allData;
+  reallyAllData.theses = thesis_ids;
+  reallyAllData.categories = categories;
+  reallyAllData.categorized = categorized;
+
+  console.log(reallyAllData);
+  return reallyAllData;
+}
+
 function normalizePartyName(partyName) {
   partyName = partyName.toUpperCase();
 
@@ -283,7 +338,8 @@ function wahlomat_dump_party_occurences(allPartyOccurences) {
   document.write("</table>");
 }
 
-function wahlomat_crunch_party_occurences(allPartys) {
+function wahlomat_crunch_party_occurences(reallyAllData) {
+  var allPartys = reallyAllData.allPartys;
   var partyName = "";
   var partyOccurencesPerParty = [];
   var partyOccurences = [];
@@ -323,14 +379,30 @@ function wahlomat_crunch_party_occurences(allPartys) {
     }
   }
 
-  return {
+  reallyAllData.partyOccurences = {
     "all": partyOccurences,
     "perWOM": partyOccurencesPerWOM,
     "perParty": partyOccurencesPerParty
   };
+  return reallyAllData;
 }
 
 
 function wahlomat_dump_json(convertedData, partyOccurences){
   document.write(JSON.stringify(convertedData));
+}
+
+
+
+// from https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
+function loadJSON(filename, callback) {
+   var xobj = new XMLHttpRequest();
+   xobj.overrideMimeType("application/json");
+   xobj.open('GET', filename, true);
+   xobj.onreadystatechange = function () {
+     if (xobj.readyState == 4 && xobj.status == "200") {
+       callback(xobj.responseText);
+     }
+   };
+   xobj.send(null);
 }
