@@ -1,4 +1,4 @@
-thesis_id,occasion_id,thesis_num,category
+thesis_id,occasion_num,thesis_num,category
 170,6,12,1-Euro-Job
 456,14,26,1-Euro-Job
 494,15,26,1-Euro-Job
@@ -190,21 +190,21 @@ thesis_id,occasion_id,thesis_num,category
 869,25,21,Droge
 69,2,19,Ehe für Alle
 92,3,19,Ehe für Alle
-245,8,27,Ehe für alle
-263,9,15,Ehe für alle
+245,8,27,Ehe für Alle
+263,9,15,Ehe für Alle
 304,10,26,Ehe für Alle
 320,11,4,Ehe für Alle
 372,12,18,Ehe für Alle
 395,13,3,Ehe für Alle
 457,14,27,Ehe für Alle
-486,15,18,Ehe für alle
+486,15,18,Ehe für Alle
 534,16,28,Ehe für Alle
-602,18,20,Ehe für alle
+602,18,20,Ehe für Alle
 652,19,32,Ehe für Alle
 700,21,4,Ehe für Alle
-749,22,15,Ehe für alle
+749,22,15,Ehe für Alle
 774,23,2,Ehe für Alle
-820,24,10,Ehe für alle
+820,24,10,Ehe für Alle
 837,24,27,Ehe für Alle
 47,1,27,Entwicklungshilfe
 322,11,6,Entwicklungshilfe
@@ -362,7 +362,7 @@ thesis_id,occasion_id,thesis_num,category
 729,21,33,Grenzkontrollen
 769,22,35,Grenzkontrollen
 806,23,34,Grenzkontrollen
-402,13,10,Grunderwerbs­steuer
+402,13,10,Grunderwerbssteuer
 722,21,26,Grunderwerbssteuer
 829,24,19,Grunderwerbssteuer
 397,13,5,Hotel
@@ -833,8 +833,8 @@ thesis_id,occasion_id,thesis_num,category
 148,5,19,Videoüberwachung
 207,7,19,Videoüberwachung
 276,9,28,Videoüberwachung
-420,13,28,Video­überwachung
-511,16,5,Video­überwachung
+420,13,28,Videoüberwachung
+511,16,5,Videoüberwachung
 556,17,12,Videoüberwachung
 587,18,5,Videoüberwachung
 625,19,5,Videoüberwachung
