@@ -130,12 +130,6 @@
   </script>
 
   <script type="text/javascript">
-
-
-  </script>
-
-  <script type="text/javascript">
-
     var convertedData = wahlomat_convert_theses(allData);
     var reallyAllData = wahlomat_merge_positions(convertedData);
 
@@ -143,8 +137,10 @@
       theses_categories = JSON.parse(response);
       var reallyAllCategorizedData=wahlomat_categorize_theses(reallyAllData, theses_categories);
       reallyAllCategorizedData = wahlomat_crunch_party_occurences(reallyAllCategorizedData);
-
+      console.log("inbetween");
+      console.log(reallyAllCategorizedData);
       wahlomat_dump_categorized_theses(reallyAllCategorizedData);
+      console.log("This is the End");
     });
   </script>
 </head>

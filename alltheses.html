@@ -131,16 +131,18 @@
 
   <script type="text/javascript">
     var convertedData = wahlomat_convert_theses(allData);
-    var allPartys = Array();
-    convertedData = wahlomat_merge_positions(convertedData, allPartys);
+    var reallyAllData = wahlomat_merge_positions(convertedData);
 
-    var partyOccurences = wahlomat_crunch_party_occurences(allPartys);
+    reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
+    console.log(reallyAllData);
 
-    //console.log(partyOccurences);
-    //wahlomat_dump_party_occurences(partyOccurences);
-    wahlomat_dump_theses_general(convertedData, partyOccurences);
-    //wahlomat_dump_theses(convertedData,partyOccurences);
+    wahlomat_dump_theses_general(reallyAllData);
+    console.log("This is the End");
   </script>
+
+
+
+
 </head>
 <body>
 </body>
