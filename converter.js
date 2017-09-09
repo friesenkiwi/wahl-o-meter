@@ -82,7 +82,7 @@ function wahlomat_merge_positions(allData) {
 
         allData[i].theses[j].positions.push({
           "value": allData[i].positions.positions[j][x],
-          "text": allData[i].positions.positionTexts[j][x][0],
+          "text": allData[i].positions.positionTexts[j][x][0].replace(/"/g, '&quot;'),
           "party": partyShort
         });
       }
@@ -263,7 +263,7 @@ function derive_position_dings(positions,partyOccurences,partyIDNumMatching){
     if (partyNum.constructor === Array) {
       for (var z = 0; z < partyNum.length; z++) {
         if(positions[partyNum[z]]!=undefined){
-          output+=positions[partyNum[z]].value;
+          output= format_position(positions[partyNum][z]);
           if (z < partyNum.length - 1) {
             output+="/";
           }
@@ -273,13 +273,17 @@ function derive_position_dings(positions,partyOccurences,partyIDNumMatching){
       }
     } else {
       if(positions[partyNum]!=undefined){
-        output=positions[partyNum].value;
+        output= format_position(positions[partyNum]);
       } else {
         output="";
       }
     }
   }
   return output;
+}
+
+function format_position(position){
+  return '<span title="'+position.text+'">'+position.value+'</span>';
 }
 
 function wahlomat_dump_theses(allData, allPartyOccurences) {
