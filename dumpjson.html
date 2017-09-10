@@ -131,12 +131,13 @@
 
   <script type="text/javascript">
     var convertedData = wahlomat_convert_theses(allData);
-    var allPartys = Array();
-    convertedData = wahlomat_merge_positions(convertedData, allPartys);
+    var reallyAllData = wahlomat_merge_positions(convertedData);
 
-    var partyOccurences = wahlomat_crunch_party_occurences(allPartys);
+    reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
 
-    wahlomat_dump_json(convertedData, partyOccurences);
+
+    wahlomat_dump_json(reallyAllData);
+
   </script>
 </head>
 <body>
