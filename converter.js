@@ -585,6 +585,67 @@ function wahlomat_dump_json(reallyAllData) {
   document.write(JSON.stringify(reallyAllData.allData));
 }
 
+function import_addtional_data(additionalData){
+  console.log(additionalData);
+}
+
+function load_additional_data(reallyAllData, jahr, folder, withComment, last){
+  var wahl;
+  if(folder=="deutschland"){
+    wahl="bundestagswahl";
+  } else {
+    wahl=folder;
+  }
+  var path="data/additional/"+jahr+"/"+folder+"/";
+//  console.log(path);
+
+  loadJSON(path+"overview.json", function(response) {
+    var overviewData = JSON.parse(response);
+    loadJSON(path+"party.json", function(response) {
+      var partyData = JSON.parse(response);
+      loadJSON(path+"statement.json", function(response) {
+        var statementData = JSON.parse(response);
+        loadJSON(path+"opinion.json", function(response) {
+          var opinionData = JSON.parse(response);
+          loadJSON(path+"answer.json", function(response) {
+            var answerData = JSON.parse(response);
+            if(withComment){
+              loadJSON(path+"comment.json", function(response) {
+                var commentData = JSON.parse(response);
+                var additionalData = {
+                  "overview": overviewData,
+                  "partyData": partyData,
+                  "statementData": statementData,
+                  "opinionData": opinionData,
+                  "answerData": answerData,
+                  "commentData": commentData
+                };
+                import_addtional_data(additionalData);
+
+                if(last){
+                  load_categorization_and_finalize(reallyAllData);
+                }
+              });
+            }
+          });
+        });
+      });
+    });
+  });
+}
+
+function load_categorization_and_finalize(reallyAllData){
+  loadJSON('data/theses_categories.json', function(response) {
+    theses_categories = JSON.parse(response);
+    var reallyAllCategorizedData=wahlomat_categorize_theses(reallyAllData, theses_categories);
+    reallyAllCategorizedData = wahlomat_crunch_party_occurences(reallyAllCategorizedData);
+//    console.log("inbetween");
+    console.log(reallyAllCategorizedData);
+    wahlomat_dump_categorized_theses(reallyAllCategorizedData);
+    console.log("This is the End");
+  });
+}
+
 
 
 // from https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript

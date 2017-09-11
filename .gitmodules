@@ -1,0 +1,3 @@
+[submodule "data/additional"]
+	path = data/additional
+	url = https://github.com/gockelhahn/qual-o-mat-data.git
