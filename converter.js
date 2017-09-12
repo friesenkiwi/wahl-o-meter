@@ -585,8 +585,65 @@ function wahlomat_dump_json(reallyAllData) {
   document.write(JSON.stringify(reallyAllData.allData));
 }
 
-function import_addtional_data(additionalData){
-  console.log(additionalData);
+function convert_addtional_data(additionalData){
+  //console.log(additionalData);
+
+  var currentData;
+
+  var theses = [];
+  for (var s = 0; s < additionalData.statementData.length; s++) {
+    theses.push({
+        "title": undefined,
+        "description":  additionalData.statementData[s].text,
+        "thesis_id":undefined,
+        "thesis_num":s
+      });
+  }
+  var positions = [];
+  for (var o = 0; o < additionalData.opinionData.length; o++) {
+    if(positions[additionalData.opinionData[o].statement]==undefined){
+      positions[additionalData.opinionData[o].statement]=[];
+    }
+    positions[additionalData.opinionData[o].statement][additionalData.opinionData[o].party]=additionalData.opinionData[o].answer;
+  }
+  var positionTexts = [];
+  for (var t = 0; t < additionalData.commentData.length; t++) {
+    opinion=additionalData.opinionData[additionalData.commentData[t].opinion];
+    if(positionTexts[opinion.statement]==undefined){
+      positionTexts[opinion.statement]=[];
+    }
+    positionTexts[opinion.statement][opinion.party]=[additionalData.commentData[t].text];
+  }
+  var partys=[];
+  for (var p = 0; p < additionalData.partyData.length; p++) {
+    partys[p]=[];
+    partys[p][0]=[];
+    partys[p][0][0]=additionalData.partyData[p].longname;
+    partys[p][0][1]=additionalData.partyData[p].name;
+  }
+  /*
+  for (var party in additionalData.partyData) {
+
+  }
+  */
+
+  additionalData.occasion.additionalData = additionalData.overview;
+
+  currentData ={
+    "occasion": additionalData.occasion,
+    "theses": theses,
+    "positions": {
+      "positions": positions,
+      "positionTexts": positionTexts
+    },
+    "partys": {
+      "partys": partys,
+      "web": []
+    }
+  };
+
+  //console.log(allData);
+  return currentData;
 }
 
 function load_additional_data(reallyAllData, jahr, folder, withComment, last){
@@ -613,6 +670,12 @@ function load_additional_data(reallyAllData, jahr, folder, withComment, last){
               loadJSON(path+"comment.json", function(response) {
                 var commentData = JSON.parse(response);
                 var additionalData = {
+                  "occasion": {
+                    "occasion_id":jahr+wahl.length,
+                    "type": "Wahl-O-Mat",
+                    "year": jahr,
+                    "parliament": wahl
+                  },
                   "overview": overviewData,
                   "partyData": partyData,
                   "statementData": statementData,
@@ -620,7 +683,7 @@ function load_additional_data(reallyAllData, jahr, folder, withComment, last){
                   "answerData": answerData,
                   "commentData": commentData
                 };
-                import_addtional_data(additionalData);
+                reallyAllData.allData.push(convert_addtional_data(additionalData));
 
                 if(last){
                   load_categorization_and_finalize(reallyAllData);
