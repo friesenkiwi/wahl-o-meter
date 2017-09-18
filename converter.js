@@ -79,10 +79,12 @@ function wahlomat_merge_positions(allData) {
 
       for (var x = 0; x < allData[i].partys.partys.length; x++) {
         var partyShort = allData[i].partys.partys[x][0][1];
+        var text =allData[i].positions.positionTexts[j][x][0].replace(/(<([^>]+)>)/ig, '');
+        text=text.replace(/"/g, '');
 
         allData[i].theses[j].positions.push({
           "value": allData[i].positions.positions[j][x],
-          "text": allData[i].positions.positionTexts[j][x][0].replace(/"/g, '&quot;'),
+          "text": text,
           "party": partyShort
         });
       }
