@@ -648,7 +648,7 @@ function convert_addtional_data(additionalData){
   return currentData;
 }
 
-function load_additional_data(reallyAllData, jahr, folder, withComment, last){
+function load_additional_data(reallyAllData, jahr, folder, withComment, last, finalFunction){
   var wahl;
   if(folder=="deutschland"){
     wahl="bundestagswahl";
@@ -689,6 +689,9 @@ function load_additional_data(reallyAllData, jahr, folder, withComment, last){
 
                 if(last){
                   load_categorization_and_finalize(reallyAllData);
+                }
+                if(finalFunction!=undefined){
+                  finalFunction(reallyAllData);
                 }
               });
             }
