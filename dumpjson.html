@@ -134,12 +134,9 @@
   </script>
 
   <script type="text/javascript">
-    var convertedData = wahlomat_convert_theses(allData); // TODO diese beiden Schritte dürfen erst nach dem Laden der additionalData kommen
-    var reallyAllData = wahlomat_merge_positions(convertedData);
+   var convertedData = wahlomat_convert_theses(allData);
 
-    reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
-
-    load_additional_data(reallyAllData, 2002, "deutschland", false, false); // TODO dafür sorgen, dass die auch geaddet werden
+    load_additional_data(convertedData, 2002, "deutschland", false, false);
     load_additional_data(reallyAllData, 2015, "bremen", true, false);
     load_additional_data(reallyAllData, 2016, "sachsenanhalt", true, false);
     load_additional_data(reallyAllData, 2016, "badenwuerttemberg", true, false);
@@ -150,12 +147,13 @@
     load_additional_data(reallyAllData, 2017, "nordrheinwestfalen", true, false);
     load_additional_data(reallyAllData, 2017, "deutschland", true, true, function(finalReallyAllData){
       console.log(finalReallyAllData);
-      wahlomat_dump_json(finalReallyAllData);
+      var reallyAllData = wahlomat_merge_positions(finalReallyAllData);
+      reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
+      wahlomat_dump_json(reallyAllData);
+
+      console.log(reallyAllData);
+      //console.log("This is the End");
     });
-
-
-    //wahlomat_dump_json(reallyAllData);
-
   </script>
 </head>
 <body>

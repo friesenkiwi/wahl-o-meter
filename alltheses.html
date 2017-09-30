@@ -133,19 +133,28 @@
     allData = wahlomat_collect("2015", "hamburg", allData);
   </script>
 
-
-
-
-
   <script type="text/javascript">
-    var convertedData = wahlomat_convert_theses(allData);
-    var reallyAllData = wahlomat_merge_positions(convertedData);
+   var convertedData = wahlomat_convert_theses(allData);
 
-    reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
-    console.log(reallyAllData);
+    load_additional_data(convertedData, 2002, "deutschland");
+    load_additional_data(convertedData, 2015, "bremen");
+    load_additional_data(convertedData, 2016, "sachsenanhalt");
+    load_additional_data(convertedData, 2016, "badenwuerttemberg");
+    load_additional_data(convertedData, 2016, "rheinlandpfalz");
+    load_additional_data(convertedData, 2016, "berlin");
+    load_additional_data(convertedData, 2017, "saarland");
+    load_additional_data(convertedData, 2017, "schleswigholstein");
+    load_additional_data(convertedData, 2017, "nordrheinwestfalen");
+    load_additional_data(convertedData, 2017, "deutschland", function(finalConvertedData){
+      console.log(finalConvertedData);
+      var reallyAllData = wahlomat_merge_positions(finalConvertedData);
+      reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
+      console.log(reallyAllData);
 
-    wahlomat_dump_theses_general(reallyAllData);
-    //console.log("This is the End");
+      wahlomat_dump_theses_general(reallyAllData);
+
+      //console.log("This is the End");
+    });
   </script>
 </head>
 <body>

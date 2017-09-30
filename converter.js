@@ -474,10 +474,12 @@ function normalizePartyName(partyName) {
 function normalizeElectionName(wahlomatTexts) {
   var electionName = "";
 
-  if (wahlomatTexts["wahlomat_titelzeile"] != undefined && wahlomatTexts["wahlomat_titelzeile"] != "") {
+  if (wahlomatTexts != undefined && wahlomatTexts["wahlomat_titelzeile"] != undefined && wahlomatTexts["wahlomat_titelzeile"] != "") {
     electionName = wahlomatTexts["wahlomat_titelzeile"][0];
-  } else if (wahlomatTexts["wahlomat_head_titel"] != undefined) {
+  } else if (wahlomatTexts != undefined && wahlomatTexts["wahlomat_head_titel"] != undefined) {
     electionName = wahlomatTexts["wahlomat_head_titel"][0];
+  } else if (wahlomatTexts == undefined){
+    electionName = "UNKNOWN";
   }
 
   electionName = electionName.replace("Wahl-O-Mat zur ", "");
@@ -648,7 +650,7 @@ function convert_addtional_data(additionalData){
   return currentData;
 }
 
-function load_additional_data(reallyAllData, jahr, folder, withComment, last, finalFunction){
+function load_additional_data(allData, jahr, folder, finalFunction){
   var wahl;
   if(folder=="deutschland"){
     wahl="bundestagswahl";
@@ -656,7 +658,6 @@ function load_additional_data(reallyAllData, jahr, folder, withComment, last, fi
     wahl=folder;
   }
   var path="data/additional/"+jahr+"/"+folder+"/";
-//  console.log(path);
 
   loadJSON(path+"overview.json", function(response) {
     var overviewData = JSON.parse(response);
@@ -668,7 +669,6 @@ function load_additional_data(reallyAllData, jahr, folder, withComment, last, fi
           var opinionData = JSON.parse(response);
           loadJSON(path+"answer.json", function(response) {
             var answerData = JSON.parse(response);
-            if(withComment){
               loadJSON(path+"comment.json", function(response) {
                 var commentData = JSON.parse(response);
                 var additionalData = {
@@ -685,16 +685,12 @@ function load_additional_data(reallyAllData, jahr, folder, withComment, last, fi
                   "answerData": answerData,
                   "commentData": commentData
                 };
-                reallyAllData.allData.push(convert_addtional_data(additionalData));
+                allData.push(convert_addtional_data(additionalData));
 
-                if(last){
-                  load_categorization_and_finalize(reallyAllData);
-                }
                 if(finalFunction!=undefined){
-                  finalFunction(reallyAllData);
+                  finalFunction(allData);
                 }
               });
-            }
           });
         });
       });
