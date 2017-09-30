@@ -268,16 +268,31 @@ function find_party(partyName, partyOccurences, partyColNumMatching) {
   }
 }
 
+function format_thesis(t, curThe, showOccasion = false){
+  var thesis="";
+  thesis+="#" + t + " - ";
+  if(showOccasion){
+    thesis += curThe.occasion.parliament + " " + curThe.occasion.year;
+  }
+  if(curThe.title != undefined && curThe.title != ""){
+     thesis += curThe.title + ": ";
+  }
+  thesis +=  curThe.description;
+
+  return thesis;
+}
+
 function dump_theses_theses(reallyAllData, i) {
   var theses= reallyAllData.allData[i].theses;
   var partyOccurences = reallyAllData.partyOccurences.perParty;
   var partyColNumMatching = reallyAllData.allPartyColNumMatchings[i];
 
   //console.log(partyColNumMatching);
-  for (var j = 0; j < theses.length; j++) {
-    var curThe = theses[j];
+  for (var t = 0; t < theses.length; t++) {
+    var curThe = theses[t];
     document.write("<tr>");
-    document.write("<td>#" + j + " - " + curThe.title + ": " + curThe.description + "</td>");
+//    document.write("<td>#" + t + " - " + curThe.title + ": " + curThe.description + "</td>");
+    document.write("<td>" + format_thesis(t, curThe) + "</td>");
 
     for (var partyName in partyOccurences) {
       document.write("<td>");
@@ -294,10 +309,10 @@ function dump_theses_theses(reallyAllData, i) {
 
 function dump_theses_theses_categorized(theses, partyOccurences, allPartyColNumMatchings) {
   //partyOccurences=perParty
-  for (var j = 0; j < theses.length; j++) {
-    var curThe = theses[j];
+  for (var t = 0; t < theses.length; t++) {
+    var curThe = theses[t];
     document.write("<tr>");
-    document.write("<td>" + "#" + j + " " + curThe.occasion.parliament + " " + curThe.occasion.year + " - " + curThe.title + ": " + curThe.description + "</td>");
+    document.write("<td>" + format_thesis(t, curThe, true) + "</td>");
 
     for (var partyName in partyOccurences) {
       document.write("<td>");
@@ -364,8 +379,8 @@ function wahlomat_dump_theses(allData, allPartyOccurences) {
 
     document.write("</tr><tr>");
 
-    for (var j = 0; j < allData[i].theses.length; j++) {
-      var curThe = allData[i].theses[j];
+    for (var t = 0; t < allData[i].theses.length; t++) {
+      var curThe = allData[i].theses[t];
       document.write("<td>" + curThe.title + ": " + curThe.description + "</td>");
       for (var x = 0; x < curThe.positions.length; x++) {
         document.write("<td>" + curThe.positions[x].value + "</td>");
