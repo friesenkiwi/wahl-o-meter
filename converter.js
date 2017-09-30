@@ -693,28 +693,28 @@ function load_additional_data(allData, jahr, parliament, finalFunction){
           var opinionData = JSON.parse(response);
           loadJSON(path+"answer.json", function(response) {
             var answerData = JSON.parse(response);
-              loadJSON(path+"comment.json", function(response) {
-                var commentData = JSON.parse(response);
-                var additionalData = {
-                  "occasion": {
-                    "occasion_id":Number(allData[allData.length-1].occasion.occasion_id)+1,
-                    "type": "Wahl-O-Mat",
-                    "year": overviewData.date.substring(0,4),
-                    "parliament": parliament
-                  },
-                  "overview": overviewData,
-                  "partyData": partyData,
-                  "statementData": statementData,
-                  "opinionData": opinionData,
-                  "answerData": answerData,
-                  "commentData": commentData
-                };
-                allData.push(convert_addtional_data(additionalData));
+            loadJSON(path+"comment.json", function(response) {
+              var commentData = JSON.parse(response);
+              var additionalData = {
+                "occasion": {
+                  "occasion_id":Number(allData[allData.length-1].occasion.occasion_id)+1,
+                  "type": "Wahl-O-Mat",
+                  "year": overviewData.date.substring(0,4),
+                  "parliament": parliament
+                },
+                "overview": overviewData,
+                "partyData": partyData,
+                "statementData": statementData,
+                "opinionData": opinionData,
+                "answerData": answerData,
+                "commentData": commentData
+              };
+              allData.push(convert_addtional_data(additionalData));
 
-                if(finalFunction!=undefined){
-                  finalFunction(allData);
-                }
-              });
+              if(finalFunction!=undefined){
+                finalFunction(allData);
+              }
+            });
           });
         });
       });
