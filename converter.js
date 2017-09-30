@@ -128,7 +128,7 @@ function dump_theses_mainheading(partyOccurences) {
 }
 
 function dump_theses_heading(i, reallyAllData) {
-  var title = normalizeElectionName(reallyAllData.allData[i].occasion.additionalData.texts);
+  var title = normalizeElectionName(reallyAllData.allData[i].occasion);
 
   document.write("<tr>");
 
@@ -355,7 +355,7 @@ function format_position(position) {
 
 function wahlomat_dump_theses(allData, allPartyOccurences) {
   for (var i = 0; i < allData.length; i++) {
-    var title = normalizeElectionName(allData[i].occasion.additionalData.texts);
+    var title = normalizeElectionName(allData[i].occasion);
 
     document.write("<table><tr><th><h2>" + allData[i].occasion.occasion_id + " - " + title + "</h2></th>");
     for (var x = 0; x < allPartyOccurences.perWOM[i].length; x++) {
@@ -453,7 +453,7 @@ function normalizePartyName(partyName) {
 
   if (partyName.includes("GRÜNE") || partyName.includes("GR&UUML;NE")) {
     partyName = "GRÜNE";
-  } else if (partyName.includes("FREIE WÄHLER") || partyName.includes("FREIE W&AUML;HLER") || partyName.includes("FBI")) {
+  } else if (partyName.includes("FREIE WÄHLER") || partyName.includes("FREIE W&AUML;HLER") || partyName.includes("FBI") || partyName.includes("FWD") ) {
     partyName = "FREIE WÄHLER";
   } else if (partyName.includes("CDU") || partyName.includes("CSU")) {
     partyName = "CDU/CSU";
@@ -467,11 +467,22 @@ function normalizePartyName(partyName) {
     partyName = "NPD";
   } else if (partyName.includes("TIERSCHUTZPARTEI")) {
     partyName = "TIERSCHUTZPARTEI";
+  } else if (partyName.includes("ALLIANZ DEUTSCHER DEMOKRATEN") || partyName.includes("AD-DEMOKRATEN")) {
+    partyName = "ADD";
+  } else if (partyName == "B" || partyName == "B*") {
+    partyName = "B*";
+  } else if (partyName.includes("RRP")) {
+    partyName = "BÜNDNIS 21/RRP";
+  } else if (partyName.includes("PDV") || partyName.includes("PARTEI DER VERNUNFT")) {
+    partyName = "PDV";
+  } else if (partyName.includes("GRAU")) {
+    partyName = "GRAUE";
   }
   return partyName;
 }
 
-function normalizeElectionName(wahlomatTexts) {
+function normalizeElectionName(occasion) {
+  var wahlomatTexts = occasion.additionalData.texts
   var electionName = "";
 
   if (wahlomatTexts != undefined && wahlomatTexts["wahlomat_titelzeile"] != undefined && wahlomatTexts["wahlomat_titelzeile"] != "") {
@@ -479,7 +490,7 @@ function normalizeElectionName(wahlomatTexts) {
   } else if (wahlomatTexts != undefined && wahlomatTexts["wahlomat_head_titel"] != undefined) {
     electionName = wahlomatTexts["wahlomat_head_titel"][0];
   } else if (wahlomatTexts == undefined){
-    electionName = "UNKNOWN";
+    electionName = occasion.additionalData.title + " " + occasion.year;
   }
 
   electionName = electionName.replace("Wahl-O-Mat zur ", "");
@@ -589,10 +600,13 @@ function wahlomat_dump_json(reallyAllData) {
   document.write(JSON.stringify(reallyAllData.allData));
 }
 
+
 function convert_addtional_data(additionalData){
   //console.log(additionalData);
 
   var currentData;
+
+  var answerMatching = {0:1,1:-1,2:0};
 
   var theses = [];
   for (var s = 0; s < additionalData.statementData.length; s++) {
@@ -608,7 +622,7 @@ function convert_addtional_data(additionalData){
     if(positions[additionalData.opinionData[o].statement]==undefined){
       positions[additionalData.opinionData[o].statement]=[];
     }
-    positions[additionalData.opinionData[o].statement][additionalData.opinionData[o].party]=additionalData.opinionData[o].answer;
+    positions[additionalData.opinionData[o].statement][additionalData.opinionData[o].party]=answerMatching[additionalData.opinionData[o].answer];
   }
   var positionTexts = [];
   for (var t = 0; t < additionalData.commentData.length; t++) {
@@ -651,12 +665,6 @@ function convert_addtional_data(additionalData){
 }
 
 function load_additional_data(allData, jahr, folder, finalFunction){
-  var wahl;
-  if(folder=="deutschland"){
-    wahl="bundestagswahl";
-  } else {
-    wahl=folder;
-  }
   var path="data/additional/"+jahr+"/"+folder+"/";
 
   loadJSON(path+"overview.json", function(response) {
@@ -673,10 +681,10 @@ function load_additional_data(allData, jahr, folder, finalFunction){
                 var commentData = JSON.parse(response);
                 var additionalData = {
                   "occasion": {
-                    "occasion_id":jahr+wahl.length,
+                    "occasion_id":Number(allData[allData.length-1].occasion.occasion_id)+1,
                     "type": "Wahl-O-Mat",
-                    "year": jahr,
-                    "parliament": wahl
+                    "year": overviewData.date.substring(0,4),
+                    "parliament": folder
                   },
                   "overview": overviewData,
                   "partyData": partyData,
