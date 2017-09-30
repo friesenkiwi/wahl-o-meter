@@ -679,7 +679,8 @@ function convert_addtional_data(additionalData){
   return currentData;
 }
 
-function load_additional_data(allData, jahr, folder, finalFunction){
+function load_additional_data(allData, jahr, parliament, finalFunction){
+  var folder = parliament.replace("-","");
   var path="data/additional/"+jahr+"/"+folder+"/";
 
   loadJSON(path+"overview.json", function(response) {
@@ -699,7 +700,7 @@ function load_additional_data(allData, jahr, folder, finalFunction){
                     "occasion_id":Number(allData[allData.length-1].occasion.occasion_id)+1,
                     "type": "Wahl-O-Mat",
                     "year": overviewData.date.substring(0,4),
-                    "parliament": folder
+                    "parliament": parliament
                   },
                   "overview": overviewData,
                   "partyData": partyData,

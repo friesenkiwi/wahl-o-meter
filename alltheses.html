@@ -12,7 +12,7 @@
   <script type="text/javascript">
     allData = wahlomat_collect("2003", "bayern", []);
   </script>
-  <script src="data/wahlomat_2004_europaeisches-parlament/module_definition.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2004_europa/module_definition.js" type="text/javascript"></script>
   <script type="text/javascript">
     allData = wahlomat_collect("2004", "europa", allData);
   </script>
@@ -32,7 +32,7 @@
   <script type="text/javascript">
     allData = wahlomat_collect("2005", "nordrhein-westfalen", allData);
   </script>
-  <script src="data/wahlomat_2005_bundestag/module_definition.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2005_deutschland/module_definition.js" type="text/javascript"></script>
   <script type="text/javascript">
     allData = wahlomat_collect("2005", "deutschland", allData);
   </script>
@@ -52,13 +52,13 @@
   <script type="text/javascript">
     allData = wahlomat_collect("2008", "hamburg", allData);
   </script>
-  <script src="data/wahlomat_2009_bundestag/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2009_bundestag/module_definition_statements.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2009_deutschland/module_definition.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2009_deutschland/module_definition_statements.js" type="text/javascript"></script>
   <script type="text/javascript">
     allData = wahlomat_collect("2009", "deutschland", allData);
   </script>
-  <script src="data/wahlomat_2009_europaeisches-parlament/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2009_europaeisches-parlament/module_definition_statements.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2009_europa/module_definition.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2009_europa/module_definition_statements.js" type="text/javascript"></script>
   <script type="text/javascript">
     allData = wahlomat_collect("2009", "europa", allData);
   </script>
@@ -97,8 +97,8 @@
   <script type="text/javascript">
     allData = wahlomat_collect("2013", "bayern", allData);
   </script>
-  <script src="data/wahlomat_2013_bundestagswahl/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2013_bundestagswahl/module_definition_statements.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2013_deutschland/module_definition.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2013_deutschland/module_definition_statements.js" type="text/javascript"></script>
   <script type="text/javascript">
     allData = wahlomat_collect("2013", "deutschland", allData);
   </script>
@@ -112,8 +112,8 @@
   <script type="text/javascript">
     allData = wahlomat_collect("2014", "brandenburg", allData);
   </script>
-  <script src="data/wahlomat_2014_europawahl/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2014_europawahl/module_definition_statements.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2014_europa/module_definition.js" type="text/javascript"></script>
+  <script src="data/wahlomat_2014_europa/module_definition_statements.js" type="text/javascript"></script>
   <script type="text/javascript">
     allData = wahlomat_collect("2014", "europa", allData);
   </script>
@@ -138,13 +138,13 @@
 
     load_additional_data(convertedData, 2002, "deutschland");
     load_additional_data(convertedData, 2015, "bremen");
-    load_additional_data(convertedData, 2016, "sachsenanhalt");
-    load_additional_data(convertedData, 2016, "badenwuerttemberg");
-    load_additional_data(convertedData, 2016, "rheinlandpfalz");
+    load_additional_data(convertedData, 2016, "sachsen-anhalt");
+    load_additional_data(convertedData, 2016, "baden-wuerttemberg");
+    load_additional_data(convertedData, 2016, "rheinland-pfalz");
     load_additional_data(convertedData, 2016, "berlin");
     load_additional_data(convertedData, 2017, "saarland");
-    load_additional_data(convertedData, 2017, "schleswigholstein");
-    load_additional_data(convertedData, 2017, "nordrheinwestfalen");
+    load_additional_data(convertedData, 2017, "schleswig-holstein");
+    load_additional_data(convertedData, 2017, "nordrhein-westfalen");
     load_additional_data(convertedData, 2017, "deutschland", function(finalConvertedData){
       console.log(finalConvertedData);
       var reallyAllData = wahlomat_merge_positions(finalConvertedData);
