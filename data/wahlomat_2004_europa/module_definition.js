@@ -54,7 +54,7 @@ WAHLOMATEN_ID='3';
   --------------------------------------------------------------
   Vordefinieren der in den Templates gefunden assoziativen Keys
   mit denenen auf WOMT_aTexte und WOMT_aBilder zugriffen wird
-  nicht vorhanden Indexe f�hren in Javascript sonst zu Fehlern!
+  nicht vorhanden Indexe f�hren in Javascript sonst zu Fehlern!
 
   Wenn mit Variablen auf die assoziativen Arrays zugegriffen wird
   kann dies nicht automatisch analsysit werden,
@@ -1399,7 +1399,7 @@ WOMT_aThesenParteienText[1][4][0]='Die Freizügigkeit der Arbeitnehmer ist ein G
 WOMT_aThesenParteienText[1][4][1]='';
 WOMT_aThesenParteienText[1][4][2]='';
 WOMT_aThesenParteien[4][0]='1';
-WOMT_aThesenParteienText[4][0][0]='Die Parteivorsitzenden von CDU und CSU, Angela Merkel und Edmund Stoiber, haben bei einem Gespräch am 30. April 2003 in Paris mit dem Präsidenten des EU-Verfassungskonvents, Valéry Giscard dEstaing, durchgesetzt, dass alle Kammern der nationalen Parlamente, in Deutschland Bundestag und Bundesrat, wegen Verletzung des Subisidiaritätsprinzips vor dem Europäischen Gerichtshof in Luxemburg klagen können.';
+WOMT_aThesenParteienText[4][0][0]='Die Parteivorsitzenden von CDU und CSU, Angela Merkel und Edmund Stoiber, haben bei einem Gespräch am 30. April 2003 in Paris mit dem Präsidenten des EU-Verfassungskonvents, Valéry Giscard d’Estaing, durchgesetzt, dass alle Kammern der nationalen Parlamente, in Deutschland Bundestag und Bundesrat, wegen Verletzung des Subisidiaritätsprinzips vor dem Europäischen Gerichtshof in Luxemburg klagen können.';
 WOMT_aThesenParteienText[4][0][1]='CDU ve CSU başkanları Angela Merkel ve Edmund Stoiber, 30 Nisan 2003 tarihinde Paris’te AB-Anayasası’nı hazırlamakla ilgili kurul Başkanı Valery Giscard d`Estaing ile yaptıkları görüşmede, ulusal parlamentoların tüm organlarının, Almanya’da Federal Meclis ve Federal Temsilciler Meclisi’nin yardımcı olma ilkesini zedelemekten ötürü Lüksemburg’daki Avrupa Topluluğu Adalet Divanı’nda dava açabilmesi konusunda ağırlıklarını koydular.';
 WOMT_aThesenParteienText[4][0][2]='Председатели ЦДУ и ЦСУ Ангела Меркель и Эдмунд Штойбер добились 30 апреля 2003 года в Париже на переговорах с президентом европейского конституционного совета  Валери Жискар соглашения о том, что палаты национальных парламентов, в Германии это бундестаг и  бундесрат, могут подать в Европейский суд (Люксембург) в случае нарушения правовых норм. ';
 WOMT_aThesenParteien[3][5]='-1';
