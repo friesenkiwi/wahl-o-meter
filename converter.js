@@ -622,6 +622,35 @@ function wahlomat_dump_json(reallyAllData) {
   document.write(JSON.stringify(reallyAllData.allData));
 }
 
+function wahlomat_dump_csv(reallyAllData) { //TODO make this work
+  reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
+
+  var allTheses = [];
+  var csvRows = [];
+  var i=0;
+  for (var o = 0; o < reallyAllData.allData.length; o++) { //all WOMs
+    for (var t = 0; t < reallyAllData.allData[o].theses.length; t++) { //all Theses
+      var curThe=[
+        i,
+        reallyAllData.allData[o].occasion.occasion_id,
+        o,
+        reallyAllData.allData[o].occasion.parliament,
+        reallyAllData.allData[o].occasion.year,
+        t,
+        reallyAllData.allData[o].theses[t].title,
+        reallyAllData.allData[o].theses[t].description
+      ];
+      allTheses.push(curThe);
+      csvRows.push(curThe.join('\t'));
+      i++;
+    }
+  }
+  var csvString = csvRows.join("\n");
+  document.write(csvString);
+  console.log(allTheses);
+
+}
+
 
 function convert_addtional_data(additionalData) {
   //console.log(additionalData);
