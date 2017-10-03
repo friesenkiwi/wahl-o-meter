@@ -1,5 +1,5 @@
-function wahlomat_collect(year, parliament, allData) {
-  allData.push({
+function wahlomat_collect(year, parliament, collectedData = []) {
+  collectedData.push({
     "occasion": {
       "occasion_id": WAHLOMATEN_ID,
       "type": "Wahl-O-Mat",
@@ -31,16 +31,16 @@ function wahlomat_collect(year, parliament, allData) {
   WOMT_aThesenThema = undefined;
   WOMT_aParteienURL = undefined;
   WOMT_aTexte = undefined;
-  return allData;
+  return collectedData;
 }
 
-function wahlomat_convert_theses(allData) {
+function wahlomat_convert_theses(collectedData) {
   var convertedData = [];
   var curWOM;
   var currentThesis = {}; //converted
   var curThe; //original
-  for (var i = 0; i < allData.length; i++) {
-    curWOM = allData[i];
+  for (var i = 0; i < collectedData.length; i++) {
+    curWOM = collectedData[i];
     var theses = [];
 
     for (var j = 0; j < curWOM.theses.theses.length; j++) {
@@ -62,48 +62,49 @@ function wahlomat_convert_theses(allData) {
   return convertedData;
 }
 
-function wahlomat_merge_positions(allData) {
+function merge_positions(finalConvertedData) {
   var allPartys = Array();
-  for (var i = 0; i < allData.length; i++) {
-    allPartys.push(allData[i].partys.partys);
+  for (var i = 0; i < finalConvertedData.length; i++) {
+    allPartys.push(finalConvertedData[i].partys.partys);
 
-    for (var j = 0; j < allData[i].theses.length; j++) {
+    for (var j = 0; j < finalConvertedData[i].theses.length; j++) {
       var positions = [];
-      var positionTexts = allData[i].positions.positionTexts[j];
+      var positionTexts = finalConvertedData[i].positions.positionTexts[j];
 
-      allData[i].theses[j] = {
-        "title": allData[i].theses[j].title,
-        "description": allData[i].theses[j].description,
+      finalConvertedData[i].theses[j] = {
+        "title": finalConvertedData[i].theses[j].title,
+        "description": finalConvertedData[i].theses[j].description,
         "positions": positions
       };
 
-      for (var x = 0; x < allData[i].partys.partys.length; x++) {
-        var partyShort = allData[i].partys.partys[x][0][1];
-        var text = allData[i].positions.positionTexts[j][x][0].replace(/(<([^>]+)>)/ig, '');
+      for (var x = 0; x < finalConvertedData[i].partys.partys.length; x++) {
+        var partyShort = finalConvertedData[i].partys.partys[x][0][1];
+        var text = finalConvertedData[i].positions.positionTexts[j][x][0].replace(/(<([^>]+)>)/ig, '');
         text = text.replace(/"/g, '');
         text = text.replace(/&shy;/g, '');
-
-        allData[i].theses[j].positions.push({
-          "value": allData[i].positions.positions[j][x],
+        text = text.replace(/\n/g, '');
+        finalConvertedData[i].theses[j].positions.push({
+          "value": finalConvertedData[i].positions.positions[j][x],
           "text": text,
           "party": partyShort
         });
       }
     }
-    allData[i] = {
-      "theses": allData[i].theses,
-      "occasion": allData[i].occasion
+    finalConvertedData[i] = {
+      "theses": finalConvertedData[i].theses,
+      "occasion": finalConvertedData[i].occasion
     };
-    allData[i].occasion.num = i;
+    finalConvertedData[i].occasion.num = i;
+    finalConvertedData[i].occasion.title = normalizeElectionName(finalConvertedData[i].occasion);
   }
-  var reallyAllData = {
-    "allData": allData,
+  var mergedData = {
+    "allData": finalConvertedData,
     "allPartys": allPartys
   };
-  return reallyAllData;
+  return mergedData;
 }
 
-function wahlomat_dump_theses_general(reallyAllData) {
+function dump_theses_general(reallyAllData) {
   document.write("<table>");
 
   dump_theses_mainheading(reallyAllData.partyOccurences.perParty);
@@ -125,7 +126,7 @@ function dump_theses_mainheading(partyOccurences) {
 }
 
 function dump_theses_heading(i, reallyAllData) {
-  var title = normalizeElectionName(reallyAllData.allData[i].occasion);
+  var title = reallyAllData.allData[i].occasion.title;
 
   document.write("<tr>");
 
@@ -140,26 +141,14 @@ function dump_theses_heading(i, reallyAllData) {
 }
 
 function dump_theses_heading_categorized(allPartyOccurences, category) {
-
-  //  document.write("<tr>");
-
-  //  document.write("<th><h2>bla</h2></th>");
-
-  //  mergedPartys = merge_partys_for_category(allPartyOccurences, category);
-
-  //  for (var q = 0; q < mergedPartys.length; q++) {
-  //  document.write("<th>");
-  //    document.write(mergedPartys[q]);
-  //  document.write("</th>");
-  //  }
-
+  document.write("<tr><th></th>");
 
   for (var partyName in allPartyOccurences.perParty) { // all parties
     document.write("<th>");
     document.write(partyName);
     document.write("</th>");
   }
-  //document.write("</tr>");
+  document.write("</tr>");
 }
 
 function find_WOM_party(partyName, reallyAllData, i) {
@@ -363,7 +352,7 @@ function format_position(position) {
   return '<span title="' + position.text + '">' + position.value + '</span>';
 }
 
-function wahlomat_dump_theses(allData, allPartyOccurences) {
+function dump_theses(allData, allPartyOccurences) {
   for (var i = 0; i < allData.length; i++) {
     var title = normalizeElectionName(allData[i].occasion);
 
@@ -387,9 +376,9 @@ function wahlomat_dump_theses(allData, allPartyOccurences) {
 }
 
 
-function wahlomat_dump_categorized_theses(reallyAllData) {
+function dump_categorized_theses(reallyAllData) {
   for (var category in reallyAllData.categories) { // all categories
-    document.write("<table><tr><th><h2>" + category + "</h2></th>");
+    document.write("<table><tr><th><h2>" + category + "</h2></th></tr>");
 
     dump_theses_heading_categorized(reallyAllData.partyOccurences, category);
 
@@ -399,8 +388,8 @@ function wahlomat_dump_categorized_theses(reallyAllData) {
   }
 }
 
-function wahlomat_categorize_theses(reallyAllData, theses_categories) {
-  var allData = reallyAllData.allData;
+function categorize_theses(mergedData, theses_categories) {
+  var allData = mergedData.allData;
   thesis_ids = [];
   categories = [];
   categorized = [];
@@ -426,12 +415,15 @@ function wahlomat_categorize_theses(reallyAllData, theses_categories) {
     }
   }
 
-  reallyAllData.occasions = allData;
-  reallyAllData.theses = thesis_ids;
-  reallyAllData.categories = categories;
-  reallyAllData.categorized = categorized;
+  var categorizedData = {};
 
-  return reallyAllData;
+  categorizedData.allPartys = mergedData.allPartys;
+  categorizedData.occasions = allData;
+  categorizedData.theses = thesis_ids;
+  categorizedData.categories = categories;
+  categorizedData.categorized = categorized;
+
+  return categorizedData;
 }
 
 function normalizePartyName(partyName) {
@@ -490,7 +482,7 @@ function normalizeElectionName(occasion) {
   return electionName;
 }
 
-function wahlomat_dump_party_occurences(allPartyOccurences) {
+function dump_party_occurences(allPartyOccurences) {
 
   document.write("<table>");
   for (var x = 0; x < allPartyOccurences.all.length; x++) {
@@ -500,7 +492,7 @@ function wahlomat_dump_party_occurences(allPartyOccurences) {
   document.write("</table>");
 }
 
-function wahlomat_crunch_party_occurences(reallyAllData) {
+function crunch_party_occurences(reallyAllData) {
   var allPartys = reallyAllData.allPartys;
   var partyName = "";
   var partyOccurencesPerParty = [];
@@ -586,27 +578,36 @@ function match_party_occurence(curPartyOccurence, reallyAllData) {
 }
 
 
-function wahlomat_dump_json(reallyAllData) {
-  document.write(JSON.stringify(reallyAllData.allData));
+function dump_json(mergedData) {
+  document.write(JSON.stringify(mergedData));
 }
 
-function wahlomat_dump_csv(reallyAllData) {
-  reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
+function load_mergedData_json(path, finalFunction) {
+  loadJSON(path, function(response) {
+    var mergedData = JSON.parse(response);
+
+    if (finalFunction != undefined) {
+      finalFunction(mergedData);
+    }
+  });
+}
+
+function dump_csv(mergedData) {
 
   var allTheses = [];
   var csvRows = [];
   var i = 0;
-  for (var o = 0; o < reallyAllData.allData.length; o++) { //all WOMs
-    for (var t = 0; t < reallyAllData.allData[o].theses.length; t++) { //all Theses
+  for (var o = 0; o < mergedData.allData.length; o++) { //all WOMs
+    for (var t = 0; t < mergedData.allData[o].theses.length; t++) { //all Theses
       var curThe = [
         i,
-        reallyAllData.allData[o].occasion.occasion_id,
+        mergedData.allData[o].occasion.occasion_id,
         o,
-        reallyAllData.allData[o].occasion.parliament,
-        reallyAllData.allData[o].occasion.year,
+        mergedData.allData[o].occasion.parliament,
+        mergedData.allData[o].occasion.year,
         t,
-        reallyAllData.allData[o].theses[t].title,
-        reallyAllData.allData[o].theses[t].description
+        mergedData.allData[o].theses[t].title,
+        mergedData.allData[o].theses[t].description
       ];
       allTheses.push(curThe);
       csvRows.push(curThe.join('\t'));
@@ -615,8 +616,6 @@ function wahlomat_dump_csv(reallyAllData) {
   }
   var csvString = csvRows.join("\n");
   document.write(csvString);
-  console.log(allTheses);
-
 }
 
 
@@ -730,14 +729,14 @@ function load_additional_data(allData, jahr, parliament, finalFunction) {
   });
 }
 
-function load_categorization_and_finalize(reallyAllData) {
+function load_categorization_and_finalize(mergedData) {
   loadJSON('data/theses_categories.json', function(response) {
     theses_categories = JSON.parse(response);
-    var reallyAllCategorizedData = wahlomat_categorize_theses(reallyAllData, theses_categories);
-    reallyAllCategorizedData = wahlomat_crunch_party_occurences(reallyAllCategorizedData);
+    var categorizedData = categorize_theses(mergedData, theses_categories);
+    var crunchedCategorizedData = crunch_party_occurences(categorizedData);
     //    console.log("inbetween");
-    console.log(reallyAllCategorizedData);
-    wahlomat_dump_categorized_theses(reallyAllCategorizedData);
+    console.log(crunchedCategorizedData);
+    dump_categorized_theses(crunchedCategorizedData);
     // console.log("This is the End");
   });
 }

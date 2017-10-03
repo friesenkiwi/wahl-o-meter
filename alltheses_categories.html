@@ -4,161 +4,22 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>
-    Wahl-O-Meter Converter
+    Wahl-O-Meter-Daten: Kategorisiert
   </title>
   <script src="converter.js" type="text/javascript"></script>
 
-  <script src="data/wahlomat_2003_bayern/module_definition.js" type="text/javascript"></script>
   <script type="text/javascript">
-    allData = wahlomat_collect("2003", "bayern", []);
-  </script>
-  <script src="data/wahlomat_2004_europa/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2004", "europa", allData);
-  </script>
-  <script src="data/wahlomat_2004_saarland/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2004", "saarland", allData);
-  </script>
-  <script src="data/wahlomat_2004_sachsen/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2004", "sachsen", allData);
-  </script>
-  <script src="data/wahlomat_2005_schleswig-holstein/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2005", "schleswig-holstein", allData);
-  </script>
-  <script src="data/wahlomat_2005_nordrhein-westfalen/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2005", "nordrhein-westfalen", allData);
-  </script>
-  <script src="data/wahlomat_2005_deutschland/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2005", "deutschland", allData);
-  </script>
-  <script src="data/wahlomat_2006_berlin/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2006", "berlin", allData);
-  </script>
-  <script src="data/wahlomat_2006_baden-wuerttemberg/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2006", "baden-wuerttemberg", allData);
-  </script>
-  <script src="data/wahlomat_2007_bremen/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2007", "bremen", allData);
-  </script>
-  <script src="data/wahlomat_2008_hamburg/module_definition.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2008", "hamburg", allData);
-  </script>
-  <script src="data/wahlomat_2009_deutschland/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2009_deutschland/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2009", "deutschland", allData);
-  </script>
-  <script src="data/wahlomat_2009_europa/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2009_europa/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2009", "europa", allData);
-  </script>
-  <script src="data/wahlomat_2010_nordrhein-westfalen/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2010_nordrhein-westfalen/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2010", "nordrhein-westfalen", allData);
-  </script>
-  <script src="data/wahlomat_2011_berlin/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2011_berlin/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2011", "berlin", allData);
-  </script>
-  <script src="data/wahlomat_2011_hamburg/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2011_hamburg/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2011", "hamburg", allData);
-  </script>
-  <script src="data/wahlomat_2011_bremen/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2011_bremen/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2011", "bremen", allData);
-  </script>
-  <script src="data/wahlomat_2011_rheinland-pfalz/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2011_rheinland-pfalz/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2011", "rheinland-pfalz", allData);
-  </script>
-  <script src="data/wahlomat_2012_schleswig-holstein/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2012_schleswig-holstein/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2012", "schleswig-holstein", allData);
-  </script>
-  <script src="data/wahlomat_2013_bayern/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2013_bayern/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2013", "bayern", allData);
-  </script>
-  <script src="data/wahlomat_2013_deutschland/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2013_deutschland/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2013", "deutschland", allData);
-  </script>
-  <script src="data/wahlomat_2013_niedersachsen/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2013_niedersachsen/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2013", "niedersachsen", allData);
-  </script>
-  <script src="data/wahlomat_2014_brandenburg/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2014_brandenburg/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2014", "brandenburg", allData);
-  </script>
-  <script src="data/wahlomat_2014_europa/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2014_europa/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2014", "europa", allData);
-  </script>
-  <script src="data/wahlomat_2014_sachsen/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2014_sachsen/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2014", "sachsen", allData);
-  </script>
-  <script src="data/wahlomat_2014_thueringen/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2014_thueringen/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2014", "thueringen", allData);
-  </script>
-  <script src="data/wahlomat_2015_hamburg/module_definition.js" type="text/javascript"></script>
-  <script src="data/wahlomat_2015_hamburg/module_definition_statements.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    allData = wahlomat_collect("2015", "hamburg", allData);
-  </script>
+    load_mergedData_json("data/allThesesDataPRELIMINARY.json", function(mergedData) {
+      console.log(mergedData);
 
-  <script type="text/javascript">
-    var convertedData = wahlomat_convert_theses(allData);
 
-    load_additional_data(convertedData, 2002, "deutschland");
-    load_additional_data(convertedData, 2015, "bremen");
-    load_additional_data(convertedData, 2016, "sachsen-anhalt");
-    load_additional_data(convertedData, 2016, "baden-wuerttemberg");
-    load_additional_data(convertedData, 2016, "rheinland-pfalz");
-    load_additional_data(convertedData, 2016, "berlin");
-    load_additional_data(convertedData, 2017, "saarland");
-    load_additional_data(convertedData, 2017, "schleswig-holstein");
-    load_additional_data(convertedData, 2017, "nordrhein-westfalen");
-    load_additional_data(convertedData, 2017, "deutschland", function(finalConvertedData) {
-      //      console.log(finalConvertedData);
-      var reallyAllData = wahlomat_merge_positions(finalConvertedData);
 
-      //      console.log(reallyAllData);
 
-      load_categorization_and_finalize(reallyAllData);
-
-      //console.log("This is the End");
+      load_categorization_and_finalize(mergedData);
     });
   </script>
 </head>
 
-<body>
-</body>
+<body></body>
 
 </html>
