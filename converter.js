@@ -104,20 +104,20 @@ function merge_positions(finalConvertedData) {
   return mergedData;
 }
 
-function dump_theses_general(reallyAllData) {
+function write_simple(reallyAllData) {
   document.write("<table>");
 
-  dump_theses_mainheading(reallyAllData.partyOccurences.perParty);
+  write_mainheading(reallyAllData.partyOccurences.perParty);
 
   for (var i = 0; i < reallyAllData.allData.length; i++) { //all WOMs
-    dump_theses_heading(i, reallyAllData);
+    write_heading(reallyAllData, i);
 
-    dump_theses_theses(reallyAllData, i);
+    write_theses(reallyAllData, i);
   }
   document.write("</table>");
 }
 
-function dump_theses_mainheading(partyOccurences) {
+function write_mainheading(partyOccurences) {
   document.write("<tr><th></th>");
   for (var partyName in partyOccurences) {
     document.write("<th>" + partyName + "</th>");
@@ -125,7 +125,7 @@ function dump_theses_mainheading(partyOccurences) {
   document.write("</tr>");
 }
 
-function dump_theses_heading(i, reallyAllData) {
+function write_heading(reallyAllData, i) {
   var title = reallyAllData.allData[i].occasion.title;
 
   document.write("<tr>");
@@ -134,13 +134,13 @@ function dump_theses_heading(i, reallyAllData) {
 
   for (var partyName in reallyAllData.partyOccurences.perParty) { // all parties
     document.write("<th>");
-    document.write(find_WOM_party(partyName, reallyAllData, i));
+    document.write(find_WOM_party(reallyAllData, i, partyName));
     document.write("</th>");
   }
   document.write("</tr>");
 }
 
-function dump_theses_heading_categorized(allPartyOccurences, category) {
+function write_heading_categorized(allPartyOccurences, category) {
   document.write("<tr><th></th>");
 
   for (var partyName in allPartyOccurences.perParty) { // all parties
@@ -151,7 +151,7 @@ function dump_theses_heading_categorized(allPartyOccurences, category) {
   document.write("</tr>");
 }
 
-function find_WOM_party(partyName, reallyAllData, i) {
+function find_WOM_party(reallyAllData, i, partyName) {
   var partyOutputName = "";
   var partyGlobalCol = reallyAllData.partyOccurences.perParty[partyName].col;
   partyWOMNum = reallyAllData.allPartyColNumMatchings[i][partyGlobalCol];
@@ -180,30 +180,6 @@ function find_WOM_party(partyName, reallyAllData, i) {
   return partyOutputName;
 }
 
-function merge_partys_for_category(partyOccurences, category) {
-  var mergedPartys = [];
-  if (partyOccurences != undefined) {
-    for (var occurenceNum in partyOccurences.perCategory[category]) { // all parties
-
-      mergedPartys.push(find_party_categorized(allPartysForTheseInCategory[x].name, partyOccurences.perCategory[category]));
-
-      /*
-      var allPartysForTheseInCategory=partyOccurences.perCategory[category][occurenceNum];
-      //console.log(allPartysForTheseInCategory);
-      for (var x = 0; x < allPartysForTheseInCategory.length; x++) {
-        //console.log(allPartysForTheseInCategory[x].name);
-        //mergedPartys.push(allPartysForTheseInCategory[x].name);
-      }
-      */
-      //  mergedPartys.push(find_party(partyName,partyOccurences.perCategory[category]));
-
-    }
-    //console.log(mergedPartys);
-
-  }
-  return mergedPartys;
-}
-
 function find_party_categorized(partyName, partyOccurences, partyColNumMatching) {
   var outputPartyName = "";
   for (var curWOMOccurences in partyOccurences) {
@@ -215,20 +191,11 @@ function find_party_categorized(partyName, partyOccurences, partyColNumMatching)
 function find_party(partyName, partyOccurences, partyColNumMatching) {
   var partyNum = -1;
   var partyNameName = "";
-  //  var partyNumIDMatching = [];
 
   if (partyOccurences != undefined) {
-    //console.log(partyOccurences);
 
     for (var x = 0; x < partyOccurences.length; x++) { // all occurences
-      if (partyOccurences[x] == undefined) {
-        //    console.log("whynot?");
-        //    console.log("find_party() partyOccurences[x] == undefined");
-        //    console.log(partyName);
 
-        //    console.log(partyOccurences);
-
-      }
       if (partyOccurences[x] != undefined && partyName == partyOccurences[x].name) {
         if (partyNum != -1) {
           partyNameName += "/";
@@ -242,12 +209,9 @@ function find_party(partyName, partyOccurences, partyColNumMatching) {
           }
           partyColNumMatching[partyOccurences[x].party_global_num].push(x);
         }
-        //partyNumIDMatching[allPartyOccurences.perWOM[i][x].party_num]=allPartyOccurences.perWOM[i][x].party_global_num;
         partyNameName += partyOccurences[x].name_original;
-        //document.write(allPartyOccurences.perWOM[i][x].name_original);
       }
     }
-    //    console.log(partyNameName);
     return partyNameName;
   } else {
     return partyName;
@@ -269,7 +233,7 @@ function format_thesis(t, curThe, showOccasion = false) {
   return thesis;
 }
 
-function dump_theses_theses(reallyAllData, i) {
+function write_theses(reallyAllData, i) {
   var theses = reallyAllData.allData[i].theses;
   var partyOccurences = reallyAllData.partyOccurences.perParty;
   var partyColNumMatching = reallyAllData.allPartyColNumMatchings[i];
@@ -282,7 +246,7 @@ function dump_theses_theses(reallyAllData, i) {
     for (var partyName in partyOccurences) {
       document.write("<td>");
 
-      document.write(derive_position_dings(curThe.positions, partyOccurences[partyName], partyColNumMatching));
+      document.write(derive_position(curThe.positions, partyOccurences[partyName], partyColNumMatching));
 
       document.write("</td>");
     }
@@ -290,11 +254,10 @@ function dump_theses_theses(reallyAllData, i) {
   }
 }
 
-function dump_theses_theses_categorized(reallyAllData, category) {
+function write_theses_categorized(reallyAllData, category) {
   var theses = reallyAllData.categorized[category];
   var partyOccurences = reallyAllData.partyOccurences.perParty;
 
-  //partyOccurences=perParty
   for (var t = 0; t < theses.length; t++) {
     var curThe = theses[t];
     var partyColNumMatching = reallyAllData.allPartyColNumMatchings[curThe.occasion.num];
@@ -305,7 +268,7 @@ function dump_theses_theses_categorized(reallyAllData, category) {
     for (var partyName in partyOccurences) {
       document.write("<td>");
 
-      document.write(derive_position_dings(curThe.positions, partyOccurences[partyName], partyColNumMatching));
+      document.write(derive_position(curThe.positions, partyOccurences[partyName], partyColNumMatching));
 
       document.write("</td>");
     }
@@ -313,7 +276,7 @@ function dump_theses_theses_categorized(reallyAllData, category) {
   }
 }
 
-function derive_position_dings(positions, partyOccurences, partyColNumMatching) {
+function derive_position(positions, partyOccurences, partyColNumMatching) {
 
   var output = "";
   if (partyOccurences != undefined) {
@@ -340,49 +303,23 @@ function derive_position_dings(positions, partyOccurences, partyColNumMatching) 
         }
       }
     } else {
-      //    output = "partyOccurences.col="+partyOccurences.col;
       output = "";
     }
   }
   return output;
-
 }
 
 function format_position(position) {
   return '<span title="' + position.text + '">' + position.value + '</span>';
 }
 
-function dump_theses(allData, allPartyOccurences) {
-  for (var i = 0; i < allData.length; i++) {
-    var title = normalizeElectionName(allData[i].occasion);
-
-    document.write("<table><tr><th><h2>" + allData[i].occasion.occasion_id + " - " + title + "</h2></th>");
-    for (var x = 0; x < allPartyOccurences.perWOM[i].length; x++) {
-      document.write("<th>" + allPartyOccurences.perWOM[i][x].name + "</th>");
-    }
-
-    document.write("</tr><tr>");
-
-    for (var t = 0; t < allData[i].theses.length; t++) {
-      var curThe = allData[i].theses[t];
-      document.write("<td>" + curThe.title + ": " + curThe.description + "</td>");
-      for (var x = 0; x < curThe.positions.length; x++) {
-        document.write("<td>" + curThe.positions[x].value + "</td>");
-      }
-      document.write("</tr>");
-    }
-    document.write("</table>");
-  }
-}
-
-
 function dump_categorized_theses(reallyAllData) {
   for (var category in reallyAllData.categories) { // all categories
     document.write("<table><tr><th><h2>" + category + "</h2></th></tr>");
 
-    dump_theses_heading_categorized(reallyAllData.partyOccurences, category);
+    write_heading_categorized(reallyAllData.partyOccurences, category);
 
-    dump_theses_theses_categorized(reallyAllData, category);
+    write_theses_categorized(reallyAllData, category);
 
     document.write("</table>");
   }
@@ -543,7 +480,6 @@ function crunch_party_occurences(reallyAllData) {
           partyOccurencesPerCategory[curCat] = [];
         }
         partyOccurencesPerCategory[curCat][reallyAllData.theses[t].occasion.num] = partyOccurencesPerWOM[reallyAllData.theses[t].occasion.num];
-        //  partyOccurencesPerCategory[curCat][reallyAllData.theses[t]].push(partyOccurencesPerWOM[reallyAllData.theses[t].occasion.num][reallyAllData.theses[t].thesis_num]);
       }
     }
   }
@@ -620,8 +556,6 @@ function dump_csv(mergedData) {
 
 
 function convert_addtional_data(additionalData) {
-  //console.log(additionalData);
-
   var currentData;
 
   var answerMatching = {
@@ -661,11 +595,6 @@ function convert_addtional_data(additionalData) {
     partys[p][0][0] = additionalData.partyData[p].longname;
     partys[p][0][1] = additionalData.partyData[p].name;
   }
-  /*
-  for (var party in additionalData.partyData) {
-
-  }
-  */
 
   additionalData.occasion.additionalData = additionalData.overview;
 
@@ -682,7 +611,6 @@ function convert_addtional_data(additionalData) {
     }
   };
 
-  //console.log(allData);
   return currentData;
 }
 
@@ -734,14 +662,10 @@ function load_categorization_and_finalize(mergedData) {
     theses_categories = JSON.parse(response);
     var categorizedData = categorize_theses(mergedData, theses_categories);
     var crunchedCategorizedData = crunch_party_occurences(categorizedData);
-    //    console.log("inbetween");
     console.log(crunchedCategorizedData);
     dump_categorized_theses(crunchedCategorizedData);
-    // console.log("This is the End");
   });
 }
-
-
 
 // from https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
 function loadJSON(filename, callback) {
