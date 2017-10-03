@@ -145,8 +145,8 @@
     load_additional_data(convertedData, 2017, "saarland");
     load_additional_data(convertedData, 2017, "schleswig-holstein");
     load_additional_data(convertedData, 2017, "nordrhein-westfalen");
-    load_additional_data(convertedData, 2017, "deutschland", function(finalConvertedData){
-      console.log(finalConvertedData);
+    load_additional_data(convertedData, 2017, "deutschland", function(finalConvertedData) {
+      //      console.log(finalConvertedData);
       var reallyAllData = wahlomat_merge_positions(finalConvertedData);
       reallyAllData = wahlomat_crunch_party_occurences(reallyAllData);
       console.log(reallyAllData);
@@ -157,6 +157,8 @@
     });
   </script>
 </head>
+
 <body>
 </body>
+
 </html>
