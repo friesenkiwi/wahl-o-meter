@@ -329,7 +329,7 @@ function categorize_theses(mergedData, theses_categories) {
   categories = [];
   categorized = [];
   for (var tc = 0; tc < theses_categories.length; tc++) {
-    i = theses_categories[tc].occasion_id;
+    i = theses_categories[tc].occasion_num;
     t = theses_categories[tc].thesis_num;
 
     if (allData[i].theses[t] != undefined) {

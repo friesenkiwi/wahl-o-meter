@@ -1,1286 +1,1490 @@
-thesis_id,occasion_id,thesis_num,category
-0,0,0,Schule
-1,0,1,Schule
-2,0,2,Kopfnote
-3,0,3,Studiengebühren
-4,0,4,G8
-5,0,5,Cannabis
-6,0,6,Droge
-7,0,7,Bleiberecht
-8,0,8,Steuer
-9,0,9,Wählen ab 16
-10,0,10,Direkte Demokratie
-11,0,11,Wahlrecht
-12,0,12,EU-Föderalismus
-13,0,13,Schule
-14,0,14,LANDESSPEZIFISCH
-15,0,15,Flughafen
-16,0,16,Rente
-17,0,17,Meister
-18,0,18,Arbeitnehmerrechte
-19,0,19,Direkte Demokratie
-20,1,0,Türkei
-21,1,1,Arbeitnehmer mit Migrationshintergrund
-22,1,2,Direkte Demokratie
-23,1,3,Christliche Werte
-24,1,4,EU-Föderalismus
-25,1,5,Christliche Werte
-26,1,6,Direkte Demokratie
-27,1,7,EU-Stabilitätspakt
-28,1,8,Europa
-29,1,9,EU-Steuer
-30,1,10,EU-Föderalismus
-31,1,11,Wirtschaftssystem
-32,1,12,Steuer
-33,1,13,Arbeitnehmerrechte
-34,1,14,Droge
-35,1,15,Atomenergie
-36,1,16,kommunale Grundversorgung
-37,1,17,Umweltschutz
-38,1,18,Atomenergie
-39,1,19,Schule
-40,1,20,Gentechnik
-41,1,21,Arbeitnehmer mit Migrationshintergrund
-42,1,22,Digitale Grundrechte
-43,1,23,Polizei
-44,1,24,Digitale Grundrechte
-45,1,25,Grenzkontrollen
-46,1,26,Polizei
-47,1,27,Entwicklungshilfe
-48,1,28,EU-Armee
-49,1,29,Friedenspolitik
-50,2,0,Kohle
-51,2,1,Gewerbesteuer
-52,2,2,Wählen ab 16
-53,2,3,Kultur
-54,2,4,Verfassungsschutz
-55,2,5,Videoüberwachung
-56,2,6,Polizei
-57,2,7,Schule
-58,2,8,Schulsystem-Gliederung
-59,2,9,G8
-60,2,10,Schule
-61,2,11,Kopfnote
-62,2,12,Schule
-63,2,13,Universität
-64,2,14,Arbeitnehmerrechte
-65,2,15,Arbeitslosigkeit
-66,2,16,Ausbildung
-67,2,17,Ausbildung
-68,2,18,Droge
-69,2,19,Ehe für Alle
-70,2,20,Gentechnik
-71,2,21,Erneuerbare Energie
-72,2,22,Müll
-73,3,0,Ausbildung
-74,3,1,Sozialpolitik
-75,3,2,Arbeitnehmerrechte
-76,3,3,Arbeitnehmerrechte
-77,3,4,Ladenöffnungszeit
-78,3,5,Mindestlohn
-79,3,6,Schuldenbremse
-80,3,7,Kultur
-81,3,8,Privatisierung
-82,3,9,Gentechnik
-83,3,10,Müll
-84,3,11,Erneuerbare Energie
-85,3,12,Schule
-86,3,13,Schule
-87,3,14,Schule
-88,3,15,Schule
-89,3,16,Schule
-90,3,17,Schule
-91,3,18,KiTa
-92,3,19,Ehe für Alle
-93,3,20,Videoüberwachung
-94,3,21,Polizeieinsatz-Kosten
-95,3,22,Cannabis
-96,3,23,Graffiti
-97,3,24,Wählen ab 16
-98,3,25,Direkte Demokratie
-99,3,26,Wahlrecht
-100,4,0,Droge
-101,4,1,Krankenversicherung
-102,4,2,Sprachkurs
-103,4,3,Jugendarbeit
-104,4,4,KiTa
-105,4,5,Schulsystem-Gliederung
-106,4,6,Kopftuch
-107,4,7,Zentralabitur
-108,4,8,Schule
-109,4,9,Schulsystem-Gliederung
-110,4,10,Studiengebühren
-111,4,11,Verkehr
-112,4,12,Autobahn
-113,4,13,Flughafen
-114,4,14,Autobahn
-115,4,15,Arbeitnehmerrechte
-116,4,16,Ausbildung
-117,4,17,Ladenöffnungszeit
-118,4,18,Jugendstrafrecht
-119,4,19,Videoüberwachung
-120,4,20,Graffiti
-121,4,21,Cannabis
-122,4,22,Beamtete Lehrer
-123,4,23,Gebietsreform
-124,4,24,Wahlrecht
-125,4,25,Wählen ab 16
-126,4,26,Erneuerbare Energie
-127,4,27,Umweltschutz
-128,4,28,Atomenergie
-129,5,0,Erneuerbare Energie
-130,5,1,Kohle
-131,5,2,Autobahn
-132,5,3,Flughafen
-133,5,4,Ökologische Landwirtschaft
-134,5,5,Gentechnik
-135,5,6,Arbeitnehmerrechte
-136,5,7,Meister
-137,5,8,Ausbildung
-138,5,9,Ladenöffnungszeit
-139,5,10,Steuer
-140,5,11,Tiere
-141,5,12,Inklusion
-142,5,13,KiTa
-143,5,14,Jugendbeirat
-144,5,15,Schule
-145,5,16,Sitzenbleiben
-146,5,17,Beamtete Lehrer
-147,5,18,Studiengebühren
-148,5,19,Schule
-149,5,20,Jugendschutz
-150,5,21,Cannabis
-151,5,22,Abtreibung
-152,5,23,Privatisierung
-153,5,24,Kopftuch
-154,5,25,Digitale Grundrechte
-155,5,26,Polizeieinsatz-Kosten
-156,5,27,Videoüberwachung
-157,5,28,Nebeneinkünfte
-158,6,0,Tempolimit
-159,6,1,Arbeitnehmerrechte
-160,6,2,Atomenergie
-161,6,3,Steuer
-162,6,4,Türkei
-163,6,5,Steuer
-164,6,6,Mindestlohn
-165,6,7,Steuer
-166,6,8,Müll
-167,6,9,Krankenversicherung
-168,6,10,Steuer
-169,6,11,Subvention
-170,6,12,Europa
-171,6,13,Kohle
-172,6,14,Bundeswehr im Inneren
-173,6,15,Nebeneinkünfte
-174,6,16,Sprachtest
-175,6,17,Studiengebühren
-176,6,18,Kooperationsverbot
-177,6,19,BAföG
-178,6,20,Betreuungsgeld
-179,6,21,Abtreibung
-180,6,22,Digitale Grundrechte
-181,6,23,Wehrpflicht
-182,6,24,Videoüberwachung
-183,6,25,Ehe für Alle
-184,6,26,Wählen ab 16
-185,6,27,Digitale Grundrechte
-186,6,28,Cannabis
-187,6,29,Direkte Demokratie
-188,7,0,Ladenöffnungszeit
-189,7,1,Privatisierung
-190,7,2,Graffiti
-191,7,3,Schule
-192,7,4,Kopfnote
-193,7,5,Sitzenbleiben
-194,7,6,Autobahn
-195,7,7,Diesel
-196,7,8,Verkehr
-197,7,9,Gewerbesteuer
-198,7,10,Privatisierung
-199,7,11,Droge
-200,7,12,1-Euro-Job
-201,7,13,Religionsunterricht
-202,7,14,Studiengebühren
-203,7,15,ÖPNV
-204,7,16,Verkehr
-205,7,17,Krankenhaus-Privatisierung
-206,7,18,Frauenquote
-207,7,19,Sprachtest
-208,7,20,Rauchverbot
-209,7,21,Polizisten-Kennzeichnung
-210,7,22,Schule
-211,7,23,Sozialpolitik
-212,7,24,KiTa
-213,7,25,Schulsystem-Gliederung
-214,7,26,Kultur
-215,7,27,Polizei
-216,7,28,Wahlrecht
-217,7,29,Flughafen
-218,8,0,Flughafen
-219,8,1,Atomenergie
-220,8,2,Gentechnik
-221,8,3,Projekt
-222,8,4,Graffiti
-223,8,5,Studiengebühren
-224,8,6,Universität
-225,8,7,G8
-226,8,8,Beamtete Lehrer
-227,8,9,Sprachtest
-228,8,10,Betreuungsgeld
-229,8,11,Kündigungsschutz
-230,8,12,REST
-231,8,13,Vermögenssteuer
-232,8,14,Digitale Grundrechte
-233,8,15,Verkehr
-234,8,16,Schülerticket
-235,8,17,Schulsystem-Gliederung
-236,8,18,KiTa
-237,8,19,Videoüberwachung
-238,8,20,Wählen ab 16
-239,8,21,Jugendschutz
-240,8,22,Droge
-241,8,23,Tierschutz
-242,8,24,Verkehr
-243,8,25,Flüchtling
-244,8,26,Arbeitnehmerrechte
-245,8,27,Wahlrecht für Ausländer
-246,8,28,Jugendschutz
-247,8,29,Direkte Demokratie
-248,9,0,Tempolimit
-249,9,1,Kohle
-250,9,2,Studiengebühren
-251,9,3,Müll
-252,9,4,Sprachtest
-253,9,5,Schulsystem-Gliederung
-254,9,6,Bleiberecht
-255,9,7,KiTa
-256,9,8,KiTa
-257,9,9,Polizeieinsatz-Kosten
-258,9,10,Polizei
-259,9,11,Direkte Demokratie
-260,9,12,Religionsfreiheit
-261,9,13,Schule
-262,9,14,Schule
-263,9,15,Sozialpolitik
-264,9,16,REST
-265,9,17,Jugendstrafrecht
-266,9,18,Mindestlohn
-267,9,19,kommunale Grundversorgung
-268,9,20,Atomenergie
-269,9,21,Droge
-270,9,22,Diesel
-271,9,23,Sozialticket
-272,9,24,Jugendstrafrecht
-273,9,25,Schule
-274,9,26,Sozialpolitik
-275,9,27,Ehe für Alle
-276,9,28,Kündigungsschutz
-277,9,29,Wählen ab 16
-278,10,0,Droge
-279,10,1,Studiengebühren
-280,10,2,Flussvertiefung
-281,10,3,Mindestlohn
-282,10,4,Sozialer Wohnungsbau
-283,10,5,KiTa
-284,10,6,Sprachtest
-285,10,7,Schulsystem-Gliederung
-286,10,8,Rauchverbot
-287,10,9,Ladenöffnungszeit
-288,10,10,Steuer
-289,10,11,Privatisierung
-290,10,12,Verkehr
-291,10,13,Autobahn
-292,10,14,Gebietsreform
-293,10,15,Ehe für Alle
-294,10,16,Kohle
-295,10,17,kommunale Grundversorgung
-296,10,18,Krankenhaus-Privatisierung
-297,10,19,Sozialticket
-298,10,20,Flüchtling
-299,10,21,Schuldenbremse
-300,10,22,Universität
-301,10,23,Ausbildung
-302,10,24,Beamtete Lehrer
-303,10,25,Schule
-304,10,26,Jugendstrafrecht
-305,10,27,LANDESSPEZIFISCH
-306,10,28,Videoüberwachung
-307,10,29,Direkte Demokratie
-308,11,0,Atomenergie
-309,11,1,Mindestlohn
-310,11,2,Bundeswehr
-311,11,3,EU-Austritt
-312,11,4,Managergehälter
-313,11,5,Digitale Grundrechte
-314,11,6,Studiengebühren
-315,11,7,Sprachtest
-316,11,8,Tierschutz
-317,11,9,Bank
-318,11,10,Friedenspolitik
-319,11,11,Frauenquote
-320,11,12,Steuer
-321,11,13,Direkte Demokratie
-322,11,14,Betreuungsgeld
-323,11,15,Ausbildung
-324,11,16,Kündigungsschutz
-325,11,17,Türkei
-326,11,18,Tempolimit
-327,11,19,BAföG
-328,11,20,D-Mark
-329,11,21,Ökologische Landwirtschaft
-330,11,22,Christliche Werte
-331,11,23,Privatisierung
-332,11,24,Wehrpflicht
-333,11,25,Gentechnik
-334,11,26,Ehe für Alle
-335,11,27,Vermögenssteuer
-336,11,28,Kooperationsverbot
-337,11,29,Flüchtling
-338,11,30,Gesundheit
-339,11,31,Rente
-340,11,32,Friedenspolitik
-341,11,33,Schulsystem-Gliederung
-342,11,34,Wahlrecht für Ausländer
-343,11,35,Arbeitslosigkeit
-344,11,36,Bundeswehr im Inneren
-345,11,37,Staatsform
-346,12,0,Gentechnik
-347,12,1,EU-Erweiterung
-348,12,2,Flüchtling
-349,12,3,Managergehälter
-350,12,4,Traditionelles Familienbild
-351,12,5,Gesundheit
-352,12,6,Entwicklungshilfe
-353,12,7,Wählen ab 16
-354,12,8,Arbeitnehmer mit Migrationshintergrund
-355,12,9,REST
-356,12,10,Digitale Grundrechte
-357,12,11,Europa
-358,12,12,Atomenergie
-359,12,13,Subvention
-360,12,14,Wahlrecht
-361,12,15,REST
-362,12,16,Tempolimit
-363,12,17,Staatsform
-364,12,18,EU-Armee
-365,12,19,Bank
-366,12,20,EU-Austritt
-367,12,21,Erneuerbare Energie
-368,12,22,Steuer
-369,12,23,Friedenspolitik
-370,12,24,EU-Außenpolitik
-371,12,25,Gentechnik
-372,12,26,EU-Steuer
-373,12,27,Kündigungsschutz
-374,12,28,REST
-375,12,29,D-Mark
-376,12,30,REST
-377,12,31,EU-Föderalismus
-378,12,32,Mindestlohn
-379,12,33,Christliche Werte
-380,12,34,EU-Stabilitätspakt
-381,12,35,Gentechnik
-382,12,36,Direkte Demokratie
-383,12,37,Rauchverbot
-384,13,0,Ladenöffnungszeit
-385,13,1,Schulsystem-Gliederung
-386,13,2,Rauchverbot
-387,13,3,Arbeitnehmer mit Migrationshintergrund
-388,13,4,KiTa
-389,13,5,Kopfnote
-390,13,6,Studiengebühren
-391,13,7,Autobahn
-392,13,8,Digitale Grundrechte
-393,13,9,Kulturaustausch
-394,13,10,Privatisierung
-395,13,11,Atomenergie
-396,13,12,Gentechnik
-397,13,13,Wahlrecht für Ausländer
-398,13,14,Gewerbesteuer
-399,13,15,Deutschexklusiv
-400,13,16,Mindestlohn
-401,13,17,Frauenquote
-402,13,18,Ehe für Alle
-403,13,19,Religionsunterricht
-404,13,20,G8
-405,13,21,Schuldenbremse
-406,13,22,Universität
-407,13,23,Bleiberecht
-408,13,24,Steuer
-409,13,25,kommunale Grundversorgung
-410,13,26,Krankenhaus-Privatisierung
-411,13,27,Politischer Extremismus
-412,13,28,Arbeitslosigkeit
-413,13,29,Polizei
-414,13,30,Jugendstrafrecht
-415,13,31,Flughafen
-416,13,32,Ausbildung
-417,13,33,Moschee
-418,13,34,Schule
-419,13,35,Wirtschaft&Politik
-420,13,36,Wählen ab 16
-421,13,37,Kohle
-422,14,0,Privatisierung
-423,14,1,Wählen ab 16
-424,14,2,Müll
-425,14,3,Ehe für Alle
-426,14,4,Droge
-427,14,5,Hotel
-428,14,6,KiTa
-429,14,7,Kulturaustausch
-430,14,8,LANDESSPEZIFISCH
-431,14,9,Jugendstrafrecht
-432,14,10,Grunderwerbssteuer
-433,14,11,Politischer Extremismus
-434,14,12,Schule
-435,14,13,Flüchtling
-436,14,14,Direkte Demokratie
-437,14,15,Autobahn
-438,14,16,Arbeitnehmer mit Migrationshintergrund
-439,14,17,Universität
-440,14,18,LANDESSPEZIFISCH
-441,14,19,Deutschexklusiv
-442,14,20,Tempolimit
-443,14,21,Politischer Extremismus
-444,14,22,Schule
-445,14,23,Polizisten-Kennzeichnung
-446,14,24,Sozialer Wohnungsbau
-447,14,25,Umweltzone
-448,14,26,Gemeinsamer Unterricht
-449,14,27,Mindestlohn
-450,14,28,Videoüberwachung
-451,14,29,Sprachtest
-452,14,30,Frauenquote
-453,14,31,Religionsunterricht
-454,14,32,kommunale Grundversorgung
-455,14,33,Arbeitslosigkeit
-456,14,34,Projekt
-457,14,35,Wahlrecht für Ausländer
-458,14,36,Bundeswehr-Anwerbung
-459,14,37,LANDESSPEZIFISCH
-460,15,0,LANDESSPEZIFISCH
-461,15,1,KiTa
-462,15,2,ÖPNV
-463,15,3,Flüchtling
-464,15,4,Rauchverbot
-465,15,5,Schule
-466,15,6,Digitale Grundrechte
-467,15,7,Gewerbesteuer
-468,15,8,Arbeitnehmer mit Migrationshintergrund
-469,15,9,Bank
-470,15,10,G8
-471,15,11,Verkehr
-472,15,12,Direkte Demokratie
-473,15,13,Arbeitnehmer mit Migrationshintergrund
-474,15,14,Schule
-475,15,15,Wahlrecht für Ausländer
-476,15,16,Ladenöffnungszeit
-477,15,17,kommunale Grundversorgung
-478,15,18,Deutschexklusiv
-479,15,19,Erneuerbare Energie
-480,15,20,Kulturaustausch
-481,15,21,Flussvertiefung
-482,15,22,Studiengebühren
-483,15,23,Mindestlohn
-484,15,24,Moschee
-485,15,25,Umweltzone
-486,15,26,1-Euro-Job
-487,15,27,Ehe für Alle
-488,15,28,LANDESSPEZIFISCH
-489,15,29,Wählen ab 16
-490,15,30,Polizeieinsatz-Kosten
-491,15,31,Schuldentilgung
-492,15,32,Jugendstrafrecht
-493,15,33,Privatisierung
-494,15,34,Autobahn
-495,15,35,Droge
-496,15,36,Politischer Extremismus
-497,15,37,Gebietsreform
-498,16,0,Erneuerbare Energie
-499,16,1,Schulsystem-Gliederung
-500,16,2,Frauenquote
-501,16,3,Tempolimit
-502,16,4,Flüchtling
-503,16,5,Flussvertiefung
-504,16,6,LANDESSPEZIFISCH
-505,16,7,Kulturaustausch
-506,16,8,Gewerbesteuer
-507,16,9,Flughafen
-508,16,10,KiTa
-509,16,11,Krankenversicherung
-510,16,12,Religionsunterricht
-511,16,13,Sozialpolitik
-512,16,14,Friedenspolitik
-513,16,15,Deutschexklusiv
-514,16,16,Zentralabitur
-515,16,17,Arbeitnehmer mit Migrationshintergrund
-516,16,18,Ehe für Alle
-517,16,19,Arbeitslosigkeit
-518,16,20,Universität
-519,16,21,Umweltzone
-520,16,22,Wahlrecht für Ausländer
-521,16,23,Schuldenbremse
-522,16,24,LANDESSPEZIFISCH
-523,16,25,Ladenöffnungszeit
-524,16,26,1-Euro-Job
-525,16,27,Direkte Demokratie
-526,16,28,Moschee
-527,16,29,BAföG
-528,16,30,Hotel
-529,16,31,Polizei
-530,16,32,Privatisierung
-531,16,33,Politischer Extremismus
-532,16,34,LANDESSPEZIFISCH
-533,16,35,Jugendarbeit
-534,16,36,Atomenergie
-535,16,37,Kultur
-536,17,0,Ladenöffnungszeit
-537,17,1,LANDESSPEZIFISCH
-538,17,2,Schulsystem-Gliederung
-539,17,3,Sprachtest
-540,17,4,Atomenergie
-541,17,5,Videoüberwachung
-542,17,6,Frauenquote
-543,17,7,Moschee
-544,17,8,Mindestlohn
-545,17,9,Zentralabitur
-546,17,10,Kulturaustausch
-547,17,11,Gewerbesteuer
-548,17,12,Arbeitnehmerrechte
-549,17,13,Religionsunterricht
-550,17,14,Flughafen
-551,17,15,Gentechnik
-552,17,16,Arbeitnehmer mit Migrationshintergrund
-553,17,17,Universität
-554,17,18,Christliche Werte
-555,17,19,Öffentlich-Rechtlicher Rundfunk
-556,17,20,Flüchtling
-557,17,21,Krankenversicherung
-558,17,22,Bundeswehr-Anwerbung
-559,17,23,Wahlrecht für Ausländer
-560,17,24,Wirtschaft&Politik
-561,17,25,KiTa
-562,17,26,Gemeinsamer Unterricht
-563,17,27,BAföG
-564,17,28,Ehe für Alle
-565,17,29,Rauchverbot
-566,17,30,Religionsunterricht
-567,17,31,Polizisten-Kennzeichnung
-568,17,32,Studiengebühren
-569,17,33,LANDESSPEZIFISCH
-570,17,34,Betreuungsgeld
-571,17,35,Politischer Extremismus
-572,17,36,kommunale Grundversorgung
-573,17,37,Wählen ab 16
-574,18,0,Erneuerbare Energie
-575,18,1,KiTa
-576,18,2,LANDESSPEZIFISCH
-577,18,3,Mindestlohn
-578,18,4,REST
-579,18,5,LANDESSPEZIFISCH
-580,18,6,Arbeitslosigkeit
-581,18,7,Sozialer Wohnungsbau
-582,18,8,Wahlrecht
-583,18,9,Gemeinsamer Unterricht
-584,18,10,Atomenergie
-585,18,11,Frauenquote
-586,18,12,Videoüberwachung
-587,18,13,Gewerbesteuer
-588,18,14,Religionsunterricht
-589,18,15,Ökologische Landwirtschaft
-590,18,16,Jugendstrafrecht
-591,18,17,Direkte Demokratie
-592,18,18,Schule
-593,18,19,kommunale Grundversorgung
-594,18,20,Deutschexklusiv
-595,18,21,Landarzt
-596,18,22,Bundeswehr-Anwerbung
-597,18,23,Bleiberecht
-598,18,24,Kultur
-599,18,25,Sozialpolitik
-600,18,26,Verfassungsschutz
-601,18,27,Verkehr
-602,18,28,Parteiverbot
-603,18,29,Krankenhaus-Privatisierung
-604,18,30,Schulsystem-Gliederung
-605,18,31,Arbeitnehmer mit Migrationshintergrund
-606,18,32,Schülerticket
-607,18,33,Wählen ab 16
-608,18,34,Schule
-609,18,35,Politischer Extremismus
-610,18,36,Schuldenbremse
-611,18,37,Umweltschutz
-612,19,0,Ladenöffnungszeit
-613,19,1,Schuldenbremse
-614,19,2,Autobahn
-615,19,3,Mietpreisbremse
-616,19,4,Ökologische Landwirtschaft
-617,19,5,Videoüberwachung
-618,19,6,Gemeinsamer Unterricht
-619,19,7,Cannabis
-620,19,8,Länderfinanzausgleich
-621,19,9,Moschee
-622,19,10,BAföG
-623,19,11,Atomenergie
-624,19,12,Olympia
-625,19,13,Frauenquote
-626,19,14,Politischer Extremismus
-627,19,15,Schulsystem-Gliederung
-628,19,16,Vermögenssteuer
-629,19,17,Erneuerbare Energie
-630,19,18,Arbeitnehmer mit Migrationshintergrund
-631,19,19,Krankenhaus-Privatisierung
-632,19,20,Ehe für Alle
-633,19,21,Direkte Demokratie
-634,19,22,Deutschexklusiv
-635,19,23,Wählen ab 16
-636,19,24,Steuer
-637,19,25,Verfassungsschutz
-638,19,26,Ausbildung
-639,19,27,Betreuungsgeld
-640,19,28,Polizisten-Kennzeichnung
-641,19,29,Steuer
-642,19,30,KiTa
-643,19,31,Kulturaustausch
-644,19,32,Rente
-645,19,33,Flüchtling
-646,19,34,Feiertag
-647,19,35,Flughafen
-648,19,36,Religionsfreiheit
-649,19,37,Umweltschutz
-650,20,0,Mindestlohn
-651,20,1,Betreuungsgeld
-652,20,2,Tempolimit
-653,20,3,D-Mark
-654,20,4,REST
-655,20,5,Videoüberwachung
-656,20,6,Bedingungsloses Grundeinkommen
-657,20,7,Ökologische Landwirtschaft
-658,20,8,Gemeinsamer Unterricht
-659,20,9,Steuer
-660,20,10,Friedenspolitik
-661,20,11,Kohle
-662,20,12,Gesundheit
-663,20,13,Bank
-664,20,14,Flüchtling
-665,20,15,Arbeitnehmerrechte
-666,20,16,Parteiverbot
-667,20,17,BAföG
-668,20,18,Grenzkontrollen
-669,20,19,Frauenquote
-670,20,20,Länderfinanzausgleich
-671,20,21,Rente
-672,20,22,Arbeitnehmer mit Migrationshintergrund
-673,20,23,Friedenspolitik
-674,20,24,Steuer
-675,20,25,Türkei
-676,20,26,Wirtschaft&Politik
-677,20,27,Erneuerbare Energie
-678,20,28,Arbeitslosigkeit
-679,20,29,Religionsfreiheit
-680,20,30,Krankenversicherung
-681,20,31,Eurobond
-682,20,32,Ehe für Alle
-683,20,33,Digitale Grundrechte
-684,20,34,Mietpreisbremse
-685,20,35,Staatsangehörigkeit
-686,20,36,Verkehr
-687,20,37,Direkte Demokratie
-688,21,0,Atomenergie
-689,21,1,Studiengebühren
-690,21,2,Ladenöffnungszeit
-691,21,3,Sitzenbleiben
-692,21,4,Frauenquote
-693,21,5,Jugendstrafrecht
-694,21,6,Bank
-695,21,7,Verkehr
-696,21,8,Politischer Extremismus
-697,21,9,Erneuerbare Energie
-698,21,10,Arbeitslosigkeit
-699,21,11,kommunale Grundversorgung
-700,21,12,Religionsunterricht
-701,21,13,Gesundheit
-702,21,14,Arbeitnehmer mit Migrationshintergrund
-703,21,15,Schuldenbremse
-704,21,16,Mindestlohn
-705,21,17,Autobahn
-706,21,18,Deutschexklusiv
-707,21,19,Umweltschutz
-708,21,20,Direkte Demokratie
-709,21,21,Betreuungsgeld
-710,21,22,Krankenversicherung
-711,21,23,Schule
-712,21,24,Kulturaustausch
-713,21,25,Kohle
-714,21,26,Droge
-715,21,27,Schule
-716,21,28,Religionsfreiheit
-717,21,29,Gewerbesteuer
-718,21,30,Polizeieinsatz-Kosten
-719,21,31,Gemeinsamer Unterricht
-720,21,32,Flussvertiefung
-721,21,33,Projekt
-722,21,34,Steuer
-723,21,35,Wirtschaft&Politik
-724,21,36,Wählen ab 16
-725,21,37,Tierschutz
-726,22,0,Tempolimit
-727,22,1,Polizei
-728,22,2,Flughafen
-729,22,3,Landarzt
-730,22,4,Ehe für Alle
-731,22,5,Arbeitnehmer mit Migrationshintergrund
-732,22,6,Schule
-733,22,7,Verfassungsschutz
-734,22,8,Privatisierung
-735,22,9,Direkte Demokratie
-736,22,10,Flüchtling
-737,22,11,Schulsystem-Gliederung
-738,22,12,Verkehr
-739,22,13,Tiere
-740,22,14,Arbeitnehmerrechte
-741,22,15,Politischer Extremismus
-742,22,16,Gebietsreform
-743,22,17,Cannabis
-744,22,18,kommunale Grundversorgung
-745,22,19,Bundeswehr-Anwerbung
-746,22,20,Deutschexklusiv
-747,22,21,Ökologische Landwirtschaft
-748,22,22,Videoüberwachung
-749,22,23,KiTa
-750,22,24,Autobahn
-751,22,25,Frauenquote
-752,22,26,Grunderwerbssteuer
-753,22,27,Kulturaustausch
-754,22,28,Flughafen
-755,22,29,Zentralabitur
-756,22,30,Erneuerbare Energie
-757,22,31,Flüchtling
-758,22,32,Schule
-759,22,33,Grenzkontrollen
-760,22,34,Universität
-761,22,35,Kohle
-762,22,36,Tierschutz
-763,22,37,Olympia
-764,23,0,D-Mark
-765,23,1,Direkte Demokratie
-766,23,2,Gentechnik
-767,23,3,Flüchtling
-768,23,4,Mindestlohn
-769,23,5,EU-Erweiterung
-770,23,6,Ökologische Landwirtschaft
-771,23,7,REST
-772,23,8,EU-Föderalismus
-773,23,9,Bank
-774,23,10,Christliche Werte
-775,23,11,Subvention
-776,23,12,Frauenquote
-777,23,13,EU-Armee
-778,23,14,Wahlrecht
-779,23,15,Ehe für Alle
-780,23,16,Europa
-781,23,17,Umweltschutz
-782,23,18,Europa
-783,23,19,Politischer Extremismus
-784,23,20,Eurobond
-785,23,21,REST
-786,23,22,Türkei
-787,23,23,Steuer
-788,23,24,Prostitution
-789,23,25,EU-Außenpolitik
-790,23,26,Bank
-791,23,27,Flüchtling
-792,23,28,Direkte Demokratie
-793,23,29,Verkehr
-794,23,30,Entwicklungshilfe
-795,23,31,Umweltschutz
-796,23,32,EU-Steuer
-797,23,33,Gesundheit
-798,23,34,EU-Föderalismus
-799,23,35,Grenzkontrollen
-800,23,36,Managergehälter
-801,23,37,EU-Föderalismus
-802,24,0,Kohle
-803,24,1,Schule
-804,24,2,Ehe für Alle
-805,24,3,Videoüberwachung
-806,24,4,Gentechnik
-807,24,5,Flüchtling
-808,24,6,Tempolimit
-809,24,7,Gewerbesteuer
-810,24,8,Schülerticket
-811,24,9,Öffentlich-Rechtlicher Rundfunk
-812,24,10,Moschee
-813,24,11,Sitzenbleiben
-814,24,12,Betreuungsgeld
-815,24,13,Feiertag
-816,24,14,ÖPNV
-817,24,15,Verfassungsschutz
-818,24,16,Flüchtling
-819,24,17,Bildungsurlaub
-820,24,18,Schuldentilgung
-821,24,19,Gemeinsamer Unterricht
-822,24,20,Gigaliner
-823,24,21,Politischer Extremismus
-824,24,22,Mietpreisbremse
-825,24,23,Religionsfreiheit
-826,24,24,KiTa
-827,24,25,Wahlrecht für Ausländer
-828,24,26,Ökologische Landwirtschaft
-829,24,27,Kulturaustausch
-830,24,28,Studiengebühren
-831,24,29,Religionsunterricht
-832,24,30,Deutschexklusiv
-833,24,31,Polizeieinsatz-Kosten
-834,24,32,Arbeitslosigkeit
-835,24,33,Wählen ab 16
-836,24,34,Grenzkontrollen
-837,24,35,Erneuerbare Energie
-838,24,36,Arbeitnehmer mit Migrationshintergrund
-839,24,37,Tierschutz
-840,25,0,Sitzenbleiben
-841,25,1,Flughafen
-842,25,2,Rauchverbot
-843,25,3,Projekt
-844,25,4,Frauenquote
-845,25,5,Erneuerbare Energie
-846,25,6,Flüchtling
-847,25,7,Beamtete Lehrer
-848,25,8,LANDESSPEZIFISCH
-849,25,9,Arbeitslosigkeit
-850,25,10,Ehe für Alle
-851,25,11,Meister
-852,25,12,Parteiverbot
-853,25,13,KiTa
-854,25,14,Erneuerbare Energie
-855,25,15,Verfassungsschutz
-856,25,16,Arbeitnehmer mit Migrationshintergrund
-857,25,17,Cannabis
-858,25,18,Friedenspolitik
-859,25,19,Grunderwerbssteuer
-860,25,20,Polizei
-861,25,21,Ladenöffnungszeit
-862,25,22,Schule
-863,25,23,Gebietsreform
-864,25,24,Bildungsurlaub
-865,25,25,Politischer Extremismus
-866,25,26,BAföG
-867,25,27,Traditionelles Familienbild
-868,25,28,Deutschexklusiv
-869,25,29,Ladenöffnungszeit
-870,25,30,Schuldentilgung
-871,25,31,Videoüberwachung
-872,25,32,Ausbildung
-873,25,33,Flüchtling
-874,25,34,Schule
-875,25,35,Betreuungsgeld
-876,25,36,REST
-877,25,37,Wählen ab 16
-878,26,0,Olympia
-879,26,1,Verkehr
-880,26,2,Feiertag
-881,26,3,Sitzenbleiben
-882,26,4,Flussvertiefung
-883,26,5,Sozialpolitik
-884,26,6,Polizeieinsatz-Kosten
-885,26,7,Kulturaustausch
-886,26,8,Schuldentilgung
-887,26,9,Friedenspolitik
-888,26,10,Mietpreisbremse
-889,26,11,Gemeinsamer Unterricht
-890,26,12,Arbeitslosigkeit
-891,26,13,Projekt
-892,26,14,Atomenergie
-893,26,15,Deutschexklusiv
-894,26,16,Verkehr
-895,26,17,Bank
-896,26,18,Flüchtling
-897,26,19,KiTa
-898,26,20,LANDESSPEZIFISCH
-899,26,21,Droge
-900,26,22,Ausbildung
-901,26,23,Politischer Extremismus
-902,26,24,Müll
-903,26,25,Krankenhaus-Privatisierung
-904,26,26,Arbeitnehmer mit Migrationshintergrund
-905,26,27,Polizei
-906,26,28,Inklusion
-907,26,29,Frauenquote
-908,26,30,Sozialticket
-909,26,31,Flüchtling
-910,26,32,Gewerbesteuer
-911,26,33,Videoüberwachung
-912,26,34,Direkte Demokratie
-913,26,35,Tierschutz
-914,26,36,Wahlrecht für Ausländer
-915,26,37,ÖPNV
-916,27,0,Cannabis
-917,27,1,Bundeswehr
-918,27,2,Ladenöffnungszeit
-919,27,3,Gentechnik
-920,27,4,Tiere
-921,27,5,REST
-922,27,6,Direkte Demokratie
-923,27,7,Wählen ab 16
-924,27,8,Wahlrecht
-925,27,9,Flüchtling
-926,27,10,Arbeitnehmerrechte
-927,27,11,Wirtschaft
-928,27,12,REST
-929,27,13,Krankenversicherung
-930,27,14,Steuer
-931,27,15,Schule
-932,27,16,Kooperationsverbot
-933,27,17,Schule
-934,27,18,Schuldentilgung
-935,27,19,Steuer
-936,27,20,Vermögenssteuer
-937,27,21,Friedenspolitik
-938,27,22,Wehrpflicht
-939,27,23,Außenpolitik
-940,27,24,Bundeswehr
-941,27,25,Abtreibung
-942,27,26,Ehe für Alle
-943,28,0,Flussvertiefung
-944,28,1,Polizeieinsatz-Kosten
-945,28,2,Ladenöffnungszeit
-946,28,3,Privatisierung
-947,28,4,Cannabis
-948,28,5,Flüchtling
-949,28,6,Gigaliner
-950,28,7,Videoüberwachung
-951,28,8,Kopfnote
-952,28,9,Politischer Extremismus
-953,28,10,Autobahn
-954,28,11,REST
-955,28,12,REST
-956,28,13,Projekt
-957,28,14,ÖPNV
-958,28,15,Polizei
-959,28,16,Arbeitslosigkeit
-960,28,17,Gemeinsamer Unterricht
-961,28,18,Tempolimit
-962,28,19,Frauenquote
-963,28,20,Deutschexklusiv
-964,28,21,Schule
-965,28,22,Atomenergie
-966,28,23,Arbeitnehmer mit Migrationshintergrund
-967,28,24,Traditionelles Familienbild
-968,28,25,Steuer
-969,28,26,Abschiebung
-970,28,27,Militärische Forschung
-971,28,28,REST
-972,28,29,Arbeitnehmer mit Migrationshintergrund
-973,28,30,Schulsystem-Gliederung
-974,28,31,Politischer Extremismus
-975,28,32,KiTa
-976,28,33,Umweltzone
-977,28,34,Droge
-978,28,35,Schuldentilgung
-979,28,36,Verfassungsschutz
-980,28,37,LANDESSPEZIFISCH
-981,29,0,REST
-982,29,1,Flüchtling
-983,29,2,Kohle
-984,29,3,Politischer Extremismus
-985,29,4,Gentechnik
-986,29,5,Universität
-987,29,6,Videoüberwachung
-988,29,7,Steuer
-989,29,8,Abschiebung
-990,29,9,Schule
-991,29,10,Arbeitnehmer mit Migrationshintergrund
-992,29,11,Wahlrecht
-993,29,12,Arbeitslosigkeit
-994,29,13,Verkehr
-995,29,14,Polizisten-Kennzeichnung
-996,29,15,KiTa
-997,29,16,Flussvertiefung
-998,29,17,Deutschexklusiv
-999,29,18,Polizeieinsatz-Kosten
-1000,29,19,Studiengebühren
-1001,29,20,Erneuerbare Energie
-1002,29,21,Polizei
-1003,29,22,Privatisierung
-1004,29,23,Ehe für Alle
-1005,29,24,Schuldenbremse
-1006,29,25,Inklusion
-1007,29,26,Verfassungsschutz
-1008,29,27,Impfen
-1009,29,28,Religionsunterricht
-1010,29,29,Wahlrecht für Ausländer
-1011,29,30,Projekt
-1012,29,31,Cannabis
-1013,29,32,Außenpolitik
-1014,29,33,Arbeitnehmerrechte
-1015,29,34,Bundeswehr-Anwerbung
-1016,29,35,Flüchtling
-1017,29,36,Ausbildung
-1018,29,37,Bienen
-1019,30,0,REST
-1020,30,1,Erneuerbare Energie
-1021,30,2,Schule
-1022,30,3,Flüchtling
-1023,30,4,Ökologische Landwirtschaft
-1024,30,5,Frauenquote
-1025,30,6,Schuldenbremse
-1026,30,7,Traditionelles Familienbild
-1027,30,8,Nebeneinkünfte
-1028,30,9,Abschiebung
-1029,30,10,Verkehr
-1030,30,11,KiTa
-1031,30,12,Integration
-1032,30,13,Landarzt
-1033,30,14,Flüchtling
-1034,30,15,Außenpolitik
-1035,30,16,Militärische Forschung
-1036,30,17,Deutschexklusiv
-1037,30,18,Atomenergie
-1038,30,19,Vermögenssteuer
-1039,30,20,Wahlrecht
-1040,30,21,Videoüberwachung
-1041,30,22,Inklusion
-1042,30,23,Mietpreisbremse
-1043,30,24,Politischer Extremismus
-1044,30,25,ÖPNV
-1045,30,26,Arbeitnehmerrechte
-1046,30,27,Grunderwerbssteuer
-1047,30,28,Religionsunterricht
-1048,30,29,Ausbildung
-1049,30,30,Polizeieinsatz-Kosten
-1050,30,31,Cannabis
-1051,30,32,Integration
-1052,30,33,Arbeitslosigkeit
-1053,30,34,Polizisten-Kennzeichnung
-1054,30,35,Gemeinsamer Unterricht
-1055,30,36,Feiertag
-1056,30,37,Wählen ab 16
-1057,31,0,Ökologische Landwirtschaft
-1058,31,1,Verkehr
-1059,31,2,KiTa
-1060,31,3,REST
-1061,31,4,Flüchtling
-1062,31,5,Privatisierung
-1063,31,6,Schule
-1064,31,7,Polizisten-Kennzeichnung
-1065,31,8,Gigaliner
-1066,31,9,Deutschexklusiv
-1067,31,10,Gebietsreform
-1068,31,11,Ehe für Alle
-1069,31,12,Arbeitnehmer mit Migrationshintergrund
-1070,31,13,Polizeieinsatz-Kosten
-1071,31,14,Erneuerbare Energie
-1072,31,15,Kopftuch
-1073,31,16,Mietpreisbremse
-1074,31,17,Gentechnik
-1075,31,18,Religionsunterricht
-1076,31,19,Universität
-1077,31,20,Wahlrecht
-1078,31,21,Flüchtling
-1079,31,22,Bundeswehr-Anwerbung
-1080,31,23,Schuldenbremse
-1081,31,24,Frauenquote
-1082,31,25,Arbeitslosigkeit
-1083,31,26,Nationalpark
-1084,31,27,Flüchtling
-1085,31,28,Außenpolitik
-1086,31,29,Arbeitnehmer mit Migrationshintergrund
-1087,31,30,Zentralabitur
-1088,31,31,Politischer Extremismus
-1089,31,32,Flughafen
-1090,31,33,Wahlrecht
-1091,31,34,Schulsystem-Gliederung
-1092,31,35,Videoüberwachung
-1093,31,36,Autobahn
-1094,31,37,LANDESSPEZIFISCH
-1095,32,0,Mietpreisbremse
-1096,32,1,Flüchtling
-1097,32,2,Ladenöffnungszeit
-1098,32,3,Flughafen
-1099,32,4,Schule
-1100,32,5,Polizei
-1101,32,6,Kultur
-1102,32,7,Flüchtling
-1103,32,8,Mietpreisbremse
-1104,32,9,Schule
-1105,32,10,Wahlrecht für Ausländer
-1106,32,11,REST
-1107,32,12,Bedingungsloses Grundeinkommen
-1108,32,13,Schule
-1109,32,14,Ehe für Alle
-1110,32,15,Polizei
-1111,32,16,Vermögenssteuer
-1112,32,17,Traditionelles Familienbild
-1113,32,18,Deutschexklusiv
-1114,32,19,Cannabis
-1115,32,20,KiTa
-1116,32,21,Mindestlohn
-1117,32,22,Moschee
-1118,32,23,Universität
-1119,32,24,Grunderwerbssteuer
-1120,32,25,Rauchverbot
-1121,32,26,Direkte Demokratie
-1122,32,27,Beamtete Lehrer
-1123,32,28,Droge
-1124,32,29,Politischer Extremismus
-1125,32,30,Sozialer Wohnungsbau
-1126,32,31,Militärische Forschung
-1127,32,32,Ausbildung
-1128,32,33,Autobahn
-1129,32,34,Wählen ab 16
-1130,32,35,Arbeitslosigkeit
-1131,32,36,ÖPNV
-1132,32,37,LANDESSPEZIFISCH
-1133,33,0,Ladenöffnungszeit
-1134,33,1,Schule
-1135,33,2,Feiertag
-1136,33,3,Integration
-1137,33,4,Erneuerbare Energie
-1138,33,5,Direkte Demokratie
-1139,33,6,Bedingungsloses Grundeinkommen
-1140,33,7,Videoüberwachung
-1141,33,8,G8
-1142,33,9,Wahlrecht für Ausländer
-1143,33,10,Grunderwerbssteuer
-1144,33,11,Ehe für Alle
-1145,33,12,Flughafen
-1146,33,13,Arbeitnehmer mit Migrationshintergrund
-1147,33,14,Gebietsreform
-1148,33,15,Universität
-1149,33,16,Autobahn
-1150,33,17,Religionsfreiheit
-1151,33,18,Frauenquote
-1152,33,19,Deutschexklusiv
-1153,33,20,Wählen ab 16
-1154,33,21,Lehrer
-1155,33,22,Abschiebung
-1156,33,23,Jugendbeirat
-1157,33,24,Digitale Grundrechte
-1158,33,25,Inklusion
-1159,33,26,Politischer Extremismus
-1160,33,27,REST
-1161,33,28,Religionsunterricht
-1162,33,29,Ökologische Landwirtschaft
-1163,33,30,KiTa
-1164,33,31,Flüchtling
-1165,33,32,Universität
-1166,33,33,LANDESSPEZIFISCH
-1167,33,34,Prostitution
-1168,33,35,Kohle
-1169,33,36,Cannabis
-1170,33,37,Wahlrecht
-1171,34,0,Schule
-1172,34,1,LANDESSPEZIFISCH
-1173,34,2,Ökologische Landwirtschaft
-1174,34,3,Flüchtling
-1175,34,4,Gebietsreform
-1176,34,5,Ehe für Alle
-1177,34,6,Arbeitnehmerrechte
-1178,34,7,Verkehr
-1179,34,8,Landarzt
-1180,34,9,Videoüberwachung
-1181,34,10,Bienen
-1182,34,11,Lehrer
-1183,34,12,LANDESSPEZIFISCH
-1184,34,13,Grunderwerbssteuer
-1185,34,14,Wahlrecht
-1186,34,15,Bundeswehr-Anwerbung
-1187,34,16,Traditionelles Familienbild
-1188,34,17,REST
-1189,34,18,Flüchtling
-1190,34,19,Wirtschaft&Politik
-1191,34,20,Bedingungsloses Grundeinkommen
-1192,34,21,Mietpreisbremse
-1193,34,22,Frauenquote
-1194,34,23,Wahlrecht für Ausländer
-1195,34,24,Cannabis
-1196,34,25,Erneuerbare Energie
-1197,34,26,Wirtschaft
-1198,34,27,Bienen
-1199,34,28,G8
-1200,34,29,Schuldentilgung
-1201,34,30,REST
-1202,34,31,Ladenöffnungszeit
-1203,34,32,Militärische Forschung
-1204,34,33,REST
-1205,34,34,Polizisten-Kennzeichnung
-1206,34,35,Feiertag
-1207,34,36,LANDESSPEZIFISCH
-1208,34,37,LANDESSPEZIFISCH
-1209,35,0,G8
-1210,35,1,Ladenöffnungszeit
-1211,35,2,Flussvertiefung
-1212,35,3,KiTa
-1213,35,4,Abschiebung
-1214,35,5,Kohle
-1215,35,6,REST
-1216,35,7,Sozialer Wohnungsbau
-1217,35,8,Polizeieinsatz-Kosten
-1218,35,9,Mindestlohn
-1219,35,10,Jugendbeirat
-1220,35,11,Ökologische Landwirtschaft
-1221,35,12,Grunderwerbssteuer
-1222,35,13,Politischer Extremismus
-1223,35,14,Schulsystem-Gliederung
-1224,35,15,Resozialisierung
-1225,35,16,Mietpreisbremse
-1226,35,17,Verkehr
-1227,35,18,Flüchtling
-1228,35,19,Nationalpark
-1229,35,20,Privatisierung
-1230,35,21,Deutschexklusiv
-1231,35,22,Universität
-1232,35,23,Schulden
-1233,35,24,Traditionelles Familienbild
-1234,35,25,Arbeitnehmerrechte
-1235,35,26,Integration
-1236,35,27,Wählen ab 16
-1237,35,28,Arbeitnehmer mit Migrationshintergrund
-1238,35,29,Polizei
-1239,35,30,Erneuerbare Energie
-1240,35,31,Inklusion
-1241,35,32,Tiere
-1242,35,33,Arbeitslosigkeit
-1243,35,34,Videoüberwachung
-1244,35,35,Rauchverbot
-1245,35,36,Arbeitnehmer mit Migrationshintergrund
-1246,35,37,Direkte Demokratie
-1247,36,0,Bundeswehr im Inneren
-1248,36,1,Diesel
-1249,36,2,Flüchtling
-1250,36,3,Erneuerbare Energie
-1251,36,4,Sozialer Wohnungsbau
-1252,36,5,BAföG
-1253,36,6,Videoüberwachung
-1254,36,7,Außenpolitik
-1255,36,8,Tempolimit
-1256,36,9,Bundeswehr
-1257,36,10,REST
-1258,36,11,Ökologische Landwirtschaft
-1259,36,12,Deutschexklusiv
-1260,36,13,Arbeitnehmerrechte
-1261,36,14,Impfen
-1262,36,15,Privatisierung
-1263,36,16,REST
-1264,36,17,Schuldentilgung
-1265,36,18,Ökologische Landwirtschaft
-1266,36,19,Kohle
-1267,36,20,Arbeitnehmerrechte
-1268,36,21,Staatsangehörigkeit
-1269,36,22,Rente
-1270,36,23,D-Mark
-1271,36,24,Frauenquote
-1272,36,25,Vermögenssteuer
-1273,36,26,Jugendstrafrecht
-1274,36,27,Krankenversicherung
-1275,36,28,Politischer Extremismus
-1276,36,29,Grunderwerbssteuer
-1277,36,30,Bundeswehr
-1278,36,31,Cannabis
-1279,36,32,Steuer
-1280,36,33,Flüchtling
-1281,36,34,Schule
-1282,36,35,Religionsfreiheit
-1283,36,36,Bedingungsloses Grundeinkommen
-1284,36,37,Europa
+thesis_id,occasion_id,occasion_num,thesis_num,category
+290,12,10,12,1-Euro-Job
+538,20,17,26,1-Euro-Job
+652,23,20,26,1-Euro-Job
+151,7,5,22,Abtreibung
+179,8,6,21,Abtreibung
+1145,37,33,25,Abtreibung
+169,8,6,11,Agrarsubvention
+411,17,14,13,Agrarsubvention
+941,31,28,11,Agrarsubvention
+21,3,1,1,Arbeitnehmer mit Migrationshintergrund
+41,3,1,21,Arbeitnehmer mit Migrationshintergrund
+406,17,14,8,Arbeitnehmer mit Migrationshintergrund
+477,19,16,3,Arbeitnehmer mit Migrationshintergrund
+520,20,17,8,Arbeitnehmer mit Migrationshintergrund
+525,20,17,13,Arbeitnehmer mit Migrationshintergrund
+566,22,18,16,Arbeitnehmer mit Migrationshintergrund
+624,21,19,36,Arbeitnehmer mit Migrationshintergrund
+643,23,20,17,Arbeitnehmer mit Migrationshintergrund
+680,24,21,16,Arbeitnehmer mit Migrationshintergrund
+735,25,22,33,Arbeitnehmer mit Migrationshintergrund
+771,26,23,31,Arbeitnehmer mit Migrationshintergrund
+799,27,24,21,Arbeitnehmer mit Migrationshintergrund
+830,28,25,14,Arbeitnehmer mit Migrationshintergrund
+872,29,26,18,Arbeitnehmer mit Migrationshintergrund
+914,30,27,22,Arbeitnehmer mit Migrationshintergrund
+1004,32,29,36,Arbeitnehmer mit Migrationshintergrund
+1022,34,30,16,Arbeitnehmer mit Migrationshintergrund
+1049,33,31,5,Arbeitnehmer mit Migrationshintergrund
+1108,36,32,26,Arbeitnehmer mit Migrationshintergrund
+1170,38,34,23,Arbeitnehmer mit Migrationshintergrund
+1176,38,34,29,Arbeitnehmer mit Migrationshintergrund
+1195,39,35,10,Arbeitnehmer mit Migrationshintergrund
+1273,41,37,12,Arbeitnehmer mit Migrationshintergrund
+1290,41,37,29,Arbeitnehmer mit Migrationshintergrund
+1350,43,39,13,Arbeitnehmer mit Migrationshintergrund
+1441,45,41,28,Arbeitnehmer mit Migrationshintergrund
+1449,45,41,36,Arbeitnehmer mit Migrationshintergrund
+18,1,0,18,Arbeitnehmerrechte
+64,4,2,14,Arbeitnehmerrechte
+76,5,3,3,Arbeitnehmerrechte
+274,10,9,26,Arbeitnehmerrechte
+660,23,20,34,Arbeitnehmerrechte
+907,30,27,15,Arbeitnehmerrechte
+1159,38,34,12,Arbeitnehmerrechte
+1438,45,41,25,Arbeitnehmerrechte
+1464,46,42,13,Arbeitnehmerrechte
+65,4,2,15,Arbeitslosigkeit
+74,5,3,1,Arbeitslosigkeit
+362,14,12,24,Arbeitslosigkeit
+471,18,15,35,Arbeitslosigkeit
+1132,37,33,12,Arbeitslosigkeit
+35,3,1,15,Atomenergie
+38,3,1,18,Atomenergie
+128,6,4,28,Atomenergie
+160,8,6,2,Atomenergie
+249,10,9,1,Atomenergie
+328,13,11,20,Atomenergie
+410,17,14,12,Atomenergie
+436,18,15,0,Atomenergie
+485,19,16,11,Atomenergie
+554,22,18,4,Atomenergie
+590,21,19,2,Atomenergie
+662,23,20,36,Atomenergie
+703,25,22,1,Atomenergie
+750,26,23,10,Atomenergie
+816,28,25,0,Atomenergie
+865,29,26,11,Atomenergie
+1096,36,32,14,Atomenergie
+1169,38,34,22,Atomenergie
+1241,40,36,18,Atomenergie
+17,1,0,17,Ausbildung
+66,4,2,16,Ausbildung
+136,7,5,7,Ausbildung
+141,7,5,12,Ausbildung
+198,11,7,10,Ausbildung
+225,9,8,7,Ausbildung
+341,14,12,3,Ausbildung
+451,18,15,15,Ausbildung
+880,29,26,26,Ausbildung
+951,31,28,21,Ausbildung
+985,32,29,17,Ausbildung
+1017,34,30,11,Ausbildung
+1030,34,30,24,Ausbildung
+1038,34,30,32,Ausbildung
+1221,39,35,36,Ausbildung
+1252,40,36,29,Ausbildung
+1331,42,38,32,Ausbildung
+67,4,2,17,Ausbildungsplatzabgabe
+73,5,3,0,Ausbildungsplatzabgabe
+116,6,4,16,Ausbildungsplatzabgabe
+137,7,5,8,Ausbildungsplatzabgabe
+190,11,7,2,Ausbildungsplatzabgabe
+391,15,13,23,Ausbildungsplatzabgabe
+506,19,16,32,Ausbildungsplatzabgabe
+594,21,19,6,Ausbildungsplatzabgabe
+716,25,22,14,Ausbildungsplatzabgabe
+1104,36,32,22,Ausbildungsplatzabgabe
+426,17,14,28,Außenpolitik
+428,17,14,30,Außenpolitik
+1143,37,33,23,Außenpolitik
+1217,39,35,32,Außenpolitik
+1238,40,36,15,Außenpolitik
+1289,41,37,28,Außenpolitik
+1458,46,42,7,Außenpolitik
+112,6,4,12,Autobahn
+114,6,4,14,Autobahn
+131,7,5,2,Autobahn
+231,9,8,13,Autobahn
+284,12,10,6,Autobahn
+338,14,12,0,Autobahn
+381,15,13,13,Autobahn
+481,19,16,7,Autobahn
+546,20,17,34,Autobahn
+679,24,21,15,Autobahn
+833,28,25,17,Autobahn
+856,29,26,2,Autobahn
+1068,33,31,24,Autobahn
+1157,38,34,10,Autobahn
+1297,41,37,36,Autobahn
+1332,42,38,33,Autobahn
+1353,43,39,16,Autobahn
+177,8,6,19,BAföG
+455,18,15,19,BAföG
+577,22,18,27,BAföG
+655,23,20,29,BAföG
+789,27,24,11,BAföG
+864,29,26,10,BAföG
+909,30,27,17,BAföG
+1032,34,30,26,BAföG
+1456,46,42,5,BAföG
+263,10,9,15,Bahnverkehr
+588,21,19,0,Bahnverkehr
+701,24,21,37,Bahnverkehr
+823,28,25,7,Bahnverkehr
+959,31,28,29,Bahnverkehr
+1056,33,31,12,Bahnverkehr
+1198,39,35,13,Bahnverkehr
+1382,44,40,7,Bahnverkehr
+417,17,14,19,Bank
+445,18,15,9,Bank
+521,20,17,9,Bank
+822,28,25,6,Bank
+905,30,27,13,Bank
+939,31,28,9,Bank
+956,31,28,26,Bank
+1099,36,32,17,Bank
+1466,46,42,15,Bank
+122,6,4,22,Beamtete Lehrer
+146,7,5,17,Beamtete Lehrer
+222,9,8,4,Beamtete Lehrer
+256,10,9,8,Beamtete Lehrer
+392,15,13,24,Beamtete Lehrer
+1013,34,30,7,Beamtete Lehrer
+1326,42,38,27,Beamtete Lehrer
+898,30,27,6,Bedingungsloses Grundeinkommen
+1311,42,38,12,Bedingungsloses Grundeinkommen
+1343,43,39,6,Bedingungsloses Grundeinkommen
+1395,44,40,20,Bedingungsloses Grundeinkommen
+1487,46,42,36,Bedingungsloses Grundeinkommen
+178,8,6,20,Betreuungsgeld
+258,10,9,10,Betreuungsgeld
+450,18,15,14,Betreuungsgeld
+478,19,16,4,Betreuungsgeld
+584,22,18,34,Betreuungsgeld
+610,21,19,22,Betreuungsgeld
+810,27,24,32,Betreuungsgeld
+837,28,25,21,Betreuungsgeld
+881,29,26,27,Betreuungsgeld
+893,30,27,1,Betreuungsgeld
+980,32,29,12,Betreuungsgeld
+1041,34,30,35,Betreuungsgeld
+7,1,0,7,Bleiberecht
+245,9,8,27,Bleiberecht
+314,13,11,6,Bleiberecht
+365,14,12,27,Bleiberecht
+388,15,13,20,Bleiberecht
+497,19,16,23,Bleiberecht
+763,26,23,23,Bleiberecht
+812,27,24,34,Bleiberecht
+1173,38,34,26,Bleiberecht
+1193,39,35,8,Bleiberecht
+1232,40,36,9,Bleiberecht
+1359,43,39,22,Bleiberecht
+1378,44,40,3,Bleiberecht
+1417,45,41,4,Bleiberecht
+172,8,6,14,Bundeswehr im Inneren
+472,18,15,36,Bundeswehr im Inneren
+1121,37,33,1,Bundeswehr im Inneren
+1451,46,42,0,Bundeswehr im Inneren
+572,22,18,22,Bundeswehr-Anwerbung
+700,24,21,36,Bundeswehr-Anwerbung
+762,26,23,22,Bundeswehr-Anwerbung
+1063,33,31,19,Bundeswehr-Anwerbung
+1219,39,35,34,Bundeswehr-Anwerbung
+1283,41,37,22,Bundeswehr-Anwerbung
+1390,44,40,15,Bundeswehr-Anwerbung
+56,4,2,6,Bürgerwehr
+205,11,7,17,Bürgerwehr
+657,23,20,31,Bürgerwehr
+1206,39,35,21,Bürgerwehr
+5,1,0,5,Cannabis
+95,5,3,22,Cannabis
+121,6,4,21,Cannabis
+150,7,5,21,Cannabis
+186,8,6,28,Cannabis
+212,11,7,24,Cannabis
+354,14,12,16,Cannabis
+861,29,26,7,Cannabis
+1023,34,30,17,Cannabis
+1061,33,31,17,Cannabis
+1120,37,33,0,Cannabis
+1151,38,34,4,Cannabis
+1216,39,35,31,Cannabis
+1254,40,36,31,Cannabis
+1318,42,38,19,Cannabis
+1373,43,39,36,Cannabis
+1399,44,40,24,Cannabis
+1482,46,42,31,Cannabis
+23,3,1,3,Christliche Werte
+25,3,1,5,Christliche Werte
+431,17,14,33,Christliche Werte
+458,18,15,22,Christliche Werte
+568,22,18,18,Christliche Werte
+940,31,28,10,Christliche Werte
+427,17,14,29,D-Mark
+456,18,15,20,D-Mark
+895,30,27,3,D-Mark
+930,31,28,0,D-Mark
+1474,46,42,23,D-Mark
+489,19,16,15,Deutschexklusiv
+530,20,17,18,Deutschexklusiv
+604,21,19,16,Deutschexklusiv
+641,23,20,15,Deutschexklusiv
+683,24,21,19,Deutschexklusiv
+726,25,22,24,Deutschexklusiv
+760,26,23,20,Deutschexklusiv
+802,27,24,24,Deutschexklusiv
+834,28,25,18,Deutschexklusiv
+876,29,26,22,Deutschexklusiv
+998,32,29,30,Deutschexklusiv
+1034,34,30,28,Deutschexklusiv
+1064,33,31,20,Deutschexklusiv
+1097,36,32,15,Deutschexklusiv
+1167,38,34,20,Deutschexklusiv
+1202,39,35,17,Deutschexklusiv
+1240,40,36,17,Deutschexklusiv
+1270,41,37,9,Deutschexklusiv
+1317,42,38,18,Deutschexklusiv
+1356,43,39,19,Deutschexklusiv
+1434,45,41,21,Deutschexklusiv
+1463,46,42,12,Deutschexklusiv
+285,12,10,7,Diesel
+330,13,11,22,Diesel
+1452,46,42,1,Diesel
+42,3,1,22,Digitale Grundrechte
+44,3,1,24,Digitale Grundrechte
+154,7,5,25,Digitale Grundrechte
+180,8,6,22,Digitale Grundrechte
+185,8,6,27,Digitale Grundrechte
+262,10,9,14,Digitale Grundrechte
+345,14,12,7,Digitale Grundrechte
+408,17,14,10,Digitale Grundrechte
+441,18,15,5,Digitale Grundrechte
+482,19,16,8,Digitale Grundrechte
+518,20,17,6,Digitale Grundrechte
+707,25,22,5,Digitale Grundrechte
+801,27,24,23,Digitale Grundrechte
+925,30,27,33,Digitale Grundrechte
+1361,43,39,24,Digitale Grundrechte
+1461,46,42,10,Digitale Grundrechte
+10,1,0,10,Direkte Demokratie
+22,3,1,2,Direkte Demokratie
+26,3,1,6,Direkte Demokratie
+98,5,3,25,Direkte Demokratie
+187,8,6,29,Direkte Demokratie
+193,11,7,5,Direkte Demokratie
+228,9,8,10,Direkte Demokratie
+277,10,9,29,Direkte Demokratie
+319,13,11,11,Direkte Demokratie
+352,14,12,14,Direkte Demokratie
+397,15,13,29,Direkte Demokratie
+434,17,14,36,Direkte Demokratie
+449,18,15,13,Direkte Demokratie
+524,20,17,12,Direkte Demokratie
+653,23,20,27,Direkte Demokratie
+678,24,21,14,Direkte Demokratie
+757,26,23,17,Direkte Demokratie
+785,27,24,7,Direkte Demokratie
+836,28,25,20,Direkte Demokratie
+875,29,26,21,Direkte Demokratie
+929,30,27,37,Direkte Demokratie
+931,31,28,1,Direkte Demokratie
+958,31,28,28,Direkte Demokratie
+1053,33,31,9,Direkte Demokratie
+1116,36,32,34,Direkte Demokratie
+1126,37,33,6,Direkte Demokratie
+1325,42,38,26,Direkte Demokratie
+1342,43,39,5,Direkte Demokratie
+1450,45,41,37,Direkte Demokratie
+11,1,0,11,Direktwahl
+99,5,3,26,Direktwahl
+306,12,10,28,Direktwahl
+412,17,14,14,Direktwahl
+944,31,28,14,Direktwahl
+1128,37,33,8,Direktwahl
+6,1,0,6,Droge
+34,3,1,14,Droge
+68,4,2,18,Droge
+100,6,4,0,Droge
+237,9,8,19,Droge
+270,10,9,22,Droge
+289,12,10,11,Droge
+329,13,11,21,Droge
+368,15,13,0,Droge
+547,20,17,35,Droge
+591,21,19,3,Droge
+668,24,21,4,Droge
+728,25,22,26,Droge
+842,28,25,26,Droge
+1103,36,32,21,Droge
+1181,38,34,34,Droge
+1223,40,36,0,Droge
+1327,42,38,28,Droge
+69,4,2,19,Ehe für Alle
+92,5,3,19,Ehe für Alle
+183,8,6,25,Ehe für Alle
+210,11,7,22,Ehe für Alle
+335,13,11,27,Ehe für Alle
+356,14,12,18,Ehe für Alle
+383,15,13,15,Ehe für Alle
+402,17,14,4,Ehe für Alle
+462,18,15,26,Ehe für Alle
+492,19,16,18,Ehe für Alle
+539,20,17,27,Ehe für Alle
+578,22,18,28,Ehe für Alle
+598,21,19,10,Ehe für Alle
+644,23,20,18,Ehe für Alle
+667,24,21,3,Ehe für Alle
+723,25,22,21,Ehe für Alle
+792,27,24,14,Ehe für Alle
+874,29,26,20,Ehe für Alle
+924,30,27,32,Ehe für Alle
+945,31,28,15,Ehe für Alle
+970,32,29,2,Ehe für Alle
+1016,34,30,10,Ehe für Alle
+1048,33,31,4,Ehe für Alle
+1146,37,33,26,Ehe für Alle
+1208,39,35,23,Ehe für Alle
+1272,41,37,11,Ehe für Alle
+1313,42,38,14,Ehe für Alle
+1348,43,39,11,Ehe für Alle
+1380,44,40,5,Ehe für Alle
+126,6,4,26,Energiewende
+161,8,6,3,Energiewende
+163,8,6,5,Energiewende
+419,17,14,21,Energiewende
+531,20,17,19,Energiewende
+626,23,20,0,Energiewende
+871,29,26,17,Energiewende
+883,29,26,29,Energiewende
+896,30,27,4,Energiewende
+919,30,27,27,Energiewende
+1020,34,30,14,Energiewende
+1134,37,33,14,Energiewende
+1264,41,37,3,Energiewende
+1310,42,38,11,Energiewende
+1454,46,42,3,Energiewende
+47,3,1,27,Entwicklungshilfe
+404,17,14,6,Entwicklungshilfe
+960,31,28,30,Entwicklungshilfe
+48,3,1,28,EU-Armee
+170,8,6,12,EU-Armee
+416,17,14,18,EU-Armee
+943,31,28,13,EU-Armee
+422,17,14,24,EU-Außenpolitik
+946,31,28,16,EU-Außenpolitik
+948,31,28,18,EU-Außenpolitik
+955,31,28,25,EU-Außenpolitik
+12,1,0,12,EU-Föderalismus
+24,3,1,4,EU-Föderalismus
+30,3,1,10,EU-Föderalismus
+399,17,14,1,EU-Föderalismus
+418,17,14,20,EU-Föderalismus
+429,17,14,31,EU-Föderalismus
+439,18,15,3,EU-Föderalismus
+935,31,28,5,EU-Föderalismus
+938,31,28,8,EU-Föderalismus
+967,31,28,37,EU-Föderalismus
+1488,46,42,37,EU-Föderalismus
+27,3,1,7,Europa-Finanzen
+28,3,1,8,Europa-Finanzen
+29,3,1,9,Europa-Finanzen
+409,17,14,11,Europa-Finanzen
+424,17,14,26,Europa-Finanzen
+432,17,14,34,Europa-Finanzen
+923,30,27,31,Europa-Finanzen
+950,31,28,20,Europa-Finanzen
+962,31,28,32,Europa-Finanzen
+964,31,28,34,Europa-Finanzen
+195,11,7,7,Fahrrad
+294,12,10,16,Fahrrad
+1098,36,32,16,Fahrrad
+1233,40,36,10,Fahrrad
+1430,45,41,17,Fahrrad
+888,29,26,34,Feiertag
+981,32,29,13,Feiertag
+1084,36,32,2,Feiertag
+1259,40,36,36,Feiertag
+1339,43,39,2,Feiertag
+1410,44,40,35,Feiertag
+273,10,9,25,Flüchtling
+515,20,17,3,Flüchtling
+570,22,18,20,Flüchtling
+613,21,19,25,Flüchtling
+677,24,21,13,Flüchtling
+887,29,26,33,Flüchtling
+973,32,29,5,Flüchtling
+984,32,29,16,Flüchtling
+1012,34,30,6,Flüchtling
+1039,34,30,33,Flüchtling
+1054,33,31,10,Flüchtling
+1100,36,32,18,Flüchtling
+1129,37,33,9,Flüchtling
+1186,39,35,1,Flüchtling
+1220,39,35,35,Flüchtling
+1226,40,36,3,Flüchtling
+1237,40,36,14,Flüchtling
+1265,41,37,4,Flüchtling
+1288,41,37,27,Flüchtling
+1306,42,38,7,Flüchtling
+1368,43,39,31,Flüchtling
+1431,45,41,18,Flüchtling
+1484,46,42,33,Flüchtling
+400,17,14,2,Flüchtlingsaufnahme
+465,18,15,29,Flüchtlingsaufnahme
+630,23,20,4,Flüchtlingsaufnahme
+906,30,27,14,Flüchtlingsaufnahme
+933,31,28,3,Flüchtlingsaufnahme
+957,31,28,27,Flüchtlingsaufnahme
+1075,33,31,31,Flüchtlingsaufnahme
+1113,36,32,31,Flüchtlingsaufnahme
+1152,38,34,5,Flüchtlingsaufnahme
+1282,41,37,21,Flüchtlingsaufnahme
+1300,42,38,1,Flüchtlingsaufnahme
+1393,44,40,18,Flüchtlingsaufnahme
+1453,46,42,2,Flüchtlingsaufnahme
+15,1,0,15,Flughafen
+113,6,4,13,Flughafen
+132,7,5,3,Flughafen
+219,9,8,1,Flughafen
+229,9,8,11,Flughafen
+248,10,9,0,Flughafen
+307,12,10,29,Flughafen
+505,19,16,31,Flughafen
+564,22,18,14,Flughafen
+635,23,20,9,Flughafen
+889,29,26,35,Flughafen
+1007,34,30,1,Flughafen
+1046,33,31,2,Flughafen
+1072,33,31,28,Flughafen
+1293,41,37,32,Flughafen
+1302,42,38,3,Flughafen
+1349,43,39,12,Flughafen
+188,11,7,0,Flussvertiefung
+370,15,13,2,Flussvertiefung
+533,20,17,21,Flussvertiefung
+631,23,20,5,Flussvertiefung
+848,28,25,32,Flussvertiefung
+1086,36,32,4,Flussvertiefung
+1147,38,34,0,Flussvertiefung
+1201,39,35,16,Flussvertiefung
+1415,45,41,2,Flussvertiefung
+296,12,10,18,Frauenquote
+447,18,15,11,Frauenquote
+491,19,16,17,Frauenquote
+556,22,18,6,Frauenquote
+617,21,19,29,Frauenquote
+628,23,20,2,Frauenquote
+694,24,21,30,Frauenquote
+710,25,22,8,Frauenquote
+751,26,23,11,Frauenquote
+804,27,24,26,Frauenquote
+820,28,25,4,Frauenquote
+867,29,26,13,Frauenquote
+911,30,27,19,Frauenquote
+942,31,28,12,Frauenquote
+1010,34,30,4,Frauenquote
+1069,33,31,25,Frauenquote
+1111,36,32,29,Frauenquote
+1166,38,34,19,Frauenquote
+1228,40,36,5,Frauenquote
+1285,41,37,24,Frauenquote
+1355,43,39,18,Frauenquote
+1397,44,40,22,Frauenquote
+1475,46,42,24,Frauenquote
+49,3,1,29,Friedenspolitik
+421,17,14,23,Friedenspolitik
+446,18,15,10,Friedenspolitik
+902,30,27,10,Friedenspolitik
+1141,37,33,21,Friedenspolitik
+4,1,0,4,G8
+59,4,2,9,G8
+255,10,9,7,G8
+494,19,16,20,G8
+522,20,17,10,G8
+609,21,19,21,G8
+719,25,22,17,G8
+1345,43,39,8,G8
+1403,44,40,28,G8
+1413,45,41,0,G8
+57,4,2,7,Ganztagsschule
+87,5,3,14,Ganztagsschule
+200,11,7,12,Ganztagsschule
+281,12,10,3,Ganztagsschule
+322,13,11,14,Ganztagsschule
+1135,37,33,15,Ganztagsschule
+1485,46,42,34,Ganztagsschule
+123,6,4,23,Gebietsreform
+202,11,7,14,Gebietsreform
+218,9,8,0,Gebietsreform
+353,14,12,15,Gebietsreform
+382,15,13,14,Gebietsreform
+549,20,17,37,Gebietsreform
+632,23,20,6,Gebietsreform
+727,25,22,25,Gebietsreform
+1029,34,30,23,Gebietsreform
+1060,33,31,16,Gebietsreform
+1102,36,32,20,Gebietsreform
+1184,38,34,37,Gebietsreform
+1271,41,37,10,Gebietsreform
+1351,43,39,14,Gebietsreform
+1379,44,40,4,Gebietsreform
+13,1,0,13,Gemeinsamer Unterricht
+576,22,18,26,Gemeinsamer Unterricht
+596,21,19,8,Gemeinsamer Unterricht
+690,24,21,26,Gemeinsamer Unterricht
+749,26,23,9,Gemeinsamer Unterricht
+847,28,25,31,Gemeinsamer Unterricht
+860,29,26,6,Gemeinsamer Unterricht
+900,30,27,8,Gemeinsamer Unterricht
+987,32,29,19,Gemeinsamer Unterricht
+1093,36,32,11,Gemeinsamer Unterricht
+1164,38,34,17,Gemeinsamer Unterricht
+1258,40,36,35,Gemeinsamer Unterricht
+40,3,1,20,Gentechnik
+70,4,2,20,Gentechnik
+82,5,3,9,Gentechnik
+134,7,5,5,Gentechnik
+196,11,7,8,Gentechnik
+220,9,8,2,Gentechnik
+250,10,9,2,Gentechnik
+348,14,12,10,Gentechnik
+398,17,14,0,Gentechnik
+423,17,14,25,Gentechnik
+433,17,14,35,Gentechnik
+461,18,15,25,Gentechnik
+486,19,16,12,Gentechnik
+565,22,18,15,Gentechnik
+601,21,19,13,Gentechnik
+794,27,24,16,Gentechnik
+932,31,28,2,Gentechnik
+972,32,29,4,Gentechnik
+1123,37,33,3,Gentechnik
+1189,39,35,4,Gentechnik
+1278,41,37,17,Gentechnik
+359,14,12,21,Gesundheit
+403,17,14,5,Gesundheit
+407,17,14,9,Gesundheit
+466,18,15,30,Gesundheit
+800,27,24,22,Gesundheit
+829,28,25,13,Gesundheit
+904,30,27,12,Gesundheit
+963,31,28,33,Gesundheit
+1212,39,35,27,Gesundheit
+1465,46,42,14,Gesundheit
+8,1,0,8,Gewerbesteuer
+51,4,2,1,Gewerbesteuer
+197,11,7,9,Gewerbesteuer
+226,9,8,8,Gewerbesteuer
+287,12,10,9,Gewerbesteuer
+420,17,14,22,Gewerbesteuer
+448,18,15,12,Gewerbesteuer
+488,19,16,14,Gewerbesteuer
+519,20,17,7,Gewerbesteuer
+561,22,18,11,Gewerbesteuer
+607,21,19,19,Gewerbesteuer
+634,23,20,8,Gewerbesteuer
+753,26,23,13,Gewerbesteuer
+845,28,25,29,Gewerbesteuer
+953,31,28,23,Gewerbesteuer
+975,32,29,7,Gewerbesteuer
+1114,36,32,32,Gewerbesteuer
+1172,38,34,25,Gewerbesteuer
+988,32,29,20,Gigaliner
+1153,38,34,6,Gigaliner
+1269,41,37,8,Gigaliner
+96,5,3,23,Graffiti
+120,6,4,20,Graffiti
+252,10,9,4,Graffiti
+280,12,10,2,Graffiti
+45,3,1,25,Grenzkontrollen
+910,30,27,18,Grenzkontrollen
+965,31,28,35,Grenzkontrollen
+1002,32,29,34,Grenzkontrollen
+1077,33,31,33,Grenzkontrollen
+674,24,21,10,Grunderwerbssteuer
+797,27,24,19,Grunderwerbssteuer
+1025,34,30,19,Grunderwerbssteuer
+1070,33,31,26,Grunderwerbssteuer
+1250,40,36,27,Grunderwerbssteuer
+1323,42,38,24,Grunderwerbssteuer
+1347,43,39,10,Grunderwerbssteuer
+1388,44,40,13,Grunderwerbssteuer
+1425,45,41,12,Grunderwerbssteuer
+1480,46,42,29,Grunderwerbssteuer
+0,1,0,0,Grundschuldauer
+60,4,2,10,Grundschuldauer
+89,5,3,16,Grundschuldauer
+191,11,7,3,Grundschuldauer
+242,9,8,24,Grundschuldauer
+526,20,17,14,Grundschuldauer
+603,21,19,15,Grundschuldauer
+676,24,21,12,Grundschuldauer
+712,25,22,10,Grundschuldauer
+839,28,25,23,Grundschuldauer
+969,32,29,1,Grundschuldauer
+1137,37,33,17,Grundschuldauer
+86,5,3,13,Grundschule
+144,7,5,15,Grundschule
+686,24,21,22,Grundschule
+1194,39,35,9,Grundschule
+1267,41,37,6,Grundschule
+1338,43,39,1,Grundschule
+502,19,16,28,Hartz IV-Sanktionen
+619,21,19,31,Hartz IV-Sanktionen
+645,23,20,19,Hartz IV-Sanktionen
+697,24,21,33,Hartz IV-Sanktionen
+724,25,22,22,Hartz IV-Sanktionen
+746,26,23,6,Hartz IV-Sanktionen
+786,27,24,8,Hartz IV-Sanktionen
+826,28,25,10,Hartz IV-Sanktionen
+920,30,27,28,Hartz IV-Sanktionen
+1000,32,29,32,Hartz IV-Sanktionen
+1015,34,30,9,Hartz IV-Sanktionen
+1094,36,32,12,Hartz IV-Sanktionen
+1163,38,34,16,Hartz IV-Sanktionen
+1197,39,35,12,Hartz IV-Sanktionen
+1256,40,36,33,Hartz IV-Sanktionen
+1286,41,37,25,Hartz IV-Sanktionen
+1334,42,38,35,Hartz IV-Sanktionen
+1446,45,41,33,Hartz IV-Sanktionen
+730,25,22,28,Inklusion
+808,27,24,30,Inklusion
+1110,36,32,28,Inklusion
+1210,39,35,25,Inklusion
+1245,40,36,22,Inklusion
+1303,42,38,4,Inklusion
+1362,43,39,25,Inklusion
+1444,45,41,31,Inklusion
+103,6,4,3,Jugendarbeit
+350,14,12,12,Jugendarbeit
+661,23,20,35,Jugendarbeit
+19,1,0,19,Jugendbeirat
+143,7,5,14,Jugendbeirat
+1360,43,39,23,Jugendbeirat
+1423,45,41,10,Jugendbeirat
+149,7,5,20,Jugendschutz
+192,11,7,4,Jugendschutz
+269,10,9,21,Jugendschutz
+276,10,9,28,Jugendschutz
+324,13,11,16,Jugendschutz
+344,14,12,6,Jugendschutz
+118,6,4,18,Jugendstrafrecht
+325,13,11,17,Jugendstrafrecht
+332,13,11,24,Jugendstrafrecht
+394,15,13,26,Jugendstrafrecht
+504,19,16,30,Jugendstrafrecht
+544,20,17,32,Jugendstrafrecht
+673,24,21,9,Jugendstrafrecht
+756,26,23,16,Jugendstrafrecht
+821,28,25,5,Jugendstrafrecht
+1477,46,42,26,Jugendstrafrecht
+104,6,4,4,KiTa
+214,11,7,26,KiTa
+216,11,7,28,KiTa
+302,12,10,24,KiTa
+315,13,11,7,KiTa
+1179,38,34,32,KiTa
+91,5,3,18,KiTa-Gebühren
+142,7,5,13,KiTa-Gebühren
+358,14,12,20,KiTa-Gebühren
+373,15,13,5,KiTa-Gebühren
+513,20,17,1,KiTa-Gebühren
+741,26,23,1,KiTa-Gebühren
+1019,34,30,13,KiTa-Gebühren
+1067,33,31,23,KiTa-Gebühren
+1101,36,32,19,KiTa-Gebühren
+1263,41,37,2,KiTa-Gebühren
+1319,42,38,20,KiTa-Gebühren
+1367,43,39,30,KiTa-Gebühren
+1416,45,41,3,KiTa-Gebühren
+50,4,2,0,Kohle
+130,7,5,1,Kohle
+171,8,6,13,Kohle
+211,11,7,23,Kohle
+309,13,11,1,Kohle
+366,14,12,28,Kohle
+384,15,13,16,Kohle
+511,19,16,37,Kohle
+815,27,24,37,Kohle
+841,28,25,25,Kohle
+903,30,27,11,Kohle
+968,32,29,0,Kohle
+1079,33,31,35,Kohle
+1187,39,35,2,Kohle
+1372,43,39,35,Kohle
+1418,45,41,5,Kohle
+1470,46,42,19,Kohle
+36,3,1,16,kommunale Grundversorgung
+327,13,11,19,kommunale Grundversorgung
+385,15,13,17,kommunale Grundversorgung
+499,19,16,25,kommunale Grundversorgung
+529,20,17,17,kommunale Grundversorgung
+586,22,18,36,kommunale Grundversorgung
+616,21,19,28,kommunale Grundversorgung
+696,24,21,32,kommunale Grundversorgung
+733,25,22,31,kommunale Grundversorgung
+759,26,23,19,kommunale Grundversorgung
+791,27,24,13,kommunale Grundversorgung
+827,28,25,11,kommunale Grundversorgung
+1062,33,31,18,kommunale Grundversorgung
+1364,43,39,27,kommunale Grundversorgung
+176,8,6,18,Kooperationsverbot
+464,18,15,28,Kooperationsverbot
+1136,37,33,16,Kooperationsverbot
+2,1,0,2,Kopfnote
+61,4,2,11,Kopfnote
+282,12,10,4,Kopfnote
+479,19,16,5,Kopfnote
+1155,38,34,8,Kopfnote
+106,6,4,6,Kopftuch
+153,7,5,24,Kopftuch
+241,9,8,23,Kopftuch
+1276,41,37,15,Kopftuch
+295,12,10,17,Krankenhaus-Privatisierung
+386,15,13,18,Krankenhaus-Privatisierung
+500,19,16,26,Krankenhaus-Privatisierung
+545,20,17,33,Krankenhaus-Privatisierung
+595,21,19,7,Krankenhaus-Privatisierung
+736,25,22,34,Krankenhaus-Privatisierung
+769,26,23,29,Krankenhaus-Privatisierung
+873,29,26,19,Krankenhaus-Privatisierung
+1107,36,32,25,Krankenhaus-Privatisierung
+1207,39,35,22,Krankenhaus-Privatisierung
+1266,41,37,5,Krankenhaus-Privatisierung
+101,6,4,1,Krankenversicherung
+167,8,6,9,Krankenversicherung
+571,22,18,21,Krankenversicherung
+637,23,20,11,Krankenversicherung
+838,28,25,22,Krankenversicherung
+922,30,27,30,Krankenversicherung
+1133,37,33,13,Krankenversicherung
+1478,46,42,27,Krankenversicherung
+53,4,2,3,Kultur
+80,5,3,7,Kultur
+304,12,10,26,Kultur
+395,15,13,27,Kultur
+639,23,20,13,Kultur
+663,23,20,37,Kultur
+711,25,22,9,Kultur
+764,26,23,24,Kultur
+1305,42,38,6,Kultur
+483,19,16,9,Kulturaustausch
+532,20,17,20,Kulturaustausch
+560,22,18,10,Kulturaustausch
+600,21,19,12,Kulturaustausch
+633,23,20,7,Kulturaustausch
+671,24,21,7,Kulturaustausch
+784,27,24,6,Kulturaustausch
+840,28,25,24,Kulturaustausch
+885,29,26,31,Kulturaustausch
+995,32,29,27,Kulturaustausch
+1071,33,31,27,Kulturaustausch
+1089,36,32,7,Kulturaustausch
+1235,40,36,12,Kulturaustausch
+1255,40,36,32,Kulturaustausch
+1340,43,39,3,Kulturaustausch
+1439,45,41,26,Kulturaustausch
+75,5,3,2,Kündigungsschutz
+159,8,6,1,Kündigungsschutz
+259,10,9,11,Kündigungsschutz
+336,13,11,28,Kündigungsschutz
+425,17,14,27,Kündigungsschutz
+452,18,15,16,Kündigungsschutz
+1130,37,33,10,Kündigungsschutz
+77,5,3,4,Ladenöffnungszeit
+117,6,4,17,Ladenöffnungszeit
+138,7,5,9,Ladenöffnungszeit
+217,11,7,29,Ladenöffnungszeit
+278,12,10,0,Ladenöffnungszeit
+339,14,12,1,Ladenöffnungszeit
+377,15,13,9,Ladenöffnungszeit
+474,19,16,0,Ladenöffnungszeit
+528,20,17,16,Ladenöffnungszeit
+550,22,18,0,Ladenöffnungszeit
+625,21,19,37,Ladenöffnungszeit
+651,23,20,25,Ladenöffnungszeit
+702,25,22,0,Ladenöffnungszeit
+781,27,24,3,Ladenöffnungszeit
+818,28,25,2,Ladenöffnungszeit
+854,29,26,0,Ladenöffnungszeit
+1027,34,30,21,Ladenöffnungszeit
+1035,34,30,29,Ladenöffnungszeit
+1122,37,33,2,Ladenöffnungszeit
+1149,38,34,2,Ladenöffnungszeit
+1301,42,38,2,Ladenöffnungszeit
+1337,43,39,0,Ladenöffnungszeit
+1406,44,40,31,Ladenöffnungszeit
+1414,45,41,1,Ladenöffnungszeit
+761,26,23,21,Landarzt
+1047,33,31,3,Landarzt
+1236,40,36,13,Landarzt
+1383,44,40,8,Landarzt
+512,20,17,0,LANDESSPEZIFISCH
+551,22,18,1,LANDESSPEZIFISCH
+672,24,21,8,LANDESSPEZIFISCH
+682,24,21,18,LANDESSPEZIFISCH
+704,25,22,2,LANDESSPEZIFISCH
+1014,34,30,8,LANDESSPEZIFISCH
+1298,41,37,37,LANDESSPEZIFISCH
+1336,42,38,37,LANDESSPEZIFISCH
+1370,43,39,33,LANDESSPEZIFISCH
+1387,44,40,12,LANDESSPEZIFISCH
+1411,44,40,36,LANDESSPEZIFISCH
+1412,44,40,37,LANDESSPEZIFISCH
+734,25,22,32,Leiharbeit
+1058,33,31,14,Leiharbeit
+1218,39,35,33,Leiharbeit
+1249,40,36,26,Leiharbeit
+1471,46,42,20,Leiharbeit
+266,10,9,18,Letztes Kindergartenjahr
+316,13,11,8,Letztes Kindergartenjahr
+575,22,18,25,Letztes Kindergartenjahr
+612,21,19,24,Letztes Kindergartenjahr
+636,23,20,10,Letztes Kindergartenjahr
+670,24,21,6,Letztes Kindergartenjahr
+706,25,22,4,Letztes Kindergartenjahr
+798,27,24,20,Letztes Kindergartenjahr
+884,29,26,30,Letztes Kindergartenjahr
+992,32,29,24,Letztes Kindergartenjahr
+1200,39,35,15,Letztes Kindergartenjahr
+1234,40,36,11,Letztes Kindergartenjahr
+401,17,14,3,Managergehälter
+440,18,15,4,Managergehälter
+966,31,28,36,Managergehälter
+857,29,26,3,Mietpreisbremse
+926,30,27,34,Mietpreisbremse
+990,32,29,22,Mietpreisbremse
+1092,36,32,10,Mietpreisbremse
+1246,40,36,23,Mietpreisbremse
+1277,41,37,16,Mietpreisbremse
+1299,42,38,0,Mietpreisbremse
+1307,42,38,8,Mietpreisbremse
+1396,44,40,21,Mietpreisbremse
+1429,45,41,16,Mietpreisbremse
+1024,34,30,18,Militärische Forschung
+1091,36,32,9,Militärische Forschung
+1174,38,34,27,Militärische Forschung
+1239,40,36,16,Militärische Forschung
+1330,42,38,31,Militärische Forschung
+1407,44,40,32,Militärische Forschung
+33,3,1,13,Mindestlohn
+78,5,3,5,Mindestlohn
+115,6,4,15,Mindestlohn
+135,7,5,6,Mindestlohn
+164,8,6,6,Mindestlohn
+213,11,7,25,Mindestlohn
+238,9,8,20,Mindestlohn
+326,13,11,18,Mindestlohn
+371,15,13,3,Mindestlohn
+430,17,14,32,Mindestlohn
+437,18,15,1,Mindestlohn
+490,19,16,16,Mindestlohn
+535,20,17,23,Mindestlohn
+558,22,18,8,Mindestlohn
+562,22,18,12,Mindestlohn
+599,21,19,11,Mindestlohn
+691,24,21,27,Mindestlohn
+743,26,23,3,Mindestlohn
+811,27,24,33,Mindestlohn
+832,28,25,16,Mindestlohn
+892,30,27,0,Mindestlohn
+934,31,28,4,Mindestlohn
+1320,42,38,21,Mindestlohn
+1381,44,40,6,Mindestlohn
+1422,45,41,9,Mindestlohn
+744,26,23,4,Moral
+937,31,28,7,Moral
+954,31,28,24,Moral
+1125,37,33,5,Moral
+1371,43,39,34,Moral
+507,19,16,33,Moschee
+536,20,17,24,Moschee
+557,22,18,7,Moschee
+593,21,19,5,Moschee
+654,23,20,28,Moschee
+732,25,22,30,Moschee
+790,27,24,12,Moschee
+863,29,26,9,Moschee
+978,32,29,10,Moschee
+1321,42,38,22,Moschee
+72,4,2,22,Müll
+83,5,3,10,Müll
+166,8,6,8,Müll
+311,13,11,3,Müll
+666,24,21,2,Müll
+1106,36,32,24,Müll
+1,1,0,1,Noten
+88,5,3,15,Noten
+321,13,11,13,Noten
+343,14,12,5,Noten
+517,20,17,5,Noten
+1312,42,38,13,Noten
+1375,44,40,0,Noten
+569,22,18,19,Öffentlich-Rechtlicher Rundfunk
+605,21,19,17,Öffentlich-Rechtlicher Rundfunk
+788,27,24,10,Öffentlich-Rechtlicher Rundfunk
+977,32,29,9,Öffentlich-Rechtlicher Rundfunk
+201,11,7,13,Öffentlicher Dienst
+260,10,9,12,Öffentlicher Dienst
+718,25,22,16,Öffentlicher Dienst
+1405,44,40,30,Öffentlicher Dienst
+133,7,5,4,Ökologische Landwirtschaft
+215,11,7,27,Ökologische Landwirtschaft
+236,9,8,18,Ökologische Landwirtschaft
+457,18,15,21,Ökologische Landwirtschaft
+725,25,22,23,Ökologische Landwirtschaft
+755,26,23,15,Ökologische Landwirtschaft
+858,29,26,4,Ökologische Landwirtschaft
+899,30,27,7,Ökologische Landwirtschaft
+936,31,28,6,Ökologische Landwirtschaft
+994,32,29,26,Ökologische Landwirtschaft
+1065,33,31,21,Ökologische Landwirtschaft
+1227,40,36,4,Ökologische Landwirtschaft
+1261,41,37,0,Ökologische Landwirtschaft
+1366,43,39,29,Ökologische Landwirtschaft
+1377,44,40,2,Ökologische Landwirtschaft
+1424,45,41,11,Ökologische Landwirtschaft
+1462,46,42,11,Ökologische Landwirtschaft
+1469,46,42,18,Ökologische Landwirtschaft
+866,29,26,12,Olympia
+1081,33,31,37,Olympia
+1082,36,32,0,Olympia
+293,12,10,15,ÖPNV
+514,20,17,2,ÖPNV
+767,26,23,27,ÖPNV
+982,32,29,14,ÖPNV
+1083,36,32,1,ÖPNV
+1119,36,32,37,ÖPNV
+1161,38,34,14,ÖPNV
+1335,42,38,36,ÖPNV
+709,25,22,7,Parteiverbot
+768,26,23,28,Parteiverbot
+796,27,24,18,Parteiverbot
+908,30,27,16,Parteiverbot
+1018,34,30,12,Parteiverbot
+675,24,21,11,Politischer Extremismus
+698,24,21,34,Politischer Extremismus
+868,29,26,14,Politischer Extremismus
+1042,34,30,36,Politischer Extremismus
+1059,33,31,15,Politischer Extremismus
+1156,38,34,9,Politischer Extremismus
+1215,39,35,30,Politischer Extremismus
+1467,46,42,16,Politischer Extremismus
+43,3,1,23,Polizei
+46,3,1,26,Polizei
+305,12,10,27,Polizei
+318,13,11,10,Polizei
+503,19,16,29,Polizei
+650,23,20,24,Polizei
+1026,34,30,20,Polizei
+1045,33,31,1,Polizei
+1109,36,32,27,Polizei
+1162,38,34,15,Polizei
+1304,42,38,5,Polizei
+1314,42,38,15,Polizei
+1442,45,41,29,Polizei
+94,5,3,21,Polizeieinsatz-Kosten
+155,7,5,26,Polizeieinsatz-Kosten
+317,13,11,9,Polizeieinsatz-Kosten
+542,20,17,30,Polizeieinsatz-Kosten
+618,21,19,30,Polizeieinsatz-Kosten
+846,28,25,30,Polizeieinsatz-Kosten
+999,32,29,31,Polizeieinsatz-Kosten
+1088,36,32,6,Polizeieinsatz-Kosten
+1148,38,34,1,Polizeieinsatz-Kosten
+1203,39,35,18,Polizeieinsatz-Kosten
+1253,40,36,30,Polizeieinsatz-Kosten
+1274,41,37,13,Polizeieinsatz-Kosten
+1421,45,41,8,Polizeieinsatz-Kosten
+299,12,10,21,Polizisten-Kennzeichnung
+581,22,18,31,Polizisten-Kennzeichnung
+606,21,19,18,Polizisten-Kennzeichnung
+687,24,21,23,Polizisten-Kennzeichnung
+793,27,24,15,Polizisten-Kennzeichnung
+882,29,26,28,Polizisten-Kennzeichnung
+1199,39,35,14,Polizisten-Kennzeichnung
+1257,40,36,34,Polizisten-Kennzeichnung
+1268,41,37,7,Polizisten-Kennzeichnung
+1409,44,40,34,Polizisten-Kennzeichnung
+81,5,3,8,Privatisierung
+152,7,5,23,Privatisierung
+279,12,10,1,Privatisierung
+288,12,10,10,Privatisierung
+340,14,12,2,Privatisierung
+355,14,12,17,Privatisierung
+379,15,13,11,Privatisierung
+459,18,15,23,Privatisierung
+484,19,16,10,Privatisierung
+658,23,20,32,Privatisierung
+664,24,21,0,Privatisierung
+1052,33,31,8,Privatisierung
+1150,38,34,3,Privatisierung
+1433,45,41,20,Privatisierung
+208,11,7,20,Privatschule
+300,12,10,22,Privatschule
+508,19,16,34,Privatschule
+1040,34,30,34,Privatschule
+1076,33,31,32,Privatschule
+1168,38,34,21,Privatschule
+251,10,9,3,Projekt
+849,28,25,33,Projekt
+1009,34,30,3,Projekt
+1095,36,32,13,Projekt
+1160,38,34,13,Projekt
+501,19,16,27,Projekte gegen Rechtsextremismus
+548,20,17,36,Projekte gegen Rechtsextremismus
+585,22,18,35,Projekte gegen Rechtsextremismus
+608,21,19,20,Projekte gegen Rechtsextremismus
+659,23,20,33,Projekte gegen Rechtsextremismus
+685,24,21,21,Projekte gegen Rechtsextremismus
+738,25,22,36,Projekte gegen Rechtsextremismus
+775,26,23,35,Projekte gegen Rechtsextremismus
+814,27,24,36,Projekte gegen Rechtsextremismus
+824,28,25,8,Projekte gegen Rechtsextremismus
+949,31,28,19,Projekte gegen Rechtsextremismus
+989,32,29,21,Projekte gegen Rechtsextremismus
+1031,34,30,25,Projekte gegen Rechtsextremismus
+1105,36,32,23,Projekte gegen Rechtsextremismus
+1178,38,34,31,Projekte gegen Rechtsextremismus
+1188,39,35,3,Projekte gegen Rechtsextremismus
+1247,40,36,24,Projekte gegen Rechtsextremismus
+1292,41,37,31,Projekte gegen Rechtsextremismus
+1328,42,38,29,Projekte gegen Rechtsextremismus
+1363,43,39,26,Projekte gegen Rechtsextremismus
+1426,45,41,13,Projekte gegen Rechtsextremismus
+1479,46,42,28,Projekte gegen Rechtsextremismus
+234,9,8,16,Rauchverbot
+298,12,10,20,Rauchverbot
+376,15,13,8,Rauchverbot
+435,17,14,37,Rauchverbot
+476,19,16,2,Rauchverbot
+516,20,17,4,Rauchverbot
+579,22,18,29,Rauchverbot
+615,21,19,27,Rauchverbot
+715,25,22,13,Rauchverbot
+778,27,24,0,Rauchverbot
+1008,34,30,2,Rauchverbot
+1448,45,41,35,Rauchverbot
+320,13,11,12,Religionsfreiheit
+602,21,19,14,Religionsfreiheit
+844,28,25,28,Religionsfreiheit
+890,29,26,36,Religionsfreiheit
+921,30,27,29,Religionsfreiheit
+991,32,29,23,Religionsfreiheit
+1354,43,39,17,Religionsfreiheit
+1486,46,42,35,Religionsfreiheit
+291,12,10,13,Religionsunterricht
+493,19,16,19,Religionsunterricht
+563,22,18,13,Religionsunterricht
+580,22,18,30,Religionsunterricht
+638,23,20,12,Religionsunterricht
+695,24,21,31,Religionsunterricht
+714,25,22,12,Religionsunterricht
+754,26,23,14,Religionsunterricht
+787,27,24,9,Religionsunterricht
+828,28,25,12,Religionsunterricht
+997,32,29,29,Religionsunterricht
+1213,39,35,28,Religionsunterricht
+1251,40,36,28,Religionsunterricht
+1279,41,37,18,Religionsunterricht
+1365,43,39,28,Religionsunterricht
+16,1,0,16,Rente
+227,9,8,9,Rente
+467,18,15,31,Rente
+708,25,22,6,Rente
+886,29,26,32,Rente
+913,30,27,21,Rente
+1473,46,42,22,Rente
+102,6,4,2,REST
+244,9,8,26,REST
+438,18,15,2,REST
+1185,39,35,0,REST
+1392,44,40,17,REST
+1408,44,40,33,REST
+1436,45,41,23,REST
+468,18,15,32,Rüstung
+640,23,20,14,Rüstung
+915,30,27,23,Rüstung
+1144,37,33,24,Rüstung
+1460,46,42,9,Rüstung
+1481,46,42,30,Rüstung
+62,4,2,12,Schulabschluss
+90,5,3,17,Schulabschluss
+107,6,4,7,Schulabschluss
+224,9,8,6,Schulabschluss
+233,9,8,15,Schulabschluss
+559,22,18,9,Schulabschluss
+642,23,20,16,Schulabschluss
+1073,33,31,29,Schulabschluss
+1291,41,37,30,Schulabschluss
+393,15,13,25,Schulbücher
+795,27,24,17,Schulbücher
+843,28,25,27,Schulbücher
+79,5,3,6,Schuldenbremse
+349,14,12,11,Schuldenbremse
+389,15,13,21,Schuldenbremse
+495,19,16,21,Schuldenbremse
+597,21,19,9,Schuldenbremse
+649,23,20,23,Schuldenbremse
+713,25,22,11,Schuldenbremse
+776,26,23,36,Schuldenbremse
+782,27,24,4,Schuldenbremse
+831,28,25,15,Schuldenbremse
+855,29,26,1,Schuldenbremse
+1209,39,35,24,Schuldenbremse
+1229,40,36,6,Schuldenbremse
+1284,41,37,23,Schuldenbremse
+543,20,17,31,Schuldentilgung
+986,32,29,18,Schuldentilgung
+1036,34,30,30,Schuldentilgung
+1090,36,32,8,Schuldentilgung
+1138,37,33,18,Schuldentilgung
+1182,38,34,35,Schuldentilgung
+1404,44,40,29,Schuldentilgung
+1468,46,42,17,Schuldentilgung
+39,3,1,19,Schule
+85,5,3,12,Schule
+108,6,4,8,Schule
+148,7,5,19,Schule
+199,11,7,11,Schule
+333,13,11,25,Schule
+360,14,12,22,Schule
+745,26,23,5,Schule
+758,26,23,18,Schule
+1358,43,39,21,Schule
+1386,44,40,11,Schule
+264,10,9,16,Schülerticket
+737,25,22,35,Schülerticket
+772,26,23,32,Schülerticket
+976,32,29,8,Schülerticket
+1248,40,36,25,Schülerticket
+361,14,12,23,Schulessen
+774,26,23,34,Schulessen
+1028,34,30,22,Schulessen
+1050,33,31,6,Schulessen
+1308,42,38,9,Schulessen
+58,4,2,8,Schulsystem-Gliederung
+105,6,4,5,Schulsystem-Gliederung
+109,6,4,9,Schulsystem-Gliederung
+223,9,8,5,Schulsystem-Gliederung
+240,9,8,22,Schulsystem-Gliederung
+265,10,9,17,Schulsystem-Gliederung
+303,12,10,25,Schulsystem-Gliederung
+313,13,11,5,Schulsystem-Gliederung
+342,14,12,4,Schulsystem-Gliederung
+375,15,13,7,Schulsystem-Gliederung
+469,18,15,33,Schulsystem-Gliederung
+475,19,16,1,Schulsystem-Gliederung
+552,22,18,2,Schulsystem-Gliederung
+589,21,19,1,Schulsystem-Gliederung
+627,23,20,1,Schulsystem-Gliederung
+770,26,23,30,Schulsystem-Gliederung
+779,27,24,1,Schulsystem-Gliederung
+869,29,26,15,Schulsystem-Gliederung
+1055,33,31,11,Schulsystem-Gliederung
+1177,38,34,30,Schulsystem-Gliederung
+1225,40,36,2,Schulsystem-Gliederung
+1295,41,37,34,Schulsystem-Gliederung
+1427,45,41,14,Schulsystem-Gliederung
+145,7,5,16,Sitzenbleiben
+283,12,10,5,Sitzenbleiben
+819,28,25,3,Sitzenbleiben
+979,32,29,11,Sitzenbleiben
+1006,34,30,0,Sitzenbleiben
+1085,36,32,3,Sitzenbleiben
+372,15,13,4,Sozialer Wohnungsbau
+688,24,21,24,Sozialer Wohnungsbau
+747,26,23,7,Sozialer Wohnungsbau
+1329,42,38,30,Sozialer Wohnungsbau
+1420,45,41,7,Sozialer Wohnungsbau
+1455,46,42,4,Sozialer Wohnungsbau
+301,12,10,23,Sozialpolitik
+323,13,11,15,Sozialpolitik
+334,13,11,26,Sozialpolitik
+765,26,23,25,Sozialpolitik
+1087,36,32,5,Sozialpolitik
+1175,38,34,28,Sozialpolitik
+1324,42,38,25,Sozialpolitik
+1428,45,41,15,Sozialpolitik
+331,13,11,23,Sozialticket
+387,15,13,19,Sozialticket
+780,27,24,2,Sozialticket
+1112,36,32,30,Sozialticket
+165,8,6,7,Spitzensteuer
+498,19,16,24,Spitzensteuer
+729,25,22,27,Spitzensteuer
+901,30,27,9,Spitzensteuer
+1139,37,33,19,Spitzensteuer
+174,8,6,16,Sprachtest
+207,11,7,19,Sprachtest
+239,9,8,21,Sprachtest
+257,10,9,9,Sprachtest
+297,12,10,19,Sprachtest
+312,13,11,4,Sprachtest
+374,15,13,6,Sprachtest
+443,18,15,7,Sprachtest
+553,22,18,3,Sprachtest
+693,24,21,29,Sprachtest
+415,17,14,17,Staatsrecht
+473,18,15,37,Staatsrecht
+862,29,26,8,Staatsrecht
+912,30,27,20,Staatsrecht
+927,30,27,35,Staatsrecht
+1472,46,42,21,Staatsrecht
+32,3,1,12,Steuer
+139,7,5,10,Steuer
+168,8,6,10,Steuer
+656,23,20,30,Steuer
+669,24,21,5,Steuer
+807,27,24,29,Steuer
+850,28,25,34,Steuer
+916,30,27,24,Steuer
+1192,39,35,7,Steuer
+1483,46,42,32,Steuer
+378,15,13,10,Steuerhinterziehung
+614,21,19,26,Steuerhinterziehung
+803,27,24,25,Steuerhinterziehung
+878,29,26,24,Steuerhinterziehung
+1419,45,41,6,Steuerhinterziehung
+3,1,0,3,Studiengebühren
+110,6,4,10,Studiengebühren
+147,7,5,18,Studiengebühren
+175,8,6,17,Studiengebühren
+206,11,7,18,Studiengebühren
+221,9,8,3,Studiengebühren
+253,10,9,5,Studiengebühren
+292,12,10,14,Studiengebühren
+310,13,11,2,Studiengebühren
+351,14,12,13,Studiengebühren
+369,15,13,1,Studiengebühren
+442,18,15,6,Studiengebühren
+480,19,16,6,Studiengebühren
+534,20,17,22,Studiengebühren
+582,22,18,32,Studiengebühren
+623,21,19,35,Studiengebühren
+722,25,22,20,Studiengebühren
+817,28,25,1,Studiengebühren
+996,32,29,28,Studiengebühren
+1204,39,35,19,Studiengebühren
+158,8,6,0,Tempolimit
+308,13,11,0,Tempolimit
+346,14,12,8,Tempolimit
+414,17,14,16,Tempolimit
+454,18,15,18,Tempolimit
+629,23,20,3,Tempolimit
+684,24,21,20,Tempolimit
+739,25,22,37,Tempolimit
+783,27,24,5,Tempolimit
+894,30,27,2,Tempolimit
+974,32,29,6,Tempolimit
+1044,33,31,0,Tempolimit
+1165,38,34,18,Tempolimit
+1459,46,42,8,Tempolimit
+140,7,5,11,Tiere
+271,10,9,23,Tiere
+444,18,15,8,Tiere
+853,28,25,37,Tiere
+1005,32,29,37,Tiere
+1057,33,31,13,Tiere
+1080,33,31,36,Tiere
+1117,36,32,35,Tiere
+1124,37,33,4,Tiere
+1158,38,34,11,Tiere
+1222,39,35,37,Tiere
+1385,44,40,10,Tiere
+1445,45,41,32,Tiere
+1033,34,30,27,Traditionelles Familienbild
+1171,38,34,24,Traditionelles Familienbild
+1230,40,36,7,Traditionelles Familienbild
+1316,42,38,17,Traditionelles Familienbild
+1391,44,40,16,Traditionelles Familienbild
+1437,45,41,24,Traditionelles Familienbild
+20,3,1,0,Türkei
+162,8,6,4,Türkei
+453,18,15,17,Türkei
+917,30,27,25,Türkei
+952,31,28,22,Türkei
+37,3,1,17,Umweltschutz
+127,6,4,27,Umweltschutz
+203,11,7,15,Umweltschutz
+246,9,8,28,Umweltschutz
+347,14,12,9,Umweltschutz
+540,20,17,28,Umweltschutz
+777,26,23,37,Umweltschutz
+835,28,25,19,Umweltschutz
+891,29,26,37,Umweltschutz
+947,31,28,17,Umweltschutz
+961,31,28,31,Umweltschutz
+1287,41,37,26,Umweltschutz
+1402,44,40,27,Umweltschutz
+1432,45,41,19,Umweltschutz
+537,20,17,25,Umweltzone
+647,23,20,21,Umweltzone
+689,24,21,25,Umweltzone
+1180,38,34,33,Umweltzone
+63,4,2,13,Universität
+232,9,8,14,Universität
+254,10,9,6,Universität
+363,14,12,25,Universität
+364,14,12,26,Universität
+390,15,13,22,Universität
+496,19,16,22,Universität
+567,22,18,17,Universität
+646,23,20,20,Universität
+681,24,21,17,Universität
+1078,33,31,34,Universität
+1190,39,35,5,Universität
+1280,41,37,19,Universität
+1322,42,38,23,Universität
+1352,43,39,15,Universität
+1369,43,39,32,Universität
+1435,45,41,22,Universität
+54,4,2,4,Verfassungsschutz
+620,21,19,32,Verfassungsschutz
+766,26,23,26,Verfassungsschutz
+809,27,24,31,Verfassungsschutz
+879,29,26,25,Verfassungsschutz
+983,32,29,15,Verfassungsschutz
+1021,34,30,15,Verfassungsschutz
+1051,33,31,7,Verfassungsschutz
+1183,38,34,36,Verfassungsschutz
+1211,39,35,26,Verfassungsschutz
+189,11,7,1,Verkehr
+272,10,9,24,Verkehr
+286,12,10,8,Verkehr
+380,15,13,12,Verkehr
+523,20,17,11,Verkehr
+592,21,19,4,Verkehr
+721,25,22,19,Verkehr
+928,30,27,36,Verkehr
+14,1,0,14,Verkehrsprojekt
+111,6,4,11,Verkehrsprojekt
+247,9,8,29,Verkehrsprojekt
+583,22,18,33,Verkehrsprojekt
+717,25,22,15,Verkehrsprojekt
+742,26,23,2,Verkehrsprojekt
+1262,41,37,1,Verkehrsprojekt
+1376,44,40,1,Verkehrsprojekt
+261,10,9,13,Vermögenssteuer
+463,18,15,27,Vermögenssteuer
+870,29,26,16,Vermögenssteuer
+1140,37,33,20,Vermögenssteuer
+1242,40,36,19,Vermögenssteuer
+1315,42,38,16,Vermögenssteuer
+1476,46,42,25,Vermögenssteuer
+55,4,2,5,Videoüberwachung
+93,5,3,20,Videoüberwachung
+119,6,4,19,Videoüberwachung
+156,7,5,27,Videoüberwachung
+182,8,6,24,Videoüberwachung
+194,11,7,6,Videoüberwachung
+235,9,8,17,Videoüberwachung
+267,10,9,19,Videoüberwachung
+357,14,12,19,Videoüberwachung
+396,15,13,28,Videoüberwachung
+555,22,18,5,Videoüberwachung
+622,21,19,34,Videoüberwachung
+692,24,21,28,Videoüberwachung
+752,26,23,12,Videoüberwachung
+859,29,26,5,Videoüberwachung
+897,30,27,5,Videoüberwachung
+971,32,29,3,Videoüberwachung
+1037,34,30,31,Videoüberwachung
+1066,33,31,22,Videoüberwachung
+1115,36,32,33,Videoüberwachung
+1154,38,34,7,Videoüberwachung
+1191,39,35,6,Videoüberwachung
+1244,40,36,21,Videoüberwachung
+1296,41,37,35,Videoüberwachung
+1344,43,39,7,Videoüberwachung
+1384,44,40,9,Videoüberwachung
+1447,45,41,34,Videoüberwachung
+1457,46,42,6,Videoüberwachung
+9,1,0,9,Wählen ab 16
+52,4,2,2,Wählen ab 16
+97,5,3,24,Wählen ab 16
+125,6,4,25,Wählen ab 16
+184,8,6,26,Wählen ab 16
+209,11,7,21,Wählen ab 16
+243,9,8,25,Wählen ab 16
+268,10,9,20,Wählen ab 16
+337,13,11,29,Wählen ab 16
+367,14,12,29,Wählen ab 16
+405,17,14,7,Wählen ab 16
+510,19,16,36,Wählen ab 16
+541,20,17,29,Wählen ab 16
+587,22,18,37,Wählen ab 16
+621,21,19,33,Wählen ab 16
+665,24,21,1,Wählen ab 16
+705,25,22,3,Wählen ab 16
+773,26,23,33,Wählen ab 16
+813,27,24,35,Wählen ab 16
+852,28,25,36,Wählen ab 16
+877,29,26,23,Wählen ab 16
+1001,32,29,33,Wählen ab 16
+1043,34,30,37,Wählen ab 16
+1127,37,33,7,Wählen ab 16
+1260,40,36,37,Wählen ab 16
+1333,42,38,34,Wählen ab 16
+1357,43,39,20,Wählen ab 16
+1440,45,41,27,Wählen ab 16
+124,6,4,24,Wahlrecht
+748,26,23,8,Wahlrecht
+1196,39,35,11,Wahlrecht
+1281,41,37,20,Wahlrecht
+1374,43,39,37,Wahlrecht
+1389,44,40,14,Wahlrecht
+275,10,9,27,Wahlrecht für Ausländer
+470,18,15,34,Wahlrecht für Ausländer
+487,19,16,13,Wahlrecht für Ausländer
+527,20,17,15,Wahlrecht für Ausländer
+573,22,18,23,Wahlrecht für Ausländer
+648,23,20,22,Wahlrecht für Ausländer
+699,24,21,35,Wahlrecht für Ausländer
+720,25,22,18,Wahlrecht für Ausländer
+806,27,24,28,Wahlrecht für Ausländer
+993,32,29,25,Wahlrecht für Ausländer
+1118,36,32,36,Wahlrecht für Ausländer
+1214,39,35,29,Wahlrecht für Ausländer
+1243,40,36,20,Wahlrecht für Ausländer
+1294,41,37,33,Wahlrecht für Ausländer
+1309,42,38,10,Wahlrecht für Ausländer
+1346,43,39,9,Wahlrecht für Ausländer
+1398,44,40,23,Wahlrecht für Ausländer
+181,8,6,23,Wehrpflicht
+460,18,15,24,Wehrpflicht
+1142,37,33,22,Wehrpflicht
+71,4,2,21,Windkraftanlagen
+84,5,3,11,Windkraftanlagen
+129,7,5,0,Windkraftanlagen
+204,11,7,16,Windkraftanlagen
+230,9,8,12,Windkraftanlagen
+740,26,23,0,Windkraftanlagen
+825,28,25,9,Windkraftanlagen
+1003,32,29,35,Windkraftanlagen
+1011,34,30,5,Windkraftanlagen
+1074,33,31,30,Windkraftanlagen
+1205,39,35,20,Windkraftanlagen
+1224,40,36,1,Windkraftanlagen
+1275,41,37,14,Windkraftanlagen
+1341,43,39,4,Windkraftanlagen
+1400,44,40,25,Windkraftanlagen
+1443,45,41,30,Windkraftanlagen
+31,3,1,11,Wirtschaft
+413,17,14,15,Wirtschaft
+1131,37,33,11,Wirtschaft
+1401,44,40,26,Wirtschaft
+157,7,5,28,Wirtschaft&Politik
+173,8,6,15,Wirtschaft&Politik
+509,19,16,35,Wirtschaft&Politik
+574,22,18,24,Wirtschaft&Politik
+611,21,19,23,Wirtschaft&Politik
+731,25,22,29,Wirtschaft&Politik
+805,27,24,27,Wirtschaft&Politik
+851,28,25,35,Wirtschaft&Politik
+918,30,27,26,Wirtschaft&Politik
+1231,40,36,8,Wirtschaft&Politik
+1394,44,40,19,Wirtschaft&Politik
