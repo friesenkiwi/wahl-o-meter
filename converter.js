@@ -37,9 +37,13 @@ function load_additional_data(allData, jahr, parliament, finalFunction) {
             var answerData = JSON.parse(response);
             loadJSON(path + "comment.json", function(response) {
               var commentData = JSON.parse(response);
+              var occasionID = 0;
+              if (allData[allData.length - 1] != undefined) {
+                occasionID = Number(allData[allData.length - 1].occasion.occasion_id) + 1
+              }
               var additionalData = {
                 "occasion": {
-                  "occasion_id": Number(allData[allData.length - 1].occasion.occasion_id) + 1,
+                  "occasion_id": occasionID,
                   "type": "Wahl-O-Mat",
                   "year": overviewData.date.substring(0, 4),
                   "parliament": parliament
@@ -359,6 +363,45 @@ function categorize_theses(mergedData, theses_categories) {
   categorizedData.categorized = categorized;
 
   return categorizedData;
+}
+
+function write_metadata(metaData) {
+  document.write("<table>");
+
+  for (var i = 0; i < metaData.occasions.length; i++) { //all WOMs
+    var matching=false;
+    if(metaData.occasions[i].year == metaData.additionalData[i].occasion.year &&
+    metaData.occasions[i].parliament == metaData.additionalData[i].occasion.parliament ){
+      matching=true;
+    }
+    document.write("<tr>");
+    document.write("<td>"+metaData.additionalData[i].occasion.extraData.title+"</td>");
+
+    document.write("<td>"+metaData.occasions[i].year+"</td>");
+    document.write("<td>"+metaData.occasions[i].parliament+"</td>");
+    document.write("<td>"+metaData.additionalData[i].occasion.extraData.date+"</td>");
+    document.write("<td>"+'<a target="_blank" href="https://www.wikidata.org/wiki/'+metaData.occasions[i].wikidata+'">'+metaData.occasions[i].wikidata+"</a></td>");
+
+    document.write("<td>"+metaData.additionalData[i].theses.length+"</td>");
+    document.write("<td>"+metaData.additionalData[i].partys.partys.length+"</td>");
+
+    document.write("<td>"+metaData.occasions[i].WOM_uses+"</td>");
+    document.write("<td>"+'<a target="_blank" href="'+metaData.additionalData[i].occasion.extraData.info+'">'+metaData.additionalData[i].occasion.extraData.info+"</a></td>");
+
+    document.write("<td>"+metaData.additionalData[i].occasion.type+"</td>");
+
+    document.write("<td>"+metaData.occasions[i].source+"</td>");
+    document.write("<td>"+metaData.additionalData[i].occasion.extraData.data_source+"</td>");
+
+    document.write("<td>"+metaData.additionalData[i].occasion.occasion_id+"</td>");
+    document.write("<td>"+i+"</td>");
+    document.write("<td>"+matching+"</td>");
+
+    document.write("</tr>");
+
+  }
+  document.write("<Ttable>");
+
 }
 
 function write_simple(reallyAllData) {
