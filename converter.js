@@ -164,7 +164,7 @@ function merge_positions(finalConvertedData) {
         text = text.replace(/&shy;/g, '');
         text = text.replace(/\n/g, '');
         finalConvertedData[i].theses[j].positions.push({
-          "value": finalConvertedData[i].positions.positions[j][x],
+          "value": Number(finalConvertedData[i].positions.positions[j][x]),
           "text": text,
           "party": partyShort
         });
