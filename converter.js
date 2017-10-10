@@ -21,6 +21,35 @@ function load_mergedData_json(path, finalFunction) {
   });
 }
 
+function load_data_by_occasionfile(occasionFile, finalFunction){
+  var allData=[];
+  loadJSON(occasionFile, function(response) {
+    var occasions = JSON.parse(response);
+    var usedFinalFunction=undefined;
+    for(var i=0;i<occasions.length;i++){
+
+      if(occasions[i].source=="additional"){
+        if(i==occasions.length-1){
+          usedFinalFunction=finalFunction;
+        }
+        load_additional_data(allData, occasions[i].year, occasions[i].parliament, usedFinalFunction);
+      } else if (occasions[i].source=="raw_simple") {
+        load_raw_data(allData, occasions[i].year, occasions[i].parliament, usedFinalFunction);
+
+      }
+    }
+  });
+}
+
+function load_raw_data(collectedData, jahr, parliament, finalFunction){
+  var path = "data/wahlomat_" + jahr + "_" + parliament + "/";
+  loadJSON(path + "module_definition.js", function(response) {
+    eval(response);
+    collectedData = wahlomat_collect(jahr, parliament, collectedData);
+
+  });
+}
+
 function load_additional_data(allData, jahr, parliament, finalFunction) {
   var folder = parliament.replace("-", "");
   var path = "data/additional/" + jahr + "/" + folder + "/";
