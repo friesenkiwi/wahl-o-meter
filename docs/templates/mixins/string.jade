@@ -1,0 +1,12 @@
+mixin string(val)
+  if val === null
+    span.null=val
+  else if typeof val === 'boolean'
+    span.bool=val
+  else if typeof val === 'number'
+    span.number=val
+  else if val.match(/^(http:)|(https:)/)
+    a(href=val)= val
+  else
+    p
+      | #{val}

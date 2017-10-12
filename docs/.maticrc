@@ -1,0 +1,10 @@
+{
+  "target": {
+    "path": "web",
+    "suffix": "html"
+  },
+  "assets": ["css"],
+  "index": {
+    "schemas": true
+  }
+}

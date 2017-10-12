@@ -1,0 +1,31 @@
+include templates/mixins/indexFolders
+
+doctype html
+head
+  include templates/includes/css
+html
+  body.index
+    article
+      header
+        h1 wahlometer.watch JSON schemas
+
+        p
+          | By setting the index attribute in your user config file you can get
+          | Matic to generate and index page like this with links to all your schemas.
+
+      section
+        h2 Documentation
+
+        ul
+          each file, name in files
+            if typeof file === 'string'
+              li
+                a(href=name)= name
+
+        each folder, name in files
+          if typeof folder === 'object'
+            h2= name
+            ul
+              mixin indexFolders(folder, 3)
+
+      include templates/includes/footer
