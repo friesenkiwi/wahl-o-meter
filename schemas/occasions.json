@@ -9,7 +9,7 @@
       "wikidata",
       "year",
       "WOM_uses"
-    ]
+    ],
     "properties": {
       "WOM_uses": {
         "title": "The wom_uses schema.",
@@ -36,7 +36,7 @@
         "default": "raw_simple",
         "id": "/occasions/properties/source",
         "type": "string",
-        "enum": ["additonal", "raw_simple"]
+        "enum": ["additonal", "raw_simple", "raw"]
       },
       "wikidata": {
         "title": "Wikidata ID der Abstimmung",
