@@ -80,10 +80,10 @@ function load_additional_data(loadedData, year, parliament, i, finalFunction) {
               var commentData = JSON.parse(response);
               var occasionID = 0;
               if (loadedData.raw != undefined && loadedData.raw[loadedData.raw.length - 1] != undefined) {
-                occasionID = Number(loadedData.raw[loadedData.raw.length - 1].occasion.occasion_id)
+                occasionID = Number(loadedData.raw[loadedData.raw.length - 1].occasion.occasion_id);
               }
               if (loadedData.additional != undefined && loadedData.additional[loadedData.additional.length - 1] != undefined) {
-                occasionID = Number(loadedData.additional[loadedData.additional.length - 1].occasion.occasion_id)
+                occasionID = Number(loadedData.additional[loadedData.additional.length - 1].occasion.occasion_id);
               }
               occasionID++;
               var additionalData = {
@@ -413,30 +413,30 @@ function write_metadata(metaData) {
 
   for (var i = 0; i < metaData.occasions.length; i++) { //all WOMs
     var matching = false;
-    if (metaData.occasions[i].year == metaData.additionalData[i].occasion.year &&
-      metaData.occasions[i].parliament == metaData.additionalData[i].occasion.parliament) {
+    if (metaData.occasions[i].year == metaData.loadedData.additional[i].occasion.year &&
+      metaData.occasions[i].parliament == metaData.loadedData.additional[i].occasion.parliament) {
       matching = true;
     }
     document.write("<tr>");
-    document.write("<td>" + metaData.additionalData[i].occasion.extraData.title + "</td>");
+    document.write("<td>" + metaData.loadedData.additional[i].occasion.extraData.title + "</td>");
 
     document.write("<td>" + metaData.occasions[i].year + "</td>");
     document.write("<td>" + metaData.occasions[i].parliament + "</td>");
-    document.write("<td>" + metaData.additionalData[i].occasion.extraData.date + "</td>");
+    document.write("<td>" + metaData.loadedData.additional[i].occasion.extraData.date + "</td>");
     document.write("<td>" + '<a target="_blank" href="https://www.wikidata.org/wiki/' + metaData.occasions[i].wikidata + '">' + metaData.occasions[i].wikidata + "</a></td>");
 
-    document.write("<td>" + metaData.additionalData[i].theses.length + "</td>");
-    document.write("<td>" + metaData.additionalData[i].partys.partys.length + "</td>");
+    document.write("<td>" + metaData.loadedData.additional[i].theses.length + "</td>");
+    document.write("<td>" + metaData.loadedData.additional[i].partys.partys.length + "</td>");
 
     document.write("<td>" + metaData.occasions[i].WOM_uses + "</td>");
-    document.write("<td>" + '<a target="_blank" href="' + metaData.additionalData[i].occasion.extraData.info + '">' + metaData.additionalData[i].occasion.extraData.info + "</a></td>");
+    document.write("<td>" + '<a target="_blank" href="' + metaData.loadedData.additional[i].occasion.extraData.info + '">' + metaData.loadedData.additional[i].occasion.extraData.info + "</a></td>");
 
-    document.write("<td>" + metaData.additionalData[i].occasion.type + "</td>");
+    document.write("<td>" + metaData.loadedData.additional[i].occasion.type + "</td>");
 
     document.write("<td>" + metaData.occasions[i].source + "</td>");
-    document.write("<td>" + metaData.additionalData[i].occasion.extraData.data_source + "</td>");
+    document.write("<td>" + metaData.loadedData.additional[i].occasion.extraData.data_source + "</td>");
 
-    document.write("<td>" + metaData.additionalData[i].occasion.occasion_id + "</td>");
+    document.write("<td>" + metaData.loadedData.additional[i].occasion.occasion_id + "</td>");
     document.write("<td>" + i + "</td>");
     document.write("<td>" + matching + "</td>");
 

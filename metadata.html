@@ -10,17 +10,17 @@
 
   <script type="text/javascript">
     load_mergedData_json("data/occasions.json", function(occasions) {
-      var additionalData=[];
+      var loadedData={additional:[]};
       var finalFunction=undefined;
       for (var i = 0; i < occasions.length; i++) { //all WOMs
         if(i==occasions.length-1){
-          finalFunction=function (additionalData){
-            var metaData = {"occasions":occasions,"additionalData":additionalData};
+          finalFunction=function (loadedData){
+            var metaData = {"occasions":occasions,"loadedData":loadedData};
             console.log(metaData);
             write_metadata(metaData);
           }
         }
-        load_additional_data(additionalData, occasions[i].year, occasions[i].parliament, finalFunction);
+        load_additional_data(loadedData, occasions[i].year, occasions[i].parliament, i, finalFunction);
       }
     });
   </script>
