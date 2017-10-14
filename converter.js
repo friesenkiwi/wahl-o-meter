@@ -21,38 +21,50 @@ function load_mergedData_json(path, finalFunction) {
   });
 }
 
-function load_data_by_occasionfile(occasionFile, finalFunction){
-  var allData=[];
+function load_data_by_occasionfile(occasionFile, finalFunction) {
+  var loadedData = {
+    raw: [],
+    additional: []
+  };
   loadJSON(occasionFile, function(response) {
     var occasions = JSON.parse(response);
-    var usedFinalFunction=undefined;
-    for(var i=0;i<occasions.length;i++){
-
-      if(occasions[i].source=="additional"){
-        if(i==occasions.length-1){
-          usedFinalFunction=finalFunction;
+    var usedFinalFunction = undefined;
+    for (var i = 0; i < occasions.length; i++) {
+      if (occasions[i].source == "raw_simple") {
+        load_raw_data(loadedData, occasions[i].year, occasions[i].parliament, false, usedFinalFunction);
+      }
+      if (occasions[i].source == "raw") {
+        load_raw_data(loadedData, occasions[i].year, occasions[i].parliament, true, usedFinalFunction);
+      }
+      if (occasions[i].source == "additional") {
+        if (i == occasions.length - 1) {
+          usedFinalFunction = finalFunction;
         }
-        load_additional_data(allData, occasions[i].year, occasions[i].parliament, usedFinalFunction);
-      } else if (occasions[i].source=="raw_simple") {
-        load_raw_data(allData, occasions[i].year, occasions[i].parliament, usedFinalFunction);
-
+        load_additional_data(loadedData, occasions[i].year, occasions[i].parliament, i, usedFinalFunction);
       }
     }
   });
 }
 
-function load_raw_data(collectedData, jahr, parliament, finalFunction){
-  var path = "data/wahlomat_" + jahr + "_" + parliament + "/";
-  loadJSON(path + "module_definition.js", function(response) {
-    eval(response);
-    collectedData = wahlomat_collect(jahr, parliament, collectedData);
+function load_raw_data(loadedData, year, parliament, loadStatements, finalFunction) {
+  var path = "data/wahlomat_" + year + "_" + parliament + "/";
 
-  });
+  if (loadStatements) {
+    loadJSON(path + "module_definition.js", function(response_basic) {
+      loadJSON(path + "module_definition_statements.js", function(response_statements) {
+        loadedData.raw.push(wahlomat_collect_json(year, parliament, response_basic, response_statements));
+      });
+    });
+  } else {
+    loadJSON(path + "module_definition.js", function(response_basic) {
+      loadedData.raw.push(wahlomat_collect_json(year, parliament, response_basic));
+    });
+  }
 }
 
-function load_additional_data(allData, jahr, parliament, finalFunction) {
+function load_additional_data(loadedData, year, parliament, i, finalFunction) {
   var folder = parliament.replace("-", "");
-  var path = "data/additional/" + jahr + "/" + folder + "/";
+  var path = "data/additional/" + year + "/" + folder + "/";
 
   loadJSON(path + "overview.json", function(response) {
     var overviewData = JSON.parse(response);
@@ -67,9 +79,13 @@ function load_additional_data(allData, jahr, parliament, finalFunction) {
             loadJSON(path + "comment.json", function(response) {
               var commentData = JSON.parse(response);
               var occasionID = 0;
-              if (allData[allData.length - 1] != undefined) {
-                occasionID = Number(allData[allData.length - 1].occasion.occasion_id) + 1
+              if (loadedData.raw != undefined && loadedData.raw[loadedData.raw.length - 1] != undefined) {
+                occasionID = Number(loadedData.raw[loadedData.raw.length - 1].occasion.occasion_id)
               }
+              if (loadedData.additional != undefined && loadedData.additional[loadedData.additional.length - 1] != undefined) {
+                occasionID = Number(loadedData.additional[loadedData.additional.length - 1].occasion.occasion_id)
+              }
+              occasionID++;
               var additionalData = {
                 "occasion": {
                   "occasion_id": occasionID,
@@ -84,10 +100,10 @@ function load_additional_data(allData, jahr, parliament, finalFunction) {
                 "answerData": answerData,
                 "commentData": commentData
               };
-              allData.push(convert_additional_data(additionalData));
+              loadedData.additional.push(convert_additional_data(additionalData));
 
               if (finalFunction != undefined) {
-                finalFunction(allData);
+                finalFunction(loadedData);
               }
             });
           });
@@ -107,8 +123,13 @@ function load_categorization_and_finalize(mergedData) {
   });
 }
 
-function wahlomat_collect(year, parliament, collectedData = []) {
-  collectedData.push({
+function wahlomat_collect_json(year, parliament, response_basic, response_statements) {
+  eval(response_basic);
+  if (response_statements != undefined) {
+    eval(response_statements);
+  }
+
+  var collectedData = {
     "occasion": {
       "occasion_id": WAHLOMATEN_ID,
       "type": "Wahl-O-Mat",
@@ -131,15 +152,8 @@ function wahlomat_collect(year, parliament, collectedData = []) {
       "partys": WOMT_aParteien,
       "web": WOMT_aParteienURL
     }
-  });
-  WOMT_aThesen = undefined;
-  WOMT_aThesenParteien = undefined;
-  WOMT_aThesenParteienText = undefined;
-  WOMT_aThemen = undefined;
-  WOMT_aParteien = undefined;
-  WOMT_aThesenThema = undefined;
-  WOMT_aParteienURL = undefined;
-  WOMT_aTexte = undefined;
+  };
+
   return collectedData;
 }
 
@@ -398,33 +412,33 @@ function write_metadata(metaData) {
   document.write("<table>");
 
   for (var i = 0; i < metaData.occasions.length; i++) { //all WOMs
-    var matching=false;
-    if(metaData.occasions[i].year == metaData.additionalData[i].occasion.year &&
-    metaData.occasions[i].parliament == metaData.additionalData[i].occasion.parliament ){
-      matching=true;
+    var matching = false;
+    if (metaData.occasions[i].year == metaData.additionalData[i].occasion.year &&
+      metaData.occasions[i].parliament == metaData.additionalData[i].occasion.parliament) {
+      matching = true;
     }
     document.write("<tr>");
-    document.write("<td>"+metaData.additionalData[i].occasion.extraData.title+"</td>");
+    document.write("<td>" + metaData.additionalData[i].occasion.extraData.title + "</td>");
 
-    document.write("<td>"+metaData.occasions[i].year+"</td>");
-    document.write("<td>"+metaData.occasions[i].parliament+"</td>");
-    document.write("<td>"+metaData.additionalData[i].occasion.extraData.date+"</td>");
-    document.write("<td>"+'<a target="_blank" href="https://www.wikidata.org/wiki/'+metaData.occasions[i].wikidata+'">'+metaData.occasions[i].wikidata+"</a></td>");
+    document.write("<td>" + metaData.occasions[i].year + "</td>");
+    document.write("<td>" + metaData.occasions[i].parliament + "</td>");
+    document.write("<td>" + metaData.additionalData[i].occasion.extraData.date + "</td>");
+    document.write("<td>" + '<a target="_blank" href="https://www.wikidata.org/wiki/' + metaData.occasions[i].wikidata + '">' + metaData.occasions[i].wikidata + "</a></td>");
 
-    document.write("<td>"+metaData.additionalData[i].theses.length+"</td>");
-    document.write("<td>"+metaData.additionalData[i].partys.partys.length+"</td>");
+    document.write("<td>" + metaData.additionalData[i].theses.length + "</td>");
+    document.write("<td>" + metaData.additionalData[i].partys.partys.length + "</td>");
 
-    document.write("<td>"+metaData.occasions[i].WOM_uses+"</td>");
-    document.write("<td>"+'<a target="_blank" href="'+metaData.additionalData[i].occasion.extraData.info+'">'+metaData.additionalData[i].occasion.extraData.info+"</a></td>");
+    document.write("<td>" + metaData.occasions[i].WOM_uses + "</td>");
+    document.write("<td>" + '<a target="_blank" href="' + metaData.additionalData[i].occasion.extraData.info + '">' + metaData.additionalData[i].occasion.extraData.info + "</a></td>");
 
-    document.write("<td>"+metaData.additionalData[i].occasion.type+"</td>");
+    document.write("<td>" + metaData.additionalData[i].occasion.type + "</td>");
 
-    document.write("<td>"+metaData.occasions[i].source+"</td>");
-    document.write("<td>"+metaData.additionalData[i].occasion.extraData.data_source+"</td>");
+    document.write("<td>" + metaData.occasions[i].source + "</td>");
+    document.write("<td>" + metaData.additionalData[i].occasion.extraData.data_source + "</td>");
 
-    document.write("<td>"+metaData.additionalData[i].occasion.occasion_id+"</td>");
-    document.write("<td>"+i+"</td>");
-    document.write("<td>"+matching+"</td>");
+    document.write("<td>" + metaData.additionalData[i].occasion.occasion_id + "</td>");
+    document.write("<td>" + i + "</td>");
+    document.write("<td>" + matching + "</td>");
 
     document.write("</tr>");
 
