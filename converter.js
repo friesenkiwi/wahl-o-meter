@@ -22,28 +22,43 @@ function load_mergedData_json(path, finalFunction) {
 }
 
 function load_data_by_occasionfile(occasionFile, finalFunction) {
+  var usedFinalFunction = undefined;
+  var usedFinalSourceFunction = undefined;
+
   var loadedData = {
     raw: [],
     additional: []
   };
   loadJSON(occasionFile, function(response) {
     var occasions = JSON.parse(response);
-    var usedFinalFunction = undefined;
     for (var i = 0; i < occasions.length; i++) {
-      if (occasions[i].source == "raw_simple") {
-        load_raw_data(loadedData, occasions[i].year, occasions[i].parliament, false, usedFinalFunction);
+      if (i == occasions.length - 1) {
+        usedFinalFunction = finalFunction;
       }
-      if (occasions[i].source == "raw") {
-        load_raw_data(loadedData, occasions[i].year, occasions[i].parliament, true, usedFinalFunction);
-      }
-      if (occasions[i].source == "additional") {
-        if (i == occasions.length - 1) {
-          usedFinalFunction = finalFunction;
+      if (occasions[i].sources != undefined && occasions[i].sources.constructor === Array) {
+        for (var s = 0; s < occasions[i].sources.length; s++) {
+          if (usedFinalFunction != undefined && s == occasions[i].sources.length - 1) {
+            usedFinalSourceFunction = usedFinalFunction;
+          }
+          load_source(occasions[i].sources[s], loadedData, occasions[i], usedFinalSourceFunction);
         }
-        load_additional_data(loadedData, occasions[i].year, occasions[i].parliament, i, usedFinalFunction);
+      } else {
+        load_source(occasions[i].source, loadedData, occasions[i], usedFinalFunction);
       }
     }
   });
+}
+
+function load_source(source, loadedData, occasion, finalFunction) {
+  if (source == "raw_simple") {
+    load_raw_data(loadedData, occasion.year, occasion.parliament, false, finalFunction);
+  } else if (source == "raw") {
+    load_raw_data(loadedData, occasion.year, occasion.parliament, true, finalFunction);
+  } else if (source == "additional") {
+    load_additional_data(loadedData, occasion.year, occasion.parliament, finalFunction);
+  } else {
+    console.log("loading of " + source + " not yet implemented");
+  }
 }
 
 function load_raw_data(loadedData, year, parliament, loadStatements, finalFunction) {
@@ -62,7 +77,7 @@ function load_raw_data(loadedData, year, parliament, loadStatements, finalFuncti
   }
 }
 
-function load_additional_data(loadedData, year, parliament, i, finalFunction) {
+function load_additional_data(loadedData, year, parliament, finalFunction) {
   var folder = parliament.replace("-", "");
   var path = "data/additional/" + year + "/" + folder + "/";
 

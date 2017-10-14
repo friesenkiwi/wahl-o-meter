@@ -1,4 +1,13 @@
 [{
+  "wikidata": "Q23558949",
+  "year": 2017,
+  "parliament": "niedersachsen",
+  "sources": [
+    "https://wahlswiper.de/swiper",
+    "https://niedersachsen.landeswahlkompass.de/de/v1/statements/",
+    "https://www.kandidatomat.de/index.php?id=10391&tx_kom_pi1[election]=2&tx_kom_pi1[electionDistrict]=9&tx_kom_pi1[step]=1"
+  ]
+},{
   "wikidata": "Q697167",
   "year": 2002,
   "parliament": "deutschland",
@@ -44,7 +53,10 @@
   "wikidata": "Q165999",
   "year": 2005,
   "parliament": "deutschland",
-  "source": "raw_simple",
+  "sources": [
+    "https://www.wen-waehlen.de/archiv-2005.html",
+    "raw_simple"
+  ],
   "WOM_uses": 5200000
 }, {
   "wikidata": "Q874864",
@@ -98,7 +110,10 @@
   "wikidata": "Q157869",
   "year": 2009,
   "parliament": "deutschland",
-  "source": "raw",
+  "sources": [
+    "https://www.wen-waehlen.de/archiv-2009.htm",
+    "raw"
+  ],
   "WOM_uses": 6740000
 }, {
   "wikidata": "Q329191",
@@ -170,7 +185,12 @@
   "wikidata": "Q555931",
   "year": 2013,
   "parliament": "deutschland",
-  "source": "raw",
+  "sources": [
+    "https://apps.opendatacity.de/wahl/data/data.js",
+    "https://www.wen-waehlen.de/archiv-2013.html",
+    "http://www.wahlversprechen2013.de/",
+    "raw"
+  ],
   "WOM_uses": 13300000
 }, {
   "wikidata": "Q1376107",
@@ -248,12 +268,30 @@
   "wikidata": "Q1804132",
   "year": 2017,
   "parliament": "nordrhein-westfalen",
-  "source": "additional",
+  "sources": [
+    "https://raw.githubusercontent.com/sheraz24/sheraz24.github.io/master/app/data/demo_de.json",
+    "additional"
+  ],
   "WOM_uses": 2610000
 }, {
   "wikidata": "Q15062956",
   "year": 2017,
   "parliament": "deutschland",
-  "source": "additional",
+  "sources": [
+    "https://www.sozial-o-mat.de/",
+    "https://bund.digital-o-mat.de/",
+    "https://deinwal.de/home",
+    "https://visuals.manifesto-project.wzb.eu/prototypes/wahlprogrammquiz/",
+    "https://interaktiv.morgenpost.de/parteien-bundestagswahl-2017/data/wahlomat.csv",
+    "https://raw.githubusercontent.com/toastyyy/wahlofant/master/js/questions.js",
+    "https://www.wen-waehlen.de/",
+    "http://wahlkompass-digitales.de/",
+    "https://www.bundeswahlkompass.de/de/v1/statements/",
+    "https://musik-o-mat.com",
+    "https://www.wahlnavi.de/questions/",
+    "https://www.parteienavi.de",
+    "http://www.die-wahlpruefsteine.de/kategorie/wahlpruefstein/",
+    "additional"
+  ],
   "WOM_uses": 15700000
 }]
