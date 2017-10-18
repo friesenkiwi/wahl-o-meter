@@ -12,8 +12,8 @@
     ],
     "properties": {
       "WOM_uses": {
-        "title": "The wom_uses schema.",
-        "description": "Description of WOM_uses",
+        "title": "Anzahl an Nutzern",
+        "description": "Abgeschlossene Nutzungen im Vorfeld von Wahlen",
         "examples": [
           "3600000"
         ],
