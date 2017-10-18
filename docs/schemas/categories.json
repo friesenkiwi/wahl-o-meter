@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "https://wahlometer.watch/schemas/categories.json",
+  "items": {
+    "id": "/items",
+    "required": ["category"],
+    "properties": {
+      "category": {
+        "title": "Name der Kategorie",
+        "description": "Kategorien dienen dazu, Fragen aus ähnlichen Themenfeldern einander zuzuordnen. Siehe hierzu auch https://github.com/friesenkiwi/wahl-o-meter/wiki/Kategorisierung",
+        "default": "REST",
+        "examples": [
+          "1-Euro-Job",
+          "Öffentlich-Rechtlicher Rundfunk",
+          "LANDESSPEZIFISCH"
+        ],
+        "id": "/items/properties/category",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "type": "array"
+}

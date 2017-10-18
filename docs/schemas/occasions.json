@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "id": "http://wahlometer.watch/schemas/occasions.json",
+  "id": "https://wahlometer.watch/schemas/occasions.json",
   "items": {
     "id": "/occasions",
     "required": [

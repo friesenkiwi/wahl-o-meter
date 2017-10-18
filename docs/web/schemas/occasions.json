@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "id": "http://wahlometer.watch/schemas/occasions.json",
+  "id": "https://wahlometer.watch/schemas/occasions.json",
   "items": {
     "id": "/occasions",
     "required": [
@@ -12,8 +12,8 @@
     ],
     "properties": {
       "WOM_uses": {
-        "title": "The wom_uses schema.",
-        "description": "Description of WOM_uses",
+        "title": "Anzahl an Nutzern",
+        "description": "Abgeschlossene Nutzungen im Vorfeld von Wahlen",
         "examples": [
           "3600000"
         ],
