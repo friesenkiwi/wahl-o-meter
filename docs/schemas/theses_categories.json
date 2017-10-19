@@ -19,12 +19,12 @@
       },
       "thesis_id": {
         "title": "ID einer bestimmten These",
-        "description": "Für eine n:n-Relation zwischen Thesen und Kategorien ",
+        "description": "ID setzt sich zusammen aus Quellen-Typ (WOM), Quellen-Nummer und Thesen-Nummer",
         "examples": [
-          "290"
+          "WOM-13-25"
         ],
         "id": "/items/properties/thesis_id",
-        "type": "integer"
+        "type": "string"
       }
     },
     "type": "object"
