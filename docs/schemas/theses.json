@@ -3,7 +3,7 @@
   "id": "https://wahlometer.watch/schemas/theses.json",
   "items": {
     "id": "/occasions",
-    "required": ["title", "type", "year", "parliament", "theses"],
+    "required": ["title", "type", "date", "parliament", "theses"],
     "properties": {
       "title": {
         "title": "Wahl zu diesem Datensatz",
@@ -24,7 +24,7 @@
         "id": "/occasions/properties/type",
         "type": "string"
       },
-      "year": {
+      "date": {
         "title": "Datum der Abstimmung",
         "examples": [
           "2002-05-03"
@@ -58,7 +58,7 @@
         "items": {
           "id": "/occasions/properties/theses/items",
           "type": "object",
-          "required": ["text", "positions"],
+          "required": ["text", "id", "positions"],
           "properties": {
             "text": {
               "title": "Thesentext",
@@ -78,6 +78,15 @@
                 "Kohlekraftwerk"
               ],
               "id": "/occasions/properties/theses/items/properties/title",
+              "type": "string"
+            },
+            "id": {
+              "title": "Eindeutige ID der These",
+              "description": "Im Format {typ}-{occasion}-{num}, wobei num die Reihenfolge der Thesen in der Quelle spiegelt",
+              "examples": [
+                "WOM-03-12",
+              ],
+              "id": "/occasions/properties/theses/items/properties/id",
               "type": "string"
             },
             "positions": {

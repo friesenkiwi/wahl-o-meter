@@ -7,7 +7,7 @@
       "parliament",
       "source",
       "wikidata",
-      "year",
+      "date",
       "WOM_uses"
     ],
     "properties": {
@@ -47,13 +47,15 @@
         "id": "/occasions/properties/wikidata",
         "type": "string"
       },
-      "year": {
-        "title": "Jahr in dem die Abstimmung stattgefunden hat.",
+      "date": {
+        "title": "Datum an dem die Abstimmung stattgefunden hat.",
+        "description": "Im Format yyyy-mm-dd",
         "examples": [
-          "2002"
+          "2002-05-03"
         ],
         "id": "/occasions/properties/year",
-        "type": "integer"
+        "format": "full-date",
+        "type": "string"
       }
     },
     "type": "object"
