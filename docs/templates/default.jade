@@ -1,0 +1,19 @@
+include templates/mixins/itterate
+
+doctype html
+head
+  include templates/includes/css
+html
+  body
+    article
+      include templates/includes/header
+
+      span.container.top {
+      dl
+        - var obj = arguments[0]
+        each item, name in obj
+          if typeof item === 'object' && item !== null && name !== 'config'
+            mixin itterate(item, name, obj)
+      span.container.bot }
+
+      include templates/includes/footer

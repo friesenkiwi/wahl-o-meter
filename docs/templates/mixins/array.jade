@@ -1,0 +1,7 @@
+mixin array(arr)
+  | [
+  each item, index in arr
+    |  !{item}
+    if index < (arr.length -1)
+      | ,
+  |  ]

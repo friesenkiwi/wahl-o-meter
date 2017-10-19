@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "https://wahlometer.watch/schemas/occasions.json",
+  "items": {
+    "id": "/occasions",
+    "required": [
+      "parliament",
+      "source",
+      "wikidata",
+      "date",
+      "WOM_uses"
+    ],
+    "properties": {
+      "WOM_uses": {
+        "title": "Anzahl an Nutzern",
+        "description": "Abgeschlossene Nutzungen im Vorfeld von Wahlen",
+        "examples": [
+          "3600000"
+        ],
+        "id": "/occasions/properties/WOM_uses",
+        "type": "integer"
+      },
+      "parliament": {
+        "title": "Das Parlament, für welches bei diesem Anlass gewählt wird.",
+        "examples": [
+          "deutschland",
+          "baden-wuerttemberg",
+          "europa"
+        ],
+        "id": "/occasions/properties/parliament",
+        "type": "string"
+      },
+      "source": {
+        "title": "Quelle dieses Datensatzes",
+        "description": "<Hier erklären, was additional und raw_simple bedeutet>",
+        "default": "raw_simple",
+        "id": "/occasions/properties/source",
+        "type": "string",
+        "enum": ["additonal", "raw_simple", "raw"]
+      },
+      "wikidata": {
+        "title": "Wikidata ID der Abstimmung",
+        "description": "Über die Wikidata ID lassen sich weitere strukturierte Informationen über die Abstimmung einholen.",
+        "examples": [
+          "Q697167"
+        ],
+        "id": "/occasions/properties/wikidata",
+        "type": "string"
+      },
+      "date": {
+        "title": "Datum an dem die Abstimmung stattgefunden hat.",
+        "description": "Im Format yyyy-mm-dd",
+        "examples": [
+          "2002-05-03"
+        ],
+        "id": "/occasions/properties/year",
+        "format": "full-date",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "type": "array"
+}

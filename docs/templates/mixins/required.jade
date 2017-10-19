@@ -1,0 +1,5 @@
+mixin required(obj, key, parentObj)
+  if obj != null && obj.required && typeof obj.required === 'boolean'
+    span.required(title='required') &#9733;
+  if parentObj && parentObj.required && parentObj.required.length && parentObj.required.indexOf(key) !== -1
+    span.required(title='required') &#9733;

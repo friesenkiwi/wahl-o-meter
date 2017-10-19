@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "https://wahlometer.watch/schemas/theses_categories.json",
+  "items": {
+    "id": "/items",
+    "required": ["category_id", "thesis_id"],
+    "properties": {
+      "category": {
+        "title": "Name der Kategorie",
+        "description": "Kategorien dienen dazu, Fragen aus ähnlichen Themenfeldern einander zuzuordnen. Siehe hierzu auch https://github.com/friesenkiwi/wahl-o-meter/wiki/Kategorisierung",
+        "default": "REST",
+        "examples": [
+          "1-Euro-Job",
+          "Öffentlich-Rechtlicher Rundfunk",
+          "LANDESSPEZIFISCH"
+        ],
+        "id": "/items/properties/category",
+        "type": "string"
+      },
+      "thesis_id": {
+        "title": "ID einer bestimmten These",
+        "description": "ID setzt sich zusammen aus Quellen-Typ (WOM), Quellen-Nummer und Thesen-Nummer",
+        "examples": [
+          "WOM-13-25"
+        ],
+        "id": "/items/properties/thesis_id",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "type": "array"
+}

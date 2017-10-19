@@ -1,0 +1,13 @@
+header
+  h1= title
+
+  if description
+    p= description
+
+  if $schema
+    p Uses&nbsp;
+      a(href=$schema)
+        | #{$schema}
+
+  if config && config.index
+    a(href='./index.html') Return to index

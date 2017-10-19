@@ -1,0 +1,12 @@
+mixin indexFolders(folder, hLevel)
+  each item, name in folder
+    - var heading = '<h' + hLevel + '>' + name + '</h' + hLevel + '>';
+
+    if typeof item === 'string'
+      li
+        a(href=item)= name
+    else
+      - var subHeading = (hLevel + 1);
+      li!=heading
+        ul
+          mixin indexFolders(item, subHeading)

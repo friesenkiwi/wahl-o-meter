@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "https://wahlometer.watch/schemas/theses.json",
+  "items": {
+    "id": "/occasions",
+    "required": ["title", "type", "date", "parliament", "theses"],
+    "properties": {
+      "title": {
+        "title": "Wahl zu diesem Datensatz",
+        "examples": [
+          "Bayern",
+          "Deutschland"
+        ],
+        "id": "/occasions/properties/title",
+        "type": "string"
+      },
+      "type": {
+        "title": "Art der Datenquelle",
+        "description": "In was für einem Format wurden die Daten veröffentlicht",
+        "examples": [
+          "Wahl-o-Mat"
+        ],
+        "id": "/occasions/properties/type",
+        "type": "string"
+      },
+      "date": {
+        "title": "Datum der Abstimmung",
+        "examples": [
+          "2002-05-03"
+        ],
+        "id": "/occasions/properties/year",
+        "type": "string",
+        "format": "full-date"
+      },
+      "wikidata_id": {
+        "title": "Wikidata ID für den Anlass",
+        "examples": [
+          "Q49762"
+        ],
+        "id": "/occasions/properties/wikidata_id",
+        "type": "string"
+      },
+      "parliament": {
+        "title": "Das Parlament, für welches bei diesem Anlass gewählt wird.",
+        "examples": [
+          "deutschland",
+          "baden-wuerttemberg",
+          "europa"
+        ],
+        "id": "/occasions/properties/parliament",
+        "type": "string"
+      },
+      "theses": {
+        "id": "/occasions/properties/theses",
+        "description": "Thesen in Reihenfolge der Quelldaten",
+        "type": "array",
+        "items": {
+          "id": "/occasions/properties/theses/items",
+          "type": "object",
+          "required": ["text", "id", "positions"],
+          "properties": {
+            "text": {
+              "title": "Thesentext",
+              "description": "Voller Text der These",
+              "examples": [
+                "Die Gemeinschaftsschulzeit soll von vier auf sechs Jahre erh\u00f6ht werden.",
+                "Mehr \"Hilfs-Sheriffs\" auf den Straßen!"
+              ],
+              "id": "/occasions/properties/theses/items/properties/text",
+              "type": "string"
+            },
+            "title": {
+              "title": "Kurztitel",
+              "description": "Kurzname der These in einem Wort",
+              "examples": [
+                "Tempolimit",
+                "Kohlekraftwerk"
+              ],
+              "id": "/occasions/properties/theses/items/properties/title",
+              "type": "string"
+            },
+            "id": {
+              "title": "Eindeutige ID der These",
+              "description": "Im Format {typ}-{occasion}-{num}, wobei num die Reihenfolge der Thesen in der Quelle spiegelt",
+              "examples": [
+                "WOM-03-12",
+              ],
+              "id": "/occasions/properties/theses/items/properties/id",
+              "type": "string"
+            },
+            "positions": {
+              "id": "/occasions/properties/theses/items/properties/positions",
+              "type": "array",
+              "items": {
+                "id": "/occasions/properties/theses/items/properties/positions/items",
+                "type": "object",
+                "required": ["value", "party"],
+                "properties": {
+                  "value": {
+                    "title": "Bewertung der These",
+                    "id": "/occasions/properties/theses/items/properties/positions/items/properties/value",
+                    "type": "integer",
+                    "enum": [-1, 0, 1],
+                    "description": "Bewertung der These mit Ablehnung (-1), neutral (0), oder Zustimmung (+1)"
+                  },
+                  "party": {
+                    "title": "Partei",
+                    "description": "Kurzform des Parteinamens",
+                    "id": "/occasions/properties/theses/items/properties/positions/items/properties/party",
+                    "type": "string",
+                    "examples": ["CDU", "SPD"]
+                  },
+                  "text": {
+                    "title": "Ergänzende Erklärung der Bewertung",
+                    "id": "/occasions/properties/theses/items/properties/positions/items/properties/explanation",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "id": "/occasions/properties/theses/items"
+        }
+      }
+    },
+    "type": "object"
+  },
+  "type": "array"
+}
