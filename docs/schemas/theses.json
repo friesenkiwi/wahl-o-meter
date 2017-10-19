@@ -7,7 +7,6 @@
     "properties": {
       "title": {
         "title": "Wahl zu diesem Datensatz",
-        "description": "Dies ist die geläufige Kurzform des Namens der Partei",
         "examples": [
           "Bayern",
           "Deutschland"
