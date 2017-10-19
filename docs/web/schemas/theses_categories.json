@@ -4,7 +4,7 @@
   "items": {
     "id": "/items",
     "required": [
-      "category",
+      "category_id",
       "thesis_id"
     ],
     "properties": {
@@ -21,13 +21,13 @@
         "type": "string"
       },
       "thesis_id": {
-        "title": "Identifier for a specific thesis from the full dataset.",
-        "description": "Establishes an n-n mapping between theses and categories.",
+        "title": "ID einer bestimmten These",
+        "description": "ID setzt sich zusammen aus Quellen-Typ (WOM), Quellen-Nummer und Thesen-Nummer",
         "examples": [
-          "290"
+          "WOM-13-25"
         ],
         "id": "/items/properties/thesis_id",
-        "type": "integer"
+        "type": "string"
       }
     },
     "type": "object"

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "https://wahlometer.watch/schemas/parties.json",
+  "items": {
+    "id": "/items",
+    "required": ["name", "wikidata_id", "variations"],
+    "properties": {
+      "name": {
+        "title": "Name der Partei",
+        "description": "Dies ist die geläufige Kurzform des Namens der Partei",
+        "examples": [
+          "CDU",
+          "Grüne"
+        ],
+        "id": "/items/properties/name",
+        "type": "string"
+      },
+      "wikidata_id": {
+        "title": "Wikidata ID der Partei",
+        "examples": [
+          "Q49762"
+        ],
+        "id": "/items/properties/wikidata_id",
+        "type": "string"
+      },
+      "variations": {
+        "id": "/items/properties/variations",
+        "type": "array",
+        "items": {
+          "title": "Schreibweise",
+          "description": "Alle verwendeten Schreibweisen für diese Partei",
+          "examples": [
+            "Christlich Demokratische Union Deutschlands",
+            "CDU"
+          ],
+          "id": "/items/properties/variations/items"
+        }
+      }
+    },
+    "type": "object"
+  },
+  "type": "array"
+}
