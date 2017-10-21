@@ -35,12 +35,12 @@ function load_data_by_occasionfile(occasionFile, finalFunction) {
       if (i == occasions.length - 1) {
         usedFinalFunction = finalFunction;
       }
-        for (var s = 0; s < occasions[i].sources.length; s++) {
-          if (usedFinalFunction != undefined && s == occasions[i].sources.length - 1) {
-            usedFinalSourceFunction = usedFinalFunction;
-          }
-          load_source(occasions[i].sources[s], loadedData, occasions[i], usedFinalSourceFunction);
+      for (var s = 0; s < occasions[i].sources.length; s++) {
+        if (usedFinalFunction != undefined && s == occasions[i].sources.length - 1) {
+          usedFinalSourceFunction = usedFinalFunction;
         }
+        load_source(occasions[i].sources[s], loadedData, occasions[i], usedFinalSourceFunction);
+      }
 
     }
   });
@@ -162,7 +162,7 @@ function wahlomat_collect_json(occasion, response_basic, response_statements) {
       "positions": WOMT_aThesenParteien,
       "positionTexts": WOMT_aThesenParteienText
     },
-    "parties":  WOMT_aParteien
+    "parties": WOMT_aParteien
   };
 
   return collectedData;
@@ -204,7 +204,7 @@ function merge_positions(finalConvertedData) {
     for (var j = 0; j < finalConvertedData[i].theses.length; j++) {
       var positions = [];
       var positionTexts = finalConvertedData[i].positions.positionTexts[j];
-      var thesis_id = "WOM-"+i+"-"+j;
+      var thesis_id = "WOM-" + i + "-" + j;
 
       finalConvertedData[i].theses[j] = {
         "id": thesis_id,
@@ -214,7 +214,10 @@ function merge_positions(finalConvertedData) {
       };
 
       for (var p = 0; p < finalConvertedData[i].parties.length; p++) {
-        var curParty = {"name": finalConvertedData[i].parties[p][0][1], "longname": finalConvertedData[i].parties[p][0][0]};
+        var curParty = {
+          "name": finalConvertedData[i].parties[p][0][1],
+          "longname": finalConvertedData[i].parties[p][0][0]
+        };
         var text = finalConvertedData[i].positions.positionTexts[j][p][0].replace(/(<([^>]+)>)/ig, '');
         text = text.replace(/"/g, '');
         text = text.replace(/&shy;/g, '');
@@ -224,7 +227,7 @@ function merge_positions(finalConvertedData) {
           "text": text,
           "party": curParty.name
         });
-        parties[p]=curParty;
+        parties[p] = curParty;
       }
     }
     finalConvertedData[i] = {
@@ -457,6 +460,31 @@ function write_metadata(metaData) {
 
 }
 
+function write_parties(reallyAllData) {
+  console.log(reallyAllData.partyMeta);
+
+  document.write("<table>");
+  for (var p = 0; p < reallyAllData.partyMeta.length; p++) { //all parties
+    var occurences = reallyAllData.partyOccurences.perParty[reallyAllData.partyMeta[p].name];
+    console.log(occurences);
+    document.write("<tr>");
+    document.write("<td>" + occurences.col + "</td>");
+    document.write("<td>" + reallyAllData.partyMeta[p].name + "</td>");
+    document.write("<td>" + '<a target="_blank" href="https://www.wikidata.org/wiki/' + reallyAllData.partyMeta[p].wikidata + '">' + reallyAllData.partyMeta[p].wikidata + "</a></td>");
+    document.write("<td>" + occurences.occurences.length + "</td>");
+    document.write("<td><table>");
+    for (var wom_num in occurences.occurences) { // all WOMs
+      document.write("<tr>");
+      document.write("<td>" + wom_num + "</td>");
+      document.write("<td>" + occurences.occurences[wom_num].long_name + "</td>");
+      document.write("</tr>");
+    }
+    document.write("</table></td>");
+    document.write("</tr>");
+  }
+  document.write("</table>");
+}
+
 function write_simple(reallyAllData) {
   document.write("<table>");
 
@@ -634,7 +662,7 @@ function normalize_party_name(partyName) {
     partyName = "SGP";
   } else if (partyName.includes("ALFA")) {
     partyName = "LKR";
-  } else if (partyName.includes("PBC") || partyName == "AUF" || partyName.includes("AUFBRUCH C") ) {
+  } else if (partyName.includes("PBC") || partyName == "AUF" || partyName.includes("AUFBRUCH C")) {
     partyName = "BÜNDNIS C";
   } else if (partyName.includes("FRAUEN")) {
     partyName = "FRAUEN";
@@ -645,11 +673,14 @@ function normalize_party_name(partyName) {
 }
 
 function dump_json(mergedData, part) {
-  var toDump=mergedData
-  if(part=="parties"){
-    toDump=[];
+  var toDump = mergedData
+  if (part == "parties") {
+    toDump = [];
     for (var normalizedPartyName in mergedData.partyOccurences.perParty) {
-      toDump.push({"name":normalizedPartyName, "wikidata":""});
+      toDump.push({
+        "name": normalizedPartyName,
+        "wikidata": ""
+      });
     }
     console.log(toDump);
   }
