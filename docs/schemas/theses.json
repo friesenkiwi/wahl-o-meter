@@ -1,54 +1,63 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
   "id": "https://wahlometer.watch/schemas/theses.json",
+  "type": "array",
   "items": {
     "id": "/occasions",
-    "required": ["title", "type", "date", "parliament", "theses"],
+    "required": ["occasion", "theses"],
+    "type": "object",
     "properties": {
-      "title": {
-        "title": "Wahl zu diesem Datensatz",
-        "examples": [
-          "Bayern",
-          "Deutschland"
-        ],
-        "id": "/occasions/properties/title",
-        "type": "string"
-      },
-      "type": {
-        "title": "Art der Datenquelle",
-        "description": "In was für einem Format wurden die Daten veröffentlicht",
-        "examples": [
-          "Wahl-o-Mat"
-        ],
-        "id": "/occasions/properties/type",
-        "type": "string"
-      },
-      "date": {
-        "title": "Datum der Abstimmung",
-        "examples": [
-          "2002-05-03"
-        ],
-        "id": "/occasions/properties/year",
-        "type": "string",
-        "format": "date"
-      },
-      "wikidata_id": {
-        "title": "Wikidata ID für den Anlass",
-        "examples": [
-          "Q49762"
-        ],
-        "id": "/occasions/properties/wikidata_id",
-        "type": "string"
-      },
-      "parliament": {
-        "title": "Das Parlament, für welches bei diesem Anlass gewählt wird.",
-        "examples": [
-          "deutschland",
-          "baden-wuerttemberg",
-          "europa"
-        ],
-        "id": "/occasions/properties/parliament",
-        "type": "string"
+      "occasion": {
+        "title": "Rahmendaten des Anlasses",
+        "type": "object",
+        "required": ["title", "type", "date", "wikidata", "parliament"],
+        "properties": {
+          "title": {
+            "title": "Name des Anlasses",
+            "examples": [
+              "Landtagswahl Saarland 2004",
+              "Wahl der Bremischen Bürgerschaft 2007"
+            ],
+            "id": "/occasions/properties/title",
+            "type": "string"
+          },
+          "type": {
+            "title": "Art der Daten",
+            "description": "In welchem Rahmen wurden die Daten veröffentlicht",
+            "examples": [
+              "Wahl-o-Mat"
+            ],
+            "id": "/occasions/properties/type",
+            "type": "string"
+          },
+          "date": {
+            "title": "Datum der Wahl",
+            "examples": [
+              "2002-05-03"
+            ],
+            "id": "/occasions/properties/date",
+            "type": "string",
+            "format": "date"
+          },
+          "wikidata": {
+            "title": "Wikidata-ID des Anlasses",
+            "examples": [
+              "Q49762"
+            ],
+            "id": "/occasions/properties/wikidata",
+            "type": "string"
+          },
+          "parliament": {
+            "title": "Das Parlament, für welches bei diesem Anlass gewählt wird.",
+            "examples": [
+              "deutschland",
+              "baden-wuerttemberg",
+              "europa"
+            ],
+            "id": "/occasions/properties/parliament",
+            "type": "string"
+          }
+        }
       },
       "theses": {
         "id": "/occasions/properties/theses",
@@ -122,8 +131,6 @@
           "id": "/occasions/properties/theses/items"
         }
       }
-    },
-    "type": "object"
-  },
-  "type": "array"
+    }
+  }
 }
