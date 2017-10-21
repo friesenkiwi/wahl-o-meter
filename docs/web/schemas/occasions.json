@@ -1,19 +1,22 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
   "id": "https://wahlometer.watch/schemas/occasions.json",
+  "type": "array",
   "items": {
+    "title": "Wahlereignis",
+    "description": "Eine öffentliche Wahl, zu der politische Positionen erhoben wurden.",
     "id": "/occasions",
+    "type": "object",
     "required": [
       "parliament",
-      "source",
+      "sources",
       "wikidata",
-      "year",
-      "WOM_uses"
+      "date"
     ],
     "properties": {
       "WOM_uses": {
         "title": "Anzahl an Nutzern",
-        "description": "Abgeschlossene Nutzungen im Vorfeld von Wahlen",
+        "description": "Abgeschlossene Nutzungen des Wahl-O-Mat vor der Wahl",
         "examples": [
           "3600000"
         ],
@@ -30,37 +33,35 @@
         "id": "/occasions/properties/parliament",
         "type": "string"
       },
-      "source": {
-        "title": "Quelle dieses Datensatzes",
-        "description": "<Hier erklären, was additional und raw_simple bedeutet>",
-        "default": "raw_simple",
-        "id": "/occasions/properties/source",
-        "type": "string",
-        "enum": [
-          "additonal",
-          "raw_simple",
-          "raw"
-        ]
+      "sources": {
+        "title": "Quellen dieses Datensatzes",
+        "description": "Ein Array der Strings 'raw_simple', 'raw', 'additional' oder einer URL. 'raw_simple' bedeutet .js-Rohdaten für Thesen und Partei-Positionen direkt aus dem Wahlomat, 'raw' ebenso, aber mit zusätzlicher Datei für Partei-Statements, 'additional' bedeutet das .json-Format von @gockelhahn mit einzelnen Dateien und numerischen IDs, eingebunden als git submodule. Eine URL bedeutet ein externes Format, das wahrscheinlich noch nicht im wahlometer implementiert ist.",
+        "id": "/occasions/properties/sources",
+        "type": "array",
+        "items": {
+          "id": "/occasions/properties/sources/items",
+          "type": "string"
+        }
       },
       "wikidata": {
-        "title": "Wikidata ID der Abstimmung",
-        "description": "Über die Wikidata ID lassen sich weitere strukturierte Informationen über die Abstimmung einholen.",
+        "title": "Wikidata-ID der Wahl",
+        "description": "Über die Wikidata-ID lassen sich weitere strukturierte Informationen über die Wahl einholen.",
         "examples": [
           "Q697167"
         ],
         "id": "/occasions/properties/wikidata",
         "type": "string"
       },
-      "year": {
-        "title": "Jahr in dem die Abstimmung stattgefunden hat.",
+      "date": {
+        "title": "Datum an dem die Wahl stattgefunden hat.",
+        "description": "Im Format yyyy-mm-dd",
         "examples": [
-          "2002"
+          "2002-05-03"
         ],
-        "id": "/occasions/properties/year",
-        "type": "integer"
+        "id": "/occasions/properties/date",
+        "format": "date",
+        "type": "string"
       }
-    },
-    "type": "object"
-  },
-  "type": "array"
+    }
+  }
 }

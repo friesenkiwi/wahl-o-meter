@@ -5,7 +5,7 @@
     "id": "/items",
     "required": [
       "name",
-      "wikidata_id",
+      "wikidata",
       "variations"
     ],
     "properties": {
@@ -19,12 +19,12 @@
         "id": "/items/properties/name",
         "type": "string"
       },
-      "wikidata_id": {
-        "title": "Wikidata ID der Partei",
+      "wikidata": {
+        "title": "Wikidata-ID der Partei",
         "examples": [
           "Q49762"
         ],
-        "id": "/items/properties/wikidata_id",
+        "id": "/items/properties/wikidata",
         "type": "string"
       },
       "variations": {
