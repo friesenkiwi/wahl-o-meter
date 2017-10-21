@@ -644,6 +644,11 @@ function dump_json(mergedData, part) {
     toDump=mergedData.allData
   } else if(part=="parties"){
     toDump=mergedData.allParties
+  } else if(part=="occurrencesPerParty"){
+    toDump=[];
+    for (var normalizedPartyName in mergedData.partyOccurences.perParty) {
+      toDump.push(mergedData.partyOccurences.perParty[normalizedPartyName]);
+    }
   }
   document.write(JSON.stringify(toDump));
 }
