@@ -43,19 +43,20 @@ function load_data_by_occasionfile(occasionFile, finalFunction) {
           load_source(occasions[i].sources[s], loadedData, occasions[i], usedFinalSourceFunction);
         }
       } else {
-        load_source(occasions[i].source, loadedData, occasions[i], usedFinalFunction);
+        load_source(occasions[i].sources, loadedData, occasions[i], usedFinalFunction);
       }
     }
   });
 }
 
 function load_source(source, loadedData, occasion, finalFunction) {
+  var year = occasion.date.substring(0, 4);
   if (source == "raw_simple") {
-    load_raw_data(loadedData, occasion.year, occasion.parliament, false, finalFunction);
+    load_raw_data(loadedData, year, occasion.parliament, false, finalFunction);
   } else if (source == "raw") {
-    load_raw_data(loadedData, occasion.year, occasion.parliament, true, finalFunction);
+    load_raw_data(loadedData, year, occasion.parliament, true, finalFunction);
   } else if (source == "additional") {
-    load_additional_data(loadedData, occasion.year, occasion.parliament, finalFunction);
+    load_additional_data(loadedData, year, occasion.parliament, finalFunction);
   } else {
     console.log("loading of " + source + " not yet implemented");
   }
@@ -428,14 +429,14 @@ function write_metadata(metaData) {
 
   for (var i = 0; i < metaData.occasions.length; i++) { //all WOMs
     var matching = false;
-    if (metaData.occasions[i].year == metaData.loadedData.additional[i].occasion.year &&
+    if (metaData.occasions[i].date.substring(0,4) == metaData.loadedData.additional[i].occasion.year &&
       metaData.occasions[i].parliament == metaData.loadedData.additional[i].occasion.parliament) {
       matching = true;
     }
     document.write("<tr>");
     document.write("<td>" + metaData.loadedData.additional[i].occasion.extraData.title + "</td>");
 
-    document.write("<td>" + metaData.occasions[i].year + "</td>");
+    document.write("<td>" + metaData.occasions[i].date + "</td>");
     document.write("<td>" + metaData.occasions[i].parliament + "</td>");
     document.write("<td>" + metaData.loadedData.additional[i].occasion.extraData.date + "</td>");
     document.write("<td>" + '<a target="_blank" href="https://www.wikidata.org/wiki/' + metaData.occasions[i].wikidata + '">' + metaData.occasions[i].wikidata + "</a></td>");
@@ -448,7 +449,7 @@ function write_metadata(metaData) {
 
     document.write("<td>" + metaData.loadedData.additional[i].occasion.type + "</td>");
 
-    document.write("<td>" + metaData.occasions[i].source + "</td>");
+    document.write("<td>" + metaData.occasions[i].sources + "</td>");
     document.write("<td>" + metaData.loadedData.additional[i].occasion.extraData.data_source + "</td>");
 
     document.write("<td>" + metaData.loadedData.additional[i].occasion.occasion_id + "</td>");
@@ -639,8 +640,14 @@ function normalize_party_name(partyName) {
   return partyName;
 }
 
-function dump_json(mergedData) {
-  document.write(JSON.stringify(mergedData));
+function dump_json(mergedData, part) {
+  var toDump=mergedData
+  if(part=="theses"){
+    toDump=mergedData.allData
+  } else if(part=="parties"){
+    toDump=mergedData.allPartys
+  }
+  document.write(JSON.stringify(toDump));
 }
 
 function dump_csv(mergedData) {

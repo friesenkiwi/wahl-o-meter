@@ -1,57 +1,48 @@
-[{
-  "wikidata": "Q23558949",
-  "year": 2017,
-  "parliament": "niedersachsen",
-  "sources": [
-    "https://wahlswiper.de/swiper",
-    "https://niedersachsen.landeswahlkompass.de/de/v1/statements/",
-    "https://www.kandidatomat.de/index.php?id=10391&tx_kom_pi1[election]=2&tx_kom_pi1[electionDistrict]=9&tx_kom_pi1[step]=1"
-  ]
-},{
+[ {
   "wikidata": "Q697167",
-  "year": 2002,
+  "date": "2002-09-22",
   "parliament": "deutschland",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 3600000
 }, {
   "wikidata": "Q554356",
-  "year": 2003,
+  "date": "2003-09-21",
   "parliament": "bayern",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 97000
 }, {
   "wikidata": "Q639497",
-  "year": 2004,
+  "date": "2004-06-13",
   "parliament": "europa",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 895000
 }, {
   "wikidata": "Q828540",
-  "year": 2004,
+  "date": "2004-09-05",
   "parliament": "saarland",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 38000
 }, {
   "wikidata": "Q1512921",
-  "year": 2004,
+  "date": "2004-09-19",
   "parliament": "sachsen",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 72000
 }, {
   "wikidata": "Q824600",
-  "year": 2005,
+  "date": "2005-02-20",
   "parliament": "schleswig-holstein",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 90000
 }, {
   "wikidata": "Q686765",
-  "year": 2005,
+  "date": "2005-05-22",
   "parliament": "nordrhein-westfalen",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 315000
 }, {
   "wikidata": "Q165999",
-  "year": 2005,
+  "date": "2005-09-18",
   "parliament": "deutschland",
   "sources": [
     "https://www.wen-waehlen.de/archiv-2005.html",
@@ -60,55 +51,55 @@
   "WOM_uses": 5200000
 }, {
   "wikidata": "Q874864",
-  "year": 2006,
+  "date": "2006-03-26",
   "parliament": "sachsen-anhalt",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 47000
 }, {
   "wikidata": "Q822312",
-  "year": 2006,
+  "date": "2006-03-26",
   "parliament": "rheinland-pfalz",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 74000
 }, {
   "wikidata": "Q325315",
-  "year": 2006,
+  "date": "2006-03-26",
   "parliament": "baden-wuerttemberg",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 140000
 }, {
   "wikidata": "Q2539361",
-  "year": 2006,
+  "date": "2006-09-17",
   "parliament": "berlin",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 145000
 }, {
   "wikidata": "Q486916",
-  "year": 2007,
+  "date": "2007-05-13",
   "parliament": "bremen",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 49000
 }, {
   "wikidata": "Q324296",
-  "year": 2008,
+  "date": "2008-01-27",
   "parliament": "niedersachsen",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 215000
 }, {
   "wikidata": "Q836394",
-  "year": 2008,
+  "date": "2008-02-24",
   "parliament": "hamburg",
-  "source": "raw_simple",
+  "sources": ["raw_simple"],
   "WOM_uses": 94000
 }, {
   "wikidata": "Q701068",
-  "year": 2009,
+  "date": "2009-06-07",
   "parliament": "europa",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 1580000
 }, {
   "wikidata": "Q157869",
-  "year": 2009,
+  "date": "2009-09-27",
   "parliament": "deutschland",
   "sources": [
     "https://www.wen-waehlen.de/archiv-2009.htm",
@@ -117,73 +108,73 @@
   "WOM_uses": 6740000
 }, {
   "wikidata": "Q329191",
-  "year": 2010,
+  "date": "2010-05-09",
   "parliament": "nordrhein-westfalen",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 650000
 }, {
   "wikidata": "Q455288",
-  "year": 2011,
+  "date": "2011-02-20",
   "parliament": "hamburg",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 315000
 }, {
   "wikidata": "Q441350",
-  "year": 2011,
+  "date": "2011-03-27",
   "parliament": "rheinland-pfalz",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 310000
 }, {
   "wikidata": "Q509629",
-  "year": 2011,
+  "date": "2011-03-27",
   "parliament": "baden-wuerttemberg",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 985000
 }, {
   "wikidata": "Q441357",
-  "year": 2011,
+  "date": "2011-05-22",
   "parliament": "bremen",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 105000
 }, {
   "wikidata": "Q455275",
-  "year": 2011,
+  "date": "2011-09-18",
   "parliament": "berlin",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 515000
 }, {
   "wikidata": "Q820459",
-  "year": 2012,
+  "date": "2012-03-25",
   "parliament": "saarland",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 170000
 }, {
   "wikidata": "Q455337",
-  "year": 2012,
+  "date": "2012-05-06",
   "parliament": "schleswig-holstein",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 255000
 }, {
   "wikidata": "Q562121",
-  "year": 2012,
+  "date": "2012-05-13",
   "parliament": "nordrhein-westfalen",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 1270000
 }, {
   "wikidata": "Q820632",
-  "year": 2013,
+  "date": "2013-01-20",
   "parliament": "niedersachsen",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 604000
 }, {
   "wikidata": "Q1250713",
-  "year": 2013,
+  "date": "2013-09-15",
   "parliament": "bayern",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 1200000
 }, {
   "wikidata": "Q555931",
-  "year": 2013,
+  "date": "2013-09-22",
   "parliament": "deutschland",
   "sources": [
     "https://apps.opendatacity.de/wahl/data/data.js",
@@ -194,79 +185,79 @@
   "WOM_uses": 13300000
 }, {
   "wikidata": "Q1376107",
-  "year": 2014,
+  "date": "2014-05-25",
   "parliament": "europa",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 3890000
 }, {
   "wikidata": "Q1804173",
-  "year": 2014,
+  "date": "2014-08-31",
   "parliament": "sachsen",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 283000
 }, {
   "wikidata": "Q15709742",
-  "year": 2014,
+  "date": "2014-09-14",
   "parliament": "thueringen",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 107000
 }, {
   "wikidata": "Q12912393",
-  "year": 2014,
+  "date": "2014-09-14",
   "parliament": "brandenburg",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 121000
 }, {
   "wikidata": "Q16054796",
-  "year": 2015,
+  "date": "2015-05-10",
   "parliament": "hamburg",
-  "source": "raw",
+  "sources": ["raw"],
   "WOM_uses": 348000
 }, {
   "wikidata": "Q15905797",
-  "year": 2015,
+  "date": "2015-02-15",
   "parliament": "bremen",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 146000
 }, {
   "wikidata": "Q19288815",
-  "year": 2016,
+  "date": "2016-03-13",
   "parliament": "sachsen-anhalt",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 488000
 }, {
   "wikidata": "Q19273524",
-  "year": 2016,
+  "date": "2016-03-13",
   "parliament": "baden-wuerttemberg",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 1810000
 }, {
   "wikidata": "Q19288813",
-  "year": 2016,
+  "date": "2016-03-13",
   "parliament": "rheinland-pfalz",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 717000
 }, {
   "wikidata": "Q19787659",
-  "year": 2016,
+  "date": "2016-09-18",
   "parliament": "berlin",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 1110000
 }, {
   "wikidata": "Q19818995",
-  "year": 2017,
+  "date": "2017-03-26",
   "parliament": "saarland",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 297000
 }, {
   "wikidata": "Q19962015",
-  "year": 2017,
+  "date": "2017-05-07",
   "parliament": "schleswig-holstein",
-  "source": "additional",
+  "sources": ["additional"],
   "WOM_uses": 563000
 }, {
   "wikidata": "Q1804132",
-  "year": 2017,
+  "date": "2017-05-14",
   "parliament": "nordrhein-westfalen",
   "sources": [
     "https://raw.githubusercontent.com/sheraz24/sheraz24.github.io/master/app/data/demo_de.json",
@@ -275,7 +266,7 @@
   "WOM_uses": 2610000
 }, {
   "wikidata": "Q15062956",
-  "year": 2017,
+  "date": "2017-09-24",
   "parliament": "deutschland",
   "sources": [
     "https://www.sozial-o-mat.de/",

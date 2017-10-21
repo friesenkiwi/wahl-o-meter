@@ -20,7 +20,7 @@
             write_metadata(metaData);
           }
         }
-        load_additional_data(loadedData, occasions[i].year, occasions[i].parliament, finalFunction);
+        load_additional_data(loadedData, occasions[i].date.substring(0, 4), occasions[i].parliament, finalFunction);
       }
     });
   </script>
