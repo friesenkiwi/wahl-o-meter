@@ -23,8 +23,16 @@
     <li><a href="alltheses_direct.html">All Theses (direct from raw data, not allTheses.json)</a></li>
     <li><a href="alltheses_categories.html">All Theses grouped by category</a></li>
     <li><a href="metadata.html">Metadata</a></li>
+    <li><a href="dumpjson_theses.html">Dump JSON (Theses)</a></li>
+    <li><a href="dumpjson_parties.html">Dump JSON (Parties)</a></li>
     <li><a href="dumpjson.html">Dump JSON</a></li>
     <li><a href="dumpcsv.html">Dump CSV</a></li>
+  </ul>
+  <h2>
+    Dokumentation
+  </h2>
+  <ul>
+    <li><a href="docs/web/index.html">JSON Schema</a>
   </ul>
   <h2>
     Verarbeitungs-Werkzeuge
@@ -32,6 +40,17 @@
   <ul>
     <li><a target="_blank" href="http://www.convertcsv.com/csv-to-json.htm">Convert CSV to JSON</a></li>
     <li><a target="_blank" href="https://jsonformatter.org/">JSON Formatter</a></li>
+    <li><a target="_blank" href="https://jsonschemalint.com/#/version/draft-06/markup/json">JSON Schema Linter/Validator</a></li>
+    <li><a target="_blank" href="https://github.com/jessedc/ajv-cli">AJV CLI</a><br />
+      <ol>
+        <li>
+          npm install -g ajv-cli
+        </li>
+        <li>
+          ajv validate -s docs/schemas/occasions.json -d data/occasions.json
+        </li>
+      </ol>
+    </li>
   </ul>
   <h2>Gestaltung</h2>
   <ul>
