@@ -3,7 +3,7 @@
   "id": "https://wahlometer.watch/schemas/occasiondata.json",
   "type": "array",
   "items": {
-    "id": "/occasions",
+    "id": "/occasiondata",
     "required": [
       "occasion",
       "parties",
