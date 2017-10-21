@@ -37,4 +37,17 @@
 }, {
   "name": "GRAUE",
   "matching": ["GRAU"]
+}, {
+  "name": "LKR",
+  "matching": ["ALFA"]
+}, {
+  "name": "BÜNDNIS C",
+  "matching": ["PBC", "AUFBRUCH C"],
+  "otherNames": ["AUF"]
+}, {
+  "name": "FRAUEN",
+  "matching": ["FRAUEN"]
+}, {
+  "name": "DEUTSCHE KONSERVATIVE",
+  "matching": ["ADM"]
 }]

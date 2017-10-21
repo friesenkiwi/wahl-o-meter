@@ -453,7 +453,7 @@ function write_metadata(metaData) {
     document.write("</tr>");
 
   }
-  document.write("<Ttable>");
+  document.write("</table>");
 
 }
 
@@ -630,17 +630,28 @@ function normalize_party_name(partyName) {
     partyName = "PDV";
   } else if (partyName.includes("GRAU")) {
     partyName = "GRAUE";
+  } else if (partyName.includes("PSG")) {
+    partyName = "SGP";
+  } else if (partyName.includes("ALFA")) {
+    partyName = "LKR";
+  } else if (partyName.includes("PBC") || partyName == "AUF" || partyName.includes("AUFBRUCH C") ) {
+    partyName = "BÜNDNIS C";
+  } else if (partyName.includes("FRAUEN")) {
+    partyName = "FRAUEN";
+  } else if (partyName.includes("ADM")) {
+    partyName = "DEUTSCHE KONSERVATIVE";
   }
   return partyName;
 }
 
 function dump_json(mergedData, part) {
   var toDump=mergedData
-  if(part=="occurrencesPerParty"){
+  if(part=="parties"){
     toDump=[];
     for (var normalizedPartyName in mergedData.partyOccurences.perParty) {
-      toDump.push(mergedData.partyOccurences.perParty[normalizedPartyName]);
+      toDump.push({"name":normalizedPartyName, "wikidata":""});
     }
+    console.log(toDump);
   }
   document.write(JSON.stringify(toDump));
 }
