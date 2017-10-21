@@ -30,7 +30,7 @@
         ],
         "id": "/occasions/properties/year",
         "type": "string",
-        "format": "full-date"
+        "format": "date"
       },
       "wikidata_id": {
         "title": "Wikidata ID für den Anlass",
@@ -83,7 +83,7 @@
               "title": "Eindeutige ID der These",
               "description": "Im Format {typ}-{occasion}-{num}, wobei num die Reihenfolge der Thesen in der Quelle spiegelt",
               "examples": [
-                "WOM-03-12",
+                "WOM-03-12"
               ],
               "id": "/occasions/properties/theses/items/properties/id",
               "type": "string"
