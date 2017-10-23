@@ -1,27 +1,34 @@
-// from https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
-function loadJSON(filename, callback) {
-  var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open('GET', filename, true);
-  xobj.onreadystatechange = function() {
-    if (xobj.readyState == 4 && xobj.status == "200") {
-      callback(xobj.responseText);
-    }
-  };
-  xobj.send(null);
-}
+'use strict'
 
-function load_mergedData_json(path, finalFunction) {
-  loadJSON(path, function(response) {
-    var mergedData = JSON.parse(response);
+// Setup module
+var exports = module.exports = {};
 
-    if (finalFunction != undefined) {
-      finalFunction(mergedData);
+var fs = require('fs');
+var vm = require('vm');
+
+const JSON_FILENAME = "../data/export.json";
+
+function load_mergedData_json(path, callback) {
+  fs.readFile(path, 'utf-8', function(err, data) {
+    if (err) {
+      console.error(err);
+    } else {
+      callback(JSON.parse(data));
     }
+  });
+};
+
+exports.dump_json = function(data) {
+  fs.writeFile(JSON_FILENAME, JSON.stringify(data), 'utf8', function (err) {
+    if (err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
   });
 }
 
-function load_data_by_occasionfile(occasionFile, finalFunction) {
+exports.load_data_by_occasionfile = function(occasionFile, finalFunction) {
   var usedFinalFunction = undefined;
   var usedFinalSourceFunction = undefined;
 
@@ -29,7 +36,8 @@ function load_data_by_occasionfile(occasionFile, finalFunction) {
     raw: [],
     additional: []
   };
-  loadJSON(occasionFile, function(response) {
+  fs.readFile(occasionFile, 'utf-8', function(err, response) {
+    // TODO: Handle err
     var occasions = JSON.parse(response);
     for (var i = 0; i < occasions.length; i++) {
       if (i == occasions.length - 1) {
@@ -49,130 +57,7 @@ function load_data_by_occasionfile(occasionFile, finalFunction) {
   });
 }
 
-function load_source(source, loadedData, occasion, finalFunction) {
-  if (source == "raw_simple") {
-    load_raw_data(loadedData, occasion.year, occasion.parliament, false, finalFunction);
-  } else if (source == "raw") {
-    load_raw_data(loadedData, occasion.year, occasion.parliament, true, finalFunction);
-  } else if (source == "additional") {
-    load_additional_data(loadedData, occasion.year, occasion.parliament, finalFunction);
-  } else {
-    console.log("loading of " + source + " not yet implemented");
-  }
-}
-
-function load_raw_data(loadedData, year, parliament, loadStatements, finalFunction) {
-  var path = "data/wahlomat_" + year + "_" + parliament + "/";
-
-  if (loadStatements) {
-    loadJSON(path + "module_definition.js", function(response_basic) {
-      loadJSON(path + "module_definition_statements.js", function(response_statements) {
-        loadedData.raw.push(wahlomat_collect_json(year, parliament, response_basic, response_statements));
-      });
-    });
-  } else {
-    loadJSON(path + "module_definition.js", function(response_basic) {
-      loadedData.raw.push(wahlomat_collect_json(year, parliament, response_basic));
-    });
-  }
-}
-
-function load_additional_data(loadedData, year, parliament, finalFunction) {
-  var folder = parliament.replace("-", "");
-  var path = "data/additional/" + year + "/" + folder + "/";
-
-  loadJSON(path + "overview.json", function(response) {
-    var overviewData = JSON.parse(response);
-    loadJSON(path + "party.json", function(response) {
-      var partyData = JSON.parse(response);
-      loadJSON(path + "statement.json", function(response) {
-        var statementData = JSON.parse(response);
-        loadJSON(path + "opinion.json", function(response) {
-          var opinionData = JSON.parse(response);
-          loadJSON(path + "answer.json", function(response) {
-            var answerData = JSON.parse(response);
-            loadJSON(path + "comment.json", function(response) {
-              var commentData = JSON.parse(response);
-              var occasionID = 0;
-              if (loadedData.raw != undefined && loadedData.raw[loadedData.raw.length - 1] != undefined) {
-                occasionID = Number(loadedData.raw[loadedData.raw.length - 1].occasion.occasion_id);
-              }
-              if (loadedData.additional != undefined && loadedData.additional[loadedData.additional.length - 1] != undefined) {
-                occasionID = Number(loadedData.additional[loadedData.additional.length - 1].occasion.occasion_id);
-              }
-              occasionID++;
-              var additionalData = {
-                "occasion": {
-                  "occasion_id": occasionID,
-                  "type": "Wahl-O-Mat",
-                  "year": overviewData.date.substring(0, 4),
-                  "parliament": parliament
-                },
-                "overview": overviewData,
-                "partyData": partyData,
-                "statementData": statementData,
-                "opinionData": opinionData,
-                "answerData": answerData,
-                "commentData": commentData
-              };
-              loadedData.additional.push(convert_additional_data(additionalData));
-
-              if (finalFunction != undefined) {
-                finalFunction(loadedData);
-              }
-            });
-          });
-        });
-      });
-    });
-  });
-}
-
-function load_categorization_and_finalize(mergedData) {
-  loadJSON('data/theses_categories.json', function(response) {
-    theses_categories = JSON.parse(response);
-    var categorizedData = categorize_theses(mergedData, theses_categories);
-    var crunchedCategorizedData = crunch_party_occurences(categorizedData);
-    console.log(crunchedCategorizedData);
-    write_categorized(crunchedCategorizedData);
-  });
-}
-
-function wahlomat_collect_json(year, parliament, response_basic, response_statements) {
-  eval(response_basic);
-  if (response_statements != undefined) {
-    eval(response_statements);
-  }
-
-  var collectedData = {
-    "occasion": {
-      "occasion_id": WAHLOMATEN_ID,
-      "type": "Wahl-O-Mat",
-      "year": year,
-      "parliament": parliament,
-      "extraData": {
-        "texts": WOMT_aTexte
-      }
-    },
-    "theses": {
-      "theses": WOMT_aThesen,
-      "topics": WOMT_aThemen,
-      "theses_topics": WOMT_aThesenThema
-    },
-    "positions": {
-      "positions": WOMT_aThesenParteien,
-      "positionTexts": WOMT_aThesenParteienText
-    },
-    "partys": {
-      "partys": WOMT_aParteien,
-      "web": WOMT_aParteienURL
-    }
-  };
-
-  return collectedData;
-}
-
-function wahlomat_convert_theses(collectedData) {
+exports.wahlomat_convert_theses = function(collectedData) {
   var convertedData = [];
   var curWOM;
   var currentThesis = {}; //converted
@@ -200,7 +85,7 @@ function wahlomat_convert_theses(collectedData) {
   return convertedData;
 }
 
-function merge_positions(finalConvertedData) {
+exports.merge_positions = function(finalConvertedData) {
   var allPartys = Array();
   for (var i = 0; i < finalConvertedData.length; i++) {
     allPartys.push(finalConvertedData[i].partys.partys);
@@ -242,6 +127,140 @@ function merge_positions(finalConvertedData) {
   return mergedData;
 }
 
+function load_source(source, loadedData, occasion, finalFunction) {
+  if (source == "raw_simple") {
+    load_raw_data(loadedData, occasion.year, occasion.parliament, false, finalFunction);
+  } else if (source == "raw") {
+    load_raw_data(loadedData, occasion.year, occasion.parliament, true, finalFunction);
+  } else if (source == "additional") {
+    load_additional_data(loadedData, occasion.year, occasion.parliament, finalFunction);
+  } else {
+    console.log("loading of " + source + " not yet implemented");
+  }
+}
+
+function load_raw_data(loadedData, year, parliament, loadStatements, finalFunction) {
+  var path = "../data/wahlomat_" + year + "_" + parliament + "/";
+
+  if (loadStatements) {
+    fs.readFile(path + "module_definition.js", 'utf-8', function(err, response_basic) {
+      fs.readFile(path + "module_definition_statements.js", 'utf-8', function(err, response_statements) {
+        loadedData.raw.push(wahlomat_collect_json(year, parliament, response_basic, response_statements));
+      });
+    });
+  } else {
+    fs.readFile(path + "module_definition.js", 'utf-8', function(err, response_basic) {
+      loadedData.raw.push(wahlomat_collect_json(year, parliament, response_basic));
+    });
+  }
+}
+
+function load_additional_data(loadedData, year, parliament, finalFunction) {
+  var folder = parliament.replace("-", "");
+  var path = "../data/additional/" + year + "/" + folder + "/";
+
+  console.log(path);
+
+  fs.readFile(path + "overview.json", 'utf-8', function(err, response) {
+    var overviewData = JSON.parse(response);
+    fs.readFile(path + "party.json", 'utf-8', function(err, response) {
+      var partyData = JSON.parse(response);
+      fs.readFile(path + "statement.json", 'utf-8', function(err, response) {
+        var statementData = JSON.parse(response);
+        fs.readFile(path + "opinion.json", 'utf-8', function(err, response) {
+          var opinionData = JSON.parse(response);
+          fs.readFile(path + "answer.json", 'utf-8', function(err, response) {
+            var answerData = JSON.parse(response);
+            fs.readFile(path + "comment.json", 'utf-8', function(err, response) {
+              var commentData = JSON.parse(response);
+              var occasionID = 0;
+              if (loadedData.raw != undefined && loadedData.raw[loadedData.raw.length - 1] != undefined) {
+                occasionID = Number(loadedData.raw[loadedData.raw.length - 1].occasion.occasion_id);
+              }
+              if (loadedData.additional != undefined && loadedData.additional[loadedData.additional.length - 1] != undefined) {
+                occasionID = Number(loadedData.additional[loadedData.additional.length - 1].occasion.occasion_id);
+              }
+              occasionID++;
+              var additionalData = {
+                "occasion": {
+                  "occasion_id": occasionID,
+                  "type": "Wahl-O-Mat",
+                  "year": overviewData.date.substring(0, 4),
+                  "parliament": parliament
+                },
+                "overview": overviewData,
+                "partyData": partyData,
+                "statementData": statementData,
+                "opinionData": opinionData,
+                "answerData": answerData,
+                "commentData": commentData
+              };
+              loadedData.additional.push(convert_additional_data(additionalData));
+
+              if (finalFunction != undefined) {
+                finalFunction(loadedData);
+              }
+            });
+          });
+        });
+      });
+    });
+  });
+}
+
+function load_categorization_and_finalize(mergedData) {
+  fs.readFile('../data/theses_categories.json', 'utf-8', function(response) {
+    theses_categories = JSON.parse(response);
+    var categorizedData = categorize_theses(mergedData, theses_categories);
+    var crunchedCategorizedData = crunch_party_occurences(categorizedData);
+    console.log(crunchedCategorizedData);
+    write_categorized(crunchedCategorizedData);
+  });
+}
+
+function wahlomat_collect_json(year, parliament, response_basic, response_statements) {
+
+  const wom_script = new vm.Script(response_basic + "\n" + response_statements);
+  const sandbox = {};
+  const context = vm.createContext(sandbox);
+  wom_script.runInContext(context);
+
+  // eval(response_basic);
+  // if (response_statements != undefined) {
+  //   eval(response_statements);
+  // }
+
+
+  var collectedData = {
+    "occasion": {
+      "occasion_id": sandbox.WAHLOMATEN_ID,
+      "type": "Wahl-O-Mat",
+      "year": year,
+      "parliament": parliament,
+      "extraData": {
+        "texts": sandbox.WOMT_aTexte
+      }
+    },
+    "theses": {
+      "theses": sandbox.WOMT_aThesen,
+      "topics": sandbox.WOMT_aThemen,
+      "theses_topics": sandbox.WOMT_aThesenThema
+    },
+    "positions": {
+      "positions": sandbox.WOMT_aThesenParteien,
+      "positionTexts": sandbox.WOMT_aThesenParteienText
+    },
+    "partys": {
+      "partys": sandbox.WOMT_aParteien,
+      "web": sandbox.WOMT_aParteienURL
+    }
+  };
+
+  return collectedData;
+}
+
+
+
 function convert_additional_data(additionalData) {
   var currentData;
 
@@ -269,7 +288,7 @@ function convert_additional_data(additionalData) {
   }
   var positionTexts = [];
   for (var t = 0; t < additionalData.commentData.length; t++) {
-    opinion = additionalData.opinionData[additionalData.commentData[t].opinion];
+    var opinion = additionalData.opinionData[additionalData.commentData[t].opinion];
     if (positionTexts[opinion.statement] == undefined) {
       positionTexts[opinion.statement] = [];
     }
@@ -637,10 +656,6 @@ function normalize_party_name(partyName) {
     partyName = "GRAUE";
   }
   return partyName;
-}
-
-function dump_json(mergedData) {
-  document.write(JSON.stringify(mergedData));
 }
 
 function dump_csv(mergedData) {
