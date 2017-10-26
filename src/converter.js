@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 // Setup module
 var exports = module.exports = {};
@@ -16,10 +16,10 @@ function load_mergedData_json(path, callback) {
       callback(JSON.parse(data));
     }
   });
-};
+}
 
 exports.dump_json = function(data, part) {
-  var toDump = data;
+  let toDump = data;
   if (part == "parties") {
     toDump = [];
     for (var normalizedPartyName in mergedData.partyOccurences.perParty) {
@@ -39,7 +39,7 @@ exports.dump_json = function(data, part) {
   });
 }
 
-exports.load_data_by_occasionfile = function(occasionFile, options, finalFunction) {
+exports.load_data_by_occasionfile = function(occasionFile, finalFunction) {
   var usedFinalFunction = undefined;
   var usedFinalSourceFunction = undefined;
 
@@ -59,8 +59,7 @@ exports.load_data_by_occasionfile = function(occasionFile, options, finalFunctio
         if (usedFinalFunction != undefined && s == occasions[i].sources.length - 1) {
           usedFinalSourceFunction = usedFinalFunction;
         }
-        load_source(occasions[i].sources[s], loadedData, occasions[i],
-          usedFinalSourceFunction, options.verbose);
+        load_source(occasions[i].sources[s], loadedData, occasions[i], usedFinalSourceFunction);
       }
 
     }
@@ -137,7 +136,7 @@ exports.merge_positions = function(finalConvertedData) {
   return mergedData;
 }
 
-function load_source(source, loadedData, occasion, finalFunction, verbose) {
+function load_source(source, loadedData, occasion, finalFunction) {
   if (source == "raw_simple") {
     load_raw_data(loadedData, occasion, false, finalFunction);
   } else if (source == "raw") {
@@ -145,7 +144,9 @@ function load_source(source, loadedData, occasion, finalFunction, verbose) {
   } else if (source == "additional") {
     load_additional_data(loadedData, occasion, finalFunction);
   } else {
-    if (verbose) console.log("Loading of " + source + " not yet implemented");
+    if (global.argv.verbose) {
+      console.log("Loading of " + source + " not yet implemented");
+    }
   }
 }
 

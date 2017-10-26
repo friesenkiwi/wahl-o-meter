@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 const fs = require('fs');
 const path = require('path');
@@ -12,48 +12,43 @@ var moptions;
 module.exports = {};
 
 
-module.exports.categories = function(data, options) {
-  moptions = options;
+module.exports.categories = function(data) {
   console.log("Categories export not supported yet");
 };
 
 
-module.exports.occasiondata = function(data, options) {
-  moptions = options;
+module.exports.occasiondata = function(data) {
   write_to_disk(
-    stringify(data.occasions, options.csv),
-    "occasionsdata" + (options.csv ? ".csv" : ".json")
+    stringify(data.occasions, global.argv.csv),
+    "occasionsdata" + (global.argv.csv ? ".csv" : ".json")
   );
 };
 
 
-module.exports.occasions = function(data, options) {
-  moptions = options;
+module.exports.occasions = function(data) {
   // Remove theses from occasion data
   const occasions = data.occasions.map(occasion => occasion.occasion);
   write_to_disk(stringify(occasions), "occasions.json");
 };
 
 
-module.exports.parties = function(data, options) {
-  moptions = options;
+module.exports.parties = function(data) {
   write_to_disk(stringify(data.parties), "parties.json");
 };
 
 
-module.exports.theses_categories = function(data, options) {
-  moptions = options;
+module.exports.theses_categories = function(data) {
   console.log("Theses_categories export not supported yet")
 };
 
 
 function write_to_disk(out, fname) {
-  const fpath = path.join(moptions.target, fname);
-  fs.writeFile(fpath, out, 'utf8', function (err) {
+  const fpath = path.join(global.argv.target, fname);
+  fs.writeFile(fpath, out, 'utf8', function(err) {
     if (err) {
       console.log("Error writing " + fpath + "\n" + err);
     } else {
-      if (moptions.verbose) console.log("File " + fpath + " saved");
+      if (global.argv.verbose) console.log("File " + fpath + " saved");
     }
   });
 };
