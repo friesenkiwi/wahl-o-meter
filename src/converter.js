@@ -28,10 +28,9 @@ exports.dump_json = function(data, part) {
         "wikidata": ""
       });
     }
-    console.log(toDump);
   }
 
-  fs.writeFile(JSON_FILENAME, JSON.stringify(toDump), 'utf8', function (err) {
+  fs.writeFile(JSON_FILENAME, JSON.stringify(toDump, null, 2), 'utf8', function (err) {
     if (err) {
         return console.log(err);
     }
@@ -40,7 +39,7 @@ exports.dump_json = function(data, part) {
   });
 }
 
-exports.load_data_by_occasionfile = function(occasionFile, finalFunction) {
+exports.load_data_by_occasionfile = function(occasionFile, options, finalFunction) {
   var usedFinalFunction = undefined;
   var usedFinalSourceFunction = undefined;
 
@@ -49,7 +48,8 @@ exports.load_data_by_occasionfile = function(occasionFile, finalFunction) {
     additional: []
   };
   fs.readFile(occasionFile, 'utf-8', function(err, response) {
-    // TODO: Handle err
+    if (err) console.log("Error loading occasions from disk\n" + err);
+
     var occasions = JSON.parse(response);
     for (var i = 0; i < occasions.length; i++) {
       if (i == occasions.length - 1) {
@@ -59,7 +59,8 @@ exports.load_data_by_occasionfile = function(occasionFile, finalFunction) {
         if (usedFinalFunction != undefined && s == occasions[i].sources.length - 1) {
           usedFinalSourceFunction = usedFinalFunction;
         }
-        load_source(occasions[i].sources[s], loadedData, occasions[i], usedFinalSourceFunction);
+        load_source(occasions[i].sources[s], loadedData, occasions[i],
+          usedFinalSourceFunction, options.verbose);
       }
 
     }
@@ -97,7 +98,6 @@ exports.wahlomat_convert_theses = function(collectedData) {
 exports.merge_positions = function(finalConvertedData) {
   var allParties = Array();
   for (var i = 0; i < finalConvertedData.length; i++) {
-    console.log(finalConvertedData[i].parties);
     allParties.push(finalConvertedData[i].parties);
 
     for (var j = 0; j < finalConvertedData[i].theses.length; j++) {
@@ -131,13 +131,13 @@ exports.merge_positions = function(finalConvertedData) {
     finalConvertedData[i].occasion.title = normalize_election_name(finalConvertedData[i].occasion);
   }
   var mergedData = {
-    "allData": finalConvertedData,
-    "allParties": allParties
+    "occasions": finalConvertedData,
+    "parties": allParties
   };
   return mergedData;
 }
 
-function load_source(source, loadedData, occasion, finalFunction) {
+function load_source(source, loadedData, occasion, finalFunction, verbose) {
   if (source == "raw_simple") {
     load_raw_data(loadedData, occasion, false, finalFunction);
   } else if (source == "raw") {
@@ -145,7 +145,7 @@ function load_source(source, loadedData, occasion, finalFunction) {
   } else if (source == "additional") {
     load_additional_data(loadedData, occasion, finalFunction);
   } else {
-    console.log("loading of " + source + " not yet implemented");
+    if (verbose) console.log("Loading of " + source + " not yet implemented");
   }
 }
 
@@ -169,22 +169,23 @@ function load_additional_data(loadedData, occasion, finalFunction) {
   var folder = occasion.territory.replace("-", "");
   var path = "../data/additional/" + occasion.date.substring(0, 4) + "/" + folder + "/";
 
-  console.log("A: " + path);
-
   fs.readFile(path + "overview.json", 'utf-8', function(err, response) {
-    if (err) {
-      console.log(err);
-    }
+    if (err) console.log(path + "overview.json\n" + err);
     var overviewData = JSON.parse(response);
     fs.readFile(path + "party.json", 'utf-8', function(err, response) {
+      if (err) console.log(path + "party.json\n" + err);
       var partyData = JSON.parse(response);
       fs.readFile(path + "statement.json", 'utf-8', function(err, response) {
+        if (err) console.log(path + "statement.json\n" + err);
         var statementData = JSON.parse(response);
         fs.readFile(path + "opinion.json", 'utf-8', function(err, response) {
+          if (err) console.log(path + "opinion.json\n" + err);
           var opinionData = JSON.parse(response);
           fs.readFile(path + "answer.json", 'utf-8', function(err, response) {
+            if (err) console.log(path + "answer.json\n" + err);
             var answerData = JSON.parse(response);
             fs.readFile(path + "comment.json", 'utf-8', function(err, response) {
+              if (err) console.log(path + "comment.json\n" + err);
               var commentData = JSON.parse(response);
               var occasionID = 0;
               if (loadedData.raw != undefined && loadedData.raw[loadedData.raw.length - 1] != undefined) {
@@ -227,7 +228,6 @@ function load_categorization_and_finalize(mergedData) {
     theses_categories = JSON.parse(response);
     var categorizedData = categorize_theses(mergedData, theses_categories);
     var crunchedCategorizedData = crunch_party_occurences(categorizedData);
-    console.log(crunchedCategorizedData);
     write_categorized(crunchedCategorizedData);
   });
 }
@@ -398,7 +398,7 @@ function convert_additional_data(additionalData) {
   return currentData;
 }
 
-function crunch_party_occurences(reallyAllData) {
+exports.crunch_party_occurences = function(reallyAllData) {
   var partyName = "";
   var partyOccurencesPerParty = [];
   var partyOccurences = [];
@@ -407,6 +407,7 @@ function crunch_party_occurences(reallyAllData) {
 
   var curPartyGlobalNum = -1;
   var curPartyOccurence = {};
+
   for (var i = 0; i < reallyAllData.occasions.length; i++) {
     for (var p = 0; p < reallyAllData.occasions[i].parties.length; p++) {
       partyName = normalize_party_name(reallyAllData.occasions[i].parties[p].name);
@@ -558,12 +559,9 @@ function write_metadata(metaData) {
 }
 
 function write_parties(reallyAllData) {
-  console.log(reallyAllData.partyMeta);
-
   document.write("<table>");
   for (var p = 0; p < reallyAllData.partyMeta.length; p++) { //all parties
     var occurences = reallyAllData.partyOccurences.perParty[reallyAllData.partyMeta[p].name];
-    console.log(occurences);
     document.write("<tr>");
     document.write("<td>" + occurences.col + "</td>");
     document.write("<td>" + reallyAllData.partyMeta[p].name + "</td>");
