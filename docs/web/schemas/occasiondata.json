@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "https://wahlometer.watch/schemas/occasiondata.json",
+  "type": "array",
+  "items": {
+    "id": "/occasiondata",
+    "required": [
+      "occasion",
+      "parties",
+      "theses"
+    ],
+    "type": "object",
+    "properties": {
+      "occasion": {
+        "title": "Rahmendaten des Anlasses",
+        "type": "object",
+        "required": [
+          "title",
+          "type",
+          "date",
+          "wikidata",
+          "territory"
+        ],
+        "properties": {
+          "title": {
+            "title": "Name des Anlasses",
+            "examples": [
+              "Landtagswahl Saarland 2004",
+              "Wahl der Bremischen Bürgerschaft 2007"
+            ],
+            "id": "/occasiondata/occasion/title",
+            "type": "string"
+          },
+          "type": {
+            "title": "Art der Daten",
+            "description": "Rahmen, in dem die Positionen bezogen wurden.",
+            "examples": [
+              "Wahl-o-Mat"
+            ],
+            "id": "/occasiondata/occasion/type",
+            "type": "string"
+          },
+          "date": {
+            "title": "Datum des Anlasses",
+            "examples": [
+              "2002-05-03"
+            ],
+            "id": "/occasiondata/occasion/date",
+            "type": "string",
+            "format": "date"
+          },
+          "wikidata": {
+            "title": "Wikidata-ID des Anlasses",
+            "examples": [
+              "Q49762"
+            ],
+            "id": "/occasiondata/occasion/wikidata",
+            "type": "string"
+          },
+          "territory": {
+            "title": "Territorium, um das es bei dem Anlass geht.",
+            "examples": [
+              "deutschland",
+              "baden-wuerttemberg",
+              "europa"
+            ],
+            "id": "/occasiondata/occasion/territory",
+            "type": "string"
+          }
+        }
+      },
+      "parties": {
+        "id": "/occasiondata/parties",
+        "description": "Parteien, die zu dem Anlass Positionen bezogen haben.",
+        "type": "array",
+        "items": {
+          "id": "/occasiondata/parties/items",
+          "type": "object",
+          "required": [
+            "name",
+            "longname"
+          ],
+          "properties": {
+            "name": {
+              "title": "Name der Partei",
+              "description": "Dies ist die Kurzform des Namens der Partei",
+              "examples": [
+                "CDU",
+                "Grüne"
+              ],
+              "id": "/occasiondata/parties/items/properties/name",
+              "type": "string"
+            },
+            "longname": {
+              "title": "Name der Partei",
+              "description": "Dies ist die geläufige Langform des Namens der Partei",
+              "examples": [
+                "Sozialdemokratische Partei Deutschlands"
+              ],
+              "id": "/occasiondata/parties/items/properties/longname",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "theses": {
+        "id": "/occasiondata/theses",
+        "description": "Thesen in Reihenfolge der Quelldaten",
+        "type": "array",
+        "items": {
+          "id": "/occasiondata/theses/items",
+          "type": "object",
+          "required": [
+            "text",
+            "id",
+            "positions"
+          ],
+          "properties": {
+            "text": {
+              "title": "Thesentext",
+              "description": "Voller Text der These",
+              "examples": [
+                "Die Gemeinschaftsschulzeit soll von vier auf sechs Jahre erhöht werden.",
+                "Mehr \"Hilfs-Sheriffs\" auf den Straßen!"
+              ],
+              "id": "/occasiondata/theses/items/properties/text",
+              "type": "string"
+            },
+            "title": {
+              "title": "Kurztitel",
+              "description": "Kurzname der These in einem Wort",
+              "examples": [
+                "Tempolimit",
+                "Kohlekraftwerk"
+              ],
+              "id": "/occasiondata/theses/items/properties/title",
+              "type": "string"
+            },
+            "id": {
+              "title": "Eindeutige ID der These",
+              "description": "Im Format {typ}-{occasion}-{num}, wobei num die Reihenfolge der Thesen in der Quelle spiegelt",
+              "examples": [
+                "WOM-03-12"
+              ],
+              "id": "/occasiondata/theses/items/properties/id",
+              "type": "string"
+            },
+            "positions": {
+              "id": "/occasiondata/theses/items/properties/positions",
+              "type": "array",
+              "items": {
+                "id": "/occasiondata/theses/items/properties/positions/items",
+                "type": "object",
+                "required": [
+                  "value",
+                  "party"
+                ],
+                "properties": {
+                  "value": {
+                    "title": "Bewertung der These",
+                    "id": "/occasiondata/theses/items/properties/positions/items/properties/value",
+                    "type": "integer",
+                    "enum": [
+                      -1,
+                      0,
+                      1
+                    ],
+                    "description": "Bewertung der These mit Ablehnung (-1), neutral (0), oder Zustimmung (+1)"
+                  },
+                  "party": {
+                    "title": "Partei",
+                    "description": "Kurzform des Parteinamens",
+                    "id": "/occasiondata/theses/items/properties/positions/items/properties/party",
+                    "type": "string",
+                    "examples": [
+                      "CDU",
+                      "SPD"
+                    ]
+                  },
+                  "text": {
+                    "title": "Ergänzende Erklärung der Bewertung",
+                    "id": "/occasiondata/theses/items/properties/positions/items/properties/explanation",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

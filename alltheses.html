@@ -12,7 +12,9 @@
     load_mergedData_json("data/allThesesDataPRELIMINARY.json", function(mergedData) {
       console.log(mergedData);
 
-      reallyAllData = crunch_party_occurences(mergedData);
+      reallyAllData = crunch_party_occurences({
+        "occasions": mergedData
+      });
       console.log(reallyAllData);
 
       write_simple(reallyAllData);

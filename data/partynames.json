@@ -1,0 +1,53 @@
+[{
+  "name": "GRÜNE",
+  "matching": ["GRÜNE", "GR&UUML;NE"]
+}, {
+  "name": "FREIE WÄHLER",
+  "matching": ["FREIE WÄHLER", "FREIE W&AUML;HLER", "FBI", "FWD"]
+}, {
+  "name": "CDU/CSU",
+  "matching": ["CDU", "CSU"]
+}, {
+  "name": "DIE LINKE",
+  "matching": ["DIE LINKE", "PDS", "WASG"]
+}, {
+  "name": "PRO",
+  "matching": ["PRO "]
+}, {
+  "name": "DIE FREIHEIT",
+  "matching": ["FREIHEIT"]
+}, {
+  "name": "NPD",
+  "matching": ["DVU"]
+}, {
+  "name": "TIERSCHUTZPARTEI",
+  "matching": ["TIERSCHUTZPARTEI"]
+}, {
+  "name": "ADD",
+  "matching": ["ALLIANZ DEUTSCHER DEMOKRATEN", "AD-DEMOKRATEN"]
+}, {
+  "name": "B*",
+  "otherNames": ["B"]
+}, {
+  "name": "BÜNDNIS 21/RRP",
+  "matching": ["RRP"]
+}, {
+  "name": "PDV",
+  "matching": ["PARTEI DER VERNUNFT"]
+}, {
+  "name": "GRAUE",
+  "matching": ["GRAU"]
+}, {
+  "name": "LKR",
+  "matching": ["ALFA"]
+}, {
+  "name": "BÜNDNIS C",
+  "matching": ["PBC", "AUFBRUCH C"],
+  "otherNames": ["AUF"]
+}, {
+  "name": "FRAUEN",
+  "matching": ["FRAUEN"]
+}, {
+  "name": "DEUTSCHE KONSERVATIVE",
+  "matching": ["ADM"]
+}]
