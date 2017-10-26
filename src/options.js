@@ -44,7 +44,7 @@ const optionDescriptions = [
 {
   name: 'target',
   alias: 't',
-  description: 'Target directory for saving files. Default is `../data/`.',
+  description: 'Target directory for saving files. Default is `../export/`.',
   type: String
 },
 {
