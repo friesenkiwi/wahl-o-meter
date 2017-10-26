@@ -7,9 +7,8 @@ const getUsage = require('command-line-usage');
 const options = require('./options.js');
 const converter = require('./converter.js');
 const exporter = require('./exporter.js');
-const path = require('path');
 
-// Command line options definition
+// Read command line options and make available on `global.argv`
 global.argv = commandLineArgs(options.commandLineOptions);
 
 // Command line options usage description
