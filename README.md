@@ -4,6 +4,29 @@ Digging up the data treasure of the Wahl-O-Mat
 
 This repository contains a project to make the data of the German [Wahl-O-Mat](https://www.bpb.de/politik/wahlen/wahl-o-mat/) available.
 
+## Setup
+
+Node.js installieren: [Download](https://nodejs.org/)
+
+Git repo klonen und Git Submodules installieren
+
+    $ git submodule init && git submodule update
+
+Im Repository Root:
+
+    $ npm install
+
+Ins Verzeichnis `src` wechseln und dort
+
+    $ node main.js --help
+
+Um eine Nutzlungsanleitung anzuzeigen, oder
+
+    $ node main.js
+
+um alle Datensätze als JSON zu exportieren.
+
+
 ## Ursprung
 
 Das Projekt wurde im Rahmen des Checkin Köln der Reihe [Wahlsalons](https://codefor.de/wahlsalons/) der Initiative Code for Germany des Open Knowledge Foundation Deutschland e.V. Anfang Juli 2017 gestartet.

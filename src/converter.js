@@ -1,27 +1,45 @@
-// from https://codepen.io/KryptoniteDove/post/load-json-file-locally-using-pure-javascript
-function loadJSON(filename, callback) {
-  var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open('GET', filename, true);
-  xobj.onreadystatechange = function() {
-    if (xobj.readyState == 4 && xobj.status == "200") {
-      callback(xobj.responseText);
-    }
-  };
-  xobj.send(null);
-}
+"use strict";
 
-function load_mergedData_json(path, finalFunction) {
-  loadJSON(path, function(response) {
-    var mergedData = JSON.parse(response);
+// Setup module
+var exports = module.exports = {};
 
-    if (finalFunction != undefined) {
-      finalFunction(mergedData);
+var fs = require('fs');
+var vm = require('vm');
+
+const JSON_FILENAME = "../data/export.json";
+
+function load_mergedData_json(path, callback) {
+  fs.readFile(path, 'utf-8', function(err, data) {
+    if (err) {
+      console.error(err);
+    } else {
+      callback(JSON.parse(data));
     }
   });
 }
 
-function load_data_by_occasionfile(occasionFile, finalFunction) {
+exports.dump_json = function(data, part) {
+  let toDump = data;
+  if (part == "parties") {
+    toDump = [];
+    for (var normalizedPartyName in mergedData.partyOccurences.perParty) {
+      toDump.push({
+        "name": normalizedPartyName,
+        "wikidata": ""
+      });
+    }
+  }
+
+  fs.writeFile(JSON_FILENAME, JSON.stringify(toDump, null, 2), 'utf8', function (err) {
+    if (err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+  });
+}
+
+exports.load_data_by_occasionfile = function(occasionFile, finalFunction) {
   var usedFinalFunction = undefined;
   var usedFinalSourceFunction = undefined;
 
@@ -29,7 +47,9 @@ function load_data_by_occasionfile(occasionFile, finalFunction) {
     raw: [],
     additional: []
   };
-  loadJSON(occasionFile, function(response) {
+  fs.readFile(occasionFile, 'utf-8', function(err, response) {
+    if (err) console.log("Error loading occasions from disk\n" + err);
+
     var occasions = JSON.parse(response);
     for (var i = 0; i < occasions.length; i++) {
       if (i == occasions.length - 1) {
@@ -54,21 +74,23 @@ function load_source(source, loadedData, occasion, finalFunction) {
   } else if (source == "additional") {
     load_additional_data(loadedData, occasion, finalFunction);
   } else {
-    console.log("loading of " + source + " not yet implemented");
+    if (global.argv.verbose) {
+      console.log("Loading of " + source + " not yet implemented");
+    }
   }
 }
 
 function load_raw_data(loadedData, occasion, loadStatements, finalFunction) {
-  var path = "data/wahlomat_" + occasion.date.substring(0, 4) + "_" + occasion.territory + "/";
+  var path = "../data/wahlomat_" + occasion.date.substring(0, 4) + "_" + occasion.territory + "/";
 
   if (loadStatements) {
-    loadJSON(path + "module_definition.js", function(response_basic) {
-      loadJSON(path + "module_definition_statements.js", function(response_statements) {
+    fs.readFile(path + "module_definition.js", 'utf-8', function(err, response_basic) {
+      fs.readFile(path + "module_definition_statements.js", 'utf-8', function(err, response_statements) {
         loadedData.raw.push(wahlomat_collect_json(occasion, response_basic, response_statements));
       });
     });
   } else {
-    loadJSON(path + "module_definition.js", function(response_basic) {
+    fs.readFile(path + "module_definition.js", 'utf-8', function(err, response_basic) {
       loadedData.raw.push(wahlomat_collect_json(occasion, response_basic));
     });
   }
@@ -76,19 +98,25 @@ function load_raw_data(loadedData, occasion, loadStatements, finalFunction) {
 
 function load_additional_data(loadedData, occasion, finalFunction) {
   var folder = occasion.territory.replace("-", "");
-  var path = "data/additional/" + occasion.date.substring(0, 4) + "/" + folder + "/";
+  var path = "../data/additional/" + occasion.date.substring(0, 4) + "/" + folder + "/";
 
-  loadJSON(path + "overview.json", function(response) {
+  fs.readFile(path + "overview.json", 'utf-8', function(err, response) {
+    if (err) console.log(path + "overview.json\n" + err);
     var overviewData = JSON.parse(response);
-    loadJSON(path + "party.json", function(response) {
+    fs.readFile(path + "party.json", 'utf-8', function(err, response) {
+      if (err) console.log(path + "party.json\n" + err);
       var partyData = JSON.parse(response);
-      loadJSON(path + "statement.json", function(response) {
+      fs.readFile(path + "statement.json", 'utf-8', function(err, response) {
+        if (err) console.log(path + "statement.json\n" + err);
         var statementData = JSON.parse(response);
-        loadJSON(path + "opinion.json", function(response) {
+        fs.readFile(path + "opinion.json", 'utf-8', function(err, response) {
+          if (err) console.log(path + "opinion.json\n" + err);
           var opinionData = JSON.parse(response);
-          loadJSON(path + "answer.json", function(response) {
+          fs.readFile(path + "answer.json", 'utf-8', function(err, response) {
+            if (err) console.log(path + "answer.json\n" + err);
             var answerData = JSON.parse(response);
-            loadJSON(path + "comment.json", function(response) {
+            fs.readFile(path + "comment.json", 'utf-8', function(err, response) {
+              if (err) console.log(path + "comment.json\n" + err);
               var commentData = JSON.parse(response);
               var occasionID = 0;
               if (loadedData.raw != undefined && loadedData.raw[loadedData.raw.length - 1] != undefined) {
@@ -127,48 +155,48 @@ function load_additional_data(loadedData, occasion, finalFunction) {
 }
 
 function load_categorization_and_finalize(mergedData) {
-  loadJSON('data/theses_categories.json', function(response) {
+  fs.readFile('../data/theses_categories.json', 'utf-8', function(response) {
     theses_categories = JSON.parse(response);
     var categorizedData = categorize_theses(mergedData, theses_categories);
     var crunchedCategorizedData = crunch_party_occurences(categorizedData);
-    console.log(crunchedCategorizedData);
     write_categorized(crunchedCategorizedData);
   });
 }
 
 function wahlomat_collect_json(occasion, response_basic, response_statements) {
-  eval(response_basic);
-  if (response_statements != undefined) {
-    eval(response_statements);
-  }
+
+  const wom_script = new vm.Script(response_basic + "\n" + response_statements);
+  const sandbox = {};
+  const context = vm.createContext(sandbox);
+  wom_script.runInContext(context);
 
   var collectedData = {
     "occasion": {
-      "occasion_id": WAHLOMATEN_ID,
+      "occasion_id": sandbox.WAHLOMATEN_ID,
       "type": "Wahl-O-Mat",
       "date": occasion.date,
       "territory": occasion.territory,
       "wikidata": occasion.wikidata,
       "extraData": {
-        "texts": WOMT_aTexte
+        "texts": sandbox.WOMT_aTexte
       }
     },
     "theses": {
-      "theses": WOMT_aThesen,
-      "topics": WOMT_aThemen,
-      "theses_topics": WOMT_aThesenThema
+      "theses": sandbox.WOMT_aThesen,
+      "topics": sandbox.WOMT_aThemen,
+      "theses_topics": sandbox.WOMT_aThesenThema
     },
     "positions": {
-      "positions": WOMT_aThesenParteien,
-      "positionTexts": WOMT_aThesenParteienText
+      "positions": sandbox.WOMT_aThesenParteien,
+      "positionTexts": sandbox.WOMT_aThesenParteienText
     },
-    "parties": WOMT_aParteien
+    "parties": sandbox.WOMT_aParteien
   };
 
   return collectedData;
 }
 
-function wahlomat_convert_theses(collectedData) {
+exports.wahlomat_convert_theses = function(collectedData) {
   var convertedData = [];
   var curWOM;
   var currentThesis = {}; //converted
@@ -176,7 +204,6 @@ function wahlomat_convert_theses(collectedData) {
   for (var i = 0; i < collectedData.length; i++) {
     curWOM = collectedData[i];
     var theses = [];
-    var parties = [];
 
     for (var j = 0; j < curWOM.theses.theses.length; j++) {
       curThe = curWOM.theses.theses[j][0];
@@ -197,7 +224,7 @@ function wahlomat_convert_theses(collectedData) {
   return convertedData;
 }
 
-function merge_positions(finalConvertedData) {
+exports.merge_positions = function(finalConvertedData) {
   for (var i = 0; i < finalConvertedData.length; i++) {
     var parties = [];
 
@@ -272,7 +299,7 @@ function convert_additional_data(additionalData) {
   }
   var positionTexts = [];
   for (var t = 0; t < additionalData.commentData.length; t++) {
-    opinion = additionalData.opinionData[additionalData.commentData[t].opinion];
+    var opinion = additionalData.opinionData[additionalData.commentData[t].opinion];
     if (positionTexts[opinion.statement] == undefined) {
       positionTexts[opinion.statement] = [];
     }
@@ -301,7 +328,7 @@ function convert_additional_data(additionalData) {
   return currentData;
 }
 
-function crunch_party_occurences(reallyAllData) {
+exports.crunch_party_occurences = function(reallyAllData) {
   var partyName = "";
   var partyOccurencesPerParty = [];
   var partyOccurences = [];
@@ -310,6 +337,7 @@ function crunch_party_occurences(reallyAllData) {
 
   var curPartyGlobalNum = -1;
   var curPartyOccurence = {};
+
   for (var i = 0; i < reallyAllData.occasions.length; i++) {
     for (var p = 0; p < reallyAllData.occasions[i].parties.length; p++) {
       partyName = normalize_party_name(reallyAllData.occasions[i].parties[p].name);
@@ -461,12 +489,9 @@ function write_metadata(metaData) {
 }
 
 function write_parties(reallyAllData) {
-  console.log(reallyAllData.partyMeta);
-
   document.write("<table>");
   for (var p = 0; p < reallyAllData.partyMeta.length; p++) { //all parties
     var occurences = reallyAllData.partyOccurences.perParty[reallyAllData.partyMeta[p].name];
-    console.log(occurences);
     document.write("<tr>");
     document.write("<td>" + occurences.col + "</td>");
     document.write("<td>" + reallyAllData.partyMeta[p].name + "</td>");
@@ -670,21 +695,6 @@ function normalize_party_name(partyName) {
     partyName = "DEUTSCHE KONSERVATIVE";
   }
   return partyName;
-}
-
-function dump_json(mergedData, part) {
-  var toDump = mergedData
-  if (part == "parties") {
-    toDump = [];
-    for (var normalizedPartyName in mergedData.partyOccurences.perParty) {
-      toDump.push({
-        "name": normalizedPartyName,
-        "wikidata": ""
-      });
-    }
-    console.log(toDump);
-  }
-  document.write(JSON.stringify(toDump));
 }
 
 function dump_csv(mergedData) {

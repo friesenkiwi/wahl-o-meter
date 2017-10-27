@@ -1,0 +1,26 @@
+{
+  "name": "wahl-o-meter",
+  "version": "1.0.0",
+  "description": "Digging up the data treasure of the Wahl-O-Mat",
+  "main": "src/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "command-line-args": "^4.0.7",
+    "command-line-usage": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/friesenkiwi/wahl-o-meter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/friesenkiwi/wahl-o-meter/issues"
+  },
+  "homepage": "https://github.com/friesenkiwi/wahl-o-meter#readme"
+}
