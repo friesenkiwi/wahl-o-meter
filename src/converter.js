@@ -66,34 +66,6 @@ exports.load_data_by_occasionfile = function(occasionFile, finalFunction) {
   });
 }
 
-exports.wahlomat_convert_theses = function(collectedData) {
-  var convertedData = [];
-  var curWOM;
-  var currentThesis = {}; //converted
-  var curThe; //original
-  for (var i = 0; i < collectedData.length; i++) {
-    curWOM = collectedData[i];
-    var theses = [];
-
-    for (var j = 0; j < curWOM.theses.theses.length; j++) {
-      curThe = curWOM.theses.theses[j][0];
-      if (curThe[0] == curThe[1]) {
-        curThe[0] = "";
-      }
-      currentThesis = {
-        "title": curThe[0],
-        "text": curThe[1]
-      };
-
-      theses.push(currentThesis);
-    }
-    curWOM.theses = theses;
-
-    convertedData.push(curWOM);
-  }
-  return convertedData;
-}
-
 function load_source(source, loadedData, occasion, finalFunction) {
   if (source == "raw_simple") {
     load_raw_data(loadedData, occasion, false, finalFunction);
@@ -222,6 +194,34 @@ function wahlomat_collect_json(occasion, response_basic, response_statements) {
   };
 
   return collectedData;
+}
+
+exports.wahlomat_convert_theses = function(collectedData) {
+  var convertedData = [];
+  var curWOM;
+  var currentThesis = {}; //converted
+  var curThe; //original
+  for (var i = 0; i < collectedData.length; i++) {
+    curWOM = collectedData[i];
+    var theses = [];
+
+    for (var j = 0; j < curWOM.theses.theses.length; j++) {
+      curThe = curWOM.theses.theses[j][0];
+      if (curThe[0] == curThe[1]) {
+        curThe[0] = "";
+      }
+      currentThesis = {
+        "title": curThe[0],
+        "text": curThe[1]
+      };
+
+      theses.push(currentThesis);
+    }
+    curWOM.theses = theses;
+
+    convertedData.push(curWOM);
+  }
+  return convertedData;
 }
 
 exports.merge_positions = function(finalConvertedData) {
