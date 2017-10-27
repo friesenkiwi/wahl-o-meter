@@ -44,6 +44,19 @@ module.exports.theses_categories = function(data) {
 
 function write_to_disk(out, fname) {
   const fpath = path.join(global.argv.target, fname);
+
+  // Create folders in path that don't exist
+  const path_elems = global.argv.target.split(path.sep);
+  let subpath;
+  for (var i=1; i <= path_elems.length; i++) {
+    subpath = path_elems.slice(0, i).join(path.sep);
+    if (!fs.existsSync(subpath)){
+      if (global.argv.verbose) console.log(`Creating folder ${subpath}`);
+      fs.mkdirSync(subpath);
+    }
+  }
+
+
   fs.writeFile(fpath, out, 'utf8', function(err) {
     if (err) {
       console.log("Error writing " + fpath + "\n" + err);
