@@ -94,48 +94,6 @@ exports.wahlomat_convert_theses = function(collectedData) {
   return convertedData;
 }
 
-exports.merge_positions = function(finalConvertedData) {
-  var allParties = Array();
-  for (var i = 0; i < finalConvertedData.length; i++) {
-    allParties.push(finalConvertedData[i].parties);
-
-    for (var j = 0; j < finalConvertedData[i].theses.length; j++) {
-      var positions = [];
-      var positionTexts = finalConvertedData[i].positions.positionTexts[j];
-
-      finalConvertedData[i].theses[j] = {
-        "title": finalConvertedData[i].theses[j].title,
-        "description": finalConvertedData[i].theses[j].description,
-        "positions": positions
-      };
-
-      for (var x = 0; x < finalConvertedData[i].parties.length; x++) {
-        var partyShort = finalConvertedData[i].parties[x][0][1];
-        var text = finalConvertedData[i].positions.positionTexts[j][x][0].replace(/(<([^>]+)>)/ig, '');
-        text = text.replace(/"/g, '');
-        text = text.replace(/&shy;/g, '');
-        text = text.replace(/\n/g, '');
-        finalConvertedData[i].theses[j].positions.push({
-          "value": Number(finalConvertedData[i].positions.positions[j][x]),
-          "text": text,
-          "party": partyShort
-        });
-      }
-    }
-    finalConvertedData[i] = {
-      "theses": finalConvertedData[i].theses,
-      "occasion": finalConvertedData[i].occasion
-    };
-    finalConvertedData[i].occasion.num = i;
-    finalConvertedData[i].occasion.title = normalize_election_name(finalConvertedData[i].occasion);
-  }
-  var mergedData = {
-    "occasions": finalConvertedData,
-    "parties": allParties
-  };
-  return mergedData;
-}
-
 function load_source(source, loadedData, occasion, finalFunction) {
   if (source == "raw_simple") {
     load_raw_data(loadedData, occasion, false, finalFunction);
@@ -295,7 +253,7 @@ function wahlomat_convert_theses(collectedData) {
   return convertedData;
 }
 
-function merge_positions(finalConvertedData) {
+exports.merge_positions = function(finalConvertedData) {
   for (var i = 0; i < finalConvertedData.length; i++) {
     var parties = [];
 
