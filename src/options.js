@@ -38,7 +38,7 @@ const optionDescriptions = [
 },
 {
   name: 'csv',
-  description: 'Export all occastions and theses as csv',
+  description: 'Export all occasions and theses as csv',
   type: Boolean
 },
 {

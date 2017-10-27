@@ -23,9 +23,8 @@ if (global.argv.help) {
   converter.load_data_by_occasionfile("../data/occasions.json", function(loadedData) {
     let convertedData = converter.wahlomat_convert_theses(loadedData.raw);
     convertedData = convertedData.concat(loadedData.additional);
-    const data = converter.merge_positions(convertedData);
-
-    // data = converter.crunch_party_occurences(mergedData);
+    const mergedData = converter.merge_positions(convertedData);
+    const data = converter.crunch_party_occurences(mergedData);
 
     // Select and export data
     global.argv.datasets.map(n => {

@@ -33,7 +33,7 @@ module.exports.occasions = function(data) {
 
 
 module.exports.parties = function(data) {
-  write_to_disk(stringify(data.parties), "parties.json");
+  write_to_disk(stringify(data.partyOccurences), "parties.json");
 };
 
 
