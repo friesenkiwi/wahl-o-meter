@@ -20,7 +20,7 @@ module.exports.categories = function(data) {
 module.exports.occasiondata = function(data) {
   write_to_disk(
     stringify(data.occasions, global.argv.csv),
-    "occasionsdata" + (global.argv.csv ? ".csv" : ".json")
+    "occasiondata" + (global.argv.csv ? ".csv" : ".json")
   );
 };
 
