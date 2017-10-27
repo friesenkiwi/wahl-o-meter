@@ -5,10 +5,10 @@ const path = require('path');
 // These datasets can be exported
 const allDatasets = [
   "categories",
+  "categorized",
   "occasiondata",
   "occasions",
-  "parties",
-  "theses_categories"
+  "parties"
 ];
 
 const DEFAULT_DATA_DIR = path.join("..", "export");
