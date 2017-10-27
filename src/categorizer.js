@@ -57,7 +57,7 @@ function add_categories(data, callback) {
     // Assign related theses to each category
     tcMappings.forEach(tc => {
       // Initialise theses array for each category
-      if (!Object.keys(rv).includes(tc.category)) rv[tc.category] = [];
+      if (rv[tc.category] == undefined) rv[tc.category] = [];
 
       cur_id = `WOM-${tc.occasion_num}-${tc.thesis_num}`;
 
