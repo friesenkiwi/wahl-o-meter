@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const categorizer = require('./categorizer');
 
 // Write exports to this directory
 const DATA_DIR = path.join("..", "data");
@@ -14,6 +15,16 @@ module.exports = {};
 
 module.exports.categories = function(data) {
   console.log("Categories export not supported yet");
+};
+
+
+module.exports.categorized = function(data) {
+  categorizer.add_categories(data, categorized_data => {
+    write_to_disk(
+      stringify(categorized_data),
+      "categorized.json"
+    );
+  });
 };
 
 
@@ -34,11 +45,6 @@ module.exports.occasions = function(data) {
 
 module.exports.parties = function(data) {
   write_to_disk(stringify(data.partyOccurences), "parties.json");
-};
-
-
-module.exports.theses_categories = function(data) {
-  console.log("Theses_categories export not supported yet")
 };
 
 
