@@ -23,6 +23,7 @@ if (global.argv.help) {
   converter.load_data_by_occasionfile("../data/occasions.json", function(loadedData) {
     let convertedData = converter.wahlomat_convert_theses(loadedData.raw);
     convertedData = convertedData.concat(loadedData.additional);
+    const orderedData = converter.order_data(convertedData);
     const mergedData = converter.merge_positions(convertedData);
     const data = converter.crunch_party_occurences(mergedData);
 
@@ -37,5 +38,3 @@ if (global.argv.help) {
     });
   });
 }
-
-

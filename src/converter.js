@@ -205,6 +205,33 @@ exports.wahlomat_convert_theses = function(collectedData) {
   return convertedData;
 }
 
+exports.order_data = function(convertedData){
+
+  convertedData.sort(function(a, b){
+      var territoryA=a.occasion.territory, territoryB=b.occasion.territory;
+      if (territoryA < territoryB){ //sort string ascending
+          return -1 ;
+      } else if (territoryA > territoryB) {
+          return 1;
+      } else {
+        return 0 //default return value (no sorting)
+      }
+  });
+  convertedData.sort(function(a, b){
+      var dateA=a.occasion.date, dateB=b.occasion.date;
+      if (dateA < dateB){ //sort string ascending
+          return -1 ;
+      } else if (dateA > dateB) {
+          return 1;
+      } else {
+        return 0 //default return value (no sorting)
+      }
+  });
+  for (var i = 0; i < convertedData.length; i++) {
+    console.log(convertedData[i].occasion.date + " " + convertedData[i].occasion.territory );
+  }
+}
+
 exports.merge_positions = function(finalConvertedData) {
   for (var i = 0; i < finalConvertedData.length; i++) {
     var parties = [];
