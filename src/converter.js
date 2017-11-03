@@ -205,29 +205,32 @@ exports.wahlomat_convert_theses = function(collectedData) {
   return convertedData;
 }
 
-exports.order_data = function(convertedData){
+exports.order_data = function(convertedData) {
 
-  convertedData.sort(function(a, b){
-      var dateA=a.occasion.date, dateB=b.occasion.date;
-      var territoryA=a.occasion.territory, territoryB=b.occasion.territory;
-      if (dateA < dateB){ //sort string ascending
-          return -1 ;
-      } else if (dateA > dateB) {
-          return 1;
-      } else { // inverted alphabetical
-        if (territoryA < territoryB){ //sort string ascending
-            return 1 ;
-        } else if (territoryA > territoryB) {
-            return -1;
-        } else {
-          return 0 //default return value (no sorting)
-        }
-        return 0 //default return value (no sorting)
+  convertedData.sort(function(a, b) {
+    var dateA = a.occasion.date,
+      dateB = b.occasion.date;
+    var territoryA = a.occasion.territory,
+      territoryB = b.occasion.territory;
+    if (dateA < dateB) { // sort dates ascending
+      return -1;
+    } else if (dateA > dateB) {
+      return 1;
+    } else { // same day
+      if (territoryA < territoryB) { // sort territories alphabetically descending
+        return 1;
+      } else if (territoryA > territoryB) {
+        return -1;
+      } else {
+        return 0 // same day, same territory, no sorting => random
       }
+    }
   });
+  /* DEBUG
   for (var i = 0; i < convertedData.length; i++) {
     console.log(convertedData[i].occasion.date + " " + convertedData[i].occasion.territory );
   }
+  */
 }
 
 exports.merge_positions = function(finalConvertedData) {
