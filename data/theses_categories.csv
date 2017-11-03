@@ -1,1490 +1,1490 @@
 thesis_id,occasion_id,occasion_num,thesis_num,category
-290,12,10,12,1-Euro-Job
-538,20,17,26,1-Euro-Job
-652,23,20,26,1-Euro-Job
-151,7,5,22,Abtreibung
-179,8,6,21,Abtreibung
-1145,37,33,25,Abtreibung
-169,8,6,11,Agrarsubvention
-411,17,14,13,Agrarsubvention
-941,31,28,11,Agrarsubvention
-21,3,1,1,Arbeitnehmer mit Migrationshintergrund
-41,3,1,21,Arbeitnehmer mit Migrationshintergrund
-406,17,14,8,Arbeitnehmer mit Migrationshintergrund
-477,19,16,3,Arbeitnehmer mit Migrationshintergrund
-520,20,17,8,Arbeitnehmer mit Migrationshintergrund
-525,20,17,13,Arbeitnehmer mit Migrationshintergrund
-566,22,18,16,Arbeitnehmer mit Migrationshintergrund
-624,21,19,36,Arbeitnehmer mit Migrationshintergrund
-643,23,20,17,Arbeitnehmer mit Migrationshintergrund
-680,24,21,16,Arbeitnehmer mit Migrationshintergrund
-735,25,22,33,Arbeitnehmer mit Migrationshintergrund
-771,26,23,31,Arbeitnehmer mit Migrationshintergrund
-799,27,24,21,Arbeitnehmer mit Migrationshintergrund
-830,28,25,14,Arbeitnehmer mit Migrationshintergrund
-872,29,26,18,Arbeitnehmer mit Migrationshintergrund
-914,30,27,22,Arbeitnehmer mit Migrationshintergrund
-1004,32,29,36,Arbeitnehmer mit Migrationshintergrund
-1022,34,30,16,Arbeitnehmer mit Migrationshintergrund
-1049,33,31,5,Arbeitnehmer mit Migrationshintergrund
-1108,36,32,26,Arbeitnehmer mit Migrationshintergrund
+317,12,11,12,1-Euro-Job
+565,20,18,26,1-Euro-Job
+679,23,21,26,1-Euro-Job
+25,37,1,25,Abtreibung
+178,7,6,22,Abtreibung
+206,8,7,21,Abtreibung
+196,8,7,11,Agrarsubvention
+438,17,15,13,Agrarsubvention
+968,31,29,11,Agrarsubvention
+48,3,1,1,Arbeitnehmer mit Migrationshintergrund
+68,3,2,21,Arbeitnehmer mit Migrationshintergrund
+433,17,14,8,Arbeitnehmer mit Migrationshintergrund
+504,19,16,3,Arbeitnehmer mit Migrationshintergrund
+547,20,17,8,Arbeitnehmer mit Migrationshintergrund
+552,20,18,13,Arbeitnehmer mit Migrationshintergrund
+593,22,19,16,Arbeitnehmer mit Migrationshintergrund
+651,21,20,36,Arbeitnehmer mit Migrationshintergrund
+670,23,21,17,Arbeitnehmer mit Migrationshintergrund
+707,24,22,16,Arbeitnehmer mit Migrationshintergrund
+762,25,23,33,Arbeitnehmer mit Migrationshintergrund
+798,26,24,31,Arbeitnehmer mit Migrationshintergrund
+826,27,25,21,Arbeitnehmer mit Migrationshintergrund
+857,28,26,14,Arbeitnehmer mit Migrationshintergrund
+899,29,27,18,Arbeitnehmer mit Migrationshintergrund
+941,30,28,22,Arbeitnehmer mit Migrationshintergrund
+1031,32,30,36,Arbeitnehmer mit Migrationshintergrund
+1049,34,31,16,Arbeitnehmer mit Migrationshintergrund
+1076,33,31,5,Arbeitnehmer mit Migrationshintergrund
+1135,36,33,26,Arbeitnehmer mit Migrationshintergrund
 1170,38,34,23,Arbeitnehmer mit Migrationshintergrund
 1176,38,34,29,Arbeitnehmer mit Migrationshintergrund
 1195,39,35,10,Arbeitnehmer mit Migrationshintergrund
-1273,41,37,12,Arbeitnehmer mit Migrationshintergrund
-1290,41,37,29,Arbeitnehmer mit Migrationshintergrund
+1235,41,36,12,Arbeitnehmer mit Migrationshintergrund
+1252,41,36,29,Arbeitnehmer mit Migrationshintergrund
 1350,43,39,13,Arbeitnehmer mit Migrationshintergrund
 1441,45,41,28,Arbeitnehmer mit Migrationshintergrund
 1449,45,41,36,Arbeitnehmer mit Migrationshintergrund
-18,1,0,18,Arbeitnehmerrechte
-64,4,2,14,Arbeitnehmerrechte
-76,5,3,3,Arbeitnehmerrechte
-274,10,9,26,Arbeitnehmerrechte
-660,23,20,34,Arbeitnehmerrechte
-907,30,27,15,Arbeitnehmerrechte
+45,1,1,18,Arbeitnehmerrechte
+91,4,3,14,Arbeitnehmerrechte
+103,5,4,3,Arbeitnehmerrechte
+301,10,10,26,Arbeitnehmerrechte
+687,23,21,34,Arbeitnehmerrechte
+934,30,28,15,Arbeitnehmerrechte
 1159,38,34,12,Arbeitnehmerrechte
 1438,45,41,25,Arbeitnehmerrechte
 1464,46,42,13,Arbeitnehmerrechte
-65,4,2,15,Arbeitslosigkeit
-74,5,3,1,Arbeitslosigkeit
-362,14,12,24,Arbeitslosigkeit
-471,18,15,35,Arbeitslosigkeit
-1132,37,33,12,Arbeitslosigkeit
-35,3,1,15,Atomenergie
-38,3,1,18,Atomenergie
-128,6,4,28,Atomenergie
-160,8,6,2,Atomenergie
-249,10,9,1,Atomenergie
-328,13,11,20,Atomenergie
-410,17,14,12,Atomenergie
-436,18,15,0,Atomenergie
-485,19,16,11,Atomenergie
-554,22,18,4,Atomenergie
-590,21,19,2,Atomenergie
-662,23,20,36,Atomenergie
-703,25,22,1,Atomenergie
-750,26,23,10,Atomenergie
-816,28,25,0,Atomenergie
-865,29,26,11,Atomenergie
-1096,36,32,14,Atomenergie
+12,37,0,12,Arbeitslosigkeit
+92,4,3,15,Arbeitslosigkeit
+101,5,4,1,Arbeitslosigkeit
+389,14,13,24,Arbeitslosigkeit
+498,18,16,35,Arbeitslosigkeit
+62,3,2,15,Atomenergie
+65,3,2,18,Atomenergie
+155,6,5,28,Atomenergie
+187,8,6,2,Atomenergie
+276,10,9,1,Atomenergie
+355,13,12,20,Atomenergie
+437,17,15,12,Atomenergie
+463,18,15,0,Atomenergie
+512,19,17,11,Atomenergie
+581,22,18,4,Atomenergie
+617,21,19,2,Atomenergie
+689,23,21,36,Atomenergie
+730,25,22,1,Atomenergie
+777,26,23,10,Atomenergie
+843,28,25,0,Atomenergie
+892,29,27,11,Atomenergie
+1123,36,33,14,Atomenergie
 1169,38,34,22,Atomenergie
-1241,40,36,18,Atomenergie
-17,1,0,17,Ausbildung
-66,4,2,16,Ausbildung
-136,7,5,7,Ausbildung
-141,7,5,12,Ausbildung
-198,11,7,10,Ausbildung
-225,9,8,7,Ausbildung
-341,14,12,3,Ausbildung
-451,18,15,15,Ausbildung
-880,29,26,26,Ausbildung
-951,31,28,21,Ausbildung
-985,32,29,17,Ausbildung
-1017,34,30,11,Ausbildung
-1030,34,30,24,Ausbildung
-1038,34,30,32,Ausbildung
+1279,40,37,18,Atomenergie
+44,1,1,17,Ausbildung
+93,4,3,16,Ausbildung
+163,7,6,7,Ausbildung
+168,7,6,12,Ausbildung
+225,11,8,10,Ausbildung
+252,9,9,7,Ausbildung
+368,14,13,3,Ausbildung
+478,18,16,15,Ausbildung
+907,29,27,26,Ausbildung
+978,31,29,21,Ausbildung
+1012,32,30,17,Ausbildung
+1044,34,31,11,Ausbildung
+1057,34,31,24,Ausbildung
+1065,34,31,32,Ausbildung
 1221,39,35,36,Ausbildung
-1252,40,36,29,Ausbildung
+1290,40,37,29,Ausbildung
 1331,42,38,32,Ausbildung
-67,4,2,17,Ausbildungsplatzabgabe
-73,5,3,0,Ausbildungsplatzabgabe
-116,6,4,16,Ausbildungsplatzabgabe
-137,7,5,8,Ausbildungsplatzabgabe
-190,11,7,2,Ausbildungsplatzabgabe
-391,15,13,23,Ausbildungsplatzabgabe
-506,19,16,32,Ausbildungsplatzabgabe
-594,21,19,6,Ausbildungsplatzabgabe
-716,25,22,14,Ausbildungsplatzabgabe
-1104,36,32,22,Ausbildungsplatzabgabe
-426,17,14,28,Außenpolitik
-428,17,14,30,Außenpolitik
-1143,37,33,23,Außenpolitik
+94,4,3,17,Ausbildungsplatzabgabe
+100,5,4,0,Ausbildungsplatzabgabe
+143,6,5,16,Ausbildungsplatzabgabe
+164,7,6,8,Ausbildungsplatzabgabe
+217,11,7,2,Ausbildungsplatzabgabe
+418,15,14,23,Ausbildungsplatzabgabe
+533,19,17,32,Ausbildungsplatzabgabe
+621,21,19,6,Ausbildungsplatzabgabe
+743,25,23,14,Ausbildungsplatzabgabe
+1131,36,33,22,Ausbildungsplatzabgabe
+23,37,1,23,Außenpolitik
+453,17,15,28,Außenpolitik
+455,17,15,30,Außenpolitik
 1217,39,35,32,Außenpolitik
-1238,40,36,15,Außenpolitik
-1289,41,37,28,Außenpolitik
+1251,41,36,28,Außenpolitik
+1276,40,37,15,Außenpolitik
 1458,46,42,7,Außenpolitik
-112,6,4,12,Autobahn
-114,6,4,14,Autobahn
-131,7,5,2,Autobahn
-231,9,8,13,Autobahn
-284,12,10,6,Autobahn
-338,14,12,0,Autobahn
-381,15,13,13,Autobahn
-481,19,16,7,Autobahn
-546,20,17,34,Autobahn
-679,24,21,15,Autobahn
-833,28,25,17,Autobahn
-856,29,26,2,Autobahn
-1068,33,31,24,Autobahn
+139,6,5,12,Autobahn
+141,6,5,14,Autobahn
+158,7,6,2,Autobahn
+258,9,9,13,Autobahn
+311,12,11,6,Autobahn
+365,14,12,0,Autobahn
+408,15,14,13,Autobahn
+508,19,16,7,Autobahn
+573,20,18,34,Autobahn
+706,24,22,15,Autobahn
+860,28,26,17,Autobahn
+883,29,26,2,Autobahn
+1095,33,32,24,Autobahn
 1157,38,34,10,Autobahn
-1297,41,37,36,Autobahn
+1259,41,36,36,Autobahn
 1332,42,38,33,Autobahn
 1353,43,39,16,Autobahn
-177,8,6,19,BAföG
-455,18,15,19,BAföG
-577,22,18,27,BAföG
-655,23,20,29,BAföG
-789,27,24,11,BAföG
-864,29,26,10,BAföG
-909,30,27,17,BAföG
-1032,34,30,26,BAföG
+204,8,7,19,BAföG
+482,18,16,19,BAföG
+604,22,19,27,BAföG
+682,23,21,29,BAföG
+816,27,25,11,BAföG
+891,29,26,10,BAföG
+936,30,28,17,BAföG
+1059,34,31,26,BAföG
 1456,46,42,5,BAföG
-263,10,9,15,Bahnverkehr
-588,21,19,0,Bahnverkehr
-701,24,21,37,Bahnverkehr
-823,28,25,7,Bahnverkehr
-959,31,28,29,Bahnverkehr
-1056,33,31,12,Bahnverkehr
+290,10,10,15,Bahnverkehr
+615,21,19,0,Bahnverkehr
+728,24,22,37,Bahnverkehr
+850,28,25,7,Bahnverkehr
+986,31,29,29,Bahnverkehr
+1083,33,32,12,Bahnverkehr
 1198,39,35,13,Bahnverkehr
 1382,44,40,7,Bahnverkehr
-417,17,14,19,Bank
-445,18,15,9,Bank
-521,20,17,9,Bank
-822,28,25,6,Bank
-905,30,27,13,Bank
-939,31,28,9,Bank
-956,31,28,26,Bank
-1099,36,32,17,Bank
+444,17,15,19,Bank
+472,18,15,9,Bank
+548,20,17,9,Bank
+849,28,25,6,Bank
+932,30,28,13,Bank
+966,31,28,9,Bank
+983,31,29,26,Bank
+1126,36,33,17,Bank
 1466,46,42,15,Bank
-122,6,4,22,Beamtete Lehrer
-146,7,5,17,Beamtete Lehrer
-222,9,8,4,Beamtete Lehrer
-256,10,9,8,Beamtete Lehrer
-392,15,13,24,Beamtete Lehrer
-1013,34,30,7,Beamtete Lehrer
+149,6,5,22,Beamtete Lehrer
+173,7,6,17,Beamtete Lehrer
+249,9,9,4,Beamtete Lehrer
+283,10,10,8,Beamtete Lehrer
+419,15,14,24,Beamtete Lehrer
+1040,34,30,7,Beamtete Lehrer
 1326,42,38,27,Beamtete Lehrer
-898,30,27,6,Bedingungsloses Grundeinkommen
+925,30,27,6,Bedingungsloses Grundeinkommen
 1311,42,38,12,Bedingungsloses Grundeinkommen
 1343,43,39,6,Bedingungsloses Grundeinkommen
 1395,44,40,20,Bedingungsloses Grundeinkommen
 1487,46,42,36,Bedingungsloses Grundeinkommen
-178,8,6,20,Betreuungsgeld
-258,10,9,10,Betreuungsgeld
-450,18,15,14,Betreuungsgeld
-478,19,16,4,Betreuungsgeld
-584,22,18,34,Betreuungsgeld
-610,21,19,22,Betreuungsgeld
-810,27,24,32,Betreuungsgeld
-837,28,25,21,Betreuungsgeld
-881,29,26,27,Betreuungsgeld
-893,30,27,1,Betreuungsgeld
-980,32,29,12,Betreuungsgeld
-1041,34,30,35,Betreuungsgeld
-7,1,0,7,Bleiberecht
-245,9,8,27,Bleiberecht
-314,13,11,6,Bleiberecht
-365,14,12,27,Bleiberecht
-388,15,13,20,Bleiberecht
-497,19,16,23,Bleiberecht
-763,26,23,23,Bleiberecht
-812,27,24,34,Bleiberecht
+205,8,7,20,Betreuungsgeld
+285,10,10,10,Betreuungsgeld
+477,18,16,14,Betreuungsgeld
+505,19,16,4,Betreuungsgeld
+611,22,19,34,Betreuungsgeld
+637,21,20,22,Betreuungsgeld
+837,27,25,32,Betreuungsgeld
+864,28,26,21,Betreuungsgeld
+908,29,27,27,Betreuungsgeld
+920,30,27,1,Betreuungsgeld
+1007,32,30,12,Betreuungsgeld
+1068,34,31,35,Betreuungsgeld
+34,1,1,7,Bleiberecht
+272,9,9,27,Bleiberecht
+341,13,12,6,Bleiberecht
+392,14,13,27,Bleiberecht
+415,15,14,20,Bleiberecht
+524,19,17,23,Bleiberecht
+790,26,24,23,Bleiberecht
+839,27,25,34,Bleiberecht
 1173,38,34,26,Bleiberecht
 1193,39,35,8,Bleiberecht
-1232,40,36,9,Bleiberecht
+1270,40,37,9,Bleiberecht
 1359,43,39,22,Bleiberecht
 1378,44,40,3,Bleiberecht
 1417,45,41,4,Bleiberecht
-172,8,6,14,Bundeswehr im Inneren
-472,18,15,36,Bundeswehr im Inneren
-1121,37,33,1,Bundeswehr im Inneren
+1,37,0,1,Bundeswehr im Inneren
+199,8,7,14,Bundeswehr im Inneren
+499,18,16,36,Bundeswehr im Inneren
 1451,46,42,0,Bundeswehr im Inneren
-572,22,18,22,Bundeswehr-Anwerbung
-700,24,21,36,Bundeswehr-Anwerbung
-762,26,23,22,Bundeswehr-Anwerbung
-1063,33,31,19,Bundeswehr-Anwerbung
+599,22,19,22,Bundeswehr-Anwerbung
+727,24,22,36,Bundeswehr-Anwerbung
+789,26,24,22,Bundeswehr-Anwerbung
+1090,33,32,19,Bundeswehr-Anwerbung
 1219,39,35,34,Bundeswehr-Anwerbung
-1283,41,37,22,Bundeswehr-Anwerbung
+1245,41,36,22,Bundeswehr-Anwerbung
 1390,44,40,15,Bundeswehr-Anwerbung
-56,4,2,6,Bürgerwehr
-205,11,7,17,Bürgerwehr
-657,23,20,31,Bürgerwehr
+83,4,3,6,Bürgerwehr
+232,11,8,17,Bürgerwehr
+684,23,21,31,Bürgerwehr
 1206,39,35,21,Bürgerwehr
-5,1,0,5,Cannabis
-95,5,3,22,Cannabis
-121,6,4,21,Cannabis
-150,7,5,21,Cannabis
-186,8,6,28,Cannabis
-212,11,7,24,Cannabis
-354,14,12,16,Cannabis
-861,29,26,7,Cannabis
-1023,34,30,17,Cannabis
-1061,33,31,17,Cannabis
-1120,37,33,0,Cannabis
+0,37,0,0,Cannabis
+32,1,1,5,Cannabis
+122,5,4,22,Cannabis
+148,6,5,21,Cannabis
+177,7,6,21,Cannabis
+213,8,7,28,Cannabis
+239,11,8,24,Cannabis
+381,14,13,16,Cannabis
+888,29,26,7,Cannabis
+1050,34,31,17,Cannabis
+1088,33,32,17,Cannabis
 1151,38,34,4,Cannabis
 1216,39,35,31,Cannabis
-1254,40,36,31,Cannabis
+1292,40,37,31,Cannabis
 1318,42,38,19,Cannabis
 1373,43,39,36,Cannabis
 1399,44,40,24,Cannabis
 1482,46,42,31,Cannabis
-23,3,1,3,Christliche Werte
-25,3,1,5,Christliche Werte
-431,17,14,33,Christliche Werte
-458,18,15,22,Christliche Werte
-568,22,18,18,Christliche Werte
-940,31,28,10,Christliche Werte
-427,17,14,29,D-Mark
-456,18,15,20,D-Mark
-895,30,27,3,D-Mark
-930,31,28,0,D-Mark
+50,3,2,3,Christliche Werte
+52,3,2,5,Christliche Werte
+458,17,15,33,Christliche Werte
+485,18,16,22,Christliche Werte
+595,22,19,18,Christliche Werte
+967,31,28,10,Christliche Werte
+454,17,15,29,D-Mark
+483,18,16,20,D-Mark
+922,30,27,3,D-Mark
+957,31,28,0,D-Mark
 1474,46,42,23,D-Mark
-489,19,16,15,Deutschexklusiv
-530,20,17,18,Deutschexklusiv
-604,21,19,16,Deutschexklusiv
-641,23,20,15,Deutschexklusiv
-683,24,21,19,Deutschexklusiv
-726,25,22,24,Deutschexklusiv
-760,26,23,20,Deutschexklusiv
-802,27,24,24,Deutschexklusiv
-834,28,25,18,Deutschexklusiv
-876,29,26,22,Deutschexklusiv
-998,32,29,30,Deutschexklusiv
-1034,34,30,28,Deutschexklusiv
-1064,33,31,20,Deutschexklusiv
-1097,36,32,15,Deutschexklusiv
+516,19,17,15,Deutschexklusiv
+557,20,18,18,Deutschexklusiv
+631,21,20,16,Deutschexklusiv
+668,23,21,15,Deutschexklusiv
+710,24,22,19,Deutschexklusiv
+753,25,23,24,Deutschexklusiv
+787,26,24,20,Deutschexklusiv
+829,27,25,24,Deutschexklusiv
+861,28,26,18,Deutschexklusiv
+903,29,27,22,Deutschexklusiv
+1025,32,30,30,Deutschexklusiv
+1061,34,31,28,Deutschexklusiv
+1091,33,32,20,Deutschexklusiv
+1124,36,33,15,Deutschexklusiv
 1167,38,34,20,Deutschexklusiv
 1202,39,35,17,Deutschexklusiv
-1240,40,36,17,Deutschexklusiv
-1270,41,37,9,Deutschexklusiv
+1232,41,36,9,Deutschexklusiv
+1278,40,37,17,Deutschexklusiv
 1317,42,38,18,Deutschexklusiv
 1356,43,39,19,Deutschexklusiv
 1434,45,41,21,Deutschexklusiv
 1463,46,42,12,Deutschexklusiv
-285,12,10,7,Diesel
-330,13,11,22,Diesel
+312,12,11,7,Diesel
+357,13,12,22,Diesel
 1452,46,42,1,Diesel
-42,3,1,22,Digitale Grundrechte
-44,3,1,24,Digitale Grundrechte
-154,7,5,25,Digitale Grundrechte
-180,8,6,22,Digitale Grundrechte
-185,8,6,27,Digitale Grundrechte
-262,10,9,14,Digitale Grundrechte
-345,14,12,7,Digitale Grundrechte
-408,17,14,10,Digitale Grundrechte
-441,18,15,5,Digitale Grundrechte
-482,19,16,8,Digitale Grundrechte
-518,20,17,6,Digitale Grundrechte
-707,25,22,5,Digitale Grundrechte
-801,27,24,23,Digitale Grundrechte
-925,30,27,33,Digitale Grundrechte
+69,3,2,22,Digitale Grundrechte
+71,3,2,24,Digitale Grundrechte
+181,7,6,25,Digitale Grundrechte
+207,8,7,22,Digitale Grundrechte
+212,8,7,27,Digitale Grundrechte
+289,10,10,14,Digitale Grundrechte
+372,14,13,7,Digitale Grundrechte
+435,17,14,10,Digitale Grundrechte
+468,18,15,5,Digitale Grundrechte
+509,19,16,8,Digitale Grundrechte
+545,20,17,6,Digitale Grundrechte
+734,25,22,5,Digitale Grundrechte
+828,27,25,23,Digitale Grundrechte
+952,30,28,33,Digitale Grundrechte
 1361,43,39,24,Digitale Grundrechte
 1461,46,42,10,Digitale Grundrechte
-10,1,0,10,Direkte Demokratie
-22,3,1,2,Direkte Demokratie
-26,3,1,6,Direkte Demokratie
-98,5,3,25,Direkte Demokratie
-187,8,6,29,Direkte Demokratie
-193,11,7,5,Direkte Demokratie
-228,9,8,10,Direkte Demokratie
-277,10,9,29,Direkte Demokratie
-319,13,11,11,Direkte Demokratie
-352,14,12,14,Direkte Demokratie
-397,15,13,29,Direkte Demokratie
-434,17,14,36,Direkte Demokratie
-449,18,15,13,Direkte Demokratie
-524,20,17,12,Direkte Demokratie
-653,23,20,27,Direkte Demokratie
-678,24,21,14,Direkte Demokratie
-757,26,23,17,Direkte Demokratie
-785,27,24,7,Direkte Demokratie
-836,28,25,20,Direkte Demokratie
-875,29,26,21,Direkte Demokratie
-929,30,27,37,Direkte Demokratie
-931,31,28,1,Direkte Demokratie
-958,31,28,28,Direkte Demokratie
-1053,33,31,9,Direkte Demokratie
-1116,36,32,34,Direkte Demokratie
-1126,37,33,6,Direkte Demokratie
+6,37,0,6,Direkte Demokratie
+37,1,1,10,Direkte Demokratie
+49,3,1,2,Direkte Demokratie
+53,3,2,6,Direkte Demokratie
+125,5,4,25,Direkte Demokratie
+214,8,7,29,Direkte Demokratie
+220,11,8,5,Direkte Demokratie
+255,9,9,10,Direkte Demokratie
+304,10,10,29,Direkte Demokratie
+346,13,12,11,Direkte Demokratie
+379,14,13,14,Direkte Demokratie
+424,15,14,29,Direkte Demokratie
+461,17,15,36,Direkte Demokratie
+476,18,16,13,Direkte Demokratie
+551,20,18,12,Direkte Demokratie
+680,23,21,27,Direkte Demokratie
+705,24,22,14,Direkte Demokratie
+784,26,24,17,Direkte Demokratie
+812,27,24,7,Direkte Demokratie
+863,28,26,20,Direkte Demokratie
+902,29,27,21,Direkte Demokratie
+956,30,28,37,Direkte Demokratie
+958,31,28,1,Direkte Demokratie
+985,31,29,28,Direkte Demokratie
+1080,33,31,9,Direkte Demokratie
+1143,36,33,34,Direkte Demokratie
 1325,42,38,26,Direkte Demokratie
 1342,43,39,5,Direkte Demokratie
 1450,45,41,37,Direkte Demokratie
-11,1,0,11,Direktwahl
-99,5,3,26,Direktwahl
-306,12,10,28,Direktwahl
-412,17,14,14,Direktwahl
-944,31,28,14,Direktwahl
-1128,37,33,8,Direktwahl
-6,1,0,6,Droge
-34,3,1,14,Droge
-68,4,2,18,Droge
-100,6,4,0,Droge
-237,9,8,19,Droge
-270,10,9,22,Droge
-289,12,10,11,Droge
-329,13,11,21,Droge
-368,15,13,0,Droge
-547,20,17,35,Droge
-591,21,19,3,Droge
-668,24,21,4,Droge
-728,25,22,26,Droge
-842,28,25,26,Droge
-1103,36,32,21,Droge
+8,37,0,8,Direktwahl
+38,1,1,11,Direktwahl
+126,5,4,26,Direktwahl
+333,12,11,28,Direktwahl
+439,17,15,14,Direktwahl
+971,31,29,14,Direktwahl
+33,1,1,6,Droge
+61,3,2,14,Droge
+95,4,3,18,Droge
+127,6,4,0,Droge
+264,9,9,19,Droge
+297,10,10,22,Droge
+316,12,11,11,Droge
+356,13,12,21,Droge
+395,15,13,0,Droge
+574,20,18,35,Droge
+618,21,19,3,Droge
+695,24,21,4,Droge
+755,25,23,26,Droge
+869,28,26,26,Droge
+1130,36,33,21,Droge
 1181,38,34,34,Droge
-1223,40,36,0,Droge
+1261,40,37,0,Droge
 1327,42,38,28,Droge
-69,4,2,19,Ehe für Alle
-92,5,3,19,Ehe für Alle
-183,8,6,25,Ehe für Alle
-210,11,7,22,Ehe für Alle
-335,13,11,27,Ehe für Alle
-356,14,12,18,Ehe für Alle
-383,15,13,15,Ehe für Alle
-402,17,14,4,Ehe für Alle
-462,18,15,26,Ehe für Alle
-492,19,16,18,Ehe für Alle
-539,20,17,27,Ehe für Alle
-578,22,18,28,Ehe für Alle
-598,21,19,10,Ehe für Alle
-644,23,20,18,Ehe für Alle
-667,24,21,3,Ehe für Alle
-723,25,22,21,Ehe für Alle
-792,27,24,14,Ehe für Alle
-874,29,26,20,Ehe für Alle
-924,30,27,32,Ehe für Alle
-945,31,28,15,Ehe für Alle
-970,32,29,2,Ehe für Alle
-1016,34,30,10,Ehe für Alle
-1048,33,31,4,Ehe für Alle
-1146,37,33,26,Ehe für Alle
+26,37,1,26,Ehe für Alle
+96,4,3,19,Ehe für Alle
+119,5,4,19,Ehe für Alle
+210,8,7,25,Ehe für Alle
+237,11,8,22,Ehe für Alle
+362,13,12,27,Ehe für Alle
+383,14,13,18,Ehe für Alle
+410,15,14,15,Ehe für Alle
+429,17,14,4,Ehe für Alle
+489,18,16,26,Ehe für Alle
+519,19,17,18,Ehe für Alle
+566,20,18,27,Ehe für Alle
+605,22,19,28,Ehe für Alle
+625,21,19,10,Ehe für Alle
+671,23,21,18,Ehe für Alle
+694,24,21,3,Ehe für Alle
+750,25,23,21,Ehe für Alle
+819,27,25,14,Ehe für Alle
+901,29,27,20,Ehe für Alle
+951,30,28,32,Ehe für Alle
+972,31,29,15,Ehe für Alle
+997,32,29,2,Ehe für Alle
+1043,34,30,10,Ehe für Alle
+1075,33,31,4,Ehe für Alle
 1208,39,35,23,Ehe für Alle
-1272,41,37,11,Ehe für Alle
+1234,41,36,11,Ehe für Alle
 1313,42,38,14,Ehe für Alle
 1348,43,39,11,Ehe für Alle
 1380,44,40,5,Ehe für Alle
-126,6,4,26,Energiewende
-161,8,6,3,Energiewende
-163,8,6,5,Energiewende
-419,17,14,21,Energiewende
-531,20,17,19,Energiewende
-626,23,20,0,Energiewende
-871,29,26,17,Energiewende
-883,29,26,29,Energiewende
-896,30,27,4,Energiewende
-919,30,27,27,Energiewende
-1020,34,30,14,Energiewende
-1134,37,33,14,Energiewende
-1264,41,37,3,Energiewende
+14,37,0,14,Energiewende
+153,6,5,26,Energiewende
+188,8,7,3,Energiewende
+190,8,7,5,Energiewende
+446,17,15,21,Energiewende
+558,20,18,19,Energiewende
+653,23,20,0,Energiewende
+898,29,27,17,Energiewende
+910,29,27,29,Energiewende
+923,30,27,4,Energiewende
+946,30,28,27,Energiewende
+1047,34,31,14,Energiewende
+1226,41,36,3,Energiewende
 1310,42,38,11,Energiewende
 1454,46,42,3,Energiewende
-47,3,1,27,Entwicklungshilfe
-404,17,14,6,Entwicklungshilfe
-960,31,28,30,Entwicklungshilfe
-48,3,1,28,EU-Armee
-170,8,6,12,EU-Armee
-416,17,14,18,EU-Armee
-943,31,28,13,EU-Armee
-422,17,14,24,EU-Außenpolitik
-946,31,28,16,EU-Außenpolitik
-948,31,28,18,EU-Außenpolitik
-955,31,28,25,EU-Außenpolitik
-12,1,0,12,EU-Föderalismus
-24,3,1,4,EU-Föderalismus
-30,3,1,10,EU-Föderalismus
-399,17,14,1,EU-Föderalismus
-418,17,14,20,EU-Föderalismus
-429,17,14,31,EU-Föderalismus
-439,18,15,3,EU-Föderalismus
-935,31,28,5,EU-Föderalismus
-938,31,28,8,EU-Föderalismus
-967,31,28,37,EU-Föderalismus
+74,3,3,27,Entwicklungshilfe
+431,17,14,6,Entwicklungshilfe
+987,31,29,30,Entwicklungshilfe
+75,3,3,28,EU-Armee
+197,8,7,12,EU-Armee
+443,17,15,18,EU-Armee
+970,31,29,13,EU-Armee
+449,17,15,24,EU-Außenpolitik
+973,31,29,16,EU-Außenpolitik
+975,31,29,18,EU-Außenpolitik
+982,31,29,25,EU-Außenpolitik
+39,1,1,12,EU-Föderalismus
+51,3,2,4,EU-Föderalismus
+57,3,2,10,EU-Föderalismus
+426,17,14,1,EU-Föderalismus
+445,17,15,20,EU-Föderalismus
+456,17,15,31,EU-Föderalismus
+466,18,15,3,EU-Föderalismus
+962,31,28,5,EU-Föderalismus
+965,31,28,8,EU-Föderalismus
+994,31,29,37,EU-Föderalismus
 1488,46,42,37,EU-Föderalismus
-27,3,1,7,Europa-Finanzen
-28,3,1,8,Europa-Finanzen
-29,3,1,9,Europa-Finanzen
-409,17,14,11,Europa-Finanzen
-424,17,14,26,Europa-Finanzen
-432,17,14,34,Europa-Finanzen
-923,30,27,31,Europa-Finanzen
-950,31,28,20,Europa-Finanzen
-962,31,28,32,Europa-Finanzen
-964,31,28,34,Europa-Finanzen
-195,11,7,7,Fahrrad
-294,12,10,16,Fahrrad
-1098,36,32,16,Fahrrad
-1233,40,36,10,Fahrrad
+54,3,2,7,Europa-Finanzen
+55,3,2,8,Europa-Finanzen
+56,3,2,9,Europa-Finanzen
+436,17,15,11,Europa-Finanzen
+451,17,15,26,Europa-Finanzen
+459,17,15,34,Europa-Finanzen
+950,30,28,31,Europa-Finanzen
+977,31,29,20,Europa-Finanzen
+989,31,29,32,Europa-Finanzen
+991,31,29,34,Europa-Finanzen
+222,11,8,7,Fahrrad
+321,12,11,16,Fahrrad
+1125,36,33,16,Fahrrad
+1271,40,37,10,Fahrrad
 1430,45,41,17,Fahrrad
-888,29,26,34,Feiertag
-981,32,29,13,Feiertag
-1084,36,32,2,Feiertag
-1259,40,36,36,Feiertag
+915,29,27,34,Feiertag
+1008,32,30,13,Feiertag
+1111,36,32,2,Feiertag
+1297,40,37,36,Feiertag
 1339,43,39,2,Feiertag
 1410,44,40,35,Feiertag
-273,10,9,25,Flüchtling
-515,20,17,3,Flüchtling
-570,22,18,20,Flüchtling
-613,21,19,25,Flüchtling
-677,24,21,13,Flüchtling
-887,29,26,33,Flüchtling
-973,32,29,5,Flüchtling
-984,32,29,16,Flüchtling
-1012,34,30,6,Flüchtling
-1039,34,30,33,Flüchtling
-1054,33,31,10,Flüchtling
-1100,36,32,18,Flüchtling
-1129,37,33,9,Flüchtling
+9,37,0,9,Flüchtling
+300,10,10,25,Flüchtling
+542,20,17,3,Flüchtling
+597,22,19,20,Flüchtling
+640,21,20,25,Flüchtling
+704,24,22,13,Flüchtling
+914,29,27,33,Flüchtling
+1000,32,29,5,Flüchtling
+1011,32,30,16,Flüchtling
+1039,34,30,6,Flüchtling
+1066,34,31,33,Flüchtling
+1081,33,31,10,Flüchtling
+1127,36,33,18,Flüchtling
 1186,39,35,1,Flüchtling
 1220,39,35,35,Flüchtling
-1226,40,36,3,Flüchtling
-1237,40,36,14,Flüchtling
-1265,41,37,4,Flüchtling
-1288,41,37,27,Flüchtling
+1227,41,36,4,Flüchtling
+1250,41,36,27,Flüchtling
+1264,40,37,3,Flüchtling
+1275,40,37,14,Flüchtling
 1306,42,38,7,Flüchtling
 1368,43,39,31,Flüchtling
 1431,45,41,18,Flüchtling
 1484,46,42,33,Flüchtling
-400,17,14,2,Flüchtlingsaufnahme
-465,18,15,29,Flüchtlingsaufnahme
-630,23,20,4,Flüchtlingsaufnahme
-906,30,27,14,Flüchtlingsaufnahme
-933,31,28,3,Flüchtlingsaufnahme
-957,31,28,27,Flüchtlingsaufnahme
-1075,33,31,31,Flüchtlingsaufnahme
-1113,36,32,31,Flüchtlingsaufnahme
+427,17,14,2,Flüchtlingsaufnahme
+492,18,16,29,Flüchtlingsaufnahme
+657,23,20,4,Flüchtlingsaufnahme
+933,30,28,14,Flüchtlingsaufnahme
+960,31,28,3,Flüchtlingsaufnahme
+984,31,29,27,Flüchtlingsaufnahme
+1102,33,32,31,Flüchtlingsaufnahme
+1140,36,33,31,Flüchtlingsaufnahme
 1152,38,34,5,Flüchtlingsaufnahme
-1282,41,37,21,Flüchtlingsaufnahme
+1244,41,36,21,Flüchtlingsaufnahme
 1300,42,38,1,Flüchtlingsaufnahme
 1393,44,40,18,Flüchtlingsaufnahme
 1453,46,42,2,Flüchtlingsaufnahme
-15,1,0,15,Flughafen
-113,6,4,13,Flughafen
-132,7,5,3,Flughafen
-219,9,8,1,Flughafen
-229,9,8,11,Flughafen
-248,10,9,0,Flughafen
-307,12,10,29,Flughafen
-505,19,16,31,Flughafen
-564,22,18,14,Flughafen
-635,23,20,9,Flughafen
-889,29,26,35,Flughafen
-1007,34,30,1,Flughafen
-1046,33,31,2,Flughafen
-1072,33,31,28,Flughafen
-1293,41,37,32,Flughafen
+42,1,1,15,Flughafen
+140,6,5,13,Flughafen
+159,7,6,3,Flughafen
+246,9,8,1,Flughafen
+256,9,9,11,Flughafen
+275,10,9,0,Flughafen
+334,12,11,29,Flughafen
+532,19,17,31,Flughafen
+591,22,19,14,Flughafen
+662,23,20,9,Flughafen
+916,29,27,35,Flughafen
+1034,34,30,1,Flughafen
+1073,33,31,2,Flughafen
+1099,33,32,28,Flughafen
+1255,41,36,32,Flughafen
 1302,42,38,3,Flughafen
 1349,43,39,12,Flughafen
-188,11,7,0,Flussvertiefung
-370,15,13,2,Flussvertiefung
-533,20,17,21,Flussvertiefung
-631,23,20,5,Flussvertiefung
-848,28,25,32,Flussvertiefung
-1086,36,32,4,Flussvertiefung
+215,11,7,0,Flussvertiefung
+397,15,13,2,Flussvertiefung
+560,20,18,21,Flussvertiefung
+658,23,20,5,Flussvertiefung
+875,28,26,32,Flussvertiefung
+1113,36,32,4,Flussvertiefung
 1147,38,34,0,Flussvertiefung
 1201,39,35,16,Flussvertiefung
 1415,45,41,2,Flussvertiefung
-296,12,10,18,Frauenquote
-447,18,15,11,Frauenquote
-491,19,16,17,Frauenquote
-556,22,18,6,Frauenquote
-617,21,19,29,Frauenquote
-628,23,20,2,Frauenquote
-694,24,21,30,Frauenquote
-710,25,22,8,Frauenquote
-751,26,23,11,Frauenquote
-804,27,24,26,Frauenquote
-820,28,25,4,Frauenquote
-867,29,26,13,Frauenquote
-911,30,27,19,Frauenquote
-942,31,28,12,Frauenquote
-1010,34,30,4,Frauenquote
-1069,33,31,25,Frauenquote
-1111,36,32,29,Frauenquote
+323,12,11,18,Frauenquote
+474,18,16,11,Frauenquote
+518,19,17,17,Frauenquote
+583,22,18,6,Frauenquote
+644,21,20,29,Frauenquote
+655,23,20,2,Frauenquote
+721,24,22,30,Frauenquote
+737,25,22,8,Frauenquote
+778,26,24,11,Frauenquote
+831,27,25,26,Frauenquote
+847,28,25,4,Frauenquote
+894,29,27,13,Frauenquote
+938,30,28,19,Frauenquote
+969,31,29,12,Frauenquote
+1037,34,30,4,Frauenquote
+1096,33,32,25,Frauenquote
+1138,36,33,29,Frauenquote
 1166,38,34,19,Frauenquote
-1228,40,36,5,Frauenquote
-1285,41,37,24,Frauenquote
+1247,41,36,24,Frauenquote
+1266,40,37,5,Frauenquote
 1355,43,39,18,Frauenquote
 1397,44,40,22,Frauenquote
 1475,46,42,24,Frauenquote
-49,3,1,29,Friedenspolitik
-421,17,14,23,Friedenspolitik
-446,18,15,10,Friedenspolitik
-902,30,27,10,Friedenspolitik
-1141,37,33,21,Friedenspolitik
-4,1,0,4,G8
-59,4,2,9,G8
-255,10,9,7,G8
-494,19,16,20,G8
-522,20,17,10,G8
-609,21,19,21,G8
-719,25,22,17,G8
+21,37,1,21,Friedenspolitik
+76,3,3,29,Friedenspolitik
+448,17,15,23,Friedenspolitik
+473,18,15,10,Friedenspolitik
+929,30,27,10,Friedenspolitik
+31,1,1,4,G8
+86,4,3,9,G8
+282,10,10,7,G8
+521,19,17,20,G8
+549,20,17,10,G8
+636,21,20,21,G8
+746,25,23,17,G8
 1345,43,39,8,G8
 1403,44,40,28,G8
 1413,45,41,0,G8
-57,4,2,7,Ganztagsschule
-87,5,3,14,Ganztagsschule
-200,11,7,12,Ganztagsschule
-281,12,10,3,Ganztagsschule
-322,13,11,14,Ganztagsschule
-1135,37,33,15,Ganztagsschule
+15,37,0,15,Ganztagsschule
+84,4,3,7,Ganztagsschule
+114,5,4,14,Ganztagsschule
+227,11,8,12,Ganztagsschule
+308,12,11,3,Ganztagsschule
+349,13,12,14,Ganztagsschule
 1485,46,42,34,Ganztagsschule
-123,6,4,23,Gebietsreform
-202,11,7,14,Gebietsreform
-218,9,8,0,Gebietsreform
-353,14,12,15,Gebietsreform
-382,15,13,14,Gebietsreform
-549,20,17,37,Gebietsreform
-632,23,20,6,Gebietsreform
-727,25,22,25,Gebietsreform
-1029,34,30,23,Gebietsreform
-1060,33,31,16,Gebietsreform
-1102,36,32,20,Gebietsreform
+150,6,5,23,Gebietsreform
+229,11,8,14,Gebietsreform
+245,9,8,0,Gebietsreform
+380,14,13,15,Gebietsreform
+409,15,14,14,Gebietsreform
+576,20,18,37,Gebietsreform
+659,23,20,6,Gebietsreform
+754,25,23,25,Gebietsreform
+1056,34,31,23,Gebietsreform
+1087,33,32,16,Gebietsreform
+1129,36,33,20,Gebietsreform
 1184,38,34,37,Gebietsreform
-1271,41,37,10,Gebietsreform
+1233,41,36,10,Gebietsreform
 1351,43,39,14,Gebietsreform
 1379,44,40,4,Gebietsreform
-13,1,0,13,Gemeinsamer Unterricht
-576,22,18,26,Gemeinsamer Unterricht
-596,21,19,8,Gemeinsamer Unterricht
-690,24,21,26,Gemeinsamer Unterricht
-749,26,23,9,Gemeinsamer Unterricht
-847,28,25,31,Gemeinsamer Unterricht
-860,29,26,6,Gemeinsamer Unterricht
-900,30,27,8,Gemeinsamer Unterricht
-987,32,29,19,Gemeinsamer Unterricht
-1093,36,32,11,Gemeinsamer Unterricht
+40,1,1,13,Gemeinsamer Unterricht
+603,22,19,26,Gemeinsamer Unterricht
+623,21,19,8,Gemeinsamer Unterricht
+717,24,22,26,Gemeinsamer Unterricht
+776,26,23,9,Gemeinsamer Unterricht
+874,28,26,31,Gemeinsamer Unterricht
+887,29,26,6,Gemeinsamer Unterricht
+927,30,27,8,Gemeinsamer Unterricht
+1014,32,30,19,Gemeinsamer Unterricht
+1120,36,33,11,Gemeinsamer Unterricht
 1164,38,34,17,Gemeinsamer Unterricht
-1258,40,36,35,Gemeinsamer Unterricht
-40,3,1,20,Gentechnik
-70,4,2,20,Gentechnik
-82,5,3,9,Gentechnik
-134,7,5,5,Gentechnik
-196,11,7,8,Gentechnik
-220,9,8,2,Gentechnik
-250,10,9,2,Gentechnik
-348,14,12,10,Gentechnik
-398,17,14,0,Gentechnik
-423,17,14,25,Gentechnik
-433,17,14,35,Gentechnik
-461,18,15,25,Gentechnik
-486,19,16,12,Gentechnik
-565,22,18,15,Gentechnik
-601,21,19,13,Gentechnik
-794,27,24,16,Gentechnik
-932,31,28,2,Gentechnik
-972,32,29,4,Gentechnik
-1123,37,33,3,Gentechnik
+1296,40,37,35,Gemeinsamer Unterricht
+3,37,0,3,Gentechnik
+67,3,2,20,Gentechnik
+97,4,3,20,Gentechnik
+109,5,4,9,Gentechnik
+161,7,6,5,Gentechnik
+223,11,8,8,Gentechnik
+247,9,8,2,Gentechnik
+277,10,9,2,Gentechnik
+375,14,13,10,Gentechnik
+425,17,14,0,Gentechnik
+450,17,15,25,Gentechnik
+460,17,15,35,Gentechnik
+488,18,16,25,Gentechnik
+513,19,17,12,Gentechnik
+592,22,19,15,Gentechnik
+628,21,20,13,Gentechnik
+821,27,25,16,Gentechnik
+959,31,28,2,Gentechnik
+999,32,29,4,Gentechnik
 1189,39,35,4,Gentechnik
-1278,41,37,17,Gentechnik
-359,14,12,21,Gesundheit
-403,17,14,5,Gesundheit
-407,17,14,9,Gesundheit
-466,18,15,30,Gesundheit
-800,27,24,22,Gesundheit
-829,28,25,13,Gesundheit
-904,30,27,12,Gesundheit
-963,31,28,33,Gesundheit
+1240,41,36,17,Gentechnik
+386,14,13,21,Gesundheit
+430,17,14,5,Gesundheit
+434,17,14,9,Gesundheit
+493,18,16,30,Gesundheit
+827,27,25,22,Gesundheit
+856,28,26,13,Gesundheit
+931,30,28,12,Gesundheit
+990,31,29,33,Gesundheit
 1212,39,35,27,Gesundheit
 1465,46,42,14,Gesundheit
-8,1,0,8,Gewerbesteuer
-51,4,2,1,Gewerbesteuer
-197,11,7,9,Gewerbesteuer
-226,9,8,8,Gewerbesteuer
-287,12,10,9,Gewerbesteuer
-420,17,14,22,Gewerbesteuer
-448,18,15,12,Gewerbesteuer
-488,19,16,14,Gewerbesteuer
-519,20,17,7,Gewerbesteuer
-561,22,18,11,Gewerbesteuer
-607,21,19,19,Gewerbesteuer
-634,23,20,8,Gewerbesteuer
-753,26,23,13,Gewerbesteuer
-845,28,25,29,Gewerbesteuer
-953,31,28,23,Gewerbesteuer
-975,32,29,7,Gewerbesteuer
-1114,36,32,32,Gewerbesteuer
+35,1,1,8,Gewerbesteuer
+78,4,3,1,Gewerbesteuer
+224,11,8,9,Gewerbesteuer
+253,9,9,8,Gewerbesteuer
+314,12,11,9,Gewerbesteuer
+447,17,15,22,Gewerbesteuer
+475,18,16,12,Gewerbesteuer
+515,19,17,14,Gewerbesteuer
+546,20,17,7,Gewerbesteuer
+588,22,19,11,Gewerbesteuer
+634,21,20,19,Gewerbesteuer
+661,23,20,8,Gewerbesteuer
+780,26,24,13,Gewerbesteuer
+872,28,26,29,Gewerbesteuer
+980,31,29,23,Gewerbesteuer
+1002,32,29,7,Gewerbesteuer
+1141,36,33,32,Gewerbesteuer
 1172,38,34,25,Gewerbesteuer
-988,32,29,20,Gigaliner
+1015,32,30,20,Gigaliner
 1153,38,34,6,Gigaliner
-1269,41,37,8,Gigaliner
-96,5,3,23,Graffiti
-120,6,4,20,Graffiti
-252,10,9,4,Graffiti
-280,12,10,2,Graffiti
-45,3,1,25,Grenzkontrollen
-910,30,27,18,Grenzkontrollen
-965,31,28,35,Grenzkontrollen
-1002,32,29,34,Grenzkontrollen
-1077,33,31,33,Grenzkontrollen
-674,24,21,10,Grunderwerbssteuer
-797,27,24,19,Grunderwerbssteuer
-1025,34,30,19,Grunderwerbssteuer
-1070,33,31,26,Grunderwerbssteuer
-1250,40,36,27,Grunderwerbssteuer
+1231,41,36,8,Gigaliner
+123,5,4,23,Graffiti
+147,6,5,20,Graffiti
+279,10,10,4,Graffiti
+307,12,10,2,Graffiti
+72,3,2,25,Grenzkontrollen
+937,30,28,18,Grenzkontrollen
+992,31,29,35,Grenzkontrollen
+1029,32,30,34,Grenzkontrollen
+1104,33,32,33,Grenzkontrollen
+701,24,21,10,Grunderwerbssteuer
+824,27,25,19,Grunderwerbssteuer
+1052,34,31,19,Grunderwerbssteuer
+1097,33,32,26,Grunderwerbssteuer
+1288,40,37,27,Grunderwerbssteuer
 1323,42,38,24,Grunderwerbssteuer
 1347,43,39,10,Grunderwerbssteuer
 1388,44,40,13,Grunderwerbssteuer
 1425,45,41,12,Grunderwerbssteuer
 1480,46,42,29,Grunderwerbssteuer
-0,1,0,0,Grundschuldauer
-60,4,2,10,Grundschuldauer
-89,5,3,16,Grundschuldauer
-191,11,7,3,Grundschuldauer
-242,9,8,24,Grundschuldauer
-526,20,17,14,Grundschuldauer
-603,21,19,15,Grundschuldauer
-676,24,21,12,Grundschuldauer
-712,25,22,10,Grundschuldauer
-839,28,25,23,Grundschuldauer
-969,32,29,1,Grundschuldauer
-1137,37,33,17,Grundschuldauer
-86,5,3,13,Grundschule
-144,7,5,15,Grundschule
-686,24,21,22,Grundschule
+17,37,0,17,Grundschuldauer
+27,1,1,0,Grundschuldauer
+87,4,3,10,Grundschuldauer
+116,5,4,16,Grundschuldauer
+218,11,8,3,Grundschuldauer
+269,9,9,24,Grundschuldauer
+553,20,18,14,Grundschuldauer
+630,21,20,15,Grundschuldauer
+703,24,22,12,Grundschuldauer
+739,25,22,10,Grundschuldauer
+866,28,26,23,Grundschuldauer
+996,32,29,1,Grundschuldauer
+113,5,4,13,Grundschule
+171,7,6,15,Grundschule
+713,24,22,22,Grundschule
 1194,39,35,9,Grundschule
-1267,41,37,6,Grundschule
+1229,41,36,6,Grundschule
 1338,43,39,1,Grundschule
-502,19,16,28,Hartz IV-Sanktionen
-619,21,19,31,Hartz IV-Sanktionen
-645,23,20,19,Hartz IV-Sanktionen
-697,24,21,33,Hartz IV-Sanktionen
-724,25,22,22,Hartz IV-Sanktionen
-746,26,23,6,Hartz IV-Sanktionen
-786,27,24,8,Hartz IV-Sanktionen
-826,28,25,10,Hartz IV-Sanktionen
-920,30,27,28,Hartz IV-Sanktionen
-1000,32,29,32,Hartz IV-Sanktionen
-1015,34,30,9,Hartz IV-Sanktionen
-1094,36,32,12,Hartz IV-Sanktionen
+529,19,17,28,Hartz IV-Sanktionen
+646,21,20,31,Hartz IV-Sanktionen
+672,23,21,19,Hartz IV-Sanktionen
+724,24,22,33,Hartz IV-Sanktionen
+751,25,23,22,Hartz IV-Sanktionen
+773,26,23,6,Hartz IV-Sanktionen
+813,27,24,8,Hartz IV-Sanktionen
+853,28,25,10,Hartz IV-Sanktionen
+947,30,28,28,Hartz IV-Sanktionen
+1027,32,30,32,Hartz IV-Sanktionen
+1042,34,30,9,Hartz IV-Sanktionen
+1121,36,33,12,Hartz IV-Sanktionen
 1163,38,34,16,Hartz IV-Sanktionen
 1197,39,35,12,Hartz IV-Sanktionen
-1256,40,36,33,Hartz IV-Sanktionen
-1286,41,37,25,Hartz IV-Sanktionen
+1248,41,36,25,Hartz IV-Sanktionen
+1294,40,37,33,Hartz IV-Sanktionen
 1334,42,38,35,Hartz IV-Sanktionen
 1446,45,41,33,Hartz IV-Sanktionen
-730,25,22,28,Inklusion
-808,27,24,30,Inklusion
-1110,36,32,28,Inklusion
+757,25,23,28,Inklusion
+835,27,25,30,Inklusion
+1137,36,33,28,Inklusion
 1210,39,35,25,Inklusion
-1245,40,36,22,Inklusion
+1283,40,37,22,Inklusion
 1303,42,38,4,Inklusion
 1362,43,39,25,Inklusion
 1444,45,41,31,Inklusion
-103,6,4,3,Jugendarbeit
-350,14,12,12,Jugendarbeit
-661,23,20,35,Jugendarbeit
-19,1,0,19,Jugendbeirat
-143,7,5,14,Jugendbeirat
+130,6,5,3,Jugendarbeit
+377,14,13,12,Jugendarbeit
+688,23,21,35,Jugendarbeit
+46,1,1,19,Jugendbeirat
+170,7,6,14,Jugendbeirat
 1360,43,39,23,Jugendbeirat
 1423,45,41,10,Jugendbeirat
-149,7,5,20,Jugendschutz
-192,11,7,4,Jugendschutz
-269,10,9,21,Jugendschutz
-276,10,9,28,Jugendschutz
-324,13,11,16,Jugendschutz
-344,14,12,6,Jugendschutz
-118,6,4,18,Jugendstrafrecht
-325,13,11,17,Jugendstrafrecht
-332,13,11,24,Jugendstrafrecht
-394,15,13,26,Jugendstrafrecht
-504,19,16,30,Jugendstrafrecht
-544,20,17,32,Jugendstrafrecht
-673,24,21,9,Jugendstrafrecht
-756,26,23,16,Jugendstrafrecht
-821,28,25,5,Jugendstrafrecht
+176,7,6,20,Jugendschutz
+219,11,8,4,Jugendschutz
+296,10,10,21,Jugendschutz
+303,10,10,28,Jugendschutz
+351,13,12,16,Jugendschutz
+371,14,13,6,Jugendschutz
+145,6,5,18,Jugendstrafrecht
+352,13,12,17,Jugendstrafrecht
+359,13,12,24,Jugendstrafrecht
+421,15,14,26,Jugendstrafrecht
+531,19,17,30,Jugendstrafrecht
+571,20,18,32,Jugendstrafrecht
+700,24,21,9,Jugendstrafrecht
+783,26,24,16,Jugendstrafrecht
+848,28,25,5,Jugendstrafrecht
 1477,46,42,26,Jugendstrafrecht
-104,6,4,4,KiTa
-214,11,7,26,KiTa
-216,11,7,28,KiTa
-302,12,10,24,KiTa
-315,13,11,7,KiTa
+131,6,5,4,KiTa
+241,11,8,26,KiTa
+243,11,8,28,KiTa
+329,12,11,24,KiTa
+342,13,12,7,KiTa
 1179,38,34,32,KiTa
-91,5,3,18,KiTa-Gebühren
-142,7,5,13,KiTa-Gebühren
-358,14,12,20,KiTa-Gebühren
-373,15,13,5,KiTa-Gebühren
-513,20,17,1,KiTa-Gebühren
-741,26,23,1,KiTa-Gebühren
-1019,34,30,13,KiTa-Gebühren
-1067,33,31,23,KiTa-Gebühren
-1101,36,32,19,KiTa-Gebühren
-1263,41,37,2,KiTa-Gebühren
+118,5,4,18,KiTa-Gebühren
+169,7,6,13,KiTa-Gebühren
+385,14,13,20,KiTa-Gebühren
+400,15,14,5,KiTa-Gebühren
+540,20,17,1,KiTa-Gebühren
+768,26,23,1,KiTa-Gebühren
+1046,34,31,13,KiTa-Gebühren
+1094,33,32,23,KiTa-Gebühren
+1128,36,33,19,KiTa-Gebühren
+1225,41,36,2,KiTa-Gebühren
 1319,42,38,20,KiTa-Gebühren
 1367,43,39,30,KiTa-Gebühren
 1416,45,41,3,KiTa-Gebühren
-50,4,2,0,Kohle
-130,7,5,1,Kohle
-171,8,6,13,Kohle
-211,11,7,23,Kohle
-309,13,11,1,Kohle
-366,14,12,28,Kohle
-384,15,13,16,Kohle
-511,19,16,37,Kohle
-815,27,24,37,Kohle
-841,28,25,25,Kohle
-903,30,27,11,Kohle
-968,32,29,0,Kohle
-1079,33,31,35,Kohle
+77,4,3,0,Kohle
+157,7,5,1,Kohle
+198,8,7,13,Kohle
+238,11,8,23,Kohle
+336,13,11,1,Kohle
+393,14,13,28,Kohle
+411,15,14,16,Kohle
+538,19,17,37,Kohle
+842,27,25,37,Kohle
+868,28,26,25,Kohle
+930,30,28,11,Kohle
+995,32,29,0,Kohle
+1106,33,32,35,Kohle
 1187,39,35,2,Kohle
 1372,43,39,35,Kohle
 1418,45,41,5,Kohle
 1470,46,42,19,Kohle
-36,3,1,16,kommunale Grundversorgung
-327,13,11,19,kommunale Grundversorgung
-385,15,13,17,kommunale Grundversorgung
-499,19,16,25,kommunale Grundversorgung
-529,20,17,17,kommunale Grundversorgung
-586,22,18,36,kommunale Grundversorgung
-616,21,19,28,kommunale Grundversorgung
-696,24,21,32,kommunale Grundversorgung
-733,25,22,31,kommunale Grundversorgung
-759,26,23,19,kommunale Grundversorgung
-791,27,24,13,kommunale Grundversorgung
-827,28,25,11,kommunale Grundversorgung
-1062,33,31,18,kommunale Grundversorgung
+63,3,2,16,kommunale Grundversorgung
+354,13,12,19,kommunale Grundversorgung
+412,15,14,17,kommunale Grundversorgung
+526,19,17,25,kommunale Grundversorgung
+556,20,18,17,kommunale Grundversorgung
+613,22,19,36,kommunale Grundversorgung
+643,21,20,28,kommunale Grundversorgung
+723,24,22,32,kommunale Grundversorgung
+760,25,23,31,kommunale Grundversorgung
+786,26,24,19,kommunale Grundversorgung
+818,27,25,13,kommunale Grundversorgung
+854,28,26,11,kommunale Grundversorgung
+1089,33,32,18,kommunale Grundversorgung
 1364,43,39,27,kommunale Grundversorgung
-176,8,6,18,Kooperationsverbot
-464,18,15,28,Kooperationsverbot
-1136,37,33,16,Kooperationsverbot
-2,1,0,2,Kopfnote
-61,4,2,11,Kopfnote
-282,12,10,4,Kopfnote
-479,19,16,5,Kopfnote
+16,37,0,16,Kooperationsverbot
+203,8,7,18,Kooperationsverbot
+491,18,16,28,Kooperationsverbot
+29,1,1,2,Kopfnote
+88,4,3,11,Kopfnote
+309,12,11,4,Kopfnote
+506,19,16,5,Kopfnote
 1155,38,34,8,Kopfnote
-106,6,4,6,Kopftuch
-153,7,5,24,Kopftuch
-241,9,8,23,Kopftuch
-1276,41,37,15,Kopftuch
-295,12,10,17,Krankenhaus-Privatisierung
-386,15,13,18,Krankenhaus-Privatisierung
-500,19,16,26,Krankenhaus-Privatisierung
-545,20,17,33,Krankenhaus-Privatisierung
-595,21,19,7,Krankenhaus-Privatisierung
-736,25,22,34,Krankenhaus-Privatisierung
-769,26,23,29,Krankenhaus-Privatisierung
-873,29,26,19,Krankenhaus-Privatisierung
-1107,36,32,25,Krankenhaus-Privatisierung
+133,6,5,6,Kopftuch
+180,7,6,24,Kopftuch
+268,9,9,23,Kopftuch
+1238,41,36,15,Kopftuch
+322,12,11,17,Krankenhaus-Privatisierung
+413,15,14,18,Krankenhaus-Privatisierung
+527,19,17,26,Krankenhaus-Privatisierung
+572,20,18,33,Krankenhaus-Privatisierung
+622,21,19,7,Krankenhaus-Privatisierung
+763,25,23,34,Krankenhaus-Privatisierung
+796,26,24,29,Krankenhaus-Privatisierung
+900,29,27,19,Krankenhaus-Privatisierung
+1134,36,33,25,Krankenhaus-Privatisierung
 1207,39,35,22,Krankenhaus-Privatisierung
-1266,41,37,5,Krankenhaus-Privatisierung
-101,6,4,1,Krankenversicherung
-167,8,6,9,Krankenversicherung
-571,22,18,21,Krankenversicherung
-637,23,20,11,Krankenversicherung
-838,28,25,22,Krankenversicherung
-922,30,27,30,Krankenversicherung
-1133,37,33,13,Krankenversicherung
+1228,41,36,5,Krankenhaus-Privatisierung
+13,37,0,13,Krankenversicherung
+128,6,4,1,Krankenversicherung
+194,8,7,9,Krankenversicherung
+598,22,19,21,Krankenversicherung
+664,23,21,11,Krankenversicherung
+865,28,26,22,Krankenversicherung
+949,30,28,30,Krankenversicherung
 1478,46,42,27,Krankenversicherung
-53,4,2,3,Kultur
-80,5,3,7,Kultur
-304,12,10,26,Kultur
-395,15,13,27,Kultur
-639,23,20,13,Kultur
-663,23,20,37,Kultur
-711,25,22,9,Kultur
-764,26,23,24,Kultur
+80,4,3,3,Kultur
+107,5,4,7,Kultur
+331,12,11,26,Kultur
+422,15,14,27,Kultur
+666,23,21,13,Kultur
+690,23,21,37,Kultur
+738,25,22,9,Kultur
+791,26,24,24,Kultur
 1305,42,38,6,Kultur
-483,19,16,9,Kulturaustausch
-532,20,17,20,Kulturaustausch
-560,22,18,10,Kulturaustausch
-600,21,19,12,Kulturaustausch
-633,23,20,7,Kulturaustausch
-671,24,21,7,Kulturaustausch
-784,27,24,6,Kulturaustausch
-840,28,25,24,Kulturaustausch
-885,29,26,31,Kulturaustausch
-995,32,29,27,Kulturaustausch
-1071,33,31,27,Kulturaustausch
-1089,36,32,7,Kulturaustausch
-1235,40,36,12,Kulturaustausch
-1255,40,36,32,Kulturaustausch
+510,19,16,9,Kulturaustausch
+559,20,18,20,Kulturaustausch
+587,22,18,10,Kulturaustausch
+627,21,20,12,Kulturaustausch
+660,23,20,7,Kulturaustausch
+698,24,21,7,Kulturaustausch
+811,27,24,6,Kulturaustausch
+867,28,26,24,Kulturaustausch
+912,29,27,31,Kulturaustausch
+1022,32,30,27,Kulturaustausch
+1098,33,32,27,Kulturaustausch
+1116,36,32,7,Kulturaustausch
+1273,40,37,12,Kulturaustausch
+1293,40,37,32,Kulturaustausch
 1340,43,39,3,Kulturaustausch
 1439,45,41,26,Kulturaustausch
-75,5,3,2,Kündigungsschutz
-159,8,6,1,Kündigungsschutz
-259,10,9,11,Kündigungsschutz
-336,13,11,28,Kündigungsschutz
-425,17,14,27,Kündigungsschutz
-452,18,15,16,Kündigungsschutz
-1130,37,33,10,Kündigungsschutz
-77,5,3,4,Ladenöffnungszeit
-117,6,4,17,Ladenöffnungszeit
-138,7,5,9,Ladenöffnungszeit
-217,11,7,29,Ladenöffnungszeit
-278,12,10,0,Ladenöffnungszeit
-339,14,12,1,Ladenöffnungszeit
-377,15,13,9,Ladenöffnungszeit
-474,19,16,0,Ladenöffnungszeit
-528,20,17,16,Ladenöffnungszeit
-550,22,18,0,Ladenöffnungszeit
-625,21,19,37,Ladenöffnungszeit
-651,23,20,25,Ladenöffnungszeit
-702,25,22,0,Ladenöffnungszeit
-781,27,24,3,Ladenöffnungszeit
-818,28,25,2,Ladenöffnungszeit
-854,29,26,0,Ladenöffnungszeit
-1027,34,30,21,Ladenöffnungszeit
-1035,34,30,29,Ladenöffnungszeit
-1122,37,33,2,Ladenöffnungszeit
+10,37,0,10,Kündigungsschutz
+102,5,4,2,Kündigungsschutz
+186,8,6,1,Kündigungsschutz
+286,10,10,11,Kündigungsschutz
+363,13,12,28,Kündigungsschutz
+452,17,15,27,Kündigungsschutz
+479,18,16,16,Kündigungsschutz
+2,37,0,2,Ladenöffnungszeit
+104,5,4,4,Ladenöffnungszeit
+144,6,5,17,Ladenöffnungszeit
+165,7,6,9,Ladenöffnungszeit
+244,11,8,29,Ladenöffnungszeit
+305,12,10,0,Ladenöffnungszeit
+366,14,12,1,Ladenöffnungszeit
+404,15,14,9,Ladenöffnungszeit
+501,19,16,0,Ladenöffnungszeit
+555,20,18,16,Ladenöffnungszeit
+577,22,18,0,Ladenöffnungszeit
+652,21,20,37,Ladenöffnungszeit
+678,23,21,25,Ladenöffnungszeit
+729,25,22,0,Ladenöffnungszeit
+808,27,24,3,Ladenöffnungszeit
+845,28,25,2,Ladenöffnungszeit
+881,29,26,0,Ladenöffnungszeit
+1054,34,31,21,Ladenöffnungszeit
+1062,34,31,29,Ladenöffnungszeit
 1149,38,34,2,Ladenöffnungszeit
 1301,42,38,2,Ladenöffnungszeit
 1337,43,39,0,Ladenöffnungszeit
 1406,44,40,31,Ladenöffnungszeit
 1414,45,41,1,Ladenöffnungszeit
-761,26,23,21,Landarzt
-1047,33,31,3,Landarzt
-1236,40,36,13,Landarzt
+788,26,24,21,Landarzt
+1074,33,31,3,Landarzt
+1274,40,37,13,Landarzt
 1383,44,40,8,Landarzt
-512,20,17,0,LANDESSPEZIFISCH
-551,22,18,1,LANDESSPEZIFISCH
-672,24,21,8,LANDESSPEZIFISCH
-682,24,21,18,LANDESSPEZIFISCH
-704,25,22,2,LANDESSPEZIFISCH
-1014,34,30,8,LANDESSPEZIFISCH
-1298,41,37,37,LANDESSPEZIFISCH
+539,20,17,0,LANDESSPEZIFISCH
+578,22,18,1,LANDESSPEZIFISCH
+699,24,21,8,LANDESSPEZIFISCH
+709,24,22,18,LANDESSPEZIFISCH
+731,25,22,2,LANDESSPEZIFISCH
+1041,34,30,8,LANDESSPEZIFISCH
+1260,41,36,37,LANDESSPEZIFISCH
 1336,42,38,37,LANDESSPEZIFISCH
 1370,43,39,33,LANDESSPEZIFISCH
 1387,44,40,12,LANDESSPEZIFISCH
 1411,44,40,36,LANDESSPEZIFISCH
 1412,44,40,37,LANDESSPEZIFISCH
-734,25,22,32,Leiharbeit
-1058,33,31,14,Leiharbeit
+761,25,23,32,Leiharbeit
+1085,33,32,14,Leiharbeit
 1218,39,35,33,Leiharbeit
-1249,40,36,26,Leiharbeit
+1287,40,37,26,Leiharbeit
 1471,46,42,20,Leiharbeit
-266,10,9,18,Letztes Kindergartenjahr
-316,13,11,8,Letztes Kindergartenjahr
-575,22,18,25,Letztes Kindergartenjahr
-612,21,19,24,Letztes Kindergartenjahr
-636,23,20,10,Letztes Kindergartenjahr
-670,24,21,6,Letztes Kindergartenjahr
-706,25,22,4,Letztes Kindergartenjahr
-798,27,24,20,Letztes Kindergartenjahr
-884,29,26,30,Letztes Kindergartenjahr
-992,32,29,24,Letztes Kindergartenjahr
+293,10,10,18,Letztes Kindergartenjahr
+343,13,12,8,Letztes Kindergartenjahr
+602,22,19,25,Letztes Kindergartenjahr
+639,21,20,24,Letztes Kindergartenjahr
+663,23,20,10,Letztes Kindergartenjahr
+697,24,21,6,Letztes Kindergartenjahr
+733,25,22,4,Letztes Kindergartenjahr
+825,27,25,20,Letztes Kindergartenjahr
+911,29,27,30,Letztes Kindergartenjahr
+1019,32,30,24,Letztes Kindergartenjahr
 1200,39,35,15,Letztes Kindergartenjahr
-1234,40,36,11,Letztes Kindergartenjahr
-401,17,14,3,Managergehälter
-440,18,15,4,Managergehälter
-966,31,28,36,Managergehälter
-857,29,26,3,Mietpreisbremse
-926,30,27,34,Mietpreisbremse
-990,32,29,22,Mietpreisbremse
-1092,36,32,10,Mietpreisbremse
-1246,40,36,23,Mietpreisbremse
-1277,41,37,16,Mietpreisbremse
+1272,40,37,11,Letztes Kindergartenjahr
+428,17,14,3,Managergehälter
+467,18,15,4,Managergehälter
+993,31,29,36,Managergehälter
+884,29,26,3,Mietpreisbremse
+953,30,28,34,Mietpreisbremse
+1017,32,30,22,Mietpreisbremse
+1119,36,32,10,Mietpreisbremse
+1239,41,36,16,Mietpreisbremse
+1284,40,37,23,Mietpreisbremse
 1299,42,38,0,Mietpreisbremse
 1307,42,38,8,Mietpreisbremse
 1396,44,40,21,Mietpreisbremse
 1429,45,41,16,Mietpreisbremse
-1024,34,30,18,Militärische Forschung
-1091,36,32,9,Militärische Forschung
+1051,34,31,18,Militärische Forschung
+1118,36,32,9,Militärische Forschung
 1174,38,34,27,Militärische Forschung
-1239,40,36,16,Militärische Forschung
+1277,40,37,16,Militärische Forschung
 1330,42,38,31,Militärische Forschung
 1407,44,40,32,Militärische Forschung
-33,3,1,13,Mindestlohn
-78,5,3,5,Mindestlohn
-115,6,4,15,Mindestlohn
-135,7,5,6,Mindestlohn
-164,8,6,6,Mindestlohn
-213,11,7,25,Mindestlohn
-238,9,8,20,Mindestlohn
-326,13,11,18,Mindestlohn
-371,15,13,3,Mindestlohn
-430,17,14,32,Mindestlohn
-437,18,15,1,Mindestlohn
-490,19,16,16,Mindestlohn
-535,20,17,23,Mindestlohn
-558,22,18,8,Mindestlohn
-562,22,18,12,Mindestlohn
-599,21,19,11,Mindestlohn
-691,24,21,27,Mindestlohn
-743,26,23,3,Mindestlohn
-811,27,24,33,Mindestlohn
-832,28,25,16,Mindestlohn
-892,30,27,0,Mindestlohn
-934,31,28,4,Mindestlohn
+60,3,2,13,Mindestlohn
+105,5,4,5,Mindestlohn
+142,6,5,15,Mindestlohn
+162,7,6,6,Mindestlohn
+191,8,7,6,Mindestlohn
+240,11,8,25,Mindestlohn
+265,9,9,20,Mindestlohn
+353,13,12,18,Mindestlohn
+398,15,14,3,Mindestlohn
+457,17,15,32,Mindestlohn
+464,18,15,1,Mindestlohn
+517,19,17,16,Mindestlohn
+562,20,18,23,Mindestlohn
+585,22,18,8,Mindestlohn
+589,22,19,12,Mindestlohn
+626,21,20,11,Mindestlohn
+718,24,22,27,Mindestlohn
+770,26,23,3,Mindestlohn
+838,27,25,33,Mindestlohn
+859,28,26,16,Mindestlohn
+919,30,27,0,Mindestlohn
+961,31,28,4,Mindestlohn
 1320,42,38,21,Mindestlohn
 1381,44,40,6,Mindestlohn
 1422,45,41,9,Mindestlohn
-744,26,23,4,Moral
-937,31,28,7,Moral
-954,31,28,24,Moral
-1125,37,33,5,Moral
+5,37,0,5,Moral
+771,26,23,4,Moral
+964,31,28,7,Moral
+981,31,29,24,Moral
 1371,43,39,34,Moral
-507,19,16,33,Moschee
-536,20,17,24,Moschee
-557,22,18,7,Moschee
-593,21,19,5,Moschee
-654,23,20,28,Moschee
-732,25,22,30,Moschee
-790,27,24,12,Moschee
-863,29,26,9,Moschee
-978,32,29,10,Moschee
+534,19,17,33,Moschee
+563,20,18,24,Moschee
+584,22,18,7,Moschee
+620,21,19,5,Moschee
+681,23,21,28,Moschee
+759,25,23,30,Moschee
+817,27,25,12,Moschee
+890,29,26,9,Moschee
+1005,32,29,10,Moschee
 1321,42,38,22,Moschee
-72,4,2,22,Müll
-83,5,3,10,Müll
-166,8,6,8,Müll
-311,13,11,3,Müll
-666,24,21,2,Müll
-1106,36,32,24,Müll
-1,1,0,1,Noten
-88,5,3,15,Noten
-321,13,11,13,Noten
-343,14,12,5,Noten
-517,20,17,5,Noten
+99,4,3,22,Müll
+110,5,4,10,Müll
+193,8,7,8,Müll
+338,13,12,3,Müll
+693,24,21,2,Müll
+1133,36,33,24,Müll
+28,1,1,1,Noten
+115,5,4,15,Noten
+348,13,12,13,Noten
+370,14,13,5,Noten
+544,20,17,5,Noten
 1312,42,38,13,Noten
 1375,44,40,0,Noten
-569,22,18,19,Öffentlich-Rechtlicher Rundfunk
-605,21,19,17,Öffentlich-Rechtlicher Rundfunk
-788,27,24,10,Öffentlich-Rechtlicher Rundfunk
-977,32,29,9,Öffentlich-Rechtlicher Rundfunk
-201,11,7,13,Öffentlicher Dienst
-260,10,9,12,Öffentlicher Dienst
-718,25,22,16,Öffentlicher Dienst
+596,22,19,19,Öffentlich-Rechtlicher Rundfunk
+632,21,20,17,Öffentlich-Rechtlicher Rundfunk
+815,27,24,10,Öffentlich-Rechtlicher Rundfunk
+1004,32,29,9,Öffentlich-Rechtlicher Rundfunk
+228,11,8,13,Öffentlicher Dienst
+287,10,10,12,Öffentlicher Dienst
+745,25,23,16,Öffentlicher Dienst
 1405,44,40,30,Öffentlicher Dienst
-133,7,5,4,Ökologische Landwirtschaft
-215,11,7,27,Ökologische Landwirtschaft
-236,9,8,18,Ökologische Landwirtschaft
-457,18,15,21,Ökologische Landwirtschaft
-725,25,22,23,Ökologische Landwirtschaft
-755,26,23,15,Ökologische Landwirtschaft
-858,29,26,4,Ökologische Landwirtschaft
-899,30,27,7,Ökologische Landwirtschaft
-936,31,28,6,Ökologische Landwirtschaft
-994,32,29,26,Ökologische Landwirtschaft
-1065,33,31,21,Ökologische Landwirtschaft
-1227,40,36,4,Ökologische Landwirtschaft
-1261,41,37,0,Ökologische Landwirtschaft
+160,7,6,4,Ökologische Landwirtschaft
+242,11,8,27,Ökologische Landwirtschaft
+263,9,9,18,Ökologische Landwirtschaft
+484,18,16,21,Ökologische Landwirtschaft
+752,25,23,23,Ökologische Landwirtschaft
+782,26,24,15,Ökologische Landwirtschaft
+885,29,26,4,Ökologische Landwirtschaft
+926,30,27,7,Ökologische Landwirtschaft
+963,31,28,6,Ökologische Landwirtschaft
+1021,32,30,26,Ökologische Landwirtschaft
+1092,33,32,21,Ökologische Landwirtschaft
+1223,41,36,0,Ökologische Landwirtschaft
+1265,40,37,4,Ökologische Landwirtschaft
 1366,43,39,29,Ökologische Landwirtschaft
 1377,44,40,2,Ökologische Landwirtschaft
 1424,45,41,11,Ökologische Landwirtschaft
 1462,46,42,11,Ökologische Landwirtschaft
 1469,46,42,18,Ökologische Landwirtschaft
-866,29,26,12,Olympia
-1081,33,31,37,Olympia
-1082,36,32,0,Olympia
-293,12,10,15,ÖPNV
-514,20,17,2,ÖPNV
-767,26,23,27,ÖPNV
-982,32,29,14,ÖPNV
-1083,36,32,1,ÖPNV
-1119,36,32,37,ÖPNV
+893,29,27,12,Olympia
+1108,33,32,37,Olympia
+1109,36,32,0,Olympia
+320,12,11,15,ÖPNV
+541,20,17,2,ÖPNV
+794,26,24,27,ÖPNV
+1009,32,30,14,ÖPNV
+1110,36,32,1,ÖPNV
+1146,36,33,37,ÖPNV
 1161,38,34,14,ÖPNV
 1335,42,38,36,ÖPNV
-709,25,22,7,Parteiverbot
-768,26,23,28,Parteiverbot
-796,27,24,18,Parteiverbot
-908,30,27,16,Parteiverbot
-1018,34,30,12,Parteiverbot
-675,24,21,11,Politischer Extremismus
-698,24,21,34,Politischer Extremismus
-868,29,26,14,Politischer Extremismus
-1042,34,30,36,Politischer Extremismus
-1059,33,31,15,Politischer Extremismus
+736,25,22,7,Parteiverbot
+795,26,24,28,Parteiverbot
+823,27,25,18,Parteiverbot
+935,30,28,16,Parteiverbot
+1045,34,31,12,Parteiverbot
+702,24,22,11,Politischer Extremismus
+725,24,22,34,Politischer Extremismus
+895,29,27,14,Politischer Extremismus
+1069,34,31,36,Politischer Extremismus
+1086,33,32,15,Politischer Extremismus
 1156,38,34,9,Politischer Extremismus
 1215,39,35,30,Politischer Extremismus
 1467,46,42,16,Politischer Extremismus
-43,3,1,23,Polizei
-46,3,1,26,Polizei
-305,12,10,27,Polizei
-318,13,11,10,Polizei
-503,19,16,29,Polizei
-650,23,20,24,Polizei
-1026,34,30,20,Polizei
-1045,33,31,1,Polizei
-1109,36,32,27,Polizei
+70,3,2,23,Polizei
+73,3,3,26,Polizei
+332,12,11,27,Polizei
+345,13,12,10,Polizei
+530,19,17,29,Polizei
+677,23,21,24,Polizei
+1053,34,31,20,Polizei
+1072,33,31,1,Polizei
+1136,36,33,27,Polizei
 1162,38,34,15,Polizei
 1304,42,38,5,Polizei
 1314,42,38,15,Polizei
 1442,45,41,29,Polizei
-94,5,3,21,Polizeieinsatz-Kosten
-155,7,5,26,Polizeieinsatz-Kosten
-317,13,11,9,Polizeieinsatz-Kosten
-542,20,17,30,Polizeieinsatz-Kosten
-618,21,19,30,Polizeieinsatz-Kosten
-846,28,25,30,Polizeieinsatz-Kosten
-999,32,29,31,Polizeieinsatz-Kosten
-1088,36,32,6,Polizeieinsatz-Kosten
+121,5,4,21,Polizeieinsatz-Kosten
+182,7,6,26,Polizeieinsatz-Kosten
+344,13,12,9,Polizeieinsatz-Kosten
+569,20,18,30,Polizeieinsatz-Kosten
+645,21,20,30,Polizeieinsatz-Kosten
+873,28,26,30,Polizeieinsatz-Kosten
+1026,32,30,31,Polizeieinsatz-Kosten
+1115,36,32,6,Polizeieinsatz-Kosten
 1148,38,34,1,Polizeieinsatz-Kosten
 1203,39,35,18,Polizeieinsatz-Kosten
-1253,40,36,30,Polizeieinsatz-Kosten
-1274,41,37,13,Polizeieinsatz-Kosten
+1236,41,36,13,Polizeieinsatz-Kosten
+1291,40,37,30,Polizeieinsatz-Kosten
 1421,45,41,8,Polizeieinsatz-Kosten
-299,12,10,21,Polizisten-Kennzeichnung
-581,22,18,31,Polizisten-Kennzeichnung
-606,21,19,18,Polizisten-Kennzeichnung
-687,24,21,23,Polizisten-Kennzeichnung
-793,27,24,15,Polizisten-Kennzeichnung
-882,29,26,28,Polizisten-Kennzeichnung
+326,12,11,21,Polizisten-Kennzeichnung
+608,22,19,31,Polizisten-Kennzeichnung
+633,21,20,18,Polizisten-Kennzeichnung
+714,24,22,23,Polizisten-Kennzeichnung
+820,27,25,15,Polizisten-Kennzeichnung
+909,29,27,28,Polizisten-Kennzeichnung
 1199,39,35,14,Polizisten-Kennzeichnung
-1257,40,36,34,Polizisten-Kennzeichnung
-1268,41,37,7,Polizisten-Kennzeichnung
+1230,41,36,7,Polizisten-Kennzeichnung
+1295,40,37,34,Polizisten-Kennzeichnung
 1409,44,40,34,Polizisten-Kennzeichnung
-81,5,3,8,Privatisierung
-152,7,5,23,Privatisierung
-279,12,10,1,Privatisierung
-288,12,10,10,Privatisierung
-340,14,12,2,Privatisierung
-355,14,12,17,Privatisierung
-379,15,13,11,Privatisierung
-459,18,15,23,Privatisierung
-484,19,16,10,Privatisierung
-658,23,20,32,Privatisierung
-664,24,21,0,Privatisierung
-1052,33,31,8,Privatisierung
+108,5,4,8,Privatisierung
+179,7,6,23,Privatisierung
+306,12,10,1,Privatisierung
+315,12,11,10,Privatisierung
+367,14,12,2,Privatisierung
+382,14,13,17,Privatisierung
+406,15,14,11,Privatisierung
+486,18,16,23,Privatisierung
+511,19,16,10,Privatisierung
+685,23,21,32,Privatisierung
+691,24,21,0,Privatisierung
+1079,33,31,8,Privatisierung
 1150,38,34,3,Privatisierung
 1433,45,41,20,Privatisierung
-208,11,7,20,Privatschule
-300,12,10,22,Privatschule
-508,19,16,34,Privatschule
-1040,34,30,34,Privatschule
-1076,33,31,32,Privatschule
+235,11,8,20,Privatschule
+327,12,11,22,Privatschule
+535,19,17,34,Privatschule
+1067,34,31,34,Privatschule
+1103,33,32,32,Privatschule
 1168,38,34,21,Privatschule
-251,10,9,3,Projekt
-849,28,25,33,Projekt
-1009,34,30,3,Projekt
-1095,36,32,13,Projekt
+278,10,10,3,Projekt
+876,28,26,33,Projekt
+1036,34,30,3,Projekt
+1122,36,33,13,Projekt
 1160,38,34,13,Projekt
-501,19,16,27,Projekte gegen Rechtsextremismus
-548,20,17,36,Projekte gegen Rechtsextremismus
-585,22,18,35,Projekte gegen Rechtsextremismus
-608,21,19,20,Projekte gegen Rechtsextremismus
-659,23,20,33,Projekte gegen Rechtsextremismus
-685,24,21,21,Projekte gegen Rechtsextremismus
-738,25,22,36,Projekte gegen Rechtsextremismus
-775,26,23,35,Projekte gegen Rechtsextremismus
-814,27,24,36,Projekte gegen Rechtsextremismus
-824,28,25,8,Projekte gegen Rechtsextremismus
-949,31,28,19,Projekte gegen Rechtsextremismus
-989,32,29,21,Projekte gegen Rechtsextremismus
-1031,34,30,25,Projekte gegen Rechtsextremismus
-1105,36,32,23,Projekte gegen Rechtsextremismus
+528,19,17,27,Projekte gegen Rechtsextremismus
+575,20,18,36,Projekte gegen Rechtsextremismus
+612,22,19,35,Projekte gegen Rechtsextremismus
+635,21,20,20,Projekte gegen Rechtsextremismus
+686,23,21,33,Projekte gegen Rechtsextremismus
+712,24,22,21,Projekte gegen Rechtsextremismus
+765,25,23,36,Projekte gegen Rechtsextremismus
+802,26,24,35,Projekte gegen Rechtsextremismus
+841,27,25,36,Projekte gegen Rechtsextremismus
+851,28,25,8,Projekte gegen Rechtsextremismus
+976,31,29,19,Projekte gegen Rechtsextremismus
+1016,32,30,21,Projekte gegen Rechtsextremismus
+1058,34,31,25,Projekte gegen Rechtsextremismus
+1132,36,33,23,Projekte gegen Rechtsextremismus
 1178,38,34,31,Projekte gegen Rechtsextremismus
 1188,39,35,3,Projekte gegen Rechtsextremismus
-1247,40,36,24,Projekte gegen Rechtsextremismus
-1292,41,37,31,Projekte gegen Rechtsextremismus
+1254,41,36,31,Projekte gegen Rechtsextremismus
+1285,40,37,24,Projekte gegen Rechtsextremismus
 1328,42,38,29,Projekte gegen Rechtsextremismus
 1363,43,39,26,Projekte gegen Rechtsextremismus
 1426,45,41,13,Projekte gegen Rechtsextremismus
 1479,46,42,28,Projekte gegen Rechtsextremismus
-234,9,8,16,Rauchverbot
-298,12,10,20,Rauchverbot
-376,15,13,8,Rauchverbot
-435,17,14,37,Rauchverbot
-476,19,16,2,Rauchverbot
-516,20,17,4,Rauchverbot
-579,22,18,29,Rauchverbot
-615,21,19,27,Rauchverbot
-715,25,22,13,Rauchverbot
-778,27,24,0,Rauchverbot
-1008,34,30,2,Rauchverbot
+261,9,9,16,Rauchverbot
+325,12,11,20,Rauchverbot
+403,15,14,8,Rauchverbot
+462,17,15,37,Rauchverbot
+503,19,16,2,Rauchverbot
+543,20,17,4,Rauchverbot
+606,22,19,29,Rauchverbot
+642,21,20,27,Rauchverbot
+742,25,23,13,Rauchverbot
+805,27,24,0,Rauchverbot
+1035,34,30,2,Rauchverbot
 1448,45,41,35,Rauchverbot
-320,13,11,12,Religionsfreiheit
-602,21,19,14,Religionsfreiheit
-844,28,25,28,Religionsfreiheit
-890,29,26,36,Religionsfreiheit
-921,30,27,29,Religionsfreiheit
-991,32,29,23,Religionsfreiheit
+347,13,12,12,Religionsfreiheit
+629,21,20,14,Religionsfreiheit
+871,28,26,28,Religionsfreiheit
+917,29,27,36,Religionsfreiheit
+948,30,28,29,Religionsfreiheit
+1018,32,30,23,Religionsfreiheit
 1354,43,39,17,Religionsfreiheit
 1486,46,42,35,Religionsfreiheit
-291,12,10,13,Religionsunterricht
-493,19,16,19,Religionsunterricht
-563,22,18,13,Religionsunterricht
-580,22,18,30,Religionsunterricht
-638,23,20,12,Religionsunterricht
-695,24,21,31,Religionsunterricht
-714,25,22,12,Religionsunterricht
-754,26,23,14,Religionsunterricht
-787,27,24,9,Religionsunterricht
-828,28,25,12,Religionsunterricht
-997,32,29,29,Religionsunterricht
+318,12,11,13,Religionsunterricht
+520,19,17,19,Religionsunterricht
+590,22,19,13,Religionsunterricht
+607,22,19,30,Religionsunterricht
+665,23,21,12,Religionsunterricht
+722,24,22,31,Religionsunterricht
+741,25,23,12,Religionsunterricht
+781,26,24,14,Religionsunterricht
+814,27,24,9,Religionsunterricht
+855,28,26,12,Religionsunterricht
+1024,32,30,29,Religionsunterricht
 1213,39,35,28,Religionsunterricht
-1251,40,36,28,Religionsunterricht
-1279,41,37,18,Religionsunterricht
+1241,41,36,18,Religionsunterricht
+1289,40,37,28,Religionsunterricht
 1365,43,39,28,Religionsunterricht
-16,1,0,16,Rente
-227,9,8,9,Rente
-467,18,15,31,Rente
-708,25,22,6,Rente
-886,29,26,32,Rente
-913,30,27,21,Rente
+43,1,1,16,Rente
+254,9,9,9,Rente
+494,18,16,31,Rente
+735,25,22,6,Rente
+913,29,27,32,Rente
+940,30,28,21,Rente
 1473,46,42,22,Rente
-102,6,4,2,REST
-244,9,8,26,REST
-438,18,15,2,REST
+129,6,5,2,REST
+271,9,9,26,REST
+465,18,15,2,REST
 1185,39,35,0,REST
 1392,44,40,17,REST
 1408,44,40,33,REST
 1436,45,41,23,REST
-468,18,15,32,Rüstung
-640,23,20,14,Rüstung
-915,30,27,23,Rüstung
-1144,37,33,24,Rüstung
+24,37,1,24,Rüstung
+495,18,16,32,Rüstung
+667,23,21,14,Rüstung
+942,30,28,23,Rüstung
 1460,46,42,9,Rüstung
 1481,46,42,30,Rüstung
-62,4,2,12,Schulabschluss
-90,5,3,17,Schulabschluss
-107,6,4,7,Schulabschluss
-224,9,8,6,Schulabschluss
-233,9,8,15,Schulabschluss
-559,22,18,9,Schulabschluss
-642,23,20,16,Schulabschluss
-1073,33,31,29,Schulabschluss
-1291,41,37,30,Schulabschluss
-393,15,13,25,Schulbücher
-795,27,24,17,Schulbücher
-843,28,25,27,Schulbücher
-79,5,3,6,Schuldenbremse
-349,14,12,11,Schuldenbremse
-389,15,13,21,Schuldenbremse
-495,19,16,21,Schuldenbremse
-597,21,19,9,Schuldenbremse
-649,23,20,23,Schuldenbremse
-713,25,22,11,Schuldenbremse
-776,26,23,36,Schuldenbremse
-782,27,24,4,Schuldenbremse
-831,28,25,15,Schuldenbremse
-855,29,26,1,Schuldenbremse
+89,4,3,12,Schulabschluss
+117,5,4,17,Schulabschluss
+134,6,5,7,Schulabschluss
+251,9,9,6,Schulabschluss
+260,9,9,15,Schulabschluss
+586,22,18,9,Schulabschluss
+669,23,21,16,Schulabschluss
+1100,33,32,29,Schulabschluss
+1253,41,36,30,Schulabschluss
+420,15,14,25,Schulbücher
+822,27,25,17,Schulbücher
+870,28,26,27,Schulbücher
+106,5,4,6,Schuldenbremse
+376,14,13,11,Schuldenbremse
+416,15,14,21,Schuldenbremse
+522,19,17,21,Schuldenbremse
+624,21,19,9,Schuldenbremse
+676,23,21,23,Schuldenbremse
+740,25,23,11,Schuldenbremse
+803,26,24,36,Schuldenbremse
+809,27,24,4,Schuldenbremse
+858,28,26,15,Schuldenbremse
+882,29,26,1,Schuldenbremse
 1209,39,35,24,Schuldenbremse
-1229,40,36,6,Schuldenbremse
-1284,41,37,23,Schuldenbremse
-543,20,17,31,Schuldentilgung
-986,32,29,18,Schuldentilgung
-1036,34,30,30,Schuldentilgung
-1090,36,32,8,Schuldentilgung
-1138,37,33,18,Schuldentilgung
+1246,41,36,23,Schuldenbremse
+1267,40,37,6,Schuldenbremse
+18,37,0,18,Schuldentilgung
+570,20,18,31,Schuldentilgung
+1013,32,30,18,Schuldentilgung
+1063,34,31,30,Schuldentilgung
+1117,36,32,8,Schuldentilgung
 1182,38,34,35,Schuldentilgung
 1404,44,40,29,Schuldentilgung
 1468,46,42,17,Schuldentilgung
-39,3,1,19,Schule
-85,5,3,12,Schule
-108,6,4,8,Schule
-148,7,5,19,Schule
-199,11,7,11,Schule
-333,13,11,25,Schule
-360,14,12,22,Schule
-745,26,23,5,Schule
-758,26,23,18,Schule
+66,3,2,19,Schule
+112,5,4,12,Schule
+135,6,5,8,Schule
+175,7,6,19,Schule
+226,11,8,11,Schule
+360,13,12,25,Schule
+387,14,13,22,Schule
+772,26,23,5,Schule
+785,26,24,18,Schule
 1358,43,39,21,Schule
 1386,44,40,11,Schule
-264,10,9,16,Schülerticket
-737,25,22,35,Schülerticket
-772,26,23,32,Schülerticket
-976,32,29,8,Schülerticket
-1248,40,36,25,Schülerticket
-361,14,12,23,Schulessen
-774,26,23,34,Schulessen
-1028,34,30,22,Schulessen
-1050,33,31,6,Schulessen
+291,10,10,16,Schülerticket
+764,25,23,35,Schülerticket
+799,26,24,32,Schülerticket
+1003,32,29,8,Schülerticket
+1286,40,37,25,Schülerticket
+388,14,13,23,Schulessen
+801,26,24,34,Schulessen
+1055,34,31,22,Schulessen
+1077,33,31,6,Schulessen
 1308,42,38,9,Schulessen
-58,4,2,8,Schulsystem-Gliederung
-105,6,4,5,Schulsystem-Gliederung
-109,6,4,9,Schulsystem-Gliederung
-223,9,8,5,Schulsystem-Gliederung
-240,9,8,22,Schulsystem-Gliederung
-265,10,9,17,Schulsystem-Gliederung
-303,12,10,25,Schulsystem-Gliederung
-313,13,11,5,Schulsystem-Gliederung
-342,14,12,4,Schulsystem-Gliederung
-375,15,13,7,Schulsystem-Gliederung
-469,18,15,33,Schulsystem-Gliederung
-475,19,16,1,Schulsystem-Gliederung
-552,22,18,2,Schulsystem-Gliederung
-589,21,19,1,Schulsystem-Gliederung
-627,23,20,1,Schulsystem-Gliederung
-770,26,23,30,Schulsystem-Gliederung
-779,27,24,1,Schulsystem-Gliederung
-869,29,26,15,Schulsystem-Gliederung
-1055,33,31,11,Schulsystem-Gliederung
+85,4,3,8,Schulsystem-Gliederung
+132,6,5,5,Schulsystem-Gliederung
+136,6,5,9,Schulsystem-Gliederung
+250,9,9,5,Schulsystem-Gliederung
+267,9,9,22,Schulsystem-Gliederung
+292,10,10,17,Schulsystem-Gliederung
+330,12,11,25,Schulsystem-Gliederung
+340,13,12,5,Schulsystem-Gliederung
+369,14,13,4,Schulsystem-Gliederung
+402,15,14,7,Schulsystem-Gliederung
+496,18,16,33,Schulsystem-Gliederung
+502,19,16,1,Schulsystem-Gliederung
+579,22,18,2,Schulsystem-Gliederung
+616,21,19,1,Schulsystem-Gliederung
+654,23,20,1,Schulsystem-Gliederung
+797,26,24,30,Schulsystem-Gliederung
+806,27,24,1,Schulsystem-Gliederung
+896,29,27,15,Schulsystem-Gliederung
+1082,33,32,11,Schulsystem-Gliederung
 1177,38,34,30,Schulsystem-Gliederung
-1225,40,36,2,Schulsystem-Gliederung
-1295,41,37,34,Schulsystem-Gliederung
+1257,41,36,34,Schulsystem-Gliederung
+1263,40,37,2,Schulsystem-Gliederung
 1427,45,41,14,Schulsystem-Gliederung
-145,7,5,16,Sitzenbleiben
-283,12,10,5,Sitzenbleiben
-819,28,25,3,Sitzenbleiben
-979,32,29,11,Sitzenbleiben
-1006,34,30,0,Sitzenbleiben
-1085,36,32,3,Sitzenbleiben
-372,15,13,4,Sozialer Wohnungsbau
-688,24,21,24,Sozialer Wohnungsbau
-747,26,23,7,Sozialer Wohnungsbau
+172,7,6,16,Sitzenbleiben
+310,12,11,5,Sitzenbleiben
+846,28,25,3,Sitzenbleiben
+1006,32,30,11,Sitzenbleiben
+1033,34,30,0,Sitzenbleiben
+1112,36,32,3,Sitzenbleiben
+399,15,14,4,Sozialer Wohnungsbau
+715,24,22,24,Sozialer Wohnungsbau
+774,26,23,7,Sozialer Wohnungsbau
 1329,42,38,30,Sozialer Wohnungsbau
 1420,45,41,7,Sozialer Wohnungsbau
 1455,46,42,4,Sozialer Wohnungsbau
-301,12,10,23,Sozialpolitik
-323,13,11,15,Sozialpolitik
-334,13,11,26,Sozialpolitik
-765,26,23,25,Sozialpolitik
-1087,36,32,5,Sozialpolitik
+328,12,11,23,Sozialpolitik
+350,13,12,15,Sozialpolitik
+361,13,12,26,Sozialpolitik
+792,26,24,25,Sozialpolitik
+1114,36,32,5,Sozialpolitik
 1175,38,34,28,Sozialpolitik
 1324,42,38,25,Sozialpolitik
 1428,45,41,15,Sozialpolitik
-331,13,11,23,Sozialticket
-387,15,13,19,Sozialticket
-780,27,24,2,Sozialticket
-1112,36,32,30,Sozialticket
-165,8,6,7,Spitzensteuer
-498,19,16,24,Spitzensteuer
-729,25,22,27,Spitzensteuer
-901,30,27,9,Spitzensteuer
-1139,37,33,19,Spitzensteuer
-174,8,6,16,Sprachtest
-207,11,7,19,Sprachtest
-239,9,8,21,Sprachtest
-257,10,9,9,Sprachtest
-297,12,10,19,Sprachtest
-312,13,11,4,Sprachtest
-374,15,13,6,Sprachtest
-443,18,15,7,Sprachtest
-553,22,18,3,Sprachtest
-693,24,21,29,Sprachtest
-415,17,14,17,Staatsrecht
-473,18,15,37,Staatsrecht
-862,29,26,8,Staatsrecht
-912,30,27,20,Staatsrecht
-927,30,27,35,Staatsrecht
+358,13,12,23,Sozialticket
+414,15,14,19,Sozialticket
+807,27,24,2,Sozialticket
+1139,36,33,30,Sozialticket
+19,37,0,19,Spitzensteuer
+192,8,7,7,Spitzensteuer
+525,19,17,24,Spitzensteuer
+756,25,23,27,Spitzensteuer
+928,30,27,9,Spitzensteuer
+201,8,7,16,Sprachtest
+234,11,8,19,Sprachtest
+266,9,9,21,Sprachtest
+284,10,10,9,Sprachtest
+324,12,11,19,Sprachtest
+339,13,12,4,Sprachtest
+401,15,14,6,Sprachtest
+470,18,15,7,Sprachtest
+580,22,18,3,Sprachtest
+720,24,22,29,Sprachtest
+442,17,15,17,Staatsrecht
+500,18,16,37,Staatsrecht
+889,29,26,8,Staatsrecht
+939,30,28,20,Staatsrecht
+954,30,28,35,Staatsrecht
 1472,46,42,21,Staatsrecht
-32,3,1,12,Steuer
-139,7,5,10,Steuer
-168,8,6,10,Steuer
-656,23,20,30,Steuer
-669,24,21,5,Steuer
-807,27,24,29,Steuer
-850,28,25,34,Steuer
-916,30,27,24,Steuer
+59,3,2,12,Steuer
+166,7,6,10,Steuer
+195,8,7,10,Steuer
+683,23,21,30,Steuer
+696,24,21,5,Steuer
+834,27,25,29,Steuer
+877,28,26,34,Steuer
+943,30,28,24,Steuer
 1192,39,35,7,Steuer
 1483,46,42,32,Steuer
-378,15,13,10,Steuerhinterziehung
-614,21,19,26,Steuerhinterziehung
-803,27,24,25,Steuerhinterziehung
-878,29,26,24,Steuerhinterziehung
+405,15,14,10,Steuerhinterziehung
+641,21,20,26,Steuerhinterziehung
+830,27,25,25,Steuerhinterziehung
+905,29,27,24,Steuerhinterziehung
 1419,45,41,6,Steuerhinterziehung
-3,1,0,3,Studiengebühren
-110,6,4,10,Studiengebühren
-147,7,5,18,Studiengebühren
-175,8,6,17,Studiengebühren
-206,11,7,18,Studiengebühren
-221,9,8,3,Studiengebühren
-253,10,9,5,Studiengebühren
-292,12,10,14,Studiengebühren
-310,13,11,2,Studiengebühren
-351,14,12,13,Studiengebühren
-369,15,13,1,Studiengebühren
-442,18,15,6,Studiengebühren
-480,19,16,6,Studiengebühren
-534,20,17,22,Studiengebühren
-582,22,18,32,Studiengebühren
-623,21,19,35,Studiengebühren
-722,25,22,20,Studiengebühren
-817,28,25,1,Studiengebühren
-996,32,29,28,Studiengebühren
+30,1,1,3,Studiengebühren
+137,6,5,10,Studiengebühren
+174,7,6,18,Studiengebühren
+202,8,7,17,Studiengebühren
+233,11,8,18,Studiengebühren
+248,9,9,3,Studiengebühren
+280,10,10,5,Studiengebühren
+319,12,11,14,Studiengebühren
+337,13,11,2,Studiengebühren
+378,14,13,13,Studiengebühren
+396,15,13,1,Studiengebühren
+469,18,15,6,Studiengebühren
+507,19,16,6,Studiengebühren
+561,20,18,22,Studiengebühren
+609,22,19,32,Studiengebühren
+650,21,20,35,Studiengebühren
+749,25,23,20,Studiengebühren
+844,28,25,1,Studiengebühren
+1023,32,30,28,Studiengebühren
 1204,39,35,19,Studiengebühren
-158,8,6,0,Tempolimit
-308,13,11,0,Tempolimit
-346,14,12,8,Tempolimit
-414,17,14,16,Tempolimit
-454,18,15,18,Tempolimit
-629,23,20,3,Tempolimit
-684,24,21,20,Tempolimit
-739,25,22,37,Tempolimit
-783,27,24,5,Tempolimit
-894,30,27,2,Tempolimit
-974,32,29,6,Tempolimit
-1044,33,31,0,Tempolimit
+185,8,6,0,Tempolimit
+335,13,11,0,Tempolimit
+373,14,13,8,Tempolimit
+441,17,15,16,Tempolimit
+481,18,16,18,Tempolimit
+656,23,20,3,Tempolimit
+711,24,22,20,Tempolimit
+766,25,23,37,Tempolimit
+810,27,24,5,Tempolimit
+921,30,27,2,Tempolimit
+1001,32,29,6,Tempolimit
+1071,33,31,0,Tempolimit
 1165,38,34,18,Tempolimit
 1459,46,42,8,Tempolimit
-140,7,5,11,Tiere
-271,10,9,23,Tiere
-444,18,15,8,Tiere
-853,28,25,37,Tiere
-1005,32,29,37,Tiere
-1057,33,31,13,Tiere
-1080,33,31,36,Tiere
-1117,36,32,35,Tiere
-1124,37,33,4,Tiere
+4,37,0,4,Tiere
+167,7,6,11,Tiere
+298,10,10,23,Tiere
+471,18,15,8,Tiere
+880,28,26,37,Tiere
+1032,32,30,37,Tiere
+1084,33,32,13,Tiere
+1107,33,32,36,Tiere
+1144,36,33,35,Tiere
 1158,38,34,11,Tiere
 1222,39,35,37,Tiere
 1385,44,40,10,Tiere
 1445,45,41,32,Tiere
-1033,34,30,27,Traditionelles Familienbild
+1060,34,31,27,Traditionelles Familienbild
 1171,38,34,24,Traditionelles Familienbild
-1230,40,36,7,Traditionelles Familienbild
+1268,40,37,7,Traditionelles Familienbild
 1316,42,38,17,Traditionelles Familienbild
 1391,44,40,16,Traditionelles Familienbild
 1437,45,41,24,Traditionelles Familienbild
-20,3,1,0,Türkei
-162,8,6,4,Türkei
-453,18,15,17,Türkei
-917,30,27,25,Türkei
-952,31,28,22,Türkei
-37,3,1,17,Umweltschutz
-127,6,4,27,Umweltschutz
-203,11,7,15,Umweltschutz
-246,9,8,28,Umweltschutz
-347,14,12,9,Umweltschutz
-540,20,17,28,Umweltschutz
-777,26,23,37,Umweltschutz
-835,28,25,19,Umweltschutz
-891,29,26,37,Umweltschutz
-947,31,28,17,Umweltschutz
-961,31,28,31,Umweltschutz
-1287,41,37,26,Umweltschutz
+47,3,1,0,Türkei
+189,8,7,4,Türkei
+480,18,16,17,Türkei
+944,30,28,25,Türkei
+979,31,29,22,Türkei
+64,3,2,17,Umweltschutz
+154,6,5,27,Umweltschutz
+230,11,8,15,Umweltschutz
+273,9,9,28,Umweltschutz
+374,14,13,9,Umweltschutz
+567,20,18,28,Umweltschutz
+804,26,24,37,Umweltschutz
+862,28,26,19,Umweltschutz
+918,29,27,37,Umweltschutz
+974,31,29,17,Umweltschutz
+988,31,29,31,Umweltschutz
+1249,41,36,26,Umweltschutz
 1402,44,40,27,Umweltschutz
 1432,45,41,19,Umweltschutz
-537,20,17,25,Umweltzone
-647,23,20,21,Umweltzone
-689,24,21,25,Umweltzone
+564,20,18,25,Umweltzone
+674,23,21,21,Umweltzone
+716,24,22,25,Umweltzone
 1180,38,34,33,Umweltzone
-63,4,2,13,Universität
-232,9,8,14,Universität
-254,10,9,6,Universität
-363,14,12,25,Universität
-364,14,12,26,Universität
-390,15,13,22,Universität
-496,19,16,22,Universität
-567,22,18,17,Universität
-646,23,20,20,Universität
-681,24,21,17,Universität
-1078,33,31,34,Universität
+90,4,3,13,Universität
+259,9,9,14,Universität
+281,10,10,6,Universität
+390,14,13,25,Universität
+391,14,13,26,Universität
+417,15,14,22,Universität
+523,19,17,22,Universität
+594,22,19,17,Universität
+673,23,21,20,Universität
+708,24,22,17,Universität
+1105,33,32,34,Universität
 1190,39,35,5,Universität
-1280,41,37,19,Universität
+1242,41,36,19,Universität
 1322,42,38,23,Universität
 1352,43,39,15,Universität
 1369,43,39,32,Universität
 1435,45,41,22,Universität
-54,4,2,4,Verfassungsschutz
-620,21,19,32,Verfassungsschutz
-766,26,23,26,Verfassungsschutz
-809,27,24,31,Verfassungsschutz
-879,29,26,25,Verfassungsschutz
-983,32,29,15,Verfassungsschutz
-1021,34,30,15,Verfassungsschutz
-1051,33,31,7,Verfassungsschutz
+81,4,3,4,Verfassungsschutz
+647,21,20,32,Verfassungsschutz
+793,26,24,26,Verfassungsschutz
+836,27,25,31,Verfassungsschutz
+906,29,27,25,Verfassungsschutz
+1010,32,30,15,Verfassungsschutz
+1048,34,31,15,Verfassungsschutz
+1078,33,31,7,Verfassungsschutz
 1183,38,34,36,Verfassungsschutz
 1211,39,35,26,Verfassungsschutz
-189,11,7,1,Verkehr
-272,10,9,24,Verkehr
-286,12,10,8,Verkehr
-380,15,13,12,Verkehr
-523,20,17,11,Verkehr
-592,21,19,4,Verkehr
-721,25,22,19,Verkehr
-928,30,27,36,Verkehr
-14,1,0,14,Verkehrsprojekt
-111,6,4,11,Verkehrsprojekt
-247,9,8,29,Verkehrsprojekt
-583,22,18,33,Verkehrsprojekt
-717,25,22,15,Verkehrsprojekt
-742,26,23,2,Verkehrsprojekt
-1262,41,37,1,Verkehrsprojekt
+216,11,7,1,Verkehr
+299,10,10,24,Verkehr
+313,12,11,8,Verkehr
+407,15,14,12,Verkehr
+550,20,18,11,Verkehr
+619,21,19,4,Verkehr
+748,25,23,19,Verkehr
+955,30,28,36,Verkehr
+41,1,1,14,Verkehrsprojekt
+138,6,5,11,Verkehrsprojekt
+274,9,9,29,Verkehrsprojekt
+610,22,19,33,Verkehrsprojekt
+744,25,23,15,Verkehrsprojekt
+769,26,23,2,Verkehrsprojekt
+1224,41,36,1,Verkehrsprojekt
 1376,44,40,1,Verkehrsprojekt
-261,10,9,13,Vermögenssteuer
-463,18,15,27,Vermögenssteuer
-870,29,26,16,Vermögenssteuer
-1140,37,33,20,Vermögenssteuer
-1242,40,36,19,Vermögenssteuer
+20,37,1,20,Vermögenssteuer
+288,10,10,13,Vermögenssteuer
+490,18,16,27,Vermögenssteuer
+897,29,27,16,Vermögenssteuer
+1280,40,37,19,Vermögenssteuer
 1315,42,38,16,Vermögenssteuer
 1476,46,42,25,Vermögenssteuer
-55,4,2,5,Videoüberwachung
-93,5,3,20,Videoüberwachung
-119,6,4,19,Videoüberwachung
-156,7,5,27,Videoüberwachung
-182,8,6,24,Videoüberwachung
-194,11,7,6,Videoüberwachung
-235,9,8,17,Videoüberwachung
-267,10,9,19,Videoüberwachung
-357,14,12,19,Videoüberwachung
-396,15,13,28,Videoüberwachung
-555,22,18,5,Videoüberwachung
-622,21,19,34,Videoüberwachung
-692,24,21,28,Videoüberwachung
-752,26,23,12,Videoüberwachung
-859,29,26,5,Videoüberwachung
-897,30,27,5,Videoüberwachung
-971,32,29,3,Videoüberwachung
-1037,34,30,31,Videoüberwachung
-1066,33,31,22,Videoüberwachung
-1115,36,32,33,Videoüberwachung
+82,4,3,5,Videoüberwachung
+120,5,4,20,Videoüberwachung
+146,6,5,19,Videoüberwachung
+183,7,6,27,Videoüberwachung
+209,8,7,24,Videoüberwachung
+221,11,8,6,Videoüberwachung
+262,9,9,17,Videoüberwachung
+294,10,10,19,Videoüberwachung
+384,14,13,19,Videoüberwachung
+423,15,14,28,Videoüberwachung
+582,22,18,5,Videoüberwachung
+649,21,20,34,Videoüberwachung
+719,24,22,28,Videoüberwachung
+779,26,24,12,Videoüberwachung
+886,29,26,5,Videoüberwachung
+924,30,27,5,Videoüberwachung
+998,32,29,3,Videoüberwachung
+1064,34,31,31,Videoüberwachung
+1093,33,32,22,Videoüberwachung
+1142,36,33,33,Videoüberwachung
 1154,38,34,7,Videoüberwachung
 1191,39,35,6,Videoüberwachung
-1244,40,36,21,Videoüberwachung
-1296,41,37,35,Videoüberwachung
+1258,41,36,35,Videoüberwachung
+1282,40,37,21,Videoüberwachung
 1344,43,39,7,Videoüberwachung
 1384,44,40,9,Videoüberwachung
 1447,45,41,34,Videoüberwachung
 1457,46,42,6,Videoüberwachung
-9,1,0,9,Wählen ab 16
-52,4,2,2,Wählen ab 16
-97,5,3,24,Wählen ab 16
-125,6,4,25,Wählen ab 16
-184,8,6,26,Wählen ab 16
-209,11,7,21,Wählen ab 16
-243,9,8,25,Wählen ab 16
-268,10,9,20,Wählen ab 16
-337,13,11,29,Wählen ab 16
-367,14,12,29,Wählen ab 16
-405,17,14,7,Wählen ab 16
-510,19,16,36,Wählen ab 16
-541,20,17,29,Wählen ab 16
-587,22,18,37,Wählen ab 16
-621,21,19,33,Wählen ab 16
-665,24,21,1,Wählen ab 16
-705,25,22,3,Wählen ab 16
-773,26,23,33,Wählen ab 16
-813,27,24,35,Wählen ab 16
-852,28,25,36,Wählen ab 16
-877,29,26,23,Wählen ab 16
-1001,32,29,33,Wählen ab 16
-1043,34,30,37,Wählen ab 16
-1127,37,33,7,Wählen ab 16
-1260,40,36,37,Wählen ab 16
+7,37,0,7,Wählen ab 16
+36,1,1,9,Wählen ab 16
+79,4,3,2,Wählen ab 16
+124,5,4,24,Wählen ab 16
+152,6,5,25,Wählen ab 16
+211,8,7,26,Wählen ab 16
+236,11,8,21,Wählen ab 16
+270,9,9,25,Wählen ab 16
+295,10,10,20,Wählen ab 16
+364,13,12,29,Wählen ab 16
+394,14,13,29,Wählen ab 16
+432,17,14,7,Wählen ab 16
+537,19,17,36,Wählen ab 16
+568,20,18,29,Wählen ab 16
+614,22,19,37,Wählen ab 16
+648,21,20,33,Wählen ab 16
+692,24,21,1,Wählen ab 16
+732,25,22,3,Wählen ab 16
+800,26,24,33,Wählen ab 16
+840,27,25,35,Wählen ab 16
+879,28,26,36,Wählen ab 16
+904,29,27,23,Wählen ab 16
+1028,32,30,33,Wählen ab 16
+1070,34,31,37,Wählen ab 16
+1298,40,37,37,Wählen ab 16
 1333,42,38,34,Wählen ab 16
 1357,43,39,20,Wählen ab 16
 1440,45,41,27,Wählen ab 16
-124,6,4,24,Wahlrecht
-748,26,23,8,Wahlrecht
+151,6,5,24,Wahlrecht
+775,26,23,8,Wahlrecht
 1196,39,35,11,Wahlrecht
-1281,41,37,20,Wahlrecht
+1243,41,36,20,Wahlrecht
 1374,43,39,37,Wahlrecht
 1389,44,40,14,Wahlrecht
-275,10,9,27,Wahlrecht für Ausländer
-470,18,15,34,Wahlrecht für Ausländer
-487,19,16,13,Wahlrecht für Ausländer
-527,20,17,15,Wahlrecht für Ausländer
-573,22,18,23,Wahlrecht für Ausländer
-648,23,20,22,Wahlrecht für Ausländer
-699,24,21,35,Wahlrecht für Ausländer
-720,25,22,18,Wahlrecht für Ausländer
-806,27,24,28,Wahlrecht für Ausländer
-993,32,29,25,Wahlrecht für Ausländer
-1118,36,32,36,Wahlrecht für Ausländer
+302,10,10,27,Wahlrecht für Ausländer
+497,18,16,34,Wahlrecht für Ausländer
+514,19,17,13,Wahlrecht für Ausländer
+554,20,18,15,Wahlrecht für Ausländer
+600,22,19,23,Wahlrecht für Ausländer
+675,23,21,22,Wahlrecht für Ausländer
+726,24,22,35,Wahlrecht für Ausländer
+747,25,23,18,Wahlrecht für Ausländer
+833,27,25,28,Wahlrecht für Ausländer
+1020,32,30,25,Wahlrecht für Ausländer
+1145,36,33,36,Wahlrecht für Ausländer
 1214,39,35,29,Wahlrecht für Ausländer
-1243,40,36,20,Wahlrecht für Ausländer
-1294,41,37,33,Wahlrecht für Ausländer
+1256,41,36,33,Wahlrecht für Ausländer
+1281,40,37,20,Wahlrecht für Ausländer
 1309,42,38,10,Wahlrecht für Ausländer
 1346,43,39,9,Wahlrecht für Ausländer
 1398,44,40,23,Wahlrecht für Ausländer
-181,8,6,23,Wehrpflicht
-460,18,15,24,Wehrpflicht
-1142,37,33,22,Wehrpflicht
-71,4,2,21,Windkraftanlagen
-84,5,3,11,Windkraftanlagen
-129,7,5,0,Windkraftanlagen
-204,11,7,16,Windkraftanlagen
-230,9,8,12,Windkraftanlagen
-740,26,23,0,Windkraftanlagen
-825,28,25,9,Windkraftanlagen
-1003,32,29,35,Windkraftanlagen
-1011,34,30,5,Windkraftanlagen
-1074,33,31,30,Windkraftanlagen
+22,37,1,22,Wehrpflicht
+208,8,7,23,Wehrpflicht
+487,18,16,24,Wehrpflicht
+98,4,3,21,Windkraftanlagen
+111,5,4,11,Windkraftanlagen
+156,7,5,0,Windkraftanlagen
+231,11,8,16,Windkraftanlagen
+257,9,9,12,Windkraftanlagen
+767,26,23,0,Windkraftanlagen
+852,28,25,9,Windkraftanlagen
+1030,32,30,35,Windkraftanlagen
+1038,34,30,5,Windkraftanlagen
+1101,33,32,30,Windkraftanlagen
 1205,39,35,20,Windkraftanlagen
-1224,40,36,1,Windkraftanlagen
-1275,41,37,14,Windkraftanlagen
+1237,41,36,14,Windkraftanlagen
+1262,40,37,1,Windkraftanlagen
 1341,43,39,4,Windkraftanlagen
 1400,44,40,25,Windkraftanlagen
 1443,45,41,30,Windkraftanlagen
-31,3,1,11,Wirtschaft
-413,17,14,15,Wirtschaft
-1131,37,33,11,Wirtschaft
+11,37,0,11,Wirtschaft
+58,3,2,11,Wirtschaft
+440,17,15,15,Wirtschaft
 1401,44,40,26,Wirtschaft
-157,7,5,28,Wirtschaft&Politik
-173,8,6,15,Wirtschaft&Politik
-509,19,16,35,Wirtschaft&Politik
-574,22,18,24,Wirtschaft&Politik
-611,21,19,23,Wirtschaft&Politik
-731,25,22,29,Wirtschaft&Politik
-805,27,24,27,Wirtschaft&Politik
-851,28,25,35,Wirtschaft&Politik
-918,30,27,26,Wirtschaft&Politik
-1231,40,36,8,Wirtschaft&Politik
+184,7,6,28,Wirtschaft&Politik
+200,8,7,15,Wirtschaft&Politik
+536,19,17,35,Wirtschaft&Politik
+601,22,19,24,Wirtschaft&Politik
+638,21,20,23,Wirtschaft&Politik
+758,25,23,29,Wirtschaft&Politik
+832,27,25,27,Wirtschaft&Politik
+878,28,26,35,Wirtschaft&Politik
+945,30,28,26,Wirtschaft&Politik
+1269,40,37,8,Wirtschaft&Politik
 1394,44,40,19,Wirtschaft&Politik
