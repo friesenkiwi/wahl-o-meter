@@ -214,11 +214,11 @@ exports.order_data = function(convertedData){
           return -1 ;
       } else if (dateA > dateB) {
           return 1;
-      } else {
+      } else { // inverted alphabetical
         if (territoryA < territoryB){ //sort string ascending
-            return -1 ;
+            return 1 ;
         } else if (territoryA > territoryB) {
-            return 1;
+            return -1;
         } else {
           return 0 //default return value (no sorting)
         }
